@@ -1,0 +1,302 @@
+{
+  "0": {
+    "name": "-",
+    "face": "表情",
+    "text": "セリフ内容"
+  },
+  "1": {
+    "name": null,
+    "face": null,
+    "text": "●場面：巣立ち"
+  },
+  "2": {
+    "name": "-",
+    "face": "-",
+    "text": null
+  },
+  "3": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「さて……。これでたった今より、この森は\n　ソルの縄張りという事になりますね。\n　この森の者達は、あなたが守るんですよ」"
+  },
+  "4": {
+    "name": "ソル",
+    "face": "喜1",
+    "text": "「おおおおお……　縄張り…わたしの縄張り…！\n　わかりました！いっぱい守ります！！\n　悪い奴らからいっぱい守ります！！」"
+  },
+  "5": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「大変よろしい。\n　さて……これで、ソルは卒業試験に合格です」"
+  },
+  "6": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「ですがソル。あなたは今は雛竜。\n　竜の体躯も、戦い方もまだまだ未熟で稚拙です」"
+  },
+  "7": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「ぶっちゃけぜんぜんまだまだ弱いです。\n　トロールのおやつです。私ならデコピンで倒せます」"
+  },
+  "8": {
+    "name": "ソル",
+    "face": "怒3",
+    "text": "「ぶー」"
+  },
+  "9": {
+    "name": "エニ先生",
+    "face": "普通2",
+    "text": "「膨れっ面で抗議してもダメです。事実です」"
+  },
+  "10": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「まずは山を下り、麓の村の冒険者の酒場を訪れなさい。\n　ソルを助けてくれる冒険者もきっといるでしょう」"
+  },
+  "11": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「ソルの体躯は今はまだ小さいので\n　背に乗せて運べる人数は少ないですが……」"
+  },
+  "12": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「あなたはこれからもっと成長し、脱皮し、\n　どんどん竜としての体躯は大きくなるでしょう。\n　さすれば、一度に運べる人数も増えていきます」"
+  },
+  "13": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「まずは冒険をし、縄張りを守り、財宝を集め、\n　友を作り、いっぱい学んで成長するのです。\n　わかりましたね？」"
+  },
+  "14": {
+    "name": "ソル",
+    "face": "喜1",
+    "text": "「はい！！」"
+  },
+  "15": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "16": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「それでは私が教える事は終わり。\n　あなたはこれで、とりあえず何とか仮にも一応一人前の竜です」"
+  },
+  "17": {
+    "name": "ソル",
+    "face": "怒3",
+    "text": "「ぶー」"
+  },
+  "18": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「これからは自分の翼で進むのですよ」"
+  },
+  "19": {
+    "name": "エニ先生",
+    "face": "普通2",
+    "text": "「では私はこれより再び旅に出ます。\n　ですが、もしソルが望むのであれば\n　きっとすぐにでも…再会できるでしょう」"
+  },
+  "20": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「その時のあなたが立派に成長している事を\n　期待していますよ」"
+  },
+  "21": {
+    "name": "ソル",
+    "face": "哀3",
+    "text": "「は、はい！！先生！！\n　今までいっぱいありがとうございました！！\n　育ててくれてありがとうございました！！」"
+  },
+  "22": {
+    "name": "エニ先生",
+    "face": "普通1",
+    "text": "「では、また逢う日まで」"
+  },
+  "23": {
+    "name": "ソル",
+    "face": "哀3",
+    "text": "「ありがとーございました！！！！」"
+  },
+  "24": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "25": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "26": {
+    "name": "エニ先生",
+    "face": "哀1",
+    "text": "「……とは言いましたが、この２年の子育てで\n　情が移ってしまったのも事実です」"
+  },
+  "27": {
+    "name": "エニ先生",
+    "face": "普通2",
+    "text": "「……しばらくは、この近隣を旅する事にして、\n　いつでも駆けつけられるようにしておきましょう」"
+  },
+  "28": {
+    "name": "エニ先生",
+    "face": "哀1",
+    "text": "「……教え子のアイシャに見られた日には\n　随分丸くなったと笑われそうです。\n　私、お母さんになってしまいましたよ。未婚なのに」"
+  },
+  "29": {
+    "name": "エニ先生",
+    "face": "困1",
+    "text": "「……未婚なのに」"
+  },
+  "30": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "31": {
+    "name": null,
+    "face": null,
+    "text": "暗転"
+  },
+  "32": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "33": {
+    "name": null,
+    "face": null,
+    "text": "終了"
+  },
+  "34": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "35": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "36": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "37": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "38": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "39": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "40": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "41": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "42": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "43": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "44": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "45": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "46": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "47": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "48": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "49": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "50": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "51": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "52": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "53": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "54": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "55": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "56": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "57": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "58": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "59": {
+    "name": null,
+    "face": null,
+    "text": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "0": {
+    "name": "-",
+    "face": "表情",
+    "text": "セリフ内容"
+  },
+  "1": {
+    "name": null,
+    "face": null,
+    "text": "●場面：エンディング"
+  },
+  "2": {
+    "name": "-",
+    "face": "-",
+    "text": null
+  },
+  "3": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "4": {
+    "name": "エリック",
+    "face": "普通1",
+    "text": "「無事、レッドドラゴン討伐の成功と…」"
+  },
+  "5": {
+    "name": "エリック",
+    "face": "普通1",
+    "text": "「このちっこいわんこみたいな金竜に…！」"
+  },
+  "6": {
+    "name": "エリック",
+    "face": "喜1",
+    "text": "「かんぱーい！」"
+  },
+  "7": {
+    "name": "イスク",
+    "face": "喜1",
+    "text": "「かんぱーい……」"
+  },
+  "8": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「乾杯」"
+  },
+  "9": {
+    "name": "冒険者たち",
+    "face": null,
+    "text": "「「「乾杯！！！」」」"
+  },
+  "10": {
+    "name": "ソル",
+    "face": "怒3",
+    "text": "「ぶー」"
+  },
+  "11": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "12": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "13": {
+    "name": "ソル",
+    "face": "喜1",
+    "text": "「おおおおお……もうたべれない………」"
+  },
+  "14": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「まったく……この子は手がかかりますね……」"
+  },
+  "15": {
+    "name": "エリック",
+    "face": "喜1",
+    "text": "「ホント、この幸せそうな寝顔！」"
+  },
+  "16": {
+    "name": "イスク",
+    "face": "喜1",
+    "text": "「ええ……でも、ソル様はとても成長なされました……」"
+  },
+  "17": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「そうですね。もう立派なワームリングですね」"
+  },
+  "18": {
+    "name": "エリック",
+    "face": "喜1",
+    "text": "「こんなに大きなワームリングか。ソルちゃんらしいね」"
+  },
+  "19": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "20": {
+    "name": "エリック",
+    "face": "喜1",
+    "text": "「ふふっ、これからもよろしくね、ワームリングドラゴンさん」"
+  },
+  "21": {
+    "name": null,
+    "face": null,
+    "text": "終了"
+  },
+  "22": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "23": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "24": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "25": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "26": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "27": {
+    "name": null,
+    "face": null,
+    "text": null
+  }
+}

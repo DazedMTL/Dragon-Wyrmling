@@ -1,0 +1,302 @@
+{
+  "0": {
+    "name": "-",
+    "face": "表情",
+    "text": "セリフ内容"
+  },
+  "1": {
+    "name": null,
+    "face": null,
+    "text": "●場面："
+  },
+  "2": {
+    "name": "ソル",
+    "face": "普通1",
+    "text": "「えへへー」"
+  },
+  "3": {
+    "name": "エニ先生",
+    "face": "喜1",
+    "text": "「大変よろしい」"
+  },
+  "4": {
+    "name": "ソル",
+    "face": "怒3",
+    "text": "「＞＜」"
+  },
+  "5": {
+    "name": "エニ先生",
+    "face": "普通2",
+    "text": "「………」"
+  },
+  "6": {
+    "name": "村人",
+    "face": null,
+    "text": "「ぎゃー」"
+  },
+  "7": {
+    "name": "ソル",
+    "face": "哀1",
+    "text": "「ぬーん……」"
+  },
+  "8": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "9": {
+    "name": null,
+    "face": null,
+    "text": "終了"
+  },
+  "10": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "11": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "12": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "13": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "14": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "15": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "16": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "17": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "18": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "19": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "20": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "21": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "22": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "23": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "24": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "25": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "26": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "27": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "28": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "29": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "30": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "31": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "32": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "33": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "34": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "35": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "36": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "37": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "38": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "39": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "40": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "41": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "42": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "43": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "44": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "45": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "46": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "47": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "48": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "49": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "50": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "51": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "52": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "53": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "54": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "55": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "56": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "57": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "58": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "59": {
+    "name": null,
+    "face": null,
+    "text": null
+  }
+}

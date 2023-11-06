@@ -1,0 +1,440 @@
+{
+  "0": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "1": {
+    "rank": 1,
+    "name": "縞瑪瑙",
+    "price": 10,
+    "type": "宝石"
+  },
+  "2": {
+    "rank": 1,
+    "name": "虎眼石",
+    "price": 10,
+    "type": "宝石"
+  },
+  "3": {
+    "rank": 1,
+    "name": "ターコイズ",
+    "price": 10,
+    "type": "宝石"
+  },
+  "4": {
+    "rank": 1,
+    "name": "孔雀石",
+    "price": 10,
+    "type": "宝石"
+  },
+  "5": {
+    "rank": 1,
+    "name": "黒曜石の彫刻",
+    "price": 10,
+    "type": "芸術品"
+  },
+  "6": {
+    "rank": 1,
+    "name": "古金貨",
+    "price": 10,
+    "type": "芸術品"
+  },
+  "7": {
+    "rank": 1,
+    "name": "銀の鎖",
+    "price": 12,
+    "type": "芸術品"
+  },
+  "8": {
+    "rank": 1,
+    "name": "銀の指輪",
+    "price": 15,
+    "type": "芸術品"
+  },
+  "9": {
+    "rank": 1,
+    "name": "金の腕輪",
+    "price": 15,
+    "type": "芸術品"
+  },
+  "10": {
+    "rank": 1,
+    "name": "絹のハンカチ",
+    "price": 20,
+    "type": "芸術品"
+  },
+  "11": {
+    "rank": 1,
+    "name": "素敵な油絵",
+    "price": 20,
+    "type": "芸術品"
+  },
+  "12": {
+    "rank": 1,
+    "name": "ブリキ人形",
+    "price": 25,
+    "type": "芸術品"
+  },
+  "13": {
+    "rank": 1,
+    "name": "人気の香辛料",
+    "price": 30,
+    "type": "その他"
+  },
+  "14": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "15": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "16": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "17": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "18": {
+    "rank": 2,
+    "name": "紅玉髄",
+    "price": 50,
+    "type": "宝石"
+  },
+  "19": {
+    "rank": 2,
+    "name": "月長石",
+    "price": 50,
+    "type": "宝石"
+  },
+  "20": {
+    "rank": 2,
+    "name": "黒瑪瑙",
+    "price": 50,
+    "type": "宝石"
+  },
+  "21": {
+    "rank": 2,
+    "name": "石英",
+    "price": 50,
+    "type": "宝石"
+  },
+  "22": {
+    "rank": 2,
+    "name": "紅石英",
+    "price": 50,
+    "type": "宝石"
+  },
+  "23": {
+    "rank": 2,
+    "name": "象牙の彫刻",
+    "price": 100,
+    "type": "芸術品"
+  },
+  "24": {
+    "rank": 2,
+    "name": "金のロケット",
+    "price": 100,
+    "type": "芸術品"
+  },
+  "25": {
+    "rank": 2,
+    "name": "絹のローブ",
+    "price": 100,
+    "type": "芸術品"
+  },
+  "26": {
+    "rank": 2,
+    "name": "銀の杯",
+    "price": 100,
+    "type": "芸術品"
+  },
+  "27": {
+    "rank": 2,
+    "name": "珍しい香辛料",
+    "price": 100,
+    "type": "その他"
+  },
+  "28": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "29": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "30": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "31": {
+    "rank": 3,
+    "name": "紫水晶",
+    "price": 200,
+    "type": "宝石"
+  },
+  "32": {
+    "rank": 3,
+    "name": "珊瑚",
+    "price": 200,
+    "type": "宝石"
+  },
+  "33": {
+    "rank": 3,
+    "name": "ガーネット",
+    "price": 200,
+    "type": "宝石"
+  },
+  "34": {
+    "rank": 3,
+    "name": "翡翠",
+    "price": 200,
+    "type": "宝石"
+  },
+  "35": {
+    "rank": 3,
+    "name": "トルマリン",
+    "price": 200,
+    "type": "宝石"
+  },
+  "36": {
+    "rank": 3,
+    "name": "タペストリ",
+    "price": 500,
+    "type": "芸術品"
+  },
+  "37": {
+    "rank": 3,
+    "name": "宝石のペンダント",
+    "price": 500,
+    "type": "芸術品"
+  },
+  "38": {
+    "rank": 3,
+    "name": "鉄の冠",
+    "price": 500,
+    "type": "芸術品"
+  },
+  "39": {
+    "rank": 3,
+    "name": "綺羅びやかな小箱",
+    "price": 500,
+    "type": "芸術品"
+  },
+  "40": {
+    "rank": 3,
+    "name": "銀の杯",
+    "price": 500,
+    "type": "芸術品"
+  },
+  "41": {
+    "rank": 3,
+    "name": "希少な香辛料",
+    "price": 500,
+    "type": "その他"
+  },
+  "42": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "43": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "44": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "45": {
+    "rank": 4,
+    "name": "傷んだダイヤモンド",
+    "price": 800,
+    "type": "宝石"
+  },
+  "46": {
+    "rank": 4,
+    "name": "アクアマリン",
+    "price": 800,
+    "type": "宝石"
+  },
+  "47": {
+    "rank": 4,
+    "name": "金の彫像",
+    "price": 2000,
+    "type": "芸術品"
+  },
+  "48": {
+    "rank": 4,
+    "name": "魔法の歴史書",
+    "price": 2000,
+    "type": "芸術品"
+  },
+  "49": {
+    "rank": 4,
+    "name": "黄金の腕輪",
+    "price": 2000,
+    "type": "芸術品"
+  },
+  "50": {
+    "rank": 4,
+    "name": "金刺繍タペストリ",
+    "price": 2000,
+    "type": "芸術品"
+  },
+  "51": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "52": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "53": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "54": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "55": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "56": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "57": {
+    "rank": 5,
+    "name": "サファイア",
+    "price": 2500,
+    "type": "宝石"
+  },
+  "58": {
+    "rank": 5,
+    "name": "エメラルド",
+    "price": 2500,
+    "type": "宝石"
+  },
+  "59": {
+    "rank": 5,
+    "name": "ダイヤモンド",
+    "price": 4000,
+    "type": "宝石"
+  },
+  "60": {
+    "rank": 5,
+    "name": "プラチナの指輪",
+    "price": 7000,
+    "type": "芸術品"
+  },
+  "61": {
+    "rank": 5,
+    "name": "真銀の彫刻",
+    "price": 7000,
+    "type": "芸術品"
+  },
+  "62": {
+    "rank": 5,
+    "name": "真銀刺繍タペストリ",
+    "price": 7000,
+    "type": "芸術品"
+  },
+  "63": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "64": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "65": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "66": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "67": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "68": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "69": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "70": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "71": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  },
+  "72": {
+    "rank": null,
+    "name": null,
+    "price": null,
+    "type": null
+  }
+}

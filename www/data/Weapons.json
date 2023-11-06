@@ -1,0 +1,1418 @@
+[
+    null,
+    {
+        "id": 1,
+        "animationId": 6,
+        "description": "EXP:\\WEV[3]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 375,
+        "name": "剣",
+        "note": "<SpineName:fighter>\n<SpineSize:55>\n<skillA:3>\n<skillB:9>\n<ISV セルフ変数[1]: 10>// HPボーナス\n<ISV セルフ変数[2]: 1>// 攻撃ボーナス\n<ISV セルフ変数[3]: 200>// 経験値\n<DD最大HP:prev + $gameSelfVariables.weapon(1).value(1)>\n<DD攻撃力:prev + $gameSelfVariables.weapon(1).value(2)>",
+        "params": [
+            30,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 2,
+        "animationId": 6,
+        "description": "\\WEV[1]　経験値：\\WEV[2]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 353,
+        "name": "斧",
+        "note": "<SpineName:fighter>\n<SpineSkin:skin2>\n<skillB:8>\n<skillC:7>\n<ISV セルフ変数[1]: 6>\n<ISV セルフ変数[2]: 400>// 経験値\n",
+        "params": [
+            13,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 3,
+        "animationId": 1,
+        "description": "\\WEV[1]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 359,
+        "name": "戦士C",
+        "note": "<SpineName:fighter>\n<SpineSkin:skin3>\n<SpineMotion:Attack2>\n<SpineSize:60>\n<skillA:4>\n<skillB:10>\n<skillC:6>\n<ISV セルフ変数[1]: 7>\n",
+        "params": [
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 4,
+        "animationId": 7,
+        "description": "\\>\\I[369]戦士　HP：200　ATK：20　\\fs[18]\n\\>\\py[32]\\isd[5]\\n\\>\\py[64]\\isd[10]\\n\\>\\py[96]\\isd[10]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 369,
+        "name": "バーバリアン",
+        "note": "<SpineName:barbarian>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillB:5>",
+        "params": [
+            200,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 5,
+        "animationId": 6,
+        "description": "\\WEV[1]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 325,
+        "name": "せんせい",
+        "note": "<SpineName:sensei>\n<SpineSize:60>\n<skillA:4>\n<skillB:9>\n<ISV セルフ変数[1]: 8>",
+        "params": [
+            30,
+            0,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 6
+    },
+    {
+        "id": 6,
+        "animationId": 11,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 356,
+        "name": "とうぞく",
+        "note": "<SpineName:thief>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:18>\n<skillB:4>\n<skillC:7>",
+        "params": [
+            50,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            2
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 7,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 8,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 9,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 10,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 11,
+        "animationId": 123,
+        "description": "\\>\\I[325]賢者　HP：400　ATK：61　\\fs[18]\n\\>\\py[32]\\isd[21]\\n\\>\\py[64]\\isd[22]\\n\\>\\py[96]\\isd[23]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 325,
+        "name": "エニ先生",
+        "note": "<SpineName:sensei>\n<SpineSize:60>\n<skillA:21>\n<skillB:22>\n<skillC:23>\n<ISV セルフ変数[1]: 8>\n",
+        "params": [
+            400,
+            0,
+            61,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 6
+    },
+    {
+        "id": 12,
+        "animationId": 11,
+        "description": "\\>\\I[358]盗賊　HP：\\WHP[12]　ATK：\\WAT[12]　\\fs[18]\n\\>\\py[32]\\isd[25]\\n\\>\\py[64]\\isd[26]\\n\\>\\py[96]\\isd[27]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 8,
+                "value": 0
+            }
+        ],
+        "iconIndex": 358,
+        "name": "エリック",
+        "note": "<SpineName:thief>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:25>\n<skillB:26>\n<skillC:27>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 6 )>",
+        "params": [
+            98,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            3
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 13,
+        "animationId": 126,
+        "description": "\\>\\I[353]戦士　HP：\\WHP[13]　ATK：\\WAT[13]　\\fs[18]\n\\>\\py[32]\\isd[29]\\n\\>\\py[64]\\isd[30]\\n\\>\\py[96]\\isd[31]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 353,
+        "name": "マーくん",
+        "note": "<SpineName:fighter>\n<SpineSkin:skin3>\n<SpineMotion:Attack2>\n<SpineSize:65>\n<skillA:29>\n<skillB:30>\n<skillC:31>\n<DD最大HP:prev + (DBless() * 15 )>\n<DD攻撃力:prev + (DBless() * 10 )>",
+        "params": [
+            237,
+            0,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 14,
+        "animationId": 129,
+        "description": "\\>\\I[354]魔術師　HP：\\WHP[14]　ATK：\\WAT[14]　\\fs[18]\n\\>\\py[32]\\isd[33]\\n\\>\\py[64]\\isd[34]\\n\\>\\py[96]\\isd[35]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 354,
+        "name": "グレストラス",
+        "note": "<SpineName:wizard>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:33>\n<skillB:34>\n<skillC:35>\n<DD最大HP:prev + (DBless() * 1 )>\n<DD攻撃力:prev + (DBless() * 12 )>",
+        "params": [
+            45,
+            0,
+            47,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 48,
+        "wtypeId": 4
+    },
+    {
+        "id": 15,
+        "animationId": 1,
+        "description": "\\>\\I[355]シスター　HP：\\WHP[15]　ATK：\\WAT[15]　\\fs[18]\n\\>\\py[32]\\isd[37]\\n\\>\\py[64]\\isd[38]\\n\\>\\py[96]\\isd[39]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.6
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.6
+            }
+        ],
+        "iconIndex": 355,
+        "name": "ファリア",
+        "note": "<SpineName:sister>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:37>\n<skillB:38>\n<skillC:39>\n<DD最大HP:prev + (DBless() * 10 )>\n<DD攻撃力:prev + (DBless() * 2 )>",
+        "params": [
+            112,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 5,
+        "wtypeId": 3
+    },
+    {
+        "id": 16,
+        "animationId": 6,
+        "description": "\\>\\I[369]ならず者　HP：\\WHP[16]　ATK：\\WAT[16]　\\fs[18]\n\\>\\py[32]\\isd[41]\\n\\>\\py[64]\\isd[42]\\n",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 369,
+        "name": "ゴメス",
+        "note": "<SpineName:mountR>\n<SpineMotion:Attack1>\n<SpineSkin:skin1>\n<SpineSize:65>\n<skillA:41>\n<skillB:42>\n<DD最大HP:prev + (DBless() * 12 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
+        "params": [
+            170,
+            0,
+            32,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 10,
+        "wtypeId": 2
+    },
+    {
+        "id": 17,
+        "animationId": 133,
+        "description": "\\>\\I[340]弓手　HP：\\WHP[17]　ATK：\\WAT[17]　\\fs[18]\n\\>\\py[32]\\isd[45]\\n\\>\\py[64]\\isd[46]\\n\\>\\py[96]\\isd[47]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 8,
+                "value": 0
+            },
+            {
+                "code": 13,
+                "dataId": 19,
+                "value": 0
+            }
+        ],
+        "iconIndex": 340,
+        "name": "トレンディル",
+        "note": "<SpineName:ranger>\n<SpineSkin:skin1>\n<SpineMotion:Attack1>\n<SpineSize:63>\n<skillA:45>\n<skillB:46>\n<skillB:47>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
+        "params": [
+            77,
+            0,
+            34,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "price": 78,
+        "wtypeId": 5
+    },
+    {
+        "id": 18,
+        "animationId": 1,
+        "description": "\\>\\I[355]僧侶　HP：\\WHP[18]　ATK：\\WAT[18]　\\fs[18]\n\\>\\py[32]\\isd[49]\\n\\>\\py[64]\\isd[50]\\n\\>\\py[96]\\isd[51]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 6,
+                "value": 0
+            }
+        ],
+        "iconIndex": 355,
+        "name": "ギドルフ",
+        "note": "<SpineName:cleric>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:49>\n<skillB:50>\n<skillC:51>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 4 )>",
+        "params": [
+            102,
+            0,
+            35,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 35,
+        "wtypeId": 3
+    },
+    {
+        "id": 19,
+        "animationId": 7,
+        "description": "\\>\\I[369]戦士　HP：\\WHP[19]　ATK：\\WAT[19]　\\fs[19]\n\\>\\py[32]\\isd[53]\\n\\>\\py[64]\\isd[54]\\n\\py[96]\\isd[55]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.6
+            },
+            {
+                "code": 13,
+                "dataId": 20,
+                "value": 0
+            }
+        ],
+        "iconIndex": 369,
+        "name": "イヴォ",
+        "note": "<SpineName:barbarian>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:53>\n<skillB:54>\n<skillC:55>\n<DD最大HP:prev + (DBless() * 18 )>\n<DD攻撃力:prev + (DBless() * 12 )>",
+        "params": [
+            250,
+            0,
+            75,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 100,
+        "wtypeId": 1
+    },
+    {
+        "id": 20,
+        "animationId": 1,
+        "description": "\\>\\I[369]拳士　HP：\\WHP[20]　ATK：\\WAT[20]　\\fs[18]\n\\>\\py[32]\\isd[57]\\n\\>\\py[64]\\isd[58]\\n\\py[96]\\isd[59]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 369,
+        "name": "フレイ",
+        "note": "<SpineName:monk>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:57>\n<skillB:58>\n<skillC:59>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 10 )>",
+        "params": [
+            80,
+            0,
+            55,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 1
+    },
+    {
+        "id": 21,
+        "animationId": 3,
+        "description": "\\>\\I[324]銃手　HP：\\WHP[21]　ATK：\\WAT[21]　\\fs[18]\n\\>\\py[32]\\isd[61]\\n\\>\\py[64]\\isd[62]\\n\\>\\py[96]\\isd[63]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 8,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 324,
+        "name": "グスタフ",
+        "note": "<SpineName:dwarf>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:61>\n<skillB:62>\n<skillC:63>\n<DD最大HP:prev + (DBless() * 16 )>\n<DD攻撃力:prev + (DBless() * 6 )>",
+        "params": [
+            106,
+            0,
+            36,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 4500,
+        "wtypeId": 1
+    },
+    {
+        "id": 22,
+        "animationId": 11,
+        "description": "\\>\\I[343]騎士　HP：\\WHP[22]　ATK：\\WAT[22]　\\fs[18]\n\\>\\py[32]\\isd[65]\\n\\>\\py[64]\\isd[66]\\n\\>\\py[96]\\isd[67]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 9,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 343,
+        "name": "ドラウケン",
+        "note": "<SpineName:griffinrider>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:65>\n<skillB:66>\n<skillC:67>\n<DD最大HP:prev + (DBless() * 7 )>\n<DD攻撃力:prev + (DBless() * 11 )>",
+        "params": [
+            180,
+            0,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 1
+    },
+    {
+        "id": 23,
+        "animationId": 1,
+        "description": "\\>\\I[371]クレリック　HP：\\WHP[23]　ATK：\\WAT[23]　\\fs[18]\n\\>\\py[32]\\isd[69]\\n\\>\\py[64]\\isd[70]\\n\\>\\py[96]\\isd[71]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 371,
+        "name": "エルシィ",
+        "note": "<SpineName:sister>\n<SpineSkin:skin2>\n<SpineSize:60>\n<skillA:69>\n<skillB:70>\n<skillC:71>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 6 )>",
+        "params": [
+            100,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 5,
+        "wtypeId": 3
+    },
+    {
+        "id": 24,
+        "animationId": 6,
+        "description": "\\>\\I[353]戦士　HP：\\WHP[24]　ATK：\\WAT[24]　\\fs[18]\n\\>\\py[32]\\isd[73]\\n\\>\\py[64]\\isd[74]\\n\\>\\py[96]\\isd[75]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 7,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.75
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.75
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.75
+            }
+        ],
+        "iconIndex": 353,
+        "name": "ベイン",
+        "note": "<SpineName:fighter>\n<SpineSkin:skin2>\n<skillA:73>\n<skillB:74>\n<skillC:75>\n<SpineSize:65>\n<DD最大HP:prev + (DBless() * 15 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
+        "params": [
+            195,
+            0,
+            51,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 150,
+        "wtypeId": 1
+    },
+    {
+        "id": 25,
+        "animationId": 71,
+        "description": "\\>\\I[354]魔術師　HP：\\WHP[25]　ATK：\\WAT[25]　\\fs[18]\n\\>\\py[32]\\isd[77]\\n\\>\\py[64]\\isd[78]\\n\\>\\py[96]\\isd[79]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 3,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 354,
+        "name": "エレイン",
+        "note": "<SpineName:wizard>\n<SpineSkin:skin2>\n<SpineSize:60>\n<skillA:77>\n<skillB:78>\n<skillC:79>\n<DD最大HP:prev + (DBless() * 2 )>\n<DD攻撃力:prev + (DBless() * 10 )>",
+        "params": [
+            55,
+            0,
+            41,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 7000,
+        "wtypeId": 4
+    },
+    {
+        "id": 26,
+        "animationId": 1,
+        "description": "\\>\\I[371]クレリック　HP：\\WHP[26]　ATK：\\WAT[26]　\\fs[18]\n\\>\\py[32]\\isd[81]\\n\\>\\py[64]\\isd[82]\\n\\>\\py[96]\\isd[51]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 5,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 13,
+                "dataId": 4,
+                "value": 0.3
+            }
+        ],
+        "iconIndex": 371,
+        "name": "ボルシチマン",
+        "note": "<SpineName:cleric>\n<SpineSkin:skin2>\n<skillA:81>\n<skillB:82>\n<skillC:51>\n<SpineSize:70>\n<SpineMotion:Attack1>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 6 )>",
+        "params": [
+            99,
+            0,
+            41,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 12,
+        "wtypeId": 3
+    },
+    {
+        "id": 27,
+        "animationId": 11,
+        "description": "\\>\\I[339]僧侶　HP：\\WHP[27]　ATK：\\WAT[27]　\\fs[18]\n\\>\\py[32]\\isd[85]\\n\\>\\py[64]\\isd[86]\\n\\>\\py[96]\\isd[87]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.6
+            }
+        ],
+        "iconIndex": 339,
+        "name": "セレス",
+        "note": "<SpineName:priestess>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:85>\n<skillB:86>\n<skillC:87>\n<DD最大HP:prev + (DBless() * 10 )>\n<DD攻撃力:prev + (DBless() * 2 )>",
+        "params": [
+            108,
+            0,
+            22,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 250,
+        "wtypeId": 3
+    },
+    {
+        "id": 28,
+        "animationId": 6,
+        "description": "\\>\\I[368]戦士　HP：\\WHP[28]　ATK：\\WAT[28]　\\fs[18]\n\\>\\py[32]\\isd[89]\\n\\>\\py[64]\\isd[90]\\n\\>\\py[96]\\isd[91]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 368,
+        "name": "アグニー",
+        "note": "<SpineName:lizard>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:89>\n<skillB:90>\n<skillC:91>\n<DD最大HP:prev + (DBless() * 10 )>\n<DD攻撃力:prev + (DBless() * 12 )>",
+        "params": [
+            287,
+            0,
+            49,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 1
+    },
+    {
+        "id": 29,
+        "animationId": 142,
+        "description": "\\>\\I[338]魔術師　HP：\\WHP[29]　ATK：\\WAT[29]　\\fs[18]\n\\>\\py[32]\\isd[93]\\n\\>\\py[64]\\isd[94]\\n\\>\\py[96]\\isd[95]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 2,
+                "value": 0
+            }
+        ],
+        "iconIndex": 338,
+        "name": "ウェイン",
+        "note": "<SpineName:sorcerer>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:93>\n<skillB:94>\n<skillC:95>\n<DD最大HP:prev>\n<DD攻撃力:prev + (DBless() * 14 )>",
+        "params": [
+            38,
+            0,
+            55,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 250,
+        "wtypeId": 4
+    },
+    {
+        "id": 30,
+        "animationId": 145,
+        "description": "\\>\\I[327]サムライ　HP：\\WHP[30]　ATK：\\WAT[30]　\\fs[18]\n\\>\\py[32]\\isd[97]\\n\\>\\py[64]\\isd[98]\\n\\>\\py[96]\\isd[99]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 10,
+                "value": 0
+            }
+        ],
+        "iconIndex": 327,
+        "name": "アズサ",
+        "note": "<SpineName:samurai>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:97>\n<skillB:98>\n<skillC:99>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 12 )>",
+        "params": [
+            75,
+            0,
+            48,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 6000,
+        "wtypeId": 5
+    },
+    {
+        "id": 31,
+        "animationId": 10,
+        "description": "\\>\\I[341]ロード　HP：\\WHP[31]　ATK：\\WAT[31]　\\fs[18]\n\\>\\py[32]\\isd[101]\\n\\>\\py[64]\\isd[102]\\n\\>\\py[96]\\isd[103]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 341,
+        "name": "フェリル",
+        "note": "<SpineName:lord>\n<SpineSkin:skin1>\n<SpineSize:60>\n<SpineMotion:Attack1>\n<skillA:101>\n<skillB:102>\n<skillC:103>\n<DD最大HP:prev + (DBless() * 12 )>\n<DD攻撃力:prev + (DBless() * 10 )>",
+        "params": [
+            179,
+            0,
+            41,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 100,
+        "wtypeId": 5
+    },
+    {
+        "id": 32,
+        "animationId": 147,
+        "description": "\\>\\I[323]ビショップ　HP：\\WHP[32]　ATK：\\WAT[32]　\\fs[18]\n\\>\\py[32]\\isd[105]\\n\\>\\py[64]\\isd[106]\\n\\>\\py[96]\\isd[107]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 7,
+                "value": 0
+            }
+        ],
+        "iconIndex": 323,
+        "name": "ルビィ",
+        "note": "<SpineName:ruby>\n<SpineSkin:skin1>\n<skillA:105>\n<skillB:106>\n<skillC:107>\n<SpineSize:65>\n<SpineMotion:Attack1>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
+        "params": [
+            44,
+            0,
+            51,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 150,
+        "wtypeId": 5
+    },
+    {
+        "id": 33,
+        "animationId": 6,
+        "description": "\\>\\I[416]ニンジャ　HP：\\WHP[33]　ATK：\\WAT[33]　\\fs[18]\n\\>\\py[32]\\isd[109]\\n\\>\\py[64]\\isd[110]\\n\\>\\py[96]\\isd[111]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 416,
+        "name": "ハヤガケ",
+        "note": "<SpineName:ninja>\n<SpineSkin:skin1>\n<Mosaic:04ちんこ>\n<SpineMotion:Attack1>\n<skillA:109>\n<skillB:110>\n<skillC:111>\n<SpineSize:65>\n<DD最大HP:prev + (DBless() * 10 )>\n<DD攻撃力:prev + (DBless() * 18 )>",
+        "params": [
+            101,
+            0,
+            63,
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "price": 20000,
+        "wtypeId": 5
+    },
+    {
+        "id": 34,
+        "animationId": 123,
+        "description": "\\>\\I[325]賢者　HP：\\WHP[34]　ATK：\\WAT[34]　\\fs[18]\n\\>\\py[32]\\isd[113]\\n\\>\\py[64]\\isd[114]\\n\\>\\py[96]\\isd[115]",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 325,
+        "name": "エニ先生",
+        "note": "<SpineName:sensei>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:113>\n<skillB:114>\n<skillC:115>\n<DD最大HP:prev + (DBless() * 8 )>\n<DD攻撃力:prev + (DBless() * 10 )>",
+        "params": [
+            190,
+            0,
+            61,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 5
+    },
+    {
+        "id": 35,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 36,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 37,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 38,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 39,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 40,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    }
+]

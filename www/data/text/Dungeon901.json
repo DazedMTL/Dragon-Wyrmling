@@ -1,0 +1,117 @@
+{
+  "0": {
+    "name": "-",
+    "face": "表情",
+    "text": "セリフ内容"
+  },
+  "1": {
+    "name": null,
+    "face": null,
+    "text": "●場面：ダンジョン汎用セリフ"
+  },
+  "2": {
+    "name": "-",
+    "face": "-",
+    "text": null
+  },
+  "3": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "4": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "5": {
+    "name": "ソル",
+    "face": null,
+    "text": "「宝箱です！！」"
+  },
+  "6": {
+    "name": "ソル",
+    "face": null,
+    "text": "「グワーッ」"
+  },
+  "7": {
+    "name": "ソル",
+    "face": null,
+    "text": "「あれ？？？」"
+  },
+  "8": {
+    "name": "ソル",
+    "face": null,
+    "text": "「何かこっちから気配がします！」"
+  },
+  "9": {
+    "name": "ソル",
+    "face": null,
+    "text": "「ここから先は危険な気が！！」"
+  },
+  "10": {
+    "name": "ソル",
+    "face": null,
+    "text": "「帰還しましょう！」"
+  },
+  "11": {
+    "name": "ソル",
+    "face": null,
+    "text": "「おおおおおおお……わたしの縄張りに敵がいます！」"
+  },
+  "12": {
+    "name": "ソル",
+    "face": null,
+    "text": "「えへへー。縄張り、取り返しました！」"
+  },
+  "13": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "14": {
+    "name": "エリック",
+    "face": null,
+    "text": "「おっ、宝箱！\n　いいじゃないいいじゃない、こういうの待ってたのよ！」"
+  },
+  "15": {
+    "name": "エリック",
+    "face": null,
+    "text": "「鍵開け鍵開けっと……！ん、オッケー開いたよ！」"
+  },
+  "16": {
+    "name": "エリック",
+    "face": null,
+    "text": "「こっちは無理ね。何か鍵がないと通れない」"
+  },
+  "17": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "18": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "19": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "20": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "21": {
+    "name": null,
+    "face": null,
+    "text": null
+  },
+  "22": {
+    "name": null,
+    "face": null,
+    "text": null
+  }
+}

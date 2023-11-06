@@ -1,0 +1,624 @@
+[
+    null,
+    {
+        "id": 1,
+        "expanded": true,
+        "name": "MAP001",
+        "order": 2,
+        "parentId": 16,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 2,
+        "expanded": false,
+        "name": "●戦闘",
+        "order": 4,
+        "parentId": 15,
+        "scrollX": 1059,
+        "scrollY": 753
+    },
+    {
+        "id": 3,
+        "expanded": true,
+        "name": "MAP003",
+        "order": 11,
+        "parentId": 12,
+        "scrollX": 706,
+        "scrollY": 507.3333333333333
+    },
+    {
+        "id": 4,
+        "expanded": false,
+        "name": "MAP004",
+        "order": 12,
+        "parentId": 12,
+        "scrollX": 706,
+        "scrollY": 507.3333333333333
+    },
+    {
+        "id": 5,
+        "expanded": false,
+        "name": "ソルちゃん家",
+        "order": 14,
+        "parentId": 10,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 6,
+        "expanded": false,
+        "name": "ソルの巣・通常",
+        "order": 15,
+        "parentId": 5,
+        "scrollX": 625.8,
+        "scrollY": 450
+    },
+    {
+        "id": 7,
+        "expanded": false,
+        "name": "・テンプレート",
+        "order": 6,
+        "parentId": 15,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 8,
+        "expanded": false,
+        "name": "・戦闘リセット用",
+        "order": 5,
+        "parentId": 2,
+        "scrollX": 478,
+        "scrollY": 380.5
+    },
+    {
+        "id": 9,
+        "expanded": false,
+        "name": "▼Hイベント",
+        "order": 35,
+        "parentId": 0,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 10,
+        "expanded": true,
+        "name": "ワールドマップ",
+        "order": 13,
+        "parentId": 13,
+        "scrollX": 1014.5,
+        "scrollY": 831.5
+    },
+    {
+        "id": 11,
+        "expanded": false,
+        "name": "エリック01",
+        "order": 49,
+        "parentId": 50,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 12,
+        "expanded": false,
+        "name": "OP",
+        "order": 9,
+        "parentId": 13,
+        "scrollX": 1059,
+        "scrollY": 753
+    },
+    {
+        "id": 13,
+        "expanded": true,
+        "name": "■メイン",
+        "order": 8,
+        "parentId": 0,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 14,
+        "expanded": false,
+        "name": "チュートリアルステージ",
+        "order": 10,
+        "parentId": 12,
+        "scrollX": 734.5,
+        "scrollY": 372.5
+    },
+    {
+        "id": 15,
+        "expanded": true,
+        "name": "●システム",
+        "order": 3,
+        "parentId": 0,
+        "scrollX": 1155.2727272727273,
+        "scrollY": 818.1818181818182
+    },
+    {
+        "id": 16,
+        "expanded": true,
+        "name": "テスト用",
+        "order": 1,
+        "parentId": 0,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 17,
+        "expanded": true,
+        "name": "ルクレア村",
+        "order": 16,
+        "parentId": 10,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 18,
+        "expanded": false,
+        "name": "首なし美人亭",
+        "order": 17,
+        "parentId": 17,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 19,
+        "expanded": true,
+        "name": "ダンジョン",
+        "order": 20,
+        "parentId": 10,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 20,
+        "expanded": false,
+        "name": "コーラルプーザー",
+        "order": 21,
+        "parentId": 19,
+        "scrollX": 918.5,
+        "scrollY": 447.5
+    },
+    {
+        "id": 21,
+        "expanded": false,
+        "name": "魔法屋",
+        "order": 18,
+        "parentId": 17,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 22,
+        "expanded": true,
+        "name": "平原",
+        "order": 22,
+        "parentId": 19,
+        "scrollX": 521.5,
+        "scrollY": 848.5
+    },
+    {
+        "id": 23,
+        "expanded": false,
+        "name": "イスク01",
+        "order": 53,
+        "parentId": 51,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 24,
+        "expanded": true,
+        "name": "忘れられた水路",
+        "order": 23,
+        "parentId": 19,
+        "scrollX": 1043,
+        "scrollY": 863
+    },
+    {
+        "id": 25,
+        "expanded": false,
+        "name": "忘れられた水路・下層",
+        "order": 24,
+        "parentId": 24,
+        "scrollX": 1261,
+        "scrollY": 857
+    },
+    {
+        "id": 26,
+        "expanded": false,
+        "name": "安宿",
+        "order": 19,
+        "parentId": 17,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    },
+    {
+        "id": 27,
+        "expanded": true,
+        "name": "グリルタ山",
+        "order": 25,
+        "parentId": 19,
+        "scrollX": 1245,
+        "scrollY": 737
+    },
+    {
+        "id": 28,
+        "expanded": false,
+        "name": "グリルタ山・山頂部",
+        "order": 26,
+        "parentId": 27,
+        "scrollX": 1043,
+        "scrollY": 873
+    },
+    {
+        "id": 29,
+        "expanded": false,
+        "name": "廃墟",
+        "order": 27,
+        "parentId": 19,
+        "scrollX": 1059,
+        "scrollY": 753
+    },
+    {
+        "id": 30,
+        "expanded": false,
+        "name": "嗤う森",
+        "order": 28,
+        "parentId": 19,
+        "scrollX": 1117,
+        "scrollY": 1386
+    },
+    {
+        "id": 31,
+        "expanded": true,
+        "name": "洞窟",
+        "order": 29,
+        "parentId": 19,
+        "scrollX": 1398.5,
+        "scrollY": 854.5
+    },
+    {
+        "id": 32,
+        "expanded": true,
+        "name": "火山",
+        "order": 31,
+        "parentId": 19,
+        "scrollX": 1059,
+        "scrollY": 753
+    },
+    {
+        "id": 33,
+        "expanded": true,
+        "name": "試練の迷宮",
+        "order": 33,
+        "parentId": 19,
+        "scrollX": 1382.5,
+        "scrollY": 1046.5
+    },
+    {
+        "id": 34,
+        "expanded": false,
+        "name": "神殿",
+        "order": 30,
+        "parentId": 31,
+        "scrollX": 521.5,
+        "scrollY": 808.5
+    },
+    {
+        "id": 35,
+        "expanded": false,
+        "name": "●エンディング",
+        "order": 7,
+        "parentId": 15,
+        "scrollX": 1059,
+        "scrollY": 753
+    },
+    {
+        "id": 36,
+        "expanded": false,
+        "name": "▽冒険者Hイベント",
+        "order": 60,
+        "parentId": 9,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 37,
+        "expanded": true,
+        "name": "○エルシィ",
+        "order": 63,
+        "parentId": 36,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 38,
+        "expanded": false,
+        "name": "○ファリア",
+        "order": 61,
+        "parentId": 36,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 39,
+        "expanded": false,
+        "name": "試練の迷宮・B10",
+        "order": 34,
+        "parentId": 33,
+        "scrollX": 1026,
+        "scrollY": 808.2857142857142
+    },
+    {
+        "id": 40,
+        "expanded": false,
+        "name": "火山・深部",
+        "order": 32,
+        "parentId": 32,
+        "scrollX": 1043,
+        "scrollY": 1337
+    },
+    {
+        "id": 41,
+        "expanded": false,
+        "name": "○セレス",
+        "order": 64,
+        "parentId": 36,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 42,
+        "expanded": false,
+        "name": "ソル01",
+        "order": 38,
+        "parentId": 44,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 43,
+        "expanded": true,
+        "name": "ソル02",
+        "order": 39,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 44,
+        "expanded": true,
+        "name": "・ソルちゃん",
+        "order": 37,
+        "parentId": 9,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 45,
+        "expanded": false,
+        "name": "○フレイ",
+        "order": 62,
+        "parentId": 36,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 46,
+        "expanded": false,
+        "name": "◯フェリル",
+        "order": 67,
+        "parentId": 36,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 47,
+        "expanded": false,
+        "name": "○ウェイン",
+        "order": 65,
+        "parentId": 36,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 48,
+        "expanded": false,
+        "name": "◯アズサ",
+        "order": 66,
+        "parentId": 36,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 49,
+        "expanded": false,
+        "name": "●ルビィ",
+        "order": 68,
+        "parentId": 36,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 50,
+        "expanded": false,
+        "name": "・エリック",
+        "order": 48,
+        "parentId": 9,
+        "scrollX": 635.4,
+        "scrollY": 450
+    },
+    {
+        "id": 51,
+        "expanded": false,
+        "name": "・イスク",
+        "order": 52,
+        "parentId": 9,
+        "scrollX": 0,
+        "scrollY": 0
+    },
+    {
+        "id": 52,
+        "expanded": false,
+        "name": "・エニ先生",
+        "order": 56,
+        "parentId": 9,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 53,
+        "expanded": false,
+        "name": "ソル03",
+        "order": 40,
+        "parentId": 44,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 54,
+        "expanded": false,
+        "name": "ソル04",
+        "order": 41,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 55,
+        "expanded": true,
+        "name": "ソル05",
+        "order": 42,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 56,
+        "expanded": false,
+        "name": "ソル06",
+        "order": 43,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 57,
+        "expanded": false,
+        "name": "ソル07",
+        "order": 44,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 58,
+        "expanded": false,
+        "name": "ソル08",
+        "order": 45,
+        "parentId": 44,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 59,
+        "expanded": false,
+        "name": "エリック02",
+        "order": 50,
+        "parentId": 50,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 60,
+        "expanded": false,
+        "name": "エリック03",
+        "order": 51,
+        "parentId": 50,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 61,
+        "expanded": true,
+        "name": "イスク02",
+        "order": 54,
+        "parentId": 51,
+        "scrollX": 529.5,
+        "scrollY": 375
+    },
+    {
+        "id": 62,
+        "expanded": false,
+        "name": "エニ先生01",
+        "order": 57,
+        "parentId": 52,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 63,
+        "expanded": false,
+        "name": "エニ先生03",
+        "order": 58,
+        "parentId": 52,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 64,
+        "expanded": false,
+        "name": "回想ルーム",
+        "order": 36,
+        "parentId": 9,
+        "scrollX": 521.5,
+        "scrollY": 456.5
+    },
+    {
+        "id": 65,
+        "expanded": false,
+        "name": "ソル09",
+        "order": 46,
+        "parentId": 44,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 66,
+        "expanded": false,
+        "name": "エニ先生04",
+        "order": 59,
+        "parentId": 52,
+        "scrollX": 832,
+        "scrollY": 640
+    },
+    {
+        "id": 67,
+        "expanded": false,
+        "name": "人さらいのアジト",
+        "order": 69,
+        "parentId": 9,
+        "scrollX": 630.5,
+        "scrollY": 368.5
+    },
+    {
+        "id": 68,
+        "expanded": false,
+        "name": "ソル10～",
+        "order": 47,
+        "parentId": 44,
+        "scrollX": 0,
+        "scrollY": 0
+    },
+    {
+        "id": 69,
+        "expanded": false,
+        "name": "イスク03",
+        "order": 55,
+        "parentId": 51,
+        "scrollX": 529.5,
+        "scrollY": 376.5
+    }
+]
