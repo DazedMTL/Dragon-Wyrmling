@@ -1731,7 +1731,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊OPを飛ばしますか？＊"
+                                "*Skip the opening?*"
                             ]
                         },
                         {
@@ -1739,8 +1739,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "飛ばす",
-                                    "いいえ"
+                                    "Skip",
+                                    "No"
                                 ],
                                 1,
                                 0,

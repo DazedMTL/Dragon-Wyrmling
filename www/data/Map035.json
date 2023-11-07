@@ -1869,7 +1869,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<全員>「「「乾杯！！！」」」"
+                                "\\n<All members>Cheers!!!"
                             ]
                         },
                         {
@@ -2279,7 +2279,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "冒険者たちメッセージ！！"
+                                "Adventurers' message!!"
                             ]
                         },
                         {
@@ -2340,21 +2340,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「よぉ、お疲れ！ちび竜さん！"
+                                "\\n<Ma-kun>Hey, good work! Chibi Dragon! With this, I might\nbe able to become the ruler soon... I'm not too\nconfident though. It might take a little longer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これで俺もそろそろ君主になれるかね？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……あまり自信はないな。もう少しかかるかもな。」"
+                                ""
                             ]
                         },
                         {
@@ -2414,21 +2414,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<グレストラス>「赤竜エヴェンナジェトルドル、討伐おめでとう。"
+                                "\\n<Gurestorasu>Congratulations on defeating the Red Dragon\nEvennajetoldor. I saw the knowledge it had\naccumulated, and it was very interesting. It was\nthe right decision to follow you. I appreciate\nit."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あいつの持っていた知識の蓄積を見たが、非常に興味深い。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　君に着いてきて正解だったな。感謝する」"
+                                ""
                             ]
                         },
                         {
@@ -2488,21 +2488,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ファリア>「おめでとうございます、ゴールドドラゴン様。"
+                                "\\n<Faria>Congratulations, Lord Gold Dragon. I'm glad you\nreturned safely. Thank you to Lord Ishupeel."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あなたが無事帰られてなによりです。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　イシュペール様に感謝を。」"
+                                ""
                             ]
                         },
                         {
@@ -2562,21 +2562,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ゴメス>「へっへっへ、親分流石でさァ。"
+                                "\\n<Gomes>Hehehe, Boss is truly amazing. I'm grateful for\nbeing able to ride the winning horse... or should\nI say, the winning dragon? Well, I'll try to live\nseriously with the money I've saved up."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　俺も勝ち馬…勝ち竜？に乗れてありがてェこってす。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ま、貯まった給金でマジメに暮らそうと思ってまさぁ」"
+                                ""
                             ]
                         },
                         {
@@ -2636,21 +2636,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<トレンディル>「緑竜に続き赤竜、それもエンシェントを討伐か。"
+                                "\\n<Trendil>Following the Green Dragon, you've also defeated\nthe Ancient Red Dragon. This is surprising, young\ndragon. I'm impressed. It seems like it would be\nmore interesting to stay by your side a little\nlonger."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　これは驚いた雛竜だ。恐れ入ったよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　もう少し君の側にいた方が面白そうだね」"
+                                ""
                             ]
                         },
                         {
@@ -2710,21 +2710,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ギドルフ>「おお、金竜殿。素晴らしい働きですな。"
+                                "\\n<Gildolf>Oh, Lord Gold Dragon. Your work is truly\nsplendid. As a fellow fighter against evil, I am\ndelighted. However, the battle is far from over,\nisn't it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　共に悪を討つ者として拙僧も嬉しい限り。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ですが、まだまだ戦いは続きますぞ？」"
+                                ""
                             ]
                         },
                         {
@@ -2784,14 +2784,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<イヴォ>「赤竜狩り、偉大なるドラゴンよ。"
+                                "\\n<Ivo>Great dragon slayer, thank you for granting me a\nglorious battlefield!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　俺に栄えある戦場を与えてくれて感謝する！」"
+                                ""
                             ]
                         },
                         {
@@ -2851,21 +2851,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<フレイ>「やったー！すごいね！金竜ちゃん！"
+                                "\\n<Frey>Yay! Amazing, Gold Dragon-chan! I helped too, you\nknow? So, about the reward, make it generous,\nokay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私も手伝ったからね！？からね！？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　報酬、弾んでねー！」"
+                                ""
                             ]
                         },
                         {
@@ -2925,21 +2925,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<グスタフ>「おめっとさん。いい戦いだったわい。"
+                                "\\n<Gustav>Congratulations. It was a good fight. Watching\nthat red dragon and you gave me a new idea for a\nnew weapon. Give me the funds to make it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　あの赤竜とお前さんを見ておったらな、新兵器の新案が"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　浮かんできおったわい。作るから経費をくれ」"
+                                ""
                             ]
                         },
                         {
@@ -2999,14 +2999,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ドラウケン>「偉大なる金竜に最高の栄誉を！"
+                                "\\n<Dorawken>To the great Gold Dragon, the highest honor! From\nnow on, we shall dedicate this sword to you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　我らこれより、貴公にこの剣を捧げよう」"
+                                ""
                             ]
                         },
                         {
@@ -3023,7 +3023,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ストーナー>「クエーッ」"
+                                "\\n<Stoner>Kweh"
                             ]
                         },
                         {
@@ -3083,21 +3083,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エルシィ>「お、お疲れ様です！"
+                                "\\n<Elsie>Oh, welcome back! Are you injured at all? After\nsuch a deadly battle, please make sure to rest\nproperly, okay?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　怪我などございませんか！？あのような死闘の後ですから"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　しっかり休んでくださいね？」"
+                                ""
                             ]
                         },
                         {
@@ -3157,21 +3157,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ベイン>「お疲れさん。"
+                                "\\n<Bain>Good job. I never expected to fight such a big\nshot... It's okay to request hazard pay, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　まさかあんな大物とまで戦うとはな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……危険手当の請求くらいはしてもいいよな？」"
+                                ""
                             ]
                         },
                         {
@@ -3231,21 +3231,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<エレイン>「討伐、見事です。"
+                                "\\n<Elaine>The subjugation was splendid. I've heard that\nmighty dragons hoard knowledge and treasures.\nWould it be alright for me to analyze his\nknowledge?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　強大な竜は知識と財宝を溜め込んでいると聞きます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　彼の知識の解析をやらせていただいてもよろしいですか？」"
+                                ""
                             ]
                         },
                         {
@@ -3305,21 +3305,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ボルシチマン>「ガッハッハハハ！流石は！金竜殿！！"
+                                "\\n<Borschtman>Gahahaha! As expected of the Gold Dragon!! To\ndefeat such a mighty Red Dragon!! My, my,\nBorschtman is truly impressed!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ああまで強大な赤蛇を倒されるとは！！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いやはやこのボルシチマン、感服いたしましたぞ！！」"
+                                ""
                             ]
                         },
                         {
@@ -3379,21 +3379,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<セレス>「お疲れ様です、ゴールドドラゴン様。"
+                                "\\n<Seres>Thank you for your hard work, Lord Gold Dragon.\nYou have grown so much larger without us even\nnoticing. Hehe, I'm looking forward to reporting\nback to the guild."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いつの間にかとても大きく成長なされましたね。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、ギルドへの報告も楽しみね」"
+                                ""
                             ]
                         },
                         {
@@ -3453,21 +3453,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<アグニー>「アノ恐ルベキ邪悪ナル赤ノ鱗ヲ倒シタ…！"
+                                "\\n<Agni>I have defeated the fearsome evil red scales...!\nI am grateful to you, great golden scales. I am\nthankful for this kind of battle and for meeting\nyou, my lord."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　偉大ナル金ノ鱗、俺ハ貴方ニ感謝スル。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　コノ様ナ戦ト、主君ニ出会エタ事ヲ。」"
+                                ""
                             ]
                         },
                         {
@@ -3527,21 +3527,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ウェイン>「お疲れ様！さすがにあいつはしんどかったわね。"
+                                "\\n<Wayne>Good work! That guy was really tough, as\nexpected. Well, my magic is just too incompatible\nwith that red dragon... Maybe I should learn some\nspells of a different attribute..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　つーか、あたしの魔術と相性悪すぎなのよね、赤竜。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……も少し違う属性の呪文も覚えとくべきかしら……」"
+                                ""
                             ]
                         },
                         {
@@ -3601,21 +3601,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<アズサ>「見事、金竜殿。"
+                                "\\n<Azusa>Splendid, Lord Gold Dragon. Walking alongside\nyou, I won't be troubled by any further\nbattlefield... Let me wield this katana by your\nside for a while longer."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　貴殿と共に歩めば、さらなる修羅場にも困らなさそうだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　…もうしばし、貴殿の側でこのカタナを震わせてもらおう」"
+                                ""
                             ]
                         },
                         {
@@ -3675,21 +3675,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<フェリル>「やりましたね！すごいです！！"
+                                "\\n<Feril>You did it! That was amazing!! Well, to be\nhonest... this is the first time I've achieved\nsuch a feat..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　いや、お恥ずかしながら…ここまでの武勲をあげたのって…"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　初めてなもので……」"
+                                ""
                             ]
                         },
                         {
@@ -3749,21 +3749,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ルビィ>「ありゃりゃー、雛なのにすごいですねえ？"
+                                "\\n<Ruby>Oh my, even though you're just a chick, you're\namazing, aren't you? In this case, I feel like I\nwant to help a little more, you know? I'm starting\nto look forward to the future, huh?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　こうなると、こう、もう少し手伝ってみたくなるっていうか？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　先が楽しみになっちゃってきますね？」"
+                                ""
                             ]
                         },
                         {
@@ -3823,14 +3823,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ハヤガケ>「………………気を抜くな、金竜。"
+                                "\\n<Hayagake>...............Don't let your guard down, Gold\nDragon... It's about time for more people to start\naiming for your head."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……お主の首、狙う輩が増える頃合いよ」"
+                                ""
                             ]
                         },
                         {
@@ -5888,14 +5888,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "And time passes──────..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そして、時は流れて──────…"
+                                ""
                             ]
                         },
                         {
@@ -5959,21 +5959,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "The girl walked uneasily through the forest. She\nhad never ventured this far from the village\nbefore."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "森の中を、少女は不安げに歩いていく。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "村を離れてこんな遠いところになど来たことなどなかった。"
+                                ""
                             ]
                         },
                         {
@@ -5990,21 +5990,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "However, the girl had a purpose. That's why, even\nthough she was scared, she continued on."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "だが、それでも少女には目的があった。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "だから、怖いけれども進んでいく。"
+                                ""
                             ]
                         },
                         {
@@ -6075,21 +6075,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "The place the girl was taught about long ago...\nHer destination must be here. But... is it really\nhere? The girl looks around uneasily."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "少女が昔、教わった場所…目的地はきっと、ここ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "でも…ここに……本当に？　少女は不安げに辺りを見回す。"
+                                ""
                             ]
                         },
                         {
@@ -6182,21 +6182,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "Before she knew it────── it really appeared right\nin front of her. It was incredibly large...\nshining in gold... magnificent... a dragon...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "いつの間にか───本当に、目の前に姿を現した。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "凄く大きくて…黄金に輝いていて…雄大な…ドラゴン……！"
+                                ""
                             ]
                         },
                         {

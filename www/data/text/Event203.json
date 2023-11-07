@@ -1,197 +1,197 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：その他細かいイベント２"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": "宝物入手イベント"
-  },
-  "5": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお…アーティファクト……！\n　古代に造られたでんせつてき魔法の遺物……」"
-  },
-  "6": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「コレクションとして集めてもよし、\n　戦う時に使用してもよし…！すばらしい！！」"
-  },
-  "7": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「……いっこ手に入れると、欲がでてくるぅ……。\n　いっぱいいっぱい集めたいですね！！！」"
-  },
-  "8": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": "威嚇するソルちゃん"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "困5",
-    "text": "「ｼｬｰｯ　ｼｬｰｯ」"
-  },
-  "11": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「どうどう　落ち着いてソルちゃん　怖くないよ怖くないよ」"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "困5",
-    "text": "「フシャーッ」"
-  },
-  "13": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": "食事イベント"
-  },
-  "15": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「おさけ！！のんだことないです！！」"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお……すっぱい……けどおいしい……」"
-  },
-  "17": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお……このにがさとホップの香りが……」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお……上質の樽の香りと芳醇な味わい……」"
-  },
-  "19": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「おおおおお……ぶどうの香りが熟成されてすぱーく……」"
-  },
-  "20": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「おおおおお……はちみつの甘さと香りがこの上なく……」"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「金貨たべます！\n　とても贅沢なおやつ……」"
-  },
-  "23": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「真珠たべます！（ﾎﾞﾘﾎﾞﾘ）\n　まろやかでキレがあっておいしい……」"
-  },
-  "24": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「金塊たべます！\n　うん…うん……ふるさとの味ってかんじで…\n　なつかしい……\n　金塊ってゴールドの味だよなって感じ……」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「これは…エメラルド！\n　どれどれ……おおお…意外と酸味があって…\n　爽やかな風味……」"
-  },
-  "26": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおお…大粒のルビー……\n　曇り硝子の向こうのダンディーな味……」"
-  },
-  "27": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお…ダイヤモンド……\n　ﾎﾞﾘﾎﾞﾘ……う…ふむ…うん……うん……\n　深みのある匠の味……」"
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「とりにくの丸焼き！！いただきます！！\n　うめえ…うめえ……」"
-  },
-  "30": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「黒パン！いただきます！！\n　ﾓｸﾞ……ﾓｸﾞ………おいしい！！」"
-  },
-  "31": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「ベリーパイ！この村のオススメ品！\n　甘酸っぱくておいしいですね！！」"
-  },
-  "32": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「タマネギシチュー！味わいの深みが３次元！！」"
-  },
-  "33": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「鹿肉！大好物です！鹿さんいただきます！！」"
-  },
-  "34": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「何言ってるか自分で理解してるのかなこの子……」"
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "37": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "38": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Other Minor Event 2"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": "Treasure acquisition event"
+    },
+    "5": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo... An artifact...! A legendary magical\nrelic created in ancient times...\""
+    },
+    "6": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"You can collect it as a part of your collection,\nor use it in battle...! Amazing!!\""
+    },
+    "7": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Once you get one, the desire for more starts to\ngrow... I want to collect lots and lots of\nthem!!!\""
+    },
+    "8": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": "Intimidating Sol-chan"
+    },
+    "10": {
+        "name": "Sol",
+        "face": "困5",
+        "text": "\"Shaa shaa\""
+    },
+    "11": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"Calm down, Sol-chan. It's not scary, it's not\nscary.\""
+    },
+    "12": {
+        "name": "Sol",
+        "face": "困5",
+        "text": "*Whoosh*"
+    },
+    "13": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": "Meal Event"
+    },
+    "15": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Alcohol!! I've never drunk it before!!\""
+    },
+    "16": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooo... Sour... but delicious...\""
+    },
+    "17": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooo... the bitterness and the aroma of hops...\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooh... the exquisite aroma of the barrel and\nthe rich flavor...\""
+    },
+    "19": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Ooooh... the aroma of matured grapes is so\nrich...\""
+    },
+    "20": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Ooooh... the sweetness and aroma of honey are\nunparalleled...\""
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I'm going to eat gold coins! Such a luxurious\nsnack...\""
+    },
+    "23": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"I'm going to eat pearls! (gulp gulp) Smooth, with\na sharpness, and delicious...\""
+    },
+    "24": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"I'm going to eat gold nuggets! Mmm... Mmm... It\nfeels like the taste of home... Natsukashii...\nIt's like the taste of gold nuggets, isn't it?\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"This is... an emerald! Let's see... Ohhh... it\nhas a surprising sourness... A refreshing\nflavor...\""
+    },
+    "26": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooh... a large ruby... A dandy taste beyond the\ncloudy glass...\""
+    },
+    "27": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooh... a diamond... It's rich and deep...\nHmm... Yes... Yes... The taste of a skilled\ncraftsman...\""
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Grilled whole chicken!! Here I go!! Delicious...\ndelicious...\""
+    },
+    "30": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Black bread! Here I go!! Mmm... Mmm...\ndelicious!!\""
+    },
+    "31": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Berry pie! The recommended product of this\nvillage! It's sweet and sour, and delicious, isn't\nit?!\""
+    },
+    "32": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Onion stew! The depth of flavor is three-\ndimensional!!\""
+    },
+    "33": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Venison! It's a favorite food of mine! Thank you,\nMr. Deer!!\""
+    },
+    "34": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"I wonder if this child understands what she's\nsaying...\""
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "37": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "38": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

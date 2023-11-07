@@ -1,197 +1,197 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：その他細かいイベント"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": "宝物が増えてきた時のセリフ"
-  },
-  "5": {
-    "name": "ソル",
-    "face": null,
-    "text": "「宝物増えてきました！\n　寝心地も良くなってきました！\n　もっと……もっとほしい………おおおおお……」"
-  },
-  "6": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おおおおお……この山のような宝物………\n　金貨もいっぱいで寝心地が最高………しあわせ……」"
-  },
-  "7": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おおおおお……\n　ゆえつ……かいらく……えつらく……\n　ここがわたしのえるどらど……」"
-  },
-  "8": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おおおおお……\n　ドラゴンの本能がつんつん刺激される……\n　山のような宝物こそが幸せだと……」"
-  },
-  "9": {
-    "name": "ソル",
-    "face": null,
-    "text": "「ドラゴンにうまれてよかった……\n　この極楽…しゃんぐりらはここにある……」"
-  },
-  "10": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": "睡眠時のセリフ"
-  },
-  "12": {
-    "name": "ソル",
-    "face": null,
-    "text": "「なんてこった……\n　こんなに寝心地がいいとはぁ………」"
-  },
-  "13": {
-    "name": "ソル",
-    "face": null,
-    "text": "「ああ……だめぇ……\n　まどろみが……わたしをどっかへつれさってく……」"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": "脱皮時のセリフ"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「ひとまわり大きくなれたきがします！！」"
-  },
-  "17": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお……新たな世界の扉がひらいた……」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「何か成長した気分！」"
-  },
-  "19": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「未知の世界───これが成長というもの………」"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "部屋改装時のセリフ"
-  },
-  "22": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼこぼー！」"
-  },
-  "23": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお…！わたしの巣が立派になってきました！\n　えへへーありがとー」"
-  },
-  "24": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼこぼー！」"
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼ！」「こぼこぼ！」"
-  },
-  "27": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「なんたるゴージャス！えくせれんと！\n　見違えるようになりました！やったー」"
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼぼ！！」「こぼっこぼっ！！」"
-  },
-  "30": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおおおお……ちょっとやりすぎなくらいパワーアップ……\n　お城みたいですね！！」"
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "32": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「えへへー、わたしの巣をどんどん飾っていきましょうー\n　たのしいなーえへへー」"
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "37": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "38": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Various small events"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": "A line when the treasure increases"
+    },
+    "5": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"The treasures have increased! The bed is becoming\nmore comfortable! I want more... I want more...\nohhhhh...\""
+    },
+    "6": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ohhh... This mountain of treasures... With plenty\nof gold coins, the bed is so comfortable... I'm so\nhappy...\""
+    },
+    "7": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ooooo... abundance... comfort... luxury... This\nis my world...\""
+    },
+    "8": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ooooo... The dragon's instincts are being\nstimulated... Happiness lies in mountains of\ntreasures...\""
+    },
+    "9": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"I'm glad I was born a dragon... This paradise...\nthe treasures are here...\""
+    },
+    "10": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": "Lines spoken during sleep"
+    },
+    "12": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"What the heck... I can't believe how comfortable\nthis is...\""
+    },
+    "13": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ahh... no... this drowsiness... it's taking me\nsomewhere...\""
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": "Lines spoken during molting"
+    },
+    "16": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I feel like I've grown a size larger!!\""
+    },
+    "17": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo... The door to a new world has opened...\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"I feel like I've grown in some way!\""
+    },
+    "19": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"An unknown world───This is what growth is all\nabout……\""
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "Lines spoken during room renovation"
+    },
+    "22": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Kobokoboo!\""
+    },
+    "23": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo...! My nest has become splendid! Ehehe,\nthank you~\""
+    },
+    "24": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Kobokoboo!\""
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!\"\"Kobokoboo!\""
+    },
+    "27": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"What a gorgeous transformation! It's like I've\nbecome unrecognizable! Yay!\""
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!!\" \"Kobokoboo!!\""
+    },
+    "30": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo... I've powered up so much it's almost\noverdone... It's like a castle!!\""
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "32": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ehehe, let's keep decorating my nest more and\nmore! This is so much fun, ehehe.\""
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "37": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "38": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

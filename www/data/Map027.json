@@ -14852,14 +14852,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>\\py[10]「よし、これでマンティコア退治に移れるな。"
+                                "\\n<Ma-kun>Alright, with this we can move on to\nexterminating the Manticore. Let's prepare and\nhead for the top of the mountain."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　準備してから山の上を目指そう」"
+                                ""
                             ]
                         },
                         {
@@ -15209,7 +15209,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<マーくん>「先に行商人を依頼通り護衛してからにしよう」"
+                                "\\n<Ma-kun>Let's escort the merchant as requested first."
                             ]
                         },
                         {
@@ -25153,14 +25153,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊　上層部に移動しますか？　＊"
+                                "＊Do you want to move to the upper level?＊（\\c[10]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>（\\c[10]注：ダンジョンを出るまで前の階層には戻れません\\c[0]）"
+                                ""
                             ]
                         },
                         {
@@ -25168,8 +25168,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "移動する",
-                                    "キャンセル"
+                                    "Move",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -28430,14 +28430,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<行商人>「ありがとうございましたソル様！"
+                                "\\n<Peddler>Thank you very much, Lady Sol! I was able to\nsafely cross the mountain..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　無事山を超える事ができました……！」"
+                                ""
                             ]
                         },
                         {
@@ -28454,14 +28454,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<行商人>「わずかばかりのお礼ではありますが、どうか"
+                                "\\n<Peddler>It's just a small token of my appreciation, but\nplease accept it...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お受け取りください……！！」"
+                                ""
                             ]
                         },
                         {
@@ -28533,7 +28533,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\ii[\\v[1]]を手に入れた！"
+                                "Obtained \\v[1]!"
                             ]
                         },
                         {
@@ -28950,7 +28950,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<オーク>「ブヒィ！？」"
+                                "\\n<Orc>Bweh!?"
                             ]
                         },
                         {

@@ -1602,7 +1602,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「よし、片付いたぞ」"
+                                "\\n<Adventurer>Alright, it's all cleaned up."
                             ]
                         },
                         {
@@ -1619,14 +1619,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「チッ、汚らわしいオーク共め。"
+                                "\\n<Adventurer>Tch, those filthy orcs. They're up to something\nawful."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ひでえ事してやがる」"
+                                ""
                             ]
                         },
                         {
@@ -1699,14 +1699,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「この子も、命に別状はなさそうだな……"
+                                "\\n<Ma-kun>This child doesn't seem to be in a life-\nthreatening condition... Let's send them back to\nthe village. They should recover soon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　村に送り返してやろう。すぐに回復するだろう」"
+                                ""
                             ]
                         },
                         {
@@ -1964,7 +1964,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フレイ>「やめ…やだ…もうやだぁっ…！！」"
+                                "\\n<Frey>Stop... No... I can't take it anymore...!!"
                             ]
                         },
                         {
@@ -1981,7 +1981,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フレイ>「やだ、また、また中に出されるぅっ…！！」"
+                                "\\n<Frey>No, not again, I can't take being cummed inside\nagain...!!"
                             ]
                         },
                         {
@@ -1998,38 +1998,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "この古びた下水道に巣食っているオークたちが、"
+                                "In this decrepit sewer, the orcs lurking here\nsurrounded what seemed to be a young female\nmartial artist, bound her, and made her their\nplaything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "拳士らしき少女を取り囲み、拘束し、嬲り者にしていた。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<フレイ>「ばか、ばか、やだ、もう、やめてよぉ……っ！！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　もう、何回、したんだよぉ…っ！！」"
+                                ""
                             ]
                         },
                         {
@@ -2046,21 +2022,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オークの無限にも等しい獣欲に付き合わされ、少女拳士は"
+                                "\\n<Frey>Stupid, stupid, no, stop it...!! How many times\ndo I have to go through this...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "泣きながら何度も絶頂していた。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "オークの人とは違う形状のペニスに、彼女は耐えきれない。"
+                                ""
                             ]
                         },
                         {
@@ -2077,14 +2046,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フレイ>「やだ、イく、また、イクっ…！！！"
+                                "Forced to endure the insatiable lust of the orcs,\nthe young female martial artist climaxed\nrepeatedly while crying. She couldn't bear the\npenis of a different shape from a human orc."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　やだぁ、豚に、犯されて、イくの、やだよぉっ…！！！！」"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2101,7 +2077,31 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フレイ>「んぁぁぁぁぁっ……！！！！！」"
+                                "\\n<Frey>No, I'm cumming, again, I'm cumming...!!! No,\nbeing violated by pigs, cumming, I don't want\nto...!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Frey>Nnnghhh......!!!!"
                             ]
                         },
                         {
@@ -2123,28 +2123,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "少女拳士の、悲鳴と絶頂の入り混じった叫び声が"
+                                "The screams and climactic cries of the young\nfemale martial artist echo through the sewer.\nHowever, the orcs, convinced that it would\nultimately reach no one, sneer mockingly."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "下水道にこだまする。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "だが所詮、誰にも届かないだろうとタカをくくって"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "オークたちはせせら笑う。"
+                                ""
                             ]
                         },
                         {
@@ -2161,7 +2161,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "近づいてくる冒険者たちの足音に、オークが気づく由はなかった。"
+                                "The orcs did not notice the approaching footsteps\nof the adventurers."
                             ]
                         },
                         {

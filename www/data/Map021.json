@@ -1546,7 +1546,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<爺魔法使い>「新商品が入荷じゃよ」"
+                                "\\n<Grandpa Wizard>We've got new products in stock, ya know."
                             ]
                         },
                         {
@@ -1610,7 +1610,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<爺魔法使い>「新商品が入荷じゃよ」"
+                                "\\n<Grandpa Wizard>We've got new products in stock, ya know."
                             ]
                         },
                         {
@@ -2093,7 +2093,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\^"
+                                ""
                             ]
                         },
                         {
@@ -2101,12 +2101,12 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[336]購入する　　　　",
-                                    "\\i[4]世間話",
+                                    "\\i[336] Purchase",
+                                    "Small talk",
                                     "　if(v[8] >= 1) ",
                                     "　if(v[8] >= 1) ",
                                     "　if(v[8] >= 1) ",
-                                    "\\i[82]村に戻る"
+                                    "Return to the village"
                                 ],
                                 5,
                                 0,
@@ -2831,14 +2831,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "周囲を見渡すと、色とりどりの薬品が"
+                                "When I look around, colorful potions are bubbling\nand giving off a mysterious fragrance."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ゴポゴポと泡を立てて不思議な芳香を放っている。"
+                                ""
                             ]
                         },
                         {
@@ -2855,14 +2855,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「まぁゆっくりしていくが良かろう。"
+                                "\\n<Grandpa Wizard>Well, take your time. Your lifespan as a Gold\nDragon is long."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お主ゴールドドラゴンの寿命は長いでな」"
+                                ""
                             ]
                         },
                         {
@@ -2930,14 +2930,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「アイテムは普段はなるべく使わず、だが"
+                                "\\n<Grandpa Wizard>Items should be used sparingly in everyday\nsituations, but don't hesitate to use them when\nnecessary."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　必要な場面になったら惜しみなく使うんじゃよ」"
+                                ""
                             ]
                         },
                         {
@@ -2954,14 +2954,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「ポーションひとつケチって全滅しては"
+                                "\\n<Grandpa Wizard>You shouldn't skimp on potions, or you'll regret\nit if everyone gets wiped out."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　目も当てられんからのう」"
+                                ""
                             ]
                         },
                         {
@@ -3029,14 +3029,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「オススメは守護のコインじゃよ"
+                                "\\n<Grandpa Wizard>I recommend the Guardian Coin. It can raise your\ndefense for one turn."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　１ターンの間防御力をあげれるんじゃよ」"
+                                ""
                             ]
                         },
                         {
@@ -3053,14 +3053,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「敵の強力な攻撃にタイミングを合わせれば"
+                                "\\n<Grandpa Wizard>If you time it right against the enemy's powerful\nattack, the damage will decrease significantly.\nIt's a great deal!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　被害がググっと減るんじゃ。お買い得じゃな！」"
+                                ""
                             ]
                         },
                         {
@@ -3128,21 +3128,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「この世には様々なアーティファクトがある。"
+                                "\\n<Grandpa Wizard>In this world, there are various artifacts.\nDepending on how they are used, they can be\nincredibly useful, but if used incorrectly, they\ncan also lead to self-destruction..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　使い方次第では物凄い有用なものもあれば、使い方を"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　誤れば自滅してしまうものまで多数な……」"
+                                ""
                             ]
                         },
                         {
@@ -3159,14 +3159,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「手に入れたならば、上手く使いこなせるよう"
+                                "\\n<Grandpa Wizard>If you obtain it, it's important to carefully\nconsider how to use it effectively."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　しっかり考えるが良かろう」"
+                                ""
                             ]
                         },
                         {
@@ -3234,14 +3234,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「アーティファクトを使用するにはチャージがいるんじゃ。"
+                                "\\n<Grandpa Wizard>To use the artifact, you need to charge it. The\nmore powerful the artifact, the more charge it\nrequires."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　強力なアーティファクトほど、大量のチャージが必要じゃ」"
+                                ""
                             ]
                         },
                         {
@@ -3258,14 +3258,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<爺魔法使い>「アーティファクトの扱いに長けた冒険者がおれば、"
+                                "\\n<Grandpa Wizard>If there's an adventurer skilled in handling\nartifacts, they could help speed up the charging.\nIt might be worth looking for one."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　チャージ速度を高めてくれよう。探してみるのもよいぞ」"
+                                ""
                             ]
                         },
                         {

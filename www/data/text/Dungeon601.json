@@ -1,132 +1,132 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：試練の迷宮"
-  },
-  "2": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "突如として黒い稲光が走り空間を割く。\n\\ruby[転移門](ポータル)が玄室に現れ、魔界と現世との間を繋いだ。\nその禍々しき魔力の門より、蒼白き皮膚の大悪魔が召喚される。"
-  },
-  "4": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "破壊と血と死を求め、\\ruby[強大なる悪魔](グレーターデーモン)が降臨する。\n殺戮の咆哮が戦闘の狼煙となった───！"
-  },
-  "5": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "8": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "鋼すら弾く大悪魔の肌が裂け、青い血が玄室に迸った。\n戦士の裂帛の気合と共に振り抜かれた一撃が、\n蒼き肌を斬る。苦悶の声ならぬ声を上げ、巨体が揺れる。"
-  },
-  "9": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "幾多の死闘を切り抜けた冒険者達によって、\n強大なる悪魔は次第に追い詰められてゆく。"
-  },
-  "10": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "巨人さえ薙ぎ倒すその爪が振り下ろされる寸前、\n金色の竜が悪魔の手首に齧りついた。\n次の瞬間、悪魔の手は食い千切られて宙を舞う。"
-  },
-  "11": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "そして、己を守る腕の無くなった悪魔の頭に、\n冒険者の鋼の刃がめり込んだ。頭部を両断する勢いで\n振るわれた剣は、そのまま大悪魔の胸部まで切り裂く。"
-  },
-  "12": {
-    "name": "ナレーション",
-    "face": "-",
-    "text": "現世での生命を絶たれた悪魔は、そのまま\n塵へと帰っていった。"
-  },
-  "13": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「あった…！これよきっと！」"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお……これが……これがドラゴンスレイヤー……\n　すごいけどこわい！！」"
-  },
-  "15": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「あ、そっか。\n　ソルちゃんスレイヤーでもあるわけだしねえ……」"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "困1",
-    "text": "「ﾋｩｯ」"
-  },
-  "17": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「……間違いありませんね。これが伝説の……ヤマノウの剣です。\n　これでようやく、レッドドラゴンとの戦いに勝機が出てきました。\n　ですが……それでも勝てる見込みは薄いですが……」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「それでも…わたしやります！！」"
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Trial Labyrinth"
+    },
+    "2": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "Suddenly, a black flash of lightning cuts through\nthe air. A portal appears in the chamber,\nconnecting the demon world and the human world.\nFrom that ominous gateway of demonic power, a\ngreat demon with pale skin is summoned."
+    },
+    "4": {
+        "name": "Narration",
+        "face": null,
+        "text": "Seeking destruction, blood, and death, a Greater\nDemon descends. The roar of slaughter becomes the\nsignal for battle!"
+    },
+    "5": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "8": {
+        "name": "Narration",
+        "face": null,
+        "text": "The skin of the demon, which repels even steel, is\ntorn apart, and blue blood gushes forth from its\ngenitals. A strike, swung with the determination\nof a warrior, cuts through the blue skin. Instead\nof a voice of agony, it lets out a different\nsound, and its massive body trembles."
+    },
+    "9": {
+        "name": "Narration",
+        "face": null,
+        "text": "The mighty demon is gradually cornered by the\nadventurers who have survived countless deadly\nbattles."
+    },
+    "10": {
+        "name": "Narration",
+        "face": null,
+        "text": "Just as its claws, capable of felling even giants,\nare about to strike, a golden dragon sinks its\nteeth into the demon's wrist. In the next moment,\nthe demon's hand is torn off and dances through\nthe air."
+    },
+    "11": {
+        "name": "Narration",
+        "face": null,
+        "text": "And then, a steel blade of the adventurers pierced\nthe head of the demon, which had lost its arm in\nself-defense. The sword, swung with enough force\nto bisect the head, continues to tear through the\nchest of the great demon."
+    },
+    "12": {
+        "name": "Narration",
+        "face": "-",
+        "text": "The demon, whose life in this world has been\nextinguished, returns to dust."
+    },
+    "13": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"I found it...! This is definitely it!\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooo... This is... This is the Dragon Slayer...\nAmazing, but scary!!\""
+    },
+    "15": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Ah, I see. Since Sol-chan is also a Slayer...\""
+    },
+    "16": {
+        "name": "Sol",
+        "face": "困1",
+        "text": "*Gasp*"
+    },
+    "17": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"...There is no mistake. This is the legendary...\nYamano's sword. With this, we finally have a\nchance of winning the battle against the Red\nDragon. However... even so, the prospect of\nwinning is slim...\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"Even so... I will do it!!\""
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

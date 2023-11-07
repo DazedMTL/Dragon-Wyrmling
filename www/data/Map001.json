@@ -2010,14 +2010,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "And time continues to flow──────..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そして、時は流れて──────…"
+                                ""
                             ]
                         },
                         {
@@ -2081,21 +2081,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "The girl walks uneasily through the forest. She\nhad never ventured this far from the village\nbefore."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "森の中を、少女は不安げに歩いていく。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "村を離れてこんな遠いところになど来たことなどなかった。"
+                                ""
                             ]
                         },
                         {
@@ -2112,21 +2112,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "However, the girl had a purpose. That's why,\ndespite being scared, she continued forward."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "だが、それでも少女には目的があった。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "だから、怖いけれども進んでいく。"
+                                ""
                             ]
                         },
                         {
@@ -2197,21 +2197,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "The place the girl was taught about long ago...\nHer destination must be here. But... is it really\nhere? The girl looks around uneasily."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "少女が昔、教わった場所…目的地はきっと、ここ。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "でも…ここに……本当に？　少女は不安げに辺りを見回す。"
+                                ""
                             ]
                         },
                         {
@@ -2304,21 +2304,21 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
+                                "Before she knew it────── it really appeared right\nin front of her. It was incredibly large...\nshining in gold... magnificent... a dragon...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 2,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "いつの間にか───本当に、目の前に姿を現した。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 2,
-                            "parameters": [
-                                "凄く大きくて…黄金に輝いていて…雄大な…ドラゴン……！"
+                                ""
                             ]
                         },
                         {
@@ -2847,7 +2847,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「えへへー、いらっしゃいませー！　ゴールドうさぎさんです！」"
+                                "\\n<Sol>Ehehe, welcome! I'm the Gold Rabbit!"
                             ]
                         },
                         {
@@ -2904,14 +2904,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Sol started working as a waitress..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ソルはウェイトレスとして働き始めた…"
+                                ""
                             ]
                         },
                         {
@@ -2942,7 +2942,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「おーいソルちゃん、エール一杯！」"
+                                "\\n<Adventurer>Hey Sol, a glass of ale!"
                             ]
                         },
                         {
@@ -2959,7 +2959,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「俺は串焼きをくれー！」"
+                                "\\n<Adventurer>I'll have some grilled skewers!"
                             ]
                         },
                         {
@@ -2976,7 +2976,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「ベリーパイ！ベリーパイを持ってきてくれー！」"
+                                "\\n<Adventurer>Berry pie! Bring me some berry pie!"
                             ]
                         },
                         {
@@ -3018,7 +3018,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「はーい！！」"
+                                "\\n<Sol>Yes!!"
                             ]
                         },
                         {
@@ -3061,21 +3061,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Working as a waitress, by the time most of the\ncustomers were drunk, one of the adventurers\nstarted caressing Sol's butt..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ウェイトレスとして働き、客もだいたい酔い潰れた頃…"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "冒険者の一人が、ソルの尻を撫でてきた…"
+                                ""
                             ]
                         },
                         {
@@ -3099,14 +3099,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「なぁソルちゃん……どうだい？"
+                                "\\n<Adventurer>Hey Sol-chan... how about having a little fun\nwith me?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　おいちゃんと…ちょっと楽しまない？」"
+                                ""
                             ]
                         },
                         {
@@ -3148,14 +3148,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「え……っ？"
+                                "\\n<Sol>Eh...? W-Wait... Ahh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ちょ、………っ、んぁっ……」"
+                                ""
                             ]
                         },
                         {
@@ -3224,9 +3224,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "だめ",
-                                    "もう…！　en(v[20] >= 3)",
-                                    "えへへ…　en(v[20] >= 6)"
+                                    "No",
+                                    "Jeez!　en(v[20] >= 3)",
+                                    "Hehe　en(v[20] >= 6)"
                                 ],
                                 0,
                                 0,
@@ -3281,14 +3281,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「だ、だめですよ！！そういうことしちゃ！！"
+                                "\\n<Sol>N-No, you can't do that! Don't touch me like\nthat! I'll get angry, you know!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　わたし、おこりますよ！！」"
+                                ""
                             ]
                         },
                         {
@@ -3312,7 +3312,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「ちぇー…」"
+                                "\\n<Adventurer>Tch..."
                             ]
                         },
                         {
@@ -3384,14 +3384,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「むー………もー、しょーがないですねぇ。"
+                                "\\n<Sol>Mmm... Well, I guess there's no helping it. Just\na little bit, okay?!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ちょっとだけですからね！！」"
+                                ""
                             ]
                         },
                         {
@@ -3516,14 +3516,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「あぅ……んん……っ………"
+                                "\\n<Sol>Ah...nnn...huh... I was kind of looking forward\nto it..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　えへへ、期待しちゃってました……」"
+                                ""
                             ]
                         },
                         {
@@ -3575,14 +3575,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「ぅぅん……っ……はやくぅ………"
+                                "\\n<Sol>\\py[10] Ugh...h...hurry... I've been waiting for\nthis, you know..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　まってたんですからねぇ……」"
+                                ""
                             ]
                         },
                         {
@@ -4821,45 +4821,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "法の光差さぬ闇の世界に隠された競売場。"
+                                "An auction hidden in a world of darkness untouched\nby the light of justice. The eerie light\nilluminates the nobles with wicked smiles. Their\ninsatiable, bloated desires can no longer be\nsatisfied by ordinary means."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "妖しい明かりに照らされるのは悪徳の笑みを浮かべた貴族たち。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "普通では満足できなくなった、肥え太った欲望たち。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "そして、司会が舞台に現れる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "その横には、首輪をつけられたソルの姿がある。"
+                                ""
                             ]
                         },
                         {
@@ -4876,21 +4852,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その首輪には能力封じの魔術が刻まれており、"
+                                "And then, the host appears on stage. Next to them\nis Sol, wearing a collar."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ソルは竜の姿に戻ることも、抵抗する事も逆らう事すらも"
+                                "A magic spell to seal her abilities is engraved on\nthat collar, rendering Sol unable to transform\ninto a dragon, resist, or even defy her current\nstate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "できない状態にされていた。"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -4914,21 +4914,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<人攫い>「貴族、商人、紳士淑女の皆様！我々が今宵、"
+                                "\\n<Kidnapper>Ladies and gentlemen of nobility, merchants, and\nesteemed individuals! Tonight, we present to you\nthis young lady! She is none other than the 'Child\nof the Golden Dragon'!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　皆様にご紹介するのは、この少女！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　実は他ならぬ「金竜の子」なのです！」"
+                                ""
                             ]
                         },
                         {
@@ -4957,45 +4957,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<人攫い>「今は人の姿をとっておりますが、この金色の尾こそ"
+                                "\\n<Abductor>Although she currently takes on a human form,\nthis golden tail is the evidence that she is\nindeed the Golden Dragon!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　彼女が金竜である証拠でございます！」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                0,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<人攫い>「その重さと同量の黄金よりも高価なこの存在！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　この美しくも珍しい少女とのめくるめく一晩、今ならば"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　金貨1000枚からスタートであなたのものに！」"
+                                ""
                             ]
                         },
                         {
@@ -5012,14 +4981,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<人攫い>「さぁさぁ！いかがですか！"
+                                "\\n<Kidnapper>This existence, more valuable than an equal\nweight of gold! For a night of enchantment with\nthis beautiful and rare girl, starting at 1000\ngold coins, she can be yours!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                0,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "　興味がある方は、金貨の袋を持って挙手を！」"
+                                "\\n<Person Snatcher>Now, now! How about it? Those interested, raise\nyour bags of gold coins!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5043,21 +5043,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "貴族たちは喜んで手をあげ、値段を告げていく。"
+                                "The nobles eagerly raise their hands and state\ntheir prices. The one who offers the highest price\nwill gain the right to embrace Sol. It's a\ndespicable sight, even the pigs would turn away\nfrom it."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "もっとも高値をつけた者が、ソルを抱く権利を得るのだ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "豚すら顔を背ける浅ましい光景。"
+                                ""
                             ]
                         },
                         {
@@ -5174,14 +5174,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "欲望の夜は進んでいく。"
+                                "The night of desire progresses. What will become\nof Sol's fate..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "果たして、ソルの運命は…………"
+                                ""
                             ]
                         },
                         {
@@ -8861,7 +8861,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「さて、どなたの事を聞きたいのでしょうか？」"
+                                "Now, whose matter would you like to inquire\nabout?"
                             ]
                         },
                         {
@@ -9028,7 +9028,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・戻る"
+                                    "・Go back"
                                 ],
                                 -2,
                                 -1,
@@ -9281,7 +9281,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・次ページへ　　　"
+                                    "Next page"
                                 ],
                                 -2,
                                 -1,
@@ -9447,7 +9447,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・前ページへ"
+                                    "・Go to the previous page"
                                 ],
                                 -2,
                                 -1,
@@ -9707,7 +9707,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・次ページへ　　　"
+                                    "Next page"
                                 ],
                                 -2,
                                 -1,
@@ -9873,7 +9873,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・前ページへ"
+                                    "・Go to the previous page"
                                 ],
                                 -2,
                                 -1,
@@ -10133,7 +10133,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・次ページへ　　　"
+                                    "・Next page"
                                 ],
                                 -2,
                                 -1,
@@ -10299,7 +10299,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・前ページへ"
+                                    "・Previous page"
                                 ],
                                 -2,
                                 -1,
@@ -10527,7 +10527,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "・先頭へ　　　　　"
+                                    "・To the front"
                                 ],
                                 -2,
                                 -1,
@@ -10913,21 +10913,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<酒場の主人>\\py[10]「今日はなんと！"
+                                "\\n<Barkeeper>Today, we have freshly caught Manticore tail\nsteak! It's a new taste that no one has ever tried\nbefore!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　獲れたてのマンティコアの尾のステーキだ！"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　まだ誰も食った事のない新たな味だぞ！」"
+                                ""
                             ]
                         },
                         {
@@ -10990,7 +10990,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「おおおおおおお………！」"
+                                "\\n<Sol>Oooooohhhhh.........!"
                             ]
                         },
                         {
@@ -11007,14 +11007,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\py[10]その、料理と表現するにはあまりに禍々しい肉塊を、"
+                                "Sol unhesitatingly puts into her mouth the meat\nlump that is too ominous to be described as a\ndish."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ソルは何の疑いもなく口に入れる──────"
+                                ""
                             ]
                         },
                         {
@@ -11052,7 +11052,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「…………」"
+                                "\\n<Sol>\\py[10]「............」"
                             ]
                         },
                         {
@@ -11076,7 +11076,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「…………………………」"
+                                "\\n<Sol>\\py[10]「..............................」"
                             ]
                         },
                         {
@@ -11365,7 +11365,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<酒場の主人>\\py[10]「今日は、マンティコアの尾と羽のソテーを……」"
+                                "\\n<Barkeep>Today, we have sautéed manticore tail and\nwings..."
                             ]
                         },
                         {
@@ -11435,7 +11435,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「フシャーッ」"
+                                "\\n<Sol>*sizzle*"
                             ]
                         },
                         {
@@ -11459,7 +11459,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「あっ……ソルちゃんが威嚇してる……」"
+                                "\\n<Adventurer>Ah... Sol-chan is growling..."
                             ]
                         },
                         {

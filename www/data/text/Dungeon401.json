@@ -1,282 +1,282 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：森林ダンジョン冒頭"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「おい、大変だ！誰か手当を！！」"
-  },
-  "4": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「ん？どうした？」"
-  },
-  "5": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「村の前で、こいつが倒れてた…！\n　かなりの重傷だ、誰か診てやってくれ！」"
-  },
-  "6": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「は、はい！！今行きます！」"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "8": {
-    "name": "マーくん",
-    "face": null,
-    "text": "「エルフか……。冒険者ではないな。\n　近くの森の部族ってところか」"
-  },
-  "9": {
-    "name": "エリック",
-    "face": "普通3",
-    "text": "「それで……どうしたの？その傷……かなり酷いけれど……」"
-  },
-  "10": {
-    "name": "エルフ",
-    "face": null,
-    "text": "「済まん……どうか手助けを……！\n　私たちの森に……グリーンドラゴンが……現れた……」"
-  },
-  "11": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「！！　グリーンドラゴン……！」"
-  },
-  "12": {
-    "name": "エルフ",
-    "face": null,
-    "text": "「我らの部族は応戦したが……奴には敵わなかった。\n　殆どの者は食われるか…遊びで痛めつけられ、弄ばれた……」"
-  },
-  "13": {
-    "name": "エルフ",
-    "face": null,
-    "text": "「あのままでは、森が……奴に穢し尽くされる。\n　済まぬが…平地の人間族に助けを求めにきた……」"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「おい…どうする……？」"
-  },
-  "16": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「危険な奴だぞ、グリーンドラゴンは……」"
-  },
-  "17": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「しかし、放っておいてはまた犠牲者が……」"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": "ソル",
-    "face": "怒4",
-    "text": "「やります！！ グリーンドラゴン許しておけません！」"
-  },
-  "20": {
-    "name": "エリック",
-    "face": "哀1",
-    "text": "「……なんかソルちゃん、すごく敵愾心剥き出しにしてない？」"
-  },
-  "21": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「仕方がございません……。\n　我々\\ruby[金属竜](　メタリック　)にとって、\\ruby[色彩竜](　カラー　)は不倶戴天の敵。\n　かの者の存在すら許せぬ上に、斯様な狼藉を聞いてしまっては……\n　悪を討つ事を本能として生まれた金竜としては………」"
-  },
-  "22": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「ああ、そっか……。\n　普段が普段だからつい忘れちゃうけど、この子金竜なのよね……」"
-  },
-  "23": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ええ……何かつい忘れてしまいますが……金竜でございます……\n　子犬に似ておりますが子犬ではございません……」"
-  },
-  "24": {
-    "name": "ソル",
-    "face": "怒3",
-    "text": "「ぶー」"
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": "マーくん",
-    "face": null,
-    "text": "「だが相手は竜、それもエルフの部族を丸ごと潰した大物だぞ。\n　気は抜くんじゃないぞ。準備は万端にな」"
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": "●場面：グリーンドラゴン戦"
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "33": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "森が戦慄き、木々が激しい風に揺れて葉が舞い散る。\nこの森の主たる緑竜が、翼をはためかせて降り立った。"
-  },
-  "34": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "翠色の鱗持つ邪悪なる竜が、グッグッグ…と\n唸り声に似た嗤い声を上げる。"
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": "緑竜",
-    "face": null,
-    "text": "「ほほう、小賢しいエルフ共が何を企むのかと思えば……\n　このような貧相な者に縋るとはな。何とも哀れなものよ！」"
-  },
-  "37": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「出やがった……か！」"
-  },
-  "38": {
-    "name": "エリック",
-    "face": "怒1",
-    "text": "「こいつが…グリーン………！！」"
-  },
-  "39": {
-    "name": "緑竜",
-    "face": null,
-    "text": "「そこに居るちびは金竜か？ハハハ、哀れを通り越して滑稽だ！\n　まだ尻に殻の付いてる金の雛ごときがこの我に歯向かうと！！\n　ハハハハハ！！！！」"
-  },
-  "40": {
-    "name": "緑竜",
-    "face": null,
-    "text": "「良かろう！貴様らは簡単には殺してはやらん！\n　痛めつけ、泣き喚く様を森に住む者全てに見せつけてやろう！\n　貴様らの哀れな命乞いを聞いた時のエルフ共の顔が楽しみだ！」"
-  },
-  "41": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「そんなこと、ぜったい許しません！\n　エルフさんの森、返してもらいます！！」"
-  },
-  "42": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "44": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "森を大いなる獣の咆哮が揺るがす。\nふたつの竜の影が交錯し、雷鳴にも似た轟音を立てて地に堕ちる。"
-  },
-  "45": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "土埃が収まり、シルエットが鮮明になっていく。\n現れたのは、緑の巨体の上にのしかかり\n止めを刺さんとする金竜の姿だった。"
-  },
-  "46": {
-    "name": "緑竜",
-    "face": null,
-    "text": "「グ……ガ………！！！」"
-  },
-  "47": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "グリーンドラゴンが最期の悪足掻きに大きく顎を開き、\n毒ガスの吐息を吐きかける瞬間……金竜の鋭い牙が\n首を食い千切った。"
-  },
-  "48": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "ブレスを吐き出す事も叶わず、緑竜は血反吐を撒き散らす。\n頭を失った体が激しく痙攣し、それもまたすぐに止まった。"
-  },
-  "49": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "森の主の死を告げるかのように、\n木々から鳥たちが飛び去った。"
-  },
-  "50": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "51": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "52": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "53": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "54": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "55": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Beginning of the Forest Dungeon"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Hey, it's serious! Someone, help!!\""
+    },
+    "4": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Hm? What's wrong?\""
+    },
+    "5": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"This person was collapsed in front of the\nvillage...! They're seriously injured, can someone\nplease take a look at them?\""
+    },
+    "6": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Y-Yes! I'll go right now!\""
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "8": {
+        "name": "Ma-kun",
+        "face": null,
+        "text": "\"An elf... Not an adventurer, huh? Must be from\nthe nearby forest tribe.\""
+    },
+    "9": {
+        "name": "Eric",
+        "face": "普通3",
+        "text": "\"So... what happened? Those wounds... they're\nquite severe, aren't they?\""
+    },
+    "10": {
+        "name": "Elf",
+        "face": null,
+        "text": "\"I'm sorry... please help us...! A green dragon\nappeared in our forest...\""
+    },
+    "11": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"!! A green dragon...!\""
+    },
+    "12": {
+        "name": "Elf",
+        "face": null,
+        "text": "\"Our tribe fought back... but we couldn't match\nhim. Most of our people were either eaten or\ntortured and toyed with for his amusement...\""
+    },
+    "13": {
+        "name": "Elf",
+        "face": null,
+        "text": "\"At this rate, the forest will be completely\ndefiled by him. I'm sorry... we came to ask for\nhelp from the people of the plains...\""
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Hey... What should we do...?\""
+    },
+    "16": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"A green dragon is a dangerous foe...\""
+    },
+    "17": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"But if we leave it alone, there will be more\nvictims...\""
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": "Sol",
+        "face": "怒4",
+        "text": "\"I'll do it!! We can't let the green dragon get\naway with this!\""
+    },
+    "20": {
+        "name": "Eric",
+        "face": "哀1",
+        "text": "\"Sol, aren't you showing a lot of hostility?\""
+    },
+    "21": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"There's no other choice... For us metallic\ndragons, the colored dragons are natural enemies.\nNot only can we not tolerate their existence, but\nto hear of such atrocities... As a golden dragon\nborn with the instinct to defeat evil...\""
+    },
+    "22": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"Ah, I see... I tend to forget because she's\nusually so laid back, but this girl is a golden\ndragon, isn't she?\""
+    },
+    "23": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Yes... I tend to forget something, but she is a\ngolden dragon... She may resemble a puppy, but she\nis not a puppy...\""
+    },
+    "24": {
+        "name": "Sol",
+        "face": "怒3",
+        "text": "\"Hmph\""
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": "Ma-kun",
+        "face": null,
+        "text": "\"But the opponent is a dragon, and a big shot who\nwiped out an entire elf tribe. Don't let your\nguard down. Be fully prepared.\""
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Green Dragon Battle"
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "33": {
+        "name": "Narration",
+        "face": null,
+        "text": "The forest trembles, the trees sway in the fierce\nwind, and leaves scatter. The master of this\nforest, the green dragon, descends with flapping\nwings."
+    },
+    "34": {
+        "name": "Narration",
+        "face": null,
+        "text": "The dragon with emerald scales lets out a sneering\nsound that resembles a growl... Gugugugu..."
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": "Green Dragon",
+        "face": null,
+        "text": "\"Oh, so the clever elves are up to something... To\nthink they would rely on such a pitiful creature.\nHow pathetic!\""
+    },
+    "37": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"They've appeared...!\""
+    },
+    "38": {
+        "name": "Eric",
+        "face": "怒1",
+        "text": "\"This is... the Green...!!\""
+    },
+    "39": {
+        "name": "Green Dragon",
+        "face": null,
+        "text": "\"Is that little one over there a golden dragon?\nHahaha, it's beyond pathetic! To think a golden\nchick with a shell on its butt would dare to\noppose me!! Hahahahaha!!\""
+    },
+    "40": {
+        "name": "Green Dragon",
+        "face": null,
+        "text": "\"Very well! I won't kill you easily! I will make\nyou suffer and show all the forest dwellers how\nyou cry and scream in pain! I look forward to\nseeing the faces of the elves when they hear your\npitiful pleas for mercy!\""
+    },
+    "41": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"I absolutely won't allow that! I will take back\nthe forest of the elves!!\""
+    },
+    "42": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "44": {
+        "name": "Narration",
+        "face": null,
+        "text": "The roar of a great beast shakes the forest. The\nshadows of two dragons intersect, making a\nthunderous noise as they fall to the ground."
+    },
+    "45": {
+        "name": "Narration",
+        "face": null,
+        "text": "The dust settles, and the silhouette becomes\nclear. What appeared was the figure of a golden\ndragon, perched on top of the massive green body,\nattempting to deliver a decisive blow."
+    },
+    "46": {
+        "name": "Green Dragon",
+        "face": null,
+        "text": "\"G...gu...gugugu!!\""
+    },
+    "47": {
+        "name": "Narration",
+        "face": null,
+        "text": "In the moment when the Green Dragon opened its jaw\nwide for one last desperate struggle and exhaled a\nbreath of poison gas... the sharp fangs of the\ngolden dragon tore off its head."
+    },
+    "48": {
+        "name": "Narration",
+        "face": null,
+        "text": "Unable to even exhale its breath, the green dragon\nspews blood. Its body, now headless, convulses\nviolently, but soon comes to a stop."
+    },
+    "49": {
+        "name": "Narration",
+        "face": null,
+        "text": "As if announcing the death of the forest's master,\nthe birds flew away from the trees."
+    },
+    "50": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "51": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "52": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "53": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "54": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "55": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

@@ -2424,7 +2424,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\^"
+                                ""
                             ]
                         },
                         {
@@ -2432,10 +2432,10 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[281]首なし美人亭　",
-                                    "\\i[367]魔術師の塔",
-                                    "\\i[7]ハルピュイアの宿　if(s[184])",
-                                    "キャラバン　if(v[4] >= 1)"
+                                    "\\i[281] Headless Beauty Teahouse",
+                                    "Tower of the Sorcerer",
+                                    "Harpuia Inn　if(s[184])",
+                                    "Caravan　if(v[4] >= 1)"
                                 ],
                                 1,
                                 0,
@@ -2675,12 +2675,12 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[4]世間話",
-                                    "\\i[84]物陰 if(s[86])",
-                                    "なんか if(v[10] >= 1)",
-                                    "なんか if(v[10] >= 1)",
-                                    "なんか if(v[11] >= 1)",
-                                    "\\i[82]村を出る"
+                                    "\\i[4]Small talk",
+                                    "\\i[84]Shadow if(s[86])",
+                                    "What's wrong? if(v[10] >= 1)",
+                                    "Something if(v[10] >= 1)",
+                                    "Something if(v[11] >= 1)",
+                                    "Leave the village"
                                 ],
                                 5,
                                 -1,
@@ -3566,7 +3566,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\ii[\\v[1]]を手に入れた！"
+                                "I got \\v[1]!"
                             ]
                         },
                         {
@@ -4285,21 +4285,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Sol is walking through the village when a familiar\nadventurer approaches. Then, with a lecherous\nsmile, they put their hand on Sol's shoulder."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ソルが村を歩いていると、見知った冒険者が近づいてくる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "そしていやらしい笑みを浮かべてソルの肩に手を回す。"
+                                ""
                             ]
                         },
                         {
@@ -4316,14 +4316,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「へへ…ソルちゃん、どうよ？"
+                                "\\n<Adventurer>Hehe... Sol-chan, how about it? Can you give me a\nlittle blessing...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　俺にちょいと”加護”与えちゃくんねえかな……？」"
+                                ""
                             ]
                         },
                         {
@@ -4331,8 +4331,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "いいよ",
-                                    "だめですよ"
+                                    "Sure",
+                                    "No, it's not possible"
                                 ],
                                 1,
                                 0,
@@ -4383,14 +4383,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Sol nodded and the two of them headed towards the\nshadow of a hut on the outskirts of the village."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "ソルは頷くと、二人で村外れの小屋の影に向かっていった。"
+                                ""
                             ]
                         },
                         {
@@ -4462,14 +4462,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「だ、だめですよ！！そういうことしちゃ！！"
+                                "\\n<Sol>N-No, you can't do that! If you do that kind of\nthing, I'll get angry!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　わたし、おこりますよ！！」"
+                                ""
                             ]
                         },
                         {
@@ -4500,7 +4500,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「ちぇー…」"
+                                "\\n<Adventurer>Tch..."
                             ]
                         },
                         {
@@ -5230,7 +5230,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<猫>「ニャーン」"
+                                "\\n<Cat>Meow"
                             ]
                         },
                         {
@@ -5303,7 +5303,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>「………」"
+                                "\\n<Sol>「.........」"
                             ]
                         },
                         {
@@ -5349,7 +5349,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<猫>「フシャーッ」"
+                                "\\n<Cat>*Hiss*"
                             ]
                         },
                         {
@@ -5412,7 +5412,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「フシャーッ」"
+                                "\\n<Sol>*Hiss*"
                             ]
                         },
                         {
@@ -5436,7 +5436,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「あっ……ソルちゃんと猫が喧嘩してる……」"
+                                "\\n<Adventurer>Ah... Sol-chan and the cat are fighting..."
                             ]
                         },
                         {
@@ -5472,7 +5472,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<猫>「フシャーッ」"
+                                "\\n<Cat>*Hiss*"
                             ]
                         },
                         {
@@ -5535,7 +5535,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「うわああああん！せんせえ！！！」"
+                                "\\n<Sol>Uwaaaan! Sensei!!!"
                             ]
                         },
                         {
@@ -5559,7 +5559,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>\\py[10]「あっ……ソルちゃんが猫に負けた……」"
+                                "\\n<Adventurer>Ah... Sol-chan lost to the cat..."
                             ]
                         },
                         {

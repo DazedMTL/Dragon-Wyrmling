@@ -47160,14 +47160,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ワープクリスタルがある。"
+                                "There is a warp crystal. Will you activate it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "起動しますか？"
+                                ""
                             ]
                         },
                         {
@@ -47175,8 +47175,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -47364,14 +47364,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ワープクリスタルがある。"
+                                "There is a warp crystal. Will you activate it?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "起動しますか？"
+                                ""
                             ]
                         },
                         {
@@ -47379,8 +47379,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

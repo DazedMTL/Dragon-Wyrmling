@@ -2731,21 +2731,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I can hear the sound of a woman moaning. It seems\nlike someone is being trained by many men."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "女性の喘ぎ声が聞こえてくる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "誰かが、何人もの男たちに調教を受けているようだ。"
+                                ""
                             ]
                         },
                         {
@@ -2899,21 +2899,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "I can hear a woman's moaning. It seems like\nsomeone is being trained by many men."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "女性の喘ぎ声が聞こえてくる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "誰かが、何人もの男たちに調教を受けているようだ。"
+                                ""
                             ]
                         },
                         {
@@ -2962,21 +2962,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "I can hear a woman's moaning. It seems like\nsomeone is being trained by many men."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "女性の喘ぎ声が聞こえてくる。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "誰かが、何人もの男たちに調教を受けているようだ。"
+                                ""
                             ]
                         },
                         {
@@ -3993,14 +3993,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「へへへ、ドラゴンちゃん。今日は調教だってよ。"
+                                "Hehehe, Dragon-chan. Today is training, you know.\nI'll take good care of you, so be prepared..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　たっぷり可愛がってやるからなァ…？」"
+                                ""
                             ]
                         },
                         {
@@ -4098,14 +4098,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「今日はお客さんが来てるぜ、ドラゴンちゃんよ。"
+                                "Today we have a visitor, Dragon-chan. I'm going to\nmake sure they have a lot of fun... Hehehe..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　たっぷりと楽しませてくるんだぜ…？ヘヘヘ……」"
+                                ""
                             ]
                         },
                         {
@@ -4192,14 +4192,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "It seems like there's nothing happening today..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "今日は何もないようだ……"
+                                ""
                             ]
                         },
                         {
@@ -4776,7 +4776,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<男A>「………なぁ、ドラゴンってエサに何を与えりゃいいんだ？」"
+                                "\\n<Man A>Hey, what should we feed the dragon?"
                             ]
                         },
                         {
@@ -4793,7 +4793,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<男B>「肉か…　金塊とか……？」"
+                                "\\n<Male B>Meat... or maybe gold bars...?"
                             ]
                         },
                         {
@@ -4810,7 +4810,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<男A>「…それは破産しちまうよな…俺らが」"
+                                "\\n<Man A>...That would bankrupt us, wouldn't it..."
                             ]
                         },
                         {
@@ -4827,7 +4827,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<男B>「まぁ…パンでいいだろ………」"
+                                "\\n<Male B>Well... bread should be fine, right...?"
                             ]
                         },
                         {
@@ -4872,21 +4872,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Ruby was given a hard piece of bread for her\nmeal... and she shared it with me..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "食事の硬いパンを与えられた…"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "ルビィがパンをわけてくれた…"
+                                ""
                             ]
                         },
                         {
@@ -4913,14 +4913,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "Ruby was given a hard piece of bread for her\nmeal..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "食事の硬いパンを与えられた…"
+                                ""
                             ]
                         },
                         {
@@ -5548,21 +5548,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
+                                "Sol was captured in the kidnappers' hideout. Her\nfreedom was taken away, and she was exposed to the\ndesires of humans..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "人さらいのアジトに囚われたソル。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "自由を奪われ、人間たちの欲望に晒されることとなる…"
+                                ""
                             ]
                         },
                         {
@@ -5615,14 +5615,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "\\v[483]th day..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\v[483]日目…"
+                                ""
                             ]
                         },
                         {
@@ -5788,7 +5788,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "寝る？"
+                                "Are you going to sleep?"
                             ]
                         },
                         {
@@ -5796,9 +5796,9 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ",
-                                    "セーブ"
+                                    "Yes",
+                                    "No",
+                                    "Save"
                                 ],
                                 1,
                                 0,
@@ -6087,14 +6087,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「ヘヘヘ…大人しくいい子にしてろよ？"
+                                "Hehehe... Be a good girl and behave, okay? You're\na valuable product, so... hehe..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お前はいい商品なんだからよ…ぶヘヘ…」"
+                                ""
                             ]
                         },
                         {
@@ -6430,7 +6430,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「大人しくしてろ。メシ抜きにするぞ」"
+                                "Behave yourself. I'll make you skip a meal."
                             ]
                         },
                         {
@@ -6457,7 +6457,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "「何だ、出たいのか？」"
+                                "What, do you want to go out?"
                             ]
                         },
                         {
@@ -6465,8 +6465,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6496,14 +6496,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「仕方ねえな。そこら辺だけだぞ。"
+                                "I guess I have no choice. Just stay around here.\nOnce you're satisfied, go back to sleep."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　気が済んだら戻って寝ろ」"
+                                ""
                             ]
                         },
                         {
@@ -6554,14 +6554,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "「まったく。ならさっさと寝てろ。"
+                                "Geez, just go to sleep already. Are you a noisy\ncat or something?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　騒がしいネコかお前は」"
+                                ""
                             ]
                         },
                         {
@@ -6649,14 +6649,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Today the key is unlocked."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "今日はカギが開いている。"
+                                ""
                             ]
                         },
                         {
@@ -6816,14 +6816,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ルビィ>\\py[10]「あー、おちびさんも捕まっちゃったんですかー？"
+                                "\\n<Ruby>Ahh, did Chibi-san get caught too? Neither of us\nare having any luck... sigh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　お互いツイてないですねー…はー……」"
+                                ""
                             ]
                         },
                         {
@@ -6861,21 +6861,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ルビィ>\\py[10]「っていうかおちびさん、その尻尾…"
+                                "\\n<Ruby>Speaking of which, Chibi-san, that tail... hehe,\nit's so cute ♥ I also have a reason for having a\ntail like this, you know~"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　ふふ、かわいいですねー♥"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　私も訳あってこういう尻尾が生えてますけどねー」"
+                                ""
                             ]
                         },
                         {
@@ -6913,14 +6913,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ルビィ>\\py[10]「そろそろ何とかして脱出したいんですけどー…"
+                                "\\n<Ruby>I really want to escape somehow... the security\nis just too tight... it's so frustrating."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　警備が厳重すぎるんですよねー…むかつくー」"
+                                ""
                             ]
                         },
                         {
@@ -6958,21 +6958,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ルビィ>\\py[10]「私には助けてくれるアテはいないんですよねー。"
+                                "\\n<Ruby>I don't have anyone who can help me... Chibi-san,\ndo you have anyone like that? Someone who seems\nlike they could help us?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　…おちびさんにはいないですかねー？"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　助けてくれそうな人とかー」"
+                                ""
                             ]
                         },
                         {
@@ -7256,21 +7256,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「まぁ、どうせ逃げられねえんだ。少しくらいなら"
+                                "Well, you can't escape anyway. It's fine to\nwander around a bit. But only for a little while."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そこら辺をうろついても構わねえよ。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ただしちょっとだけだからな」"
+                                ""
                             ]
                         },
                         {
@@ -7535,14 +7535,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「おっと、こっちは立ち入り禁止だ。"
+                                "Oops, this area is off-limits. If you keep\nwandering around, I'll make you skip a meal."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ウロチョロしてるとメシ抜きにすんぞ」"
+                                ""
                             ]
                         },
                         {
@@ -7645,14 +7645,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「あーあ、見張りなんてさっさと終わらせて、俺も"
+                                "Ahh, I want to finish this lookout duty quickly\nand spend some quality time with that cheeky demon\nwoman."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あの生意気悪魔女としっぽりしてえぜ」"
+                                ""
                             ]
                         },
                         {
@@ -7889,7 +7889,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "スキップしますか？"
+                                "Would you like to skip?"
                             ]
                         },
                         {
@@ -7897,8 +7897,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "スキップする",
-                                    "しない"
+                                    "Skip",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8156,7 +8156,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "スキップしますか？"
+                                "Would you like to skip?"
                             ]
                         },
                         {
@@ -8164,8 +8164,8 @@
                             "indent": 1,
                             "parameters": [
                                 [
-                                    "スキップする",
-                                    "しない"
+                                    "Skip",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8726,14 +8726,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<冒険者>「捕らえられてた子たちは皆解放した。"
+                                "\\n<Adventurer>I released all the captured children. Ah, that\nadventurer's child was thanking Sol."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　ああ、あの冒険者の子はソルに礼を言ってたぞ」"
+                                ""
                             ]
                         },
                         {

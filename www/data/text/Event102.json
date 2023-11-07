@@ -1,257 +1,257 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：首なし美人亭　出会い"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": "ソル",
-    "face": "困1",
-    "text": "「おおおおお……これが酒場……\n　未知なる世界……」"
-  },
-  "5": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「そ。中々いい雰囲気でしょ？\n　それで……っと。お、いたいた。おーい！マーくん！」"
-  },
-  "6": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「お？　エリックか。どうした？今日は空きか？\n　それにそっちの……お？」"
-  },
-  "7": {
-    "name": "エリック",
-    "face": "喜3",
-    "text": "「この子だって、エニ先生が育ててたっていうあの金竜！\n　ソルちゃんって言うんだって！」"
-  },
-  "8": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「ほー、この子があの……。\n　人の姿を取ってるけどゴールドドラゴンか。凄いな」"
-  },
-  "9": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「初めてみたとき……こう、なんてーの？\n　強い竜なのにすっごく可愛くてさ！！」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えへへー」"
-  },
-  "11": {
-    "name": "エリック",
-    "face": "喜2",
-    "text": "「なんていうか近所のやたら人懐っこいおバカな犬みたいで」"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "怒3",
-    "text": "「ぶー」"
-  },
-  "13": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "14": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「そんな訳でさ。マーくんも暇なら手伝わない？\n　金竜の元で戦うなんて、ロード志望には最高でしょ？」"
-  },
-  "15": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「人を勝手に暇人扱いしないでくれないか。\n　まあ、これでも俺は善の領域に属すると自称はしている。\n　金竜に助力を請われたならば喜んで応じるまでよ」"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「そ、それじゃあマーくんさんお願いします！！\n　ちからを貸してくださいっ！！」"
-  },
-  "17": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「ああ、俺はマークだ。ロードを目指してるが今は戦士だ。\n　よろしく頼むよ、小さいドラゴンレディ」"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": "●場面：首なし美人亭　尋ね人"
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "24": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「こんにちわー！」"
-  },
-  "25": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「おうソルちゃんいらっしゃい。\n　お客が来てるよ」"
-  },
-  "26": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「おおおおお……？？？」"
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": "吟遊詩人",
-    "face": null,
-    "text": "「……英雄マグメドルは雄々しく剣を抜き放ち言い放った…\n　『我らが神よご照覧あれ！　今宵は殺戮の宴なり───』\n　おお、姫はその言葉に感極まり涙に濡れた……」"
-  },
-  "29": {
-    "name": "イスク",
-    "face": "喜2",
-    "text": "「尊い…………好き………」"
-  },
-  "30": {
-    "name": "吟遊詩人",
-    "face": null,
-    "text": "「『ああマグメドル様、貴方こそは真なる勇者……\n　　どうか私を共に連れていってくださいませ……』\n　だがマグメドルは振り返らない……彼には偉大なる誓いがあるのだ…\n　泣き崩れる姫を背にマグメドルは立ち去った、おお勇者マグメドル……」"
-  },
-  "31": {
-    "name": "イスク",
-    "face": "喜2",
-    "text": "「ああ……しんどい……」"
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "33": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "吟遊詩人が歌い終わり、満足げな表情の聴衆も去っていく。\nそしてその場に残されたのは、いまだに詩に感極まって\n「尊い」と呟き続ける憂いを帯びた銀色の髪の美女だけだった。\n良く見ると、彼女の腰からは銀色の尾が伸びていた…"
-  },
-  "34": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「あのー、だいじょうぶですか？？（主に頭が）」"
-  },
-  "35": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「え、あ、大丈夫……でございます………\n　………あ、ひょっとして、ソル様でございますか……？\n　ゴールドドラゴンの、ソル様……？」"
-  },
-  "36": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「は、はい！わたしがソルです！！\n　えっと……あなたは？？？」"
-  },
-  "37": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「わたくしはイスクヴォレル。\n　シルバードラゴンで…ございます。\n　人の世の物語を聞き蒐集することを無上の喜びとしております……」"
-  },
-  "38": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「おおおおおお……シルバードラゴンさん！！！！\n　同族に初めて会いました！！！おおおお……！！！」"
-  },
-  "39": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「……あれ？それでごようけんのほうは？」"
-  },
-  "40": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ルクレア村は大変良い村です……。\n　わたくしも、この村に少し滞在したいと思いまして……」"
-  },
-  "41": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「エニトゥーラヤ先生より聞き及んでおりましたが……、\n　この村はソル様の縄張りでしょう…？\n　なればご挨拶をいたしたく……。余所者の竜が挨拶も無しに\n　縄張り内をうろついては気分を害されるかと……」"
-  },
-  "42": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「あ、せんせいから！！そういう事でしたか！！\n　こちらこそよろしくお願いしますイスクさん！\n　おともだちになりましょう！！えへへー」"
-  },
-  "43": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「お友達……そうですわね……盟友ですわね……。\n　仲良くいたしましょう、ソル様。うん……嬉しい……」"
-  },
-  "44": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "45": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "47": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "49": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Headless Beauty Inn Encounter"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": "Sol",
+        "face": "困1",
+        "text": "\"Ooooo... This is a tavern... A world unknown...\""
+    },
+    "5": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Yeah. It has a pretty good atmosphere, right?\nAnd... oh, there you are. Hey! Mark-kun!\""
+    },
+    "6": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Oh? Eric, huh. What's up? Do you have some free\ntime today? And also, over there... oh?\""
+    },
+    "7": {
+        "name": "Eric",
+        "face": "喜3",
+        "text": "\"This girl is the golden dragon that Eni-sensei\nraised! Her name is Sol-chan!\""
+    },
+    "8": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Oh, this one is that... It's taking on a human\nform, but it's a golden dragon. Amazing.\"**"
+    },
+    "9": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"The first time I saw her... it's like, how should\nI put it? Even though she's a powerful dragon,\nshe's incredibly cute!!\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ehehe~\""
+    },
+    "11": {
+        "name": "Eric",
+        "face": "喜2",
+        "text": "\"She's like a friendly and silly dog from the\nneighborhood, you know?\""
+    },
+    "12": {
+        "name": "Sol",
+        "face": "怒3",
+        "text": "\"Hmph.\""
+    },
+    "13": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "14": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"So, like I was saying. If you're free, Mark-kun,\nwhy don't you help out? Fighting alongside a\ngolden dragon would be the best for someone\naspiring to be a lord, right?\""
+    },
+    "15": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Don't just assume I have free time. Well, I do\nconsider myself to belong to the domain of good.\nIf a golden dragon asks for help, I will gladly\nassist.\""
+    },
+    "16": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"T-Then, Mark-kun, please!! Please lend me your\nstrength!!\""
+    },
+    "17": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Ah, I'm Mark. I'm aiming to be a lord, but for\nnow, I'm a warrior. Nice to meet you, little\ndragon lady.\""
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": "終了"
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Headless Beauty Inn, Inquirer"
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "24": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Hello!\""
+    },
+    "25": {
+        "name": "Bar owner",
+        "face": null,
+        "text": "\"Hey there, Sol-chan. We've got customers.\""
+    },
+    "26": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Ohhhhh...???\""
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": "Minstrel",
+        "face": null,
+        "text": "\"The heroic Magmedol gallantly drew his sword and\ndeclared, 'Behold, our god! Tonight shall be a\nfeast of slaughter───' Oh, the princess was moved\nto tears by those words...\""
+    },
+    "29": {
+        "name": "Isk",
+        "face": "喜2",
+        "text": "\"Precious... I love you...\""
+    },
+    "30": {
+        "name": "Minstrel",
+        "face": null,
+        "text": "\"Oh, Magmedol-sama, you are the true hero...\nPlease, take me with you... But Magmedol did not\nlook back... He has a great oath... With the\nweeping princess behind him, the great hero\nMagmedol departed...\""
+    },
+    "31": {
+        "name": "Isk",
+        "face": "喜2",
+        "text": "\"Ah... I'm tired...\""
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "33": {
+        "name": "Narration",
+        "face": null,
+        "text": "The minstrel finished singing, and the satisfied\naudience left. And what remained in that place was\na silver-haired beauty, still deeply moved by the\npoem, murmuring \"precious\" with a sorrowful\nexpression. Upon closer inspection, a silver tail\nextended from her waist..."
+    },
+    "34": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Um, are you okay? (Mainly your head)\""
+    },
+    "35": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Um, are you okay...? ...Ah, could it be, Sol-\nsama...? The Gold Dragon, Sol-sama...?\""
+    },
+    "36": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Y-Yes! I'm Sol!! Um... and you are...??\""
+    },
+    "37": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"I am Iskvoler. I am a Silver Dragon. It is my\ngreatest joy to listen to and collect stories from\nthe human world...\""
+    },
+    "38": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ohhhhh... Silver Dragon-san!!!! This is my first\ntime meeting someone from the same species!!!\nOhhhhh...!!!\""
+    },
+    "39": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Hmm? And what about your head?\""
+    },
+    "40": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Rukurea Village is a very nice village... I also\nwish to stay in this village for a little\nwhile...\""
+    },
+    "41": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"I have heard from Eni-sensei... that this village\nis Sol-sama's territory, correct...? If so, I\nwould like to pay my respects... It would be rude\nfor an outsider dragon to wander around the\nterritory without greeting and potentially offend\nyou...\""
+    },
+    "42": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Oh, from Sensei! So that's what it was!! Nice to\nmeet you too, Isk-san! Let's be friends!! Ehehe~\""
+    },
+    "43": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Friends... yes, that's right... Comrades,\nindeed... Let's get along, Sol-sama. Yes... I'm\nhappy...\""
+    },
+    "44": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "45": {
+        "name": null,
+        "face": null,
+        "text": "```plaintext End ```"
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "47": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "49": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

@@ -1,262 +1,262 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：ルクレア村・小ネタ"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "酒場の客",
-    "face": null,
-    "text": "「イスクさんって言ったっけ？ あの人、\n　日がな一日ずっと吟遊詩人の前に陣取っては\n　延々と英雄譚を聞き続けて「尊み」「死ぬ」「無理」とか\n　ブツブツ呟き続けてるんだよね……」"
-  },
-  "4": {
-    "name": "酒場の客",
-    "face": null,
-    "text": "「なるほど、ドラゴンだったのか……。\n　それなら変人なのも仕方ないかな………（ﾁﾗｯ」"
-  },
-  "5": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「なんかドラゴンに関する風評被害を被ってる気がします！！！」"
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": "村の人々"
-  },
-  "8": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「ようソルちゃん。今日も元気そうだね！\n　メシご馳走してやろう！」"
-  },
-  "9": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「わーい！ごちそう！\n　なにが食べれるんでしょうかね！」"
-  },
-  "10": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「（やっぱワンコだよなぁ……）」"
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "12": {
-    "name": "娘",
-    "face": null,
-    "text": "「ママー！ドラゴンおねえちゃんだ！」"
-  },
-  "13": {
-    "name": "母",
-    "face": null,
-    "text": "「あら、かわいらしいドラゴンさん。こんにちわ」"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「えへへー、こんにちわー！ドラゴンですよー」"
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "16": {
-    "name": "村人",
-    "face": null,
-    "text": "「おお、金竜様……！！　今日も麗しゅうございます…！！」"
-  },
-  "17": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えへへー。　\n　苦しゅうないです！」"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "19": {
-    "name": "村人",
-    "face": null,
-    "text": "「ありがたやありがたや……　ナムナム……」"
-  },
-  "20": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「拝まれました！！　\n　……なんでですかね？」"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "22": {
-    "name": "おばちゃん",
-    "face": null,
-    "text": "「あーらソルちゃん今日も元気でかわいいねえ！\n　ほら！ミートパイ持っていきな！いっぱい食べて大きくおなり！」"
-  },
-  "23": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「ありがとうおばちゃん！　\n　えへへー、うれしいなーおいしいなーﾓｸﾞﾓｸﾞ」"
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "25": {
-    "name": "おっちゃん",
-    "face": null,
-    "text": "「おおー！ソルちゃん！相変わらずいい尻尾してんねえ！\n　ほれ、リンゴだ持っていきな！」"
-  },
-  "26": {
-    "name": "ソル",
-    "face": "恥5",
-    "text": "「わーいありがとうおっちゃん！\n　でもしっぽばかり見るのはセクハラですよぉ」"
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "28": {
-    "name": "吟遊詩人",
-    "face": null,
-    "text": "「おやおや、今日も金竜様の姿をご拝謁できるとは！\n　貴方様が活躍した日には詩を贈らせてくだされ！」"
-  },
-  "29": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお……わたしの英雄譚！！\n　照れくさいようなうれしいような！！」"
-  },
-  "30": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "31": {
-    "name": "神父",
-    "face": null,
-    "text": "「おお、金色の竜の少女よ、よくぞいらっしゃられた。\n　今日は参拝ですかな？」"
-  },
-  "32": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えへへー、お母さんにお祈りをしていこうと思って！」"
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": "酒場の冒険者"
-  },
-  "35": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「よ、ソルちゃん！元気そうだな！」"
-  },
-  "36": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「えへへー、皆さんもおげんきそうで！」"
-  },
-  "37": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "38": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「おう金竜ちゃん！儲かってるかい？」"
-  },
-  "39": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「ぼちぼちです！」"
-  },
-  "40": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "41": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「おやおやゴールドドラゴン殿。今日も元気であらせられますな」"
-  },
-  "42": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えへへー、元気であらせられます！」"
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "44": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「ソルさんごきげんよう。風邪など引かれておりませんか？」"
-  },
-  "45": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「ごきげんよう！今日もいっぱい元気です！」"
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "47": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "49": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "50": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "51": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Rukurea Village - Small Talk"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Tavern Customer",
+        "face": null,
+        "text": "\"Did they say Isuku-san? That person spends the\nwhole day sitting in front of the bard, endlessly\nlistening to heroic tales and muttering things\nlike 'respect,' 'death,' and 'impossible'.\""
+    },
+    "4": {
+        "name": "Tavern Customer",
+        "face": null,
+        "text": "\"I see, so it was a dragon... In that case, it's\nno wonder they're eccentric... (glance)\""
+    },
+    "5": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I feel like there's a rumor going around about\nthe dragon causing damage!!!\""
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": "Villagers"
+    },
+    "8": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Hey Sol-chan. You look lively today too! Let me\ntreat you to a meal!\""
+    },
+    "9": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Yay! A feast! I wonder what I can eat!\""
+    },
+    "10": {
+        "name": "Bar owner",
+        "face": null,
+        "text": "\"(I guess it's a dog after all...)\""
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "12": {
+        "name": "Daughter",
+        "face": null,
+        "text": "\"Mommy! It's the dragon Onee-chan!\""
+    },
+    "13": {
+        "name": "Mother",
+        "face": null,
+        "text": "\"Oh, what a lovely dragon. Hello there.\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Ehehe, hello! I'm a dragon, you know!\""
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "16": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Oh, it's the Golden Dragon-sama...!! You look as\nbeautiful as ever today...!!\""
+    },
+    "17": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ehehe, no problem at all!\""
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "19": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Thank you, thank you... Yum yum...\""
+    },
+    "20": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"I've been worshipped!! ...I wonder why?\""
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "22": {
+        "name": "Aunt",
+        "face": null,
+        "text": "\"Oh my, Sol-chan, you're so lively and cute today!\nHere, take this meat pie! Eat a lot and grow big!\""
+    },
+    "23": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Thank you, Auntie! Ehehe, I'm so happy! It's\ndelicious, mogu mogu.\""
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "25": {
+        "name": "Ossan",
+        "face": null,
+        "text": "\"Ohh! Sol-chan! Your tail looks as good as ever!\nHere, take this apple!\""
+    },
+    "26": {
+        "name": "Sol",
+        "face": "恥5",
+        "text": "\"Yaaay, thank you, mister! But only looking at my\ntail is sexual harassment, you know?\""
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "28": {
+        "name": "Minstrel",
+        "face": null,
+        "text": "\"Oh my, to be able to see the appearance of Lady\nKinryu-sama today as well! When you have a great\nday, please allow me to present a poem in your\nhonor!\""
+    },
+    "29": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ohhh... my heroic tale!! It's embarrassing yet\ndelightful!!\""
+    },
+    "30": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "31": {
+        "name": "Priest",
+        "face": null,
+        "text": "\"Oh, golden dragon maiden, welcome. Are you here\nfor worship today?\""
+    },
+    "32": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ehehe, I'm thinking of praying to Mother!\""
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": "Adventurers at the tavern"
+    },
+    "35": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Hey, Sol-chan! You look lively!\""
+    },
+    "36": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Ehehe, everyone seems to be doing well too!\""
+    },
+    "37": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "38": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Hey, Lady Kinryu! Are you making a profit?\""
+    },
+    "39": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"I'm doing okay!\""
+    },
+    "40": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "41": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Oh my, Lady Gold Dragon. You seem to be in good\nspirits today as well.\""
+    },
+    "42": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ehehe, I'm feeling great!\""
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "44": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Good day, Sol-san. You haven't caught a cold or\nanything, have you?\""
+    },
+    "45": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Good day! I'm full of energy today too!\""
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "47": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "49": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "50": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "51": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

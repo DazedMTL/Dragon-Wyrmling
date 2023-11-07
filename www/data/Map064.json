@@ -2527,14 +2527,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This is a painting from Ginyu Iskvol's collection."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "銀竜・イスクヴォレルのコレクションの絵画だ。"
+                                ""
                             ]
                         },
                         {
@@ -2611,14 +2611,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -2781,7 +2781,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -2789,8 +2789,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -3201,14 +3201,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Clear the scenario"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "シナリオをクリアする"
+                                ""
                             ]
                         },
                         {
@@ -3292,14 +3292,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "ED1: The adventure continues."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ED1：冒険は続くよ"
+                                ""
                             ]
                         },
                         {
@@ -3414,7 +3414,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\>回想シーンから戻りますか？"
+                                "Do you want to return from the flashback scene?"
                             ]
                         },
                         {
@@ -3422,8 +3422,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "戻る",
-                                    "キャンセル"
+                                    "Return",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -3592,14 +3592,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock Condition: Perform the Blood Ritual of the\nDragon Kind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -3799,7 +3799,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -3807,8 +3807,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -3972,14 +3972,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock Condition: Perform the Blood Ritual of the\nDragonkind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -4179,7 +4179,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -4187,8 +4187,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -4352,14 +4352,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -4526,7 +4526,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -4534,8 +4534,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -4831,14 +4831,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -5005,7 +5005,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -5013,8 +5013,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5178,14 +5178,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Work as a bunny at the bar"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "酒場でバニーの仕事をする"
+                                ""
                             ]
                         },
                         {
@@ -5352,7 +5352,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -5360,8 +5360,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5525,14 +5525,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Work as a bunny at the bar"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "酒場でバニーの仕事をする"
+                                ""
                             ]
                         },
                         {
@@ -5699,7 +5699,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -5707,8 +5707,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -5872,14 +5872,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -6046,7 +6046,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -6054,8 +6054,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6219,14 +6219,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -6382,7 +6382,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -6390,8 +6390,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6544,14 +6544,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Include Eric in the party and\nperform the Dragonkind Light Blessing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "エリックをPTにに入れてドラゴンカインド・光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -6707,7 +6707,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -6715,8 +6715,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -6869,14 +6869,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Include Eric in the party and\nperform the Dragonkind Light Blessing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "エリックをPTにに入れてドラゴンカインド・光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -7032,7 +7032,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -7040,8 +7040,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7194,14 +7194,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Perform the Blood Ritual of the\nDragonkind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・血の儀式を行う"
+                                ""
                             ]
                         },
                         {
@@ -7364,7 +7364,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -7372,8 +7372,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7526,14 +7526,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Forgotten Waterway conquest"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "忘れられた水路攻略"
+                                ""
                             ]
                         },
                         {
@@ -7696,7 +7696,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -7704,8 +7704,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -7858,14 +7858,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Release condition: Escape from the kidnappers'\nhideout"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人攫いのアジトから脱出"
+                                ""
                             ]
                         },
                         {
@@ -8021,7 +8021,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -8029,8 +8029,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8183,14 +8183,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: After recruiting the teacher, do\nnot put her in the party for 5 days."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "先生を仲間にしたあと、パーティに入れず5日経過"
+                                ""
                             ]
                         },
                         {
@@ -8353,7 +8353,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -8361,8 +8361,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8515,21 +8515,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Recruit the adventurer Faria and\nperform the Dragonkind's light blessing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者ファリアを仲間にして"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -8729,7 +8729,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -8737,8 +8737,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -8902,14 +8902,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Rescue the adventurer Frey in\nthe forgotten waterway."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "忘れられた水路で冒険者フレイを救出"
+                                ""
                             ]
                         },
                         {
@@ -9109,7 +9109,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -9117,8 +9117,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -9282,14 +9282,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Rescue the adventurer Elsie at\nMt. Grillta"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "グリルタ山で冒険者エルシィを救出"
+                                ""
                             ]
                         },
                         {
@@ -9489,7 +9489,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -9497,8 +9497,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -9662,21 +9662,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Recruit the adventurer Seres and\nperform the Dragonkind's light blessing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者セレスを仲間にして"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -9876,7 +9876,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -9884,8 +9884,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10049,21 +10049,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Recruit the adventurer Wayne and\nperform the Dragonkind's Light Blessing."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者ウェインを仲間にして"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインド・光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -10263,7 +10263,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -10271,8 +10271,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10436,14 +10436,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Release condition: Rescue the adventurer Azusa in\nthe labyrinth of trials"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "試練の迷宮で冒険者アズサを救出"
+                                ""
                             ]
                         },
                         {
@@ -10643,7 +10643,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -10651,8 +10651,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -10816,14 +10816,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Rescue the adventurer Ferir in\nthe Underworld"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "アンダーワールドで冒険者フェリルを救出"
+                                ""
                             ]
                         },
                         {
@@ -11023,7 +11023,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -11031,8 +11031,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -11298,14 +11298,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "This is a painting from Ginyu Iskvol's collection."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "銀竜・イスクヴォレルのコレクションの絵画だ。"
+                                ""
                             ]
                         },
                         {
@@ -11965,14 +11965,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Clear by collecting a lot of\nfurniture"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "家具をたくさん集めてクリアする"
+                                ""
                             ]
                         },
                         {
@@ -12056,14 +12056,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "ED2: A dragon living in a mountain of treasures"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ED2：宝の山に住む竜"
+                                ""
                             ]
                         },
                         {
@@ -12215,14 +12215,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Clear many Dragonkind battles"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインドをたくさん行ってクリア"
+                                ""
                             ]
                         },
                         {
@@ -12306,14 +12306,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "ED3: Lewd Gold Prostitute"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ED3：淫靡な金の娼婦"
+                                ""
                             ]
                         },
                         {
@@ -12465,14 +12465,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Clear by gathering many\nadventurers"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者をいっぱい集めてクリア"
+                                ""
                             ]
                         },
                         {
@@ -12556,14 +12556,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "ED4: The Great Dragon"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ED4：大いなる竜"
+                                ""
                             ]
                         },
                         {
@@ -12664,14 +12664,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Occasionally occurs in the\nvillage after experiencing Dragonkind several\ntimes."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンカインドを何度か経験の後に村でたまに発生"
+                                ""
                             ]
                         },
                         {
@@ -12817,7 +12817,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -12825,8 +12825,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -12990,21 +12990,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: After Eric's Dragon Kind 2,\ninclude Eni-sensei and Eric in the party and\nperform the blessing of light."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "「エリックのドラゴンカインド２」の後に"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "エニ先生とエリックをPTに入れて光の加護を行う"
+                                ""
                             ]
                         },
                         {
@@ -13132,7 +13132,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -13140,8 +13140,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -13294,14 +13294,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Release condition: Investigate suspicious areas in\nthe kidnapper's hideout"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人さらいのアジトで怪しい所を調べる"
+                                ""
                             ]
                         },
                         {
@@ -13480,7 +13480,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -13488,8 +13488,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -13653,14 +13653,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Get kidnapped by a kidnapper"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人さらいに捕まる"
+                                ""
                             ]
                         },
                         {
@@ -13816,7 +13816,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -13824,8 +13824,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -13996,14 +13996,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Get kidnapped by a human\ntrafficker"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人さらいに捕まる"
+                                ""
                             ]
                         },
                         {
@@ -14149,7 +14149,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -14157,8 +14157,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -14329,14 +14329,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Get kidnapped by a human\ntrafficker"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人さらいに捕まる"
+                                ""
                             ]
                         },
                         {
@@ -14482,7 +14482,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -14490,8 +14490,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -14662,14 +14662,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Recruit 8 or more adventurers"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者8人以上加入"
+                                ""
                             ]
                         },
                         {
@@ -14913,14 +14913,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock Condition: Join 12 or more adventurers +\nEni-sensei joins"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "冒険者12人以上加入＋エニ先生加入"
+                                ""
                             ]
                         },
                         {
@@ -15250,21 +15250,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the owner's preferences\nor history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15341,21 +15341,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the history, perhaps\nreflecting the owner's taste."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15432,21 +15432,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the owner's preferences\nor history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15523,21 +15523,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the owner's preferences\nor the history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15614,21 +15614,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They all\nseem to reflect the owner's taste, and they are\nall items that evoke a sense of history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15705,21 +15705,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the owner's preferences\nor the history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15796,21 +15796,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the owner's preferences\nor the history."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15887,21 +15887,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the history, perhaps\nreflecting the owner's taste."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -15978,21 +15978,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "Artworks and treasures are piled up. They are all\nitems that make you feel the history, perhaps\nreflecting the owner's preferences."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　芸術品や財宝が積み上げられている。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　持ち主の嗜好なのか、歴史を感じられる物ばかりだ。"
+                                ""
                             ]
                         },
                         {
@@ -16069,14 +16069,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "開放条件："
+                                "Unlock condition: Work as a bunny at the bar\nseveral times"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "酒場でバニーの仕事を何度かする"
+                                ""
                             ]
                         },
                         {
@@ -16232,7 +16232,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "イベントを視聴しますか？"
+                                "Will you watch the event?"
                             ]
                         },
                         {
@@ -16240,8 +16240,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

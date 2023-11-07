@@ -1,117 +1,117 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：火山ダンジョン・ラストバトル"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "村が紅く燃えている。\n紅蓮の業火が家々を焼き尽くし、家畜は血の海に溺れ、\n村人たちは必死に逃げ惑っている。"
-  },
-  "4": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "少し前までは平和な、優しい夜を過ごしていた筈だった。\nだが突如として、強大な翼が羽ばたく音が、村に災厄を告げた。"
-  },
-  "5": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "赤竜エヴェンナジェトルドルは思うがままに破壊と殺戮を満喫する。\n脆弱な人間を噛み殺す時の感触と、口の中で弾ける血の肉の味が最高だ。\nましてや、それが喰われる直前まで涙を流して恐怖していたとなれば\n格別のものになる。"
-  },
-  "6": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "振り回す尾は家屋を簡単になぎ倒し、爪牙が振るわれる度に命が弾け、\n灼熱の吐息は周囲を全て炎の海へと変える。\nその紅きシルエットは正しく災厄の権化であった。"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "8": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "その日、一匹の赤竜のほんのちょっとの気紛れな遊びによって\n村が一つ焼け滅んだ。\n100人近い村で、生存者は3名だったという。"
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "10": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "とぐろを巻いて寝ていた巨体が、その頭をもたげた。\nソルの姿を認め、嗜虐的な笑みを浮かべる。\n「ようやく来たか」と言わんばかりに。"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「みんなのため！おかあさんの仇！\n　かくごしてもらいます！」"
-  },
-  "15": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「みんなで、みんなで勝ちましょう！」"
-  },
-  "16": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "赤竜が吠える。周囲を恐怖で打ち震えさせる咆哮。\nだが、それに立ち向かう。心を蝕む絶望と、身を焼く熱に耐え、\n冒険者たちは武器を取り、前に踏み出す。"
-  },
-  "17": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "黄金の小さな竜が勇気を振り絞り、巨大な影に突貫する。\nそれが戦いの狼煙となった……！"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Volcano Dungeon - Last Battle"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "The village is burning red. The raging flames of\nthe crimson fire are consuming the houses, the\nlivestock is drowning in a sea of blood, and the\nvillagers are desperately fleeing in confusion."
+    },
+    "4": {
+        "name": "Narration",
+        "face": null,
+        "text": "Not long ago, it was supposed to be a peaceful,\ngentle night. However, suddenly, the sound of\npowerful wings flapping announced disaster to the\nvillage."
+    },
+    "5": {
+        "name": "Narration",
+        "face": null,
+        "text": "The red dragon Evennajetoldor indulges in\ndestruction and slaughter as it pleases. The\nsensation of biting into fragile humans, and the\ntaste of their blood and flesh bursting in the\nmouth, is exquisite. Especially when they were\nshedding tears of fear until just before being\ndevoured, it becomes exceptional."
+    },
+    "6": {
+        "name": "Narration",
+        "face": null,
+        "text": "Its swinging tail easily knocks down houses, and\nwith each swipe of its claws and fangs, lives\nburst. Its scorching breath turns everything\naround it into a sea of flames. Its crimson\nsilhouette was truly the embodiment of disaster."
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "8": {
+        "name": "Narration",
+        "face": null,
+        "text": "That day, the village was destroyed by the\ncapricious play of a single red dragon. It is said\nthat out of nearly 100 villagers, only three\nsurvived."
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "10": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "The massive body, which had been coiled up and\nsleeping, raised its head. It recognized Sol's\nfigure and displayed a sadistic smile, as if to\nsay, \"You've finally arrived.\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"For everyone's sake! For the sake of my mother! I\nwill avenge her!\""
+    },
+    "15": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"Let's win this together, everyone!\""
+    },
+    "16": {
+        "name": "Narration",
+        "face": null,
+        "text": "The red dragon roars, causing the surroundings to\ntremble in fear. However, there are those who\nstand up to it. Enduring the despair that eats\naway at their hearts and the scorching heat\nburning their bodies, the adventurers take up\ntheir weapons and step forward."
+    },
+    "17": {
+        "name": "Narration",
+        "face": null,
+        "text": "The golden little dragon mustered its courage and\ndashed towards the gigantic shadow. That became\nthe signal for battle...!"
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

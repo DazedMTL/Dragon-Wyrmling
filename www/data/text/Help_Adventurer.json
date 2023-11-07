@@ -1,212 +1,212 @@
 {
-  "0": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "1": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "2": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "3": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "4": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "5": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "6": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "7": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "8": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "9": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "10": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "11": {
-    "name": null,
-    "help1": null,
-    "help2": null,
-    "help3": null
-  },
-  "12": {
-    "name": "エリック",
-    "help1": "「エリックは冒険者たちのリーダーみたいな存在です。\n　彼女がなんとなしに彼らをまとめています。\n　クラスは盗賊。結構巨乳。独身です」",
-    "help2": "「主に鍵開けや罠発見などを得意としており、\n　戦闘時は強化スキルや追い打ちなどでサポートする\n　支援型の冒険者です」",
-    "help3": "「彼女を連れていけば普段は問題ないでしょう。\n　ただし、強敵との対決が予想される場合は\n　もっと戦闘向けの冒険者を編成した方がいいかも\n　しれませんね」"
-  },
-  "13": {
-    "name": "マーくん",
-    "help1": "「愛称マーくん、正しくはマーク。ロード志望の戦士。\n　なんだかんだで面倒見がよく、皆に頼られる21歳、\n　ただいま絶賛売り出し中の冒険者です」",
-    "help2": "「攻防共に長け、体力も高く、頼りになる前衛です。\n　＜円盾＞は最初の数ターンのダメージを軽減し、\n　パーティの戦力を安定させます」",
-    "help3": "「＜腕力の薬＞で攻撃力もあげる事ができます。\n　ただ、あのポーションは彼の自腹のようでして、\n　出費が激しいとよく嘆いています」"
-  },
-  "14": {
-    "name": "グレストラス",
-    "help1": "「グレストラスは学院出身の魔術師です。\n　電磁…雷の力を専攻しており、その研究費用の\n　捻出のために冒険者となりました」",
-    "help2": "「彼の＜電磁嵐＞は破壊力が高く、特に対集団で\n　最高の威力を発揮します。雷属性は軽減されづらい\n　のも追い風です」",
-    "help3": "「さらに、＜加速＞の呪文は、パーティ全員の\n　アクティブスキルを１ターン分チャージ可能です。\n　チャージの長いスキルを持つ仲間と組ませましょう」"
-  },
-  "15": {
-    "name": "ファリア",
-    "help1": "「ファリアは貧民街の教会出身のシスターです。\n　衆中に癒やしを与え、そして孤児院に仕送りのため\n　冒険者となることを決めました。\n　ちなみに彼女はハーフエルフです」",
-    "help2": "「冒険者のシスターの中でも、彼女は特に回復に\n　優れています。戦闘開始時と、アクティブスキルの\n　両方でパーティを癒やしていきます」",
-    "help3": "「攻撃面ではほぼすることはありませんが、それでも\n　長期戦となる探索では、彼女がいる事で、損耗を\n　著しく抑えることができるでしょう」"
-  },
-  "16": {
-    "name": "ゴメス",
-    "help1": "「ならず者ゴメスは、元々は近隣の森を根城にした\n　追い剥ぎ集団の一人でした。が、その集団も壊滅し\n　心をいれかえて冒険者家業で暮らす事を決意。\n　典型的なならず者系冒険者です」",
-    "help2": "「戦闘面においては、耐久力が高めな事以外は\n　特筆することもない、ただのならず者です。」",
-    "help3": "「ただ、戦闘後の報酬をより多く目ざとく見つけたり\n　敵を煽って怒りを誘うことなど、一風変わった\n　立ち回りを行なえます」"
-  },
-  "17": {
-    "name": "トレンディル",
-    "help1": "「トレンディルは人間社会を見物に来たエルフです。\n　飄々としており、あちこちを見て旅をしてきました。\n　クラスはレンジャー。斥候や弓手として機能します」",
-    "help2": "「弓による先制攻撃を仕掛けたり、相手を拘束し\n　行動を阻害する射撃が得意です。\n　強敵の強い行動をうまく封じていきましょう」",
-    "help3": "「また、盗賊ほどではありませんが、鍵開けなども\n　多少ながら可能です。居ると便利な男、それが\n　トレンディルです」"
-  },
-  "18": {
-    "name": "ギドルフ",
-    "help1": "「旅の僧侶ギドルフは、守護の神イシュペールに\n　仕える退魔僧です。各地に散らばる不浄なる\n　アンデッドを滅するのが彼の旅の目的です」",
-    "help2": "「彼の＜死者退散＞は、不死の者には特に効果が\n　高く、チャージ時間も短めです。\n　ただし、アンデッド以外にはほぼ効果がないので\n　気をつけましょう」",
-    "help3": "「多少ながら回復呪文も扱え、＜祝福＞によって\n　パーティの攻撃力をあげる事ができます。\n　総じて、対不死者として貢献するでしょう」"
-  },
-  "19": {
-    "name": "イヴォ",
-    "help1": "「蛮族の戦士イヴォ。彼は戦いの場を求め、故郷を\n　捨て、この地まで流されてきたバーバリアンです。\n　こちらの文化にまだ馴染んでおらず、冒険者の\n　等級もまだ低めですが、実力は折り紙付き」",
-    "help2": "「物凄い筋力とタフネスを兼ね備え、真正面から\n　その大斧で敵を粉砕します。\n　単純ながらも非常に頼りになる前衛です。」",
-    "help3": "「ただし、逆に言うと正面から殴り合う事しか\n　できません。物理攻撃の効かない相手などは\n　仲間がうまくフォローしてあげましょう」"
-  },
-  "20": {
-    "name": "フレイ",
-    "help1": "「フレイは修道僧として修行を積んできたモンクです。\n　禁欲的な生活が嫌になり、寺院を飛び出して冒険者と\n　なった奔放的な少女です」",
-    "help2": "「積んだ修行により、彼女の拳足は炎を纏い\n　属性攻撃を可能としています。また、気によって\n　属性攻撃に対して抵抗力を持っています」",
-    "help3": "「そして、敵の火炎耐性を一時的にダウンさせる\n　＜浸透火掌＞が切り札です。これを当てたあと\n　ドラゴンブレスなどで焼いてあげましょう」"
-  },
-  "21": {
-    "name": "グスタフ",
-    "help1": "「グスタフは、ドワーフの里の銃鍛冶・技師でした。\n　彼の里が戦で壊滅し、彼は自分の知識と技術を\n　用いて、冒険者となって暮らしています」",
-    "help2": "「彼の大砲＜竜の火吹き＞は、飛んでいる敵に\n　特攻を持つ主力武器です。これがあれば\n　飛んでいるドラゴンにも大ダメージを与えられる\n　ことでしょう」",
-    "help3": "「また、アーティファクトにも造詣が深く、チャージ量や\n　チャージ時間なども強化されます。\n　アーティファクトをメインに使うのなら、彼は必須と\n　言えるでしょう」"
-  },
-  "22": {
-    "name": "ドラウケン",
-    "help1": "「ドラウケンは、相棒のグリフォン「ストーナー」と共に\n　旅を続ける遍歴の騎士です。その轟く勇名は、\n　いくつもの英雄譚に謳われるほどです」",
-    "help2": "「ストーナーに乗っての突撃は、集団戦において\n　真価を発揮します。有象無象の兵士などは\n　簡単に蹴散らしてしまいます」",
-    "help3": "「また、ストーナーの咆哮は有象無象を恐怖に\n　陥れます。戦場で怒り狂うグリフォンは、何よりも\n　恐ろしいものです」"
-  },
-  "23": {
-    "name": "エルシィ",
-    "help1": "「エルシィは孤児院で育てられたシスターで、\n　戦い傷つく者たちを癒やすために冒険者となる事を\n　決意した戦神アウルド信徒です」",
-    "help2": "「彼女の信仰するアウルドは、戦う者を鼓舞します。\n　＜戦神の祝福＞は、傷を癒やし、同時に攻撃力を\n　あげることができます」",
-    "help3": "「また、＜聖壁＞や＜応急治癒＞など戦闘の補助に\n　欠かせない呪文を習得しています。\n　強敵と戦う際には連れていくとよいでしょう」"
-  },
-  "24": {
-    "name": "ベイン",
-    "help1": "「ベインは鉱山地方出身のドワーフです。\n　故郷を捨て、傭兵として戦を渡り歩いてきたあと、\n　冒険者として生きることを決めました。",
-    "help2": "「彼の斧は＜邪悪の斧＞と呼ばれ、呪属性で\n　攻撃する事ができます。\n　本人も非常に堅牢な戦士であり、前衛として\n　仲間を守ってくれるでしょう」",
-    "help3": "「彼は抜け目がなく、追撃可能な隙を逃しません。\n　＜機会攻撃＞は、ソルのブレスのタイミングに\n　合わせて追撃を行います。」"
-  },
-  "25": {
-    "name": "エレイン",
-    "help1": "「氷雪魔術師エレインは、グレストラスと同じく\n　魔術学院出身のウィザードです。常に冷静で\n　礼儀正しく、その容貌も相まって女性人気が\n　高い方です」",
-    "help2": "「得意呪文は＜凍嵐＞。冷気属性の対集団魔法。\n　冷気が弱点な敵には絶大な効果を発揮します」",
-    "help3": "「さらに＜時間凍結＞は、相手の時を凍りつかせ\n　敵のターンを飛ばしてしまうという大魔法です。\n　うまく使いこなしましょう」"
-  },
-  "26": {
-    "name": "ボルシチマン",
-    "help1": "「ボルシチマンは、旅と風の神フォーレに仕える\n　神官で……その…すごく独特な方です」",
-    "help2": "「＜棒を蛇に＞は、その名の通り棒を蛇に変え、敵を\n　襲うという呪文です。効果は…そんな感じです。\n　あ、彼の持つ蛇のメイスは、攻撃属性が酸毒で\n　あり、独自性があります」",
-    "help3": "「なんというか…こう…評価に困る方ですが、\n　何かこうユニークな冒険者がお好きであれば\n　仲間にして差し上げてみてはいかがでしょうか？」"
-  },
-  "27": {
-    "name": "セレス",
-    "help1": "「セレスは大地母神を信仰するプリーステスにして、\n　冒険者ギルドの監査官代理という役目を持った\n　美しいエルフの女性です。ウェインとは幼馴染です」",
-    "help2": "「見た目とは裏腹に質実剛健な彼女は、槍と盾を持ち\n　＜大いなる聖盾＞によって、敵の強力な攻撃をも\n　受け止める事ができるでしょう」",
-    "help3": "「総じて、防御に優れた後衛職です。\n　相方には攻撃力の高い冒険者が適切です。\n　うまく戦力を温存していきましょう」"
-  },
-  "28": {
-    "name": "アグニー",
-    "help1": "「蜥蜴人アグニーは、己が仕える竜を探すために\n　ここまで旅をしてきた沼の戦士です。\n　蜥蜴人にしては社交的で温厚で、人間社会にも\n　難なく打ち解けてみせています。」",
-    "help2": "「最もタフで鱗の装甲を持つ彼は、物理攻撃ダメージ\n　を常時軽減します。ただし、冷血動物故の弱点で\n　冷気に脆弱です」",
-    "help3": "「また、竜に仕える種族の特徴で、ソルの\n　ブレスチャージターンを早めるスキルも所持。\n　パーティの戦力の底上げが可能です」"
-  },
-  "29": {
-    "name": "ウェイン",
-    "help1": "「ウェインは攻撃呪文を多く修めた戦争魔術師です。\n　好戦的で喧嘩っ早くありますが、戦闘では\n　冷徹に状況を判断する頼れる冒険者です。\n　ちなみに色黒ですがダークエルフではありません。」",
-    "help2": "「能力も攻撃一辺倒。先制攻撃呪文＜起爆＞、\n　対集団用大威力呪文＜爆破＞、ブレス発動時に\n　追撃する＜誘爆＞と、ひたすら火力で押します」",
-    "help3": "「ただ、彼女自体はとても貧弱で、耐久力はほとんど\n　ありません。彼女を起用する際は、防御に長けた\n　冒険者をフォローに入れておくと良いでしょう」"
-  },
-  "30": {
-    "name": "アズサ",
-    "help1": "「アズサは、遥か東の国から来たというサムライです。\n　非常に個性的な出で立ちで人目を惹いています。\n　ホウリュウと言われる謎の剣技を修めており、\n　その刃の威圧感は他の追随を許しません」",
-    "help2": "「彼女の奥義＜虚空斬＞は、まさに森羅万象を\n　一刀両断します。この剣に対しては、いかなる\n　鎧も盾も意味をなしません」",
-    "help3": "「ただし、この剣技を発動するためには気を練るための\n　かなりの時間が必要です。彼女の＜練気＞スキル\n　以外にもスキルチャージ手段を使っていきましょう」"
-  },
-  "31": {
-    "name": "フェリル",
-    "help1": "「フェリルはこの近隣で唯一、ロードの称号を持つ\n　冒険者です。その理由に関してはいくつも憶測が\n　ありますが、彼女はそれを語ろうとはしません。\n　ロード志望のマーくんに熱い視線を送られています」",
-    "help2": "「＜聖なる一撃＞は神聖属性の攻撃で、邪悪な者を\n　一撃で粉砕しますが、チャージ時間が長いので\n　気をつけましょう」",
-    "help3": "「＜金剛石の盾＞は、かのダイヤモンドの騎士の盾。\n　ドラゴンブレス発動前に、体力を癒やします。\n　ブレス主体の戦いをするならば、彼女を起用して\n　間違いないでしょう」"
-  },
-  "32": {
-    "name": "ルビィ",
-    "help1": "「ルビィは悪魔とのハーフ…ティーフリングでありながら\n　その信仰心によって、司教となった少女です。\n　小悪魔的な性格や行動、見た目とは裏腹に\n　優しい性格をしています」",
-    "help2": "「戦闘では、その悪魔の血を使った能力を使います。\n　自陣営の体力を削ってスキルをチャージし、\n　＜闇の掌握＞で敵から体力を奪い取る戦術を\n　得意とします」",
-    "help3": "「また、＜死の接触＞は敵を呪詛で弱らせる事が\n　できます。司教の名にふさわしい戦闘力で、\n　戦場を支配できるでしょう」"
-  },
-  "33": {
-    "name": "ハヤガケ",
-    "help1": "「ハヤカゲは、東の国から流れてきたニンジャです。\n　今もなお修行の旅の途中であり、己の技を磨くため\n　冒険者となりました。全裸な理由は、その方が\n　攻撃を避けやすいからだそうです」",
-    "help2": "「戦闘開始時に隠形によって姿を隠し、戦闘を\n　有利にします。そして＜致死の一撃＞が、まさに\n　素手の一撃にて敵を死に至らしめます」",
-    "help3": "「彼を雇うには大量の金貨が必要となりますが、\n　彼の技は、間違いなく払った金額に見合った働きを\n　するでしょう」"
-  },
-  "34": {
-    "name": "エニ先生",
-    "help1": "「旅と風の神フォーレに愛されし賢者エニトゥーラヤ。\n　彼女こそ十年前、世界滅亡の危機を救ったとされる\n　冒険者の一員です」",
-    "help2": "「魔術こそは使えませんが、真なる銀の剣と\n　賢者の叡智と多数の魔法の指輪をフルに活用し、\n　戦場で万能の働きをします。」",
-    "help3": "「ただ、彼女は放浪癖を持っており、一箇所に\n　留まっていると気を病む難儀な気質を持っています。\n　なるべくパーティに入れて連れ回しましょう。\n　さもないと…？」"
-  }
+    "0": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "1": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "2": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "3": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "4": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "5": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "6": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "7": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "8": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "9": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "10": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "11": {
+        "name": null,
+        "help1": null,
+        "help2": null,
+        "help3": null
+    },
+    "12": {
+        "name": "Eric",
+        "help1": "\"Eric is like the leader of the adventurers. She\ncasually brings them together. Her class is thief.\nQuite busty. Single.\"",
+        "help2": "\"She specializes in opening locks and detecting\ntraps, and supports the party in battle with\nenhancement skills and follow-up attacks as a\nsupport-type adventurer.\"",
+        "help3": "\"If you bring her along, there shouldn't be any\nissues in normal situations. However, if a\nconfrontation with a strong enemy is expected, it\nmight be better to organize adventurers more\ngeared towards combat.\""
+    },
+    "13": {
+        "name": "Ma-kun",
+        "help1": "\"Nickname Ma-kun, actually it's Mark. Aspiring to\nbe a warrior of the road. Somehow takes good care\nof others, a 21-year-old who everyone relies on.\nCurrently in the midst of a booming career as an\nadventurer.\"",
+        "help2": "\"Skilled in both offense and defense, with high\nstamina, he is a reliable vanguard. The <Round\nShield> reduces damage for the first few turns,\nstabilizing the party's fighting strength.\"",
+        "help3": "\"With the <Strength Potion>, he can also increase\nhis attack power. However, it seems that potion\ncomes out of his own pocket, and he often laments\nabout the heavy expenses.\""
+    },
+    "14": {
+        "name": "Gurestorasu",
+        "help1": "\"Gurestorasu is a magician who graduated from the\nacademy. She specializes in electromagnetic and\nlightning magic, and became an adventurer to raise\nfunds for her research.\"",
+        "help2": "\"His <Electromagnetic Storm> has high destructive\npower, especially exhibiting the greatest power\nagainst groups. The difficulty in reducing\nlightning attribute damage is also an advantage.\"",
+        "help3": "\"Furthermore, the <Acceleration> spell can charge\nthe active skills of all party members for one\nturn. It's best to pair him with allies who have\nskills with long charge times.\""
+    },
+    "15": {
+        "name": "Faria",
+        "help1": "\"Faria is a sister from the church in the slums.\nShe provides healing to the masses and decided to\nbecome an adventurer to support the orphanage. By\nthe way, she is a half-elf.\"",
+        "help2": "\"Among the adventurer sisters, she excels in\nrecovery. She will heal the party at the start of\nbattle and with active skills.\"",
+        "help3": "\"She hardly does anything in terms of offense, but\neven so, in prolonged explorations, having her\naround will significantly reduce attrition.\""
+    },
+    "16": {
+        "name": "Gomes",
+        "help1": "\"Gomes, a former member of a bandit group that\noriginally operated in the nearby forest. However,\nafter the group was annihilated, he had a change\nof heart and decided to live the life of an\nadventurer. He's a typical rogue-type adventurer.\"",
+        "help2": "\"In terms of combat, there's nothing particularly\nnoteworthy about him except for his high\nendurance. He's just a regular troublemaker.\"",
+        "help3": "\"However, he can perform unusual tactics such as\nquickly finding more rewards after battles and\nprovoking enemies to induce anger.\""
+    },
+    "17": {
+        "name": "Trendyル",
+        "help1": "\"Trendyル is an elf who came to observe human\nsociety. She has a carefree attitude and has been\ntraveling around, looking at various places. Her\nclass is a ranger, functioning as a scout and\narcher.\"",
+        "help2": "\"She excels in launching preemptive attacks with\nher bow and shooting to restrain and hinder the\nopponent's actions. Let's skillfully seal the\nstrong actions of formidable enemies.\"",
+        "help3": "\"Also, while not as skilled as a thief, she is\nsomewhat capable of picking locks. A handy person\nto have around, that's Trendyル for you.\""
+    },
+    "18": {
+        "name": "Gildolf",
+        "help1": "\"The traveling monk Gildolf is an exorcist monk\nwho serves the guardian god Ishperel. His\njourney's purpose is to exterminate the impure\nundead scattered throughout various places.\"",
+        "help2": "\"His 'Banishment of the Dead' has a particularly\nhigh effect on the undead, with a short charge\ntime. However, it has almost no effect on anything\nother than the undead, so be careful.\"",
+        "help3": "\"He can handle recovery spells to some extent, and\nwith 'Blessing,' he can increase the party's\nattack power. Overall, he will contribute as an\nanti-undead specialist.\""
+    },
+    "19": {
+        "name": "Ivo",
+        "help1": "\"Ivo, a warrior from the barbarian tribe. He\nsought the battlefield, abandoned his homeland,\nand was washed up to this land. He is not yet\naccustomed to our culture, and his adventurer rank\nis still low, but his strength is undeniable.\"",
+        "help2": "\"He possesses tremendous strength and toughness,\npulverizing enemies with his large axe head-on. He\nmay be straightforward, but he is an extremely\nreliable vanguard.\"",
+        "help3": "\"However, on the flip side, he can only engage in\ndirect physical confrontations. For opponents\nimmune to physical attacks, let's have our allies\nprovide support effectively.\""
+    },
+    "20": {
+        "name": "Frey",
+        "help1": "\"Frey is a monk who has trained as a monk. She is\na carefree girl who became an adventurer after\nbecoming tired of the ascetic life and running\naway from the temple.\"",
+        "help2": "\"Through her accumulated training, her fists and\nfeet are enveloped in flames, allowing for\nelemental attacks. Additionally, she has\nresistance against elemental attacks depending on\nher mood.\"",
+        "help3": "\"And her trump card is the <Penetrating Flame\nPalm>, which temporarily lowers the enemy's fire\nresistance. After hitting with this, let's burn\nthem with a Dragon Breath or something similar.\""
+    },
+    "21": {
+        "name": "Gustav",
+        "help1": "\"Gustav was a gunsmith and engineer from the dwarf\nvillage. After his village was destroyed in a war,\nhe became an adventurer, using his knowledge and\nskills to make a living.\"",
+        "help2": "\"His main weapon, the <Dragon's Breath> cannon,\nhas a special attack against flying enemies. With\nthis, he can deal significant damage even to\nflying dragons.\"",
+        "help3": "\"Furthermore, he has a deep understanding of\nartifacts, and his charge amount and charge time\nare also enhanced. If you are going to use\nartifacts as your main focus, he can be considered\nessential.\""
+    },
+    "22": {
+        "name": "Dorawken",
+        "help1": "\"Dorawken is a wandering knight who continues his\njourney with his partner griffin, 'Stoner.' His\nresounding fame is sung in numerous heroic tales.\"",
+        "help2": "\"Charging into battle on Stoner truly shines in\ngroup battles. I can easily scatter the rabble of\nsoldiers.\"",
+        "help3": "\"Furthermore, Stoner's roar plunges the masses\ninto fear. A griffin raging in the battlefield is\nmore terrifying than anything else.\""
+    },
+    "23": {
+        "name": "Elsie",
+        "help1": "\"Elsie is a sister who was raised in an orphanage,\nand she became an adventurer as a devout follower\nof the war god Auld, determined to heal those\nwounded in battle.\"",
+        "help2": "\"The war god Auld, whom she worships, inspires\nfighters. The <Blessing of the War God> can heal\nwounds and at the same time increase attack\npower.\"",
+        "help3": "\"She has also mastered indispensable spells for\ncombat support such as <Holy Barrier> and\n<Emergency Healing>. It would be good to bring her\nalong when facing formidable enemies.\""
+    },
+    "24": {
+        "name": "Bain",
+        "help1": "\"Bain is a dwarf from the mining region. After\nwandering as a mercenary and leaving his hometown,\nhe decided to live as an adventurer.\"",
+        "help2": "\"His axe is called the <Axe of Evil>, and it can\nattack with a cursed attribute. He himself is an\nextremely sturdy warrior and will protect his\ncomrades as a vanguard.\"",
+        "help3": "\"He is shrewd and does not miss any opportunity\nfor a follow-up attack. The <Opportunity Strike>\nis timed to follow up with Sol's breath.\""
+    },
+    "25": {
+        "name": "Elaine",
+        "help1": "\"The ice and snow sorceress Elaine is a wizard\nwho, like Gurestoras, graduated from the Magic\nAcademy. Always calm and polite, her appearance\nalso makes her quite popular among women.\"",
+        "help2": "\"My specialty spell is <Frozen Storm>. It's a\ngroup magic with the ice attribute. It has a\ntremendous effect on enemies weak to cold.\"",
+        "help3": "\"Furthermore, <Time Freeze> is a powerful magic\nthat freezes the opponent's time, causing them to\nskip their turn. Let's make good use of it.\""
+    },
+    "26": {
+        "name": "Borschtman",
+        "help1": "\"Borschtman is a priest who serves the god of\ntravel and wind, Folle... He's a very unique\nindividual.\"",
+        "help2": "\"The spell <Snake Staff> does just as the name\nsuggests, turning a staff into a snake to attack\nthe enemy. Its effect is... something like that.\nOh, his snake mace has the unique attribute of\nacid poison, making it distinctive.\"",
+        "help3": "\"He's, um... how should I put it... a bit hard to\nevaluate, but if you like unique adventurers, why\nnot consider making him a companion?\""
+    },
+    "27": {
+        "name": "Seres",
+        "help1": "\"Seres is a beautiful elven woman who serves as a\npriestess devoted to the earth mother goddess and\nholds the role of acting auditor of the\nadventurer's guild. She is childhood friends with\nWayne.\"",
+        "help2": "\"Despite her appearance, she is a simple and\nsturdy woman who wields a spear and shield. With\nthe <Great Holy Shield>, she can withstand even\nthe most powerful enemy attacks.\"",
+        "help3": "\"Overall, she excels in defense as a rear guard.\nIt's appropriate to have an adventurer with high\nattack power as a partner. Let's conserve our\nfighting strength wisely.\""
+    },
+    "28": {
+        "name": "Agni",
+        "help1": "\"The lizardman Agni is a swamp warrior who has\ntraveled this far in search of the dragon he\nserves. Despite being a lizardman, he is sociable\nand gentle, easily blending into human society.\"",
+        "help2": "\"With the toughest scales and armor, he constantly\nreduces physical attack damage. However, due to\nthe weakness of cold-blooded creatures, he is\nvulnerable to cold.\"",
+        "help3": "\"Furthermore, as a member of the race that serves\ndragons, he also possesses a skill to hasten Sol's\nbreath charge turn. This allows for boosting the\nparty's combat capabilities.\""
+    },
+    "29": {
+        "name": "Wayne",
+        "help1": "\"Wayne is a battle mage who has mastered many\noffensive spells. He is aggressive and quick to\nfight, but in battle, he is a reliable adventurer\nwho coldly assesses the situation. By the way, he\nmay be dark-skinned, but he is not a dark elf.\"",
+        "help2": "\"He's all about offense. He focuses solely on\nattacking with the preemptive strike spell\n<Ignition>, the powerful group-targeting spell\n<Explosion>, and the follow-up attack <Detonation>\nwhen using breath attacks.\"",
+        "help3": "\"However, she herself is very weak and has almost\nno durability. It would be good to include an\nadventurer skilled in defense as support when\nusing her.\""
+    },
+    "30": {
+        "name": "Azusa",
+        "help1": "\"Azusa is a samurai who hails from a distant\neastern country. She captivates people with her\nhighly unique appearance. She has mastered a\nmysterious sword technique called Horyu, and the\nintimidation of her blade is unmatched by any\nother.\"",
+        "help2": "\"Her secret technique <Void Slash> truly cuts\nthrough all creation with a single stroke. Against\nthis sword, no armor or shield holds any meaning.\"",
+        "help3": "\"However, in order to unleash this sword\ntechnique, it requires a considerable amount of\ntime to focus one's energy. Let's use skill\ncharging methods in addition to her\n<Concentration> skill.\""
+    },
+    "31": {
+        "name": "Feril",
+        "help1": "\"Feril is the only adventurer in this neighborhood\nwho holds the title of Lord. There are many\nspeculations about the reason, but she does not\nspeak about it. She is receiving warm gazes from\nMark-kun, who aspires to become a Lord.\"",
+        "help2": "\"The <Holy Strike> is a sacred attribute attack\nthat pulverizes evil beings in a single blow, but\nbe careful as it has a long charge time.\"",
+        "help3": "\"The <Diamond Shield> is the shield of the Diamond\nKnight. It heals your health before activating the\nDragon Breath. If you are going to engage in\nbreath-based battles, there is no doubt that you\nshould use her.\""
+    },
+    "32": {
+        "name": "Ruby",
+        "help1": "\"Ruby is a half-demon... a tiefling who, through\nher faith, became a bishop. Despite her\nmischievous personality, behavior, and appearance,\nshe has a kind nature.\"",
+        "help2": "\"In battle, she uses abilities that harness the\npower of her demon blood. She excels in tactics\nthat deplete her own camp's health to charge\nskills, and then uses <Dark Grasp> to steal the\nenemy's health.\"",
+        "help3": "\"Furthermore, <Death's Touch> can weaken the enemy\nwith a curse. With battle prowess befitting of a\nbishop, she will be able to dominate the\nbattlefield.\""
+    },
+    "33": {
+        "name": "Hayagake",
+        "help1": "\"Hayagake is a ninja who drifted from the eastern\ncountry. She is still on a journey of training and\nhas become an adventurer to hone her skills. It\nseems that the reason for being naked is that it\nmakes it easier to avoid attacks.\"",
+        "help2": "\"She conceals her presence with stealth at the\nstart of battle, gaining an advantage. Then, with\n<Deadly Blow>, she can bring enemies to their\ndemise with a single unarmed strike.\"",
+        "help3": "\"Hiring him will require a large amount of gold\ncoins, but his skills will undoubtedly be worth\nthe amount paid.\""
+    },
+    "34": {
+        "name": "Eni-sensei",
+        "help1": "\"Eni Turaia, the sage beloved by the god of travel\nand wind, Folle. She is said to be a member of the\nadventurers who saved the world from destruction\nten years ago.\"",
+        "help2": "\"I may not be able to use magic, but I fully\nutilize the true silver sword, the wisdom of a\nsage, and a multitude of magic rings to play a\nversatile role on the battlefield.\"",
+        "help3": "\"However, she has a wandering habit and tends to\nbecome mentally distressed if she stays in one\nplace for too long. Let's try to include her in\nthe party and take her around as much as possible.\nOtherwise...?\""
+    }
 }

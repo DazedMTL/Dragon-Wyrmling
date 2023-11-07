@@ -10558,14 +10558,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊　下の階・右部に移動しますか？　＊"
+                                "＊Move to the right side of the lower\nfloor?＊（\\c[10]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>（\\c[10]注：ダンジョンを出るまで前の階層には戻れません\\c[0]）"
+                                ""
                             ]
                         },
                         {
@@ -10573,8 +10573,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "移動する",
-                                    "キャンセル"
+                                    "Move",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -18425,14 +18425,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊　下の階・左部に移動しますか？　＊"
+                                "*Move to the left side of the lower floor?*\n(\\c[10]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>（\\c[10]注：ダンジョンを出るまで前の階層には戻れません\\c[0]）"
+                                ""
                             ]
                         },
                         {
@@ -18440,8 +18440,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "移動する",
-                                    "キャンセル"
+                                    "Move",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,

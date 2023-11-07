@@ -1,252 +1,252 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：エンディングルート"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "5": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "7": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「よーし今日もいっぱい稼ぐわよー！」"
-  },
-  "8": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「おー！」"
-  },
-  "9": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「いえー」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「いっぱい宝物貯めて、縄張りまもって\n　グレートワームになるまでがんばります！」"
-  },
-  "11": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「もちろん、ちゃんとお宝は山分けだかんね？」"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「？」"
-  },
-  "13": {
-    "name": "エリック",
-    "face": "怒1",
-    "text": "「かわいい顔してゴマかしてもダメだかんね」"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "16": {
-    "name": "ソル",
-    "face": null,
-    "text": "「うふふふふー……ごくらく……」"
-  },
-  "17": {
-    "name": "エニ先生",
-    "face": null,
-    "text": "「しかしまぁ、ここまで良く溜め込んだものです。\n　流石というべきなのか呆れるべきなのか……」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": null,
-    "text": "「たからもの、いっぱいあつめてごまんえつです……\n　ああ……たまらぬ宝であった……」"
-  },
-  "19": {
-    "name": "エニ先生",
-    "face": null,
-    "text": "「これでもう少し、竜らしい威厳があれば\n　何も言うことはなかったのですが。……まったく」"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": "イスク",
-    "face": null,
-    "text": "「皆様……ああ……とても逞しい……」"
-  },
-  "23": {
-    "name": "ソル",
-    "face": null,
-    "text": "「えへへ……今夜も、いっぱい……かわいがってくださいね」"
-  },
-  "24": {
-    "name": "イスク",
-    "face": null,
-    "text": "「英雄様のお力添えになれるのが……何よりの幸福です……」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": null,
-    "text": "「みなさん、だいすきです……♡」"
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": "エリック",
-    "face": null,
-    "text": "「こ、ここでいいのかな……？\n　本当に……ここにいる……のかなぁ……」"
-  },
-  "30": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "31": {
-    "name": "金竜",
-    "face": null,
-    "text": "「──────我が巣への来客とは………、……さて一体何用か？」"
-  },
-  "32": {
-    "name": "エリック",
-    "face": null,
-    "text": "「ひゃっ！！　ほ、ほんとに居た……！！」"
-  },
-  "33": {
-    "name": "エリック",
-    "face": null,
-    "text": "「あ、あの、あたしのお母さんが……病気になっちゃって……\n　それで、薬草を探してるんです、けど………」"
-  },
-  "34": {
-    "name": "金竜",
-    "face": null,
-    "text": "「………………」"
-  },
-  "35": {
-    "name": "エリック",
-    "face": null,
-    "text": "「ひいおばあちゃんが、\n　『何かあったらこの洞窟の竜神様にお願いするんだよ』\n　って……」"
-  },
-  "36": {
-    "name": "エリック",
-    "face": null,
-    "text": "「ひいおばあちゃんの友達で、きっと助けになってくれるって……\n　だ、だから……」"
-  },
-  "37": {
-    "name": "金竜",
-    "face": null,
-    "text": "「………ふむ……。」"
-  },
-  "38": {
-    "name": "金竜",
-    "face": null,
-    "text": "「成程。懐かしい香りがします……。\n　………確かに、貴方は我が友の面影がありますね………」"
-  },
-  "39": {
-    "name": "エリック",
-    "face": null,
-    "text": "「えっと……あの………」"
-  },
-  "40": {
-    "name": "金竜",
-    "face": null,
-    "text": "「ふふ……いいでしょう。あなたのお母様を癒やす薬草……」"
-  },
-  "41": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "42": {
-    "name": "金竜",
-    "face": null,
-    "text": "「一緒に、探しにいきましょう！」"
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "44": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "45": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "47": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "49": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "The dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Ending Route"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "5": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "7": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Alright, I'm going to earn a lot today too!\""
+    },
+    "8": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Oh!\""
+    },
+    "9": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Nope\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I'll collect lots of treasures, protect my\nterritory, and do my best until I become a Great\nWorm!\""
+    },
+    "11": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Of course, we'll properly split the treasures,\nright?\""
+    },
+    "12": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Hm?\""
+    },
+    "13": {
+        "name": "Eric",
+        "face": "怒1",
+        "text": "\"You can't get away with it just by making a cute\nface, you know?\""
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "16": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Hehehe... How delightful...\""
+    },
+    "17": {
+        "name": "Eni-sensei",
+        "face": null,
+        "text": "\"My, my, you've really managed to amass quite a\ncollection. I'm not sure if I should be impressed\nor exasperated...\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Collecting lots of treasures is so delightful...\nAh... such irresistible treasures...\""
+    },
+    "19": {
+        "name": "Eni-sensei",
+        "face": null,
+        "text": "\"If only there were a little more dignity\nbefitting of a dragon, then I wouldn't have\nanything to say. ...Honestly.\""
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Everyone... Ah... so very robust...\""
+    },
+    "23": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ehehe... Please, take good care of me tonight\ntoo, okay?\""
+    },
+    "24": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Being able to assist the hero... is the greatest\nhappiness for me...\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Everyone, I love you all so much...♡\""
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"I-Is it okay for me to be here...? Am I really...\nhere...?\""
+    },
+    "30": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "31": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"──────A visitor to my lair... I wonder, what\nbrings you here?\""
+    },
+    "32": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Eek!! Y-You're really here...?!\""
+    },
+    "33": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Um, um, my mother... she got sick... So, I'm\nlooking for medicinal herbs, but...\""
+    },
+    "34": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "「………………」"
+    },
+    "35": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"My great-grandma said, 'If anything happens, ask\nthe dragon god in this cave for help'...\""
+    },
+    "36": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"She's a friend of my great-grandma, so I'm sure\nshe'll help me... S-So...\""
+    },
+    "37": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"Hmmm...\""
+    },
+    "38": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"I see. There's a nostalgic scent... Indeed, you\ndo resemble my friend's presence...\""
+    },
+    "39": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Um...uh...well...\""
+    },
+    "40": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"Fufu... Very well. Medicinal herbs to heal your\nmother...\""
+    },
+    "41": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "42": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"Let's go look for them together!\""
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "44": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "45": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "47": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "49": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

@@ -1,97 +1,97 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：巣作りソルちゃん"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "「えーと……えーと……\n　まずは、これを……ここにおいて……」"
-  },
-  "4": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "「集めた金貨を……ここに……ざばーっと……\n　そして残りをこう、上に飾って……」"
-  },
-  "5": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "6": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「やったー！！できたー！！\n　わたしの寝床の完成！！」"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "8": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお…………しあわせ………\n　この世の快楽の全てを凝縮したかのような幸福……」"
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "10": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "※ドラゴンは本能的に、財宝を巣に貯め込むのを至福とし、\nまたその財宝の量がドラゴンとしての格を決めます。"
-  },
-  "11": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "財宝の量が一定を超えた場合、\\ruby[成長](レベルアップ)する事が\n可能です。\nまた、レベルアップを重ねる事で\\c[2]脱皮\\c[0]します。"
-  },
-  "12": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "脱皮する事で、竜の体は一回り大きくなります。\n一度に背に乗せて運べる冒険者の数も増え、\n戦力が大幅にアップします。"
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "積極的に財宝を集め、巣に持ち帰りましょう！"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Sol's Nest-building"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"Um... um... First, I'll put this... here...\""
+    },
+    "4": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"I'll scatter the collected coins here... and\nthen, I'll decorate the rest on top like this...\""
+    },
+    "5": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "6": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Yay! I did it! My nest is complete!\""
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "8": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo... happiness... It's like the condensed\nessence of all the pleasures in this world...\""
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "10": {
+        "name": "Narration",
+        "face": null,
+        "text": "※Dragons instinctively consider hoarding treasure\nin their nests to be bliss, and the amount of\ntreasure determines their status as a dragon."
+    },
+    "11": {
+        "name": "Narration",
+        "face": null,
+        "text": "When the amount of treasure exceeds a certain\nlevel, it is possible to level up. Furthermore, by\nrepeating the process of leveling up,\n\\c[2]shedding\\c[0] occurs."
+    },
+    "12": {
+        "name": "Narration",
+        "face": null,
+        "text": "By shedding, the dragon's body grows about one\nsize larger. The number of adventurers it can\ncarry on its back at once also increases, greatly\nboosting its fighting power."
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "Let's actively gather treasures and bring them\nback to the nest!"
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

@@ -12421,21 +12421,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "離れた所から、複数の人間の声が聞こえてくる。"
+                                "From a distance, the voices of multiple people can\nbe heard. One is a voice similar to a scream of a\nwoman. And the rest are the voices of vulgar men──"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "一つは悲鳴にも似た女性の声。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "そして残りは下卑た男達の声だ───"
+                                ""
                             ]
                         },
                         {

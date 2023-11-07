@@ -9475,14 +9475,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "*Dragon Worm Ring! Battle*"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "＊　ドラゴンワームリング！の戦闘　＊"
+                                ""
                             ]
                         },
                         {
@@ -9538,28 +9538,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ドラゴンワームリング！の戦闘は、"
+                                "Dragon Worm Ring! In battle, allies and enemies\ntake turns attacking each other, gradually\nreducing each other's HP. The first to reduce the\nopponent's HP to 0 wins."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "敵味方がお互いかわりばんこに\\i[76]殴り合って\\i[76]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "互いの陣営の\\i[84]HPを削り、先に相手のHPを０にした方の"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "勝利です。"
+                                ""
                             ]
                         },
                         {
@@ -9633,59 +9633,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ターンが進むごとに、各冒険者のスキルがチャージされ、"
+                                "As the turns progress, each adventurer's skill\ncharges, and when it reaches 0, it becomes\navailable. Click the icon or press the cancel\nbutton to select from the battle menu command."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "０になると発動可能になります。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "アイコンをクリックするか、キャンセルボタンを押して"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "戦闘メニューコマンドから選んでください。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "エニ先生のスキルは「\\i[76]連撃・斬」と「\\i[70]回復の指輪」。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「\\i[76]連撃・斬」は3回攻撃を行い、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「\\i[70]回復の指輪」6T毎に自陣営HPを少し回復します。"
+                                ""
                             ]
                         },
                         {
@@ -9702,14 +9671,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "また、各冒険者ごとに様々なスキルがあります。"
+                                "Eni-sensei's skills are \\i[76]連撃.斬 and\n\\i[70]回復の指輪. \\i[76]連撃.斬 performs 3 consecutive\nattacks, while \\i[70]回復の指輪 slightly recovers the\nHP of our side every 6 turns."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "新しい冒険者が加入したら確かめてみましょう。"
+                                "Also, each adventurer has various skills. Let's\ncheck them out when a new adventurer joins."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -9765,28 +9765,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ソルちゃんは、チャージが完了すると"
+                                "When Sol-chan's charge is complete, she can\nunleash \\i[90]Sol-chan Breath. It's a powerful\nblow that increases in power based on her own\nteam's HP, but it has a usage limit and cannot be\nused again without resting."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "「\\i[90]ソルちゃんブレス」を吐く事ができます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "現在自陣HPに応じて威力が上昇する強力な一撃ですが、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "回数制限があり、\\i[8]休息しなければ再使用できません。"
+                                ""
                             ]
                         },
                         {
@@ -9803,21 +9803,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "また、ソルちゃんは入手した様々な\\i[328]アーティファクトを"
+                                "Also, Sol-chan can use various \\i[328]artifacts\nthat have been obtained. By using the power\ncharged over the number of turns, you can activate\nthe effects of the artifacts."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "使用可能です。ターン数経過でチャージされるパワーを使って"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "アーティファクトの効果を発動できます。"
+                                ""
                             ]
                         },
                         {
@@ -9975,14 +9975,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "***Oh, whoops!***"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "＊＊＊　おおっと！　＊＊＊"
+                                ""
                             ]
                         },
                         {

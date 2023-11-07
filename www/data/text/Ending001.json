@@ -1,142 +1,142 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：エンディング"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「無事、レッドドラゴン討伐の成功と…」"
-  },
-  "5": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「このちっこいわんこみたいな金竜に…！」"
-  },
-  "6": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「かんぱーい！」"
-  },
-  "7": {
-    "name": "イスク",
-    "face": "喜1",
-    "text": "「かんぱーい……」"
-  },
-  "8": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「乾杯」"
-  },
-  "9": {
-    "name": "冒険者たち",
-    "face": null,
-    "text": "「「「乾杯！！！」」」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "怒3",
-    "text": "「ぶー」"
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお……もうたべれない………」"
-  },
-  "14": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「まったく……この子は手がかかりますね……」"
-  },
-  "15": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「ホント、この幸せそうな寝顔！」"
-  },
-  "16": {
-    "name": "イスク",
-    "face": "喜1",
-    "text": "「ええ……でも、ソル様はとても成長なされました……」"
-  },
-  "17": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「そうですね。もう立派なワームリングですね」"
-  },
-  "18": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「こんなに大きなワームリングか。ソルちゃんらしいね」"
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "20": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「ふふっ、これからもよろしくね、ワームリングドラゴンさん」"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Ending"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Thank goodness, the successful defeat of the Red\nDragon and...\""
+    },
+    "5": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"To think we defeated this tiny little golden\ndragon...!\""
+    },
+    "6": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Cheers!\""
+    },
+    "7": {
+        "name": "Isk",
+        "face": "喜1",
+        "text": "\"Cheers...\""
+    },
+    "8": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Cheers\""
+    },
+    "9": {
+        "name": "Adventurers",
+        "face": null,
+        "text": "\"Cheers!!!\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "怒3",
+        "text": "\"Boo\""
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooo... I can't eat anymore...\""
+    },
+    "14": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Good grief... This child is quite a handful,\nisn't she...\""
+    },
+    "15": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Wow, what a blissful sleeping face!\""
+    },
+    "16": {
+        "name": "Isk",
+        "face": "喜1",
+        "text": "\"Well... but Sol-sama has certainly grown a\nlot...\""
+    },
+    "17": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"That's right. She's already a splendid Wyrmling,\nisn't she?\""
+    },
+    "18": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Such a large Wyrmling. It's just like Sol-chan,\nisn't it?\""
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "20": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"Hehe, please take care of me from now on too,\nWyrmling Dragon-san\""
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

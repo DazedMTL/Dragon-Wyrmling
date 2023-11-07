@@ -1609,7 +1609,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「オーク共はあらかた片付いたな」"
+                                "\\n<Adventurer>The orcs have mostly been taken care of, huh."
                             ]
                         },
                         {
@@ -1626,14 +1626,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「ああ。"
+                                "\\n<Adventurer>Ah, I can't forgive anyone who would lay a hand\non such a cute girl, seriously."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　こんな可愛い子に手ェ出すなんて許せねえな、ったく」"
+                                ""
                             ]
                         },
                         {
@@ -1725,14 +1725,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「命に別状はなさそうだな……"
+                                "\\n<Ma-kun>It doesn't seem to be life-threatening... I'll\nsend her back to the village. She should recover\nsoon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　村に送り返してやろう。すぐに回復するだろう」"
+                                ""
                             ]
                         },
                         {
@@ -1976,7 +1976,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エルシィ>「う………ぁぁ………」"
+                                "\\n<Elsie>Ugh.........ahh........."
                             ]
                         },
                         {
@@ -1993,45 +1993,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "オーク共に、心身がボロボロになるまで犯された少女が、"
+                                "The girl, who was violated by the orcs until she\nwas completely worn out, lets out a faint moan."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "うめき声をわずかにあげる。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "神官の少女がオークたちに捕らえられ、嬲り者として"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "長い長い凌辱から解放されたのは、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ほぼ丸一日経って朝日が登った頃合いだった。"
+                                ""
                             ]
                         },
                         {
@@ -2048,52 +2017,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "他のオークたちは小屋から出ていったにも関わらず、"
+                                "The shrine maiden girl, who had been captured by\nthe orcs and subjected to a long, long period of\nviolation, was finally released almost a full day\nlater, just as the morning sun rose."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "一匹のオークはそれでも飽き足らないと言った風情で"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "神官少女の柔肌を舐め回して遊んでいる。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "絶望しきった少女の肌を舐め回すのは、本当に愉しい。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "もう嫌悪する感情すら湧かないその眼がとても欲情する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "散々犯して萎びた男根も、すぐに回復して力を取り戻すだろう。"
+                                ""
                             ]
                         },
                         {
@@ -2110,7 +2048,69 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<エルシィ>「ぅ……………ぁ………」"
+                                "Even though the other orcs had left the hut, one\norc, still not satisfied, licked and played with\nthe shrine maiden girl's soft skin as if to say he\nwas not yet bored."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Licking the skin of the despairing girl is truly\nenjoyable. His eyes, devoid of any sense of\ndisgust, are filled with lust. Even the flaccid\nmanhood, which had been violated thoroughly, will\nsoon recover and regain its strength."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Elsie>Ugh.........ahh........."
                             ]
                         },
                         {
@@ -2132,28 +2132,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "また早くこの女を犯してやりたい。"
+                                "I want to violate this woman again soon. After\nviolating her, I might as well eat her. Either\nway, there's still plenty of enjoyment to be had.\nThe orc continues to caress her skin while\nindulging in base fantasies."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "次は、犯したあとは食ってしまってもいい。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "どっちにせよ、愉しみはまだまだ多い。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "オークは下衆な妄想に浸りながら肌を愛撫し続ける。"
+                                ""
                             ]
                         },
                         {
@@ -2170,14 +2170,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "次の瞬間、扉が力強く蹴り開けられ、屈強な冒険者たちが"
+                                "The next moment, the door was forcefully kicked\nopen, and sturdy adventurers came rushing in."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "なだれ込んできた。"
+                                ""
                             ]
                         },
                         {

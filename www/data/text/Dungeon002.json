@@ -1,142 +1,142 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：ボス発見"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "見るからに粗野で獣のような大男が、戦利品であろう\n獣の腿肉に食らいつきながら酒を呷っている。\n彼の手下であろう男たちも、おそらく今日の戦利品と思しき\n積荷の残骸から金目の物を漁っていた。"
-  },
-  "4": {
-    "name": "賊A",
-    "face": null,
-    "text": "「ボス、今日はこりゃなかなかいいアタリじゃないッスかねェ」"
-  },
-  "5": {
-    "name": "賊B",
-    "face": null,
-    "text": "「へへ、これでしばらくは酒に困らなさそうだ」"
-  },
-  "6": {
-    "name": "賊ボス",
-    "face": null,
-    "text": "「……にしても、あのコソ泥を追っていった奴らはまだ戻って\n　こねえのか？」"
-  },
-  "7": {
-    "name": "賊C",
-    "face": null,
-    "text": "「ちと遅いっスね……あの程度の女ならさっさと捕まえて\n　戻ってこれそうなのに」"
-  },
-  "8": {
-    "name": "賊ボス",
-    "face": null,
-    "text": "「ケッ、俺を差し置いて手ェつけてたらブン殴ってやる！」"
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "10": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "（……いました！）"
-  },
-  "11": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "（４名、残りは無し。どうやらこれで全員のようです。\n　どうしますか？ソル）"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "（…いきます！がんばってこらしめます！）"
-  },
-  "13": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "（大変よろしい。ではいきましょう）"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "（はい！）"
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "追い剥ぎの頭目は斃れ、他の者も投降した者は捕縛され、\n最後まで抵抗した者は打ち捨てられた。\n彼らが罪なき者たちに行った所業を鑑みれば、\nこれでもかなり有情な処置であっただろう。"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Boss Found"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "A rough and beastly large man, who looks like he\ncould be a boss, is gnawing on the flesh of some\nbeast while drinking. His men, likely his\nsubordinates, are rummaging through the remains of\ntheir loot, probably searching for anything\nvaluable."
+    },
+    "4": {
+        "name": "Thief A",
+        "face": null,
+        "text": "\"Boss, today's haul seems pretty good, doesn't\nit?\""
+    },
+    "5": {
+        "name": "Zoku B",
+        "face": null,
+        "text": "\"Hehe, with this, it looks like we won't have to\nworry about alcohol for a while.\""
+    },
+    "6": {
+        "name": "Thief Boss",
+        "face": null,
+        "text": "\"......By the way, have those chasing after the\nthieves returned yet?\""
+    },
+    "7": {
+        "name": "Zoku C",
+        "face": null,
+        "text": "\"They're a bit slow... If it's just those kind of\nwomen, they should have caught them quickly and\ncome back.\""
+    },
+    "8": {
+        "name": "Thief Boss",
+        "face": null,
+        "text": "\"Tch, if they lay a finger on me, I'll punch them\nout!\""
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "10": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "(There he is!)"
+    },
+    "11": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "(There are four of them left. It seems like this\nis all of them. What should we do? Sol)"
+    },
+    "12": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "(...Here I go! I'll do my best to take them down!)"
+    },
+    "13": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "(Very well. Let's go.)"
+    },
+    "14": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "(Yes!)"
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": "Narration",
+        "face": null,
+        "text": "The leader of the thieves was defeated, the others\nwho surrendered were captured, and those who\nresisted until the end were abandoned. Considering\nthe atrocities they committed against innocent\npeople, this was already a fairly lenient\ntreatment."
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

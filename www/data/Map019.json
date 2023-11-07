@@ -1694,12 +1694,12 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "オーク",
-                                    "オーク２",
-                                    "サイクロプー",
-                                    "サイクロプー２",
-                                    "ダイアウルフ",
-                                    "ダイアウルフ"
+                                    "Orc",
+                                    "Orc 2",
+                                    "Cyclops",
+                                    "Cyclops 2",
+                                    "Direwolf",
+                                    "Direwolf"
                                 ],
                                 1,
                                 0,
@@ -1861,11 +1861,11 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "イエロー",
-                                    "イエロー２",
-                                    "ジャニオス",
-                                    "砲撃部隊",
-                                    "マンティコア"
+                                    "Yellow",
+                                    "Yellow 2",
+                                    "Janios",
+                                    "Artillery Unit",
+                                    "Manticore"
                                 ],
                                 1,
                                 0,

@@ -46,7 +46,7 @@
             }
         ],
         "learnings": [],
-        "name": "ベリースモール",
+        "name": "Very Small",
         "note": "<EquipSlot:1,1,1,2>\n難易度Nomal用",
         "params": [
             [
@@ -913,7 +913,7 @@
             }
         ],
         "learnings": [],
-        "name": "ベリースモール",
+        "name": "Very Small",
         "note": "<EquipSlot:1,1,2,2>\n難易度Hard用",
         "params": [
             [
@@ -1780,7 +1780,7 @@
             }
         ],
         "learnings": [],
-        "name": "スモール",
+        "name": "Small",
         "note": "<EquipSlot:1,1,1,2>",
         "params": [
             [
@@ -2647,7 +2647,7 @@
             }
         ],
         "learnings": [],
-        "name": "ミドル",
+        "name": "Middle",
         "note": "<EquipSlot:1,1,1,1>",
         "params": [
             [
@@ -3514,7 +3514,7 @@
             }
         ],
         "learnings": [],
-        "name": "ラージ",
+        "name": "Large",
         "note": "<EquipSlot:1,1,1,1>",
         "params": [
             [
@@ -7849,7 +7849,7 @@
             }
         ],
         "learnings": [],
-        "name": "ドラゴンカインド用",
+        "name": "Dragonkind User",
         "note": "<EquipSlot:1,1,1,2>\n難易度Nomal用",
         "params": [
             [

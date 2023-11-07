@@ -18665,21 +18665,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "冒涜的な彫像を台座に設置すると、"
+                                "When a blasphemous statue is placed on the\npedestal, the door began to open with a creaking\nsound like a grudge. From the back, an incredibly\nevil presence begins to emanate."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "怨嗟のような軋んだ音を立てて扉が開き始めた。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "奥からは、あまりにも邪悪な気配が漂ってくる。"
+                                ""
                             ]
                         },
                         {
@@ -18706,21 +18706,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "扉は堅く閉ざされている。"
+                                "The door is tightly closed. Next to it, there is a\npedestal for placing something. This seems to be\nsome kind of key."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "横には、何かを置くための台座が設置してある。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "これが何らかの鍵のようだ。"
+                                ""
                             ]
                         },
                         {
@@ -18744,14 +18744,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「何か鍵になるものが要るのか……。"
+                                "\\n<Ma-kun>I wonder if there's something that can be used as\na key... It seems like it would be best to\nthoroughly search the other sections as well."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　他の区画もくまなく探した方が良さそうだな」"
+                                ""
                             ]
                         },
                         {
@@ -27659,7 +27659,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "危ういバランスで保っている石柱だ。"
+                                "This is a precarious balance to maintain."
                             ]
                         },
                         {
@@ -28467,7 +28467,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「グワーッ」"
+                                "\\n<Sol>*roar*"
                             ]
                         },
                         {

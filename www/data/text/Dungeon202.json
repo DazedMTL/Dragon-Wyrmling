@@ -1,312 +1,312 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：山岳ダンジョン　グリフォンと遭遇"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": "？？？",
-    "face": null,
-    "text": "「クエエエエエエエ！！！」"
-  },
-  "5": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "怪鳥音と共に、巨体が天より飛来し周囲を薙ぎ払う。\nその体躯は巨大なる肉食獣、だが頭は雄々しき鷲の物。\n背にはその体躯に見合った巨大な翼が羽撃いている。"
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "7": {
-    "name": "行商人",
-    "face": null,
-    "text": "「グリフォン……！！？\n　グリフォンの来襲だ！！！！！！！」"
-  },
-  "8": {
-    "name": "行商人",
-    "face": null,
-    "text": "「ヤバい、馬が喰われる…！！\n　逃げろ…！！！」"
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "10": {
-    "name": "グリフォン",
-    "face": null,
-    "text": "「クエエエエエエエエエ！！！」\n（女だアアアアアアアア！！！）"
-  },
-  "11": {
-    "name": "牝馬",
-    "face": null,
-    "text": "「ヒヒイイイイイイイイン！！！」\n（いやぁぁ！！お許しになってぇ！！！！）"
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": "エリック",
-    "face": "怒1",
-    "text": "「………あれ？　なんで交尾……交尾してんの？」"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": "グリフォン",
-    "face": null,
-    "text": "「クエエエエエエエエエエエエ！！！」\n（オラッどうだっ　俺の●●●でメス馬になれッ！！）"
-  },
-  "16": {
-    "name": "牝馬",
-    "face": null,
-    "text": "「ヒヒーーーーーン！！！」\n（いやぁ……！！！許してぇ…！！私には亭主が……！！！！）\n（あああーっ！！グリフォン●●●で妊娠しちゃうのお…！！）"
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "18": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「おおおおお…グリフォン寝取り……\n　新世界の扉が開く……」"
-  },
-  "19": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「あれ……いいの？」"
-  },
-  "20": {
-    "name": "行商人",
-    "face": null,
-    "text": "「どうやら…あのグリフォンは発情期のようですな。\n　飢えてない発情期のグリフォンは、牝馬に性的に襲いかかるのです」"
-  },
-  "21": {
-    "name": "行商人",
-    "face": null,
-    "text": "「馬に種付けを済ませたら満足して去っていくでしょう。\n　というか、むしろ交尾を邪魔したら烈火の如く怒るかと…」"
-  },
-  "22": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「あー……」"
-  },
-  "23": {
-    "name": "行商人",
-    "face": null,
-    "text": "「何より、グリフォンと馬の間にはヒポグリフが生まれます故、\n　私らにとっては、たいへん有り難い事でありまして……」"
-  },
-  "24": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「可哀想だけど…ここで彼女にはダンナを裏切って\n　不貞を働いてもらうって事かあ……」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「おおおおお……\n　魔獣と人妻の真昼の情事……」"
-  },
-  "26": {
-    "name": "牝馬",
-    "face": null,
-    "text": "「ヒヒーーーーン！！！！」\n（助けてあなたーーーー！！！！）"
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": "●場面：コボルト開放"
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "33": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼー！！」「こぼこぼー！！」"
-  },
-  "34": {
-    "name": "コボルト",
-    "face": null,
-    "text": "（ありがとうございます！！！）\n（ありがとうございます金竜さま！！！）\n（おかげでなかまたちもぶじでした！！！）"
-  },
-  "35": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「えへへー、どういたしましてー」"
-  },
-  "36": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼぼー」「こぼこぼ」「こぼこぼー！」"
-  },
-  "37": {
-    "name": "コボルト",
-    "face": null,
-    "text": "（われわれいちどう、ソルさまにちゅうせいをちかいます。\n　みのまわりのおせわをさせてください）\n（トンネルほりならだれにもまけません。\n　ソルさまのおすまいをりっぱなものにいたします！）"
-  },
-  "38": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えっと、じゃあ、よろしくおねがいします！！\n　仲良くしましょうね！！」"
-  },
-  "39": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "40": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "41": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "42": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "山岳の頂上、広く開けた所に魔獣は寝そべっていた。\n回りにはそいつが食い散らかしたであろう、様々な\n犠牲者の肉片が無残に転がっていた。"
-  },
-  "43": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "人の顔を持つその魔獣は、邪悪さの滲み出た薄ら笑いで\n愉悦に浸っている。\nそして、ソル達を目視するや否や上空に飛び上がった。"
-  },
-  "44": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "次の獲物は貴様らだ。苦痛で泣き喚く様を眺めながら\n腸を喰らい尽くしてやる──────！！"
-  },
-  "45": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "47": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "魔獣は斃れ、苦悶に満ちた哀れな断末魔の声をあげた。\nだが、それすら許さぬと戦士が振るう斧の一撃を受け、\n頭蓋ごと砕かれる。"
-  },
-  "48": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "しばらくの間痙攣していた魔獣の体も力尽き、\n周囲に静寂が訪れた。"
-  },
-  "49": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "50": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼー！！」\n「こぼこぼー！！」"
-  },
-  "51": {
-    "name": "コボルト",
-    "face": null,
-    "text": "（ありがとうございます！！！）\n（ありがとうございます金竜さま！！！）\n（おかげでなかまたちもぶじでした！！！）"
-  },
-  "52": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「えへへー、どういたしましてー」"
-  },
-  "53": {
-    "name": "コボルト",
-    "face": null,
-    "text": "「こぼぼー」\n「こぼこぼ」\n「こぼこぼー！」"
-  },
-  "54": {
-    "name": "コボルト",
-    "face": null,
-    "text": "（われわれいちどう、ソルさまにちゅうせいをちかいます。\n　みのまわりのおせわをさせてください！）"
-  },
-  "55": {
-    "name": "コボルト",
-    "face": null,
-    "text": "（トンネルほりならだれにもまけません。\n　ソルさまのおすまいをりっぱなものにいたします！）"
-  },
-  "56": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えっと、じゃあ、よろしくおねがいします！！\n　仲良くしましょうね！！」"
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "60": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "61": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Mountainous dungeon, encountering a\ngriffin"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": "???",
+        "face": null,
+        "text": "\"Kweeeeeeeee!!!\""
+    },
+    "5": {
+        "name": "Narration",
+        "face": null,
+        "text": "Along with the sound of the strange bird, a\nmassive body descends from the sky and mows down\nthe surroundings. Its physique is that of a giant\ncarnivorous beast, but its head is that of a\nmajestic eagle. Large wings flap on its back,\nmatching its massive body."
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "7": {
+        "name": "Peddler",
+        "face": null,
+        "text": "\"Griffin...!!? It's a griffin attack!!!!\""
+    },
+    "8": {
+        "name": "Peddler",
+        "face": null,
+        "text": "\"Oh no, the horse is being eaten...!! Run\naway...!!\""
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "10": {
+        "name": "Griffin",
+        "face": null,
+        "text": "\"Kweeeeeeeee!!! (It's a femaleeeee!!!)\""
+    },
+    "11": {
+        "name": "Mare",
+        "face": null,
+        "text": "\"Neighhhhhhh!!! (No, please forgive meeeee!!!)\""
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": "Eric",
+        "face": "怒1",
+        "text": "\"......Huh? Why are they mating... mating?\""
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": "Griffin",
+        "face": null,
+        "text": "\"Kweeeeeeeee!!! (How about it? Become a female\nhorse with my ●●●!!)\""
+    },
+    "16": {
+        "name": "Mare",
+        "face": null,
+        "text": "\"Neighhhhhhh!!! (No, please forgive meeee!!!)\n(Nooooo...!! I have a husband...!!) (Aaaahh!! I'm\ngoing to get pregnant with the griffin's\n●●●...!!)\""
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "18": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"Ooooo... Griffin NTR... The door to a new world\nopens...\""
+    },
+    "19": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Huh... Is that okay?\""
+    },
+    "20": {
+        "name": "Peddler",
+        "face": null,
+        "text": "\"It seems... that griffin is in heat. A griffin in\nheat, not hungry, sexually assaults mares.\""
+    },
+    "21": {
+        "name": "Peddler",
+        "face": null,
+        "text": "\"Once it's finished mating with the mare, it will\nbe satisfied and leave. In fact, if we were to\ninterrupt the copulation, it would likely become\nfurious like a raging fire...\""
+    },
+    "22": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"Ahh...\""
+    },
+    "23": {
+        "name": "Peddler",
+        "face": null,
+        "text": "\"Above all, because a hippogriff is born between a\ngriffin and a horse, it is very much appreciated\nby us...\""
+    },
+    "24": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"It's pitiful, but... is it asking her to betray\nher husband and commit adultery here?\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"Ooooo... A midday affair between a magical beast\nand a married woman...\""
+    },
+    "26": {
+        "name": "Mare",
+        "face": null,
+        "text": "\"Neighhhhhhh!!! (Help meeee!!!)\""
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Kobold Unleashed"
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "33": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!!\" \"Kobokoboo!!\""
+    },
+    "34": {
+        "name": "Kobold",
+        "face": null,
+        "text": "(Thank you very much!!!) (Thank you very much,\nLord Golden Dragon!!!) (Thanks to you, the ladies\nare also safe!!!)"
+    },
+    "35": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ehehe, you're welcome~\""
+    },
+    "36": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!!\" \"Kobokoboo!!\" \"Kobokoboo!!\""
+    },
+    "37": {
+        "name": "Kobold",
+        "face": null,
+        "text": "(We will dedicate ourselves to serving Lady Sol.\nPlease allow us to take care of everything around\nyou.) (If it's tunnel digging, we won't lose to\nanyone. We will make Lady Sol's residence\nsplendid!)"
+    },
+    "38": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Um, well then, please take care of me! Let's get\nalong well, okay?\""
+    },
+    "39": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "40": {
+        "name": null,
+        "face": null,
+        "text": "``` End ```"
+    },
+    "41": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "42": {
+        "name": "Narration",
+        "face": null,
+        "text": "At the summit of the mountain, the magical beast\nlay sprawled out in an open area. Around it,\nvarious pieces of flesh from the victims it had\npresumably devoured were scattered in a gruesome\nmanner."
+    },
+    "43": {
+        "name": "Narration",
+        "face": null,
+        "text": "The magical beast with a human face, reveling in a\nsinister smirk, leapt into the air as soon as it\nlaid eyes on Sol and the others."
+    },
+    "44": {
+        "name": "Narration",
+        "face": null,
+        "text": "\"The next prey will be you. I will devour your\nintestines while watching you scream in\nagony──────!!\""
+    },
+    "45": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "47": {
+        "name": "Narration",
+        "face": null,
+        "text": "The magical beast lay dying, letting out a pitiful\ndeath cry filled with agony. However, it was not\neven allowed that, as it received a blow from the\nwarrior's axe, shattering its skull."
+    },
+    "48": {
+        "name": "Narration",
+        "face": null,
+        "text": "The magical beast, which had been convulsing for a\nwhile, finally lost its strength, and silence fell\nover the surroundings."
+    },
+    "49": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "50": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!!\" \"Kobokoboo!!\""
+    },
+    "51": {
+        "name": "Kobold",
+        "face": null,
+        "text": "(Thank you very much!!!) (Thank you very much,\nLady Sol!!!) (Thanks to you, everyone is safe!!!)"
+    },
+    "52": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ehehe, you're welcome~\""
+    },
+    "53": {
+        "name": "Kobold",
+        "face": null,
+        "text": "\"Koboo!\" \"Kobokobo!\" \"Kobokoboo!\""
+    },
+    "54": {
+        "name": "Kobold",
+        "face": null,
+        "text": "(We will devote ourselves to Lady Sol. Please let\nus take care of the surroundings!)"
+    },
+    "55": {
+        "name": "Kobold",
+        "face": null,
+        "text": "(We won't lose to anyone in tunnel digging. We\nwill make Lady Sol's residence magnificent!)"
+    },
+    "56": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Um, well then, please take care of me! Let's get\nalong well, okay?!\""
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "60": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "61": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

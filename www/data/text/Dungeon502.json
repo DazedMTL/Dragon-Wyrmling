@@ -1,302 +1,302 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：火山ダンジョン_逃走"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "闇に覆われたソルの視界に光が戻った時、\n周囲の風景は一変していた。\n先程までは赤熱する山に居た筈が、今は麓の小屋にいる。"
-  },
-  "4": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "彼女を食い殺さんとしていた赤竜の姿も目の前には無く、\n黒髪の冒険者の女が負傷者を手当していた。"
-  },
-  "5": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "6": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ソル。目が覚めましたか？」"
-  },
-  "7": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「え……せんせい！？なんで……ここに！？え！？あれ！？」"
-  },
-  "8": {
-    "name": "エリック",
-    "face": "普通2",
-    "text": "「あの時、赤竜から助けてくれたのはエニ先生だったのよ。\n　＜転移の兜＞の能力でここまで転移してきたたんだって。\n　マジ？兜１つで金貨2万枚くらいする奴よ！？それをさらっと！」"
-  },
-  "9": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「その貴重な転移の兜は酷使しすぎて壊れてしまいましたけどね。\n　まぁでも十分に役に立ってくれました」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "哀3",
-    "text": "「せ、せんせえ～～～～っ！！！」"
-  },
-  "11": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「お久しぶりです。随分と立派になりましたね、ソル」"
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「あの赤竜…名をエヴェンナジェトルドルと言いますが……\n　彼こそがソルの母を討ち、巣を奪い去った\\ruby[古代竜](エンシェントドラゴン)です」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「あいつが……」"
-  },
-  "19": {
-    "name": "エリック",
-    "face": "怒3",
-    "text": "「ありゃシャレにならないわね……エニ先生がいなければ\n　間違いなく全滅してた。\n　あんな化け物がこんな近くにいたっていうの？」"
-  },
-  "20": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「恐らく、ソルの親の巣を襲撃したあと、そこを拠点に\n　ここまで羽を広げてきたのでしょう。\n　この村まで襲われるのは時間の問題ですね」"
-  },
-  "21": {
-    "name": "ソル",
-    "face": "哀1",
-    "text": "「せ、せんせい！！！\n　あいつを…あいつをやっつけたいです……！！」"
-  },
-  "22": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「今のソルではまず無理でしょう。彼はそれだけの大物です。\n　あれを相手に勝てる存在は多くはないでしょう」"
-  },
-  "23": {
-    "name": "ソル",
-    "face": "哀3",
-    "text": "「うぅぅぅ…………」"
-  },
-  "24": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ですが、方法がない訳ではありません」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「え！！！」"
-  },
-  "26": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「竜を討ち倒すべく造られた魔法の武具……\n　ドラゴンスレイヤーを探しましょう。"
-  },
-  "27": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「かの武具は竜の鱗を容易く断ち斬り、その力を大いに削ぐ……\n　と言われております。\n　エンシェント・ドラゴンを倒すのならば…それが必要でしょう」"
-  },
-  "28": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「ドラゴンスレイヤーかぁ………\n　英雄譚とかでは聞いたことあるけど、どこにあるか判るの？」"
-  },
-  "29": {
-    "name": "エニ先生",
-    "face": "哀1",
-    "text": "「いえ……そこまでは流石に……」"
-  },
-  "30": {
-    "name": "マーくん",
-    "face": null,
-    "text": "「なら、知ってそうな奴を探すしかねえな……。\n　どっか近場にいそうな気もするんだが……」"
-  },
-  "31": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「よし！いっぱいさがしましょう！！！」"
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ドラゴンスレイヤー……でございますか。\n　心当たりが……ございます」"
-  },
-  "37": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「いた」"
-  },
-  "38": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「いましたな」"
-  },
-  "39": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「いたんだー」"
-  },
-  "40": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「ホントですかイスクさん！！すごい！！！」"
-  },
-  "41": {
-    "name": "イスク",
-    "face": "喜2",
-    "text": "「先代の戦争の時、英雄ヤマノウが邪悪なる竜を討ち果たしました…。\n　その時に彼が握っていたのが竜殺しの魔剣でございます。\n　それは彼が８つの試練を潜り抜け、戦神アウルドより授けられし\n　神代より鍛え上げられた伝説の剣……」"
-  },
-  "42": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「おおおおお…！！すごい！！\n　……で、その剣はいまどこに？」"
-  },
-  "43": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「彼は戦争の後、試練の迷宮へと赴き、姿を消しました……\n　もし彼が試練の迷宮でその生涯を終えたのであれば……\n　ドラゴンスレイヤーもその迷宮に眠ってると思われます……」"
-  },
-  "44": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「おおおおお…！！なるほど……！！\n　……もしかして、しれんのめいきゅうって、やばいところでは？」"
-  },
-  "45": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「もちろん……ヤバいところでございます……。\n　数多の冒険者達が挑み……多くの英雄を産み……そして\n　それ以上の命を飲み込む恐ろしき迷宮でございます……\n　ソル様も、挑むのであれば……お気をつけください……」"
-  },
-  "46": {
-    "name": "ソル",
-    "face": "怒4",
-    "text": "「おおおおお………。\n　で、でもここで止まるわけにはいきません！\n　おかあさんの仇を取るためにも、ドラゴンスレイヤー、\n　何としても手に入れてきます！」"
-  },
-  "47": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「その意気でございます……」"
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "49": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "50": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "51": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "52": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "53": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "54": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "55": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "56": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "The line is empty"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Volcano Dungeon_Escape"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "When the light returned to Sol's vision shrouded\nin darkness, the surrounding scenery had\ncompletely changed. Although she was supposed to\nhave been on the scorching red mountain just a\nmoment ago, she was now in a small hut at the foot\nof the mountain."
+    },
+    "4": {
+        "name": "Narration",
+        "face": null,
+        "text": "The red dragon, which had been about to devour\nher, was nowhere to be seen. Instead, a black-\nhaired female adventurer was tending to the\ninjured."
+    },
+    "5": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "6": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Sol, have you woken up?\""
+    },
+    "7": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Eh...Sensei!? Why are you here!? Huh!?\""
+    },
+    "8": {
+        "name": "Eric",
+        "face": "普通2",
+        "text": "\"At that time, it was Eni-sensei who saved me from\nthe red dragon. She used the power of the\n<Transference Helm> to transfer us here.\nSeriously? That helm alone is worth about 20,000\ngold coins!? And she just casually took it!\""
+    },
+    "9": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"I may have overused that precious Transference\nHelm and ended up breaking it. But well, it served\nits purpose sufficiently.\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "哀3",
+        "text": "\"Te-Teacher~~~!!\""
+    },
+    "11": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Long time no see. You've grown quite splendidly,\nSol.\""
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"That red dragon... known as Evennajetorudoru...\nHe is the one who slew Sol's mother and took her\nnest. He is an Ancient Dragon.\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"He is the one who...\""
+    },
+    "19": {
+        "name": "Eric",
+        "face": "怒3",
+        "text": "\"This is no joke... Without Eni-sensei, we would\nhave been wiped out for sure. How could such a\nmonster be lurking so close by?\""
+    },
+    "20": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"Most likely, after attacking Sol's parent's nest,\nhe made it his base and expanded his influence to\nthis extent. It's only a matter of time before\nthis village is attacked.\""
+    },
+    "21": {
+        "name": "Sol",
+        "face": "哀1",
+        "text": "\"Te-Teacher!!! I... I want to defeat him... I want\nto defeat him!!\""
+    },
+    "22": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"With Sol's current abilities, it's probably\nimpossible. He is such a formidable opponent.\nThere aren't many who can defeat him.\""
+    },
+    "23": {
+        "name": "Sol",
+        "face": "哀3",
+        "text": "\"Uuuugh...\""
+    },
+    "24": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"However, it's not like there's no way.\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Eh!!!\""
+    },
+    "26": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Let's search for the magical weapon created to\nslay dragons... the Dragon Slayer.\""
+    },
+    "27": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"It is said that this weapon easily cuts through\ndragon scales and greatly diminishes their\npower... If we are to defeat the Ancient Dragon,\nthen it will be necessary.\""
+    },
+    "28": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"The Dragon Slayer, huh... I've heard about it in\nhero tales, but do we know where it is?\""
+    },
+    "29": {
+        "name": "Eni-sensei",
+        "face": "哀1",
+        "text": "\"No... that's a bit too much...\""
+    },
+    "30": {
+        "name": "Ma-kun",
+        "face": null,
+        "text": "\"Then we have no choice but to search for someone\nwho might know... They might be somewhere\nnearby...\""
+    },
+    "31": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"Alright! Let's search a lot!!!\""
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"The Dragon Slayer... I might have a clue.\""
+    },
+    "37": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"There you are.\""
+    },
+    "38": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"There you are.\""
+    },
+    "39": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"There you are.\""
+    },
+    "40": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Is that true, Isk-san!! Amazing!!\""
+    },
+    "41": {
+        "name": "Isk",
+        "face": "喜2",
+        "text": "\"During the previous war, the hero Yamano defeated\nthe evil dragon... At that time, he wielded the\nDragon Slayer's magic sword. It is a legendary\nsword that he obtained after overcoming eight\ntrials and was bestowed upon him by the war god\nAuld, a sword that has been honed since ancient\ntimes...\""
+    },
+    "42": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Wow!!! Amazing!!! ...So, where is that sword\nnow?\""
+    },
+    "43": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"After the war, he headed to the labyrinth of\ntrials and disappeared... If he ended his life in\nthe labyrinth of trials... then it is likely that\nthe Dragon Slayer is also sleeping in that\nlabyrinth...\""
+    },
+    "44": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Ohhh...!! I see...!! ...Could it be that the\nlabyrinth of trials is a dangerous place?\""
+    },
+    "45": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Of course... It is a dangerous place. Many\nadventurers have challenged it, giving birth to\nmany heroes, and yet it is a terrifying labyrinth\nthat swallows up even more lives. If Sol-sama is\ngoing to challenge it, please be careful.\""
+    },
+    "46": {
+        "name": "Sol",
+        "face": "怒4",
+        "text": "\"Ooooooh... But I can't just stop here! In order\nto avenge my mother, I will definitely obtain the\nDragon Slayer no matter what!\""
+    },
+    "47": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"That spirit of yours...\""
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "49": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "50": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "51": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "52": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "53": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "54": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "55": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "56": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

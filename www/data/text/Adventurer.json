@@ -1,254 +1,254 @@
 {
-  "0": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "1": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "2": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "3": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "4": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "5": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "6": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "7": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "8": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "9": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "10": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "11": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  },
-  "12": {
-    "name": "エリック",
-    "message": null,
-    "help1": "中立/中立　盗賊　人間",
-    "help2": null,
-    "like": "「ふふふ、エールよエール。麦酒！\n　一仕事終わらせてからの一杯こそ人生ってね！」"
-  },
-  "13": {
-    "name": "マーくん",
-    "message": null,
-    "help1": "善/秩序　戦士　人間",
-    "help2": null,
-    "like": "「酒場で皆でワイワイやりながらの食事はどれも旨い。\n　中でもやはり、鹿肉の炙り焼きの香りには勝てないな」"
-  },
-  "14": {
-    "name": "グレストラス",
-    "message": "「俺は弧電魔術師グレストラスという。\n　この雷光の魔術が所望ならば手伝おう。\n　……それなりの研究費用はもらうがな」",
-    "help1": "中立/混沌　魔術師　人間",
-    "help2": "雷の魔法を修める若き魔術師。\n\\>　【魔法系アタッカー】",
-    "like": "「俺は生まれつき体が弱くてあまり物を食えない。\n　薬草を煎じて飲む方が多いだろうな。\n　……一口飲むか？吐きそうなくらい苦いぞ」"
-  },
-  "15": {
-    "name": "ファリア",
-    "message": "「イシュペールに仕えるシスター、ファリアでございます。\n　どうかお見知り置きを。ゴールドドラゴン様」",
-    "help1": "善/中立　シスター　ハーフエルフ",
-    "help2": "弱き者を守る光の癒やし手。\n\\>　【純ヒーラー】",
-    "like": "「私は修道院でよく食べた麦粥が口に合っております。\n　素朴で美味しいのですよ」"
-  },
-  "16": {
-    "name": "ゴメス",
-    "message": "「俺ぁゴメスといいまさぁ。\n　へへっ、たっぷり稼がせてもらうでさァ」",
-    "help1": "悪/中立　ならず者　人間",
-    "help2": "自分の欲に忠実なならず者。\n\\>　【補助・アタッカー】",
-    "like": "「ま、何はなくともエール酒が欲しいでさァ。\n　兎の一匹でも捕まえて肴にできりゃあ言う事ァない。\n　よくツルンでた野郎共と焚き火を囲んだもんでさァ」"
-  },
-  "17": {
-    "name": "トレンディル",
-    "message": "「僕はトレンディル。弓手だ。人間の国は不慣れだけど\n　まぁボチボチやっていく。よろしく」",
-    "help1": "中立/中立　弓手　エルフ",
-    "help2": "飄々と世の中を渡るエルフの弓手。\n\\>　【便利系アタッカー】",
-    "like": "「人間の食事はどうにも味が濃いのが多いけど、\n　グリーンアスパラのベーコン巻きはいいね。絶品だ」"
-  },
-  "18": {
-    "name": "ギドルフ",
-    "message": "「拙僧、イシュペール神の僧ギドルフと申す。\n　共に不浄なる者を討つため戦いましょうぞ」",
-    "help1": "善/秩序　クレリック　人間",
-    "help2": "不死狩りを己に課すクレリック。\n\\>　【万能・対アンデッド】",
-    "like": "「黒パンとワイン。あとサーモンステーキがあれば\n　最高の晩餐になりますな。\n　イシュペールに感謝していただきましょうぞ」"
-  },
-  "19": {
-    "name": "イヴォ",
-    "message": "「グランスニル族が戦士イヴォ。\n　狼神と祖先にかけて、心の臓凍てつくまで戦うと誓う。\n　俺に栄誉ある戦場と死に場所を。ドラゴンよ」",
-    "help1": "中立/混沌　バーバリアン　人間",
-    "help2": "ひたすらに暴れまわる部族戦士。\n\\>　【完全物理アタッカー】",
-    "like": "「グリズリーの腸を焼いて喰う。\n　それが血となり肉となり怒りとなる。\n　血が足りんな、ここのメシは」"
-  },
-  "20": {
-    "name": "フレイ",
-    "message": "「拳士・フレイ！冒険者！\n　………仲間２人とはぐれたんだよね。他のメンツ知らない？」",
-    "help1": "中立/中立　拳士　人間",
-    "help2": "炎の足を持つ格闘家。\n\\>　【属性攻撃アタッカー】",
-    "like": "「林檎酒！血の腸詰め！鶏の香草焼き！\n　……寺院じゃ生臭って言われるけど……！\n　でもわたしは今の人生を謳歌するのだ！」"
-  },
-  "21": {
-    "name": "グスタフ",
-    "message": "「ワシゃぁグスタフ。\n　まぁ売れん銃鍛冶崩れの傭兵よ」",
-    "help1": "善/中立　銃手　ドワーフ",
-    "help2": "技術力を誇る銃手。\n\\>　【汎用アタッカー】",
-    "like": "「酒を飲まんドワーフなどおらん。まずは酒よ酒。\n　金さえありゃ樽ごと買って飲むんじゃがなあー。\n　あとこの店の揚げじゃがも旨いな。ビールに合うぞ」"
-  },
-  "22": {
-    "name": "ドラウケン",
-    "message": "「グリフォン騎士、ドラウケン。金色の呼びかけに応じ参上仕る。\n　こちらは我が相棒のストーナー。共によろしく頼み申す」",
-    "help1": "中立/秩序　騎士　人間",
-    "help2": "グリフォンを駆る大空の騎士。\n\\>　【突撃系アタッカー】",
-    "like": "「私はともかく……相棒ストーナーは馬肉が好物でな……。\n　腹を空かせると、見境いなく他人の馬をも襲ってしまう。\n　……馬肉を買い込んで与えてはいるが、食費が嵩んでな……」"
-  },
-  "23": {
-    "name": "エルシィ",
-    "message": "「え、エルシィと呼んでください…！\n　戦神アウルドに仕えるシスターをしております…！」",
-    "help1": "善/秩序　シスター　人間",
-    "help2": "可憐な戦女神のシスター。\n\\>　【強化スキル系ヒーラー】",
-    "like": "「よく、孤児院ではコーンスープを作って食べていました。\n　コーンの粒を乾燥させれば保存がきき、冒険の際の\n　食事としても、大変便利なんですよ……！」"
-  },
-  "24": {
-    "name": "ベイン",
-    "message": "「ベインだ。金さえ貰えりゃ働くさ。\n　金額の分はな」",
-    "help1": "悪/秩序　戦士　ドワーフ",
-    "help2": "魔法の斧を用いた剛力の戦士。\n\\>　【属性武器アタッカー】",
-    "like": "「酒と魚だけでいい。\n　……俺の故郷の鉱山では魚なんて滅多に食えなくてな。\n　ガキの頃から魚を腹いっぱい食ってみてえと思ってたもんだ」"
-  },
-  "25": {
-    "name": "エレイン",
-    "message": "「私はエレイン。氷雪の魔術を得手としています。\n　新たな知見が得られる事を期待します、ゴールドドラゴン」",
-    "help1": "中立/秩序　魔術師　ハーフエルフ",
-    "help2": "時すら凍てつく氷雪の魔術師。\n\\>【魔法系アタッカー】",
-    "like": "「大陸東部で採れる紅茶がいいですね。\n　蜂蜜を注いで香りもよく、とても安らげます。\n　つい、茶葉集めに夢中になってしまいますね」"
-  },
-  "26": {
-    "name": "ボルシチマン",
-    "message": "「風の神フォーレに仕えし僧・ボルシチマン！\n　今こそ風の導きにより助太刀いたす！ガハハ！」",
-    "help1": "善/秩序　クレリック　人間",
-    "help2": "蛇を愛する旅のクレリック。\n\\>　【万能・毒型】",
-    "like": "「こう、ですなぁ……そこらの蛇を捕まえてですな……\n　頭と皮とモツを取って、棒に巻き付けて焼いて食うのです！\n　これがまた…何ともオツな味でしてなぁ！！」"
-  },
-  "27": {
-    "name": "セレス",
-    "message": "「私はセレスティーヌ。\n　冒険者ギルドの監査官をしております……が、\n　今日はウェインの付き添いです。彼女共々よろしくお願いします。」",
-    "help1": "善/秩序　シスター　エルフ",
-    "help2": "大いなる加護を司るシスター。\n\\>　【防御特化ヒーラー】",
-    "like": "「実は趣味で家庭菜園をしております。\n　採れたての野菜たちでサラダを作るのが日頃の楽しみです。\n　ドレッシング作りにも力が入ってしまいますね」"
-  },
-  "28": {
-    "name": "アグニー",
-    "message": "「俺ノ名ハ　あぐにー。鱗人ノ戦士。\n　俺ノ部族ハ、自分ノ瞳ト同ジ色ノ鱗ヲ持ツ竜ニ仕エル。\n　ズット俺ノ瞳ト同ジ色ノ竜ヲ探シテ旅ヲ続ケテキタ。」",
-    "help1": "中立/混沌　戦士　リザードマン",
-    "help2": "竜に仕えるリザードマンの戦士。\n\\>　【ソル強化アタッカー】",
-    "like": "「故郷ノ沼ニ住ム「なまず」ガ好物ダ。\n　戦ノ後ナドハヨク、「なまず」ヲ食ッテ宴ヲシタモノダ。\n　……コノ辺ニ、良イ沼ハ無イダロウカ？」"
-  },
-  "29": {
-    "name": "ウェイン",
-    "message": "「ウェイン。戦争魔術師よ。\n　まぁ、魔術師って言っても殆ど攻撃呪文しか習得してないし、\n　私の事は歩く大砲かバリスタだと思って頂戴」",
-    "help1": "中立/混沌　魔術師　エルフ",
-    "help2": "魔法攻撃に特化した戦争魔術師。\n\\>　【純魔法アタッカー】",
-    "like": "「屋台で色々買って食べながらブラつくのが好きかな。\n　串焼き肉とか屋台パイとか食べながら、エール片手にね。でも\n　なんかやたらとチンピラにケンカ売られるんだけど。なんでよ」"
-  },
-  "30": {
-    "name": "アズサ",
-    "message": "「アズサと申す。\n　ホウリュウの国のサムライだが故あって放浪中の身。\n　どうかよろしく頼む。」",
-    "help1": "中立/中立　サムライ　人間",
-    "help2": "刀の奥義を極めたサムライ。\n\\>　【秘奥義アタッカー】",
-    "like": "「故郷では魚を生でいただく習慣があってな。\n　酢飯と魚で作るスシが何よりも好みであった。\n　……こちらの文化は生の魚を食べないと聞いて驚いている」"
-  },
-  "31": {
-    "name": "フェリル",
-    "message": "「戦女神アウルドに仕えしロード、フェリルです。\n　これも何かの縁、貴方の剣となり戦陣を切り開きましょう」",
-    "help1": "善/秩序　ロード　人間",
-    "help2": "戦女神に仕えるロード。\n\\>　【万能型アタッカー】",
-    "like": "「甘い焼菓子には目がありませんのでして……。\n　旅の食料にもビスケットなどを用意してしまいます。\n　……一度、エルフのレンバスなる焼菓子を食べてみたいです…」"
-  },
-  "32": {
-    "name": "ルビィ",
-    "message": "「ルビィ。ルビィ・ウォーロック。\n　……見てくれはこうだけど、一応は聖職者なんですよ？\n　ま、よろしく頼みますね。金竜さん♡」",
-    "help1": "善/混沌　ビショップ　ティーフリング",
-    "help2": "悪魔との混血である司教。\n\\>　【特殊系サポーター】",
-    "like": "「血の滴るレアな焼き加減のお肉が好きなんですけどねー？\n　聖職者をやってるとですねー？これがまた食べづらいんですよ。\n　周りの目が気になって。視線が痛いっていいますかー？」"
-  },
-  "33": {
-    "name": "ハヤガケ",
-    "message": "「………………」",
-    "help1": "悪/秩序　ニンジャ　人間",
-    "help2": "殺しの技術を磨き続けるニンジャ。\n\\>　【秘奥義アタッカー】",
-    "like": "「……………流石にコメが恋しい」"
-  },
-  "34": {
-    "name": "エニ先生",
-    "message": "「さて。せっかく戻ってきたことですし、私も加入いたしましょう。\n　よろしく頼みますよ、ソル」",
-    "help1": "善/中立　賢者　人間",
-    "help2": "世界を渡り歩く美貌の賢者。\n\\>　【万能型サポーター】",
-    "like": "「旅の途中の野営で、干し肉と豆で旅行者のスープを作り\n　パーティメンバーと焚き火を囲みながら摂る一時が、\n　何よりも好きかも知れません」"
-  },
-  "": {
-    "name": null,
-    "message": null,
-    "help1": null,
-    "help2": null,
-    "like": null
-  }
+    "0": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "1": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "2": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "3": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "4": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "5": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "6": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "7": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "8": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "9": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "10": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "11": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    },
+    "12": {
+        "name": "Eric",
+        "message": null,
+        "help1": "Neutral/Neutral Thief Human",
+        "help2": null,
+        "like": "\"Hehe, Sol, Sol. Beer! Having a drink after\nfinishing a job is what life's all about!\""
+    },
+    "13": {
+        "name": "Ma-kun",
+        "message": null,
+        "help1": "Good/Order Warrior Human",
+        "help2": null,
+        "like": "\"Having a meal while having a great time at the\ntavern is always delicious. Among them, the scent\nof grilled venison is unbeatable.\""
+    },
+    "14": {
+        "name": "Gurestorasu",
+        "message": "\"I am the lightning mage Gurestorasu. If you\ndesire this lightning magic, I will assist you.\n...However, I will require a reasonable research\nfee.\"",
+        "help1": "Neutral/Chaotic Mage Human",
+        "help2": "A young magician who specializes in lightning\nmagic. \\> [Magic Attacker]",
+        "like": "\"I was born with a weak body and can't eat much. I\ndrink a lot of herbal tea. ...Want a sip? It's so\nbitter, you might feel like throwing up.\""
+    },
+    "15": {
+        "name": "Faria",
+        "message": "\"I am Sister Faria, serving at the Ishperel.\nPlease remember me. Lord Gold Dragon.\"",
+        "help1": "Good/Neutral Sister Half-Elf",
+        "help2": "A healer of the gentle light who protects the\nweak. \\> [Pure Healer]",
+        "like": "\"The simple and delicious barley porridge I often\nate at the monastery suits my taste.\""
+    },
+    "16": {
+        "name": "Gomes",
+        "message": "\"I'm Gomes, you see. Hehe, I'll make sure to earn\nplenty for you.\"",
+        "help1": "Evil/Neutral Rogue Human",
+        "help2": "A rogue who is faithful to their own desires. \\>\n[Support/Attacker]",
+        "like": "\"Well, first and foremost, I want some ale. If I\ncan catch even just one rabbit to have as a snack,\nthat would be great. I often sat around the\ncampfire with those smooth-talking guys.\""
+    },
+    "17": {
+        "name": "Trendyル",
+        "message": "\"I'm Trendyル. An archer. I'm not used to the human\ncountry, but I'll manage somehow. Nice to meet\nyou.\"",
+        "help1": "Neutral/Neutral Archer Elf",
+        "help2": "An elf archer who gracefully navigates the world.\n\\> [Versatile Attacker]",
+        "like": "\"Human meals often have strong flavors, but the\nbacon-wrapped green asparagus is good. It's\nexquisite.\""
+    },
+    "18": {
+        "name": "Gildolf",
+        "message": "\"I am Gildolf, a monk of the god Ishupel. Let us\nfight together to vanquish the impure.\"",
+        "help1": "Good/Lawful Cleric Human",
+        "help2": "A cleric who has taken it upon themselves to hunt\nthe undead. \\> [Versatile/Undead Slayer]",
+        "like": "\"Black bread and wine. And if there's salmon\nsteak, it would be the perfect dinner. Let's give\nthanks to Ishupel.\""
+    },
+    "19": {
+        "name": "Ivo",
+        "message": "\"I am Ivo, a warrior of the Gransnil tribe. I\nswear upon the wolf god and our ancestors to fight\nuntil my heart freezes. Grant me an honorable\nbattlefield and a place to die, dragon.\"",
+        "help1": "Neutral/Chaotic Barbarian Human",
+        "help2": "A tribal warrior who rampages relentlessly. \\>\n[Purely Physical Attacker]",
+        "like": "\"I grill and eat the intestines of a grizzly. It\nbecomes blood, flesh, and anger. There's not\nenough blood in this food here.\""
+    },
+    "20": {
+        "name": "Frey",
+        "message": "\"Fist Fighter Frey! An adventurer! ...I got\nseparated from two other companions. Do you know\nanything about the others?\"",
+        "help1": "Neutral/Neutral Fighter Human",
+        "help2": "A martial artist with the power of fire. \\>\n[Attribute Attack Attacker]",
+        "like": "\"Apple sake! Blood sausage! Herb-grilled chicken!\n...Even if they call it stinky at the temple...!\nBut I will revel in this life!\""
+    },
+    "21": {
+        "name": "Gustav",
+        "message": "\"I'm Gustav. A mercenary gunslinger who couldn't\nmake it as a popular gunsmith.\"",
+        "help1": "\"Good/Neutral Gunslinger Dwarf\"",
+        "help2": "A gunslinger boasting impressive technical skills.\n\\> [Versatile Attacker]",
+        "like": "\"There ain't no dwarf who doesn't drink. First,\nit's all about the booze. If I have the gold, I'd\nbuy a whole barrel and drink it up. Also, the\nfried potatoes at this tavern are delicious. They\ngo well with beer.\""
+    },
+    "22": {
+        "name": "Dorawken",
+        "message": "\"I am the griffon knight, Dorawken. I have\nanswered the call of gold. This here is my\npartner, Stoner. We ask for your cooperation.\"",
+        "help1": "Neutral/Lawful Knight Human",
+        "help2": "A knight of the great sky who rides a griffon. \\>\n[Assault Attacker]",
+        "like": "\"As for me... my partner, Stoner, loves horse\nmeat... When he's hungry, he'll attack other\npeople's horses without discrimination. ...I buy\nhorse meat for him, but it's getting expensive...\""
+    },
+    "23": {
+        "name": "Elsie",
+        "message": "\"P-Please call me Elsie...! I serve as a sister to\nthe war god Auld...!\"",
+        "help1": "\"Good/Lawful Sister Human\"",
+        "help2": "A lovely battle goddess sister. \\> [Enhancement\nskill type healer]",
+        "like": "\"Yes, we often made and ate corn soup at the\norphanage. Dried corn kernels can be stored,\nmaking it very convenient for meals during\nadventures!\""
+    },
+    "24": {
+        "name": "Bain",
+        "message": "\"I'm Bain. As long as I get paid, I'll work. The\namount of gold is the key.\"",
+        "help1": "Evil/Lawful Warrior Dwarf",
+        "help2": "A powerful warrior who wields a magic axe. \\>\n[Attribute weapon attacker]",
+        "like": "\"I only need sake and fish. ...In the mines of my\nhometown, we hardly ever got to eat fish. Since I\nwas a kid, I've always wanted to eat fish until\nI'm full.\""
+    },
+    "25": {
+        "name": "Elaine",
+        "message": "\"I am Elaine. I specialize in the magic of ice and\nsnow. I hope to gain new insights, Gold Dragon.\"",
+        "help1": "Neutral/Lawful Magician Half-Elf",
+        "help2": "A magician of icy snow that freezes even time. \\>\n[Magic type attacker]",
+        "like": "\"I prefer the black tea harvested in the eastern\npart of the continent. It's fragrant when infused\nwith honey and very soothing. I tend to get\ncompletely absorbed in collecting tea leaves.\""
+    },
+    "26": {
+        "name": "Borschtman",
+        "message": "\"I am Borschtman, a monk who serves the Wind God,\nFolle! Now, I shall assist you with the guidance\nof the wind! Gahaha!\"",
+        "help1": "Good/Lawful Cleric Human",
+        "help2": "A traveling cleric who loves snakes. \\>\n[Versatile/Poison type]",
+        "like": "\"You see, catching snakes around here... I take\nthe head, skin, and guts, wrap them around a\nstick, and then grill and eat them! It's quite a\nunique taste, you know!\""
+    },
+    "27": {
+        "name": "Seres",
+        "message": "\"I am Celestine. I serve as an auditor for the\nAdventurer's Guild... but today, I am accompanying\nWayne. Please treat us well.\"",
+        "help1": "Good/Lawful Sister Elf",
+        "help2": "A sister who governs great protection. \\> [Defense\nspecialized healer]",
+        "like": "\"To be honest, I have a hobby of gardening. It's a\ndaily pleasure for me to make salads with freshly\npicked vegetables. I put a lot of effort into\nmaking the dressing too.\""
+    },
+    "28": {
+        "name": "Agni",
+        "message": "\"My name is Agni. I am a warrior lizardman. My\ntribe serves the dragon with scales of the same\ncolor as my eyes. I have been traveling in search\nof a dragon with eyes the same color as mine for a\nlong time.\"",
+        "help1": "Neutral/Chaotic Warrior Lizardman",
+        "help2": "A warrior lizardman who serves the dragon. \\>\n[Sol-enhancing attacker]",
+        "like": "\"I love eating 'catfish' that live in the marshes\nof my hometown. After battles, I often have a\nfeast by eating 'catfish'. ...I wonder if there\nare any good marshes around here?\""
+    },
+    "29": {
+        "name": "Wayne",
+        "message": "\"I'm Wayne. A war mage. Well, even though I'm\ncalled a mage, I've only mastered attack spells.\nPlease think of me as a walking cannon or a\nballista.\"",
+        "help1": "Neutral/Chaotic Wizard Elf",
+        "help2": "A war mage specialized in magic attacks. \\> [Pure\nmagic attacker]",
+        "like": "\"I guess I like wandering around while buying and\neating various things at food stalls. Eating\nthings like grilled skewered meat and street pies,\nwith a mug of ale in hand. But for some reason, I\nkeep getting into fights with thugs. Why is that?\""
+    },
+    "30": {
+        "name": "Azusa",
+        "message": "\"My name is Azusa. I am a samurai from the Dragon\nKingdom, but due to certain circumstances, I am\ncurrently wandering. Please take care of me.\"",
+        "help1": "Neutral/Neutral Samurai Human",
+        "help2": "A samurai who has mastered the secret techniques\nof the sword. \\> [Secret technique attacker]",
+        "like": "\"In my hometown, it is customary to eat fish raw.\nI especially liked sushi made with vinegar rice\nand fish. ...I was surprised to hear that the\nculture here does not eat raw fish.\""
+    },
+    "31": {
+        "name": "Feril",
+        "message": "\"I am Feril, a lord who serves the war goddess\nAuld. This must be fate. Let my sword become yours\nand together let us carve through the\nbattlefield.\"",
+        "help1": "Good/Lawful Lord Human",
+        "help2": "A lord who serves the war goddess. \\> [Versatile\ntype attacker]",
+        "like": "\"I have a weakness for sweet baked goods... So, I\nalways prepare biscuits and such as travel\nrations. ...I would like to try a baked good\ncalled 'Lembas' made by the elves once...\""
+    },
+    "32": {
+        "name": "Ruby",
+        "message": "\"I'm Ruby. Ruby Warlock. ...Even though I may look\nlike this, I am technically a bishop, you know?\nWell, please take care of me. Mr. Golden Dragon ♡\"",
+        "help1": "Good/Chaotic Bishop Tiefling",
+        "help2": "A bishop of mixed blood with demons. \\>\n[Specialized support type]",
+        "like": "\"I really like rare, juicy meat, you know? But\nbeing a bishop makes it hard to eat. I'm self-\nconscious about the people around me. It's like\ntheir stares are painful, you know?\""
+    },
+    "33": {
+        "name": "Hayagake",
+        "message": "「………………」",
+        "help1": "Evil/Lawful Ninja Human",
+        "help2": "A ninja who continues to hone the art of\nassassination. \\> [Secret technique attacker]",
+        "like": "\"I really miss rice after all...\""
+    },
+    "34": {
+        "name": "Eni-sensei",
+        "message": "\"Well then. Since I've come back, I'll join in as\nwell. Please take care of me, Sol.\"",
+        "help1": "Good/Neutral Wise Human",
+        "help2": "A wise beauty who travels the world. \\> [Versatile\nsupport type]",
+        "like": "\"During a camping in the middle of a journey,\nmaking traveler's soup with dried meat and beans,\nand having it around the campfire with the party\nmembers might be more enjoyable than anything\nelse.\""
+    },
+    "": {
+        "name": null,
+        "message": null,
+        "help1": null,
+        "help2": null,
+        "like": null
+    }
 }

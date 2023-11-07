@@ -1,332 +1,332 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：その他イベント"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "5": {
-    "name": null,
-    "face": null,
-    "text": "酒場のケンカ初遭遇時"
-  },
-  "6": {
-    "name": "酔漢",
-    "face": null,
-    "text": "「オラーッやるかオラーッ！！」"
-  },
-  "7": {
-    "name": "酔漢",
-    "face": null,
-    "text": "「んだとテメーッ！！オラーッ！！」"
-  },
-  "8": {
-    "name": "客",
-    "face": null,
-    "text": "「おおおおお！喧嘩だ喧嘩だ！」"
-  },
-  "9": {
-    "name": "客",
-    "face": null,
-    "text": "「オラーッ！やっちまえーッ！！」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお…！？\n　け、ケンカはいけないことでは……！？」"
-  },
-  "11": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「いいのよ放っといて。\n　あれもどっちかっていうと娯楽みたいなモンだし」"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「そ、そうなんですか！？\n　知らなかった……」"
-  },
-  "13": {
-    "name": "エリック",
-    "face": "喜2",
-    "text": "「それに、壊した物は勝敗問わずケンカした連中で折半だからね。\n　好きにやらせとけばいいのよ」"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「おおおおお…！なるほど……！！\n　じゃあわたしも見物してみます！！！」"
-  },
-  "15": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「いやまぁあのね。俺にしてみたら凄く迷惑なんだけどね。\n　そこんトコ誰も判ってくれないのよね」"
-  },
-  "16": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "呑気に冒険者の喧嘩を眺めていると、一角が大爆発を起こす。\n吹き飛ばされる数名の酔漢たち。\nそして煙の中から、酷く憤慨した様子の肌黒いエルフと\n落ち着いた佇まいの白いエルフが現れた。"
-  },
-  "17": {
-    "name": "ウェイン",
-    "face": null,
-    "text": "「ったく……誰にケンカ売ってるのかわかってんの！？\n　その顔あと10cmくらい陥没させるわよ！？」"
-  },
-  "18": {
-    "name": "セレス",
-    "face": null,
-    "text": "「ウェイン。それまで。\n　もういいでしょ」"
-  },
-  "19": {
-    "name": "ウェイン",
-    "face": null,
-    "text": "「もうちょっと痛い目見せてやらないと気がすまないわよ！\n　見てよ！あたしのエールがほとんどこぼれ……」"
-  },
-  "20": {
-    "name": "セレス",
-    "face": null,
-    "text": "「　ウ　ェ　イ　ン　」"
-  },
-  "21": {
-    "name": "ウェイン",
-    "face": null,
-    "text": "「……わかった、わかったわよ………\n　だから睨まないでってば……」"
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": "温泉イベント"
-  },
-  "24": {
-    "name": "村人",
-    "face": null,
-    "text": "「おお、ソルちゃん。ちょうどいいところに来たね」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「？？　なんでしょう？？？」"
-  },
-  "26": {
-    "name": "村人",
-    "face": null,
-    "text": "「この前、ウージの奴が村の麓で温泉を掘り当ててね。\n　それで露天風呂を作ってみたんだ。\n 　ソルちゃんも入っていかないかい？」"
-  },
-  "27": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおお……！！おんせん……！！\n　あったかい泉ですよね……！！硫黄の臭いの……！！」"
-  },
-  "28": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「はいってみます！！みんなも呼んできますね！！！」"
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おおおおおおおお……たまらぬ湯であった……」"
-  },
-  "31": {
-    "name": "イスク",
-    "face": null,
-    "text": "「わたくしには…少々熱い湯ではありますが……\n　人間の文化というだけで……こう……あっ…ちょっとイく……」"
-  },
-  "32": {
-    "name": "エリック",
-    "face": null,
-    "text": "「ソルちゃんその竜（コ）ちょっと止めて」"
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "34": {
-    "name": "エニ先生",
-    "face": null,
-    "text": "「……ふう。やはり、お風呂は良い物ですね。\n　旅の疲れも癒えていく気がします」"
-  },
-  "35": {
-    "name": "エリック",
-    "face": null,
-    "text": "「そうだねぇ。ここんとこ何か忙しかったし。\n　こうゆっくり出来るのは良いことだよね」"
-  },
-  "36": {
-    "name": "エニ先生",
-    "face": null,
-    "text": "「いつ次なる脅威が襲ってくるかわかりませんしね。\n　できる時にこうやって英気を養うのは重要です」"
-  },
-  "37": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "38": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おおおおおおお（ゴボボボボボ）」"
-  },
-  "39": {
-    "name": "イスク",
-    "face": null,
-    "text": "「はぁぁぁぁ……（ゴボボボボボ）」"
-  },
-  "40": {
-    "name": "エリック",
-    "face": null,
-    "text": "「………で、何であの2匹は沈んでるの」"
-  },
-  "41": {
-    "name": "エニ先生",
-    "face": null,
-    "text": "「何かそんな習性でもあるんしょう。きっと。多分。\n　私は特に気にしない事にします。しました。」"
-  },
-  "42": {
-    "name": "エリック",
-    "face": null,
-    "text": "「先生が思考を放り投げた………」"
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "44": {
-    "name": null,
-    "face": null,
-    "text": "魔法屋のおじいさん"
-  },
-  "45": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "「おじゃましまーす！！\n　おおお……これが魔法屋さん………！！」"
-  },
-  "46": {
-    "name": "爺魔法使い",
-    "face": null,
-    "text": "「ほうほう、ドラゴンがこの塔にくるとは珍しい。\n　なかなか面白い客人じゃのう」"
-  },
-  "47": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「おじいさんはじめまして！\n　……こんなところに住んでるんです？」"
-  },
-  "48": {
-    "name": "爺魔法使い",
-    "face": null,
-    "text": "「うむ。私はこう見えて偉大なる魔術師プレストロイスである。\n　魔法の品が入り用ならば尋ねるがよい。」"
-  },
-  "49": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおおおー、魔法使いのおじいさんなんですね！！\n　魔法の品がいっぱい……！すごい！あ、これすごい！きれいですね！！」"
-  },
-  "50": {
-    "name": "爺魔法使い",
-    "face": null,
-    "text": "「ふむ……（ドラゴンというよりは子犬……）」"
-  },
-  "51": {
-    "name": "爺魔法使い",
-    "face": null,
-    "text": "「まぁ気が向いたらまた遊びに来るが良い。\n　お主の集めた宝と引き換えに何か分けて進ぜよう」"
-  },
-  "52": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「わーい！\n　ちょっとまかりませんか？」"
-  },
-  "53": {
-    "name": "爺魔法使い",
-    "face": null,
-    "text": "「だめじゃ」"
-  },
-  "54": {
-    "name": "ソル",
-    "face": "怒3",
-    "text": "「ぶー」"
-  },
-  "55": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "56": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "60": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "61": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "62": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "63": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "64": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "65": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Other events"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "5": {
+        "name": null,
+        "face": null,
+        "text": "First Encounter at the Tavern Fight"
+    },
+    "6": {
+        "name": "Drunkard",
+        "face": null,
+        "text": "\"I'm gonna do it, I'm gonna do it!!\""
+    },
+    "7": {
+        "name": "Drunkard",
+        "face": null,
+        "text": "\"What the hell are you doing, you bastard!!\nOraaa!!\""
+    },
+    "8": {
+        "name": "Guest",
+        "face": null,
+        "text": "\"Ooooh! It's a fight, it's a fight!\""
+    },
+    "9": {
+        "name": "Guest",
+        "face": null,
+        "text": "\"Oraaa! Beat 'em up!!\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ohhh...!? F-fighting is not a good thing...!?\""
+    },
+    "11": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"It's fine, just leave them be. It's more like\nentertainment, if anything.\""
+    },
+    "12": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"I-Is that so!? I didn't know...\""
+    },
+    "13": {
+        "name": "Eric",
+        "face": "喜2",
+        "text": "\"Besides, the cost of the broken items will be\nsplit evenly among those who fought, regardless of\nthe outcome. Just let them do as they please.\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ohhh...!? I see...!! Then I'll watch too!!\""
+    },
+    "15": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Well, you know, it's really a big nuisance for\nme. But no one seems to understand that part.\""
+    },
+    "16": {
+        "name": "Narration",
+        "face": null,
+        "text": "As I leisurely watched the adventurers' fight, a\ncorner of the room suddenly exploded. Several\ndrunkards were blown away. Then, from the smoke, a\ndark-skinned elf looking extremely indignant and a\ncalm white elf appeared."
+    },
+    "17": {
+        "name": "Wayne",
+        "face": null,
+        "text": "\"Jeez... Do you even know who you're picking a\nfight with!? I'll leave a dent in that face about\n10cm deep, you know!?\""
+    },
+    "18": {
+        "name": "Seres",
+        "face": null,
+        "text": "\"Wayne, that's enough. It's already over, isn't\nit?\""
+    },
+    "19": {
+        "name": "Wayne",
+        "face": null,
+        "text": "\"I won't be satisfied until I show them a little\nmore pain! Look! My ale is almost spilled...\""
+    },
+    "20": {
+        "name": "Seres",
+        "face": null,
+        "text": "\"Wayne\""
+    },
+    "21": {
+        "name": "Wayne",
+        "face": null,
+        "text": "\"I get it, I get it... So stop glaring at me...\""
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": "Hot Spring Event"
+    },
+    "24": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Oh, Sol-chan. You've come at just the right\ntime.\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"??? What is it???\""
+    },
+    "26": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"The other day, that guy Uji found a hot spring at\nthe foot of the village. So, we tried making an\nopen-air bath. Would you like to come in, Sol-\nchan?\""
+    },
+    "27": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ooooooh...!! A hot spring...!! It's a warm\nspring, isn't it...!! With the smell of\nsulfur...!!\""
+    },
+    "28": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"I'll give it a try!! I'll call everyone too!!\""
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ooooooh...!! It was an irresistible hot\nspring...\""
+    },
+    "31": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"For me... it's a bit hot, but... just the human\nculture... like this... ah... I'm getting a little\nexcited...\""
+    },
+    "32": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Sol-chan, stop teasing that dragon a bit.\""
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "34": {
+        "name": "Eni-sensei",
+        "face": null,
+        "text": "\"Hmm... As expected, baths are wonderful. I feel\nlike my travel fatigue is also healing.\""
+    },
+    "35": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"That's right. I've been quite busy lately. It's\nnice to be able to relax like this.\""
+    },
+    "36": {
+        "name": "Eni-sensei",
+        "face": null,
+        "text": "\"We never know when the next threat will strike.\nIt's important to build up our morale like this\nwhenever we can.\""
+    },
+    "37": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "38": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ooooooh...!! (Gobobobobobo)\""
+    },
+    "39": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Haaaah...... (Gobobobobobo)\""
+    },
+    "40": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"......So, why are those two sinking?\""
+    },
+    "41": {
+        "name": "Eni-sensei",
+        "face": null,
+        "text": "\"Perhaps it's just a natural habit for them.\nDefinitely. Probably. I'll make a point not to\nworry about it. I have.\""
+    },
+    "42": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Sensei has thrown her thoughts away...\""
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": "``` 終了 ```"
+    },
+    "44": {
+        "name": null,
+        "face": null,
+        "text": "The old man at the magic shop"
+    },
+    "45": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"Excuse me!! Ohhh... This is the magic shop...!!\""
+    },
+    "46": {
+        "name": "Grandpa Wizard",
+        "face": null,
+        "text": "\"Oh, it's rare for a dragon to come to this tower.\nQuite an interesting guest, I must say.\""
+    },
+    "47": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Nice to meet you, grandpa! ...Do you live in a\nplace like this?\""
+    },
+    "48": {
+        "name": "Grandpa Wizard",
+        "face": null,
+        "text": "\"Yes, indeed. I may look like this, but I am the\ngreat magician Prestrois. If you need magical\nitems, feel free to ask.\""
+    },
+    "49": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Wow, you're the wizard grandpa!! There are so\nmany magical items...! Amazing! Oh, this one is\namazing! It's beautiful, isn't it?!\""
+    },
+    "50": {
+        "name": "Grandpa Wizard",
+        "face": null,
+        "text": "\"Hmmm... (More like a puppy than a dragon...)\""
+    },
+    "51": {
+        "name": "Grandpa Wizard",
+        "face": null,
+        "text": "\"Well, if you feel like it, come and visit again.\nI'll give you something in exchange for the\ntreasures you've collected.\""
+    },
+    "52": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Yaaay! Can I take a look around?\""
+    },
+    "53": {
+        "name": "Grandpa Wizard",
+        "face": null,
+        "text": "\"No, you can't.\""
+    },
+    "54": {
+        "name": "Sol",
+        "face": "怒3",
+        "text": "\"Boo\""
+    },
+    "55": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "56": {
+        "name": null,
+        "face": null,
+        "text": "終了"
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "60": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "61": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "62": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "63": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "64": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "65": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

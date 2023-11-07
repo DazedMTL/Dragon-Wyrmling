@@ -22905,14 +22905,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "重武装の傭兵らしき男が、敵と交戦中のようだ。"
+                                "It looks like a heavily armed mercenary is\nengaging the enemy. They smirk as they see you."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "君たちの姿を見てニヤリと笑う。"
+                                ""
                             ]
                         },
                         {
@@ -22929,7 +22929,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「援軍か。助かったぜ」"
+                                "Reinforcements, huh. Thank goodness."
                             ]
                         },
                         {
@@ -23182,21 +23182,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「これは借りておくぜ、金竜。"
+                                "I'll borrow this, Kinryu. If you need my\nstrength, come to the bar. I'll hire you at a\ndiscount."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　俺の力がいるなら酒場にきな。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お前さんなら格安で雇われてやる」"
+                                ""
                             ]
                         },
                         {

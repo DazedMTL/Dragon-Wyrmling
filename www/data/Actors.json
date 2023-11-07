@@ -26,8 +26,8 @@
         ],
         "initialLevel": 1,
         "maxLevel": 30,
-        "name": "ソル",
-        "nickname": "ソルレギュイアニア",
+        "name": "Sol",
+        "nickname": "Solreguiania",
         "note": "",
         "profile": ""
     },
@@ -49,7 +49,7 @@
         "traits": [],
         "initialLevel": 3,
         "maxLevel": 99,
-        "name": "ドラゴンカインド用",
+        "name": "Dragonkind for NPCs",
         "nickname": "",
         "note": "",
         "profile": ""

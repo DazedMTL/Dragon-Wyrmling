@@ -1,307 +1,307 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面："
-  },
-  "2": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "金竜の遺骸を丁重に埋葬した後、女冒険者は\n村の近くにそびえる高山へと、卵を抱えて向かっていった。"
-  },
-  "4": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "村人たちに、必要な資材や食料を運搬してもらい、\n竜の卵を孵化するための準備を整える。"
-  },
-  "5": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "また、その間にも様々な文献を漁り、竜の孵化に関して\n足りない知識を補っていった。"
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "7": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「金竜は空気の澄んだ高山や遺跡、滝の裏などに\n　好んで巣を作るといいますが……\n　この場所なら十分でしょうね」"
-  },
-  "8": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「…しかしまぁ……、識者に、\n　『金竜は卵を火や溶岩の中に投げ入れて温める』\n　と聞いて、行っておりますが…」"
-  },
-  "9": {
-    "name": "エニ先生",
-    "face": "困1",
-    "text": "「なんというか…絵ヅラがひどいですねコレ」"
-  },
-  "10": {
-    "name": "エニ先生",
-    "face": "困1",
-    "text": "「間違ってないでしょうが、こう、卵を調理してる的な\n　雰囲気を醸し出してしまって、妙な罪悪感すら覚えます」"
-  },
-  "11": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「卵自体は本当にこれで順調なようですので、\n　もう少しで孵化しそうですが。\n　無事に孵ってくれる事を祈りましょう……」"
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "───1週間後───"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「……！」"
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": "雛",
-    "face": null,
-    "text": "「ﾋﾟｬｰ………」"
-  },
-  "18": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「良かった……健康そうな子です」"
-  },
-  "19": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「巣から持ち出され、竜以外の手で育てる場合は\n　無事に孵化できる可能性が低いらしいとの話で、さすがに\n　不安になっていたのですが……杞憂で済んで良かった」"
-  },
-  "20": {
-    "name": "雛",
-    "face": null,
-    "text": "「ﾋﾟｬｰ」"
-  },
-  "21": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「名前は…そうですね。\n　竜語で『ソルレギュイアニア』。不滅の太陽。」"
-  },
-  "22": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「我々の言語では『ソル』。\n　そう名付けましょう」"
-  },
-  "23": {
-    "name": "エニ先生",
-    "face": "楽1",
-    "text": "「はじめまして金雛竜（ゴールドドラゴン・ワームリング）ソル。\n　私があなたの先生ですよ」"
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": "暗転"
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "──────そして2年の月日が流れた。"
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「せんせーい！\n　言われた通り鹿を狩ってきましたー！」"
-  },
-  "30": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「大変よろしい。ソル、ちゃんと一人で出来たようですね」"
-  },
-  "31": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「わたし、これくらいできますから！\n　もう一人前……一竜前？　ですから！」"
-  },
-  "32": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「まったく。私に言わせればまだヒヨッコですよ。\n　……体の一部は立派に育ってる気もしますが。\n　もう私のサイズに近づくとは生意気な」"
-  },
-  "33": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "「？」"
-  },
-  "34": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「いえ何でも。まずは食事です。\n　狩ってきた鹿に感謝して、いただくとしましょう」"
-  },
-  "35": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「はーい！！」"
-  },
-  "36": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "37": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おいしかったですねー！！」"
-  },
-  "38": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「いつもの事ながら、物凄く食べますねこの子。\n　ドラゴンだという事を思い出させられます」"
-  },
-  "39": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「さて……それはともかく…ソル。\n　あなたが一人前と言うのであれば、\n　そろそろ、自力で証明してもらいましょう」"
-  },
-  "40": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「！！　せんせい、それって……！」"
-  },
-  "41": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ええ、あなたの望んでいた卒業試験……巣立ちの日です。\n　これを達成したならば、あなたはもう一人前。\n　立派な一匹の竜として独り立ちです」"
-  },
-  "42": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「は、はい！　やったー！！」"
-  },
-  "43": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「あなたにはこの2年間、必要な部分に関しては\n　全部叩き込んできました。\n　算術、人間社会の知識、軍学、地学、魔物学、薬草学……」"
-  },
-  "44": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「まぁ、私は魔術に適正がないので、魔術と奇跡に関しては\n　概要しか教えられなかったのが心残りではありますが"
-  },
-  "45": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「すっごい面白かったけど大変だったです！！」"
-  },
-  "46": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「さすがは金竜、物覚えのよい、大変出来の良い生徒で\n　非常に楽をできました」"
-  },
-  "47": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「前の教え子も物覚えと要領だけは非常に良かったですが。\n　まぁそれはそれとして」"
-  },
-  "48": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「あれらをきちんと学び、身につけたソルならば、\n　この試験……問題なく達成できるものと信じています。\n　大丈夫ですね？」"
-  },
-  "49": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「は、はいっ！！\n　わたし、せんせいの期待に、ぜったい応えてみせます！！\n　がんばります！」"
-  },
-  "50": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「大変よろしい。\n　それでは竜の姿に戻って、私を載せて運んでください」"
-  },
-  "51": {
-    "name": "ソル",
-    "face": "普通1",
-    "text": "「あれ？先生も一緒にいくんですか？」"
-  },
-  "52": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「そりゃ当然でしょう。\n　誰がソルの採点をするんですか」"
-  },
-  "53": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「それに、おそらく多少危険が付き纏いそうですので……\n　念の為に私も同行します。手を貸す程度ですけどね」"
-  },
-  "54": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「わ、わかりました！\n　じゃあ乗ってください！ せんせい！！」"
-  },
-  "55": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "56": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "60": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene:"
+    },
+    "2": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "After respectfully burying the remains of the\nGolden Dragon, the female adventurer headed\ntowards the towering mountains near the village,\ncarrying an egg."
+    },
+    "4": {
+        "name": "Narration",
+        "face": null,
+        "text": "The female adventurer had the villagers transport\nnecessary materials and food, and made\npreparations to hatch the dragon egg."
+    },
+    "5": {
+        "name": "Narration",
+        "face": null,
+        "text": "In the meantime, she continued to search through\nvarious documents and supplemented the lacking\nknowledge about dragon hatching."
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "7": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"It is said that the Golden Dragon prefers to make\nits nest in places with clear air, such as high\nmountains, ruins, and behind waterfalls... This\nlocation should be more than adequate.\""
+    },
+    "8": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"However, I have heard from experts that the\nGolden Dragon warms its eggs by throwing them into\nfire or lava...\""
+    },
+    "9": {
+        "name": "Eni-sensei",
+        "face": "困1",
+        "text": "\"I mean... the artwork is pretty terrible, isn't\nit?\""
+    },
+    "10": {
+        "name": "Eni-sensei",
+        "face": "困1",
+        "text": "\"It's not wrong, but it kind of gives off a vibe\nlike we're cooking the egg, which even makes me\nfeel a strange sense of guilt.\""
+    },
+    "11": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"The egg itself seems to be progressing smoothly\nwith this, so it seems like it will hatch soon.\nLet's pray for a safe hatching...\""
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "───One week later───"
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"......!\""
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": "Hinamatsuri",
+        "face": null,
+        "text": "\"Pyaa...\""
+    },
+    "18": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Thank goodness... It seems to be a healthy\nchild.\""
+    },
+    "19": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"I heard that if a dragon egg is taken from its\nnest and raised by someone other than a dragon,\nthe chances of it hatching safely are low. I was\nreally worried about it, but it looks like it was\nneedless after all.\""
+    },
+    "20": {
+        "name": "Hinamatsuri",
+        "face": null,
+        "text": "\"Pyaa...\""
+    },
+    "21": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"As for the name... I see. In the language of\ndragons, it's 'Sol Reguiania'. The immortal sun.\""
+    },
+    "22": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"In our language, it's 'Sol'. Let's name her\nthat.\""
+    },
+    "23": {
+        "name": "Eni-sensei",
+        "face": "楽1",
+        "text": "\"Nice to meet you, Kin Hinryuu (Gold Dragon\nWyrmling) Sol. I am your teacher.\""
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": "Fade to black"
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": "Narration",
+        "face": null,
+        "text": "──────And two years have passed."
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Sensei! Just as you instructed, I went hunting\nand caught a deer!\""
+    },
+    "30": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Excellent. Sol, it seems you were able to do it\non your own.\""
+    },
+    "31": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"I can do this much! I'm already a full-fledged...\nor should I say, a full-dragon!\""
+    },
+    "32": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"Good grief. If you ask me, you're still just a\nfledgling. ...Although I do feel like some parts\nof your body have grown quite nicely. It's\nimpudent to be getting close to my size already.\""
+    },
+    "33": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"Huh?\""
+    },
+    "34": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"No, it's nothing. First, let's have a meal. Let's\ngive thanks to the deer you hunted and partake.\""
+    },
+    "35": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Yes!!\""
+    },
+    "36": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "37": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"It was delicious!!\""
+    },
+    "38": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"As always, this child eats an incredible amount.\nIt reminds me that she's a dragon.\""
+    },
+    "39": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"Well... leaving that aside... Sol. If you claim\nto be a full-fledged individual, it's about time\nyou prove it on your own.\""
+    },
+    "40": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"!! Sensei, is that...?!\""
+    },
+    "41": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Yes, this is the graduation exam you've been\nwishing for... the day you leave the nest. If you\nachieve this, you will be a full-fledged\nindividual. You will stand alone as a splendid\ndragon.\""
+    },
+    "42": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Y-Yes! I did it!!\""
+    },
+    "43": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"For the past two years, I've drilled you in all\nthe necessary areas. Arithmetic, knowledge of\nhuman society, military studies, geography,\nmonster studies, and herbal medicine...\""
+    },
+    "44": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"Well, I don't have an aptitude for magic, so I\ncould only teach you the basics of magic and\nmiracles. I do regret that.\""
+    },
+    "45": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"It was really fun but also tough!!\""
+    },
+    "46": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"As expected of a golden dragon, you have a good\nmemory and are an excellent student. I was able to\nhave a very easy time.\""
+    },
+    "47": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"My previous student also had an exceptional\nmemory and was quite resourceful. Well, that's a\ndifferent story.\""
+    },
+    "48": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"If Sol has learned and mastered those things\nproperly, I believe she can pass this exam without\nany problems. You'll be fine, won't you?\""
+    },
+    "49": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"Y-Yes! I will definitely live up to Sensei's\nexpectations!! I'll do my best!\""
+    },
+    "50": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Very well. Then, please transform back into your\ndragon form and carry me.\""
+    },
+    "51": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"Huh? Sensei, are you coming with me too?\""
+    },
+    "52": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"Of course. Who do you think will be grading Sol's\nexam?\""
+    },
+    "53": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Besides, there may be some danger involved, so\njust in case, I will accompany you. I'll only be\nlending a hand, though.\""
+    },
+    "54": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Y-Yes! Then, please get on! Sensei!!\""
+    },
+    "55": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "56": {
+        "name": null,
+        "face": null,
+        "text": "``` End ```"
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "60": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

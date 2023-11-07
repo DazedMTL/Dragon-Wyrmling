@@ -2,12 +2,12 @@
   "0": {
     "name": "-",
     "face": "表情",
-    "text": "セリフ内容"
+    "text": "The line is empty"
   },
   "1": {
     "name": null,
     "face": null,
-    "text": "●場面："
+    "text": "Scene: 〇"
   },
   "2": {
     "name": "-",
@@ -15,49 +15,49 @@
     "text": null
   },
   "3": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "普通2",
-    "text": "「到着しましたー！！\n　……この森ですか、せんせい？」"
+    "text": "\"We've arrived!! ...Is this the forest, sensei?\""
   },
   "4": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通1",
-    "text": "「ええ。……ソルはどう見ます？」"
+    "text": "\"Yes... How does it look to you, Sol?\""
   },
   "5": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "普通2",
-    "text": "「えーと…えーと……\n　！　イヤな感じの臭いがすこし…\n　誰か、こう、悪い奴が隠れてる感じが…」"
+    "text": "\"Um... um...! There's a slightly unpleasant\nsmell... It feels like someone, you know, a bad\nperson is hiding...\""
   },
   "6": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通2",
-    "text": "「よろしい。……最近、この森に、どこからか流れ込んだ\n　賊が住み着いて狼藉を働いているようです」"
+    "text": "\"I see. ...Recently, it seems that some bandits\nhave settled in this forest and are causing\ntrouble.\""
   },
   "7": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "怒1",
-    "text": "「行方不明者や被害者も多く、\n　彼らに殺され…攫われた人たちもいます。\n　その狼藉を放置する訳にもいきません」"
+    "text": "\"Many people have gone missing and become victims,\nkilled or even abducted by them. We can't just\nleave their misdeeds unchecked.\""
   },
   "8": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "怒1",
-    "text": "「彼らの討伐をもって、ソルの卒業試験とします。\n　いいですね？」"
+    "text": "\"We will consider their subjugation as Sol's\ngraduation exam. Is that alright?\""
   },
   "9": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "怒4",
-    "text": "「は、はい！\n　めいっぱい噛みつきます！！」"
+    "text": "\"Y-Yes! I'll bite them with all my might!!\""
   },
   "10": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通1",
-    "text": "「よろしい。\n　今回は、私もソルの指示に従います。\n　本気を出す訳にもいきませんが……任せましたよ」"
+    "text": "\"Very well. This time, I will also follow Sol's\nlead. I can't go all out, but... I leave it to\nyou.\""
   },
   "11": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "喜1",
-    "text": "「おおお………なんか重大ですね………」"
+    "text": "\"Oh... this feels really serious...\""
   },
   "12": {
     "name": null,
@@ -67,7 +67,7 @@
   "13": {
     "name": null,
     "face": null,
-    "text": "終了"
+    "text": "End```"
   },
   "14": {
     "name": null,
@@ -87,7 +87,7 @@
   "17": {
     "name": null,
     "face": null,
-    "text": "●場面：エリック救出"
+    "text": "Scene: Rescuing Eric"
   },
   "18": {
     "name": null,
@@ -95,34 +95,34 @@
     "text": null
   },
   "19": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通1",
-    "text": "「……ソル」"
+    "text": "\"......Sol\""
   },
   "20": {
-    "name": "ナレーション",
+    "name": "Narration",
     "face": null,
-    "text": "女冒険者が緊迫感を含んだ小声でソルを制止し、身を潜める。\nソルは一瞬きょとんとするが、その行動の意図を即座に理解し\n女冒険者に倣う。"
+    "text": "A female adventurer, speaking in a tense whisper,\nstops Sol and hides herself. Sol is momentarily\ntaken aback, but immediately understands the\nintention behind her actions and follows suit."
   },
   "21": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "怒1",
-    "text": "（せんせー、敵……ですか？）"
+    "text": "(Sensei, are those... enemies?)"
   },
   "22": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "怒1",
-    "text": "（ええ、敵…気配はおそらく３名。あと…捕らえられてる方が一人）"
+    "text": "(Yes, enemies... I sense the presence of probably\nthree. And... there's one person being captured.)"
   },
   "23": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "怒1",
-    "text": "（じゃ、じゃあ急いで助けに……！）"
+    "text": "(T-Then, let's hurry and go rescue them...!)"
   },
   "24": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "怒1",
-    "text": "（いえ、今出て行けばその方を人質に捕られ\n　逆に危険に晒してしまいます。\n　もう少し、タイミングを見計らいます）"
+    "text": "(No, if we go out now, we'll expose that person to\ndanger as a hostage. Let's wait a little longer\nand choose the right timing.)"
   },
   "25": {
     "name": null,
@@ -130,19 +130,19 @@
     "text": null
   },
   "26": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "怒1",
-    "text": "（……今です）"
+    "text": "(Now is the time)"
   },
   "27": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "怒1",
-    "text": "「は、はいっ！！いきます！！！」"
+    "text": "\"Y-Yes!! Let's go!!\""
   },
   "28": {
-    "name": "賊",
+    "name": "Thief",
     "face": null,
-    "text": "「な、なんだぁ！！！？？」"
+    "text": "\"W-What's this!!??\""
   },
   "29": {
     "name": null,
@@ -172,7 +172,7 @@
   "34": {
     "name": null,
     "face": null,
-    "text": "●場面：救出成功"
+    "text": "Scene: Successful Rescue"
   },
   "35": {
     "name": null,
@@ -180,29 +180,29 @@
     "text": null
   },
   "36": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "喜1",
-    "text": "「お疲れ様です。ソル」"
+    "text": "\"Good work, Sol.\""
   },
   "37": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "困1",
-    "text": "「が、がんばりました………ふひぃ……。\n　……せんせい、この人大丈夫でしょーか……？」"
+    "text": "\"I-I did my best... fufi... But, Sensei, is this\nperson going to be okay...?\""
   },
   "38": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通1",
-    "text": "「ええ、命に別状はないようです。\n　ここで休ませておいた方がいいでしょう」"
+    "text": "\"Yes, it seems there are no life-threatening\ninjuries. It would be best to let them rest here\nfor a while.\""
   },
   "39": {
-    "name": "エニ先生",
+    "name": "Eni-sensei",
     "face": "普通1",
-    "text": "「それに気を抜いてはいけませんよ。おそらくはまだ\n　本陣が残っています」"
+    "text": "\"And don't let your guard down. There's probably\nstill a main force remaining.\""
   },
   "40": {
-    "name": "ソル",
+    "name": "Sol",
     "face": "普通1",
-    "text": "「うぃっす！」"
+    "text": "\"Yo!\""
   },
   "41": {
     "name": null,
@@ -212,7 +212,7 @@
   "42": {
     "name": null,
     "face": null,
-    "text": "終了"
+    "text": "End"
   },
   "43": {
     "name": null,

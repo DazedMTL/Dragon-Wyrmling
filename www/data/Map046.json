@@ -1602,7 +1602,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「ちっ……なんだってんだここは。薄気味悪ィ」"
+                                "\\n<Adventurer>Geez... What a creepy place."
                             ]
                         },
                         {
@@ -1619,14 +1619,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「あそこに捕まってる奴がいる。"
+                                "\\n<Adventurer>There's someone caught over there... It seems\nthey're still breathing. Lucky them."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　……まだ息はあるようだ。運がいいな」"
+                                ""
                             ]
                         },
                         {
@@ -1718,14 +1718,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「命に別状はなさそうだな……"
+                                "\\n<Ma-kun>It doesn't seem like they're in a life-\nthreatening condition... Let's send them back to\nthe village. They should recover soon."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　村に送り返してやろう。すぐに回復するだろう」"
+                                ""
                             ]
                         },
                         {
@@ -1976,7 +1976,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フェリル>「んんんんっ………！！！」"
+                                "\\n<Feril>Nnnngh.........!!!"
                             ]
                         },
                         {
@@ -1993,38 +1993,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "彼女を犯していた巨漢が、その肉棒を彼女の膣から引き抜いた。"
+                                "She was violated by a huge man, who pulled his\ncock out of her pussy. A large amount of semen...\nprobably the amount from several people... dripped\nout with a plop."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "大量の精液…おそらく数人以上の量…がごぽりと垂れてくる。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<フェリル>「ふーっ……ふーっ……ぅ………っ…"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　もう…許して……くださ………い………」"
+                                ""
                             ]
                         },
                         {
@@ -2041,28 +2017,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "迷宮を攻略中に仲間とはぐれた彼女は、不意の奇襲によって"
+                                "\\n<Feril>Haa... haa... ugh... please... forgive me..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "意識を失い、捕らえられてしまった。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "それからというもの、何日もかけて彼女は幾度も幾度も"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "犯され続けていた。"
+                                ""
                             ]
                         },
                         {
@@ -2079,7 +2041,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<フェリル>「うぅ……っ…何で、こんな……ことに……っ……」"
+                                "While she was separated from her companions during\nthe labyrinth conquest, she lost consciousness due\nto a sudden ambush and was captured. Since then,\nfor many days, she has been violated over and over\nagain."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -2096,21 +2079,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "旅の途中で船が転覆して漂流して以来、不運が続き、"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "何やらこのような目にばかり合っている気がする。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "もう何人に犯されたかなど覚えていない。"
+                                "\\n<Feril>Ugh... why... is this... happening..."
                             ]
                         },
                         {
@@ -2127,14 +2096,45 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そんな事をぼんやりと思いながら、彼女を犯そうとする"
+                                "Since the ship capsized and drifted during the\njourney, I've been experiencing nothing but\nmisfortune. It feels like I've been encountering\nthis kind of situation over and over again. I\ncan't even remember how many people have violated\nme."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "別の男がまた近づいてくるのを眺めていた……"
+                                "While thinking vaguely about such things, she\nwatched as another man approached, intending to\nviolate her again..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

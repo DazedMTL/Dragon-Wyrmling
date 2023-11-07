@@ -1,287 +1,287 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：村の広場"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "村人",
-    "face": null,
-    "text": "「こっちです！ドラゴンは広場にいます！\n　急いでくだせえ！」"
-  },
-  "4": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「広場に…？ドラゴンが来ていると？」"
-  },
-  "5": {
-    "name": "村人",
-    "face": null,
-    "text": "「ええ…それが奴さん、手負いみたいなんですが…\n　暴れる訳でもなく、あのまま動こうとしないんですよ…」"
-  },
-  "6": {
-    "name": "村人",
-    "face": null,
-    "text": "「俺らじゃあどうしていいかワカらないんですわ…\n　近隣一番の冒険者のエニ先生にお願いするしかなくて…」"
-  },
-  "7": {
-    "name": "エニ先生",
-    "face": "哀1",
-    "text": "「街一番は私などではありませんよ。\n　それはともかく話はわかりました。何とかしましょう。\n　皆さんは離れていてください」"
-  },
-  "8": {
-    "name": "村人",
-    "face": null,
-    "text": "「「「へ、へえっ！」」」"
-  },
-  "9": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "10": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "村の広場には、金色に輝く鱗に覆われた巨大な竜が\n横たわっていた。\n松明の明かりを反射して煌めくその体躯は\n夥しい流血に汚れ、死の顎を目前に、弱々しく震えている。"
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "12": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ゴールドドラゴン……！\n　体躯から見て…おそらくは青年期(アダルト)。\n　……致命傷、ですね…。もう長くはない……」"
-  },
-  "13": {
-    "name": "村人",
-    "face": null,
-    "text": "「だ、大丈夫……ですかねぇ……？」"
-  },
-  "14": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「黄金竜は殆どが善に属し、秩序の戒律に従う善竜です。\n　人を取って喰らう事などはしません。多分」"
-  },
-  "15": {
-    "name": "村人",
-    "face": null,
-    "text": "「多分て…　って先生！？\n　近づいて大丈夫なんですかい！？！？」"
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "『ウク・シェー・イー・ダラトリウン・ズィア？ケン？\n　（どうなされました？何か手伝える事はありますか？）』"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "流暢な竜語を耳にし、意識が僅かながらも明瞭となった\n金竜が、弱々しくも先生と呼ばれた女冒険者を見る。"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": "金竜",
-    "face": null,
-    "text": "『我らが友、小さき者、人の子、よ……\n　どうか、今生の頼み、引き受けてはいただけませぬか…』"
-  },
-  "22": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "『一体どうされました？　それにその傷は…』"
-  },
-  "23": {
-    "name": "金竜",
-    "face": null,
-    "text": "『我が巣を、奪わんとする赤竜と戦うも、我は敗れ……\n　だが、この子だけは、この子だけは救いたく……\n　どうにか、人里へと……逃げてきました……』"
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「卵……！　竜の卵、ですか……。\n　この子を守りたいが為に……」"
-  },
-  "26": {
-    "name": "金竜",
-    "face": null,
-    "text": "『どうか……どうかこの子を、お願いできませぬか…\n　この子だけが…心残り……\n　もう、貴殿に託すより、もう……』"
-  },
-  "27": {
-    "name": "エニ先生",
-    "face": "哀1",
-    "text": "「…………」"
-  },
-  "28": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "『わかりました。\n　貴方のその子は、この私が責任を持って預かりましょう。\n　我が名エニトゥーラヤと我が剣に誓って』"
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "『ですから、どうか安心してお休みになられてください』"
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "32": {
-    "name": "金竜",
-    "face": null,
-    "text": "『かたじけない……どうか……その子、を……』"
-  },
-  "33": {
-    "name": "金竜",
-    "face": null,
-    "text": "『………………』"
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "35": {
-    "name": "村人",
-    "face": null,
-    "text": "「……せ、先生………？」"
-  },
-  "36": {
-    "name": "エニ先生",
-    "face": "普通2",
-    "text": "「今、亡くなられました」"
-  },
-  "37": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "竜の亡骸に黙祷を捧げる女冒険者。\nそれを見て取り囲む村人達も慌てて女冒険者に倣う。"
-  },
-  "38": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "39": {
-    "name": "村人",
-    "face": null,
-    "text": "「…それで……一体、何がどう…なってるんですかい……？」"
-  },
-  "40": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「どうやら……この金竜は邪悪なる赤竜に巣を襲われ、\n　瀕死ながらも逃げてこの村に辿り着いたようです。\n　自分の子…卵だけでも誰かに託すために、と」"
-  },
-  "41": {
-    "name": "村人",
-    "face": null,
-    "text": "「な、なるほど……先生は竜語も達者なんですね……。\n　…って先生！？ もしかして引き受けたんですかい！？」"
-  },
-  "42": {
-    "name": "エニ先生",
-    "face": "困1",
-    "text": "「この状況で最期の願いを無碍にできるほど、\n　私は空気を読めない女じゃないです」"
-  },
-  "43": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「誇り高き金竜が死の間際に人間に助けを……、\n　それも己の子を託すと言われてしまっては、\n　さすがに断る事はできないじゃないですか。もう」"
-  },
-  "44": {
-    "name": "村人",
-    "face": null,
-    "text": "「いや、まぁ先生らしいっちゃらしいですけど……\n　で、先生……竜の育児とか経験あるんで？」"
-  },
-  "45": {
-    "name": "エニ先生",
-    "face": "困1",
-    "text": "「あるわけないでしょう。\n　自分の子を産んだこともないどころか、\n　これでまだ未婚の身ですよ私」"
-  },
-  "46": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ですが、約束しましたからね。\n　これでも、まがりなりにも賢者とは呼ばれている身。\n　その名に恥じぬよう、何とかしてみせましょう」"
-  },
-  "47": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「皆さんにも協力してもらいたい事があります。\n　どうかお願いしますね」"
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "49": {
-    "name": "村人",
-    "face": null,
-    "text": "「まぁ…先生に頼まれちゃあ、断れませんわなぁ」\n「何度村を救われたかわからないですし」\n「恩を少しでも返せるなら喜んで手伝いますわあ」"
-  },
-  "50": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「ありがとうございます。\n　……それに、今はまだ私の勘でしかありませんが……\n　もしかしたら、この卵が村を救う事に\n　なる可能性もありますから──────」"
-  },
-  "51": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "52": {
-    "name": null,
-    "face": null,
-    "text": "暗転"
-  },
-  "53": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "54": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "55": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "56": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "The line is empty"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Village Square"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Over here! The dragon is in the square! Hurry!\""
+    },
+    "4": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"In the square...? The dragon is coming?\""
+    },
+    "5": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Yes... it seems like it's injured... It's not\nrampaging, and it doesn't seem to be moving at\nall...\""
+    },
+    "6": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"We don't know what to do... That's why we have to\nask Eni-sensei, the best adventurer in the\nneighborhood...\""
+    },
+    "7": {
+        "name": "Eni-sensei",
+        "face": "哀1",
+        "text": "\"I'm not the best in the town. Anyway, I\nunderstand the situation. Let's do something about\nit. Everyone, please stay away.\""
+    },
+    "8": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Wow!\""
+    },
+    "9": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "10": {
+        "name": "Narration",
+        "face": null,
+        "text": "In the village square, a gigantic dragon covered\nin shining golden scales lay. Its body, reflecting\nthe light of torches, was heavily stained with\nblood, and it trembled weakly in the face of\ndeath's jaws."
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "12": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Gold Dragon...! Judging from its body... it's\nprobably in its young adult stage. ...It's a fatal\nwound, isn't it? It won't last much longer...\""
+    },
+    "13": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"I-Is... is it going to be okay...?\""
+    },
+    "14": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"Gold dragons are mostly of good alignment and\nfollow the laws of order. They do not eat people.\nProbably.\""
+    },
+    "15": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"P-Perhaps... Is it safe to approach, sensei!?\""
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"ウク・シェー・イー・ダラトリウン・ズィア？ケン？  (What happened? Is\nthere anything I can help with?)\""
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": "Narration",
+        "face": null,
+        "text": "The golden dragon, whose consciousness had become\nslightly clearer upon hearing fluent dragon\nlanguage, weakly looked at the female adventurer\nreferred to as \"sensei.\""
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"Our friend, the small one, a human child... Could\nyou please take on our final request in this\nlife?\""
+    },
+    "22": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"What happened? And those wounds...\""
+    },
+    "23": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"I fought against the red dragon that sought to\ntake our nest, but I was defeated... However, I\nwanted to save this child... I somehow managed to\nbring it to the human village...\""
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"An egg...! A dragon's egg, is it...? In order to\nprotect this child...\""
+    },
+    "26": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"Please... please, could you take care of this\nchild... This child is my only regret... I can no\nlonger entrust it to you, anymore...\""
+    },
+    "27": {
+        "name": "Eni-sensei",
+        "face": "哀1",
+        "text": "「…………」"
+    },
+    "28": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Understood. I will take responsibility for your\nchild. I swear upon my name, Enitouraya, and my\nsword.\""
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"So please, rest assured and have a peaceful\nsleep.\""
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "32": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "\"I am grateful... Please... take care of that\nchild...\""
+    },
+    "33": {
+        "name": "Kinryu",
+        "face": null,
+        "text": "『………………』"
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "35": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Um, sensei...?\""
+    },
+    "36": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"She has passed away.\""
+    },
+    "37": {
+        "name": "Narration",
+        "face": null,
+        "text": "The female adventurer offers a silent prayer for\nthe dragon's remains. Seeing this, the surrounding\nvillagers also hurriedly follow suit."
+    },
+    "38": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "39": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Um, so... what exactly is happening here...?\""
+    },
+    "40": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"It seems that... this Kinryu was attacked by an\nevil red dragon in its nest, and despite being on\nthe brink of death, it managed to escape and\narrive at this village. It wanted to entrust its\nchild... even if just the egg... to someone.\""
+    },
+    "41": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"I see... So, sensei, you're also fluent in dragon\nlanguage...? Wait, sensei!? Did you by any chance\nagree to take care of it!?\""
+    },
+    "42": {
+        "name": "Eni-sensei",
+        "face": "困1",
+        "text": "\"I am not a woman who cannot read the air enough\nto disregard the final wish in this situation.\""
+    },
+    "43": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"A proud Kinryu, on the verge of death, asked for\nhelp from a human... and even entrusted its child.\nIt's not something I can refuse, after all.\""
+    },
+    "44": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Well, it's certainly like you, sensei... But, um,\ndo you have any experience raising dragons,\nsensei?\""
+    },
+    "45": {
+        "name": "Eni-sensei",
+        "face": "困1",
+        "text": "\"There's no way I have any experience. I haven't\neven given birth to my own child, let alone still\nbeing unmarried.\""
+    },
+    "46": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"However, I made a promise. Even though I am\ncalled a sage in some way, I must not bring shame\nto that name. I will somehow manage to fulfill\nit.\""
+    },
+    "47": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"There is something I would like everyone to help\nwith. Please, I ask for your cooperation.\""
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "49": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"Well... if it's a request from sensei, I can't\nrefuse.\" \"We don't even know how many times she\nhas saved the village.\" \"If we can repay even a\nlittle bit of the favor, I'm happy to help.\""
+    },
+    "50": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Thank you very much. ...And, right now it's just\nmy intuition, but... perhaps, there is a\npossibility that this egg may become the savior of\nthe village──────\""
+    },
+    "51": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "52": {
+        "name": null,
+        "face": null,
+        "text": "Fade to black"
+    },
+    "53": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "54": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "55": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "56": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

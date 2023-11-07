@@ -265,7 +265,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'ソル' ){"
+                    "if ( CharaName === 'Sol' ){"
                 ]
             },
             {
@@ -307,7 +307,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'エニ先生' ){"
+                    "if ( CharaName === 'Eni-sensei' ){"
                 ]
             },
             {
@@ -349,7 +349,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'エリック' ){"
+                    "if ( CharaName === 'Erik' ){"
                 ]
             },
             {
@@ -391,7 +391,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'イスク' ){"
+                    "if ( CharaName === 'Isk' ){"
                 ]
             },
             {
@@ -776,7 +776,7 @@
                 "code": 655,
                 "indent": 0,
                 "parameters": [
-                    "  if ( CharaName === 'ソル' ){"
+                    "  if ( CharaName === 'Sol' ){"
                 ]
             },
             {
@@ -832,7 +832,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'エニ先生' ){"
+                    "if ( CharaName === 'Eni-sensei' ){"
                 ]
             },
             {
@@ -860,7 +860,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "if ( CharaName === 'イスク' ){"
+                    "if ( CharaName === 'Isk' ){"
                 ]
             },
             {
@@ -1122,7 +1122,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "  if (CharaName == 'ソル'){"
+                    "  if (CharaName == 'Sol'){"
                 ]
             },
             {
@@ -1157,7 +1157,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "  if (CharaName == 'エニ先生'){"
+                    "  if (CharaName == 'Eni-sensei'){"
                 ]
             },
             {
@@ -1199,7 +1199,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "  if (CharaName == 'エリック'){"
+                    "  if (CharaName == 'Erik'){"
                 ]
             },
             {
@@ -1234,7 +1234,7 @@
                 "code": 355,
                 "indent": 0,
                 "parameters": [
-                    "  if (CharaName == 'イスク'){"
+                    "  if (CharaName == 'Isk'){"
                 ]
             },
             {
@@ -2295,14 +2295,14 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]]を \\v[2]個手に入れた！"
+                    "\\iiGot \\v[2] of \\v[1]! (Worth: \\i[346] gold coins\nand \\v[359] pieces)"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 2,
                 "parameters": [
-                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
+                    ""
                 ]
             },
             {
@@ -2329,14 +2329,14 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]]を手に入れた！"
+                    "\\iiGot \\v[1]! (Worth: \\i[346] gold coins and\n\\v[359] pieces)"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 2,
                 "parameters": [
-                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
+                    ""
                 ]
             },
             {
@@ -2489,7 +2489,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]]を \\v[2]個手に入れた！"
+                    "\\iiGot \\v[1]! (Worth: [Ascii_0] gold coins and\n\\v[2] pieces)"
                 ]
             },
             {
@@ -2516,7 +2516,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]]を手に入れた！"
+                    "\\iiGot \\v[1]!"
                 ]
             },
             {
@@ -3392,14 +3392,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\i[\\v[4]]\\v[1]を手に入れた！"
+                    "\\iI obtained \\v[4]\\v[1]! (Price: \\i[346] gold\ncoins, equivalent to \\v[359] pieces)"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
+                    ""
                 ]
             },
             {
@@ -3502,14 +3502,14 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "カギを開けますか？"
+                    "Shall I unlock the door? Remaining attempts:\n\\v[346]"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "\\>\\i[195]残り回数：\\v[346]"
+                    ""
                 ]
             },
             {
@@ -3517,8 +3517,8 @@
                 "indent": 1,
                 "parameters": [
                     [
-                        "開ける",
-                        "やめる"
+                        "Shall I open it?",
+                        "Stop"
                     ],
                     1,
                     0,
@@ -4029,7 +4029,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "解錠道具が尽きてしまった！"
+                    "I've run out of lockpicking tools!"
                 ]
             },
             {
@@ -4056,14 +4056,14 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "カギがかかっている！"
+                    "The door is locked! To unlock it, you need \\i[358]\nthieves!"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 2,
                 "parameters": [
-                    "解錠するには\\i[358]盗賊が必要だ！"
+                    ""
                 ]
             },
             {
@@ -4640,7 +4640,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "冒険者：\\iw[\\v[360]]が加わった！"
+                    "Adventurer: \\iw[\\v[360]] has joined!"
                 ]
             },
             {
@@ -7646,14 +7646,14 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    ""
+                    "*There are no adventurers in the party!*"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "\\>　＊　パーティに冒険者が存在しない！　＊"
+                    ""
                 ]
             },
             {
@@ -26848,7 +26848,7 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\^"
+                    ""
                 ]
             },
             {
@@ -26856,8 +26856,8 @@
                 "indent": 0,
                 "parameters": [
                     [
-                        "\\i[64]ソルちゃんブレス　en(s[161])",
-                        "\\i[360]アーティファクト　if(s[162]) en(v[301] >= 1)"
+                        "Sol-chan's breath　en(s[161])",
+                        "\\i[360]Artifact　if(s[162]) en(v[301] >= 1)"
                     ],
                     -1,
                     0,
@@ -27132,8 +27132,8 @@
                 "indent": 0,
                 "parameters": [
                     [
-                        "\\I[74]戦闘速度変更 if(v[111] <=9)",
-                        "\\I[73]戦闘速度変更 if(v[111] >= 10)"
+                        "Change battle speed if(v[111] <=9)",
+                        "\\I[73] Change battle speed if(v[111] >= 10)"
                     ],
                     -2,
                     -1,
@@ -38169,7 +38169,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "ちゅうしゅつ！"
+                    "Chuu-shutsu!"
                 ]
             },
             {
@@ -40613,7 +40613,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\i[346]金貨\\v[359]枚を手に入れた！"
+                    "Obtained \\v[359] gold coins!"
                 ]
             },
             {
@@ -41436,7 +41436,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\i[346]金貨\\v[359]枚を手に入れた！"
+                    "Obtained \\i[346] gold coins\\v[359]!"
                 ]
             },
             {
@@ -44899,14 +44899,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\>ダンジョンから一旦撤退しますか？"
+                    "Shall we retreat from the dungeon for now? (We\nwill bring back all the rewards obtained at this\npoint)"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "\\>（現時点で得た報酬はすべて持ち帰ります）"
+                    ""
                 ]
             },
             {
@@ -44914,8 +44914,8 @@
                 "indent": 0,
                 "parameters": [
                     [
-                        "撤退する",
-                        "キャンセル"
+                        "Retreat",
+                        "Cancel"
                     ],
                     1,
                     0,
@@ -45125,7 +45125,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<スイッチ>\\py[10]「…………」"
+                    "\\n<Switch>\\py[10]「............」"
                 ]
             },
             {
@@ -45173,7 +45173,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<スイッチ>\\py[10]「ｶﾁｯ」"
+                    "\\n<Switch>*click*"
                 ]
             },
             {
@@ -45204,7 +45204,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<ソル>\\py[10]「ほい？？？？」"
+                    "\\n<Sol>Huh???"
                 ]
             },
             {
@@ -45295,21 +45295,21 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "ビン詰めのコテージを使用し、一旦休憩しますか？"
+                    "Shall we take a break and use the cottage in a\nbottle? We can fully restore Sol-chan's HP. (If\nyou take a break once, you cannot use it again\nuntil you leave the dungeon.)"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "ソルちゃんのHPを全快できます。"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "\\>（\\c[10]一度休憩した場合、ダンジョンを出るまで再度使用不可\\c[0]）"
+                    ""
                 ]
             },
             {
@@ -45317,8 +45317,8 @@
                 "indent": 1,
                 "parameters": [
                     [
-                        "使用し休憩する",
-                        "キャンセル"
+                        "Take a break and rest",
+                        "Cancel"
                     ],
                     1,
                     0,
@@ -45460,7 +45460,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "ビン詰めのコテージの魔力がチャージされていない。"
+                    "The magic of the bottled cottage has not been\ncharged."
                 ]
             },
             {
@@ -45570,7 +45570,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<ソル>\\py[10]「何かこっちから気配がします！」"
+                    "\\n<Sol>I sense something coming from over here!"
                 ]
             },
             {
@@ -45604,7 +45604,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<ソル>\\py[10]「ここから先は危険な気が！！」"
+                    "\\n<Sol>I have a bad feeling about going any further from\nhere!"
                 ]
             },
             {
@@ -45628,21 +45628,21 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<マーくん>\\py[10]「もしヤバそうだと思ったら撤退しておくのも手だぞ。"
+                    "\\n<Ma-kun>If you think it's dangerous, retreating might be\na good option. If we get taken down halfway, it'll\nbe a disaster. It's better to retreat, strengthen\nourselves, and then challenge it again."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "　途中でやられちまったら元も子もないからな。"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "　撤退して強化してからもう一回挑めばいいさ」"
+                    ""
                 ]
             },
             {
@@ -45741,7 +45741,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "傷が回復した！"
+                    "The wound has healed!"
                 ]
             },
             {
@@ -46146,14 +46146,14 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "　ソルのブレスが ＋\\v[1] ターン分チャージ！"
+                    "Sol's breath charges for +\\v[1] turns! The\nadventurer's skill charges for +\\v[1] turns!"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 1,
                 "parameters": [
-                    "　冒険者のスキルが ＋\\v[1] ターン分チャージ！"
+                    ""
                 ]
             },
             {
@@ -46289,7 +46289,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "　アーティファクトが ＋\\v[1]ターン分チャージ！"
+                    "The artifact charges for +\\v[1] turns!"
                 ]
             },
             {
@@ -47716,21 +47716,21 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\py[10]法の光差さぬ闇の世界に隠された競売場。"
+                    "In a world where the light of justice does not\nshine, a hidden auction house is illuminated by a\nmysterious light. The nobles with wicked smiles\nare revealed. Their insatiable, bloated desires\nhave surpassed normalcy."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "妖しい明かりに照らされるのは悪徳の笑みを浮かべた貴族たち。"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "普通では満足できなくなった、肥え太った欲望たち。"
+                    ""
                 ]
             },
             {
@@ -47761,14 +47761,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\py[10]そして、司会が舞台に現れる。"
+                    "\\py[10]And then, the host appears on stage. Next\nto them is Sol, wearing a collar."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "その横には、首輪をつけられたソルの姿がある。"
+                    ""
                 ]
             },
             {
@@ -47785,21 +47785,21 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\py[10]その首輪には能力封じの魔術が刻まれており、"
+                    "\\py[10]The collar is engraved with a magic spell\nthat seals her abilities, leaving Sol in a state\nwhere she cannot even resist or oppose turning\nback into a dragon."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "ソルは竜の姿に戻ることも、抵抗する事も逆らう事すらも"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "できない状態にされていた。"
+                    ""
                 ]
             },
             {
@@ -47823,21 +47823,21 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\n<人攫い>\\py[10]「貴族、商人、紳士淑女の皆様！我々が今宵、"
+                    "\\n<Kidnapper>Ladies and gentlemen, nobles, merchants, and\nesteemed individuals! Tonight, we are pleased to\nintroduce to you this young lady! In fact, she is\nnone other than the 'Golden Dragon's child'!"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "　皆様にご紹介するのは、この少女！"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "　実は他ならぬ「金竜の子」なのです！」"
+                    ""
                 ]
             },
             {
@@ -47866,45 +47866,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\n<人攫い>\\py[10]「今は人の姿をとっておりますが、この金色の尾こそ"
+                    "\\n<People Snatcher>\\py[10]Although she may appear in human form now,\nher golden tail is the proof that she is indeed\nthe Golden Dragon!"
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "　彼女が金竜である証拠でございます！」"
-                ]
-            },
-            {
-                "code": 101,
-                "indent": 0,
-                "parameters": [
-                    "",
-                    0,
-                    0,
-                    2
-                ]
-            },
-            {
-                "code": 401,
-                "indent": 0,
-                "parameters": [
-                    "\\n<人攫い>\\py[10]「その重さと同量の黄金よりも高価なこの存在！"
-                ]
-            },
-            {
-                "code": 401,
-                "indent": 0,
-                "parameters": [
-                    "　この美しくも珍しい少女とのめくるめく一晩、今ならば"
-                ]
-            },
-            {
-                "code": 401,
-                "indent": 0,
-                "parameters": [
-                    "　金貨1000枚からスタートであなたのものに！」"
+                    ""
                 ]
             },
             {
@@ -47921,14 +47890,45 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\n<人攫い>\\py[10]「さぁさぁ！いかがですか！"
+                    "\\n<People Snatcher>\\py[10]This existence, more valuable than an\nequal weight of gold! Spend a dazzling night with\nthis beautiful and rare girl, starting at 1000\ngold coins!"
+                ]
+            },
+            {
+                "code": 0,
+                "indent": 0,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "code": 0,
+                "indent": 0,
+                "parameters": [
+                    ""
+                ]
+            },
+            {
+                "code": 101,
+                "indent": 0,
+                "parameters": [
+                    "",
+                    0,
+                    0,
+                    2
                 ]
             },
             {
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "　興味がある方は、金貨の袋を持って挙手を！」"
+                    "\\n<People Snatcher>\\py[10]Now, now! How about it? Those who are\ninterested, raise your hand while holding a bag of\ngold coins!"
+                ]
+            },
+            {
+                "code": 0,
+                "indent": 0,
+                "parameters": [
+                    ""
                 ]
             },
             {
@@ -47952,21 +47952,21 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\py[10]貴族たちは喜んで手をあげ、値段を告げていく。"
+                    "\\py[10]The nobles eagerly raise their hands and\nannounce their prices. The one who offers the\nhighest price will gain the right to embrace Sol.\nIt's a despicable sight, even pigs would turn away\nfrom it."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "もっとも高値をつけた者が、ソルを抱く権利を得るのだ。"
+                    ""
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "豚すら顔を背ける浅ましい光景。"
+                    ""
                 ]
             },
             {
@@ -48083,14 +48083,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\py[10]欲望の夜は進んでいく。"
+                    "\\py[10]The night of desire progresses. What will\nbecome of Sol's fate..."
                 ]
             },
             {
-                "code": 401,
+                "code": 0,
                 "indent": 0,
                 "parameters": [
-                    "果たして、ソルの運命は…………"
+                    ""
                 ]
             },
             {

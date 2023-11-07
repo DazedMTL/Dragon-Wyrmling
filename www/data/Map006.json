@@ -2996,10 +2996,10 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[8]休息",
-                                    "\\i[328]アーティファクト",
-                                    "\\i[343]冒険者の確認",
-                                    "\\i[20]巣を眺める"
+                                    "\\i[8]Rest",
+                                    "\\i[328]Artifact",
+                                    "\\i[343] Adventurer Confirmation",
+                                    "\\i[20]Gazing at the nest"
                                 ],
                                 0,
                                 0,
@@ -3186,10 +3186,10 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[79]メニュー画面",
-                                    "\\i[73]セーブ",
-                                    "\\i[84]回想シーン　if(s[6])",
-                                    "\\i[82]巣を出る"
+                                    "\\i[79]Menu screen",
+                                    "\\i[73]Save",
+                                    "Flashback Scene　if(s[6])",
+                                    "Leave the nest"
                                 ],
                                 0,
                                 -1,
@@ -3619,28 +3619,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "女冒険者と別れたソルは、手に入れた財宝を"
+                                "After parting ways with the female adventurer, Sol\nreturned to her nest with the treasure she had\nobtained. The independence of a dragon begins with\nhoarding treasures in its nest."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "一度自分の巣へと持ち帰った。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "竜の独り立ちとは、巣に自分だけの財宝を貯め込む事から"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "始まるのだ。"
+                                ""
                             ]
                         },
                         {
@@ -4986,7 +4986,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "取得経験値なし。"
+                                "No experience points gained."
                             ]
                         },
                         {
@@ -5545,14 +5545,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "レベルアップ！"
+                                "Level up! Level \\v[11] → \\v[12]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　レベル \\v[11] → \\v[12]"
+                                ""
                             ]
                         },
                         {
@@ -5856,14 +5856,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\>\\i[90]ブレス使用回数が回復した！"
+                                "\\i[90]Breath usage count has been restored! (Usage\ncount: \\v[303] times)"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　（使用回数：\\v[303]回）"
+                                ""
                             ]
                         },
                         {
@@ -8675,14 +8675,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                ""
+                                "*There are no adventurers in the party!*"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\>　＊　パーティに冒険者が存在しない！　＊"
+                                ""
                             ]
                         },
                         {
@@ -10253,14 +10253,14 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "レベルアップ！"
+                                "Level up! Level \\v[11] → \\v[12]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 2,
                             "parameters": [
-                                "　レベル \\v[11] → \\v[12]"
+                                ""
                             ]
                         },
                         {
@@ -11060,14 +11060,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\py[10]………？"
+                                "\\py[10].........? What's wrong with Sol's..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "ソルの様子が………"
+                                ""
                             ]
                         },
                         {
@@ -11147,28 +11147,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\py[10]ソルは脱皮した！"
+                                "Sol has molted! \\v[10]\\v[11]\\v[12]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>　\\v[10]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>　\\v[11]"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>　\\v[12]"
+                                ""
                             ]
                         },
                         {

@@ -2753,7 +2753,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\^"
+                                ""
                             ]
                         },
                         {
@@ -2761,12 +2761,12 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[336]血の加護を刻む en(s[81])　　",
-                                    "\\i[4]光の加護を与える if(!s[144])en(s[82])",
-                                    "\\i[4]光の加護を与える if(s[144]) en(s[83])",
-                                    "なんか if(v[20] >= 1)",
-                                    "なんか if(v[20] >= 1)",
-                                    "\\i[82]村に戻る"
+                                    "Carve the protection of blood en(s[81])　　",
+                                    "\\i[4]Grant the blessing of light if(!s[144])en(s[82])",
+                                    "Bestow the blessing of light if(s[144]) en(s[83])",
+                                    "Something if(v[20] >= 1)",
+                                    "What's up? if(v[20] >= 1)",
+                                    "Return to the village"
                                 ],
                                 5,
                                 0,
@@ -3171,14 +3171,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\>\\py[10]金貨\\c[2]\\v[5]\\c[0]枚を消費します。"
+                                "\\py[10]You will consume \\c[2]\\v[5]\\c[0] gold\ncoins. Will you perform the Dragonkind blood\nritual?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>ドラゴンカインド・血の儀式を行いますか？"
+                                ""
                             ]
                         },
                         {
@@ -3186,8 +3186,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "行う",
-                                    "キャンセル"
+                                    "Perform",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -3336,28 +3336,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ドラゴンカインドの儀式により、"
+                                "The adventurers' potential has been raised by the\nDragonkind ritual! Total number of Dragonkind\nrituals: \\v[379] times."
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "冒険者たちの潜在能力が引き上げられた！"
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\>ドラゴンカインド累計回数：\\v[379]回"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -3562,14 +3562,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\>\\py[10]金貨\\c[2]\\v[6]\\c[0]枚を消費します。"
+                                "\\py[10]You will consume \\c[2]\\v[6]\\c[0] gold\ncoins. Will you perform the Dragonkind Light\nRitual?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>ドラゴンカインド・光の儀式を行いますか？"
+                                ""
                             ]
                         },
                         {
@@ -3577,8 +3577,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "行う",
-                                    "キャンセル"
+                                    "Perform",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -3693,28 +3693,28 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ドラゴンカインドの儀式により、"
+                                "Through the Dragonkind ritual, the adventurers are\ntemporarily strengthened! \\c[2]Next dungeon entry\nwill have a skill charge bonus! \\c[0]"
                             ]
                         },
                         {
-                            "code": 401,
-                            "indent": 1,
-                            "parameters": [
-                                "冒険者たちが一時的に強化された！"
-                            ]
-                        },
-                        {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "\\>\\c[2]次ダンジョン突入時スキルチャージボーナス！\\c[0]"
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {
@@ -5402,8 +5402,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,

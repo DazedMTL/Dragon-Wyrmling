@@ -1763,7 +1763,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「ふっ……ぐぅう！ あぁあああっ！」"
+                                "\\n<Ruby>Huff...guuh! Ahhh!"
                             ]
                         },
                         {
@@ -1780,7 +1780,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「やめっ……んくぅうっ！ んぅっ……」"
+                                "\\n<Ruby>Stop...huff...guuh! Ahhh!"
                             ]
                         },
                         {
@@ -1797,21 +1797,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "暗い、日の射さぬ石の牢屋に、少女の喘ぎ声とも悲鳴とも"
+                                "In a dark, sunless stone cell, the sounds of a\ngirl's gasps and screams echo. There, a large man\nclad in dirty rags was violating the girl from\nbehind."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "つかぬ声が響く。そこでは、薄汚い襤褸をまとった大男が、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "少女を後ろから犯していた。"
+                                ""
                             ]
                         },
                         {
@@ -1828,21 +1828,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「いい声で泣くじゃねえか」"
+                                "You cry with such a lovely voice. Hehe, it's my\nfirst time training a Tiefling, but she's quite\nthe fine specimen...♪"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "「へへ、ティーフリングの調教なんて初めてだが"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　なかなかの上玉で良かったぜ…♪」"
+                                ""
                             ]
                         },
                         {
@@ -1873,14 +1873,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「こ…こんな、程度…で、女が…悦ぶと…でもっ……"
+                                "\\n<Ruby>D-Do you... really think that... a woman... would\nbe pleased by... such... a level...?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　お、思ってる…ん、です、かねっ……」"
+                                ""
                             ]
                         },
                         {
@@ -1897,21 +1897,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "せめてもの反撃に何とか憎まれ口を叩こうとする少女を、"
+                                "The man violently thrusts the girl who tries to\nretort with at least some defiance, and then\nreaches out to her chest. And then he began to\nroughly grope her."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "男は乱暴に突き上げると、今度は胸へと手を伸ばす。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "そして乱暴にもみしだき始めた。"
+                                ""
                             ]
                         },
                         {
@@ -1935,7 +1935,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「ひゃあああっ！ だめっ！ こん、なのっ……！！」"
+                                "\\n<Ruby>Hyaaa! No! Like this...!!"
                             ]
                         },
                         {
@@ -1952,21 +1952,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「あ、あ、あ、ああっ！ はげしいっ……いぃいいっ！」"
+                                "\\n<Ruby>Ah, ah, ah, ahhh! It's intense... goood! Ahhh!\nNo, s-stop... I don't want to... I don't want\nto... I don't want to come... not like this, by\nthese people...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あぁあああっ！ もう、だ、め……やだ、やだ、"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　イキたく、ないっ、こんな、奴らに……っ！！！」"
+                                ""
                             ]
                         },
                         {
@@ -1983,7 +1983,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ルビィ>「ひああああああっ！！！！！」"
+                                "\\n<Ruby>Hyyyyaaaaaaahhhhh!!!!!!"
                             ]
                         },
                         {
@@ -2019,45 +2019,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「この調子なら、調教も早く済みそうだな」"
+                                "At this rate, the training should be finished\nquickly. Hehe, I'm looking forward to it.\nWell, tomorrow should be fun too, right?"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "「へへ、楽しみだねぇ」"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "「だってよ。明日も楽しみだなァ？」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<ルビィ>「……きょ…今日のところはこの辺で……か…"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　勘弁、しといてやらぁ…ですよ……ばーかばーか…」"
+                                ""
                             ]
                         },
                         {
@@ -2074,7 +2050,31 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "「……こいつ割とタフだな」"
+                                "\\n<Ruby>......Ky... Let's stop here for today...\nP-Please... have mercy... on me... you idiot..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "This one is quite tough, huh."
                             ]
                         },
                         {

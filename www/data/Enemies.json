@@ -31,7 +31,7 @@
             }
         ],
         "gold": 6,
-        "name": "＊山賊",
+        "name": "Bandit",
         "note": "<SpineName:mount>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferY:0>\n<EnemyAttackAnime:6>\n<EnemyAutoSkill:14>",
         "params": [
             300,
@@ -83,7 +83,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊山賊B",
+        "name": "Bandit B",
         "note": "<SpineName:mount>\n<SpineSkin:skin2>\n<SpinetroopScale:60>\n<EnemyAttackAnime:6>\n<BufferY:-50>\n",
         "params": [
             3000,
@@ -135,7 +135,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊山賊C",
+        "name": "Bandit C",
         "note": "<SpineName:mount>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<BufferY:0>\n",
         "params": [
             3000,
@@ -187,7 +187,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊山賊D",
+        "name": "Bandit D",
         "note": "<SpineName:mount>\n<SpineSkin:skin4>\n<SpinetroopScale:90>\n<BufferY:0>\n",
         "params": [
             3000,
@@ -301,7 +301,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊ゴブA",
+        "name": "＊Gob A",
         "note": "<SpineName:goblin>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<Blend:鎧　上,腰>",
         "params": [
             400,
@@ -345,7 +345,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊ゴブB",
+        "name": "＊GobB",
         "note": "<SpineName:goblin>\n<SpineSkin:skin2>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:16>",
         "params": [
             400,
@@ -389,7 +389,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊ゴブC",
+        "name": "＊GobC",
         "note": "<SpineName:goblin>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n",
         "params": [
             400,
@@ -433,7 +433,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊ゴブD",
+        "name": "*Gob D",
         "note": "<SpineName:goblin>\n<SpineSkin:skin4>\n<SpinetroopScale:70>",
         "params": [
             400,
@@ -485,7 +485,7 @@
             }
         ],
         "gold": 0,
-        "name": "＊ゴブリンシャーマン",
+        "name": "Goblin Shaman",
         "note": "<SpineName:goblin>\n<SpineSkin:skin5>\n<SpinetroopScale:70>\n<BufferY:-50>\n<EnemyAutoSkill:14>",
         "params": [
             400,
@@ -547,7 +547,7 @@
             }
         ],
         "gold": 5,
-        "name": "＊ゴブリン戦車",
+        "name": "*Goblin Tank",
         "note": "<SpineName:gobtank>\n<SpinetroopScale:70>\n<BufferY:50>\n<EnemyAutoSkill:16>\n<Blend:旗,車輪>",
         "params": [
             1000,
@@ -963,7 +963,7 @@
             }
         ],
         "gold": 0,
-        "name": "テストキャラ",
+        "name": "Test Character",
         "note": "<SpineName:mount>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             99999,
@@ -1065,7 +1065,7 @@
             }
         ],
         "gold": 5,
-        "name": "＊負けイベント用",
+        "name": "Defeat event use",
         "note": "<SpineName:gobtank>\n<SpinetroopScale:70>\n<BufferY:50>\n<EnemyAutoSkill:16>\n",
         "params": [
             40000,
@@ -1171,7 +1171,7 @@
             }
         ],
         "gold": 5,
-        "name": "山賊A",
+        "name": "Bandit A",
         "note": "<SpineName:mount>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferY:0>\n<EnemyAttackAnime:6>\n<EnemyAutoSkill:303>",
         "params": [
             300,
@@ -1215,7 +1215,7 @@
             }
         ],
         "gold": 0,
-        "name": "山賊B",
+        "name": "Bandit B",
         "note": "<SpineName:mount>\n<SpineSkin:skin2>\n<SpinetroopScale:60>\n<EnemyAttackAnime:6>\n<BufferY:-50>\n",
         "params": [
             280,
@@ -1267,7 +1267,7 @@
             }
         ],
         "gold": 6,
-        "name": "山賊C",
+        "name": "Bandit C",
         "note": "<SpineName:mount>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<BufferY:0>\n<EnemyCaution:5>",
         "params": [
             290,
@@ -1386,7 +1386,7 @@
             }
         ],
         "gold": 50,
-        "name": "山賊ボス",
+        "name": "Bandit Boss",
         "note": "<SpineName:mount>\n<SpineSkin:skin4>\n<SpinetroopScale:90>\n<EnemyAutoSkill:304>\n<EnemyAttackAnime:6>\n<BufferY:50>\n<EnemyCaution:6>",
         "params": [
             700,
@@ -1748,7 +1748,7 @@
             }
         ],
         "gold": 12,
-        "name": "ゴブA",
+        "name": "Goblin A",
         "note": "<SpineName:goblin>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             480,
@@ -1792,7 +1792,7 @@
             }
         ],
         "gold": 11,
-        "name": "ゴブB",
+        "name": "Goblin B",
         "note": "<SpineName:goblin>\n<SpineSkin:skin2>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:16>",
         "params": [
             400,
@@ -1844,7 +1844,7 @@
             }
         ],
         "gold": 13,
-        "name": "ゴブC",
+        "name": "Goblin C",
         "note": "<SpineName:goblin>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n",
         "params": [
             460,
@@ -1896,7 +1896,7 @@
             }
         ],
         "gold": 10,
-        "name": "ゴブD",
+        "name": "Gob D",
         "note": "<SpineName:goblin>\n<SpineSkin:skin4>\n<SpinetroopScale:70>",
         "params": [
             520,
@@ -1948,7 +1948,7 @@
             }
         ],
         "gold": 12,
-        "name": "ゴブE",
+        "name": "Gob-E",
         "note": "<SpineName:goblin>\n<SpineSkin:skin6>\n<EnemyAttackWait:20>\n<EnemyMotion:Attack3>\n<SpinetroopScale:70>\n<EnemyCaution:3>",
         "params": [
             400,
@@ -2131,7 +2131,7 @@
             }
         ],
         "gold": 20,
-        "name": "ゴブリンシャーマン",
+        "name": "Goblin Shaman",
         "note": "<SpineName:goblin>\n<SpineSkin:skin5>\n<SpinetroopScale:70>\n<BufferY:-50>\n<EnemyAutoSkill:311>",
         "params": [
             500,
@@ -2205,7 +2205,7 @@
             }
         ],
         "gold": 0,
-        "name": "ゴブリン戦車",
+        "name": "Goblin Tank",
         "note": "<SpineName:gobtank>\n<SpinetroopScale:70>\n<BufferY:50>\n<EnemyCaution:3>\n<Boss>\n",
         "params": [
             2000,
@@ -2334,7 +2334,7 @@
             }
         ],
         "gold": 70,
-        "name": "スケルトン兵士",
+        "name": "Skeleton Soldier",
         "note": "<SpineName:skull>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             800,
@@ -2458,7 +2458,7 @@
             }
         ],
         "gold": 95,
-        "name": "グール",
+        "name": "Ghoul",
         "note": "<SpineName:ghoul>\n<SpineSkin:skin1>\n<SpinetroopScale:85>",
         "params": [
             1300,
@@ -2584,7 +2584,7 @@
             }
         ],
         "gold": 150,
-        "name": "グレイ・ウーズ",
+        "name": "Gray Ooze",
         "note": "<SpineName:Slime>\n<SpineSkin:skin1>\n<SpinetroopScale:200>\n<BufferY:60>\n<EnemyAttackAnime:59>\n",
         "params": [
             200,
@@ -2695,7 +2695,7 @@
             }
         ],
         "gold": 100,
-        "name": "トランペット",
+        "name": "Trumpet",
         "note": "<SpineName:monster2>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             950,
@@ -2744,7 +2744,7 @@
             }
         ],
         "gold": 150,
-        "name": "マッシュルーム",
+        "name": "Mushroom",
         "note": "<SpineName:monster2>\n<SpineSkin:skin2>\n<SpinetroopScale:70>",
         "params": [
             1500,
@@ -2813,7 +2813,7 @@
             }
         ],
         "gold": 1000,
-        "name": "アンデッドメイジ",
+        "name": "Undead Mage",
         "note": "<SpineName:undeadmage>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<Boss>\n<EnemyAttackAnime:129>\n<EnemyCaution:5>",
         "params": [
             5000,
@@ -2913,7 +2913,7 @@
         "exp": 0,
         "traits": [],
         "gold": 200,
-        "name": "オークA",
+        "name": "Orc A",
         "note": "<SpineName:ork>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<EnemyCaution:3>",
         "params": [
             1000,
@@ -2959,7 +2959,7 @@
         "exp": 0,
         "traits": [],
         "gold": 200,
-        "name": "オークB",
+        "name": "Orc B",
         "note": "<SpineName:ork>\n<SpineSkin:skin2>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:16>",
         "params": [
             1100,
@@ -3012,7 +3012,7 @@
         "exp": 0,
         "traits": [],
         "gold": 190,
-        "name": "山のサイクロプー",
+        "name": "Mountain Cyclops",
         "note": "<SpineName:cyclop>\n<SpineSkin:skin1>\n<SpinetroopScale:80>",
         "params": [
             800,
@@ -3069,7 +3069,7 @@
             }
         ],
         "gold": 220,
-        "name": "ゴブリン砲撃部隊",
+        "name": "Goblin Artillery Unit",
         "note": "<SpineName:gobcanon>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<EnemyCaution:4>",
         "params": [
             1600,
@@ -3121,7 +3121,7 @@
             }
         ],
         "gold": 260,
-        "name": "グリフォン",
+        "name": "Griffin",
         "note": "<SpineName:Mon_griffin>\n<SpineSkin:skin1>\n<SpinetroopScale:60>\n",
         "params": [
             2400,
@@ -3173,7 +3173,7 @@
             }
         ],
         "gold": 200,
-        "name": "ダイア・ウルフ",
+        "name": "Dia Wolf",
         "note": "<SpineName:wolf>\n<SpineSkin:skin1>\n<SpinetroopScale:50>\n",
         "params": [
             1800,
@@ -3242,7 +3242,7 @@
             }
         ],
         "gold": 200,
-        "name": "イエロー・モールド",
+        "name": "Yellow Mold",
         "note": "<SpineName:Slime>\n<SpineSkin:skin3>\n<SpinetroopScale:200>\n<BufferY:60>\n<EnemyAttackAnime:59>\n<EnemyAutoSkill:316>",
         "params": [
             318,
@@ -3368,7 +3368,7 @@
             }
         ],
         "gold": 1800,
-        "name": "マンティコア",
+        "name": "Manticore",
         "note": "<SpineName:manticore>\n<SpineSkin:skin1>\n<BufferY:90>\n<SpinetroopScale:80>\n<Boss>\n<EnemyCaution:3>",
         "params": [
             7000,
@@ -3476,7 +3476,7 @@
         "exp": 0,
         "traits": [],
         "gold": 120,
-        "name": "ゴブリン傭兵",
+        "name": "Goblin Mercenary",
         "note": "<SpineName:goblin>\n<SpineSkin:skin>\n<RandomSkin:skin1,skin3,skin4>\n<SpinetroopScale:70>\n",
         "params": [
             1300,
@@ -3514,7 +3514,7 @@
         "exp": 0,
         "traits": [],
         "gold": 150,
-        "name": "オーク傭兵",
+        "name": "Orc Mercenary",
         "note": "<SpineName:ork>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<EnemyCaution:3>",
         "params": [
             1500,
@@ -3583,7 +3583,7 @@
             }
         ],
         "gold": 200,
-        "name": "ゴブリン戦車",
+        "name": "Goblin Tank",
         "note": "<SpineName:gobtank>\n<SpinetroopScale:70>\n<BufferY:50>\n",
         "params": [
             2200,
@@ -3640,7 +3640,7 @@
             }
         ],
         "gold": 190,
-        "name": "ゴブリン砲撃部隊",
+        "name": "Goblin Bombardment Unit",
         "note": "<SpineName:gobcanon>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<EnemyCaution:4>",
         "params": [
             1600,
@@ -3693,7 +3693,7 @@
         "exp": 0,
         "traits": [],
         "gold": 200,
-        "name": "ゴブリンシャーマン",
+        "name": "Goblin Shaman",
         "note": "<SpineName:goblin>\n<SpineSkin:skin5>\n<SpinetroopScale:70>\n<BufferY:-50>\n<EnemyAutoSkill:311>",
         "params": [
             1400,
@@ -3742,7 +3742,7 @@
             }
         ],
         "gold": 155,
-        "name": "ゴブリンライダー",
+        "name": "Goblin Rider",
         "note": "<SpineName:wolf>\n<SpineSkin:skin2>\n<SpinetroopScale:70>\n",
         "params": [
             1900,
@@ -3794,7 +3794,7 @@
             }
         ],
         "gold": 300,
-        "name": "ダイアボア",
+        "name": "Diaboa",
         "note": "<SpineName:boar>\n<SpinetroopScale:70>\n<BufferY:50>\n",
         "params": [
             2500,
@@ -3863,7 +3863,7 @@
             }
         ],
         "gold": 2400,
-        "name": "オーガ兄",
+        "name": "Ogre Brother",
         "note": "<SpineName:orge>\n<SpineSkin:skin1>\n<BufferX:20>\n<BufferY:90>\n<SpinetroopScale:100>\n<Boss>\n<EnemyCaution:3>",
         "params": [
             9000,
@@ -3901,7 +3901,7 @@
         "exp": 0,
         "traits": [],
         "gold": 12,
-        "name": "オーガ弟",
+        "name": "Ogre Younger Brother",
         "note": "<SpineName:orge>\n<SpineSkin:skin2>\n<OriginX:100>\n<BufferY:200>\n<SpinetroopScale:100>\n",
         "params": [
             480,
@@ -4009,7 +4009,7 @@
         "exp": 0,
         "traits": [],
         "gold": 280,
-        "name": "コボルドガード",
+        "name": "Kobold Guard",
         "note": "<SpineName:kobo>\n<SpineSkin:skin2>\n<SpinetroopScale:90>\n",
         "params": [
             1600,
@@ -4053,7 +4053,7 @@
             }
         ],
         "gold": 300,
-        "name": "ダイアスネーク",
+        "name": "Diasnake",
         "note": "<SpineName:monster2>\n<SpineSkin:skin3>\n<SpinetroopScale:100>",
         "params": [
             1800,
@@ -4117,7 +4117,7 @@
             }
         ],
         "gold": 390,
-        "name": "ウォーロック",
+        "name": "Warlock",
         "note": "<SpineName:undeadmage>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyAttackAnime:137>",
         "params": [
             2500,
@@ -4179,7 +4179,7 @@
             }
         ],
         "gold": 400,
-        "name": "グール（腐食）",
+        "name": "Ghoul (Corrosion)",
         "note": "<SpineName:ghoul>\n<SpineSkin:skin1>\n<SpinetroopScale:85>",
         "params": [
             2700,
@@ -4232,7 +4232,7 @@
         "exp": 0,
         "traits": [],
         "gold": 300,
-        "name": "緑のサイクロプー",
+        "name": "Green Cyclops",
         "note": "<SpineName:cyclop>\n<SpineSkin:skin2>\n<SpinetroopScale:80>",
         "params": [
             2800,
@@ -4270,7 +4270,7 @@
         "exp": 0,
         "traits": [],
         "gold": 420,
-        "name": "シャークブロッコリー",
+        "name": "Shark Broccoli",
         "note": "<SpineName:shark>\n<SpineSkin:skin1>\n<SpinetroopScale:60>\n<BufferY:100>",
         "params": [
             1800,
@@ -4308,7 +4308,7 @@
         "exp": 0,
         "traits": [],
         "gold": 500,
-        "name": "トレント",
+        "name": "Trent",
         "note": "<SpineName:monster2>\n<SpineSkin:skin9>\n<SpinetroopScale:80>",
         "params": [
             3200,
@@ -4447,7 +4447,7 @@
             }
         ],
         "gold": 4000,
-        "name": "グリーンドラゴン",
+        "name": "Green Dragon",
         "note": "<SpineName:GreenDragon>\n<SpineSkin:skin1>\n<BufferX:20>\n<BufferY:150>\n<SpinetroopScale:70>\n<Boss>\n<EnemyCaution:5>",
         "params": [
             12000,
@@ -4571,7 +4571,7 @@
             }
         ],
         "gold": 400,
-        "name": "グール（腐食）",
+        "name": "Ghoul (Corrosion)",
         "note": "<SpineName:ghoul>\n<SpineSkin:skin1>\n<SpinetroopScale:85>",
         "params": [
             2700,
@@ -4648,7 +4648,7 @@
             }
         ],
         "gold": 500,
-        "name": "コーラルクラブ",
+        "name": "Coral Club",
         "note": "<SpineName:monster2>\n<SpineSkin:skin8>\n<SpinetroopScale:80>",
         "params": [
             4500,
@@ -4700,7 +4700,7 @@
             }
         ],
         "gold": 350,
-        "name": "ライトスピナー",
+        "name": "Light Spinner",
         "note": "<SpineName:monster2>\n<SpineSkin:skin5>\n<SpinetroopScale:80>",
         "params": [
             2500,
@@ -4744,7 +4744,7 @@
             }
         ],
         "gold": 500,
-        "name": "リザードマン",
+        "name": "Lizardman",
         "note": "<SpineName:Ene_lizard>\n<SpineSkin:skin2>\n<SpinetroopScale:60>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:16>",
         "params": [
             3500,
@@ -4813,7 +4813,7 @@
             }
         ],
         "gold": 600,
-        "name": "シー・ゼリー",
+        "name": "Sea Jelly",
         "note": "<SpineName:Slime>\n<SpineSkin:skin11>\n<SpinetroopScale:200>\n<BufferY:60>\n<EnemyAttackAnime:59>\n",
         "params": [
             1900,
@@ -4890,7 +4890,7 @@
             }
         ],
         "gold": 650,
-        "name": "ウィルオウィスプ",
+        "name": "Wil-o-Wisp",
         "note": "<SpineName:monster3>\n<SpineSkin:skin5>\n<SpinetroopScale:80>\n<Blend:hontai>",
         "params": [
             1000,
@@ -4934,7 +4934,7 @@
             }
         ],
         "gold": 400,
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             3000,
@@ -5018,7 +5018,7 @@
             }
         ],
         "gold": 500,
-        "name": "シャドウエルフメイジ",
+        "name": "Shadow Elf Mage",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:129>",
         "params": [
             2500,
@@ -5109,7 +5109,7 @@
             }
         ],
         "gold": 4000,
-        "name": "ブレインイーター",
+        "name": "Brain Eater",
         "note": "<SpineName:undeadmage>\n<SpineSkin:skin4>\n<SpinetroopScale:110>\n<EnemyAttackAnime:137>\n<Boss>\n<BufferY:50>",
         "params": [
             9000,
@@ -5230,7 +5230,7 @@
             }
         ],
         "gold": 400,
-        "name": "強化スケルトン",
+        "name": "Enhanced Skeleton",
         "note": "<SpineName:skull>\n<SpineSkin:skin2>\n<SpinetroopScale:70>",
         "params": [
             2500,
@@ -5282,7 +5282,7 @@
             }
         ],
         "gold": 450,
-        "name": "悪の戦士",
+        "name": "Warrior of Evil",
         "note": "<SpineName:fighter>\n<SpineSkin:skin4>\n<SpinetroopScale:65>\n<SpineReverse>",
         "params": [
             3000,
@@ -5341,7 +5341,7 @@
             }
         ],
         "gold": 500,
-        "name": "悪の魔術師",
+        "name": "Evil Sorcerer",
         "note": "<SpineName:undeadmage>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyAttackAnime:129>",
         "params": [
             2200,
@@ -5385,7 +5385,7 @@
             }
         ],
         "gold": 400,
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             3000,
@@ -5469,7 +5469,7 @@
             }
         ],
         "gold": 500,
-        "name": "シャドウエルフメイジ",
+        "name": "Shadow Elf Mage",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:71>",
         "params": [
             2500,
@@ -5528,7 +5528,7 @@
             }
         ],
         "gold": 600,
-        "name": "ガーゴイル",
+        "name": "Gargoyle",
         "note": "<SpineName:gargoyle>\n<SpineSkin:skin1>\n<SpinetroopScale:60>",
         "params": [
             2800,
@@ -5572,7 +5572,7 @@
             }
         ],
         "gold": 700,
-        "name": "ミノタウロス",
+        "name": "Minotaurus",
         "note": "<SpineName:minotaur>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferY:60>",
         "params": [
             5000,
@@ -5631,7 +5631,7 @@
             }
         ],
         "gold": 650,
-        "name": "ディメンションシャーク",
+        "name": "Dimension Shark",
         "note": "<SpineName:shark>\n<SpineSkin:skin1>\n<SpinetroopScale:60>\n<Blend:hontai>\n<BufferY:100>",
         "params": [
             3000,
@@ -5708,7 +5708,7 @@
             }
         ],
         "gold": 8000,
-        "name": "グレーターデーモン",
+        "name": "Greater Demon",
         "note": "<SpineName:GreaterDemon>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferX:-20>\n<BufferY:40>\n<Boss>",
         "params": [
             12000,
@@ -5752,7 +5752,7 @@
             }
         ],
         "gold": 8000,
-        "name": "グレーターデーモン2",
+        "name": "Greater Demon 2",
         "note": "<SpineName:GreaterDemon>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferX:100>\n<BufferY:600>",
         "params": [
             12000,
@@ -5806,7 +5806,7 @@
             }
         ],
         "gold": 400,
-        "name": "コボルドクリムゾン",
+        "name": "Kobold Crimson",
         "note": "<SpineName:kobo>\n<SpineSkin:skin3>\n<SpinetroopScale:90>",
         "params": [
             2500,
@@ -5860,7 +5860,7 @@
             }
         ],
         "gold": 450,
-        "name": "コボルドシャーマン",
+        "name": "Kobold Shaman",
         "note": "<SpineName:kobo>\n<SpineSkin:skin3S>\n<SpinetroopScale:90>\n<EnemyMotion:Attack2>",
         "params": [
             2200,
@@ -5904,7 +5904,7 @@
             }
         ],
         "gold": 400,
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin1>\n<SpinetroopScale:70>",
         "params": [
             5000,
@@ -5988,7 +5988,7 @@
             }
         ],
         "gold": 500,
-        "name": "シャドウエルフメイジ",
+        "name": "Shadow Elf Mage",
         "note": "<SpineName:ShadowElf>\n<SpineSkin:skin3>\n<SpinetroopScale:70>\n<EnemyMotion:Attack2>\n<EnemyAttackAnime:129>",
         "params": [
             4500,
@@ -6047,7 +6047,7 @@
             }
         ],
         "gold": 670,
-        "name": "アストラルシャーク",
+        "name": "Astral Shark",
         "note": "<SpineName:shark>\n<SpineSkin:skin1>\n<SpinetroopScale:60>\n<Blend:hontai>\n<BufferY:100>",
         "params": [
             4000,
@@ -6100,7 +6100,7 @@
         "exp": 0,
         "traits": [],
         "gold": 490,
-        "name": "赤のサイクロプー",
+        "name": "Red Cyclops",
         "note": "<SpineName:cyclop>\n<SpineSkin:skin3>\n<SpinetroopScale:80>",
         "params": [
             3400,
@@ -6159,7 +6159,7 @@
             }
         ],
         "gold": 600,
-        "name": "ガーゴイル",
+        "name": "Gargoyle",
         "note": "<SpineName:gargoyle>\n<SpineSkin:skin1>\n<SpinetroopScale:60>",
         "params": [
             2800,
@@ -6211,7 +6211,7 @@
             }
         ],
         "gold": 2400,
-        "name": "オーガ",
+        "name": "Ogre",
         "note": "<SpineName:orge>\n<SpineSkin:skin1>\n<BufferX:20>\n<BufferY:20>\n<SpinetroopScale:70>\n",
         "params": [
             5500,
@@ -6318,7 +6318,7 @@
             }
         ],
         "gold": 0,
-        "name": "レッドドラゴン",
+        "name": "Red Dragon",
         "note": "<SpineName:RedDragon>\n<SpineSkin:skin1>\n<SpinetroopScale:100>\n<BufferX:5>\n<BufferY:200>\n<Boss>",
         "params": [
             30000,
@@ -6434,7 +6434,7 @@
             }
         ],
         "gold": 10000,
-        "name": "レッドドラゴン",
+        "name": "Red Dragon",
         "note": "<SpineName:RedDragon>\n<SpineSkin:skin1>\n<SpinetroopScale:100>\n<BufferX:5>\n<BufferY:200>\n<Boss>\n<EnemyAutoSkill:341>\nラスボス",
         "params": [
             30000,
@@ -6992,7 +6992,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブラックドラゴン",
+        "name": "Black Dragon",
         "note": "",
         "params": [
             100,
@@ -7098,7 +7098,7 @@
             }
         ],
         "gold": 5,
-        "name": "人さらい",
+        "name": "kidnapper",
         "note": "<SpineName:mount>\n<SpineSkin:skin1>\n<SpinetroopScale:70>\n<BufferY:0>\n<EnemyAttackAnime:6>\n<EnemyAutoSkill:303>",
         "params": [
             300,
@@ -7160,7 +7160,7 @@
             }
         ],
         "gold": 0,
-        "name": "人さらい戦士",
+        "name": "Kidnapper Warrior",
         "note": "",
         "params": [
             100,
@@ -7222,7 +7222,7 @@
             }
         ],
         "gold": 0,
-        "name": "人さらい魔術師",
+        "name": "Kidnapping Sorcerer",
         "note": "",
         "params": [
             100,
@@ -7346,7 +7346,7 @@
             }
         ],
         "gold": 0,
-        "name": "暴れゴブリンシャーマン",
+        "name": "Rampaging Goblin Shaman",
         "note": "",
         "params": [
             100,
@@ -7408,7 +7408,7 @@
             }
         ],
         "gold": 0,
-        "name": "暴れオーク",
+        "name": "Rampaging Orc",
         "note": "",
         "params": [
             100,
@@ -7470,7 +7470,7 @@
             }
         ],
         "gold": 0,
-        "name": "暴れオーガ",
+        "name": "Rampaging Ogre",
         "note": "",
         "params": [
             100,
@@ -7594,7 +7594,7 @@
             }
         ],
         "gold": 0,
-        "name": "キメラ",
+        "name": "Chimera",
         "note": "",
         "params": [
             100,
@@ -7656,7 +7656,7 @@
             }
         ],
         "gold": 0,
-        "name": "ブルードラゴン",
+        "name": "Blue Dragon",
         "note": "",
         "params": [
             100,

@@ -1602,7 +1602,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「ふぅ…あぶねえところだったな」"
+                                "\\n<Adventurer>Phew... that was a close one."
                             ]
                         },
                         {
@@ -1619,7 +1619,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<冒険者>「だな。捕まってた奴がいる。助けよう」"
+                                "\\n<Adventurer>I see. There's someone who's been captured. Let's\ngo help them."
                             ]
                         },
                         {
@@ -1711,7 +1711,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<マーくん>「大丈夫かいアンタ？」"
+                                "\\n<Ma-kun>Are you okay?"
                             ]
                         },
                         {
@@ -1728,21 +1728,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<アズサ>「ん……あ、ああ。心配無用だ。"
+                                "\\n<Azusa>Hmm... Ah, I see. No need to worry. But I'll\nexpress my gratitude. This Azusa will definitely\nrepay the favor. Since I'm heading back to the\ntavern, call me if you need anything."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　だが礼を言う。このアズサ、恩は必ず返そう。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "　酒場に戻っている故、何かあれば呼んでくれ」"
+                                ""
                             ]
                         },
                         {
@@ -1993,7 +1993,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<アズサ>「ふ…ぅ…くっ……んっ………ん…っ！」"
+                                "\\n<Azusa>F...fu...ku...n...nn...!"
                             ]
                         },
                         {
@@ -2010,45 +2010,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<悪漢>「へへ…ホントに無抵抗で犯されてくれるとは…な…！"
+                                "\\n<Villain>Hehe... To think you'd let yourself be violated\nwithout resistance...! Sometimes good things\nhappen too, huh...!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　たまには良いこともあるもんだ……ッ！」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "迷宮に巣食うゴロツキが、そんな事をつぶやきながら"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "サムライと思しき装束の少女の中に射精する。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "結合部からは今しがた出したばかりの精液が漏れ出てくる。"
+                                ""
                             ]
                         },
                         {
@@ -2065,28 +2034,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "サムライの少女と出くわした時に…ちょうど手近に"
+                                "A thug lurking in the labyrinth ejaculates inside\na girl who appears to be a samurai, muttering such\nthings. Semen that was just released leaks from\nthe connected part."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "人質になりそうな少年を捕まえていた悪漢は、これ幸いにと"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "取引を持ちかけた。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "「無抵抗で言う事を聞くならこのガキは開放してやる、と。」"
+                                ""
                             ]
                         },
                         {
@@ -2103,45 +2065,28 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "その取引に眉を顰めるも、素直に応じたのは驚きだった。"
+                                "When he encountered a samurai girl... the villain\nwho had just caught a boy nearby to use as a\nhostage fortunately proposed a deal. If you don't\nresist and do as I say, I'll release this brat,\nhe said."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "そして、彼女は約束を違えようとしなかったのはさらに"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "悪漢たちにとっても驚きだった。"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<アズサ>「く……んっ……また…膣内で…出しおって…っ…"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　んんっ…ぁっ……っ………」"
+                                ""
                             ]
                         },
                         {
@@ -2158,45 +2103,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "悔しそうに歯噛みしつつも、大人しく犯されている"
+                                "It was surprising that she obediently agreed to\nthat deal, even though she frowned at the\nproposition. And it was even more surprising for\nthe villains that she did not try to break the\npromise."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "サムライの少女。平静を装ってはいるが、このような状況で"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "顔が赤らみ、息も荒くなっている。"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<アズサ>「んんんっ……！く、んっ………！や…ふぁ……"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　早く……終わらせ……っ、ん、あ、ぅっ……！！」"
+                                ""
                             ]
                         },
                         {
@@ -2213,38 +2134,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ファリア>「ふーっ……んっ……んっんっ……"
+                                "\\n<Azusa>Ku...nnn...once again... ejaculating inside...\nme...nnn...ahh..."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　～～～～～～っ………！！！」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "彼女は絶頂の嬌声を噛み殺す。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "不快な、精液が膣内に放たれる感触も今では慣れてしまった。"
+                                ""
                             ]
                         },
                         {
@@ -2261,21 +2158,124 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "満足した悪漢が肉棒を引き抜いて立ち上がる。"
+                                "A samurai girl, being violated quietly while\nlooking frustrated. She tries to maintain her\ncomposure, but her face is blushing and her\nbreathing becomes rough in this situation."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "そしてまた別の悪漢が彼女を犯そうとする時……"
+                                "\\n<Azusa>Nnnn...! Ku, nn...! Ya...fua... Hurry... finish\nquickly... n, a, u...!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "玄室の扉が開かれた。"
+                                "\\n<Faria>Phew... ngh... nghnghngh...~!!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "She suppresses her cries of ecstasy. She has even\nbecome accustomed to the unpleasant sensation of\nsemen being released inside her vagina."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "The satisfied villain pulls out his meat rod and\nstands up. And just as another villain tries to\nviolate her... the door to the secret chamber\nopens."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

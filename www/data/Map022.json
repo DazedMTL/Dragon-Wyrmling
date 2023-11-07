@@ -8959,21 +8959,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "このマップから、ダンジョンから「撤退」が可能となります。"
+                                "You can now retreat from this map and the\ndungeon. You can return to the starting point or\nselect the retreat command from the menu screen."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "スタート地点に戻るか、メニュー画面から撤退コマンドを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "選択できます。"
+                                ""
                             ]
                         },
                         {
@@ -8990,21 +8990,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "戦闘で敗北した場合、それまでに稼いだ報酬は"
+                                "If you are defeated in battle, the rewards you\nhave earned up to that point will become 0. If you\nfeel it's dangerous, retreat and regroup your\nforces."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "0になってしまいます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "危ないと思ったら撤退して戦力を整えましょう。"
+                                ""
                             ]
                         },
                         {
@@ -35684,21 +35684,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "このマップから、ダンジョンから「撤退」が可能となります。"
+                                "From this map, it is possible to retreat from\nthe dungeon. You can return to the starting point\nor select the retreat command from the menu\nscreen."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "スタート地点に戻るか、メニュー画面から撤退コマンドを"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "選択できます。"
+                                ""
                             ]
                         },
                         {
@@ -35715,21 +35715,21 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "戦闘で敗北した場合、それまでに稼いだ報酬は"
+                                "If you are defeated in battle, the rewards you\nhave earned up to that point will become 0. If you\nfeel it's dangerous, retreat and regroup your\nforces."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "0になってしまいます。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "危ないと思ったら撤退して戦力を整えましょう。"
+                                ""
                             ]
                         },
                         {
@@ -39779,14 +39779,14 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "ドラゴンワームリング！体験版はここまでとなっております。"
+                                "Dragon Worm Ring! The trial version ends here.\nPlease look forward to the full version."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 1,
                             "parameters": [
-                                "続きは製品版でお楽しみください。"
+                                ""
                             ]
                         },
                         {
@@ -42329,21 +42329,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "緑の宝箱は、回復薬の入った宝箱です。"
+                                "The green treasure chest is a chest containing\nhealing potions. It's locked, but if there are\nthieves around, let's try to open it at the right\ntime."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "鍵がかかっていますが、盗賊がいるのであれば"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "うまくタイミングを見計らって開けてみましょう。"
+                                ""
                             ]
                         },
                         {

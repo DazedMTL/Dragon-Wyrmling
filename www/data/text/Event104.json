@@ -1,317 +1,317 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：酒場でのバイト"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "5": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「おお、ソルちゃん！今日もかわいいね！」"
-  },
-  "6": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「えへへー」"
-  },
-  "7": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「ところでソルちゃん、ウチの店でちょっと\n　仕事する気ないかい？」"
-  },
-  "8": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「おおおおお…？おしごと？ですか？」"
-  },
-  "9": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「ああ……ちょいとウチの給仕が数人、都合で\n　やめちまってなぁ……。　酒場のウェイトレスを\n　募集してるんだが、これが中々……」"
-  },
-  "10": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「あたしはお酒呑みたいからパス」"
-  },
-  "11": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「……ってな」"
-  },
-  "12": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおお……なるほど……」"
-  },
-  "13": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「ソルちゃんかわいいし、みんなの人気者だし、\n　やってもらえねえかな……？」"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「わかりました！！やってみます！！」"
-  },
-  "15": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「即答」"
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "18": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「あ、イスクさんもどうですか！？\n　一緒におしごとしてみませんか！？」"
-  },
-  "19": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「え……わたくし………ですか……？」"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": "（考える）"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "（熟考する）"
-  },
-  "22": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「あ……イケる……」"
-  },
-  "23": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「承知いたしました……\n　折角のお誘いですので…お引き受けいたします……」"
-  },
-  "24": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ふふふふふ……楽しみ………」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「何かがツボに入ったんですかね！」"
-  },
-  "26": {
-    "name": "酒場の主人",
-    "face": null,
-    "text": "「さあ……」"
-  },
-  "27": {
-    "name": "エリック",
-    "face": "哀3",
-    "text": "「さあ……」"
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": "ソル",
-    "face": null,
-    "text": "「えへへー、どうですか？　うさぎさん似合ってますか？」"
-  },
-  "31": {
-    "name": "イスク",
-    "face": null,
-    "text": "「……うさぎさんの格好……　結構、これ、楽しいですね……」"
-  },
-  "32": {
-    "name": "エリック",
-    "face": null,
-    "text": "「お、二人共すごいかわいい！\n　………けど、男連中の目がアレになってきた………」"
-  },
-  "33": {
-    "name": "冒険者",
-    "face": null,
-    "text": "（親父グッジョブ！！）"
-  },
-  "34": {
-    "name": "冒険者",
-    "face": null,
-    "text": "（ナイス親父！！）"
-  },
-  "35": {
-    "name": "冒険者",
-    "face": null,
-    "text": "（俺たちはアンタを信じてた！！！）"
-  },
-  "36": {
-    "name": "冒険者",
-    "face": null,
-    "text": "（好き！！抱いて！！！）"
-  },
-  "37": {
-    "name": "イスク",
-    "face": null,
-    "text": "「ああ…冒険者さんたちの視線が心地良いです…………\n　あっ…ちょっとイく……」"
-  },
-  "38": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "39": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "40": {
-    "name": "ソル",
-    "face": null,
-    "text": "「おまたせしましたー！　えへへー、これけっこう楽しいですね！！」"
-  },
-  "41": {
-    "name": "イスク",
-    "face": null,
-    "text": "「確かに中々……興味深くおもいます……」"
-  },
-  "42": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "43": {
-    "name": "ソル",
-    "face": null,
-    "text": "「えへへー、いらっしゃいませー！　ゴールドうさぎさんです！」"
-  },
-  "44": {
-    "name": "イスク",
-    "face": null,
-    "text": "「そうなるとわたくしはシルバーうさぎさん……」"
-  },
-  "45": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "47": {
-    "name": "ソル",
-    "face": null,
-    "text": "「え……っ？\n　ちょ、………っ、んぁっ……」"
-  },
-  "48": {
-    "name": "ソル",
-    "face": null,
-    "text": "「だ、だめですよ！！そういうことしちゃ！！\n　わたし、おこりますよ！！」"
-  },
-  "49": {
-    "name": "ソル",
-    "face": null,
-    "text": "「むー………もー、しょーがないですねぇ。\n　ちょっとだけですからね！！」"
-  },
-  "50": {
-    "name": "ソル",
-    "face": null,
-    "text": "「あぅ……んん……っ………\n　えへへ、期待しちゃってました……」"
-  },
-  "51": {
-    "name": "ソル",
-    "face": null,
-    "text": "「ぅぅん……っ……はやくぅ………\n　まってたんですからねぇ……」"
-  },
-  "52": {
-    "name": "ソル",
-    "face": null,
-    "text": "「えへへ…わたし…\n　冒険者さんのたまご、産んじゃうかもしれませんよ……？」"
-  },
-  "53": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "54": {
-    "name": "イスク",
-    "face": null,
-    "text": "「しようのない殿方ですね………。\n　…あちらで、お願いいたします………」"
-  },
-  "55": {
-    "name": "イスク",
-    "face": null,
-    "text": "「んっ……かしこまりました……\n　ご奉仕させて…いただきます……」"
-  },
-  "56": {
-    "name": "イスク",
-    "face": null,
-    "text": "「ふふ……お待ちしておりました………\n　あちらで……ゆっくりと………」"
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "60": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "61": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "62": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Part-time job at the bar"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "5": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Oh, Sol-chan! You're so cute today too!\""
+    },
+    "6": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ehehe\""
+    },
+    "7": {
+        "name": "Bar owner",
+        "face": null,
+        "text": "\"By the way, Sol-chan, are you interested in\nworking at my bar for a bit?\""
+    },
+    "8": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Ohhh...? A job? Is that so?\""
+    },
+    "9": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Ah... A few of my waitstaff have quit due to\npersonal reasons. I'm recruiting for a waitress at\nthe bar, but it's been quite challenging.\""
+    },
+    "10": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"I'll pass because I want to drink alcohol.\""
+    },
+    "11": {
+        "name": "Barkeeper",
+        "face": null,
+        "text": "\"Well, that's how it is.\""
+    },
+    "12": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ohhh... I see...\""
+    },
+    "13": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Sol-chan is cute and popular with everyone, so I\nwonder if she could do it...?\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Understood!! I'll give it a try!!\""
+    },
+    "15": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"Immediate response\""
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "18": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ah, Isuku-san, how about you too? Won't you try\nworking together with me!?\""
+    },
+    "19": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Eh... Me...?\""
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": "(Thinking)"
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "(Thinking)"
+    },
+    "22": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Ah... I can do it...\""
+    },
+    "23": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Understood... Since it's a rare invitation...\nI'll accept it...\""
+    },
+    "24": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Hehehe... I'm looking forward to it...\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I wonder if something has struck a chord!\""
+    },
+    "26": {
+        "name": "Barkeep",
+        "face": null,
+        "text": "\"Well...\""
+    },
+    "27": {
+        "name": "Eric",
+        "face": "哀3",
+        "text": "\"Well...\""
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ehehe, how about it? Does the rabbit suit me?\""
+    },
+    "31": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Dressing up as a rabbit... This is actually quite\nfun, isn't it?\""
+    },
+    "32": {
+        "name": "Eric",
+        "face": null,
+        "text": "\"Wow, both of you look so cute! ...But, the guys'\neyes are starting to get weird...\""
+    },
+    "33": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "(Great job, old man!!)"
+    },
+    "34": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "(Nice one, old man!!)"
+    },
+    "35": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "(We believed in you!!!)"
+    },
+    "36": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "(Love it!! Embrace me!!!)"
+    },
+    "37": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Ah... the adventurers' gaze feels so nice...\nAh... I'm getting a little excited...\""
+    },
+    "38": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "39": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "40": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"I'm sorry to keep you waiting! Ehehe, this is\nquite fun, isn't it?!\""
+    },
+    "41": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Certainly, I find it quite... intriguing...\""
+    },
+    "42": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "43": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ehehe, welcome! I'm the Gold Rabbit!\""
+    },
+    "44": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"In that case, I am the Silver Rabbit...\""
+    },
+    "45": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "47": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Eh...? W-Wait... Ah...!\""
+    },
+    "48": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"N-No, that's not okay!! Don't do that kind of\nthing!! I'll get angry, you know?!\""
+    },
+    "49": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Mmm... Well, I guess it can't be helped. Just a\nlittle bit, okay?!\""
+    },
+    "50": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ah...nnn...huh... I was looking forward to\nthis... ehehe.\""
+    },
+    "51": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ugh... hurry... I've been waiting, you know...\""
+    },
+    "52": {
+        "name": "Sol",
+        "face": null,
+        "text": "\"Ehehe... I might just lay an adventurer's egg,\nyou know...?\""
+    },
+    "53": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "54": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"You are an incorrigible gentleman... I will take\nmy leave over there...\""
+    },
+    "55": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Nn... Understood... I will serve you... with\npleasure...\""
+    },
+    "56": {
+        "name": "Isk",
+        "face": null,
+        "text": "\"Fufu... I have been waiting for you... Over\nthere... Slowly...\""
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "60": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "61": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "62": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

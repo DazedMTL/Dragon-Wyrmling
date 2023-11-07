@@ -1,222 +1,222 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：オープニング。竜たちの戦いと"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "その夜、山頂は赤く輝いていた。"
-  },
-  "4": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "紅蓮の炎に不気味に照らされる空を舞う、２つの影。"
-  },
-  "5": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "その影達は、まるで円舞曲を踊るかのように、"
-  },
-  "6": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "あるいはあたかも\\ruby[犬の争い](ドッグファイト)のように、\n山の頂を何度も周りながら争っていた。"
-  },
-  "7": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "8": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "だが、その天を制する争いも長くは続かない。\n次第に片方の影が力を失い、傷つき、血を山嶺に撒き散らす。"
-  },
-  "9": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "そしてついに、影の片方は高度を失い、\n何処とも知れぬ闇の中へと堕ちていった。"
-  },
-  "10": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "勝者たるもう一方の影はまるで哄笑を上げるかの如く、\n歓喜の舞いを夜空に舞う。"
-  },
-  "11": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "そしていつしか、その勝者の影もまた\n夜の闇へと姿を消していった。"
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "この尋常ならざる光景を、近くに住まう村の人々は\n凶兆かと怯えたが、確かめに行く勇気を持ち合わせている\n者は一人もいなかった。"
-  },
-  "14": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "ただ怯えながら、己が身に災いが降りかからぬよう\n護りの神イシュペールに必死に祈り、許しを乞うだけだった。"
-  },
-  "15": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "\n──────それが、昨晩の出来事である。"
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": "暗転"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "\n──────ルクレア村\n　　　　　　酒場"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": "店主",
-    "face": null,
-    "text": "「へいっ！先生っ！お待ちッ！」"
-  },
-  "22": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "その女冒険者の前に、調理したてで食欲をそそる料理が運ばれた。\nじゅうじゅうと音を立て、肉汁の滲み出る鴨の串焼き。\n村で採れる甘酸っぱいベリーの詰まったパイ、そして上物のワイン。"
-  },
-  "23": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "恐らくこの村で食べられるであろう最高の御馳走に、\nその女冒険者…エニトゥーラヤに幸せそうな笑みがこぼれた。"
-  },
-  "24": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「ありがとうございます。\n　ええ、実にいい香りです」"
-  },
-  "25": {
-    "name": "店主",
-    "face": null,
-    "text": "「ヘヘヘ、先生のために、いいトコをきっちり\n　取っておきましたからね！味わってくだせえよ！」"
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": "エニ先生",
-    "face": "喜1",
-    "text": "「ふぅ……。\n　やはり、長旅のあとの葡萄酒はこたえられません」"
-  },
-  "28": {
-    "name": "エニ先生",
-    "face": "楽1",
-    "text": "「こうやって落ち着いて食事を摂るのも久方ぶり。\n　たまにはゆっくりと味わって……」"
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「………ん？」"
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "32": {
-    "name": "村人",
-    "face": null,
-    "text": "「た、大変だぁぁ…！！\n　先生っ！！エニ先生ぇぇっ！！」"
-  },
-  "33": {
-    "name": "エニ先生",
-    "face": "哀1",
-    "text": "「……………」"
-  },
-  "34": {
-    "name": "エニ先生",
-    "face": "哀1",
-    "text": "「………どうやら、食事を堪能するのは\n　またの機会になりそうですね」"
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": "エニ先生",
-    "face": "普通1",
-    "text": "「コホン。で、どうかしましたか？\n　何か厄介事でも？」"
-  },
-  "37": {
-    "name": "村人",
-    "face": null,
-    "text": "「ド……ドラゴンだ……！！\n　ドラゴンがこの村に……！！！」"
-  },
-  "38": {
-    "name": "エニ先生",
-    "face": "怒1",
-    "text": "「………竜(ドラゴン)…？」"
-  },
-  "39": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "40": {
-    "name": null,
-    "face": null,
-    "text": "暗転"
-  },
-  "41": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "42": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "The dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Opening. The battle of the dragons and"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Narration",
+        "face": null,
+        "text": "That night, the mountaintop was shining red."
+    },
+    "4": {
+        "name": "Narration",
+        "face": null,
+        "text": "Two shadows danced in the sky eerily illuminated\nby the crimson flames."
+    },
+    "5": {
+        "name": "Narration",
+        "face": null,
+        "text": "Those shadows danced as if performing a waltz."
+    },
+    "6": {
+        "name": "Narration",
+        "face": null,
+        "text": "Or perhaps, as if circling the mountaintop in a\ndogfight, they fought over and over."
+    },
+    "7": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "8": {
+        "name": "Narration",
+        "face": null,
+        "text": "However, the battle for dominance in the sky did\nnot last long. Gradually, one of the shadows lost\nits strength, became wounded, and scattered blood\non the mountain peaks."
+    },
+    "9": {
+        "name": "Narration",
+        "face": null,
+        "text": "And finally, one of the shadows lost altitude and\nfell into the unknown darkness."
+    },
+    "10": {
+        "name": "Narration",
+        "face": null,
+        "text": "The victorious shadow danced in the night sky as\nif laughing in triumph, performing a dance of joy."
+    },
+    "11": {
+        "name": "Narration",
+        "face": null,
+        "text": "And before long, the victorious shadow also\ndisappeared into the darkness of the night."
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "The people living nearby the extraordinary\nspectacle were frightened, wondering if it was an\nill omen, but not a single person had the courage\nto go and check."
+    },
+    "14": {
+        "name": "Narration",
+        "face": null,
+        "text": "They could only pray desperately to the guardian\ngod Ishupel, fearing that misfortune would befall\nthem, and beg for forgiveness, while trembling in\nfear."
+    },
+    "15": {
+        "name": "Narration",
+        "face": null,
+        "text": "──────That was the event of last night."
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": "Fade to black"
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": "Narration",
+        "face": null,
+        "text": "──────Rukurea Village, Tavern"
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": "Shopkeeper",
+        "face": null,
+        "text": "\"Hey! Sensei! I've been waiting!\""
+    },
+    "22": {
+        "name": "Narration",
+        "face": null,
+        "text": "In front of the female adventurer, freshly cooked\ndishes that whet the appetite were brought. There\nwas a sizzling sound as the duck skewers, oozing\nwith meat juices, were carried over. Also, a pie\nfilled with sweet and sour berries picked in the\nvillage, and top-quality wine."
+    },
+    "23": {
+        "name": "Narration",
+        "face": null,
+        "text": "The female adventurer, Enituura, couldn't help but\nsmile happily at the thought of being able to\nenjoy the best feast that this village had to\noffer."
+    },
+    "24": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Thank you very much. Yes, it has a truly\nwonderful aroma.\""
+    },
+    "25": {
+        "name": "Shopkeeper",
+        "face": null,
+        "text": "\"Hehehe, I've made sure to pick out the best for\nyou, Sensei! Please savor it!\""
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Phew... As expected, wine after a long journey is\nirresistible.\""
+    },
+    "28": {
+        "name": "Eni-sensei",
+        "face": "楽1",
+        "text": "\"It's been a while since I've been able to calmly\nenjoy a meal like this. Occasionally, it's nice to\nsavor things slowly...\""
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "「………ん？」"
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "32": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"I-It's terrible...!! Sensei!! Eni-sensei!!\""
+    },
+    "33": {
+        "name": "Eni-sensei",
+        "face": "哀1",
+        "text": "「……………」"
+    },
+    "34": {
+        "name": "Eni-sensei",
+        "face": "哀1",
+        "text": "\"It seems that I won't be able to fully enjoy the\nmeal for the time being.\""
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Ahem. So, what's the matter? Is there some kind\nof trouble?\""
+    },
+    "37": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"A... a dragon...!! A dragon has come to this\nvillage...!!\""
+    },
+    "38": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"......A dragon...?\""
+    },
+    "39": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "40": {
+        "name": null,
+        "face": null,
+        "text": "Blackout"
+    },
+    "41": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "42": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

@@ -19675,14 +19675,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊　火山・深部に移動しますか？　＊"
+                                "＊Do you want to move to the depths of the\nvolcano?＊（\\c[10]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>（\\c[10]注：ダンジョンを出るまで前の階層には戻れません\\c[0]）"
+                                ""
                             ]
                         },
                         {
@@ -19690,8 +19690,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "移動する",
-                                    "キャンセル"
+                                    "Move",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,

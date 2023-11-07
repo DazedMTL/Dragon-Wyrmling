@@ -1812,38 +1812,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ウェイン>「やぁっ！ちょ、まって、ってば…！！"
+                                "\\n<Wayne>Hey! W-Wait, stop, I mean...!! Not so,\nintense......!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　そんな、激しく……っ！！！」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<ウェイン>「わかったって！あたしが悪かったって！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　だから、あぁ、あああっ……んんっ……！！」"
+                                ""
                             ]
                         },
                         {
@@ -1860,21 +1836,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ウェインがドラゴンカインドに割り当てられた相手は、"
+                                "\\n<Wayne>I get it! It's my fault! So, aah,\naahh......nnn......!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "運悪くも先刻ウェインが喧嘩でぶちのめした相手だった。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "これ幸いの復讐にと、男は容赦なくウェインを責め立てる。"
+                                ""
                             ]
                         },
                         {
@@ -1891,38 +1860,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ウェイン>「ちょ、やだ、胸、までっ…！そんな、強く…！"
+                                "The person assigned to Wayne as a Dragon Kind was\nunfortunately the same person Wayne had beaten up\nin a fight earlier. Seizing this opportunity for\nrevenge, the man relentlessly blamed and attacked\nWayne."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　もうちょっと、優しく、して、っっ……！！」"
+                                ""
                             ]
                         },
                         {
-                            "code": 101,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "鬱憤を晴らすように、ウェインを後ろから犯す男。"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "ウェインのあられもない姿に興奮し、夢中になって体を貪る。"
+                                ""
                             ]
                         },
                         {
@@ -1939,38 +1891,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<ウェイン>「やだ、だめ、ダメだってば…！！そこ、ダメ…！！"
+                                "\\n<Wayne>N-No, not my chest...! Not so, forcefully...! A\nlittle more, gently, please...!!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　あ、あぁ、あぁぁっ……！！んぁぁぁっ……！」"
-                            ]
-                        },
-                        {
-                            "code": 101,
-                            "indent": 0,
-                            "parameters": [
-                                "",
-                                0,
-                                1,
-                                2
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "\\n<ウェイン>「ダメ、もう、イくからっ…！ダメ、もうっ…！"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                "　中に、出したら、怒るわよっ…！！！あぁぁぁぁぁっ…！！」"
+                                ""
                             ]
                         },
                         {
@@ -1987,14 +1915,86 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ウェインは悲鳴とも嬌声ともつかない声をあげる。"
+                                "A man who violated Wayne from behind to vent his\nfrustration. He became excited by Wayne's indecent\nfigure and greedily ravished his body in a frenzy."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "だが、男はしばらくは止まりそうもなかった……"
+                                "\\n<Wayne>No, stop, I said no...!! Not there, stop...!! Ah,\nah, aahh......!! Nngh......!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "\\n<Wayne>No, I'm already...! No, stop...! If you cum\ninside, I'll get mad...!!! Ahhhhh...!!"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 0,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 0,
+                            "parameters": [
+                                "Wayne let out a voice that could not be called a\nscream or a moan. However, the man showed no signs\nof stopping for a while..."
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
+                                ""
                             ]
                         },
                         {

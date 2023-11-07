@@ -10512,7 +10512,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "こちらからは解除できないようだ。"
+                                "It seems that we can't deactivate it from here."
                             ]
                         },
                         {
@@ -10904,14 +10904,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊　下の階に移動しますか？　＊"
+                                "*Do you want to move to the lower floor?* (\\c[10]"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "\\>（\\c[10]注：ダンジョンを出るまで前の階層には戻れません\\c[0]）"
+                                ""
                             ]
                         },
                         {
@@ -10919,8 +10919,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "移動する",
-                                    "キャンセル"
+                                    "Move",
+                                    "Cancel"
                                 ],
                                 1,
                                 0,
@@ -26922,7 +26922,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「グワーッ」"
+                                "\\n<Sol>*roar*"
                             ]
                         },
                         {
@@ -27253,7 +27253,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "危ういバランスで保っている石柱だ。"
+                                "It's a precarious balance to maintain that stone\npillar."
                             ]
                         },
                         {
@@ -28592,7 +28592,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<ソル>\\py[10]「グワーッ」"
+                                "\\n<Sol>*py[10] Gwahh"
                             ]
                         },
                         {
@@ -28873,21 +28873,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\py[10]恐らくは前に訪れた冒険者が記したであろう文字が"
+                                "Probably, the words written on the wall were\nlikely left behind by adventurers who visited here\nbefore. Beware of traps! Bring along a thief!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "壁面に刻まれている。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　「\\c[2]罠に注意！盗賊を連れていけ！\\c[0]」"
+                                ""
                             ]
                         },
                         {
@@ -28955,21 +28955,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "恐らくは前に訪れたであろう冒険者が"
+                                "Perhaps the adventurers who visited here before\nleft a message on the wall. Watch out for traps!\nBring a thief with you!"
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "壁面に文字を書き残している。"
+                                ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "　「\\c[2]罠に注意！盗賊を連れていけ！\\c[0]」"
+                                ""
                             ]
                         },
                         {

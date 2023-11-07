@@ -1,187 +1,187 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：ルクレア村初訪問"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "4": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお……これがルクレア村………\n　せんせい以外の人がいっぱいいる……すげえ……」"
-  },
-  "5": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「なんか賑やかでいいなぁー……\n　すごく新鮮な気分ですね！」"
-  },
-  "6": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "7": {
-    "name": "ソル",
-    "face": "喜3",
-    "text": "「噴水！！！！水車！！！！馬車！！！！！\n　おおおおおおおお…………文明の兆し………」"
-  },
-  "8": {
-    "name": "村人",
-    "face": null,
-    "text": "「………？？」"
-  },
-  "9": {
-    "name": "村人",
-    "face": null,
-    "text": "「……？？………？？？」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「えへへー」"
-  },
-  "11": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "12": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "ソルが村の通りを歩くと、村人達は皆驚いたように振り返る。\n金色の竜の尾を持つ美少女、それもまるで吟遊詩人が物語る\n人魚姫の如き半裸となれば目立たぬ筈もなかった。"
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "そして、通り掛かる赤髪の冒険者もまた\nその姿を鮮明に覚えていたのだった。"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「ん………あれ？　もしかして……」"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「ほい？？？」"
-  },
-  "17": {
-    "name": "エリック",
-    "face": "喜2",
-    "text": "「あー！あの時の助けてくれた金竜の子！！\n　探してたんだから！」"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「あー！あの時のおねえさん！！」"
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": "暗転"
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「はー、成程ねえ。噂には聞いていたけど……\n　あのエニ先生に育てられてた金竜ってのがキミだったんだね」"
-  },
-  "24": {
-    "name": "エリック",
-    "face": "喜3",
-    "text": "「お礼言えてなかったよね。あの時はホントにありがと。\n　あたしはエリック。ここいらで活動してる冒険者」"
-  },
-  "25": {
-    "name": "ソル",
-    "face": "喜2",
-    "text": "「いえいえー」"
-  },
-  "26": {
-    "name": "エリック",
-    "face": "喜2",
-    "text": "「よっし、恩返しって訳でもないけどさ、せっかくだし\n　これもなにかの縁ってことで、あたしもソルに付き合うね！」"
-  },
-  "27": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「え、いいんですか！？」"
-  },
-  "28": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「エニ先生にも、『もしソルを見かけたら手伝って上げて欲しい』\n　って頼まれてるしね！冒険者の集まる酒場を案内したげる！」"
-  },
-  "29": {
-    "name": "エリック",
-    "face": "喜1",
-    "text": "「『首なし美人』亭って言うんだけど、そこをたまり場にしてるんだ。\n　仲間を探してるってんなら、そこが一番かな」"
-  },
-  "30": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「おおー、なんかすごくそれっぽい！！\n　……なんで首がないのに美人ってわかるんでしょうね？？」"
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: First Visit to Luclea Village"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "4": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooo... So this is Luclea Village... There are\nso many people other than Sensei... Amazing...\""
+    },
+    "5": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"It's so lively and nice here... It feels really\nrefreshing!\""
+    },
+    "6": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "7": {
+        "name": "Sol",
+        "face": "喜3",
+        "text": "\"A fountain!!!! A watermill!!!! A carriage!!!!\nOhhhhhhh... signs of civilization...\""
+    },
+    "8": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"..........??\""
+    },
+    "9": {
+        "name": "Villager",
+        "face": null,
+        "text": "\"..........??........??\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"Ehehe~\""
+    },
+    "11": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "12": {
+        "name": "Narration",
+        "face": null,
+        "text": "As Sol walked through the village streets, the\nvillagers all turned back in surprise. A beautiful\ngirl with a golden dragon's tail, and moreover,\nhalf-naked like the mermaid princess in a\nminstrel's tale - it was impossible not to stand\nout."
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "And so, the passing red-haired adventurer also\nvividly remembered her figure."
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Hmmm... Could it be...?\""
+    },
+    "16": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Huh??\""
+    },
+    "17": {
+        "name": "Eric",
+        "face": "喜2",
+        "text": "\"Ah! You're the golden dragon's child who helped\nme back then!! I've been looking for you!\""
+    },
+    "18": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ah! That lady from back then!!\""
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": "Fade to black"
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"I see, I see. I've heard the rumors... So you're\nthe golden dragon raised by Eni-sensei.\""
+    },
+    "24": {
+        "name": "Eric",
+        "face": "喜3",
+        "text": "\"I never got to thank you back then. I'm really\ngrateful for what you did. I'm Eric, an adventurer\nactive around here.\""
+    },
+    "25": {
+        "name": "Sol",
+        "face": "喜2",
+        "text": "\"No, no, it's nothing.\""
+    },
+    "26": {
+        "name": "Eric",
+        "face": "喜2",
+        "text": "\"Alright, it's not really about repaying a debt,\nbut since we've crossed paths, I'll accompany you,\nSol!\""
+    },
+    "27": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Eh, is it really okay!?\""
+    },
+    "28": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Eni-sensei also asked me to help you if I saw\nSol! I'll guide you to the tavern where\nadventurers gather!\""
+    },
+    "29": {
+        "name": "Eric",
+        "face": "喜1",
+        "text": "\"It's called the 'Headless Beauty' Inn, and that's\nwhere we hang out. If you're looking for\ncompanions, that's probably the best place to\nstart.\""
+    },
+    "30": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Wow, that's really impressive! ...How can you\ntell she's a beauty even without a head?\""
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

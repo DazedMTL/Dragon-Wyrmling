@@ -1,152 +1,152 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：廃墟のダンジョン"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": null,
-    "face": null,
-    "text": "特殊ダンジョンにつきセリフなし"
-  },
-  "4": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "5": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "巨体を揺るがし、その二人は手当たり次第に家屋を殴りつける。\nその身の丈３ｍを超える体躯からは知性や品位などを感じられず、\nただ苛立ちに任せて丸太のような棍棒を振り回すだけだった。"
-  },
-  "6": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "丸太の一振りで家屋は吹き飛び、石垣は砕け、\nその間にいた哀れなゴブリンも瞬時にして肉塊と化す。"
-  },
-  "7": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "そして、癇癪を起こした巨人共がソル達の姿を認める。\n涎を垂らし、上等な肉を貪り食らう様だけを脳裏に思い描き\n猛然と襲いかかってきた…！"
-  },
-  "8": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "9": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "巨体の足を砕かれ、自慢の棍棒をヘシ折られ、鼻血を吹き出し\nオーガ達は果たして誰に喧嘩を売ったのかを思い知らされた。"
-  },
-  "10": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "下衆な笑みを浮かべて這いつくばり、許しを乞おうとする巨人。\nだが、それを真に受けて許す程、冒険者達は甘くはない。"
-  },
-  "11": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "醜い顔の中心、目と目の間に極太の矢が突き刺さる。\n狩人の長弓から放たれた矢は、狙いを過たずに\nオーガの脳幹を破壊した。"
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "13": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "眼の前には、あまりに悍ましき姿の魔物。\n見るだけで正気を奪い、人の脳を啜り、記憶と感情を\n糧とする…生者とは決して相容れない存在だ。"
-  },
-  "14": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "金竜と、彼女に導かれる冒険者たちは恐怖を振り払い\n勇気を振り絞って剣を握り直す。\nこいつを倒さねば、我々に未来などないのだから……！"
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "16": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "悍ましき杖が頭上を薙ぎ払う。\n間一髪で避けた戦士が、気合一閃と共に長剣を突き刺す。\n異形の胴の根本まで突き刺さった剣は、確実に致命の一撃。\nだがその魔物は最後の力を振り絞る。"
-  },
-  "17": {
-    "name": "ナレーション",
-    "face": null,
-    "text": "邪悪なる触手が戦士を襲う寸前に……魔物の身体は炎に包まれる。\n絶叫し、香ばしい匂いを撒き散らしてのたうち回る悍ましき魔物。\nその邪悪な生命が尽きたことを確認し、戦士は間一髪で\n救ってくれた金竜の子に親指を立てて破顔した。"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "19": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "Dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene: Ruins Dungeon"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": null,
+        "face": null,
+        "text": "No dialogue for this special dungeon."
+    },
+    "4": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "5": {
+        "name": "Narration",
+        "face": null,
+        "text": "They shook their massive bodies and\nindiscriminately pounded the houses. With bodies\nexceeding three meters in height, there was no\nsense of intelligence or dignity, just swinging a\nlog-like club in frustration."
+    },
+    "6": {
+        "name": "Narration",
+        "face": null,
+        "text": "A swing of the log blew away the houses, shattered\nthe stone walls, and in an instant, the pitiful\ngoblin caught in between turned into a lump of\nflesh."
+    },
+    "7": {
+        "name": "Narration",
+        "face": null,
+        "text": "And then, the enraged giants recognized Sol and\nthe others. Drooling, they only envisioned\ngreedily devouring fine meat, and fiercely\nattacked...!"
+    },
+    "8": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "9": {
+        "name": "Narration",
+        "face": null,
+        "text": "Their massive legs were crushed, their proud clubs\nsnapped in half, and with blood gushing from their\nnoses, the ogres were made to realize who they had\npicked a fight with."
+    },
+    "10": {
+        "name": "Narration",
+        "face": null,
+        "text": "The giant crawls on the ground, wearing a vulgar\nsmile and begging for forgiveness. However, the\nadventurers are not so naive as to truly forgive\nthem."
+    },
+    "11": {
+        "name": "Narration",
+        "face": null,
+        "text": "At the center of their ugly faces, a thick arrow\npierced between their eyes. The arrow released\nfrom the hunter's longbow destroyed the ogre's\nbrainstem without missing its mark."
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "13": {
+        "name": "Narration",
+        "face": null,
+        "text": "Before their eyes stood a monstrously grotesque\ncreature. Merely looking at it would steal one's\nsanity, suck on human brains, and feed on memories\nand emotions... It was a being that could never\ncoexist with the living."
+    },
+    "14": {
+        "name": "Narration",
+        "face": null,
+        "text": "The golden dragon and the adventurers guided by\nher cast off their fear, summoned their courage,\nand tightened their grip on their swords. If we\ndon't defeat this thing, we have no future...!"
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "16": {
+        "name": "Narration",
+        "face": null,
+        "text": "The fierce staff sweeps overhead. The warrior,\nnarrowly avoiding it, thrusts the longsword with a\nflash of determination. The sword, piercing to the\nbase of the grotesque body, delivers a decisive\nand fatal blow. However, the monster musters its\nfinal strength."
+    },
+    "17": {
+        "name": "Narration",
+        "face": null,
+        "text": "Just before the wicked tentacles could attack the\nwarrior... the monster's body is engulfed in\nflames. It screams, scatters a savory smell, and\nwrithes in agony. Confirming that its wicked life\nhas ended, the warrior gives a thumbs-up and\nbreaks into a smile at the golden dragon's child\nwho saved them at the last moment."
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "19": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

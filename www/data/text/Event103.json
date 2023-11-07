@@ -1,322 +1,322 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "セリフ内容"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "●場面：首なし美人亭　イスクに問い詰める"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「い、い、イスクさん………！」"
-  },
-  "4": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「？　どう…なされました……？\n　ソル様……？」"
-  },
-  "5": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「い、イスクさんはあ、あ、あの冒険者さんと…\n　つ……つ、つ、つがいだったんです！！？」"
-  },
-  "6": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「さささ昨夜、イスクさんが男の冒険者さんと、\n　交尾してるところ……み、みちゃったんです………！」"
-  },
-  "7": {
-    "name": "イスク",
-    "face": "楽1",
-    "text": "「あら……」"
-  },
-  "8": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「あれは……あの殿方に、竜の力を貸し与えていたので…\n　ございます……」"
-  },
-  "9": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ソル様は…ドラゴンカインドなる儀式を……ご存知ですか……？」"
-  },
-  "10": {
-    "name": "ソル",
-    "face": "普通3",
-    "text": "「ドラゴン……カインド………？？？？」"
-  },
-  "11": {
-    "name": "イスク",
-    "face": "喜2",
-    "text": "「ええ……。物語などで聞いたことなどありませんか？\n　竜の血を浴びて鋼の肉体を得た英雄、\n　竜の肉を喰らい不老となった英雄。\n　竜の生き血を飲んで恐るべき力を得た英雄……ああ…尊い……」"
-  },
-  "12": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「物語の彼らのように、我々ドラゴンが選んだ英雄に\n　力を分け与える儀式でございます…」"
-  },
-  "13": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「儀式を望むドラゴンが人の姿を取り、\n　望む英雄と一夜の契りを結ぶのです……それによって、\n　その者は”\\ruby[竜に親しき者](ド　ラ　ゴ　ン　キ　ン)”となり、竜の力を得るのでございます……」"
-  },
-  "14": {
-    "name": "ソル",
-    "face": "恥1",
-    "text": "「あ！　それで昨夜は……\n　その、あの男の方と交尾してたんですね……！」"
-  },
-  "15": {
-    "name": "イスク",
-    "face": "楽1",
-    "text": "「そのとおりでございます………。\n　もしソル様も……共に戦ってくださる同胞がございましたら……\n　ドラゴンカインドにて力を貸し与えてはいかがでしょう……？\n　きっと、彼らの糧となり、生き残る力を与えられましょう………」"
-  },
-  "16": {
-    "name": "ソル",
-    "face": "普通2",
-    "text": "「おおおおお………」"
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": "すこしかんがえる。"
-  },
-  "18": {
-    "name": "ソル",
-    "face": "恥6",
-    "text": "「すこし熟考してみたいです！！！」"
-  },
-  "19": {
-    "name": "イスク",
-    "face": "楽1",
-    "text": "「もし儀式をなされたいのでございましたら……\n　わたくしが教えてさしあげます……。\n　その時はわたくしにお声をかけて…くださいませ。ソル様……」"
-  },
-  "20": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "21": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "22": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "23": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「それではソル様……ドラゴンカインドの儀式、\n　行いますか………？」"
-  },
-  "24": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "25": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「承知いたしました……それではこちらへ………」"
-  },
-  "26": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「承知いたしました……ではまた後ほど……」"
-  },
-  "27": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "28": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「いかがで……ございましたか………？」"
-  },
-  "29": {
-    "name": "ソル",
-    "face": "恥1",
-    "text": "「し……新世界の扉がひらいたかんじでした…………」"
-  },
-  "30": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「これにより、ソル様に仕える冒険者様に、加護が与えられました……\n　きっとソル様のさらなる力となってくれましょう…………」"
-  },
-  "31": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ですが……その代わり、多少の金銭・財宝を消費致しますので……\n　その点だけは……ご留意ください…………」"
-  },
-  "32": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「できればその重大な情報は先に教えてほしかったですね！！」"
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "34": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「お疲れ様でございました……」"
-  },
-  "35": {
-    "name": "イスク",
-    "face": "普通1",
-    "text": "「ああ………ソル様が羨ましい………」"
-  },
-  "36": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "37": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "38": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "39": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "40": {
-    "name": null,
-    "face": null,
-    "text": "●場面：首なし美人亭　初依頼"
-  },
-  "41": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "42": {
-    "name": "エリック",
-    "face": "普通2",
-    "text": "「ふーん……そっかー……」"
-  },
-  "43": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「あ、エリックさん！！どうしたんですか！！」"
-  },
-  "44": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「ソルちゃん。これ見て。読める？」"
-  },
-  "45": {
-    "name": "ソル",
-    "face": "喜1",
-    "text": "「共通語の読み書きは教わりました！\n　………えーと、『ごぶりん退治』。」"
-  },
-  "46": {
-    "name": "エリック",
-    "face": "怒1",
-    "text": "「そういう事。なんかね、この村の街道に連中が出没してるらしくてね。\n　この前も荷馬車が襲われてやられたらしいんだ」"
-  },
-  "47": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "48": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "49": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「まったく、あの汚らわしい腐れゴブリン共め。\n　余計な事しかしやがらねえ」"
-  },
-  "50": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「いやはや全く。しかも商売としちゃ割に合いませんからなぁ」"
-  },
-  "51": {
-    "name": "冒険者",
-    "face": null,
-    "text": "「あいつらあれで面倒臭すぎるんだよねー。\n　実績積みたい駆け出しか、余程の物好きでもなけりゃ\n　あんなのやりたがらないでしょ……」"
-  },
-  "52": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "53": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "54": {
-    "name": "エリック",
-    "face": "普通3",
-    "text": "「で、ソルちゃんの初陣としてはどうかなって思ったの。\n　どう？やってみない？」"
-  },
-  "55": {
-    "name": "ソル",
-    "face": "怒1",
-    "text": "「こういうのは放っておけません！！\n　わたしたちで退治しましょう！！ゴブリン！！」"
-  },
-  "56": {
-    "name": "エリック",
-    "face": "普通1",
-    "text": "「思ったより食いつきがよかった。\n　……オッケー、いくらゴブリンとはいえ油断は禁物だよ！\n　ちゃんと準備しといてね！」"
-  },
-  "57": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "58": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "59": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "60": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "61": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "62": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "The dialogue content"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Isk interrogates the headless beauty at the\nHeadless Beauty Inn"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"I-Isk-san...!\""
+    },
+    "4": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"What... happened to you, Sol-sama...?\""
+    },
+    "5": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"I-Isk-san was, was, was with that adventurer...\nTh-th-they were a couple!!?\""
+    },
+    "6": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"L-l-last night, I saw Isk-san and a male\nadventurer, um, mating...!\""
+    },
+    "7": {
+        "name": "Isk",
+        "face": "楽1",
+        "text": "\"Oh my...\""
+    },
+    "8": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"That was... because I had lent my power to that\ngentleman... the power of the dragon...\""
+    },
+    "9": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Sol-sama... are you aware of the Dragonkind\nritual...?\""
+    },
+    "10": {
+        "name": "Sol",
+        "face": "普通3",
+        "text": "\"Dragon...kind...???\""
+    },
+    "11": {
+        "name": "Isk",
+        "face": "喜2",
+        "text": "\"Yes... Have you not heard of such stories? The\nhero who bathed in dragon's blood and gained a\nsteel body, the hero who consumed dragon's flesh\nand became immortal, the hero who drank the living\nblood of a dragon and obtained fearsome power...\nAh, how precious...\""
+    },
+    "12": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Like the heroes in the stories, it is a ritual\nwhere we dragons bestow power upon the chosen\nhero...\""
+    },
+    "13": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"The dragon desiring the ritual takes on human\nform and forms a bond with the desired hero for\none night... Through this, that person becomes a\n'Dragonkin' and gains the power of the dragon...\""
+    },
+    "14": {
+        "name": "Sol",
+        "face": "恥1",
+        "text": "\"Ah! So last night... um, you were mating with\nthat man...!\""
+    },
+    "15": {
+        "name": "Isk",
+        "face": "楽1",
+        "text": "\"That is correct... If Sol-sama also... had\ncomrades who fought alongside her... how about\nlending them power through Dragonkind...? Surely,\nit will become their sustenance and grant them the\npower to survive...\""
+    },
+    "16": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Ooooooh...\""
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": "I'll think about it for a bit."
+    },
+    "18": {
+        "name": "Sol",
+        "face": "恥6",
+        "text": "\"I'd like to think about it for a bit!!!\""
+    },
+    "19": {
+        "name": "Isk",
+        "face": "楽1",
+        "text": "\"If you wish to undergo the ritual... I will be\nhappy to guide you. When that time comes, please\ncall out to me... Sol-sama.\""
+    },
+    "20": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "21": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "22": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "23": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Well then, Sol-sama... Shall we proceed with the\nDragonkind ritual...?\""
+    },
+    "24": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "25": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Understood... Then, this way please...\""
+    },
+    "26": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Understood... Then, until later...\""
+    },
+    "27": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "28": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"How was... it...?\""
+    },
+    "29": {
+        "name": "Sol",
+        "face": "恥1",
+        "text": "\"It felt like... the door to a new world has\nopened...\""
+    },
+    "30": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"By this, the adventurers who serve Sol-sama have\nbeen granted protection... Surely, it will become\nan even greater power for Sol-sama...\""
+    },
+    "31": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"However... in exchange, it will require some\namount of money and treasures to be consumed... So\nplease... keep that in mind...\""
+    },
+    "32": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I wish you had told me that important information\nfirst if possible!!\""
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "34": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Thank you for your hard work...\""
+    },
+    "35": {
+        "name": "Isk",
+        "face": "普通1",
+        "text": "\"Ah... I'm envious of Sol-sama...\""
+    },
+    "36": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "37": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "38": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "39": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "40": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Headless Beauty Inn First Request"
+    },
+    "41": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "42": {
+        "name": "Eric",
+        "face": "普通2",
+        "text": "\"Hmm... I see...\""
+    },
+    "43": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Ah, Eric-san!! What's the matter?!\""
+    },
+    "44": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"Sol-chan, look at this. Can you read it?\""
+    },
+    "45": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"I was taught how to read and write in the common\nlanguage! ...Um, 'Goblin Extermination'.\""
+    },
+    "46": {
+        "name": "Eric",
+        "face": "怒1",
+        "text": "\"That's right. It seems that some guys have been\nappearing on the village's highway. It seems that\na carriage was attacked and destroyed the other\nday.\""
+    },
+    "47": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "48": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "49": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Those filthy rotten goblins. They never fail to\ncause trouble.\""
+    },
+    "50": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Good grief, really. And it doesn't even pay well\nas a business.\""
+    },
+    "51": {
+        "name": "Adventurer",
+        "face": null,
+        "text": "\"Those guys are just too much of a pain. Even if\nyou want to build up achievements, unless you're\nreally into it, you wouldn't want to do that kind\nof thing...\""
+    },
+    "52": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "53": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "54": {
+        "name": "Eric",
+        "face": "普通3",
+        "text": "\"So, I was thinking, how about it for Sol-chan's\ndebut? What do you think? Want to give it a try?\""
+    },
+    "55": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"We can't just leave this alone!! Let's\nexterminate them ourselves!! The goblins!!\""
+    },
+    "56": {
+        "name": "Eric",
+        "face": "普通1",
+        "text": "\"More interest than I thought. ...Okay, even\nthough they're goblins, it's important not to let\nyour guard down! Make sure to prepare properly!\""
+    },
+    "57": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "58": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "59": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "60": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "61": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "62": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }
