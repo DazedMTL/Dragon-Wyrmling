@@ -67,7 +67,7 @@
     "13": {
         "name": null,
         "face": null,
-        "text": "Fade to black"
+        "text": "暗転"
     },
     "14": {
         "name": "Narration",
@@ -202,7 +202,7 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "Fade to black"
+        "text": "暗転"
     },
     "41": {
         "name": null,
@@ -247,7 +247,7 @@
     "49": {
         "name": null,
         "face": null,
-        "text": "End"
+        "text": "終了"
     },
     "50": {
         "name": null,

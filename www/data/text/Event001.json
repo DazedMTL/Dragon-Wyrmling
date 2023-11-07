@@ -87,7 +87,7 @@
     "17": {
         "name": null,
         "face": null,
-        "text": "Fade to black"
+        "text": "暗転"
     },
     "18": {
         "name": null,
@@ -202,12 +202,12 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "Blackout"
+        "text": "暗転"
     },
     "41": {
         "name": null,
         "face": null,
-        "text": "End"
+        "text": "終了"
     },
     "42": {
         "name": null,
