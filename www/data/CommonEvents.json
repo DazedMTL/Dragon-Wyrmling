@@ -2295,14 +2295,14 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\iiGot \\v[2] of \\v[1]! (Worth: \\i[346] gold coins\nand \\v[359] pieces)"
+                    "\\ii[\\v[1]]を \\v[2]個手に入れた！"
                 ]
             },
             {
-                "code": 0,
+                "code": 401,
                 "indent": 2,
                 "parameters": [
-                    ""
+                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
                 ]
             },
             {
@@ -2329,14 +2329,14 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\iiGot \\v[1]! (Worth: \\i[346] gold coins and\n\\v[359] pieces)"
+                    "\\ii[\\v[1]]を手に入れた！"
                 ]
             },
             {
-                "code": 0,
+                "code": 401,
                 "indent": 2,
                 "parameters": [
-                    ""
+                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
                 ]
             },
             {
@@ -2489,7 +2489,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\iiGot \\v[1]! (Worth: [Ascii_0] gold coins and\n\\v[2] pieces)"
+                    "\\ii[\\v[1]]を \\v[2]個手に入れた！"
                 ]
             },
             {
@@ -2516,7 +2516,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\iiGot \\v[1]!"
+                    "\\ii[\\v[1]]を手に入れた！"
                 ]
             },
             {
@@ -3392,14 +3392,14 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\iI obtained \\v[4]\\v[1]! (Price: \\i[346] gold\ncoins, equivalent to \\v[359] pieces)"
+                    "\\i[\\v[4]]\\v[1]を手に入れた！"
                 ]
             },
             {
-                "code": 0,
+                "code": 401,
                 "indent": 0,
                 "parameters": [
-                    ""
+                    "\\>　　(価格：\\i[346]金貨\\v[359]枚相当)"
                 ]
             },
             {
@@ -40613,7 +40613,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "Obtained \\v[359] gold coins!"
+                    "\\i[346]金貨\\v[359]枚を手に入れた！"
                 ]
             },
             {
@@ -41436,7 +41436,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "Obtained \\i[346] gold coins\\v[359]!"
+                    "\\i[346]金貨\\v[359]枚を手に入れた！"
                 ]
             },
             {
@@ -45604,7 +45604,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\n<Sol>I have a bad feeling about going any further from\nhere!"
+                    "\\n<ソル>\\py[10]「ここから先は危険な気が！！」"
                 ]
             },
             {
