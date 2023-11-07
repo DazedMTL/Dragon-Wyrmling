@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Rukurea Village - Small Talk"
+        "text": "●Scene: Rukurea Village - Small Talk"
     },
     "2": {
         "name": "-",
@@ -17,22 +17,22 @@
     "3": {
         "name": "Tavern Customer",
         "face": null,
-        "text": "\"Did they say Isuku-san? That person spends the\nwhole day sitting in front of the bard, endlessly\nlistening to heroic tales and muttering things\nlike 'respect,' 'death,' and 'impossible'.\""
+        "text": "\"Isk-san, was it? That person is always stationed\nin front of the bard all day long, continuously\nlistening to heroic tales and muttering 'respect',\n'die', 'impossible' under their breath...\""
     },
     "4": {
         "name": "Tavern Customer",
         "face": null,
-        "text": "\"I see, so it was a dragon... In that case, it's\nno wonder they're eccentric... (glance)\""
+        "text": "\"I see, so it was a dragon... In that case, it's\nunderstandable for them to be eccentric...\n(glance)\""
     },
     "5": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"I feel like there's a rumor going around about\nthe dragon causing damage!!!\""
+        "text": "\"I feel like there's some kind of rumor damage\nrelated to the dragon!!!\""
     },
     "6": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "7": {
         "name": null,
@@ -40,9 +40,9 @@
         "text": "Villagers"
     },
     "8": {
-        "name": "Barkeep",
+        "name": "Barkeeper",
         "face": null,
-        "text": "\"Hey Sol-chan. You look lively today too! Let me\ntreat you to a meal!\""
+        "text": "\"Hey Sol-chan. You look lively today as well! Let\nme treat you to a meal!\""
     },
     "9": {
         "name": "Sol",
@@ -50,19 +50,19 @@
         "text": "\"Yay! A feast! I wonder what I can eat!\""
     },
     "10": {
-        "name": "Bar owner",
+        "name": "Barkeep",
         "face": null,
         "text": "\"(I guess it's a dog after all...)\""
     },
     "11": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "12": {
         "name": "Daughter",
         "face": null,
-        "text": "\"Mommy! It's the dragon Onee-chan!\""
+        "text": "\"Mommy! It's a dragon Onee-chan!\""
     },
     "13": {
         "name": "Mother",
@@ -72,17 +72,17 @@
     "14": {
         "name": "Sol",
         "face": "喜3",
-        "text": "\"Ehehe, hello! I'm a dragon, you know!\""
+        "text": "\"Ehehe, hello! It's a dragon, you know!\""
     },
     "15": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "16": {
         "name": "Villager",
         "face": null,
-        "text": "\"Oh, it's the Golden Dragon-sama...!! You look as\nbeautiful as ever today...!!\""
+        "text": "\"Oh, Golden Dragon-sama...!! You look as beautiful\nas ever today...!!\""
     },
     "17": {
         "name": "Sol",
@@ -92,7 +92,7 @@
     "18": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "19": {
         "name": "Villager",
@@ -107,7 +107,7 @@
     "21": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "22": {
         "name": "Aunt",
@@ -117,57 +117,57 @@
     "23": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Thank you, Auntie! Ehehe, I'm so happy! It's\ndelicious, mogu mogu.\""
+        "text": "\"Thank you, Auntie! Ehehe, I'm so happy, it's\ndelicious! Munch munch\""
     },
     "24": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "25": {
-        "name": "Ossan",
+        "name": "Old man",
         "face": null,
         "text": "\"Ohh! Sol-chan! Your tail looks as good as ever!\nHere, take this apple!\""
     },
     "26": {
         "name": "Sol",
         "face": "恥5",
-        "text": "\"Yaaay, thank you, mister! But only looking at my\ntail is sexual harassment, you know?\""
+        "text": "\"Yaaay, thank you, old man! But only looking at my\ntail is sexual harassment, you know?\""
     },
     "27": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "28": {
         "name": "Minstrel",
         "face": null,
-        "text": "\"Oh my, to be able to see the appearance of Lady\nKinryu-sama today as well! When you have a great\nday, please allow me to present a poem in your\nhonor!\""
+        "text": "\"Oh my, to think I would have the honor of seeing\nLady Gold Dragon today! When you have a great day,\nplease allow me to dedicate a poem to you!\""
     },
     "29": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ohhh... my heroic tale!! It's embarrassing yet\ndelightful!!\""
+        "text": "\"Ooooo... my heroic tale!! It's embarrassing yet\ndelightful!!\""
     },
     "30": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "31": {
         "name": "Priest",
         "face": null,
-        "text": "\"Oh, golden dragon maiden, welcome. Are you here\nfor worship today?\""
+        "text": "\"Oh, young lady of the golden dragon, welcome. Are\nyou here for worship today?\""
     },
     "32": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Ehehe, I'm thinking of praying to Mother!\""
+        "text": "\"Ehehe, I'm going to pray to my mother!\""
     },
     "33": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "34": {
         "name": null,
@@ -177,7 +177,7 @@
     "35": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Hey, Sol-chan! You look lively!\""
+        "text": "\"Hey, Sol-chan! You look lively as ever!\""
     },
     "36": {
         "name": "Sol",
@@ -187,12 +187,12 @@
     "37": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "38": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Hey, Lady Kinryu! Are you making a profit?\""
+        "text": "\"Hey, Lady Gold Dragon! Are you making a profit?\""
     },
     "39": {
         "name": "Sol",
@@ -202,7 +202,7 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "41": {
         "name": "Adventurer",
@@ -217,12 +217,12 @@
     "43": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "44": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Good day, Sol-san. You haven't caught a cold or\nanything, have you?\""
+        "text": "\"Good day, Sol-san. Have you caught a cold or\nanything?\""
     },
     "45": {
         "name": "Sol",
@@ -232,7 +232,7 @@
     "46": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "47": {
         "name": null,

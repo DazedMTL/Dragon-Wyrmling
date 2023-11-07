@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Volcano Dungeon - Last Battle"
+        "text": "●Scene: Volcano Dungeon Last Battle"
     },
     "2": {
         "name": "-",
@@ -17,22 +17,22 @@
     "3": {
         "name": "Narration",
         "face": null,
-        "text": "The village is burning red. The raging flames of\nthe crimson fire are consuming the houses, the\nlivestock is drowning in a sea of blood, and the\nvillagers are desperately fleeing in confusion."
+        "text": "The village is burning red. The raging flames of\nthe volcano are engulfing the houses, the\nlivestock is drowning in a sea of blood, and the\nvillagers are desperately fleeing."
     },
     "4": {
         "name": "Narration",
         "face": null,
-        "text": "Not long ago, it was supposed to be a peaceful,\ngentle night. However, suddenly, the sound of\npowerful wings flapping announced disaster to the\nvillage."
+        "text": "Not long ago, it should have been a peaceful,\ngentle night. However, suddenly, the sound of\nmighty wings flapping heralded disaster for the\nvillage."
     },
     "5": {
         "name": "Narration",
         "face": null,
-        "text": "The red dragon Evennajetoldor indulges in\ndestruction and slaughter as it pleases. The\nsensation of biting into fragile humans, and the\ntaste of their blood and flesh bursting in the\nmouth, is exquisite. Especially when they were\nshedding tears of fear until just before being\ndevoured, it becomes exceptional."
+        "text": "The red dragon Evennajetoldoru enjoys destruction\nand slaughter as it pleases. The sensation of\nbiting into fragile humans, and the taste of their\nblood and flesh bursting in the mouth, is\nexquisite. Especially when they were shedding\ntears of fear until just before being devoured, it\nbecomes exceptional."
     },
     "6": {
         "name": "Narration",
         "face": null,
-        "text": "Its swinging tail easily knocks down houses, and\nwith each swipe of its claws and fangs, lives\nburst. Its scorching breath turns everything\naround it into a sea of flames. Its crimson\nsilhouette was truly the embodiment of disaster."
+        "text": "The tail swinging easily knocks down the houses,\nwith every swipe of its claws, lives burst, and\nits scorching breath turns everything around into\na sea of flames. Its crimson silhouette was truly\nthe embodiment of disaster."
     },
     "7": {
         "name": null,
@@ -47,7 +47,7 @@
     "9": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "10": {
         "name": null,
@@ -67,12 +67,12 @@
     "13": {
         "name": "Narration",
         "face": null,
-        "text": "The massive body, which had been coiled up and\nsleeping, raised its head. It recognized Sol's\nfigure and displayed a sadistic smile, as if to\nsay, \"You've finally arrived.\""
+        "text": "The massive body, which had been coiled up and\nsleeping, raised its head. It recognized Sol and\nwore a sadistic smile, as if saying, \"You've\nfinally arrived.\""
     },
     "14": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"For everyone's sake! For the sake of my mother! I\nwill avenge her!\""
+        "text": "\"For everyone's sake! And for my mother's revenge!\nI will protect them!\""
     },
     "15": {
         "name": "Sol",
@@ -82,7 +82,7 @@
     "16": {
         "name": "Narration",
         "face": null,
-        "text": "The red dragon roars, causing the surroundings to\ntremble in fear. However, there are those who\nstand up to it. Enduring the despair that eats\naway at their hearts and the scorching heat\nburning their bodies, the adventurers take up\ntheir weapons and step forward."
+        "text": "The red dragon roars, causing the surroundings to\ntremble in fear. However, they stand up to it.\nEnduring the despair that eats away at their\nhearts and the scorching heat burning their\nbodies, the adventurers take up their weapons and\nstep forward."
     },
     "17": {
         "name": "Narration",
@@ -92,7 +92,7 @@
     "18": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "19": {
         "name": null,

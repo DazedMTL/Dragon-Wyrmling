@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: First Visit to Luclea Village"
+        "text": "●Scene: First visit to the Lucrea Village"
     },
     "2": {
         "name": "-",
@@ -22,7 +22,7 @@
     "4": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Ooooo... So this is Luclea Village... There are\nso many people other than Sensei... Amazing...\""
+        "text": "\"Ooooo... So this is Lucrea Village... There are\nso many people other than Sensei... Amazing...\""
     },
     "5": {
         "name": "Sol",
@@ -37,17 +37,17 @@
     "7": {
         "name": "Sol",
         "face": "喜3",
-        "text": "\"A fountain!!!! A watermill!!!! A carriage!!!!\nOhhhhhhh... signs of civilization...\""
+        "text": "\"A fountain!!!! A watermill!!!! A carriage!!!!\nOhhhhhhh... Signs of civilization...\""
     },
     "8": {
         "name": "Villager",
         "face": null,
-        "text": "\"..........??\""
+        "text": "\"......??\""
     },
     "9": {
         "name": "Villager",
         "face": null,
-        "text": "\"..........??........??\""
+        "text": "\"......??......??\""
     },
     "10": {
         "name": "Sol",
@@ -62,12 +62,12 @@
     "12": {
         "name": "Narration",
         "face": null,
-        "text": "As Sol walked through the village streets, the\nvillagers all turned back in surprise. A beautiful\ngirl with a golden dragon's tail, and moreover,\nhalf-naked like the mermaid princess in a\nminstrel's tale - it was impossible not to stand\nout."
+        "text": "As Sol walked through the village streets, the\nvillagers all turned back in surprise. A beautiful\ngirl with a golden dragon's tail, and moreover,\nhalf-naked like the mermaid princess that a\ntroubadour would sing about - it was impossible\nnot to stand out."
     },
     "13": {
         "name": "Narration",
         "face": null,
-        "text": "And so, the passing red-haired adventurer also\nvividly remembered her figure."
+        "text": "And the passing red-haired adventurer also\nremembered her figure vividly."
     },
     "14": {
         "name": null,
@@ -75,7 +75,7 @@
         "text": null
     },
     "15": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"Hmmm... Could it be...?\""
     },
@@ -85,7 +85,7 @@
         "text": "\"Huh??\""
     },
     "17": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜2",
         "text": "\"Ah! You're the golden dragon's child who helped\nme back then!! I've been looking for you!\""
     },
@@ -102,7 +102,7 @@
     "20": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "21": {
         "name": null,
@@ -115,24 +115,24 @@
         "text": null
     },
     "23": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"I see, I see. I've heard the rumors... So you're\nthe golden dragon raised by Eni-sensei.\""
     },
     "24": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜3",
-        "text": "\"I never got to thank you back then. I'm really\ngrateful for what you did. I'm Eric, an adventurer\nactive around here.\""
+        "text": "\"I never got to thank you properly. Thank you so\nmuch for back then. I'm Erick, an adventurer\nworking around here.\""
     },
     "25": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"No, no, it's nothing.\""
+        "text": "\"No, no~\""
     },
     "26": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜2",
-        "text": "\"Alright, it's not really about repaying a debt,\nbut since we've crossed paths, I'll accompany you,\nSol!\""
+        "text": "\"Alright, it's not really a repayment, but since\nwe've come this far, let's consider it fate. I'll\naccompany you, Sol!\""
     },
     "27": {
         "name": "Sol",
@@ -140,12 +140,12 @@
         "text": "\"Eh, is it really okay!?\""
     },
     "28": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"Eni-sensei also asked me to help you if I saw\nSol! I'll guide you to the tavern where\nadventurers gather!\""
+        "text": "\"Eni-sensei asked me to help you if I saw Sol.\nI'll guide you to the tavern where adventurers\ngather!\""
     },
     "29": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"It's called the 'Headless Beauty' Inn, and that's\nwhere we hang out. If you're looking for\ncompanions, that's probably the best place to\nstart.\""
     },
@@ -162,7 +162,7 @@
     "32": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "33": {
         "name": null,

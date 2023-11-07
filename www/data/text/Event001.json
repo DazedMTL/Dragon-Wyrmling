@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
@@ -32,7 +32,7 @@
     "6": {
         "name": "Narration",
         "face": null,
-        "text": "Or perhaps, as if circling the mountaintop in a\ndogfight, they fought over and over."
+        "text": "Or as if they were circling the mountaintop like\ndogs in a fight."
     },
     "7": {
         "name": null,
@@ -67,12 +67,12 @@
     "13": {
         "name": "Narration",
         "face": null,
-        "text": "The people living nearby the extraordinary\nspectacle were frightened, wondering if it was an\nill omen, but not a single person had the courage\nto go and check."
+        "text": "The people living nearby the mountain, witnessing\nthis extraordinary spectacle, were filled with\nfear and interpreted it as an ill omen. However,\nnot a single person had the courage to go and\nconfirm what had happened."
     },
     "14": {
         "name": "Narration",
         "face": null,
-        "text": "They could only pray desperately to the guardian\ngod Ishupel, fearing that misfortune would befall\nthem, and beg for forgiveness, while trembling in\nfear."
+        "text": "They could only pray desperately to the guardian\ngod Ishupel, fearing that misfortune would befall\nthem, and beg for forgiveness, all while trembling\nin fear."
     },
     "15": {
         "name": "Narration",
@@ -87,7 +87,7 @@
     "17": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "18": {
         "name": null,
@@ -107,22 +107,22 @@
     "21": {
         "name": "Shopkeeper",
         "face": null,
-        "text": "\"Hey! Sensei! I've been waiting!\""
+        "text": "\"Hey, Sensei! I've been waiting for you!\""
     },
     "22": {
         "name": "Narration",
         "face": null,
-        "text": "In front of the female adventurer, freshly cooked\ndishes that whet the appetite were brought. There\nwas a sizzling sound as the duck skewers, oozing\nwith meat juices, were carried over. Also, a pie\nfilled with sweet and sour berries picked in the\nvillage, and top-quality wine."
+        "text": "In front of the female adventurer, a freshly\ncooked, appetizing meal was brought. There was a\nsizzling sound as the duck skewers, oozing with\nmeat juices, were served. A pie filled with sweet\nand sour berries picked in the village, and a top-\nquality wine."
     },
     "23": {
         "name": "Narration",
         "face": null,
-        "text": "The female adventurer, Enituura, couldn't help but\nsmile happily at the thought of being able to\nenjoy the best feast that this village had to\noffer."
+        "text": "The female adventurer, Enituura, couldn't help but\nsmile happily at the probably best feast that\ncould be eaten in this village."
     },
     "24": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Thank you very much. Yes, it has a truly\nwonderful aroma.\""
+        "text": "\"Thank you very much. Yes, it has a truly\nwonderful fragrance.\""
     },
     "25": {
         "name": "Shopkeeper",
@@ -137,12 +137,12 @@
     "27": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Phew... As expected, wine after a long journey is\nirresistible.\""
+        "text": "\"Phew... As expected, wine after a long journey is\nunbeatable.\""
     },
     "28": {
         "name": "Eni-sensei",
         "face": "楽1",
-        "text": "\"It's been a while since I've been able to calmly\nenjoy a meal like this. Occasionally, it's nice to\nsavor things slowly...\""
+        "text": "\"It's been a while since I've been able to eat a\nmeal in peace like this. Sometimes, it's nice to\nsavor things slowly...\""
     },
     "29": {
         "name": null,
@@ -162,7 +162,7 @@
     "32": {
         "name": "Villager",
         "face": null,
-        "text": "\"I-It's terrible...!! Sensei!! Eni-sensei!!\""
+        "text": "\"Oh no, it's terrible...!! Sensei! Eni-sensei!!\""
     },
     "33": {
         "name": "Eni-sensei",
@@ -182,7 +182,7 @@
     "36": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Ahem. So, what's the matter? Is there some kind\nof trouble?\""
+        "text": "\"Ahem. So, what's the matter? Is something\ntroublesome happening?\""
     },
     "37": {
         "name": "Villager",
@@ -202,12 +202,12 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Blackout"
     },
     "41": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "42": {
         "name": null,

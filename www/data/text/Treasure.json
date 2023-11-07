@@ -25,7 +25,7 @@
     },
     "4": {
         "rank": 1,
-        "name": "Peacock Stone",
+        "name": "Peacock stone",
         "price": 10,
         "type": "宝石"
     },
@@ -37,7 +37,7 @@
     },
     "6": {
         "rank": 1,
-        "name": "Ancient gold coins",
+        "name": "Ancient gold coin",
         "price": 10,
         "type": "芸術品"
     },
@@ -133,7 +133,7 @@
     },
     "22": {
         "rank": 2,
-        "name": "Akaiishi Satoru",
+        "name": "Akamitsu Hideo",
         "price": 50,
         "type": "宝石"
     },
@@ -217,13 +217,13 @@
     },
     "36": {
         "rank": 3,
-        "name": "Tapestri",
+        "name": "Tapestry",
         "price": 500,
         "type": "芸術品"
     },
     "37": {
         "rank": 3,
-        "name": "Jewel pendant",
+        "name": "Jewel Pendant",
         "price": 500,
         "type": "芸術品"
     },
@@ -235,7 +235,7 @@
     },
     "39": {
         "rank": 3,
-        "name": "Gorgeous Small Box",
+        "name": "Gorgeous small box",
         "price": 500,
         "type": "芸術品"
     },
@@ -283,7 +283,7 @@
     },
     "47": {
         "rank": 4,
-        "name": "Golden Statue",
+        "name": "Gold Statue",
         "price": 2000,
         "type": "芸術品"
     },
@@ -373,7 +373,7 @@
     },
     "62": {
         "rank": 5,
-        "name": "Silver Embroidery Tapestry",
+        "name": "Genuine Silver Embroidery Tapestry",
         "price": 7000,
         "type": "芸術品"
     },

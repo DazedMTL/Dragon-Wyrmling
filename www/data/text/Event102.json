@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "Speech content"
     },
     "1": {
         "name": null,
@@ -22,32 +22,32 @@
     "4": {
         "name": "Sol",
         "face": "困1",
-        "text": "\"Ooooo... This is a tavern... A world unknown...\""
+        "text": "\"Ooooo... This is a tavern... A whole new\nworld...\""
     },
     "5": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"Yeah. It has a pretty good atmosphere, right?\nAnd... oh, there you are. Hey! Mark-kun!\""
+        "text": "\"Yeah. It has a pretty nice atmosphere, doesn't\nit? Oh, there he is. Hey! Mark-kun!\""
     },
     "6": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Oh? Eric, huh. What's up? Do you have some free\ntime today? And also, over there... oh?\""
+        "text": "\"Oh? Erick, what's up? Do you have some free time\ntoday? And also, over there... Oh?\""
     },
     "7": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜3",
-        "text": "\"This girl is the golden dragon that Eni-sensei\nraised! Her name is Sol-chan!\""
+        "text": "\"This child is the golden dragon that Eni-sensei\nraised! Her name is Sol-chan, you know!\""
     },
     "8": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Oh, this one is that... It's taking on a human\nform, but it's a golden dragon. Amazing.\"**"
+        "text": "\"Oh, this child is the one who... has taken human\nform but is a golden dragon. Amazing.\""
     },
     "9": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"The first time I saw her... it's like, how should\nI put it? Even though she's a powerful dragon,\nshe's incredibly cute!!\""
+        "text": "\"The first time I saw her... she was, how should I\nput it? Despite being a powerful dragon, she's\nincredibly cute!!\""
     },
     "10": {
         "name": "Sol",
@@ -55,14 +55,14 @@
         "text": "\"Ehehe~\""
     },
     "11": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜2",
-        "text": "\"She's like a friendly and silly dog from the\nneighborhood, you know?\""
+        "text": "\"She's like a friendly, silly dog from the\nneighborhood, you know?\""
     },
     "12": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Hmph.\""
+        "text": "\"Huff~\""
     },
     "13": {
         "name": null,
@@ -70,14 +70,14 @@
         "text": null
     },
     "14": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"So, like I was saying. If you're free, Mark-kun,\nwhy don't you help out? Fighting alongside a\ngolden dragon would be the best for someone\naspiring to be a lord, right?\""
+        "text": "\"So, like I was saying. If you're free, Mark-kun,\nwon't you help out? Fighting alongside a golden\ndragon would be the best for someone aspiring to\nbe a lord, right?\""
     },
     "15": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Don't just assume I have free time. Well, I do\nconsider myself to belong to the domain of good.\nIf a golden dragon asks for help, I will gladly\nassist.\""
+        "text": "\"Don't just assume I have free time. Well, I do\nconsider myself to belong to the domain of good.\nIf asked for assistance by a golden dragon, I\nwould gladly respond.\""
     },
     "16": {
         "name": "Sol",
@@ -97,7 +97,7 @@
     "19": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "20": {
         "name": null,
@@ -125,9 +125,9 @@
         "text": "\"Hello!\""
     },
     "25": {
-        "name": "Bar owner",
+        "name": "Barkeeper",
         "face": null,
-        "text": "\"Hey there, Sol-chan. We've got customers.\""
+        "text": "\"Oh, welcome Sol-chan. We have a customer.\""
     },
     "26": {
         "name": "Sol",
@@ -142,22 +142,22 @@
     "28": {
         "name": "Minstrel",
         "face": null,
-        "text": "\"The heroic Magmedol gallantly drew his sword and\ndeclared, 'Behold, our god! Tonight shall be a\nfeast of slaughter───' Oh, the princess was moved\nto tears by those words...\""
+        "text": "\"The heroic Magmedor gallantly drew his sword and\ndeclared, 'Behold, our god! Tonight shall be a\nfeast of slaughter───' Oh, the princess was moved\nto tears by his words...\""
     },
     "29": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"Precious... I love you...\""
+        "text": "\"Noble... I love you...\""
     },
     "30": {
         "name": "Minstrel",
         "face": null,
-        "text": "\"Oh, Magmedol-sama, you are the true hero...\nPlease, take me with you... But Magmedol did not\nlook back... He has a great oath... With the\nweeping princess behind him, the great hero\nMagmedol departed...\""
+        "text": "\"Oh Magmedor-sama, you are the true hero...\nPlease, take me with you... But Magmedor did not\nlook back... He has a great oath to fulfill...\nWith the weeping princess behind him, the great\nhero Magmedor departed...\""
     },
     "31": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"Ah... I'm tired...\""
+        "text": "\"Ah... I'm so tired...\""
     },
     "32": {
         "name": null,
@@ -167,7 +167,7 @@
     "33": {
         "name": "Narration",
         "face": null,
-        "text": "The minstrel finished singing, and the satisfied\naudience left. And what remained in that place was\na silver-haired beauty, still deeply moved by the\npoem, murmuring \"precious\" with a sorrowful\nexpression. Upon closer inspection, a silver tail\nextended from her waist..."
+        "text": "As the minstrel finished singing, the satisfied\naudience left. And the only one left in that place\nwas a beautiful silver-haired woman who still\nmurmured \"noble\" with a sorrowful expression,\ndeeply moved by the song. Upon closer inspection,\na silver tail extended from her waist..."
     },
     "34": {
         "name": "Sol",
@@ -177,7 +177,7 @@
     "35": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Um, are you okay...? ...Ah, could it be, Sol-\nsama...? The Gold Dragon, Sol-sama...?\""
+        "text": "\"Um, a-are you okay...? ...Ah, could it be, you\nare Sol-sama...? The Gold Dragon, Sol-sama...?\""
     },
     "36": {
         "name": "Sol",
@@ -187,37 +187,37 @@
     "37": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"I am Iskvoler. I am a Silver Dragon. It is my\ngreatest joy to listen to and collect stories from\nthe human world...\""
+        "text": "\"I am Isk Vorel. I am the Silver Dragon. It is my\ngreatest pleasure to listen to and collect stories\nfrom the human world...\""
     },
     "38": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Ohhhhh... Silver Dragon-san!!!! This is my first\ntime meeting someone from the same species!!!\nOhhhhh...!!!\""
+        "text": "\"Ohhhhh... Silver Dragon-san!!!! This is my first\ntime meeting someone from the same race!!!\nOhhhhh...!!!\""
     },
     "39": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"Hmm? And what about your head?\""
+        "text": "\"Hmm? And what about your tail?\""
     },
     "40": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Rukurea Village is a very nice village... I also\nwish to stay in this village for a little\nwhile...\""
+        "text": "\"Rukurea Village is a very nice village... I also\nwould like to stay in this village for a little\nwhile...\""
     },
     "41": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"I have heard from Eni-sensei... that this village\nis Sol-sama's territory, correct...? If so, I\nwould like to pay my respects... It would be rude\nfor an outsider dragon to wander around the\nterritory without greeting and potentially offend\nyou...\""
+        "text": "\"I have heard from Teacher Eni-tuura-ya, but...\nthis village is Sol-sama's territory, isn't it...?\nIf so, I would like to pay my respects... It would\nbe rude for an outsider dragon to wander around\nthe territory without greeting and disturb your\nmood...\""
     },
     "42": {
         "name": "Sol",
         "face": "喜3",
-        "text": "\"Oh, from Sensei! So that's what it was!! Nice to\nmeet you too, Isk-san! Let's be friends!! Ehehe~\""
+        "text": "\"Oh, from the teacher!! I see, that's what it\nwas!! Nice to meet you too, Isk-san! Let's be\nfriends!! Ehehe~\""
     },
     "43": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Friends... yes, that's right... Comrades,\nindeed... Let's get along, Sol-sama. Yes... I'm\nhappy...\""
+        "text": "\"Friends... yes, that's right... allies, isn't\nit... Let's get along, Sol-sama. Yes... I'm\nhappy...\""
     },
     "44": {
         "name": null,
@@ -227,7 +227,7 @@
     "45": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "46": {
         "name": null,

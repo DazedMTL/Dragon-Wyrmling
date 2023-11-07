@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Part-time job at the bar"
+        "text": "●Scene: Part-time job at the bar"
     },
     "2": {
         "name": "-",
@@ -25,7 +25,7 @@
         "text": null
     },
     "5": {
-        "name": "Barkeep",
+        "name": "Barkeeper",
         "face": null,
         "text": "\"Oh, Sol-chan! You're so cute today too!\""
     },
@@ -35,34 +35,34 @@
         "text": "\"Ehehe\""
     },
     "7": {
-        "name": "Bar owner",
+        "name": "Barkeeper",
         "face": null,
-        "text": "\"By the way, Sol-chan, are you interested in\nworking at my bar for a bit?\""
+        "text": "\"By the way, Sol-chan, are you interested in\nworking at our bar for a bit?\""
     },
     "8": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"Ohhh...? A job? Is that so?\""
+        "text": "\"Ohhh...? A job? Really?\""
     },
     "9": {
         "name": "Barkeep",
         "face": null,
-        "text": "\"Ah... A few of my waitstaff have quit due to\npersonal reasons. I'm recruiting for a waitress at\nthe bar, but it's been quite challenging.\""
+        "text": "\"Ah... A few of our waitstaff have quit due to\npersonal reasons. We're recruiting for a waitress\nat the bar, but it's been quite challenging.\""
     },
     "10": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"I'll pass because I want to drink alcohol.\""
     },
     "11": {
-        "name": "Barkeeper",
+        "name": "Barkeep",
         "face": null,
         "text": "\"Well, that's how it is.\""
     },
     "12": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Ohhh... I see...\""
+        "text": "\"Ooooh... I see...\""
     },
     "13": {
         "name": "Barkeep",
@@ -75,7 +75,7 @@
         "text": "\"Understood!! I'll give it a try!!\""
     },
     "15": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
         "text": "\"Immediate response\""
     },
@@ -92,7 +92,7 @@
     "18": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ah, Isuku-san, how about you too? Won't you try\nworking together with me!?\""
+        "text": "\"Oh, Isk-san, how about you too? Won't you try\nworking with us!?\""
     },
     "19": {
         "name": "Isk",
@@ -107,7 +107,7 @@
     "21": {
         "name": null,
         "face": null,
-        "text": "(Thinking)"
+        "text": "(Contemplating)"
     },
     "22": {
         "name": "Isk",
@@ -117,12 +117,12 @@
     "23": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Understood... Since it's a rare invitation...\nI'll accept it...\""
+        "text": "\"Understood... Since it's such a kind\ninvitation... I'll accept...\""
     },
     "24": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Hehehe... I'm looking forward to it...\""
+        "text": "\"Hehehehe... I'm looking forward to it...\""
     },
     "25": {
         "name": "Sol",
@@ -135,7 +135,7 @@
         "text": "\"Well...\""
     },
     "27": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
         "text": "\"Well...\""
     },
@@ -157,17 +157,17 @@
     "31": {
         "name": "Isk",
         "face": null,
-        "text": "\"Dressing up as a rabbit... This is actually quite\nfun, isn't it?\""
+        "text": "\"......The rabbit outfit... It's actually quite\nfun, isn't it?\""
     },
     "32": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Wow, both of you look so cute! ...But, the guys'\neyes are starting to get weird...\""
+        "text": "\"Oh, both of you are so cute! ...But, the guys'\neyes are starting to become a bit strange...\""
     },
     "33": {
         "name": "Adventurer",
         "face": null,
-        "text": "(Great job, old man!!)"
+        "text": "(Good job, old man!!)"
     },
     "34": {
         "name": "Adventurer",
@@ -187,7 +187,7 @@
     "37": {
         "name": "Isk",
         "face": null,
-        "text": "\"Ah... the adventurers' gaze feels so nice...\nAh... I'm getting a little excited...\""
+        "text": "\"Ah... the adventurers' gazes feel so nice...\nAh... I'm getting a little excited...\""
     },
     "38": {
         "name": null,
@@ -202,12 +202,12 @@
     "40": {
         "name": "Sol",
         "face": null,
-        "text": "\"I'm sorry to keep you waiting! Ehehe, this is\nquite fun, isn't it?!\""
+        "text": "\"Sorry to keep you waiting! Ehehe, this is quite\nfun, isn't it?!\""
     },
     "41": {
         "name": "Isk",
         "face": null,
-        "text": "\"Certainly, I find it quite... intriguing...\""
+        "text": "\"Certainly, it's quite... intriguing...\""
     },
     "42": {
         "name": null,
@@ -237,32 +237,32 @@
     "47": {
         "name": "Sol",
         "face": null,
-        "text": "\"Eh...? W-Wait... Ah...!\""
+        "text": "\"Huh...? W-Wait... Ahh...\""
     },
     "48": {
         "name": "Sol",
         "face": null,
-        "text": "\"N-No, that's not okay!! Don't do that kind of\nthing!! I'll get angry, you know?!\""
+        "text": "\"N-No, you can't do that!! I-I'll get mad, you\nknow?!\""
     },
     "49": {
         "name": "Sol",
         "face": null,
-        "text": "\"Mmm... Well, I guess it can't be helped. Just a\nlittle bit, okay?!\""
+        "text": "\"Mmm... Well, I guess there's no helping it. Just\na little bit, okay?!\""
     },
     "50": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ah...nnn...huh... I was looking forward to\nthis... ehehe.\""
+        "text": "\"Ah...nnn...ehehe, I was looking forward to\nthis...\""
     },
     "51": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ugh... hurry... I've been waiting, you know...\""
+        "text": "\"Ugh...hurry... I've been waiting, you know...\""
     },
     "52": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ehehe... I might just lay an adventurer's egg,\nyou know...?\""
+        "text": "\"Ehehe... I might end up laying the adventurers'\neggs, you know...?\""
     },
     "53": {
         "name": null,
@@ -272,7 +272,7 @@
     "54": {
         "name": "Isk",
         "face": null,
-        "text": "\"You are an incorrigible gentleman... I will take\nmy leave over there...\""
+        "text": "\"Seems like there's no helping it... I'll be over\nthere, if you please...\""
     },
     "55": {
         "name": "Isk",
@@ -282,12 +282,12 @@
     "56": {
         "name": "Isk",
         "face": null,
-        "text": "\"Fufu... I have been waiting for you... Over\nthere... Slowly...\""
+        "text": "\"Fufu... I've been waiting for you... Over\nthere... Slowly...\""
     },
     "57": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "58": {
         "name": null,

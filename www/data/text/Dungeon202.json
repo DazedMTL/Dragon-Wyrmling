@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Mountainous dungeon, encountering a\ngriffin"
+        "text": "●Scene: Mountainous Dungeon Encounter with a\nGriffin"
     },
     "2": {
         "name": "-",
@@ -22,12 +22,12 @@
     "4": {
         "name": "???",
         "face": null,
-        "text": "\"Kweeeeeeeee!!!\""
+        "text": "\"Queeeeeeeee!!!\""
     },
     "5": {
         "name": "Narration",
         "face": null,
-        "text": "Along with the sound of the strange bird, a\nmassive body descends from the sky and mows down\nthe surroundings. Its physique is that of a giant\ncarnivorous beast, but its head is that of a\nmajestic eagle. Large wings flap on its back,\nmatching its massive body."
+        "text": "Along with the sound of a monstrous bird, a giant\nbody swoops down from the sky, cutting through the\nsurroundings. Its physique is that of a massive\ncarnivorous beast, but its head is that of a\nmajestic eagle. Large wings, befitting its massive\nbody, flap on its back."
     },
     "6": {
         "name": null,
@@ -52,12 +52,12 @@
     "10": {
         "name": "Griffin",
         "face": null,
-        "text": "\"Kweeeeeeeee!!! (It's a femaleeeee!!!)\""
+        "text": "\"Queeeeeeeee!!! (It's a femaleeeee!!!)\""
     },
     "11": {
         "name": "Mare",
         "face": null,
-        "text": "\"Neighhhhhhh!!! (No, please forgive meeeee!!!)\""
+        "text": "\"Neighhhhh!!! (No, please forgive meeeee!!!)\""
     },
     "12": {
         "name": null,
@@ -65,9 +65,9 @@
         "text": null
     },
     "13": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
-        "text": "\"......Huh? Why are they mating... mating?\""
+        "text": "\"......Huh? Why are they mating...mating?\""
     },
     "14": {
         "name": null,
@@ -77,12 +77,12 @@
     "15": {
         "name": "Griffin",
         "face": null,
-        "text": "\"Kweeeeeeeee!!! (How about it? Become a female\nhorse with my ●●●!!)\""
+        "text": "\"Queeeeeeeee!!! (How about it? Become a female\nhorse with my [Var_1]!!)\""
     },
     "16": {
         "name": "Mare",
         "face": null,
-        "text": "\"Neighhhhhhh!!! (No, please forgive meeee!!!)\n(Nooooo...!! I have a husband...!!) (Aaaahh!! I'm\ngoing to get pregnant with the griffin's\n●●●...!!)\""
+        "text": "\"Neighhhhh!!! (No, please forgive meeee!!!)\n(Nooo...!! I have a husband...!!) (Aaaahh!! I'm\ngoing to get pregnant with the griffin's ●●●!!)\""
     },
     "17": {
         "name": null,
@@ -95,34 +95,34 @@
         "text": "\"Ooooo... Griffin NTR... The door to a new world\nopens...\""
     },
     "19": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"Huh... Is that okay?\""
     },
     "20": {
         "name": "Peddler",
         "face": null,
-        "text": "\"It seems... that griffin is in heat. A griffin in\nheat, not hungry, sexually assaults mares.\""
+        "text": "\"It seems... that griffin is in heat. Griffins in\nheat, not hungry, sexually assault mares.\""
     },
     "21": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Once it's finished mating with the mare, it will\nbe satisfied and leave. In fact, if we were to\ninterrupt the copulation, it would likely become\nfurious like a raging fire...\""
+        "text": "\"Once it's finished mating with the mare, it will\nbe satisfied and leave. In fact, if we were to\ninterrupt the copulation, it would probably get\nfurious like a raging fire...\""
     },
     "22": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
         "text": "\"Ahh...\""
     },
     "23": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Above all, because a hippogriff is born between a\ngriffin and a horse, it is very much appreciated\nby us...\""
+        "text": "\"Above all, a hippogriff is born between a griffin\nand a horse, so for us, it is truly a blessing...\""
     },
     "24": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
-        "text": "\"It's pitiful, but... is it asking her to betray\nher husband and commit adultery here?\""
+        "text": "\"It's pitiful, but... are they asking her to\nbetray her husband and commit adultery here?\""
     },
     "25": {
         "name": "Sol",
@@ -132,7 +132,7 @@
     "26": {
         "name": "Mare",
         "face": null,
-        "text": "\"Neighhhhhhh!!! (Help meeee!!!)\""
+        "text": "\"Neighhhhh!! (Help meeee!!!)\""
     },
     "27": {
         "name": null,
@@ -142,7 +142,7 @@
     "28": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "29": {
         "name": null,
@@ -172,7 +172,7 @@
     "34": {
         "name": "Kobold",
         "face": null,
-        "text": "(Thank you very much!!!) (Thank you very much,\nLord Golden Dragon!!!) (Thanks to you, the ladies\nare also safe!!!)"
+        "text": "(Thank you very much!!!) (Thank you very much,\nLord Golden Dragon!!!) (Thanks to you, our ladies\nare also safe!!!)"
     },
     "35": {
         "name": "Sol",
@@ -182,17 +182,17 @@
     "36": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Koboo!!\" \"Kobokoboo!!\" \"Kobokoboo!!\""
+        "text": "\"Koboo,\" \"Kobokoboo,\" \"Kobokoboo!\""
     },
     "37": {
         "name": "Kobold",
         "face": null,
-        "text": "(We will dedicate ourselves to serving Lady Sol.\nPlease allow us to take care of everything around\nyou.) (If it's tunnel digging, we won't lose to\nanyone. We will make Lady Sol's residence\nsplendid!)"
+        "text": "(We will dedicate ourselves to serving Lady Sol.\nPlease allow us to take care of the surroundings.)\n(No one can beat us in tunnel digging. We will\nmake Lady Sol's residence magnificent!)"
     },
     "38": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Um, well then, please take care of me! Let's get\nalong well, okay?\""
+        "text": "\"Um, well then, please take care of me!! Let's get\nalong well, okay?!\""
     },
     "39": {
         "name": null,
@@ -202,7 +202,7 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "41": {
         "name": null,
@@ -212,22 +212,22 @@
     "42": {
         "name": "Narration",
         "face": null,
-        "text": "At the summit of the mountain, the magical beast\nlay sprawled out in an open area. Around it,\nvarious pieces of flesh from the victims it had\npresumably devoured were scattered in a gruesome\nmanner."
+        "text": "At the summit of the mountain, the magical beast\nlay sprawled out in an open area. Around it,\nvarious pieces of flesh from the victims it had\nlikely devoured were scattered in a gruesome\nmanner."
     },
     "43": {
         "name": "Narration",
         "face": null,
-        "text": "The magical beast with a human face, reveling in a\nsinister smirk, leapt into the air as soon as it\nlaid eyes on Sol and the others."
+        "text": "The magical beast with a human face, reveling in a\nfaint smile that oozed wickedness, leaped into the\nair as soon as it laid eyes on Sol and the others."
     },
     "44": {
         "name": "Narration",
         "face": null,
-        "text": "\"The next prey will be you. I will devour your\nintestines while watching you scream in\nagony──────!!\""
+        "text": "\"You are the next prey. I will devour your\nintestines while watching you cry out in\nagony──────!!\""
     },
     "45": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "46": {
         "name": null,
@@ -237,7 +237,7 @@
     "47": {
         "name": "Narration",
         "face": null,
-        "text": "The magical beast lay dying, letting out a pitiful\ndeath cry filled with agony. However, it was not\neven allowed that, as it received a blow from the\nwarrior's axe, shattering its skull."
+        "text": "The magical beast lay dying, letting out a voice\nfilled with agony and despair. However, it was not\neven allowed that, as it received a blow from the\nwarrior's axe, shattering its skull."
     },
     "48": {
         "name": "Narration",
@@ -252,42 +252,42 @@
     "50": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Koboo!!\" \"Kobokoboo!!\""
+        "text": "\"Koboo!\" \"Kobokoboo!\""
     },
     "51": {
         "name": "Kobold",
         "face": null,
-        "text": "(Thank you very much!!!) (Thank you very much,\nLady Sol!!!) (Thanks to you, everyone is safe!!!)"
+        "text": "\"Thank you very much!!!\" \"Thank you very much,\nLady Sol!!!\" \"Thanks to you, everyone is safe!!!\""
     },
     "52": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ehehe, you're welcome~\""
+        "text": "\"Ehehe, you're welcome!\""
     },
     "53": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Koboo!\" \"Kobokobo!\" \"Kobokoboo!\""
+        "text": "\"Koboo!\" \"Kobokoboo!\" \"Kobokoboo!\""
     },
     "54": {
         "name": "Kobold",
         "face": null,
-        "text": "(We will devote ourselves to Lady Sol. Please let\nus take care of the surroundings!)"
+        "text": "\"We will all serve Lady Sol. Please let us take\ncare of the surroundings!\""
     },
     "55": {
         "name": "Kobold",
         "face": null,
-        "text": "(We won't lose to anyone in tunnel digging. We\nwill make Lady Sol's residence magnificent!)"
+        "text": "\"We won't lose to anyone in tunnel digging. We\nwill make Lady Sol's residence magnificent!\""
     },
     "56": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Um, well then, please take care of me! Let's get\nalong well, okay?!\""
+        "text": "\"Um, well then, please take care of me! Let's get\nalong well, okay?\""
     },
     "57": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "58": {
         "name": null,

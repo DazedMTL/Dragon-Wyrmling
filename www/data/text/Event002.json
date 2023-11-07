@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The line is empty"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Village Square"
+        "text": "●Scene: Village Square"
     },
     "2": {
         "name": "-",
@@ -37,7 +37,7 @@
     "7": {
         "name": "Eni-sensei",
         "face": "哀1",
-        "text": "\"I'm not the best in the town. Anyway, I\nunderstand the situation. Let's do something about\nit. Everyone, please stay away.\""
+        "text": "\"I'm not the best in the neighborhood. Anyway, I\nunderstand the situation. Let's do something about\nit. Everyone, please stay away.\""
     },
     "8": {
         "name": "Villager",
@@ -52,7 +52,7 @@
     "10": {
         "name": "Narration",
         "face": null,
-        "text": "In the village square, a gigantic dragon covered\nin shining golden scales lay. Its body, reflecting\nthe light of torches, was heavily stained with\nblood, and it trembled weakly in the face of\ndeath's jaws."
+        "text": "In the village square, a gigantic dragon covered\nin golden scales lay sprawled. Its body,\nreflecting the light of torches, was heavily\nstained with blood, and it trembled weakly in the\nface of death's jaws."
     },
     "11": {
         "name": null,
@@ -62,7 +62,7 @@
     "12": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Gold Dragon...! Judging from its body... it's\nprobably in its young adult stage. ...It's a fatal\nwound, isn't it? It won't last much longer...\""
+        "text": "\"Gold Dragon...! Judging from its body... it's\nprobably in its youth (adult) stage. ...It's a\nfatal wound, isn't it... It won't be long now...\""
     },
     "13": {
         "name": "Villager",
@@ -87,7 +87,7 @@
     "17": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"ウク・シェー・イー・ダラトリウン・ズィア？ケン？  (What happened? Is\nthere anything I can help with?)\""
+        "text": "\"ウク・シェー・イー・ダラトリウン・ズィア？ケン？ (What happened? Is there\nanything I can help with?)\""
     },
     "18": {
         "name": null,
@@ -97,7 +97,7 @@
     "19": {
         "name": "Narration",
         "face": null,
-        "text": "The golden dragon, whose consciousness had become\nslightly clearer upon hearing fluent dragon\nlanguage, weakly looked at the female adventurer\nreferred to as \"sensei.\""
+        "text": "The golden dragon, whose consciousness had become\nslightly clearer upon hearing fluent dragon\nlanguage, looked weakly at the female adventurer\nreferred to as \"sensei.\""
     },
     "20": {
         "name": null,
@@ -107,17 +107,17 @@
     "21": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"Our friend, the small one, a human child... Could\nyou please take on our final request in this\nlife?\""
+        "text": "\"Our friend, the little one, the human child...\nCould you please take on our final request in this\nlife?\""
     },
     "22": {
         "name": "Eni-sensei",
         "face": "怒1",
-        "text": "\"What happened? And those wounds...\""
+        "text": "\"What happened? And that wound...\""
     },
     "23": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"I fought against the red dragon that sought to\ntake our nest, but I was defeated... However, I\nwanted to save this child... I somehow managed to\nbring it to the human village...\""
+        "text": "\"I fought against the red dragon that sought to\ntake our nest, but I was defeated... However, I\nwant to save this child, this child alone...\nSomehow, I managed to escape to the human\nvillage...\""
     },
     "24": {
         "name": null,
@@ -132,7 +132,7 @@
     "26": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"Please... please, could you take care of this\nchild... This child is my only regret... I can no\nlonger entrust it to you, anymore...\""
+        "text": "\"Please... please, can you take care of this\nchild... This child alone... is my only regret...\nI entrust it to you...\""
     },
     "27": {
         "name": "Eni-sensei",
@@ -142,7 +142,7 @@
     "28": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Understood. I will take responsibility for your\nchild. I swear upon my name, Enitouraya, and my\nsword.\""
+        "text": "\"Understood. I will take responsibility for your\nchild. I swear by my name, Enitouraya, and my\nsword.\""
     },
     "29": {
         "name": null,
@@ -152,7 +152,7 @@
     "30": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"So please, rest assured and have a peaceful\nsleep.\""
+        "text": "\"So please, rest assured and get some sleep.\""
     },
     "31": {
         "name": null,
@@ -182,12 +182,12 @@
     "36": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"She has passed away.\""
+        "text": "\"She has passed away now.\""
     },
     "37": {
         "name": "Narration",
         "face": null,
-        "text": "The female adventurer offers a silent prayer for\nthe dragon's remains. Seeing this, the surrounding\nvillagers also hurriedly follow suit."
+        "text": "A female adventurer offers a silent prayer for the\ndragon's remains. Seeing this, the surrounding\nvillagers also hurriedly follow suit."
     },
     "38": {
         "name": null,
@@ -197,47 +197,47 @@
     "39": {
         "name": "Villager",
         "face": null,
-        "text": "\"Um, so... what exactly is happening here...?\""
+        "text": "\"Um, so... what on earth is happening here...?\""
     },
     "40": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"It seems that... this Kinryu was attacked by an\nevil red dragon in its nest, and despite being on\nthe brink of death, it managed to escape and\narrive at this village. It wanted to entrust its\nchild... even if just the egg... to someone.\""
+        "text": "\"It seems that Kinryu was attacked by an evil red\ndragon in its nest, and despite being on the brink\nof death, it managed to escape and arrive at this\nvillage. It wanted to entrust its child... even\njust the egg... to someone.\""
     },
     "41": {
         "name": "Villager",
         "face": null,
-        "text": "\"I see... So, sensei, you're also fluent in dragon\nlanguage...? Wait, sensei!? Did you by any chance\nagree to take care of it!?\""
+        "text": "\"I see... So, sensei, you're also proficient in\nthe language of dragons... Wait, sensei!? Did you\nby any chance agree to take care of it!?\""
     },
     "42": {
         "name": "Eni-sensei",
         "face": "困1",
-        "text": "\"I am not a woman who cannot read the air enough\nto disregard the final wish in this situation.\""
+        "text": "\"I'm not the type of woman who can ignore the\nfinal wish in this situation.\""
     },
     "43": {
         "name": "Eni-sensei",
         "face": "怒1",
-        "text": "\"A proud Kinryu, on the verge of death, asked for\nhelp from a human... and even entrusted its child.\nIt's not something I can refuse, after all.\""
+        "text": "\"A proud golden dragon, on the brink of death,\nasked for help from a human... and even entrusted\nits own child. It's not something I can just\nrefuse, after all.\""
     },
     "44": {
         "name": "Villager",
         "face": null,
-        "text": "\"Well, it's certainly like you, sensei... But, um,\ndo you have any experience raising dragons,\nsensei?\""
+        "text": "\"Well, it's certainly befitting of a teacher...\nBut, um, sensei... do you have any experience with\nraising dragons?\""
     },
     "45": {
         "name": "Eni-sensei",
         "face": "困1",
-        "text": "\"There's no way I have any experience. I haven't\neven given birth to my own child, let alone still\nbeing unmarried.\""
+        "text": "\"There's no way I have any experience. I haven't\neven given birth to my own child, let alone being\nunmarried.\""
     },
     "46": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"However, I made a promise. Even though I am\ncalled a sage in some way, I must not bring shame\nto that name. I will somehow manage to fulfill\nit.\""
+        "text": "\"But I made a promise, you know. Even though I'm\ncalled a sage in some way. I'll do my best to live\nup to that name and figure something out.\""
     },
     "47": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"There is something I would like everyone to help\nwith. Please, I ask for your cooperation.\""
+        "text": "\"There is something I would like everyone to help\nwith. Please, I'm counting on you all.\""
     },
     "48": {
         "name": null,
@@ -247,12 +247,12 @@
     "49": {
         "name": "Villager",
         "face": null,
-        "text": "\"Well... if it's a request from sensei, I can't\nrefuse.\" \"We don't even know how many times she\nhas saved the village.\" \"If we can repay even a\nlittle bit of the favor, I'm happy to help.\""
+        "text": "\"Well... if it's the teacher asking, I can't\nrefuse.\" \"We don't even know how many times she's\nsaved the village.\" \"If we can repay even a little\nbit of the favor, I'd be happy to help.\""
     },
     "50": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Thank you very much. ...And, right now it's just\nmy intuition, but... perhaps, there is a\npossibility that this egg may become the savior of\nthe village──────\""
+        "text": "\"Thank you very much. ...And right now, it's just\nmy intuition, but... there's a possibility that\nthis egg might become the key to saving the\nvillage──────\""
     },
     "51": {
         "name": null,
@@ -262,12 +262,12 @@
     "52": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "53": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "54": {
         "name": null,

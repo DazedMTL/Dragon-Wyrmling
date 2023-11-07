@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "Speech content"
     },
     "1": {
         "name": null,
@@ -17,7 +17,7 @@
     "3": {
         "name": "Narration",
         "face": "-",
-        "text": "The goblin's prized possession, the Goblin Tank,\nexplodes. Along with the grand flames, the\ngoblins' plan turns to ashes."
+        "text": "The goblins' prized Goblin Tank explodes. Along\nwith the spectacularly burning tank, the goblins'\nplans turn to ashes."
     },
     "4": {
         "name": "-",
@@ -30,24 +30,24 @@
         "text": "\"I guess it's mostly taken care of...\""
     },
     "6": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
         "text": "\"I looked around a bit, but... Hmm, something's\nstrange. The number of carriages and the amount of\nluggage don't seem to match.\""
     },
     "7": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"I see. It seems someone has already taken the\nspoils and fled. For a goblin, it doesn't seem\nlike just simple looting.\""
+        "text": "\"I see. It seems someone has already taken the\nspoils and fled. For goblins, it doesn't seem like\njust simple looting.\""
     },
     "8": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"I'd like to search and exterminate, but... we're\nshort on hands. Besides, right now we need to go\nhelp them first.\""
+        "text": "\"I'd like to search and annihilate them, but...\nwe're short on hands. Besides, right now we need\nto go help over there first.\""
     },
     "9": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"I see... Reporting to the guild takes priority, I\nsuppose.\""
+        "text": "\"I see... Reporting to the guild takes priority,\ndoesn't it?\""
     },
     "10": {
         "name": null,
@@ -72,27 +72,27 @@
     "14": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Ah, ah... I'm sorry, thank goodness you're safe,\nmiss... No, that tail... is it from a dragon!?\""
+        "text": "\"Ah, ah... I'm sorry, thank goodness you're\nsafe... Miss... No, that tail... is it from a\ndragon!?\""
     },
     "15": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ehehe, I'm Sol, the Gold Dragon!\""
+        "text": "\"Ehehe, I'm the Gold Dragon, Sol!\""
     },
     "16": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Ohhh, how...!!! This is truly appreciated...! I\ncan't believe I'm still here...! Thank you so much\nfor saving me...!!\""
+        "text": "\"Oh, how...!!! This is truly fortunate...! To\nthink I could survive...! Thank you so much for\nsaving me...!!\""
     },
     "17": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ehehe, you're welcome! But more importantly,\nlet's head to the village first!! 'It's safe to\nlet your guard down only after returning to a\nsecure place'! That's what Sensei taught me!\""
+        "text": "\"Ehehe, you're welcome! But more importantly,\nlet's head to the village first!! 'It's safe to\nrelax only after returning to a secure place'!\nThat's what Sensei taught me!\""
     },
     "18": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "19": {
         "name": null,
@@ -107,7 +107,7 @@
     "21": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Oh, Sol-sama! Thank you so much for everything!!\nThanks to you, I was able to transport the cargo\nsafely...!!\""
+        "text": "\"Oh, Lady Sol! Thank you so much for everything!!\nThanks to you, I was able to transport the goods\nsafely...!!\""
     },
     "22": {
         "name": "Peddler",
@@ -122,10 +122,10 @@
     "24": {
         "name": "Peddler",
         "face": null,
-        "text": "\"And thanks to Sol-sama, I can resume my business!\nIf I find any rare items, I will definitely show\nthem to Sol-sama first! If you have time, please\ncome and visit!\""
+        "text": "\"And thanks to Lady Sol, I can resume my business!\nIf I find any rare items, I will definitely show\nthem to Lady Sol first! If you have the time,\nplease come and visit!\""
     },
     "25": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"Hey, are you not going to give me that rare\nfind?\""
     },
@@ -137,7 +137,7 @@
     "27": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Hmph\""
+        "text": "\"Hmph.\""
     },
     "28": {
         "name": null,
@@ -147,7 +147,7 @@
     "29": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "30": {
         "name": null,
@@ -187,7 +187,7 @@
     "37": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Hey, that's a carriage of a traveling merchant\nheading towards Rukurea Village.\""
+        "text": "\"Hey, that's a carriage of a traveling merchant\nheading towards the village of Ruclaire.\""
     },
     "38": {
         "name": "Adventurer",
@@ -202,22 +202,22 @@
     "40": {
         "name": "Goblin",
         "face": null,
-        "text": "\"Gyagyagya!! (The party's starting!)\""
+        "text": "\"Gyagyagyaa!! (The party's just getting started!)\""
     },
     "41": {
         "name": "Goblin",
         "face": null,
-        "text": "\"Gyaa!!! (Let's go! Let's go!)\""
+        "text": "\"Gyaa!!! (Let's gooo!! Let's gooo!!)\""
     },
     "42": {
         "name": "Goblin",
         "face": null,
-        "text": "\"Gyaa!!!!\""
+        "text": "\"Gyaa!!! (Let's gooo!! Let's gooo!!)\""
     },
     "43": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "44": {
         "name": null,

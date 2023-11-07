@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Volcano Dungeon First Encounter"
+        "text": "●Scene: Volcano Dungeon First Encounter"
     },
     "2": {
         "name": "-",
@@ -17,7 +17,7 @@
     "3": {
         "name": "Narration",
         "face": null,
-        "text": "In a space filled with the scorching heat of\nmolten lava and the smell of sulfur, a massive\nfigure looms. Just the movement of that figure\nexudes such an overwhelming pressure that one\nwould want to flee."
+        "text": "In a space filled with the scorching heat of\nmolten lava and the smell of sulfur, a massive\nfigure sits in repose. Just the movement of that\nfigure exudes such an overwhelming sense of\nintimidation that one would want to flee."
     },
     "4": {
         "name": "Narration",
@@ -42,7 +42,7 @@
     "8": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"And it's not even a joking matter... Ancient...?\""
+        "text": "\"And it's not even a joke... the size of this\nAncient... right?\""
     },
     "9": {
         "name": null,
@@ -62,7 +62,7 @@
     "12": {
         "name": "Red Dragon",
         "face": null,
-        "text": "\"..........? Oh... This unpleasant smell... It's\nquite nostalgic, isn't it? The offspring of that\ndetestable golden dragon, Clouslutinaus...?\""
+        "text": "\"..........? Oh... This unpleasant smell... It's\nquite nostalgic, isn't it? The offspring of that\ndetestable golden dragon, Croustinaus...?\""
     },
     "13": {
         "name": "Sol",
@@ -72,17 +72,17 @@
     "14": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"Could it be... you... you... are... my\nmother...?!\""
+        "text": "\"Could it be... you... you're... my mother...?!\""
     },
     "15": {
         "name": "Red Dragon",
         "face": null,
-        "text": "\"I have been tormented by that wretch for so\nlong... but the scream when I tore off its head\nwas exquisite...! It seems you will also provide\nme with some amusement!!!\""
+        "text": "\"I have been tormented by that one for quite a\nwhile... but the scream when I bit off its head\nwas truly magnificent...! It seems like you will\nalso entertain me!!\""
     },
     "16": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "17": {
         "name": null,
@@ -107,27 +107,27 @@
     "21": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Damn, my blade won't stand... quite literally...\""
+        "text": "\"Damn, the blade won't stand... quite\nliterally...\""
     },
     "22": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
-        "text": "\"Guh... everyone, are you all alive...?\""
+        "text": "\"G-Guh... everyone, are you alive...?\""
     },
     "23": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"...nuh... ugh, somehow. I am alive, but I doubt\nanyone else is unharmed.\""
+        "text": "\"......ngh, somehow. I'm alive, but I doubt anyone\nelse is unharmed.\""
     },
     "24": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
-        "text": "\"Sol-chan!!\""
+        "text": "\"Huh!! Sol-chan!!\""
     },
     "25": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"Ugh...!!!\""
+        "text": "\"Ugh...!!\""
     },
     "26": {
         "name": "Red Dragon",
@@ -137,7 +137,7 @@
     "27": {
         "name": "Red Dragon",
         "face": null,
-        "text": "\"Well, I was planning to torment you a little\nlonger for my own amusement, but I'll show you\nmercy. Be grateful as I'll put you out of your\nmisery with one bite!!\""
+        "text": "\"Well, I was thinking of tormenting you a little\nmore for my own enjoyment, but I'll show you\nmercy. Be grateful as I'll put you out of your\nmisery with one bite!!\""
     },
     "28": {
         "name": null,
@@ -147,7 +147,7 @@
     "29": {
         "name": "Narration",
         "face": null,
-        "text": "The moment the Red Dragon opened its massive jaws\nto bite and kill Sol, a light resembling lightning\npainted the space white."
+        "text": "As the red dragon opened its massive jaws to bite\nand kill Sol, a light resembling lightning painted\nthe space white in an instant."
     },
     "30": {
         "name": null,
@@ -157,32 +157,32 @@
     "31": {
         "name": "Narration",
         "face": null,
-        "text": "When the flash disappeared and the blinding white\nlight faded, the figures of the golden dragon and\nthe small-tempered adventurers had already\nvanished. It seemed that the intruders had rescued\nthem, the red dragon realized."
+        "text": "When the flash disappeared and the blinding white\nlight faded, the figures of the golden dragon and\nthe small-tempered adventurers had already\nvanished. ...It seemed that the intruders had\nrescued them, the red dragon realized."
     },
     "32": {
         "name": "Red Dragon",
         "face": null,
-        "text": "\"Ngh...!\""
+        "text": "\"Ngh...\""
     },
     "33": {
         "name": "Narration",
         "face": null,
-        "text": "I ponder. To think that they were able to face the\nred dragon, who has been immersed in battle since\nancient times, and stealthily lead out that many\nadventurers, they must be quite formidable."
+        "text": "The red dragon pondered. To think that there were\nformidable individuals who could conceal their\npresence from a dragon steeped in battle since\nancient times, and even manage to lead away that\nmany adventurers at once."
     },
     "34": {
         "name": "Narration",
         "face": null,
-        "text": "Normally, just the existence of such a\ntroublemaker would have been enraging, causing the\nred dragon to throw a tantrum and rampage,\ndestroying three or four human settlements.\nHowever, the red dragon remained unusually calm."
+        "text": "Normally, just the existence of such a\ntroublemaker would have been enough to enrage and\ncause the red dragon to rampage, destroying three\nor four human settlements in a fit of anger... but\nunusually, the red dragon remained calm."
     },
     "35": {
         "name": "Narration",
         "face": null,
-        "text": "He is extremely arrogant and short-tempered, but\nhe readily admitted that the intruders were\ntroublesome opponents. This slight humility was\nindeed his strength that had allowed him to\nsurvive until today."
+        "text": "He is extremely arrogant and short-tempered, but\nhe readily acknowledged that the intruders were\nformidable opponents. It was precisely this slight\nhumility that had been his strength, allowing him\nto survive until today."
     },
     "36": {
         "name": "Narration",
         "face": null,
-        "text": "Well, it's fine. It will take some time to heal\nfrom the battle wounds and molt. At that time,\nI'll devour that small golden dragon. The power\ndifference is such that I can take and devour that\nclever little dragon anytime. The pleasure should\nbe saved for later. With that thought, he coiled\nup and began to breathe heavily again."
+        "text": "Well, well. It will take some time to heal from\nthe battle wounds and molt. At that time, I will\ndevour that small golden dragon. The power gap\nbetween us is such that I can take and devour that\nclever little runt anytime. The pleasure should be\nsaved for later. With that thought, he coiled up\nand began to breathe heavily again."
     },
     "37": {
         "name": null,
@@ -192,7 +192,7 @@
     "38": {
         "name": "Narration",
         "face": null,
-        "text": "The kobolds, who had been pessimistic that half of\ntheir tribe would be burned to death in a fit of\nrage, were surprised but couldn't help but feel\ngrateful for the miracle of the chief not throwing\na tantrum and quietly falling asleep again."
+        "text": "The kobolds, who had been pessimistic that half of\ntheir tribe would be burned to death in a fit of\nrage, were surprised but couldn't help but feel\ngrateful for the miracle of the lord not throwing\na tantrum and quietly falling asleep again."
     },
     "39": {
         "name": null,
@@ -207,7 +207,7 @@
     "41": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "42": {
         "name": null,

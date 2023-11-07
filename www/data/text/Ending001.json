@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Ending"
+        "text": "Scene: Ending"
     },
     "2": {
         "name": "-",
@@ -20,17 +20,17 @@
         "text": null
     },
     "4": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"Thank goodness, the successful defeat of the Red\nDragon and...\""
+        "text": "\"Thank goodness, the successful subjugation of the\nRed Dragon and...\""
     },
     "5": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"To think we defeated this tiny little golden\ndragon...!\""
+        "text": "\"This tiny little gold dragon...!\""
     },
     "6": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"Cheers!\""
     },
@@ -67,7 +67,7 @@
     "13": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooo... I can't eat anymore...\""
+        "text": "\"Oooo... I can't eat anymore...\""
     },
     "14": {
         "name": "Eni-sensei",
@@ -75,24 +75,24 @@
         "text": "\"Good grief... This child is quite a handful,\nisn't she...\""
     },
     "15": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"Wow, what a blissful sleeping face!\""
     },
     "16": {
         "name": "Isk",
         "face": "喜1",
-        "text": "\"Well... but Sol-sama has certainly grown a\nlot...\""
+        "text": "\"Well... but Sol-sama has really grown...\""
     },
     "17": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"That's right. She's already a splendid Wyrmling,\nisn't she?\""
+        "text": "\"That's right. She's already a splendid little\nwurmling, isn't she?\""
     },
     "18": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"Such a large Wyrmling. It's just like Sol-chan,\nisn't it?\""
+        "text": "\"Such a big little wurmling. Just like Sol-chan,\nisn't she?\""
     },
     "19": {
         "name": null,
@@ -100,14 +100,14 @@
         "text": null
     },
     "20": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"Hehe, please take care of me from now on too,\nWyrmling Dragon-san\""
+        "text": "\"Hehe, from now on too, please take care of us,\nWurmling Dragon-san\""
     },
     "21": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "22": {
         "name": null,

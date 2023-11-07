@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Isk interrogates the headless beauty at the\nHeadless Beauty Inn"
+        "text": "●Scene: Questioning Isk at the Headless Beauty Inn"
     },
     "2": {
         "name": "-",
@@ -22,17 +22,17 @@
     "4": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"What... happened to you, Sol-sama...?\""
+        "text": "\"What... has happened...? Sol-sama...?\""
     },
     "5": {
         "name": "Sol",
         "face": "恥6",
-        "text": "\"I-Isk-san was, was, was with that adventurer...\nTh-th-they were a couple!!?\""
+        "text": "\"I-Isk-san was, w-w-with that adventurer... t-they\nwere... p-partners!?\""
     },
     "6": {
         "name": "Sol",
         "face": "恥6",
-        "text": "\"L-l-last night, I saw Isk-san and a male\nadventurer, um, mating...!\""
+        "text": "\"L-l-last night, I saw Isk-san and a male\nadventurer... mating...!\""
     },
     "7": {
         "name": "Isk",
@@ -47,7 +47,7 @@
     "9": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Sol-sama... are you aware of the Dragonkind\nritual...?\""
+        "text": "\"Sol-sama... are you familiar with the ritual of\nthe Dragonkind...?\""
     },
     "10": {
         "name": "Sol",
@@ -57,7 +57,7 @@
     "11": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"Yes... Have you not heard of such stories? The\nhero who bathed in dragon's blood and gained a\nsteel body, the hero who consumed dragon's flesh\nand became immortal, the hero who drank the living\nblood of a dragon and obtained fearsome power...\nAh, how precious...\""
+        "text": "\"Yes... Have you not heard of such stories? Heroes\nwho bathed in the blood of dragons and gained\nbodies of steel, heroes who consumed dragon flesh\nand became immortal, heroes who drank the living\nblood of dragons and obtained fearsome power...\nAh, how precious...\""
     },
     "12": {
         "name": "Isk",
@@ -67,7 +67,7 @@
     "13": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"The dragon desiring the ritual takes on human\nform and forms a bond with the desired hero for\none night... Through this, that person becomes a\n'Dragonkin' and gains the power of the dragon...\""
+        "text": "\"The dragon desiring the ritual takes on human\nform and forms a bond with the desired hero for\none night... Through this, that person becomes a\n'Dragonkind' and gains the power of the dragon...\""
     },
     "14": {
         "name": "Sol",
@@ -77,12 +77,12 @@
     "15": {
         "name": "Isk",
         "face": "楽1",
-        "text": "\"That is correct... If Sol-sama also... had\ncomrades who fought alongside her... how about\nlending them power through Dragonkind...? Surely,\nit will become their sustenance and grant them the\npower to survive...\""
+        "text": "\"That is correct... If Sol-sama also had comrades\nwho fought alongside her... how about lending them\npower as Dragonkind...? Surely, it would be their\nsustenance and grant them the power to survive...\""
     },
     "16": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Ooooooh...\""
+        "text": "\"Ohhhhh...\""
     },
     "17": {
         "name": null,
@@ -97,7 +97,7 @@
     "19": {
         "name": "Isk",
         "face": "楽1",
-        "text": "\"If you wish to undergo the ritual... I will be\nhappy to guide you. When that time comes, please\ncall out to me... Sol-sama.\""
+        "text": "\"If you wish to undergo the ritual... I will be\nhappy to instruct you. When that time comes,\nplease call out to me... Sol-sama...\""
     },
     "20": {
         "name": null,
@@ -107,7 +107,7 @@
     "21": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "22": {
         "name": null,
@@ -157,12 +157,12 @@
     "31": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"However... in exchange, it will require some\namount of money and treasures to be consumed... So\nplease... keep that in mind...\""
+        "text": "\"However... in exchange, it will consume a certain\namount of money and treasures... So please keep\nthat in mind...\""
     },
     "32": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"I wish you had told me that important information\nfirst if possible!!\""
+        "text": "\"I wish you had told me that important information\nearlier if possible!!\""
     },
     "33": {
         "name": null,
@@ -187,7 +187,7 @@
     "37": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "38": {
         "name": null,
@@ -210,17 +210,17 @@
         "text": null
     },
     "42": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通2",
         "text": "\"Hmm... I see...\""
     },
     "43": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ah, Eric-san!! What's the matter?!\""
+        "text": "\"Ah, Erick-san!! What's wrong?!\""
     },
     "44": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"Sol-chan, look at this. Can you read it?\""
     },
@@ -230,9 +230,9 @@
         "text": "\"I was taught how to read and write in the common\nlanguage! ...Um, 'Goblin Extermination'.\""
     },
     "46": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
-        "text": "\"That's right. It seems that some guys have been\nappearing on the village's highway. It seems that\na carriage was attacked and destroyed the other\nday.\""
+        "text": "\"That's right. It seems like those guys are\nlurking on the village's highway. It seems that a\ncarriage was attacked and destroyed the other\nday.\""
     },
     "47": {
         "name": null,
@@ -247,7 +247,7 @@
     "49": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Those filthy rotten goblins. They never fail to\ncause trouble.\""
+        "text": "\"Those filthy, rotten goblins. They never fail to\ncause trouble.\""
     },
     "50": {
         "name": "Adventurer",
@@ -257,7 +257,7 @@
     "51": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Those guys are just too much of a pain. Even if\nyou want to build up achievements, unless you're\nreally into it, you wouldn't want to do that kind\nof thing...\""
+        "text": "\"Those guys are just too much of a pain. Even for\nsomeone who wants to build up achievements, unless\nthey're really into it, they wouldn't want to do\nsomething like that...\""
     },
     "52": {
         "name": null,
@@ -270,19 +270,19 @@
         "text": null
     },
     "54": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通3",
-        "text": "\"So, I was thinking, how about it for Sol-chan's\ndebut? What do you think? Want to give it a try?\""
+        "text": "\"So, I was thinking, how about it for Sol-chan's\ndebut battle? What do you think? Want to give it a\ntry?\""
     },
     "55": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"We can't just leave this alone!! Let's\nexterminate them ourselves!! The goblins!!\""
+        "text": "\"We can't just leave this alone!! Let's\nexterminate them ourselves!! Goblins!!\""
     },
     "56": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"More interest than I thought. ...Okay, even\nthough they're goblins, it's important not to let\nyour guard down! Make sure to prepare properly!\""
+        "text": "\"They're more interested than I thought. ...Okay,\neven though they're goblins, we can't afford to\nlet our guard down! Make sure you're properly\nprepared!\""
     },
     "57": {
         "name": null,
@@ -292,7 +292,7 @@
     "58": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "59": {
         "name": null,

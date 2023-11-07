@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Various small events"
+        "text": "Scene: Various Minor Events"
     },
     "2": {
         "name": "-",
@@ -22,32 +22,32 @@
     "4": {
         "name": null,
         "face": null,
-        "text": "A line when the treasure increases"
+        "text": "The line is empty"
     },
     "5": {
         "name": "Sol",
         "face": null,
-        "text": "\"The treasures have increased! The bed is becoming\nmore comfortable! I want more... I want more...\nohhhhh...\""
+        "text": "\"My treasures have increased! The bed is becoming\nmore comfortable! I want more... I want more...\nohhhhh...\""
     },
     "6": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ohhh... This mountain of treasures... With plenty\nof gold coins, the bed is so comfortable... I'm so\nhappy...\""
+        "text": "\"Ooooo... This mountain of treasures... With\nplenty of gold coins, the bed is so comfortable...\nHappiness...\""
     },
     "7": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ooooo... abundance... comfort... luxury... This\nis my world...\""
+        "text": "\"Ooooo... abundance... pleasure... ecstasy... This\nis my world...\""
     },
     "8": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ooooo... The dragon's instincts are being\nstimulated... Happiness lies in mountains of\ntreasures...\""
+        "text": "\"Ooooo... The dragon's instincts are being\nstimulated... A mountain of treasures is true\nhappiness...\""
     },
     "9": {
         "name": "Sol",
         "face": null,
-        "text": "\"I'm glad I was born a dragon... This paradise...\nthe treasures are here...\""
+        "text": "\"I'm glad I was born a dragon... This paradise...\nthe treasure mountain is right here...\""
     },
     "10": {
         "name": null,
@@ -67,7 +67,7 @@
     "13": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ahh... no... this drowsiness... it's taking me\nsomewhere...\""
+        "text": "\"Ahh... no... drowsiness is... taking me\nsomewhere...\""
     },
     "14": {
         "name": null,
@@ -87,7 +87,7 @@
     "17": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooo... The door to a new world has opened...\""
+        "text": "\"Ooooh... The door to a new world has opened...\""
     },
     "18": {
         "name": "Sol",
@@ -97,7 +97,7 @@
     "19": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"An unknown world───This is what growth is all\nabout……\""
+        "text": "\"An unknown world───this is what growth is all\nabout……\""
     },
     "20": {
         "name": null,
@@ -117,7 +117,7 @@
     "23": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooo...! My nest has become splendid! Ehehe,\nthank you~\""
+        "text": "\"Ooooh...! My nest has become splendid! Ehehe,\nthank you~\""
     },
     "24": {
         "name": "Kobold",
@@ -132,12 +132,12 @@
     "26": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Koboo!\"\"Kobokoboo!\""
+        "text": "\"Kobo!\" \"Kobokobo!\""
     },
     "27": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"What a gorgeous transformation! It's like I've\nbecome unrecognizable! Yay!\""
+        "text": "\"What a gorgeous transformation! It's excellent!\nI've become unrecognizable! Yay!\""
     },
     "28": {
         "name": null,
@@ -147,12 +147,12 @@
     "29": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Koboo!!\" \"Kobokoboo!!\""
+        "text": "\"Kobo!!\" \"Kobokobo!!\""
     },
     "30": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooo... I've powered up so much it's almost\noverdone... It's like a castle!!\""
+        "text": "\"Ooooooh... I've powered up so much it's almost\nover the top... It's like a castle!!\""
     },
     "31": {
         "name": null,
@@ -162,7 +162,7 @@
     "32": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ehehe, let's keep decorating my nest more and\nmore! This is so much fun, ehehe.\""
+        "text": "\"Ehehe, let's keep decorating my nest more and\nmore. It's so much fun, ehehe.\""
     },
     "33": {
         "name": null,
@@ -172,7 +172,7 @@
     "34": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "35": {
         "name": null,

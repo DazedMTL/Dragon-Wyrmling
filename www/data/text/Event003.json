@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene:"
+        "text": "●Scene:"
     },
     "2": {
         "name": null,
@@ -17,17 +17,17 @@
     "3": {
         "name": "Narration",
         "face": null,
-        "text": "After respectfully burying the remains of the\nGolden Dragon, the female adventurer headed\ntowards the towering mountains near the village,\ncarrying an egg."
+        "text": "After respectfully burying the remains of the\ngolden dragon, the female adventurer headed\ntowards the towering mountain near the village,\ncarrying an egg."
     },
     "4": {
         "name": "Narration",
         "face": null,
-        "text": "The female adventurer had the villagers transport\nnecessary materials and food, and made\npreparations to hatch the dragon egg."
+        "text": "The female adventurer arranged for the villagers\nto transport the necessary materials and food, and\nprepared to hatch the dragon's egg."
     },
     "5": {
         "name": "Narration",
         "face": null,
-        "text": "In the meantime, she continued to search through\nvarious documents and supplemented the lacking\nknowledge about dragon hatching."
+        "text": "In the meantime, she continued to search through\nvarious documents, supplementing the lacking\nknowledge about dragon hatching."
     },
     "6": {
         "name": null,
@@ -37,27 +37,27 @@
     "7": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"It is said that the Golden Dragon prefers to make\nits nest in places with clear air, such as high\nmountains, ruins, and behind waterfalls... This\nlocation should be more than adequate.\""
+        "text": "\"It is said that golden dragons prefer to make\ntheir nests in places with clear air, such as high\nmountains, ruins, and behind waterfalls... This\nlocation should be more than adequate.\""
     },
     "8": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"However, I have heard from experts that the\nGolden Dragon warms its eggs by throwing them into\nfire or lava...\""
+        "text": "\"However, I have heard from experts that golden\ndragons warm their eggs by placing them in fire or\nlava...\""
     },
     "9": {
         "name": "Eni-sensei",
         "face": "困1",
-        "text": "\"I mean... the artwork is pretty terrible, isn't\nit?\""
+        "text": "\"I mean... the artwork is quite terrible, isn't\nit?\""
     },
     "10": {
         "name": "Eni-sensei",
         "face": "困1",
-        "text": "\"It's not wrong, but it kind of gives off a vibe\nlike we're cooking the egg, which even makes me\nfeel a strange sense of guilt.\""
+        "text": "\"I don't think it's wrong, but it gives off this\nstrange feeling as if we're cooking the egg, which\neven makes me feel a weird sense of guilt.\""
     },
     "11": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"The egg itself seems to be progressing smoothly\nwith this, so it seems like it will hatch soon.\nLet's pray for a safe hatching...\""
+        "text": "\"The egg itself seems to be progressing well with\nthis, so it looks like it will hatch soon. Let's\npray for a safe hatching...\""
     },
     "12": {
         "name": null,
@@ -85,29 +85,29 @@
         "text": null
     },
     "17": {
-        "name": "Hinamatsuri",
+        "name": "Chick",
         "face": null,
-        "text": "\"Pyaa...\""
+        "text": "\"Peep...\""
     },
     "18": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Thank goodness... It seems to be a healthy\nchild.\""
+        "text": "\"Thank goodness... it's a healthy child.\""
     },
     "19": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"I heard that if a dragon egg is taken from its\nnest and raised by someone other than a dragon,\nthe chances of it hatching safely are low. I was\nreally worried about it, but it looks like it was\nneedless after all.\""
+        "text": "\"I heard that if a dragon egg is taken from its\nnest and raised by hands other than a dragon's,\nthe chances of it hatching safely are low. I was\nreally worried about it, but thankfully it turned\nout to be needless anxiety.\""
     },
     "20": {
-        "name": "Hinamatsuri",
+        "name": "Chick",
         "face": null,
-        "text": "\"Pyaa...\""
+        "text": "\"Peep...\""
     },
     "21": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"As for the name... I see. In the language of\ndragons, it's 'Sol Reguiania'. The immortal sun.\""
+        "text": "\"As for the name... let's see. In the language of\ndragons, it's 'Solreguiania'. The immortal sun.\""
     },
     "22": {
         "name": "Eni-sensei",
@@ -117,7 +117,7 @@
     "23": {
         "name": "Eni-sensei",
         "face": "楽1",
-        "text": "\"Nice to meet you, Kin Hinryuu (Gold Dragon\nWyrmling) Sol. I am your teacher.\""
+        "text": "\"Nice to meet you, Gold Dragon (Gold Dragon\nWyrmling) Sol. I am your teacher.\""
     },
     "24": {
         "name": null,
@@ -127,7 +127,7 @@
     "25": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "26": {
         "name": null,
@@ -137,7 +137,7 @@
     "27": {
         "name": "Narration",
         "face": null,
-        "text": "──────And two years have passed."
+        "text": "──────And then two years passed."
     },
     "28": {
         "name": null,
@@ -147,7 +147,7 @@
     "29": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Sensei! Just as you instructed, I went hunting\nand caught a deer!\""
+        "text": "\"Sensei! Just as you instructed, I went and hunted\na deer!\""
     },
     "30": {
         "name": "Eni-sensei",
@@ -157,12 +157,12 @@
     "31": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"I can do this much! I'm already a full-fledged...\nor should I say, a full-dragon!\""
+        "text": "\"I can do this much! I'm already an adult... or\nshould I say, an adult dragon?\""
     },
     "32": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"Good grief. If you ask me, you're still just a\nfledgling. ...Although I do feel like some parts\nof your body have grown quite nicely. It's\nimpudent to be getting close to my size already.\""
+        "text": "\"Good grief. If you ask me, you're still just a\nfledgling. ...Although I do feel like some parts\nof your body have grown quite well. It's impudent\nto be getting close to my size already.\""
     },
     "33": {
         "name": "Sol",
@@ -172,12 +172,12 @@
     "34": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"No, it's nothing. First, let's have a meal. Let's\ngive thanks to the deer you hunted and partake.\""
+        "text": "\"No, it's nothing. First, let's have a meal. Let's\ngive thanks to the deer you hunted and partake in\nit.\""
     },
     "35": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Yes!!\""
+        "text": "\"Yesss!!\""
     },
     "36": {
         "name": null,
@@ -187,27 +187,27 @@
     "37": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"It was delicious!!\""
+        "text": "\"It was delicious, wasn't it?!\""
     },
     "38": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"As always, this child eats an incredible amount.\nIt reminds me that she's a dragon.\""
+        "text": "\"As always, this child eats an incredible amount.\nIt reminds me that she is a dragon.\""
     },
     "39": {
         "name": "Eni-sensei",
         "face": "怒1",
-        "text": "\"Well... leaving that aside... Sol. If you claim\nto be a full-fledged individual, it's about time\nyou prove it on your own.\""
+        "text": "\"Well then... leaving that aside... Sol. If you\nclaim to be a full-fledged adult, it's about time\nyou prove it on your own.\""
     },
     "40": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"!! Sensei, is that...?!\""
+        "text": "\"!! Sensei, does that mean...?!\""
     },
     "41": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Yes, this is the graduation exam you've been\nwishing for... the day you leave the nest. If you\nachieve this, you will be a full-fledged\nindividual. You will stand alone as a splendid\ndragon.\""
+        "text": "\"Yes, this is the graduation exam you've been\nwishing for... the day you leave the nest. If you\nachieve this, you will be a full-fledged adult.\nYou will stand alone as a splendid dragon.\""
     },
     "42": {
         "name": "Sol",
@@ -217,12 +217,12 @@
     "43": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"For the past two years, I've drilled you in all\nthe necessary areas. Arithmetic, knowledge of\nhuman society, military studies, geography,\nmonster studies, and herbal medicine...\""
+        "text": "\"For the past two years, I've hammered in\neverything you need. Arithmetic, knowledge of\nhuman society, military science, geography,\nmonster studies, herbalism...\""
     },
     "44": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"Well, I don't have an aptitude for magic, so I\ncould only teach you the basics of magic and\nmiracles. I do regret that.\""
+        "text": "\"Well, I don't have an aptitude for magic, so I\ncould only teach the basics of magic and miracles.\nI do regret that.\""
     },
     "45": {
         "name": "Sol",
@@ -232,47 +232,47 @@
     "46": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"As expected of a golden dragon, you have a good\nmemory and are an excellent student. I was able to\nhave a very easy time.\""
+        "text": "\"As expected of a golden dragon, you are a quick\nlearner and an excellent student. I was able to\nhave a very easy time.\""
     },
     "47": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"My previous student also had an exceptional\nmemory and was quite resourceful. Well, that's a\ndifferent story.\""
+        "text": "\"My previous student had a very good memory and\nwas quick on the uptake. Well, that's beside the\npoint.\""
     },
     "48": {
         "name": "Eni-sensei",
         "face": "怒1",
-        "text": "\"If Sol has learned and mastered those things\nproperly, I believe she can pass this exam without\nany problems. You'll be fine, won't you?\""
+        "text": "\"If Sol has learned and mastered those things\nproperly, I believe she can achieve this exam\nwithout any problems. You'll be fine, won't you?\""
     },
     "49": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"Y-Yes! I will definitely live up to Sensei's\nexpectations!! I'll do my best!\""
+        "text": "\"Y-Yes!! I will definitely live up to Sensei's\nexpectations!! I'll do my best!\""
     },
     "50": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Very well. Then, please transform back into your\ndragon form and carry me.\""
+        "text": "\"Excellent. Then, please transform into a dragon\nand carry me.\""
     },
     "51": {
         "name": "Sol",
         "face": "普通1",
-        "text": "\"Huh? Sensei, are you coming with me too?\""
+        "text": "\"Huh? Are you coming with me, Sensei?\""
     },
     "52": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"Of course. Who do you think will be grading Sol's\nexam?\""
+        "text": "\"Of course. Who do you think will be grading Sol?\""
     },
     "53": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Besides, there may be some danger involved, so\njust in case, I will accompany you. I'll only be\nlending a hand, though.\""
+        "text": "\"Also, since there may be some danger involved, I\nwill accompany you just in case. I'll only be\nlending a hand, though.\""
     },
     "54": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Y-Yes! Then, please get on! Sensei!!\""
+        "text": "\"U-Understood! Then, please get on! Sensei!!\""
     },
     "55": {
         "name": null,
@@ -282,7 +282,7 @@
     "56": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "57": {
         "name": null,

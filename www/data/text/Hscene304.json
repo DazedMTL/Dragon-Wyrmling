@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
@@ -27,12 +27,12 @@
     "5": {
         "name": "Narration",
         "face": null,
-        "text": "In a dimly lit room of an inn, the breaths of\nseveral men and women resound. The light of the\nlamp illuminates their lewd ceremony, casting\ntheir shadows on the floor."
+        "text": "In a dimly lit room of the inn, the breaths of\nseveral men and women resound. The light of the\nlamp illuminates their lewd ceremony, casting\ntheir shadows on the floor."
     },
     "6": {
         "name": "Narration",
         "face": null,
-        "text": "Two women are being embraced by different men on\nthe bed. Both women are already slightly covered\nin sweat, and it seems some time has passed since\nthe proceedings began."
+        "text": "Two women are being embraced by different men on\nthe bed. Both of them are already slightly covered\nin sweat, and it seems some time has passed since\nthe proceedings began."
     },
     "7": {
         "name": null,
@@ -42,17 +42,17 @@
     "8": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Nn, uuh, nn... fuu... nn... Honestly... even\nthough it's a Dragon Kind...\""
+        "text": "\"Nn, ugh, nn... *sigh*... nn... Honestly... even\nthough it's a Dragon Kind...\""
     },
     "9": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Fuh, ahh, ku...u...nn... Don't give up,\nsensei...this is just how it is...\""
+        "text": "\"Fuh, ah, ku... ugh... nn... Don't give up,\nsensei... this is just how it is...\""
     },
     "10": {
         "name": "Man",
         "face": null,
-        "text": "\"Yeah, that's right. You should enjoy it when it\ncomes to this, sensei.\""
+        "text": "\"Yeah, that's right. It's better to enjoy it when\nit comes to this, sensei.\""
     },
     "11": {
         "name": null,
@@ -62,7 +62,7 @@
     "12": {
         "name": "Narration",
         "face": null,
-        "text": "The teacher is still being violated while\ncomplaining. Despite her words of denial,\nsensuality seeps strongly through her voice."
+        "text": "The teacher is being violated while still\ncomplaining. Despite her words of denial, her\nvoice is filled with a strong sensual hue."
     },
     "13": {
         "name": null,
@@ -72,32 +72,32 @@
     "14": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Kuuh, nnngghh, nfuu, a, au...! Nnnn...!\""
+        "text": "\"Ku, nnngghh, nfuu, a, au...! Nnnn...!\""
     },
     "15": {
         "name": "Man",
         "face": null,
-        "text": "\"Hey, look, sensei, you're already feeling it a\nlot, right? You're even raising your voice so\nmuch...\""
+        "text": "\"Hey, look, sensei, you're already feeling it\nquite a bit, aren't you? You're even raising your\nvoice so much...\""
     },
     "16": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Ku, u, nnn... It's not like I'm feeling it...\nnnnn!\""
+        "text": "\"Ku, u, nnn... It's not like I'm... feeling it...\nnnngghh...!\""
     },
     "17": {
         "name": "Man",
         "face": null,
-        "text": "\"You've been quite deprived and pent up, haven't\nyou? You're already drooling so much, aren't you?\""
+        "text": "\"By saying that, haven't you been quite starved\nand overwhelmed? You're already drooling so much,\naren't you?\""
     },
     "18": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"....That's not... I'm not... haa...nn... I'm\nnot...overwhelmed or anything...\""
+        "text": "\"......That's not... the case... I'm not...\nfeeling... so... overwhelmed...\""
     },
     "19": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Ah...ah, ah...good, intense...nngh...! Ah,\nfah...!\""
+        "text": "\"Ahh... ah, ah... good, intense... nnghh...! A,\nfah...!\""
     },
     "20": {
         "name": null,
@@ -105,29 +105,29 @@
         "text": null
     },
     "21": {
-        "name": "Man 2",
+        "name": "Male 2",
         "face": null,
-        "text": "\"Eric-chan! Hehe, Eric-chan...!!\""
+        "text": "\"Erick-chan! Hehe, Erick-chan...!!\""
     },
     "22": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Everyone's being too aggressive... But even if I\ndon't rush... it'll happen... I don't really hate\nit either...\""
+        "text": "\"Everyone is too eager... but even if I don't\nrush... it will happen... I don't really dislike\nit either...\""
     },
     "23": {
-        "name": "Man 2",
+        "name": "Male 2",
         "face": null,
-        "text": "\"Even if you say that...! You can't really hold\nback, can you...!\""
+        "text": "\"Even if you say that...! There's no way I can\nendure it, right...!\""
     },
     "24": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Ah, ah, fu, nnnggh...! Ku... u... chotto... sore,\nha, aah...! A, u... nn...\""
+        "text": "\"Ah, ah, fu, nnngghh...! Ku... u... Ch-chotto...\nthat's, ah... ahh...! Ah, u... nn...\""
     },
     "25": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Ah, that's good, right there, I really like\nit...!! More, right there, ah, aahh, aahhh...!!\""
+        "text": "\"Ah, that feels so good, right there, I really\nlike it...!! More, right there, ah, ahhn,\naahhh...!!\""
     },
     "26": {
         "name": null,
@@ -137,37 +137,37 @@
     "27": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Nnnngh...!! Ku, uuuu...!!\""
+        "text": "\"Nnnnghh...!! Ku, uuuu......!!\""
     },
     "28": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
         "text": "\"Nn, hehe, sensei, it seems like you're getting\nmuch better... fu, ah, u, I'm also about to...\nclimax...\""
     },
     "29": {
         "name": "Man",
         "face": null,
-        "text": "\"I'm about to cum...! Sensei...! Can I release\ninside you...!?\""
+        "text": "\"I'm about to cum...! Sensei...! Can I release\ninside...!?\""
     },
     "30": {
-        "name": "Man 2",
+        "name": "Male 2",
         "face": null,
-        "text": "\"I'm about to as well, Eric...! I'm going to\nrelease inside, I'm going to!\""
+        "text": "\"I-I'm also, Erick...! I'm going to cum, inside\nyour pussy, I'm going to cum!\""
     },
     "31": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Good, let it all out, release as much as you\nwant...! Do it however you like, aahhh...!!\""
+        "text": "\"Good, let it out, release it all...! Do as you\nlike, fill me up, mmm, aahhhhh...!\""
     },
     "32": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Please ejaculate, please ejaculate... However you\nlike...! Nn, ah, ah, ah, aahh...\""
+        "text": "\"Please ejaculate, please ejaculate... as you\nlike...! Nn, ah, ah, aahhh...\""
     },
     "33": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Nnnnnnghhh...!!!\""
+        "text": "\"Nnnnghh...!!\""
     },
     "34": {
         "name": null,
@@ -187,7 +187,7 @@
     "37": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Haa... haa... ku... I, did something so...\""
+        "text": "\"Haa... haa... ku... I, did something so...\nintense...\""
     },
     "38": {
         "name": null,
@@ -195,14 +195,14 @@
         "text": null
     },
     "39": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
         "text": "\"This isn't the end, so let's keep going a little\nlonger, sensei.\""
     },
     "40": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"....Eh?\""
+        "text": "\"............Huh?\""
     },
     "41": {
         "name": null,
@@ -212,7 +212,7 @@
     "42": {
         "name": "Narration",
         "face": null,
-        "text": "As sensei glanced to the side, she noticed that\nthe men who hadn't been embraced yet were now\nabout to pounce. Seeing their disheveled\nappearance, their groins were already in a state\nof readiness for battle."
+        "text": "When sensei suddenly looked to the side, she\nnoticed that the men who hadn't embraced them yet\nwere now about to attack. Seeing their disheveled\nappearance, their groins were already in a state\nof readiness for battle."
     },
     "43": {
         "name": null,
@@ -222,7 +222,7 @@
     "44": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Um, a little more, that... nnghh...!!\""
+        "text": "\"Um, that, a little more, that... nnghhh...!!\""
     },
     "45": {
         "name": null,
@@ -232,12 +232,12 @@
     "46": {
         "name": "Narration",
         "face": null,
-        "text": "The figures of Eni-sensei and Eric were hidden by\nthe men about to pounce again. It seemed they\nwouldn't be released until the night cleared..."
+        "text": "The figures of Eni-sensei and Erick were hidden by\nthe men who were about to overlap them. It seemed\nthey wouldn't be released until the night\ncleared..."
     },
     "47": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "48": {
         "name": null,

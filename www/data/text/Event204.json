@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: General dialogue, etc."
+        "text": "●Scene: General dialogue etc."
     },
     "2": {
         "name": "-",
@@ -22,12 +22,12 @@
     "4": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Oooooohhh...!\""
+        "text": "\"Ooooooh...!\""
     },
     "5": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Oooooohhh...\""
+        "text": "\"Ooooooh...!\""
     },
     "6": {
         "name": "Sol",
@@ -37,12 +37,12 @@
     "7": {
         "name": "Sol",
         "face": "困5",
-        "text": "*Swoosh*"
+        "text": "\"Fwoosh\""
     },
     "8": {
         "name": "Sol",
         "face": "怒3",
-        "text": "*Blow*"
+        "text": "\"Boo\""
     },
     "9": {
         "name": "Sol",
@@ -62,17 +62,17 @@
     "12": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"I really like you...\""
+        "text": "\"I really like it...\""
     },
     "13": {
         "name": "Isk",
         "face": "喜3",
-        "text": "\"Eh... oh no...\""
+        "text": "\"Eh... this is bad...\""
     },
     "14": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"I can't stop...\""
+        "text": "\"It won't stop...\""
     },
     "15": {
         "name": "Isk",
@@ -107,7 +107,7 @@
     "21": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"It's a fatal wound... I'm... done for...\""
+        "text": "\"It's a fatal wound...\""
     },
     "22": {
         "name": "Isk",
@@ -132,12 +132,12 @@
     "26": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Isk, your eyes are sparkling!\""
+        "text": "\"Isk, your eyes are sparkling today!\""
     },
     "27": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"You're so deep into your trip, I don't want to\ndisturb you!\""
+        "text": "\"You're in such a trance, I don't want to disturb\nyou!\""
     },
     "28": {
         "name": null,
@@ -152,7 +152,7 @@
     "30": {
         "name": null,
         "face": null,
-        "text": "Rescuing Sol"
+        "text": "Eni-sensei rescues Sol"
     },
     "31": {
         "name": null,
@@ -167,12 +167,12 @@
     "33": {
         "name": "Narration",
         "face": null,
-        "text": "Suddenly, the usually closed door becomes noisy.\nSounds of some kind of conflict and screams can be\nheard."
+        "text": "Suddenly, the usually closed door becomes noisy.\nSounds of some kind of conflict and screams can be\nheard from inside."
     },
     "34": {
         "name": "Narration",
         "face": null,
-        "text": "The noise subsides, and the footsteps approaching\nhere are multiple. Then, the door is forcefully\nopened."
+        "text": "The noise gradually subsides, and the sound of\nfootsteps approaching from this direction can be\nheard. Then, the door is forcefully opened."
     },
     "35": {
         "name": null,
@@ -192,12 +192,12 @@
     "38": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Yes. I came to help. It was fortunate that I was\nwandering nearby, wasn't it?\""
+        "text": "\"Yes. I came to help. It was fortunate that I was\nwandering nearby.\""
     },
     "39": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Yes. I came to help. You didn't come back for so\nlong, so I decided to check on you.\""
+        "text": "\"Yes. I came to help. You didn't come back for a\nlong time, so I was worried.\""
     },
     "40": {
         "name": "Sol",
@@ -207,7 +207,7 @@
     "41": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"It doesn't seem like you're unharmed, but I'm\nglad you're safe. I borrowed help from various\npeople to rescue you, after all.\""
+        "text": "\"You don't seem to be unharmed, but I'm glad\nyou're safe. I borrowed help from various people\nto rescue you.\""
     },
     "42": {
         "name": "Eni-sensei",
@@ -237,7 +237,7 @@
     "47": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "48": {
         "name": null,

@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
@@ -17,7 +17,7 @@
     "3": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Oh, Sol-sama! I'm glad to see you!\""
+        "text": "\"Oh, Lady Sol! I'm glad to see you!\""
     },
     "4": {
         "name": "Sol",
@@ -27,7 +27,7 @@
     "5": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Yes, thanks to you. By the way... I have a favor\nto ask of you, Sol-sama...\""
+        "text": "\"Yes, thanks to you. By the way... Lady Sol, I\nhave a favor to ask of you...\""
     },
     "6": {
         "name": "Sol",
@@ -35,9 +35,9 @@
         "text": "\"Oh...? I wonder what it is!!\""
     },
     "7": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
-        "text": "\"...As always, you seem energetic, Sol-chan...\""
+        "text": "\"......As always, you seem energetic, Sol-\nchan......\""
     },
     "8": {
         "name": null,
@@ -47,7 +47,7 @@
     "9": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "10": {
         "name": null,
@@ -62,27 +62,27 @@
     "12": {
         "name": "Peddler",
         "face": null,
-        "text": "\"I know it's quite impolite to make such a\nrequest... but would you please accompany me to\nthe village, Sol-sama?\""
+        "text": "\"I know it's quite rude to make such a request...\nbut would you please accompany me to the village,\nLady Sol?\""
     },
     "13": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
-        "text": "\"Hmm, so it's about being a guard. Certainly,\nright now, the adventurers who could help out are\nall away...\""
+        "text": "\"Hmm, so it's about being a guard. Indeed, right\nnow, the adventurers who could help out seem to be\naway...\""
     },
     "14": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Got it!!! I'll help out!!!\""
+        "text": "\"Understood!!! I will help you!!!\""
     },
     "15": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
-        "text": "\"Sol-chan, at least make a show of thinking it\nover a bit more.\""
+        "text": "\"Sol-chan, at least show a little sign of thinking\nit over.\""
     },
     "16": {
         "name": "Peddler",
         "face": null,
-        "text": "\"Oh, thank you very much...!! Please let me know\nwhen you're ready...\""
+        "text": "\"Oh, thank you very much...!! Please let me know\nwhen you are ready...\""
     },
     "17": {
         "name": null,
@@ -92,7 +92,7 @@
     "18": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "--"
     },
     "19": {
         "name": null,
@@ -107,7 +107,7 @@
     "21": {
         "name": null,
         "face": null,
-        "text": "Scene: Mountain Dungeon Encounter with Kobolds"
+        "text": "Scene: Mountain Dungeon - Encounter with Kobolds"
     },
     "22": {
         "name": null,
@@ -120,14 +120,14 @@
         "text": "\"Kobold: Kobo! Kobo!\""
     },
     "24": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
         "text": "\"Kobolds...! Be careful, okay...!\""
     },
     "25": {
         "name": "Kobold",
         "face": null,
-        "text": "\"Kobo-boh, kobo!\" (Surrender)"
+        "text": "\"Kobo-boh\" \"Kobo\" (Surrender)"
     },
     "26": {
         "name": null,
@@ -137,7 +137,7 @@
     "27": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"...What's this? They look like they're\nprostrating themselves, but...\""
+        "text": "\"...What's this? They seem to be prostrating\nthemselves.\""
     },
     "28": {
         "name": "Kobold",
@@ -145,7 +145,7 @@
         "text": "\"Kobo... kobo-kobo...\""
     },
     "29": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"They don't seem hostile, but... are they trying\nto communicate something...?\""
     },
@@ -157,12 +157,12 @@
     "31": {
         "name": "Sol",
         "face": "普通1",
-        "text": "\"They're saying, 'Please help us, Dragon-sama!' in\nDragon language!\""
+        "text": "\"They're saying, 'Please help us, Dragon-sama!' in\nthe language of dragons!\""
     },
     "32": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
-        "text": "\"Huh!? Sol, you understand Dragon language!?\""
+        "text": "\"Eh!? Sol, you understand Dragon language!?\""
     },
     "33": {
         "name": "Sol",
@@ -170,7 +170,7 @@
         "text": "\"Boo\""
     },
     "34": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
         "text": "\"Don't pout just because it's a joke.\""
     },
@@ -182,7 +182,7 @@
     "36": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "37": {
         "name": null,
@@ -192,17 +192,17 @@
     "38": {
         "name": "Sol",
         "face": "普通1",
-        "text": "\"The kobolds were living in this mountain's cave.\""
+        "text": "\"The kobolds were living in these caves in the\nmountains.\""
     },
     "39": {
         "name": "Sol",
         "face": "普通1",
-        "text": "\"However, recently, a bad 'manticoa' has taken up\nresidence, forcing the kobolds to prostrate\nthemselves.\""
+        "text": "\"However, recently, a bad 'manticoa' has settled\nin and is causing trouble for the kobolds.\""
     },
     "40": {
         "name": "Sol",
         "face": "普通1",
-        "text": "It seems they're saying, \"At this rate, this\nmountain will become its possession. Please, help\nus!\" in Dragon language!"
+        "text": "\"It seems they're saying, 'At this rate, this\nmountain will become theirs. Please, help us!'!\""
     },
     "41": {
         "name": null,
@@ -217,15 +217,15 @@
     "43": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"A wicked magical beast with a human face and a\nbeast's body, huh. Well, I can't just leave it\nbe... If this mountain path is destroyed, the\nvillages ahead will be in trouble too.\""
+        "text": "\"A wicked magical beast with a human face and a\nbeast's body, huh. Well, I can't just leave it\nbe... If this mountain path is destroyed, the\nvillage ahead will be in trouble too.\""
     },
     "44": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"Understood!! First, let's escort the merchant to\nthe village, and then prepare to exterminate the\nmanticore!!\""
+        "text": "\"Understood!! First, let's escort the traveling\nmerchant to the village, and then prepare to\nexterminate the manticore!!\""
     },
     "45": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"If we don't go through the Adventurer's Guild to\nmake it an official request, we might miss out on\nour reward... you know!\""
     },
@@ -237,7 +237,7 @@
     "47": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "48": {
         "name": null,

@@ -401,7 +401,7 @@
             }
         ],
         "iconIndex": 358,
-        "name": "Erik",
+        "name": "Erick",
         "note": "<SpineName:thief>\n<SpineSkin:skin1>\n<SpineSize:60>\n<skillA:25>\n<skillB:26>\n<skillC:27>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 6 )>",
         "params": [
             98,

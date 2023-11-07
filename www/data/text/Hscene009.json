@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
@@ -47,7 +47,7 @@
     "9": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ugh, uuu... What's going to happen to me...\""
+        "text": "\"Ugh... What's going to happen to me...?\""
     },
     "10": {
         "name": "Sol",
@@ -57,22 +57,22 @@
     "11": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ahh... Y-yes...\""
+        "text": "\"Ah... Y-yes...\""
     },
     "12": {
         "name": "Sol",
         "face": null,
-        "text": "*sob*"
+        "text": "*sob*..."
     },
     "13": {
         "name": "Sol",
         "face": null,
-        "text": "\"I wonder if I can't go back to being a dragon\nanymore... No way...\""
+        "text": "\"I wonder if I can't go back to being a dragon\nanymore... I don't want that...\""
     },
     "14": {
         "name": "Sol",
         "face": null,
-        "text": "\"Nn... What is this... My body feels so hot...\""
+        "text": "\"Ngh... What is this... My body feels... hot...\""
     },
     "15": {
         "name": null,
@@ -97,22 +97,22 @@
     "19": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ahh, ahh, ugh, aahh...!! No, no, stop...!\nHnnn...!\""
+        "text": "\"Ah, ah, ah, aah...!! No, no, stop it...!\nNngh...!\""
     },
     "20": {
         "name": "Sol",
         "face": null,
-        "text": "\"I don't want to be, treated roughly...! Stop,\naah, aah, ugh, nn... aahh!!\""
+        "text": "\"I don't want to be, treated, like this...! Stop,\nah, aah, uuuh, nngh... aahh!!\""
     },
     "21": {
         "name": "Sol",
         "face": null,
-        "text": "\"Y-yes, it feels good... Ugh, ahh, ahh...! This is\nstrange, so strange...! Ahh, no...!!\""
+        "text": "\"Yess, it feels good, ugh, aah, aahh...!! This is\nstrange, so strange...!! Ugh, aah, aah...\nfahh...!!\""
     },
     "22": {
         "name": "Sol",
         "face": null,
-        "text": "\"Boobs, no, stop, ah, aah, uuh... Aah, aah, uuh,\nnnngg...!!\""
+        "text": "\"Boobs, no, stop, ah, aau, uu... aah, aau, uuu,\nnnnn...!!\""
     },
     "23": {
         "name": null,
@@ -132,27 +132,27 @@
     "26": {
         "name": "Sol",
         "face": null,
-        "text": "\"Nngh...!! Nn, nfah...! I-I'm going to, break,\nahh, ahh...! Ah, au, auuh... I've never, felt like\nthis, nnghh...!!\""
+        "text": "\"Nngh...!! Nn, nfah...! I-I'm going to, break,\nnngh, ugh...! Aah, aau, aauu... I can't take this\nkind of, nnghh...!!\""
     },
     "27": {
         "name": "Sol",
         "face": null,
-        "text": "\"N-no, that's no good...!! S-stop, aah, no,\naahh...!! No, no, this is no good, aah, nooo...\""
+        "text": "\"N-No, that's no good...!! S-Stop, aah, no,\naahh...!! No, nooo, like this, aah, nooo...\""
     },
     "28": {
         "name": "Sol",
         "face": null,
-        "text": "\"Deeper, it's going in deeper... Ah, aahh... It's\nreaching deep inside my stomach... Aah, aahh...\""
+        "text": "\"Deeper, it's going in deeper...! Into my stomach,\naah, aauu... aahh...\""
     },
     "29": {
         "name": "Sol",
         "face": null,
-        "text": "\"No, no, stop...! I'm going to... I'm cumming...!\nAhh...nnn! Nngh...! Huh, ugh, nnngg...!!\""
+        "text": "\"No, no, I don't want this, I'm gonna... I'm gonna\ncum, ugh, ughh! Haa, nngh! Huh, ugh, nnngg...!\""
     },
     "30": {
         "name": "Sol",
         "face": null,
-        "text": "\"No, no, stop...! I'm going to... I'm cumming...!\nAhh...nnn! Nngh...! Huh, ugh, nnngg...!!\""
+        "text": "\"No, no, stop...! Ah, hyaaahh!! Nnn, n, aahh!! I'm\ngonna, it's no good, ah, aau, aau, aaunnnn...!!\""
     },
     "31": {
         "name": null,
@@ -162,17 +162,17 @@
     "32": {
         "name": null,
         "face": null,
-        "text": "After. Relax. Exhausted."
+        "text": "Aftermath. Relief. Exhaustion."
     },
     "33": {
         "name": "Sol",
         "face": null,
-        "text": "\"Aah... fuu... I... came... I was... forced...\""
+        "text": "\"Aahh... fuh... I... came... forced... to...\""
     },
     "34": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ugh... I-I was filled up... and... he came inside\nme... This is... so cruel... ugh...\""
+        "text": "\"Ugh... I-I was filled up... and... came inside...\nThis is... so cruel... 〇...\""
     },
     "35": {
         "name": "Sol",
@@ -197,7 +197,7 @@
     "39": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "40": {
         "name": null,

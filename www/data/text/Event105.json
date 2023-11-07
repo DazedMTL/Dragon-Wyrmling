@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Other events"
+        "text": "●Scene: Other Events"
     },
     "2": {
         "name": "-",
@@ -42,7 +42,7 @@
     "8": {
         "name": "Guest",
         "face": null,
-        "text": "\"Ooooh! It's a fight, it's a fight!\""
+        "text": "\"Ooooo! It's a fight, it's a fight!\""
     },
     "9": {
         "name": "Guest",
@@ -52,12 +52,12 @@
     "10": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Ohhh...!? F-fighting is not a good thing...!?\""
+        "text": "\"Ooooo...!? F-fighting is not good...!?\""
     },
     "11": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"It's fine, just leave them be. It's more like\nentertainment, if anything.\""
+        "text": "\"It's fine, just leave them be. It's more like\nentertainment, after all.\""
     },
     "12": {
         "name": "Sol",
@@ -65,39 +65,39 @@
         "text": "\"I-Is that so!? I didn't know...\""
     },
     "13": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜2",
         "text": "\"Besides, the cost of the broken items will be\nsplit evenly among those who fought, regardless of\nthe outcome. Just let them do as they please.\""
     },
     "14": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"Ohhh...!? I see...!! Then I'll watch too!!\""
+        "text": "\"Ooooo...! I see...!! Then I'll also watch the\nspectacle!!\""
     },
     "15": {
-        "name": "Barkeep",
+        "name": "Bar owner",
         "face": null,
         "text": "\"Well, you know, it's really a big nuisance for\nme. But no one seems to understand that part.\""
     },
     "16": {
         "name": "Narration",
         "face": null,
-        "text": "As I leisurely watched the adventurers' fight, a\ncorner of the room suddenly exploded. Several\ndrunkards were blown away. Then, from the smoke, a\ndark-skinned elf looking extremely indignant and a\ncalm white elf appeared."
+        "text": "As I leisurely watched the adventurers' fight, a\ncorner suddenly erupted into a huge explosion.\nSeveral drunkards were blown away. Then, from the\nsmoke, a dark-skinned elf looking extremely\nindignant and a calm white elf appeared."
     },
     "17": {
         "name": "Wayne",
         "face": null,
-        "text": "\"Jeez... Do you even know who you're picking a\nfight with!? I'll leave a dent in that face about\n10cm deep, you know!?\""
+        "text": "\"Jeez... Do you even know who you're picking a\nfight with!? I'll leave a dent of about 10cm in\nthat face of yours!\""
     },
     "18": {
         "name": "Seres",
         "face": null,
-        "text": "\"Wayne, that's enough. It's already over, isn't\nit?\""
+        "text": "\"Wayne, that's enough. It's time to stop.\""
     },
     "19": {
         "name": "Wayne",
         "face": null,
-        "text": "\"I won't be satisfied until I show them a little\nmore pain! Look! My ale is almost spilled...\""
+        "text": "\"I won't be satisfied until I make you suffer a\nbit more! Look! My ale is almost spilling...\""
     },
     "20": {
         "name": "Seres",
@@ -112,7 +112,7 @@
     "22": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "23": {
         "name": null,
@@ -127,22 +127,22 @@
     "25": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"??? What is it???\""
+        "text": "\"Huh? What is it?\""
     },
     "26": {
         "name": "Villager",
         "face": null,
-        "text": "\"The other day, that guy Uji found a hot spring at\nthe foot of the village. So, we tried making an\nopen-air bath. Would you like to come in, Sol-\nchan?\""
+        "text": "\"The other day, that guy Uji found a hot spring at\nthe foot of the village. So, we decided to make an\nopen-air bath. Would you like to come in, Sol-\nchan?\""
     },
     "27": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh...!! A hot spring...!! It's a warm\nspring, isn't it...!! With the smell of\nsulfur...!!\""
+        "text": "\"Ohhh...!! A hot spring...!! It's a warm spring,\nisn't it...!! The smell of sulfur...!!\""
     },
     "28": {
         "name": "Sol",
         "face": "喜2",
-        "text": "\"I'll give it a try!! I'll call everyone too!!\""
+        "text": "\"I'll give it a try!! I'll call everyone too,\nokay?!\""
     },
     "29": {
         "name": null,
@@ -152,7 +152,7 @@
     "30": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ooooooh...!! It was an irresistible hot\nspring...\""
+        "text": "\"Ohhh...!! It was an irresistible hot spring...\""
     },
     "31": {
         "name": "Isk",
@@ -160,9 +160,9 @@
         "text": "\"For me... it's a bit hot, but... just the human\nculture... like this... ah... I'm getting a little\nexcited...\""
     },
     "32": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Sol-chan, stop teasing that dragon a bit.\""
+        "text": "\"Sol-chan, stop teasing that dragon a bit\""
     },
     "33": {
         "name": null,
@@ -172,17 +172,17 @@
     "34": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Hmm... As expected, baths are wonderful. I feel\nlike my travel fatigue is also healing.\""
+        "text": "\"....Phew. As expected, baths are wonderful. It\nfeels like it's healing the fatigue from our\njourney.\""
     },
     "35": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"That's right. I've been quite busy lately. It's\nnice to be able to relax like this.\""
+        "text": "\"That's right. We've been quite busy lately. It's\nnice to be able to relax like this.\""
     },
     "36": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"We never know when the next threat will strike.\nIt's important to build up our morale like this\nwhenever we can.\""
+        "text": "\"We never know when the next threat will strike.\nIt's important to cultivate our spirits like this\nwhenever we can.\""
     },
     "37": {
         "name": null,
@@ -192,37 +192,37 @@
     "38": {
         "name": "Sol",
         "face": null,
-        "text": "\"Ooooooh...!! (Gobobobobobo)\""
+        "text": "\"Oooooohhhhhhh (gobobobobobo)\""
     },
     "39": {
         "name": "Isk",
         "face": null,
-        "text": "\"Haaaah...... (Gobobobobobo)\""
+        "text": "\"Haaaahhhh...... (gobobobobobo)\""
     },
     "40": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
         "text": "\"......So, why are those two sinking?\""
     },
     "41": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"Perhaps it's just a natural habit for them.\nDefinitely. Probably. I'll make a point not to\nworry about it. I have.\""
+        "text": "\"Perhaps it's just their nature. Definitely.\nProbably. I'll make a point not to worry about it.\nI have.\""
     },
     "42": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Sensei has thrown her thoughts away...\""
+        "text": "\"Sensei threw her thoughts away...\""
     },
     "43": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "44": {
         "name": null,
         "face": null,
-        "text": "The old man at the magic shop"
+        "text": "The old man from the magic shop"
     },
     "45": {
         "name": "Sol",
@@ -237,7 +237,7 @@
     "47": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"Nice to meet you, grandpa! ...Do you live in a\nplace like this?\""
+        "text": "\"Nice to meet you, Grandpa! ...Do you live in a\nplace like this?\""
     },
     "48": {
         "name": "Grandpa Wizard",
@@ -257,7 +257,7 @@
     "51": {
         "name": "Grandpa Wizard",
         "face": null,
-        "text": "\"Well, if you feel like it, come and visit again.\nI'll give you something in exchange for the\ntreasures you've collected.\""
+        "text": "\"Well, if you feel like it, come and visit again.\nIn exchange for the treasures you've gathered,\nI'll give you something.\""
     },
     "52": {
         "name": "Sol",
@@ -272,7 +272,7 @@
     "54": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Boo\""
+        "text": "\"Hmph.\""
     },
     "55": {
         "name": null,

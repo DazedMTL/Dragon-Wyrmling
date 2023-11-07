@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The line is empty"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Volcano Dungeon_Escape"
+        "text": "●Scene: Volcano Dungeon_Escape"
     },
     "2": {
         "name": "-",
@@ -17,7 +17,7 @@
     "3": {
         "name": "Narration",
         "face": null,
-        "text": "When the light returned to Sol's vision shrouded\nin darkness, the surrounding scenery had\ncompletely changed. Although she was supposed to\nhave been on the scorching red mountain just a\nmoment ago, she was now in a small hut at the foot\nof the mountain."
+        "text": "When the light returned to Sol's vision shrouded\nin darkness, the surrounding scenery had\ncompletely changed. Although she was supposed to\nhave been on a scorching red mountain just a\nmoment ago, she was now in a small hut at the foot\nof the mountain."
     },
     "4": {
         "name": "Narration",
@@ -37,22 +37,22 @@
     "7": {
         "name": "Sol",
         "face": "普通2",
-        "text": "\"Eh...Sensei!? Why are you here!? Huh!?\""
+        "text": "\"Huh...Sensei!? Why are you here!? Huh!?\""
     },
     "8": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通2",
-        "text": "\"At that time, it was Eni-sensei who saved me from\nthe red dragon. She used the power of the\n<Transference Helm> to transfer us here.\nSeriously? That helm alone is worth about 20,000\ngold coins!? And she just casually took it!\""
+        "text": "\"At that time, it was Eni-sensei who saved us from\nthe red dragon. She used the power of the\n<Transference Helm> to teleport us here.\nSeriously? That helm alone is worth about 20,000\ngold coins! And she just casually used it!\""
     },
     "9": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"I may have overused that precious Transference\nHelm and ended up breaking it. But well, it served\nits purpose sufficiently.\""
+        "text": "\"I may have overused that precious Transference\nHelm and ended up breaking it. But well, it served\nits purpose quite well.\""
     },
     "10": {
         "name": "Sol",
         "face": "哀3",
-        "text": "\"Te-Teacher~~~!!\""
+        "text": "\"Te-teacher~~~!!!\""
     },
     "11": {
         "name": "Eni-sensei",
@@ -67,7 +67,7 @@
     "13": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "14": {
         "name": null,
@@ -87,17 +87,17 @@
     "17": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"That red dragon... known as Evennajetorudoru...\nHe is the one who slew Sol's mother and took her\nnest. He is an Ancient Dragon.\""
+        "text": "\"That red dragon... known as Evennajetoldor... He\nis the one who slew Sol's mother and plundered her\nnest. He is an Ancient Dragon.\""
     },
     "18": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"He is the one who...\""
+        "text": "\"That guy...\""
     },
     "19": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒3",
-        "text": "\"This is no joke... Without Eni-sensei, we would\nhave been wiped out for sure. How could such a\nmonster be lurking so close by?\""
+        "text": "\"This is no joke... Without Eni-sensei, we would\nhave definitely been wiped out. The fact that such\na monster was this close by, is unbelievable.\""
     },
     "20": {
         "name": "Eni-sensei",
@@ -107,7 +107,7 @@
     "21": {
         "name": "Sol",
         "face": "哀1",
-        "text": "\"Te-Teacher!!! I... I want to defeat him... I want\nto defeat him!!\""
+        "text": "\"Te-teacher!!! I... I want to defeat him... I want\nto defeat him!!\""
     },
     "22": {
         "name": "Eni-sensei",
@@ -117,7 +117,7 @@
     "23": {
         "name": "Sol",
         "face": "哀3",
-        "text": "\"Uuuugh...\""
+        "text": "\"Ughhh...\""
     },
     "24": {
         "name": "Eni-sensei",
@@ -140,7 +140,7 @@
         "text": "\"It is said that this weapon easily cuts through\ndragon scales and greatly diminishes their\npower... If we are to defeat the Ancient Dragon,\nthen it will be necessary.\""
     },
     "28": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通1",
         "text": "\"The Dragon Slayer, huh... I've heard about it in\nhero tales, but do we know where it is?\""
     },
@@ -167,7 +167,7 @@
     "33": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "34": {
         "name": null,
@@ -182,22 +182,22 @@
     "36": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"The Dragon Slayer... I might have a clue.\""
+        "text": "\"The Dragon Slayer... I do have some idea of it.\""
     },
     "37": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"There you are.\""
+        "text": "\"Found it.\""
     },
     "38": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"There you are.\""
+        "text": "\"There it is.\""
     },
     "39": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"There you are.\""
+        "text": "\"There it is.\""
     },
     "40": {
         "name": "Sol",
@@ -207,12 +207,12 @@
     "41": {
         "name": "Isk",
         "face": "喜2",
-        "text": "\"During the previous war, the hero Yamano defeated\nthe evil dragon... At that time, he wielded the\nDragon Slayer's magic sword. It is a legendary\nsword that he obtained after overcoming eight\ntrials and was bestowed upon him by the war god\nAuld, a sword that has been honed since ancient\ntimes...\""
+        "text": "\"During the previous war, the hero Yamano defeated\nthe evil dragon... At that time, he wielded the\nDragon Slayer's magic sword. It is a legendary\nsword that he obtained after overcoming eight\ntrials and was bestowed upon him by the war god\nAuld, a sword that has been forged since ancient\ntimes...\""
     },
     "42": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"Wow!!! Amazing!!! ...So, where is that sword\nnow?\""
+        "text": "\"Wow...!!! Amazing!! ...So, where is that sword\nnow?\""
     },
     "43": {
         "name": "Isk",
@@ -222,17 +222,17 @@
     "44": {
         "name": "Sol",
         "face": "普通3",
-        "text": "\"Ohhh...!! I see...!! ...Could it be that the\nlabyrinth of trials is a dangerous place?\""
+        "text": "\"Ooooooh...!! I see...!! ...Could it be that the\nlegendary Dragon Slayer is in a dangerous place?\""
     },
     "45": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Of course... It is a dangerous place. Many\nadventurers have challenged it, giving birth to\nmany heroes, and yet it is a terrifying labyrinth\nthat swallows up even more lives. If Sol-sama is\ngoing to challenge it, please be careful.\""
+        "text": "\"Of course... it is a dangerous place... Many\nadventurers have challenged it, giving birth to\nmany heroes, and yet it is a terrifying labyrinth\nthat swallows up more lives than that... If Sol-\nsama is going to challenge it as well... please be\ncareful...\""
     },
     "46": {
         "name": "Sol",
         "face": "怒4",
-        "text": "\"Ooooooh... But I can't just stop here! In order\nto avenge my mother, I will definitely obtain the\nDragon Slayer no matter what!\""
+        "text": "\"Ooooooh...! But I can't just stop here! In order\nto avenge my mother, I will definitely obtain the\nDragon Slayer no matter what!\""
     },
     "47": {
         "name": "Isk",
@@ -242,7 +242,7 @@
     "48": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "49": {
         "name": null,

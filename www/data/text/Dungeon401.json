@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Beginning of the Forest Dungeon"
+        "text": "●Scene: Beginning of the forest dungeon"
     },
     "2": {
         "name": "-",
@@ -17,7 +17,7 @@
     "3": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Hey, it's serious! Someone, help!!\""
+        "text": "\"Hey, it's serious! We need some help!!\""
     },
     "4": {
         "name": "Adventurer",
@@ -32,7 +32,7 @@
     "6": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"Y-Yes! I'll go right now!\""
+        "text": "\"Y-Yes!! I'll go right now!\""
     },
     "7": {
         "name": null,
@@ -42,17 +42,17 @@
     "8": {
         "name": "Ma-kun",
         "face": null,
-        "text": "\"An elf... Not an adventurer, huh? Must be from\nthe nearby forest tribe.\""
+        "text": "\"An elf... Not an adventurer. Must be from the\nnearby forest tribe.\""
     },
     "9": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "普通3",
-        "text": "\"So... what happened? Those wounds... they're\nquite severe, aren't they?\""
+        "text": "\"So... what happened? Those wounds... look pretty\nsevere...\""
     },
     "10": {
         "name": "Elf",
         "face": null,
-        "text": "\"I'm sorry... please help us...! A green dragon\nappeared in our forest...\""
+        "text": "\"I'm sorry... please help us...! A green dragon\nhas appeared in our forest...\""
     },
     "11": {
         "name": "Sol",
@@ -62,12 +62,12 @@
     "12": {
         "name": "Elf",
         "face": null,
-        "text": "\"Our tribe fought back... but we couldn't match\nhim. Most of our people were either eaten or\ntortured and toyed with for his amusement...\""
+        "text": "\"Our tribe fought back... but we couldn't match\nhim. Most of our people were either eaten or toyed\nwith, suffering and tormenting...\""
     },
     "13": {
         "name": "Elf",
         "face": null,
-        "text": "\"At this rate, the forest will be completely\ndefiled by him. I'm sorry... we came to ask for\nhelp from the people of the plains...\""
+        "text": "\"At this rate, the forest will be completely\ndefiled by that creature. I apologize... for\nseeking help from the people of the plains...\""
     },
     "14": {
         "name": null,
@@ -82,7 +82,7 @@
     "16": {
         "name": "Adventurer",
         "face": null,
-        "text": "\"A green dragon is a dangerous foe...\""
+        "text": "\"The green dragon is a dangerous one...\""
     },
     "17": {
         "name": "Adventurer",
@@ -97,32 +97,32 @@
     "19": {
         "name": "Sol",
         "face": "怒4",
-        "text": "\"I'll do it!! We can't let the green dragon get\naway with this!\""
+        "text": "\"I'll do it!! I won't let the green dragon get\naway with this!\""
     },
     "20": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀1",
-        "text": "\"Sol, aren't you showing a lot of hostility?\""
+        "text": "\"Sol-chan, are you not showing a lot of\nhostility?\""
     },
     "21": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"There's no other choice... For us metallic\ndragons, the colored dragons are natural enemies.\nNot only can we not tolerate their existence, but\nto hear of such atrocities... As a golden dragon\nborn with the instinct to defeat evil...\""
+        "text": "\"There's no other choice... For us metallic\ndragons, the colored dragons are our sworn\nenemies. Not only can we not tolerate their\nexistence, but to hear of such atrocities... As a\ngolden dragon born with the instinct to defeat\nevil...\""
     },
     "22": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "哀3",
-        "text": "\"Ah, I see... I tend to forget because she's\nusually so laid back, but this girl is a golden\ndragon, isn't she?\""
+        "text": "\"Ah, I see... I forgot because she's usually so\nlaid-back, but this child is a golden dragon,\nisn't she?\""
     },
     "23": {
         "name": "Isk",
         "face": "普通1",
-        "text": "\"Yes... I tend to forget something, but she is a\ngolden dragon... She may resemble a puppy, but she\nis not a puppy...\""
+        "text": "\"Yes... I tend to forget, but she is a golden\ndragon... She may resemble a puppy, but she is not\na puppy...\""
     },
     "24": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Hmph\""
+        "text": "*sigh*"
     },
     "25": {
         "name": null,
@@ -132,7 +132,7 @@
     "26": {
         "name": "Ma-kun",
         "face": null,
-        "text": "\"But the opponent is a dragon, and a big shot who\nwiped out an entire elf tribe. Don't let your\nguard down. Be fully prepared.\""
+        "text": "\"But our opponent is a dragon, and not just any\ndragon, but one that wiped out an entire tribe of\nelves. Don't let your guard down. Be fully\nprepared.\""
     },
     "27": {
         "name": null,
@@ -142,7 +142,7 @@
     "28": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "29": {
         "name": null,
@@ -157,7 +157,7 @@
     "31": {
         "name": null,
         "face": null,
-        "text": "Scene: Green Dragon Battle"
+        "text": "Scene: Battle with the Green Dragon"
     },
     "32": {
         "name": null,
@@ -172,7 +172,7 @@
     "34": {
         "name": "Narration",
         "face": null,
-        "text": "The dragon with emerald scales lets out a sneering\nsound that resembles a growl... Gugugugu..."
+        "text": "The dragon with emerald scales lets out a sneering\nsound that resembles a growl, \"Gugugu...\""
     },
     "35": {
         "name": null,
@@ -182,7 +182,7 @@
     "36": {
         "name": "Green Dragon",
         "face": null,
-        "text": "\"Oh, so the clever elves are up to something... To\nthink they would rely on such a pitiful creature.\nHow pathetic!\""
+        "text": "\"Oh, so the clever elves have some scheme in\nmind... To rely on such a pitiful creature. How\npathetic!\""
     },
     "37": {
         "name": "Adventurer",
@@ -190,14 +190,14 @@
         "text": "\"They've appeared...!\""
     },
     "38": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
         "text": "\"This is... the Green...!!\""
     },
     "39": {
         "name": "Green Dragon",
         "face": null,
-        "text": "\"Is that little one over there a golden dragon?\nHahaha, it's beyond pathetic! To think a golden\nchick with a shell on its butt would dare to\noppose me!! Hahahahaha!!\""
+        "text": "\"Is that little one over there a golden dragon?\nHahaha, it's beyond pitiful, it's ridiculous! A\ngolden chick still with its shell on dares to\noppose me!! Hahahahaha!!\""
     },
     "40": {
         "name": "Green Dragon",
@@ -207,12 +207,12 @@
     "41": {
         "name": "Sol",
         "face": "怒1",
-        "text": "\"I absolutely won't allow that! I will take back\nthe forest of the elves!!\""
+        "text": "\"I absolutely won't allow such a thing! I will\ntake back the forest of the elves!!\""
     },
     "42": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "43": {
         "name": null,
@@ -222,22 +222,22 @@
     "44": {
         "name": "Narration",
         "face": null,
-        "text": "The roar of a great beast shakes the forest. The\nshadows of two dragons intersect, making a\nthunderous noise as they fall to the ground."
+        "text": "The roar of a great beast shakes the forest. The\nshadows of two dragons intertwine, making a\nthunderous noise as they fall to the ground."
     },
     "45": {
         "name": "Narration",
         "face": null,
-        "text": "The dust settles, and the silhouette becomes\nclear. What appeared was the figure of a golden\ndragon, perched on top of the massive green body,\nattempting to deliver a decisive blow."
+        "text": "The dust settles, and the silhouette becomes\nclear. What appeared was the figure of a golden\ndragon, perched on top of the massive green body,\naiming to deliver the finishing blow."
     },
     "46": {
         "name": "Green Dragon",
         "face": null,
-        "text": "\"G...gu...gugugu!!\""
+        "text": "\"Gugugu...!!\""
     },
     "47": {
         "name": "Narration",
         "face": null,
-        "text": "In the moment when the Green Dragon opened its jaw\nwide for one last desperate struggle and exhaled a\nbreath of poison gas... the sharp fangs of the\ngolden dragon tore off its head."
+        "text": "In the moment when the Green Dragon opened its\njaws wide for a final struggle and exhaled\npoisonous gas... the sharp fangs of the golden\ndragon tore off its head."
     },
     "48": {
         "name": "Narration",
@@ -252,7 +252,7 @@
     "50": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "51": {
         "name": null,

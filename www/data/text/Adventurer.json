@@ -84,165 +84,165 @@
         "like": null
     },
     "12": {
-        "name": "Eric",
+        "name": "Erick",
         "message": null,
         "help1": "Neutral/Neutral Thief Human",
         "help2": null,
-        "like": "\"Hehe, Sol, Sol. Beer! Having a drink after\nfinishing a job is what life's all about!\""
+        "like": "\"Fufufu, Ale, it's all about the ale. After\nfinishing a job, having a drink is what life's all\nabout!\""
     },
     "13": {
         "name": "Ma-kun",
         "message": null,
-        "help1": "Good/Order Warrior Human",
+        "help1": "Good/Lawful Warrior Human",
         "help2": null,
-        "like": "\"Having a meal while having a great time at the\ntavern is always delicious. Among them, the scent\nof grilled venison is unbeatable.\""
+        "like": "\"Having a meal while having a lively time at the\ntavern is always delicious. Among them, the scent\nof grilled venison is unbeatable.\""
     },
     "14": {
         "name": "Gurestorasu",
-        "message": "\"I am the lightning mage Gurestorasu. If you\ndesire this lightning magic, I will assist you.\n...However, I will require a reasonable research\nfee.\"",
+        "message": "\"I am the lightning mage Gurestorasu. If you\ndesire this lightning magic, I will assist you.\n...However, I will require a suitable research\nfee.\"",
         "help1": "Neutral/Chaotic Mage Human",
-        "help2": "A young magician who specializes in lightning\nmagic. \\> [Magic Attacker]",
+        "help2": "A young magician who specializes in lightning\nmagic. \\> [Magic-based Attacker]",
         "like": "\"I was born with a weak body and can't eat much. I\ndrink a lot of herbal tea. ...Want a sip? It's so\nbitter, you might feel like throwing up.\""
     },
     "15": {
         "name": "Faria",
-        "message": "\"I am Sister Faria, serving at the Ishperel.\nPlease remember me. Lord Gold Dragon.\"",
+        "message": "\"I am Sister Faria, serving at the Ishpale. Please\nremember my name. Lord Gold Dragon.\"",
         "help1": "Good/Neutral Sister Half-Elf",
         "help2": "A healer of the gentle light who protects the\nweak. \\> [Pure Healer]",
-        "like": "\"The simple and delicious barley porridge I often\nate at the monastery suits my taste.\""
+        "like": "\"The barley porridge I often ate at the monastery\nsuits my taste. It's simple and delicious.\""
     },
     "16": {
         "name": "Gomes",
-        "message": "\"I'm Gomes, you see. Hehe, I'll make sure to earn\nplenty for you.\"",
+        "message": "\"I'm Gomes. Hehe, let me earn plenty for you.\"",
         "help1": "Evil/Neutral Rogue Human",
         "help2": "A rogue who is faithful to their own desires. \\>\n[Support/Attacker]",
-        "like": "\"Well, first and foremost, I want some ale. If I\ncan catch even just one rabbit to have as a snack,\nthat would be great. I often sat around the\ncampfire with those smooth-talking guys.\""
+        "like": "\"Well, first and foremost, I want some ale. If I\ncan catch even just one rabbit to have as a snack,\nthat would be great. We often gathered around a\nbonfire with those good-for-nothing guys from\nTsurun.\""
     },
     "17": {
-        "name": "Trendyル",
-        "message": "\"I'm Trendyル. An archer. I'm not used to the human\ncountry, but I'll manage somehow. Nice to meet\nyou.\"",
+        "name": "Trendil",
+        "message": "\"I'm Trendil. An archer. I'm not used to the human\ncountry, but well, I'll manage somehow. Nice to\nmeet you.\"",
         "help1": "Neutral/Neutral Archer Elf",
-        "help2": "An elf archer who gracefully navigates the world.\n\\> [Versatile Attacker]",
+        "help2": "A nonchalant elf archer who navigates the world.\n\\> [Convenient Attacker]",
         "like": "\"Human meals often have strong flavors, but the\nbacon-wrapped green asparagus is good. It's\nexquisite.\""
     },
     "18": {
-        "name": "Gildolf",
-        "message": "\"I am Gildolf, a monk of the god Ishupel. Let us\nfight together to vanquish the impure.\"",
-        "help1": "Good/Lawful Cleric Human",
-        "help2": "A cleric who has taken it upon themselves to hunt\nthe undead. \\> [Versatile/Undead Slayer]",
-        "like": "\"Black bread and wine. And if there's salmon\nsteak, it would be the perfect dinner. Let's give\nthanks to Ishupel.\""
+        "name": "Gidulf",
+        "message": "\"I am Gidulf, a monk of the god Ishper. Let us\nfight together to vanquish the impure.\"",
+        "help1": "Good/Neutral Cleric Human",
+        "help2": "A cleric who has taken it upon themselves to hunt\nthe undead. \\> [Versatile/Undead Specialist]",
+        "like": "\"Black bread and wine. And if there's salmon\nsteak, it would be the perfect dinner. Let's give\nthanks to Ishper.\""
     },
     "19": {
         "name": "Ivo",
-        "message": "\"I am Ivo, a warrior of the Gransnil tribe. I\nswear upon the wolf god and our ancestors to fight\nuntil my heart freezes. Grant me an honorable\nbattlefield and a place to die, dragon.\"",
+        "message": "\"I am Ivo, a warrior of the Gransnir tribe. I\nswear upon the wolf god and our ancestors to fight\nuntil my heart freezes. Grant me an honorable\nbattlefield and a place to die, dragon.\"",
         "help1": "Neutral/Chaotic Barbarian Human",
         "help2": "A tribal warrior who rampages relentlessly. \\>\n[Purely Physical Attacker]",
-        "like": "\"I grill and eat the intestines of a grizzly. It\nbecomes blood, flesh, and anger. There's not\nenough blood in this food here.\""
+        "like": "\"I grill and eat the intestines of the grizzly. It\nbecomes blood, flesh, and anger. Not enough blood,\nthis food here.\""
     },
     "20": {
         "name": "Frey",
-        "message": "\"Fist Fighter Frey! An adventurer! ...I got\nseparated from two other companions. Do you know\nanything about the others?\"",
+        "message": "\"Martial artist Frey! An adventurer! ...I got\nseparated from two other companions. Do you know\nanything about the others?\"",
         "help1": "Neutral/Neutral Fighter Human",
         "help2": "A martial artist with the power of fire. \\>\n[Attribute Attack Attacker]",
-        "like": "\"Apple sake! Blood sausage! Herb-grilled chicken!\n...Even if they call it stinky at the temple...!\nBut I will revel in this life!\""
+        "like": "\"Apple wine! Blood sausage! Herb-grilled chicken!\n...Even if they call it stinky at the temple...!\nBut I will revel in this life!\""
     },
     "21": {
         "name": "Gustav",
-        "message": "\"I'm Gustav. A mercenary gunslinger who couldn't\nmake it as a popular gunsmith.\"",
-        "help1": "\"Good/Neutral Gunslinger Dwarf\"",
-        "help2": "A gunslinger boasting impressive technical skills.\n\\> [Versatile Attacker]",
-        "like": "\"There ain't no dwarf who doesn't drink. First,\nit's all about the booze. If I have the gold, I'd\nbuy a whole barrel and drink it up. Also, the\nfried potatoes at this tavern are delicious. They\ngo well with beer.\""
+        "message": "\"I'm Gustav. A mercenary gunslinger who can't sell\nhis craft.\"",
+        "help1": "Good/Neutral Gunslinger Dwarf",
+        "help2": "A gunslinger boasting technical prowess. \\>\n[Versatile Attacker]",
+        "like": "\"There ain't no dwarf who doesn't drink alcohol.\nFirst, it's all about the booze. If I have the\ngold, I'd buy a whole barrel and drink it up.\nAlso, the fried potatoes at this tavern are\ndelicious. They go well with beer.\""
     },
     "22": {
-        "name": "Dorawken",
-        "message": "\"I am the griffon knight, Dorawken. I have\nanswered the call of gold. This here is my\npartner, Stoner. We ask for your cooperation.\"",
+        "name": "Drowken",
+        "message": "\"I am Drowken, the griffon knight. I respond to\nthe call of gold. And this is my partner, Stoner.\nPlease treat us well.\"",
         "help1": "Neutral/Lawful Knight Human",
         "help2": "A knight of the great sky who rides a griffon. \\>\n[Assault Attacker]",
-        "like": "\"As for me... my partner, Stoner, loves horse\nmeat... When he's hungry, he'll attack other\npeople's horses without discrimination. ...I buy\nhorse meat for him, but it's getting expensive...\""
+        "like": "\"As for me... my partner, Stoner, loves horse\nmeat... When he's hungry, he'll attack anyone's\nhorse without discrimination. ...I do buy and give\nhim horse meat, but it's taking a toll on my food\nexpenses...\""
     },
     "23": {
         "name": "Elsie",
-        "message": "\"P-Please call me Elsie...! I serve as a sister to\nthe war god Auld...!\"",
-        "help1": "\"Good/Lawful Sister Human\"",
-        "help2": "A lovely battle goddess sister. \\> [Enhancement\nskill type healer]",
-        "like": "\"Yes, we often made and ate corn soup at the\norphanage. Dried corn kernels can be stored,\nmaking it very convenient for meals during\nadventures!\""
+        "message": "\"P-Please call me Elsie...! I serve as a sister to\nthe battle god Auld...!\"",
+        "help1": "Good/Orderly Sister Human",
+        "help2": "A lovely battle goddess sister. \\> [Enhancement\nskill-based healer]",
+        "like": "\"Back at the orphanage, we used to make and eat\ncorn soup. Drying the corn kernels allows for\npreservation, making it very convenient for meals\nduring adventures!\""
     },
     "24": {
         "name": "Bain",
-        "message": "\"I'm Bain. As long as I get paid, I'll work. The\namount of gold is the key.\"",
+        "message": "\"I'm Bain. As long as I get paid, I'll work. The\namount of gold is what matters.\"",
         "help1": "Evil/Lawful Warrior Dwarf",
-        "help2": "A powerful warrior who wields a magic axe. \\>\n[Attribute weapon attacker]",
+        "help2": "A powerful warrior who wields a magical axe. \\>\n[Attribute weapon attacker]",
         "like": "\"I only need sake and fish. ...In the mines of my\nhometown, we hardly ever got to eat fish. Since I\nwas a kid, I've always wanted to eat fish until\nI'm full.\""
     },
     "25": {
         "name": "Elaine",
         "message": "\"I am Elaine. I specialize in the magic of ice and\nsnow. I hope to gain new insights, Gold Dragon.\"",
         "help1": "Neutral/Lawful Magician Half-Elf",
-        "help2": "A magician of icy snow that freezes even time. \\>\n[Magic type attacker]",
-        "like": "\"I prefer the black tea harvested in the eastern\npart of the continent. It's fragrant when infused\nwith honey and very soothing. I tend to get\ncompletely absorbed in collecting tea leaves.\""
+        "help2": "A magician of icy snow that freezes even time. \\>\n[Magic-based attacker]",
+        "like": "\"The tea harvested in the eastern part of the\ncontinent is wonderful. When you pour honey into\nit, the aroma is delightful and very soothing. I\ntend to get completely absorbed in collecting tea\nleaves.\""
     },
     "26": {
         "name": "Borschtman",
-        "message": "\"I am Borschtman, a monk who serves the Wind God,\nFolle! Now, I shall assist you with the guidance\nof the wind! Gahaha!\"",
+        "message": "\"I am Borschtman, a monk who serves the Wind God,\nFolle! Now, I shall lend my aid guided by the\nwind! Gahaha!\"",
         "help1": "Good/Lawful Cleric Human",
         "help2": "A traveling cleric who loves snakes. \\>\n[Versatile/Poison type]",
-        "like": "\"You see, catching snakes around here... I take\nthe head, skin, and guts, wrap them around a\nstick, and then grill and eat them! It's quite a\nunique taste, you know!\""
+        "like": "\"You see, I catch snakes around here... I take the\nhead, skin, and guts, wrap them around a stick,\nand then grill them! It's quite a unique taste,\nyou know!\""
     },
     "27": {
         "name": "Seres",
-        "message": "\"I am Celestine. I serve as an auditor for the\nAdventurer's Guild... but today, I am accompanying\nWayne. Please treat us well.\"",
+        "message": "\"I am Celestine. I serve as the auditor of the\nAdventurer's Guild... but today, I am accompanying\nWayne. Please treat us well.\"",
         "help1": "Good/Lawful Sister Elf",
-        "help2": "A sister who governs great protection. \\> [Defense\nspecialized healer]",
-        "like": "\"To be honest, I have a hobby of gardening. It's a\ndaily pleasure for me to make salads with freshly\npicked vegetables. I put a lot of effort into\nmaking the dressing too.\""
+        "help2": "A sister who governs great protection. \\>\n[Defense-specialized healer]",
+        "like": "\"To be honest, I have a hobby of gardening. Making\nsalads with freshly picked vegetables is my daily\npleasure. I also put a lot of effort into making\ndressings, you know.\""
     },
     "28": {
         "name": "Agni",
-        "message": "\"My name is Agni. I am a warrior lizardman. My\ntribe serves the dragon with scales of the same\ncolor as my eyes. I have been traveling in search\nof a dragon with eyes the same color as mine for a\nlong time.\"",
+        "message": "\"My name is Agni. I am a warrior lizardman. My\ntribe serves the dragons with scales of the same\ncolor as my eyes. I have been traveling in search\nof a dragon with eyes the same color as mine for a\nlong time.\"",
         "help1": "Neutral/Chaotic Warrior Lizardman",
-        "help2": "A warrior lizardman who serves the dragon. \\>\n[Sol-enhancing attacker]",
-        "like": "\"I love eating 'catfish' that live in the marshes\nof my hometown. After battles, I often have a\nfeast by eating 'catfish'. ...I wonder if there\nare any good marshes around here?\""
+        "help2": "A warrior lizardman who serves the dragons. \\>\n[Sol's enhanced attacker]",
+        "like": "\"I love eating 'catfish' that live in the marshes\nof my hometown. After battles, it's good to have a\nfeast with 'catfish'. ...I wonder if there are any\ngood marshes around here?\""
     },
     "29": {
         "name": "Wayne",
-        "message": "\"I'm Wayne. A war mage. Well, even though I'm\ncalled a mage, I've only mastered attack spells.\nPlease think of me as a walking cannon or a\nballista.\"",
+        "message": "\"I'm Wayne, a war mage. Well, even though I'm\ncalled a mage, I've only mastered offensive\nspells. Please think of me as a walking cannon or\na ballista.\"",
         "help1": "Neutral/Chaotic Wizard Elf",
         "help2": "A war mage specialized in magic attacks. \\> [Pure\nmagic attacker]",
-        "like": "\"I guess I like wandering around while buying and\neating various things at food stalls. Eating\nthings like grilled skewered meat and street pies,\nwith a mug of ale in hand. But for some reason, I\nkeep getting into fights with thugs. Why is that?\""
+        "like": "\"I like wandering around, buying and eating\nvarious things from food stalls. Eating skewered\nmeat and street pies, with a mug of ale in hand.\nBut for some reason, I keep getting into fights\nwith thugs. Why is that?\""
     },
     "30": {
         "name": "Azusa",
-        "message": "\"My name is Azusa. I am a samurai from the Dragon\nKingdom, but due to certain circumstances, I am\ncurrently wandering. Please take care of me.\"",
+        "message": "\"My name is Azusa. I am a samurai from the\nDragon's Land, but due to certain circumstances, I\nam currently wandering. Please take care of me.\"",
         "help1": "Neutral/Neutral Samurai Human",
-        "help2": "A samurai who has mastered the secret techniques\nof the sword. \\> [Secret technique attacker]",
-        "like": "\"In my hometown, it is customary to eat fish raw.\nI especially liked sushi made with vinegar rice\nand fish. ...I was surprised to hear that the\nculture here does not eat raw fish.\""
+        "help2": "A samurai who has mastered the secret techniques\nof the sword. \\> [Secret Technique Attacker]",
+        "like": "\"In my hometown, there is a custom of eating fish\nraw. I particularly liked sushi made with vinegar\nrice and fish more than anything else. ...I am\nsurprised to hear that the culture here does not\neat raw fish.\""
     },
     "31": {
         "name": "Feril",
-        "message": "\"I am Feril, a lord who serves the war goddess\nAuld. This must be fate. Let my sword become yours\nand together let us carve through the\nbattlefield.\"",
-        "help1": "Good/Lawful Lord Human",
-        "help2": "A lord who serves the war goddess. \\> [Versatile\ntype attacker]",
-        "like": "\"I have a weakness for sweet baked goods... So, I\nalways prepare biscuits and such as travel\nrations. ...I would like to try a baked good\ncalled 'Lembas' made by the elves once...\""
+        "message": "\"I am Feril, a lord who serves the war goddess\nAuld. This must be fate, let my sword become yours\nand together we shall carve through the\nbattlefield.\"",
+        "help1": "\"Good/Orderly Lord Human\"",
+        "help2": "A lord who serves the war goddess. \\> [Versatile\nAttacker]",
+        "like": "\"I have a weakness for sweet baked goods... So, I\neven prepare biscuits and such as travel rations.\n...I would like to try a baked good called\n'Lembas' made by the elves once...\""
     },
     "32": {
         "name": "Ruby",
         "message": "\"I'm Ruby. Ruby Warlock. ...Even though I may look\nlike this, I am technically a bishop, you know?\nWell, please take care of me. Mr. Golden Dragon ♡\"",
-        "help1": "Good/Chaotic Bishop Tiefling",
-        "help2": "A bishop of mixed blood with demons. \\>\n[Specialized support type]",
-        "like": "\"I really like rare, juicy meat, you know? But\nbeing a bishop makes it hard to eat. I'm self-\nconscious about the people around me. It's like\ntheir stares are painful, you know?\""
+        "help1": "Good/Neutral Bishop Tiefling",
+        "help2": "A bishop of mixed blood with demons. \\>\n[Specialized Supporter]",
+        "like": "\"I really like rare, juicy meat, you know? But\nbeing a bishop makes it hard to eat. I feel self-\nconscious about the people around me. It's like\ntheir stares are painful, you know?\""
     },
     "33": {
         "name": "Hayagake",
         "message": "「………………」",
-        "help1": "Evil/Lawful Ninja Human",
-        "help2": "A ninja who continues to hone the art of\nassassination. \\> [Secret technique attacker]",
+        "help1": "\"Evil/Orderly Ninja Human\"",
+        "help2": "A ninja who continues to hone the art of\nassassination. \\> [Secret Technique Attacker]",
         "like": "\"I really miss rice after all...\""
     },
     "34": {
         "name": "Eni-sensei",
         "message": "\"Well then. Since I've come back, I'll join in as\nwell. Please take care of me, Sol.\"",
-        "help1": "Good/Neutral Wise Human",
-        "help2": "A wise beauty who travels the world. \\> [Versatile\nsupport type]",
-        "like": "\"During a camping in the middle of a journey,\nmaking traveler's soup with dried meat and beans,\nand having it around the campfire with the party\nmembers might be more enjoyable than anything\nelse.\""
+        "help1": "Good/Neutral Wise Human.",
+        "help2": "A wise beauty who travels the world. \\> [Versatile\nSupporter]",
+        "like": "\"During a camping trip, making traveler's soup\nwith dried meat and beans, and enjoying it around\nthe campfire with the party members, may be my\nfavorite thing of all.\""
     },
     "": {
         "name": null,

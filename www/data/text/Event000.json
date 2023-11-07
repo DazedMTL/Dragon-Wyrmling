@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The line is empty"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: 〇"
+        "text": "●Scene:"
     },
     "2": {
         "name": "Sol",
@@ -17,7 +17,7 @@
     "3": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Very good\""
+        "text": "\"That's very good\""
     },
     "4": {
         "name": "Sol",
@@ -47,7 +47,7 @@
     "9": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "10": {
         "name": null,

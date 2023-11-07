@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue内容"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "●Scene: Adventurer Joins!"
+        "text": "●Scene: Adventurers Joining!"
     },
     "2": {
         "name": "-",
@@ -42,7 +42,7 @@
     "8": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh...!! If Sensei becomes a comrade, I'll be\neven stronger...!!\""
+        "text": "\"Ooooooh...!! If Sensei becomes a comrade, I'll\nfeel more at ease...!!\""
     },
     "9": {
         "name": "Eni-sensei",
@@ -67,22 +67,22 @@
     "13": {
         "name": "Sol",
         "face": "普通4",
-        "text": "\"Hey, old dwarf man! What's this iron tube?\""
+        "text": "\"Hey, old dwarf! What's this iron tube?\""
     },
     "14": {
         "name": "Gustav",
         "face": null,
-        "text": "\"This here is a cannon. It burns black gunpowder\nand shoots out huge balls. It's like blowing fire\njust like a little girl's breath.\""
+        "text": "\"This here is a cannon. It burns black gunpowder\nand shoots out huge balls. It's like watching a\nlittle girl breathe fire.\""
     },
     "15": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh...! It feels like my own subordinate! I'm\nstarting to feel close to you!\""
+        "text": "\"Ooooooh...! It feels like my loyal subject! I'm\nstarting to feel close to you!\""
     },
     "16": {
         "name": "Gustav",
         "face": null,
-        "text": "\"Hmmm... I see. Let's name this one 'Dragon\nBreath' after the dragon's fire!\""
+        "text": "\"Hmmm... I see. Let's name this one 'Dragon\nBreath,' the fire-breathing dragon!\""
     },
     "17": {
         "name": null,
@@ -97,7 +97,7 @@
     "19": {
         "name": "Agni",
         "face": null,
-        "text": "\"My name is Agni. A warrior of the scale people.\nMy tribe serves the dragon with scales of the same\ncolor as my eyes. I have been on a journey to find\na dragon with scales the same color as my eyes for\na long time.\""
+        "text": "\"My name is Agni. A warrior of the dragonkin. My\ntribe serves dragons with scales the same color as\nmy eyes. I have been traveling in search of a\ndragon with scales the same color as my eyes for a\nlong time.\""
     },
     "20": {
         "name": "Agni",
@@ -107,7 +107,7 @@
     "21": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh... Mr. Lizardfolk...! Since we are both\nscale comrades, let's get along!!\""
+        "text": "\"Ooooooh... Mr. Lizardfolk...! Since we are both\nof the same scale kin, let's get along!!\""
     },
     "22": {
         "name": null,
@@ -122,7 +122,7 @@
     "24": {
         "name": "Wayne",
         "face": null,
-        "text": "\"I'm Wayne. A war mage. Well, even though I'm\ncalled a mage, I've only mastered attack spells.\nThink of me as a walking cannon or ballista.\""
+        "text": "\"I'm Wayne. A war mage. Well, even though I'm\ncalled a mage, I've only mastered attack spells.\nPlease think of me as a walking cannon or\nballista.\""
     },
     "25": {
         "name": "Sol",
@@ -142,7 +142,7 @@
     "28": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Oh, the elven auditor! Ohhh...! Such a beautiful\nperson!! I look forward to working with you!!!\""
+        "text": "\"Are you the elven auditor, my goodness! Ohhh...!\nSuch a beautiful person!! I look forward to\nworking with you!!!\""
     },
     "29": {
         "name": null,
@@ -155,9 +155,9 @@
         "text": null
     },
     "31": {
-        "name": "Dorawken",
+        "name": "Drowken",
         "face": null,
-        "text": "\"I am Dorawken, the Griffin Knight. I have come in\nresponse to the call of gold. This here is my\npartner, Stoner. I humbly ask for your\ncooperation.\""
+        "text": "\"I am Drowken, the Griffin Knight. I have answered\nthe call of gold and have arrived. This here is my\npartner, Stoner. We look forward to working with\nyou.\""
     },
     "32": {
         "name": "Stoner",
@@ -167,7 +167,7 @@
     "33": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh...! Griffin Rider-san! ...The griffin\nseems... quite powerful...\""
+        "text": "\"Ooooooh...! The Griffin Rider! ...The griffin\nitself is... quite powerful...\""
     },
     "34": {
         "name": null,
@@ -200,9 +200,9 @@
         "text": null
     },
     "40": {
-        "name": "Trendyル",
+        "name": "Trendil",
         "face": null,
-        "text": "\"I'm Trendyル. An archer. I'm not used to the human\ncountry, but I'll manage somehow. Nice to meet\nyou.\""
+        "text": "\"I'm Trendil. An archer. I'm not used to the human\ncountry, but I'll manage somehow. Nice to meet\nyou.\""
     },
     "41": {
         "name": "Sol",
@@ -222,7 +222,7 @@
     "44": {
         "name": "Faria",
         "face": null,
-        "text": "\"I am Faria, a sister serving in Ishupale. Please\ntake care of me. Gold Dragon-sama.\""
+        "text": "\"I am Faria, a sister serving in Ishperel. Please\nremember me. Lord Gold Dragon.\""
     },
     "45": {
         "name": "Sol",

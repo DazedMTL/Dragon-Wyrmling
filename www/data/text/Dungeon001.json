@@ -1,237 +1,237 @@
 {
-  "0": {
-    "name": "-",
-    "face": "表情",
-    "text": "The line is empty"
-  },
-  "1": {
-    "name": null,
-    "face": null,
-    "text": "Scene: 〇"
-  },
-  "2": {
-    "name": "-",
-    "face": "-",
-    "text": null
-  },
-  "3": {
-    "name": "Sol",
-    "face": "普通2",
-    "text": "\"We've arrived!! ...Is this the forest, sensei?\""
-  },
-  "4": {
-    "name": "Eni-sensei",
-    "face": "普通1",
-    "text": "\"Yes... How does it look to you, Sol?\""
-  },
-  "5": {
-    "name": "Sol",
-    "face": "普通2",
-    "text": "\"Um... um...! There's a slightly unpleasant\nsmell... It feels like someone, you know, a bad\nperson is hiding...\""
-  },
-  "6": {
-    "name": "Eni-sensei",
-    "face": "普通2",
-    "text": "\"I see. ...Recently, it seems that some bandits\nhave settled in this forest and are causing\ntrouble.\""
-  },
-  "7": {
-    "name": "Eni-sensei",
-    "face": "怒1",
-    "text": "\"Many people have gone missing and become victims,\nkilled or even abducted by them. We can't just\nleave their misdeeds unchecked.\""
-  },
-  "8": {
-    "name": "Eni-sensei",
-    "face": "怒1",
-    "text": "\"We will consider their subjugation as Sol's\ngraduation exam. Is that alright?\""
-  },
-  "9": {
-    "name": "Sol",
-    "face": "怒4",
-    "text": "\"Y-Yes! I'll bite them with all my might!!\""
-  },
-  "10": {
-    "name": "Eni-sensei",
-    "face": "普通1",
-    "text": "\"Very well. This time, I will also follow Sol's\nlead. I can't go all out, but... I leave it to\nyou.\""
-  },
-  "11": {
-    "name": "Sol",
-    "face": "喜1",
-    "text": "\"Oh... this feels really serious...\""
-  },
-  "12": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "13": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "14": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "15": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "16": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "17": {
-    "name": null,
-    "face": null,
-    "text": "Scene: Rescuing Eric"
-  },
-  "18": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "19": {
-    "name": "Eni-sensei",
-    "face": "普通1",
-    "text": "\"......Sol\""
-  },
-  "20": {
-    "name": "Narration",
-    "face": null,
-    "text": "A female adventurer, speaking in a tense whisper,\nstops Sol and hides herself. Sol is momentarily\ntaken aback, but immediately understands the\nintention behind her actions and follows suit."
-  },
-  "21": {
-    "name": "Sol",
-    "face": "怒1",
-    "text": "(Sensei, are those... enemies?)"
-  },
-  "22": {
-    "name": "Eni-sensei",
-    "face": "怒1",
-    "text": "(Yes, enemies... I sense the presence of probably\nthree. And... there's one person being captured.)"
-  },
-  "23": {
-    "name": "Sol",
-    "face": "怒1",
-    "text": "(T-Then, let's hurry and go rescue them...!)"
-  },
-  "24": {
-    "name": "Eni-sensei",
-    "face": "怒1",
-    "text": "(No, if we go out now, we'll expose that person to\ndanger as a hostage. Let's wait a little longer\nand choose the right timing.)"
-  },
-  "25": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "26": {
-    "name": "Eni-sensei",
-    "face": "怒1",
-    "text": "(Now is the time)"
-  },
-  "27": {
-    "name": "Sol",
-    "face": "怒1",
-    "text": "\"Y-Yes!! Let's go!!\""
-  },
-  "28": {
-    "name": "Thief",
-    "face": null,
-    "text": "\"W-What's this!!??\""
-  },
-  "29": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "30": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "31": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "32": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "33": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "34": {
-    "name": null,
-    "face": null,
-    "text": "Scene: Successful Rescue"
-  },
-  "35": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "36": {
-    "name": "Eni-sensei",
-    "face": "喜1",
-    "text": "\"Good work, Sol.\""
-  },
-  "37": {
-    "name": "Sol",
-    "face": "困1",
-    "text": "\"I-I did my best... fufi... But, Sensei, is this\nperson going to be okay...?\""
-  },
-  "38": {
-    "name": "Eni-sensei",
-    "face": "普通1",
-    "text": "\"Yes, it seems there are no life-threatening\ninjuries. It would be best to let them rest here\nfor a while.\""
-  },
-  "39": {
-    "name": "Eni-sensei",
-    "face": "普通1",
-    "text": "\"And don't let your guard down. There's probably\nstill a main force remaining.\""
-  },
-  "40": {
-    "name": "Sol",
-    "face": "普通1",
-    "text": "\"Yo!\""
-  },
-  "41": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "42": {
-    "name": null,
-    "face": null,
-    "text": "終了"
-  },
-  "43": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "44": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "45": {
-    "name": null,
-    "face": null,
-    "text": null
-  },
-  "46": {
-    "name": null,
-    "face": null,
-    "text": null
-  }
+    "0": {
+        "name": "-",
+        "face": "表情",
+        "text": "セリフ内容"
+    },
+    "1": {
+        "name": null,
+        "face": null,
+        "text": "●Scene:"
+    },
+    "2": {
+        "name": "-",
+        "face": "-",
+        "text": null
+    },
+    "3": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"We've arrived!! ...Is this the forest, Sensei?\""
+    },
+    "4": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Yes... How does it look to you, Sol?\""
+    },
+    "5": {
+        "name": "Sol",
+        "face": "普通2",
+        "text": "\"Um... um...! There's a slightly unpleasant\nsmell... It feels like someone, you know, a bad\nperson is hiding...\""
+    },
+    "6": {
+        "name": "Eni-sensei",
+        "face": "普通2",
+        "text": "\"I see. ...Recently, it seems that some bandits\nhave settled in this forest and are causing\nmischief.\""
+    },
+    "7": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"Many people have gone missing and become victims,\nkilled or even abducted by them. We cannot leave\ntheir mischief unchecked.\""
+    },
+    "8": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "\"We will consider their subjugation as Sol's\ngraduation exam. Is that alright?\""
+    },
+    "9": {
+        "name": "Sol",
+        "face": "怒4",
+        "text": "\"Y-Yes! I'll bite with all my might!!\""
+    },
+    "10": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Very well. This time, I will also follow Sol's\ninstructions. I can't go all out, but... I leave\nit to you.\""
+    },
+    "11": {
+        "name": "Sol",
+        "face": "喜1",
+        "text": "\"Oh... this seems quite serious...\""
+    },
+    "12": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "13": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "14": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "15": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "16": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "17": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Rescuing Erick"
+    },
+    "18": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "19": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"......Sol\""
+    },
+    "20": {
+        "name": "Narration",
+        "face": null,
+        "text": "The female adventurer, in a tense whisper, stops\nSol and hides herself. Sol is momentarily taken\naback, but immediately understands the intention\nbehind her actions and follows suit."
+    },
+    "21": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "(Sensei, are those... enemies?)"
+    },
+    "22": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "(Yes, enemies... I sense the presence of probably\nthree. And... there's one person who has been\ncaptured.)"
+    },
+    "23": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "(T-Then, let's hurry and go rescue them...!)"
+    },
+    "24": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "(No, if we go out now, we'll end up exposing that\nperson to danger as a hostage. Let's wait a little\nlonger and choose the right timing.)"
+    },
+    "25": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "26": {
+        "name": "Eni-sensei",
+        "face": "怒1",
+        "text": "(Now is the time)"
+    },
+    "27": {
+        "name": "Sol",
+        "face": "怒1",
+        "text": "\"Y-Yes!! Let's go!!\""
+    },
+    "28": {
+        "name": "Thief",
+        "face": null,
+        "text": "\"W-What's this!!??\""
+    },
+    "29": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "30": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "31": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "32": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "33": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "34": {
+        "name": null,
+        "face": null,
+        "text": "Scene: Successful Rescue"
+    },
+    "35": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "36": {
+        "name": "Eni-sensei",
+        "face": "喜1",
+        "text": "\"Good work, Sol.\""
+    },
+    "37": {
+        "name": "Sol",
+        "face": "困1",
+        "text": "\"I-I did my best... fufi... Sensei, is this person\ngoing to be okay...?\""
+    },
+    "38": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"Yes, it seems there are no life-threatening\ninjuries. It would be best to let them rest here\nfor a while.\""
+    },
+    "39": {
+        "name": "Eni-sensei",
+        "face": "普通1",
+        "text": "\"And don't let your guard down. There's probably\nstill a main force remaining.\""
+    },
+    "40": {
+        "name": "Sol",
+        "face": "普通1",
+        "text": "\"Yo!\""
+    },
+    "41": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "42": {
+        "name": null,
+        "face": null,
+        "text": "End"
+    },
+    "43": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "44": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "45": {
+        "name": null,
+        "face": null,
+        "text": null
+    },
+    "46": {
+        "name": null,
+        "face": null,
+        "text": null
+    }
 }

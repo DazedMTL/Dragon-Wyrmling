@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
@@ -22,7 +22,7 @@
     "4": {
         "name": "Sol",
         "face": "喜1",
-        "text": "\"Ooooooh... My territory...! Understood! I will\nprotect it a lot!! I will protect it from the bad\nguys!!\""
+        "text": "\"Ooooo... My territory...! Understood! I will\nprotect it a lot!! I will protect it from the bad\nguys!!\""
     },
     "5": {
         "name": "Eni-sensei",
@@ -42,7 +42,7 @@
     "8": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Hmph\""
+        "text": "\"Hmph.\""
     },
     "9": {
         "name": "Eni-sensei",
@@ -52,17 +52,17 @@
     "10": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"First, descend the mountain and visit the\nadventurers' tavern in the village at the foot.\nThere are surely adventurers who will help you and\nSol.\""
+        "text": "\"First, descend the mountain and visit the\nadventurers' tavern in the village at the foot.\nThere are surely adventurers who will help Sol\nthere.\""
     },
     "11": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Since Sol's body is still small, there are few\nwho can carry her on their backs...\""
+        "text": "\"Since Sol's body is still small, there are few\nwho can ride on her back...\""
     },
     "12": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"From now on, you will continue to grow, molt, and\nyour body as a dragon will become larger and\nlarger. Then, the number of people who can carry\nyou at once will also increase.\""
+        "text": "\"From now on, you will continue to grow, molt, and\nyour body as a dragon will become larger and\nlarger. Then, the number of people you can carry\nat once will also increase.\""
     },
     "13": {
         "name": "Eni-sensei",
@@ -82,12 +82,12 @@
     "16": {
         "name": "Eni-sensei",
         "face": "喜1",
-        "text": "\"Well then, my teachings are over. With this, you\nare at least for now, more or less a full-fledged\ndragon.\""
+        "text": "\"Well then, my teachings are over. With this, you\nare at least, in a way, a full-fledged dragon.\""
     },
     "17": {
         "name": "Sol",
         "face": "怒3",
-        "text": "\"Hmph\""
+        "text": "\"Hmph.\""
     },
     "18": {
         "name": "Eni-sensei",
@@ -112,7 +112,7 @@
     "22": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"Until we meet again\""
+        "text": "\"Until we meet again.\""
     },
     "23": {
         "name": "Sol",
@@ -132,22 +132,22 @@
     "26": {
         "name": "Eni-sensei",
         "face": "哀1",
-        "text": "\"......I did say that, but the truth is, I've\nbecome attached during these two years of raising\nyou.\""
+        "text": "\"......I did say that, but it's also true that\nI've become attached during these two years of\nraising you.\""
     },
     "27": {
         "name": "Eni-sensei",
         "face": "普通2",
-        "text": "\"For a while, I'll travel around this area and\nmake sure I can come running whenever you need\nme.\""
+        "text": "\"For a while, I'll travel around this area, so I\ncan come running over anytime.\""
     },
     "28": {
         "name": "Eni-sensei",
         "face": "哀1",
-        "text": "\"If Aisha, my student, were to see me on that day,\nshe would probably laugh and say I've become quite\nsoft. I've ended up becoming a mother, despite\nbeing unmarried.\""
+        "text": "\"If Aisha, my student, were to see me, she would\nprobably laugh and say I've become quite round.\nI've become like a mother, despite being\nunmarried.\""
     },
     "29": {
         "name": "Eni-sensei",
         "face": "困1",
-        "text": "\"Despite being unmarried\""
+        "text": "\"Despite being unmarried.\""
     },
     "30": {
         "name": null,
@@ -157,7 +157,7 @@
     "31": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "Fade to black"
     },
     "32": {
         "name": null,
@@ -167,7 +167,7 @@
     "33": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "34": {
         "name": null,

@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Generic Dungeon Dialogue"
+        "text": "●Scene: Generic Dungeon Lines"
     },
     "2": {
         "name": "-",
@@ -32,7 +32,7 @@
     "6": {
         "name": "Sol",
         "face": null,
-        "text": "\"Gwahh\""
+        "text": "\"Grrr\""
     },
     "7": {
         "name": "Sol",
@@ -42,7 +42,7 @@
     "8": {
         "name": "Sol",
         "face": null,
-        "text": "\"I sense something coming from over here!\""
+        "text": "\"I sense something coming this way!\""
     },
     "9": {
         "name": "Sol",
@@ -70,19 +70,19 @@
         "text": null
     },
     "14": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
         "text": "\"Oh, a treasure chest! This is great, this is\nexactly what I've been waiting for!\""
     },
     "15": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"I'm unlocking it, I'm unlocking it...! Hm, okay,\nit's open!\""
+        "text": "\"Turn the key, turn the key...! Hmm, okay, it's\nopen!\""
     },
     "16": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"It's impossible from here. We can't pass without\na key.\""
+        "text": "\"This way is impossible. We can't pass without a\nkey.\""
     },
     "17": {
         "name": null,

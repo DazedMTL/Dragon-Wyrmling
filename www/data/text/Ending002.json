@@ -2,12 +2,12 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "The dialogue content"
+        "text": "セリフ内容"
     },
     "1": {
         "name": null,
         "face": null,
-        "text": "Scene: Ending Route"
+        "text": "●Scene: Ending Route"
     },
     "2": {
         "name": "-",
@@ -35,7 +35,7 @@
         "text": null
     },
     "7": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
         "text": "\"Alright, I'm going to earn a lot today too!\""
     },
@@ -55,9 +55,9 @@
         "text": "\"I'll collect lots of treasures, protect my\nterritory, and do my best until I become a Great\nWorm!\""
     },
     "11": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "喜1",
-        "text": "\"Of course, we'll properly split the treasures,\nright?\""
+        "text": "\"Of course, we'll split the treasures properly,\nright?\""
     },
     "12": {
         "name": "Sol",
@@ -65,7 +65,7 @@
         "text": "\"Hm?\""
     },
     "13": {
-        "name": "Eric",
+        "name": "Erick",
         "face": "怒1",
         "text": "\"You can't get away with it just by making a cute\nface, you know?\""
     },
@@ -82,12 +82,12 @@
     "16": {
         "name": "Sol",
         "face": null,
-        "text": "\"Hehehe... How delightful...\""
+        "text": "\"Hehehe... how delightful...\""
     },
     "17": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"My, my, you've really managed to amass quite a\ncollection. I'm not sure if I should be impressed\nor exasperated...\""
+        "text": "\"My, you've really managed to accumulate quite a\nlot. I'm not sure if I should be impressed or\nexasperated...\""
     },
     "18": {
         "name": "Sol",
@@ -97,7 +97,7 @@
     "19": {
         "name": "Eni-sensei",
         "face": null,
-        "text": "\"If only there were a little more dignity\nbefitting of a dragon, then I wouldn't have\nanything to say. ...Honestly.\""
+        "text": "\"If you had a little more dignity befitting of a\ndragon, I wouldn't have anything to say...\nHonestly.\""
     },
     "20": {
         "name": null,
@@ -122,7 +122,7 @@
     "24": {
         "name": "Isk",
         "face": null,
-        "text": "\"Being able to assist the hero... is the greatest\nhappiness for me...\""
+        "text": "\"Being able to assist the hero... is the greatest\nhappiness of all...\""
     },
     "25": {
         "name": "Sol",
@@ -145,9 +145,9 @@
         "text": null
     },
     "29": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"I-Is it okay for me to be here...? Am I really...\nhere...?\""
+        "text": "\"I-Is it okay to be here...? Am I really...\nhere...?\""
     },
     "30": {
         "name": null,
@@ -157,17 +157,17 @@
     "31": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"──────A visitor to my lair... I wonder, what\nbrings you here?\""
+        "text": "\"──────A visitor to my lair... I wonder, what\ncould be the purpose?\""
     },
     "32": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Eek!! Y-You're really here...?!\""
+        "text": "\"Eek!! Y-You really are here...?!\""
     },
     "33": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Um, um, my mother... she got sick... So, I'm\nlooking for medicinal herbs, but...\""
+        "text": "\"U-Um, m-my mother... she got sick... S-So, I'm\nlooking for medicinal herbs, but...\""
     },
     "34": {
         "name": "Kinryu",
@@ -175,14 +175,14 @@
         "text": "「………………」"
     },
     "35": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"My great-grandma said, 'If anything happens, ask\nthe dragon god in this cave for help'...\""
+        "text": "\"My great-grandmother said, 'If something happens,\nask the dragon god of this cave for help'...\""
     },
     "36": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"She's a friend of my great-grandma, so I'm sure\nshe'll help me... S-So...\""
+        "text": "\"My great-grandmother's friend, surely they will\nhelp... S-So...\""
     },
     "37": {
         "name": "Kinryu",
@@ -192,17 +192,17 @@
     "38": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"I see. There's a nostalgic scent... Indeed, you\ndo resemble my friend's presence...\""
+        "text": "\"I see. It's a nostalgic scent... Indeed, you do\nresemble the visage of my friend...\""
     },
     "39": {
-        "name": "Eric",
+        "name": "Erick",
         "face": null,
-        "text": "\"Um...uh...well...\""
+        "text": "\"Um... well... um...\""
     },
     "40": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"Fufu... Very well. Medicinal herbs to heal your\nmother...\""
+        "text": "\"Fufu... very well. Medicinal herbs to heal your\nmother...\""
     },
     "41": {
         "name": null,
@@ -212,12 +212,12 @@
     "42": {
         "name": "Kinryu",
         "face": null,
-        "text": "\"Let's go look for them together!\""
+        "text": "\"Let's go search for them together!\""
     },
     "43": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "44": {
         "name": null,

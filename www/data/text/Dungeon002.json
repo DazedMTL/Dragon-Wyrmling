@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "Dialogue content"
+        "text": "The line is empty"
     },
     "1": {
         "name": null,
@@ -17,32 +17,32 @@
     "3": {
         "name": "Narration",
         "face": null,
-        "text": "A rough and beastly large man, who looks like he\ncould be a boss, is gnawing on the flesh of some\nbeast while drinking. His men, likely his\nsubordinates, are rummaging through the remains of\ntheir loot, probably searching for anything\nvaluable."
+        "text": "A rough and beastly large man, who looks like he's\nfeasting on the spoils of war, is gulping down\nalcohol while sinking his teeth into what appears\nto be the thigh meat of a beast. His underlings\nare likely scavenging valuable items from the\nremains of today's loot."
     },
     "4": {
         "name": "Thief A",
         "face": null,
-        "text": "\"Boss, today's haul seems pretty good, doesn't\nit?\""
+        "text": "\"Boss, today's haul seems to be quite a good one,\nisn't it?\""
     },
     "5": {
-        "name": "Zoku B",
+        "name": "Thief B",
         "face": null,
         "text": "\"Hehe, with this, it looks like we won't have to\nworry about alcohol for a while.\""
     },
     "6": {
         "name": "Thief Boss",
         "face": null,
-        "text": "\"......By the way, have those chasing after the\nthieves returned yet?\""
+        "text": "\"......By the way, have those thieves who went\nafter that pickpocket come back yet?\""
     },
     "7": {
-        "name": "Zoku C",
+        "name": "Thief C",
         "face": null,
-        "text": "\"They're a bit slow... If it's just those kind of\nwomen, they should have caught them quickly and\ncome back.\""
+        "text": "\"They're taking their sweet time... They should\nhave caught that kind of woman and come back by\nnow.\""
     },
     "8": {
         "name": "Thief Boss",
         "face": null,
-        "text": "\"Tch, if they lay a finger on me, I'll punch them\nout!\""
+        "text": "\"Tch, if they keep me waiting and go after her,\nI'll punch them!\""
     },
     "9": {
         "name": null,
@@ -52,17 +52,17 @@
     "10": {
         "name": "Sol",
         "face": "普通1",
-        "text": "(There he is!)"
+        "text": "(There she is!)"
     },
     "11": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "(There are four of them left. It seems like this\nis all of them. What should we do? Sol)"
+        "text": "(There are four left. It seems like this is\neveryone. What should we do? Sol)"
     },
     "12": {
         "name": "Sol",
         "face": "怒1",
-        "text": "(...Here I go! I'll do my best to take them down!)"
+        "text": "(...Here I go! I'll do my best to bring them\ndown!)"
     },
     "13": {
         "name": "Eni-sensei",
@@ -82,7 +82,7 @@
     "16": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "17": {
         "name": null,
@@ -97,7 +97,7 @@
     "19": {
         "name": "Narration",
         "face": null,
-        "text": "The leader of the thieves was defeated, the others\nwho surrendered were captured, and those who\nresisted until the end were abandoned. Considering\nthe atrocities they committed against innocent\npeople, this was already a fairly lenient\ntreatment."
+        "text": "The leader of the pickpockets was defeated, the\nothers who surrendered were captured, and those\nwho resisted until the end were abandoned.\nConsidering the deeds they committed against\ninnocent people, this was still a fairly lenient\ntreatment."
     },
     "20": {
         "name": null,
@@ -107,7 +107,7 @@
     "21": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End"
     },
     "22": {
         "name": null,
