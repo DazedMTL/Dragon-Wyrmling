@@ -152,7 +152,7 @@
     "30": {
         "name": "Eni-sensei",
         "face": "怒1",
-        "text": "「………ん？」"
+        "text": "\"......Hm?\""
     },
     "31": {
         "name": null,
@@ -202,12 +202,12 @@
     "40": {
         "name": null,
         "face": null,
-        "text": "Blackout"
+        "text": "暗転"
     },
     "41": {
         "name": null,
         "face": null,
-        "text": "End"
+        "text": "終了"
     },
     "42": {
         "name": null,

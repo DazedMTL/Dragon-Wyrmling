@@ -2182,7 +2182,7 @@ var pixi_spine;
         (function (EventType) {
             EventType[EventType["start"] = 0] = "start";
             EventType[EventType["interrupt"] = 1] = "interrupt";
-            EventType[EventType["end"] = 2] = "end";
+            EventType[EventType["終了"] = 2] = "終了";
             EventType[EventType["dispose"] = 3] = "dispose";
             EventType[EventType["complete"] = 4] = "complete";
             EventType[EventType["event"] = 5] = "event";
@@ -5604,7 +5604,7 @@ var pixi_spine;
                         var clip = this.attachmentLoader.newClippingAttachment(skin, name);
                         if (clip == null)
                             return null;
-                        var end = this.getValue(map, "end", null);
+                        var end = this.getValue(map, "終了", null);
                         if (end != null) {
                             var slot = skeletonData.findSlot(end);
                             if (slot == null)
