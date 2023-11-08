@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "セリフ内容"
+        "text": "Line to Translate"
     },
     "1": {
         "name": null,
@@ -92,7 +92,7 @@
     "18": {
         "name": null,
         "face": null,
-        "text": "終了"
+        "text": "End\""
     },
     "19": {
         "name": null,

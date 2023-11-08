@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "セリフ内容"
+        "text": "Speech content"
     },
     "1": {
         "name": null,
@@ -182,7 +182,7 @@
     "36": {
         "name": null,
         "face": null,
-        "text": "暗転"
+        "text": "{Ascii_0}"
     },
     "37": {
         "name": null,

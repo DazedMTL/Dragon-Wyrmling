@@ -2,7 +2,7 @@
     "0": {
         "name": "-",
         "face": "表情",
-        "text": "セリフ内容"
+        "text": "Line content"
     },
     "1": {
         "name": null,
@@ -87,7 +87,7 @@
     "17": {
         "name": "Eni-sensei",
         "face": "普通1",
-        "text": "\"ウク・シェー・イー・ダラトリウン・ズィア？ケン？ (What happened? Is there\nanything I can help with?)\""
+        "text": "\"What happened? Is there anything I can help\nwith?\""
     },
     "18": {
         "name": null,
