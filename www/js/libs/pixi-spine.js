@@ -3117,7 +3117,7 @@ var pixi_spine;
                             this.addAfterPosition(p - pathLength_1, world, 0, out, o);
                             continue;
                         }
-                        for (; ; curve++) {
+                        for (;; curve++) {
                             var length_4 = lengths[curve];
                             if (p > length_4)
                                 continue;
@@ -3217,7 +3217,7 @@ var pixi_spine;
                         this.addAfterPosition(p - pathLength, world, verticesLength - 4, out, o);
                         continue;
                     }
-                    for (; ; curve++) {
+                    for (;; curve++) {
                         var length_5 = curves[curve];
                         if (p > length_5)
                             continue;
@@ -3269,7 +3269,7 @@ var pixi_spine;
                         segment = 0;
                     }
                     p *= curveLength;
-                    for (; ; segment++) {
+                    for (;; segment++) {
                         var length_6 = segments[segment];
                         if (p > length_6)
                             continue;
@@ -5040,7 +5040,7 @@ var pixi_spine;
                 output.length = 0;
                 var clippingVertices = clippingArea;
                 var clippingVerticesLast = clippingArea.length - 4;
-                for (var i = 0; ; i += 2) {
+                for (var i = 0;; i += 2) {
                     var edgeX = clippingVertices[i], edgeY = clippingVertices[i + 1];
                     var edgeX2 = clippingVertices[i + 2], edgeY2 = clippingVertices[i + 3];
                     var deltaX = edgeX - edgeX2, deltaY = edgeY - edgeY2;

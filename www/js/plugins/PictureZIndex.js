@@ -46,38 +46,38 @@
  *  Twitter : https://twitter.com/koma_neko
  */
 
-(function () {
+(function(){
     'use strict';
-
-    const _PRODUCT = 'PictureZIndex';
+    
+    const _PRODUCT    = 'PictureZIndex';
     const _PARAMETERS = PluginManager.parameters(_PRODUCT);
 
-    function _(f) { return f[_PRODUCT] = f[_PRODUCT] || {} }
+    function _(f){ return f[_PRODUCT] = f[_PRODUCT] || {} }
 
     function processVariableCharacter(text) {
         var org_text = '';
-        while (text !== org_text) {
+        while (text !== org_text ) {
             org_text = text;
-            text = text.replace(/\\v\[(\d+)\]/gi, function () {
+            text = text.replace(/\\v\[(\d+)\]/gi, function() {
                 return $gameVariables.value(parseInt(arguments[1]));
             }.bind(this));
         }
         return text;
     }
-
+    
     var _Spriteset_Base_createPictures = Spriteset_Base.prototype.createPictures;
-    Spriteset_Base.prototype.createPictures = function () {
+    Spriteset_Base.prototype.createPictures = function() {
         _Spriteset_Base_createPictures.call(this);
         var zIndex = _($gameSystem).zIndex = _($gameSystem).zIndex || [];
-        this._pictureContainer.children.sort(function (a, b) {
+        this._pictureContainer.children.sort(function(a, b) {
             var az = zIndex[a._pictureId] || a._pictureId;
             var bz = zIndex[b._pictureId] || b._pictureId;
             return az - bz;
         });
     };
-
+    
     var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.call(this, command, args);
         if (command.toLowerCase() === 'picturezindex') {
             args = processVariableCharacter(args.join(' ')).split(' ');
@@ -86,7 +86,7 @@
                 var zIndex = _($gameSystem).zIndex = _($gameSystem).zIndex || [];
                 zIndex[+args[0]] = +args[1];
                 if (spriteset) {
-                    spriteset._pictureContainer.children.sort(function (a, b) {
+                    spriteset._pictureContainer.children.sort(function(a, b) {
                         var az = zIndex[a._pictureId] || a._pictureId;
                         var bz = zIndex[b._pictureId] || b._pictureId;
                         return az - bz;
@@ -95,7 +95,7 @@
             } else {
                 _($gameSystem).zIndex = [];
                 if (spriteset) {
-                    spriteset._pictureContainer.children.sort(function (a, b) {
+                    spriteset._pictureContainer.children.sort(function(a, b) {
                         return a._pictureId - b._pictureId;
                     });
                 }

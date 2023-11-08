@@ -156,28 +156,28 @@
 
 var $dataTemplateEvents = null;
 
-(function () {
+(function() {
     'use strict';
-    var pluginName = 'TemplateEvent';
+    var pluginName    = 'TemplateEvent';
     var metaTagPrefix = 'TE';
 
-    var getCommandName = function (command) {
+    var getCommandName = function(command) {
         return (command || '').toUpperCase();
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamOther(paramNames);
         return (value || '').toUpperCase() === 'ON';
     };
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -186,12 +186,12 @@ var $dataTemplateEvents = null;
         return null;
     };
 
-    var getMetaValue = function (object, name) {
+    var getMetaValue = function(object, name) {
         var metaTagName = metaTagPrefix + (name ? name : '');
         return object.meta.hasOwnProperty(metaTagName) ? object.meta[metaTagName] : undefined;
     };
 
-    var getMetaValues = function (object, names) {
+    var getMetaValues = function(object, names) {
         if (!Array.isArray(names)) return getMetaValue(object, names);
         for (var i = 0, n = names.length; i < n; i++) {
             var value = getMetaValue(object, names[i]);
@@ -200,18 +200,18 @@ var $dataTemplateEvents = null;
         return undefined;
     };
 
-    var getArgString = function (arg, upperFlg) {
+    var getArgString = function(arg, upperFlg) {
         arg = convertEscapeCharacters(arg);
         return upperFlg ? arg.toUpperCase() : arg;
     };
 
-    var getArgNumber = function (arg, min, max) {
+    var getArgNumber = function(arg, min, max) {
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(convertEscapeCharacters(arg), 10) || 0).clamp(min, max);
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (text == null) text = '';
         var windowLayer = SceneManager._scene._windowLayer;
         return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text) : text;
@@ -220,16 +220,16 @@ var $dataTemplateEvents = null;
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var paramTemplateMapId = getParamNumber(['TemplateMapId', 'テンプレートマップID']);
-    var paramKeepEventId = getParamBoolean(['KeepEventId', 'イベントIDを維持']);
+    var paramTemplateMapId  = getParamNumber(['TemplateMapId', 'テンプレートマップID']);
+    var paramKeepEventId    = getParamBoolean(['KeepEventId', 'イベントIDを維持']);
     var paramReplaceGraphic = getParamBoolean(['ReplaceGraphic', 'グラフィック置換']);
 
     //=============================================================================
     // Game_Interpreter
     //  プラグインコマンドを追加定義します。
     //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    var _Game_Interpreter_pluginCommand      = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         if (!command.match(new RegExp('^' + metaTagPrefix))) return;
         try {
@@ -251,16 +251,16 @@ var $dataTemplateEvents = null;
         }
     };
 
-    Game_Interpreter.prototype.pluginCommandTemplateEvent = function (command, args) {
+    Game_Interpreter.prototype.pluginCommandTemplateEvent = function(command, args) {
         switch (getCommandName(command)) {
-            case '固有イベント呼び出し':
-            case '_CALL_ORIGIN_EVENT':
+            case '固有イベント呼び出し' :
+            case '_CALL_ORIGIN_EVENT' :
                 this.callOriginEvent(getArgNumber(args[0]));
                 break;
-            case 'マップイベント呼び出し':
-            case '_CALL_MAP_EVENT':
+            case 'マップイベント呼び出し' :
+            case '_CALL_MAP_EVENT' :
                 var pageIndex = getArgNumber(args[1], 1);
-                var eventId = getArgNumber(args[0]);
+                var eventId   = getArgNumber(args[0]);
                 if ($gameMap.event(eventId)) {
                     this.callMapEventById(pageIndex, eventId);
                 } else {
@@ -275,28 +275,28 @@ var $dataTemplateEvents = null;
         }
     };
 
-    Game_Interpreter.prototype.callOriginEvent = function (pageIndex) {
+    Game_Interpreter.prototype.callOriginEvent = function(pageIndex) {
         var event = $gameMap.event(this._eventId);
         if (event && event.hasTemplate()) {
             this.setupAnotherList(null, event.getOriginalPages(), pageIndex);
         }
     };
 
-    Game_Interpreter.prototype.callMapEventById = function (pageIndex, eventId) {
+    Game_Interpreter.prototype.callMapEventById = function(pageIndex, eventId) {
         var event = $gameMap.event(eventId);
         if (event) {
             this.setupAnotherList(paramKeepEventId ? null : eventId, event.getPages(), pageIndex);
         }
     };
 
-    Game_Interpreter.prototype.callMapEventByName = function (pageIndex, eventName) {
+    Game_Interpreter.prototype.callMapEventByName = function(pageIndex, eventName) {
         var event = DataManager.searchDataItem($dataMap.events, 'name', eventName);
         if (event) {
             this.setupAnotherList(paramKeepEventId ? null : event.id, event.pages, pageIndex);
         }
     };
 
-    Game_Interpreter.prototype.setupAnotherList = function (eventId, pages, pageIndex) {
+    Game_Interpreter.prototype.setupAnotherList = function(eventId, pages, pageIndex) {
         var page = pages[pageIndex - 1 || this._pageIndex] || pages[0];
         if (!eventId) eventId = this.isOnCurrentMap() ? this._eventId : 0;
         this.setupChild(page.list, eventId);
@@ -306,18 +306,18 @@ var $dataTemplateEvents = null;
     // Game_Event
     //  テンプレートイベントマップをロードしてグローバル変数に保持します。
     //=============================================================================
-    var _Game_Event_initialize = Game_Event.prototype.initialize;
-    Game_Event.prototype.initialize = function (mapId, eventId) {
+    var _Game_Event_initialize      = Game_Event.prototype.initialize;
+    Game_Event.prototype.initialize = function(mapId, eventId) {
         var event = $dataMap.events[eventId];
         this.setTemplate(event);
         _Game_Event_initialize.apply(this, arguments);
         this.locate(event.x, event.y);
     };
 
-    var _Game_Event_setupPageSettings = Game_Event.prototype.setupPageSettings;
-    Game_Event.prototype.setupPageSettings = function () {
+    var _Game_Event_setupPageSettings      = Game_Event.prototype.setupPageSettings;
+    Game_Event.prototype.setupPageSettings = function() {
         _Game_Event_setupPageSettings.apply(this, arguments);
-        var page = this.getOriginalPages()[this._pageIndex];
+        var page  = this.getOriginalPages()[this._pageIndex];
         if (!paramReplaceGraphic && page) {
             var image = page.image;
             if (image.tileId > 0) {
@@ -328,7 +328,7 @@ var $dataTemplateEvents = null;
         }
     };
 
-    Game_Event.prototype.setTemplate = function (event) {
+    Game_Event.prototype.setTemplate = function(event) {
         var value = getMetaValues(event, '');
         if (value) {
             var templateId = getArgNumber(value, 0, $dataTemplateEvents.length - 1);
@@ -342,20 +342,20 @@ var $dataTemplateEvents = null;
         }
     };
 
-    Game_Event.prototype.hasTemplate = function () {
+    Game_Event.prototype.hasTemplate = function() {
         return this._templateId > 0;
     };
 
-    var _Game_Event_event = Game_Event.prototype.event;
-    Game_Event.prototype.event = function () {
+    var _Game_Event_event      = Game_Event.prototype.event;
+    Game_Event.prototype.event = function() {
         return this.hasTemplate() ? $dataTemplateEvents[this._templateId] : _Game_Event_event.apply(this, arguments);
     };
 
-    Game_Event.prototype.getOriginalPages = function () {
+    Game_Event.prototype.getOriginalPages = function() {
         return $dataMap.events[this._eventId].pages;
     };
 
-    Game_Event.prototype.getPages = function () {
+    Game_Event.prototype.getPages = function() {
         return this.event().pages;
     };
 
@@ -364,9 +364,9 @@ var $dataTemplateEvents = null;
     //  データ検索用の共通処理です。
     //=============================================================================
     if (!DataManager.searchDataItem) {
-        DataManager.searchDataItem = function (dataArray, columnName, columnValue) {
+        DataManager.searchDataItem = function(dataArray, columnName, columnValue) {
             var result = 0;
-            dataArray.some(function (dataItem) {
+            dataArray.some(function(dataItem) {
                 if (dataItem && dataItem[columnName] === columnValue) {
                     result = dataItem;
                     return true;
@@ -381,14 +381,14 @@ var $dataTemplateEvents = null;
     // Scene_Boot
     //  テンプレートイベントマップをロードしてグローバル変数に保持します。
     //=============================================================================
-    var _Scene_Boot_create = Scene_Boot.prototype.create;
-    Scene_Boot.prototype.create = function () {
+    var _Scene_Boot_create      = Scene_Boot.prototype.create;
+    Scene_Boot.prototype.create = function() {
         _Scene_Boot_create.apply(this, arguments);
         DataManager.loadMapData(paramTemplateMapId);
     };
 
-    var _Scene_Boot_isReady = Scene_Boot.prototype.isReady;
-    Scene_Boot.prototype.isReady = function () {
+    var _Scene_Boot_isReady      = Scene_Boot.prototype.isReady;
+    Scene_Boot.prototype.isReady = function() {
         if (!this._mapLoaded && DataManager.isMapLoaded()) {
             this.onTemplateMapLoaded();
             this._mapLoaded = true;
@@ -396,9 +396,9 @@ var $dataTemplateEvents = null;
         return this._mapLoaded && _Scene_Boot_isReady.apply(this, arguments);
     };
 
-    Scene_Boot.prototype.onTemplateMapLoaded = function () {
+    Scene_Boot.prototype.onTemplateMapLoaded = function() {
         $dataTemplateEvents = $dataMap.events;
-        $dataMap = undefined;
+        $dataMap            = undefined;
     };
 })();
 

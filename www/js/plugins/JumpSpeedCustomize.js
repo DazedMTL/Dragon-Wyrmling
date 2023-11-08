@@ -65,7 +65,7 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     /**
@@ -74,7 +74,7 @@
      * @param tagName Meta name
      * @returns {String} meta value
      */
-    var getMetaValue = function (object, tagName) {
+    var getMetaValue = function(object, tagName) {
         return object.meta.hasOwnProperty(tagName) ? convertEscapeCharacters(object.meta[tagName]) : null;
     };
 
@@ -84,9 +84,9 @@
      * @param names Meta name array (for multi language)
      * @returns {String} meta value
      */
-    var getMetaValues = function (object, names) {
+    var getMetaValues = function(object, names) {
         var metaValue;
-        names.some(function (name) {
+        names.some(function(name) {
             metaValue = getMetaValue(object, name);
             return metaValue !== null;
         });
@@ -98,7 +98,7 @@
      * @param text Target text
      * @returns {String} Converted text
      */
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         var windowLayer = SceneManager._scene._windowLayer;
         return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
     };
@@ -107,43 +107,43 @@
      * Game_CharacterBase
      */
     var _Game_CharacterBase_initMembers = Game_CharacterBase.prototype.initMembers;
-    Game_CharacterBase.prototype.initMembers = function () {
+    Game_CharacterBase.prototype.initMembers = function() {
         _Game_CharacterBase_initMembers.apply(this, arguments);
         this._jumpSpeed = 0;
         this._jumpHeight = 0;
     };
 
-    Game_CharacterBase.prototype.getJumpSpeedRate = function () {
+    Game_CharacterBase.prototype.getJumpSpeedRate = function() {
         return this._jumpSpeed / 100;
     };
 
-    Game_CharacterBase.prototype.getJumpHeightRate = function () {
+    Game_CharacterBase.prototype.getJumpHeightRate = function() {
         return this._jumpHeight / 100;
     };
 
-    Game_CharacterBase.prototype.setJumpSpeed = function (value) {
+    Game_CharacterBase.prototype.setJumpSpeed = function(value) {
         this._jumpSpeed = value > 0 ? value : 0;
     };
 
-    Game_CharacterBase.prototype.setJumpHeight = function (value) {
+    Game_CharacterBase.prototype.setJumpHeight = function(value) {
         this._jumpHeight = value;
     };
 
     var _Game_CharacterBase_jumpHeight = Game_CharacterBase.prototype.jumpHeight;
-    Game_CharacterBase.prototype.jumpHeight = function () {
+    Game_CharacterBase.prototype.jumpHeight = function() {
         var height;
         var rate = this.getJumpSpeedRate();
         if (rate > 0) {
             height = (this._jumpPeak * this._jumpPeak -
                 Math.pow(Math.abs(this._jumpCount * rate - this._jumpPeak), 2)) / 2;
         } else {
-            height = _Game_CharacterBase_jumpHeight.apply(this, arguments);
+            height =_Game_CharacterBase_jumpHeight.apply(this, arguments);
         }
         return this._jumpHeight !== 0 ? Math.floor(height * this.getJumpHeightRate()) : height
     };
 
     var _Game_CharacterBase_jump = Game_CharacterBase.prototype.jump;
-    Game_CharacterBase.prototype.jump = function (xPlus, yPlus) {
+    Game_CharacterBase.prototype.jump = function(xPlus, yPlus) {
         _Game_CharacterBase_jump.apply(this, arguments);
         var rate = this.getJumpSpeedRate();
         if (rate > 0) {
@@ -155,12 +155,12 @@
      * Game_Event
      */
     var _Game_Event_initialize = Game_Event.prototype.initialize;
-    Game_Event.prototype.initialize = function (mapId, eventId) {
+    Game_Event.prototype.initialize = function(mapId, eventId) {
         _Game_Event_initialize.apply(this, arguments);
         this.initJumpCustomize();
     };
 
-    Game_Event.prototype.initJumpCustomize = function () {
+    Game_Event.prototype.initJumpCustomize = function() {
         var jumpSpeed = getMetaValues(this.event(), ['JumpSpeed', 'ジャンプ速度']);
         if (jumpSpeed > 0) {
             this.setJumpSpeed(parseInt(jumpSpeed));

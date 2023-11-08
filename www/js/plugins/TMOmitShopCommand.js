@@ -34,14 +34,14 @@
 var Imported = Imported || {};
 Imported.TMOmitShopCommand = true;
 
-(function () {
+(function() {
 
   //-----------------------------------------------------------------------------
   // Scene_Shop
   //
 
   var _Scene_Shop_create = Scene_Shop.prototype.create;
-  Scene_Shop.prototype.create = function () {
+  Scene_Shop.prototype.create = function() {
     _Scene_Shop_create.call(this);
     if (this._goods[0][1] === 0) {
       this._commandWindow.hide();

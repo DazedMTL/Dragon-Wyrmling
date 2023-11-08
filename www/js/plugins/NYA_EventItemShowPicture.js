@@ -215,12 +215,12 @@
 var Imported = Imported || {};
 Imported.NYA_EventItemShowPicture = true;
 
-(function () {
+(function() {
     'use strict';
-
+    
     //プラグインマネージャーで設定されたパラメータを取得
     var parameters = PluginManager.parameters('NYA_EventItemShowPicture');
-
+    
     //パラメータを変数へ
     var tagName = parameters['TagName'];
     var emptyImage = parameters['EmptyImage'];
@@ -234,35 +234,34 @@ Imported.NYA_EventItemShowPicture = true;
     var picBlendMode = Number(parameters['BlendMode']);
     var enabled = true;
     var autoErase = true;
-
+    
     var _Window_EventItem_item = Window_EventItem.prototype.item;
-    Window_EventItem.prototype.item = function () {
+    Window_EventItem.prototype.item = function() {
         _Window_EventItem_item.call(this);
-
+        
         var index = this.index();
-        if (enabled === true) {
-            if (this._data[index] !== undefined) {
-                if (this._data[index].meta[tagName] !== undefined) {
+        if(enabled === true){
+            if(this._data[index] !== undefined){
+                if(this._data[index].meta[tagName] !== undefined){
                     //アイテムのタグにtagNameの値が存在していたらそのタグ名の画像を表示
                     var picName = this._data[index].meta[tagName];
-                    if (picName) {
-                        $gameScreen.showPicture(picId, 'picon/' + picName, picOrigin,
-                            eval(picPositionX), eval(picPositionY),
-                            picScaleX, picScaleY, picOpacity, picBlendMode);
+                    if(picName) { $gameScreen.showPicture(picId, 'picon/' + picName, picOrigin, 
+                                                            eval(picPositionX), eval(picPositionY), 
+                                                            picScaleX, picScaleY, picOpacity, picBlendMode);
                     }
-                } else {
-                    if (emptyImage) {
+                }else{
+                    if(emptyImage){
                         var emptyHidden = this._data[index].meta.emptyHidden;
-                        if (emptyHidden) {
+                        if(emptyHidden){
                             //アイテムのタグにemptyHiddenがあったら画像を非表示
                             $gameScreen.erasePicture(picId);
-                        } else {
+                        }else{
                             //アイテムのタグにemptyHiddenがなければEmptyImageを表示
-                            $gameScreen.showPicture(picId, 'picon/' + emptyImage, picOrigin,
-                                eval(picPositionX), eval(picPositionY),
-                                picScaleX, picScaleY, picOpacity, picBlendMode);
+                            $gameScreen.showPicture(picId, 'picon/' + emptyImage, picOrigin, 
+                                                            eval(picPositionX), eval(picPositionY), 
+                                                            picScaleX, picScaleY, picOpacity, picBlendMode);
                         }
-                    } else {
+                    }else{
                         $gameScreen.erasePicture(picId);
                     }
                 }
@@ -270,129 +269,129 @@ Imported.NYA_EventItemShowPicture = true;
         }
         return this._data && index >= 0 ? this._data[index] : null;
     };
-
+    
     var _Window_EventItem_onOk = Window_EventItem.prototype.onOk;
-    Window_EventItem.prototype.onOk = function () {
+    Window_EventItem.prototype.onOk = function() {
         _Window_EventItem_onOk.call(this);
-        if (enabled === true && autoErase === true) {
+        if(enabled === true && autoErase === true){
             $gameScreen.erasePicture(picId);
         }
     };
-
+    
     var _Window_EventItem_onCancel = Window_EventItem.prototype.onCancel;
-    Window_EventItem.prototype.onCancel = function () {
+    Window_EventItem.prototype.onCancel = function() {
         _Window_EventItem_onCancel.call(this);
-        if (enabled === true && autoErase === true) {
+        if(enabled === true && autoErase === true){
             $gameScreen.erasePicture(picId);
         }
     };
-
-    Game_Screen.prototype.EISP_setPicture = function (pictureId, origin, x, y,
-        scaleX, scaleY, opacity, blendMode) {
-        if (pictureId) picId = pictureId;
+    
+    Game_Screen.prototype.EISP_setPicture = function(pictureId, origin, x, y,
+                                             scaleX, scaleY, opacity, blendMode) {
+        if(pictureId) picId = pictureId;
         else picId = Number(parameters['PictureId']);
-
-        if (origin) picOrigin = origin;
+        
+        if(origin) picOrigin = origin;
         else picOrigin = Number(parameters['Origin']);
-
-        if (x) picPositionX = x;
+        
+        if(x) picPositionX = x;
         else picPositionX = String(parameters['PositionX']);
-
-        if (y) picPositionY = y;
+        
+        if(y) picPositionY = y;
         else picPositionY = String(parameters['PositionY']);
-
-        if (scaleX) picScaleX = scaleX;
+        
+        if(scaleX) picScaleX = scaleX;
         else picScaleX = Number(parameters['ScaleX']);
-
-        if (scaleY) picScaleY = scaleY;
+        
+        if(scaleY) picScaleY = scaleY;
         else picScaleY = Number(parameters['ScaleY']);
-
-        if (opacity) picOpacity = opacity;
+        
+        if(opacity) picOpacity = opacity;
         else picOpacity = Number(parameters['Opacity']);
-
-        if (blendMode) picBlendMode = blendMode;
+        
+        if(blendMode) picBlendMode = blendMode;
         else picBlendMode = Number(parameters['BlendMode']);
     }
-
+    
     var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
 
         _Game_Interpreter_pluginCommand.call(this, command, args);
 
         if (command.toUpperCase() === 'EISP') {
-
+            
             //Enable
-            if (args[0].toUpperCase() === 'OFF') {
+            if (args[0].toUpperCase() === 'OFF'){
                 enabled = false;
             }
-            if (args[0].toUpperCase() === 'ON') {
+            if (args[0].toUpperCase() === 'ON'){
                 enabled = true;
             }
             //EmptyImage
-            if (args[0].toUpperCase() === 'EMPTYIMAGE_EDIT') {
+            if (args[0].toUpperCase() === 'EMPTYIMAGE_EDIT'){
                 emptyImage = String(args[1]);
             }
-            if (args[0].toUpperCase() === 'EMPTYIMAGE_RESET') {
+            if (args[0].toUpperCase() === 'EMPTYIMAGE_RESET'){
                 emptyImage = String(parameters['EmptyImage']);
             }
             //Id
-            if (args[0].toUpperCase() === 'PICTUREID_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREID_EDIT'){
                 picId = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREID_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREID_RESET'){
                 picId = Number(parameters['PictureId']);
             }
             //Origin
-            if (args[0].toUpperCase() === 'PICTUREORIGIN_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREORIGIN_EDIT'){
                 picOrigin = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREORIGIN_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREORIGIN_RESET'){
                 picOrigin = Number(parameters['Origin']);
             }
             //PositionX
-            if (args[0].toUpperCase() === 'PICTUREPOSITIONX_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREPOSITIONX_EDIT'){
                 picPositionX = String(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREPOSITIONX_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREPOSITIONX_RESET'){
                 picPositionX = String(parameters['PositionX']);
             }
             //PositionY
-            if (args[0].toUpperCase() === 'PICTUREPOSITIONY_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREPOSITIONY_EDIT'){
                 picPositionY = String(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREPOSITIONY_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREPOSITIONY_RESET'){
                 picPositionY = String(parameters['PositionY']);
             }
             //ScaleX
-            if (args[0].toUpperCase() === 'PICTURESCALEX_EDIT') {
+            if (args[0].toUpperCase() === 'PICTURESCALEX_EDIT'){
                 picScaleX = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTURESCALEX_RESET') {
+            if (args[0].toUpperCase() === 'PICTURESCALEX_RESET'){
                 picScaleX = Number(parameters['ScaleX']);
             }
             //ScaleY
-            if (args[0].toUpperCase() === 'PICTURESCALEY_EDIT') {
+            if (args[0].toUpperCase() === 'PICTURESCALEY_EDIT'){
                 picScaleY = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTURESCALEY_RESET') {
+            if (args[0].toUpperCase() === 'PICTURESCALEY_RESET'){
                 picScaleY = Number(parameters['ScaleY']);
             }
             //Opacity
-            if (args[0].toUpperCase() === 'PICTUREOPACITY_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREOPACITY_EDIT'){
                 picOpacity = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREOPACITY_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREOPACITY_RESET'){
                 picOpacity = Number(parameters['Opacity']);
             }
             //BlendMode
-            if (args[0].toUpperCase() === 'PICTUREBLENDMODE_EDIT') {
+            if (args[0].toUpperCase() === 'PICTUREBLENDMODE_EDIT'){
                 picBlendMode = Number(args[1]);
             }
-            if (args[0].toUpperCase() === 'PICTUREBLENDMODE_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREBLENDMODE_RESET'){
                 picBlendMode = Number(parameters['BlendMode']);
             }
             //AllReset
-            if (args[0].toUpperCase() === 'PICTUREALL_RESET') {
+            if (args[0].toUpperCase() === 'PICTUREALL_RESET'){
                 picId = Number(parameters['PictureId']);
                 picOrigin = Number(parameters['Origin']);
                 picPositionX = String(parameters['PositionX']);
@@ -403,21 +402,21 @@ Imported.NYA_EventItemShowPicture = true;
                 picBlendMode = Number(parameters['BlendMode']);
             }
             //AutoErase
-            if (args[0].toUpperCase() === 'PICTUREAUTOERASE_ON') {
+            if (args[0].toUpperCase() === 'PICTUREAUTOERASE_ON'){
                 autoErase = true;
             }
-            if (args[0].toUpperCase() === 'PICTUREAUTOERASE_OFF') {
+            if (args[0].toUpperCase() === 'PICTUREAUTOERASE_OFF'){
                 autoErase = false;
             }
             //SetPicture
             if (args.length === 8) {
                 var patternNumber = /^[\d]+$/;
-                for (var i = 0; i < args.length; i++) {
+                for(var i=0;i<args.length;i++){
                     //console.log('args['+i+']:'+args[i]);
-                    if (patternNumber.test(args[i])) { args[i] = Number(args[i]); }
+                    if(patternNumber.test(args[i])) { args[i] = Number(args[i]); }
                     else { args[i] = null; }
                 }
-                $gameScreen.EISP_setPicture(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]);
+                $gameScreen.EISP_setPicture(args[0],args[1],args[2],args[3],args[4],args[5],args[6],args[7]);
             }
         }
     }

@@ -45,14 +45,14 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     //=============================================================================
     // Game_System
     //  メッセージコモンイベントを更新します。
     //=============================================================================
-    Game_System.prototype.addMessageCommonEvents = function (id) {
+    Game_System.prototype.addMessageCommonEvents = function(id) {
         if (!this._messageCommonEvents) {
             this._messageCommonEvents = [];
         }
@@ -61,12 +61,12 @@
         this._messageCommonEvents.push(interpreter);
     };
 
-    Game_System.prototype.updateMessageCommonEvents = function () {
+    Game_System.prototype.updateMessageCommonEvents = function() {
         if (!this._messageCommonEvents || this._messageCommonEvents.length === 0) return;
-        this._messageCommonEvents.forEach(function (interpreter) {
+        this._messageCommonEvents.forEach(function(interpreter) {
             interpreter.update();
         });
-        this._messageCommonEvents = this._messageCommonEvents.filter(function (interpreter) {
+        this._messageCommonEvents = this._messageCommonEvents.filter(function(interpreter) {
             return interpreter.isRunning();
         });
     };
@@ -76,7 +76,7 @@
     //  メッセージコモンイベントを呼び出します。
     //=============================================================================
     var _Window_Message_processEscapeCharacter = Window_Message.prototype.processEscapeCharacter;
-    Window_Message.prototype.processEscapeCharacter = function (code, textState) {
+    Window_Message.prototype.processEscapeCharacter = function(code, textState) {
         if (code === 'CE') {
             this.callMessageCommon(this.obtainEscapeParam(textState));
             return;
@@ -84,12 +84,12 @@
         _Window_Message_processEscapeCharacter.apply(this, arguments);
     };
 
-    Window_Message.prototype.callMessageCommon = function (commonEventId) {
+    Window_Message.prototype.callMessageCommon = function(commonEventId) {
         $gameSystem.addMessageCommonEvents(commonEventId);
     };
 
     var _Window_Message_update = Window_Message.prototype.update;
-    Window_Message.prototype.update = function () {
+    Window_Message.prototype.update = function() {
         $gameSystem.updateMessageCommonEvents();
         _Window_Message_update.apply(this, arguments);
     };

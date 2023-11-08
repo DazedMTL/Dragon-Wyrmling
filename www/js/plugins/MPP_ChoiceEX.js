@@ -239,480 +239,480 @@
  * @default 選択肢ヘルプ
  */
 
-(function () {
+(function() {
 
-    const MPPlugin = {};
+const MPPlugin = {};
 
-    {
+{
+    
+    let parameters = PluginManager.parameters('MPP_ChoiceEX');
+    
+    MPPlugin.maxPageRow = Number(parameters['maxPageRow']);
+    MPPlugin.DisabledIndex = parameters['Disabled Index'];
+    
+    MPPlugin.PluginCommands = JSON.parse(parameters['Plugin Commands']);
+    MPPlugin.EventComment = JSON.parse(parameters['Event Comment']);
 
-        let parameters = PluginManager.parameters('MPP_ChoiceEX');
+}
 
-        MPPlugin.maxPageRow = Number(parameters['maxPageRow']);
-        MPPlugin.DisabledIndex = parameters['Disabled Index'];
+const Alias = {};
 
-        MPPlugin.PluginCommands = JSON.parse(parameters['Plugin Commands']);
-        MPPlugin.EventComment = JSON.parse(parameters['Event Comment']);
+//-----------------------------------------------------------------------------
+// Game_Message
 
+//15
+Alias.GaMe_clear = Game_Message.prototype.clear;
+Game_Message.prototype.clear = function() {
+    Alias.GaMe_clear.apply(this, arguments);
+    this._choiceEnables = [];
+    this._choiceResults = [];
+    this._helpTexts = [];
+    this._choiceX = -1;
+    this._choiceY = -1;
+    this._choiceWidth = -1;
+    this._choiceHeight = -1;
+    this._choiceMaxRow = MPPlugin.maxPageRow;
+    this._choiceVariableId = 0;
+    this.choiceUnderMes = false;
+};
+
+Game_Message.prototype.setChoiceEnables = function(enables) {
+    this._choiceEnables = enables;
+};
+
+Game_Message.prototype.choiceEnables = function() {
+    return this._choiceEnables;
+};
+
+Game_Message.prototype.setChoiceResults = function(results) {
+    this._choiceResults = results;
+};
+
+Game_Message.prototype.setChoiceHelpTexts = function(texts) {
+    this._helpTexts = texts;
+};
+
+Game_Message.prototype.isHelp = function() {
+    return this._helpTexts.length > 0;
+};
+
+Game_Message.prototype.setChoicePos = function(x, y, row) {
+    this._choiceX = x;
+    this._choiceY = y;
+    this._choiceWidth = -1;
+    this._choiceHeight = -1;
+    this._choiceMaxRow = row;
+};
+
+Game_Message.prototype.setChoiceRect = function(x, y, width, height) {
+    this._choiceX = x;
+    this._choiceY = y;
+    this._choiceWidth = width;
+    this._choiceHeight = height;
+};
+
+Game_Message.prototype.setChoiceVariableId = function(id) {
+    this._choiceVariableId = id;
+};
+
+Game_Message.prototype.shiftLine = function(height) {
+    this._choiceY += height;
+    this._choiceHeight -= height;
+};
+
+
+//-----------------------------------------------------------------------------
+// Game_Interpreter
+
+//336
+Game_Interpreter.prototype.setupChoices = function(params) {
+    var data = {
+        choices: [],
+        enables: [],
+        results: [],
+        helpTexts: [],
+        cancelType: -1,
+        defaultType: -1,
+        positionType: 0,
+        background: 0
+    };
+    data = this.addChoices(params, this._index, data, 0);
+    if (data.choices.length > 0) {
+        var helpTexts = [];
+        if (data.helpTexts.length > 0) {
+            helpTexts = data.results.map( i => data.helpTexts[i] );
+        }
+        var cancelType = -1;
+        if (data.cancelType.mod(10) === 8 || data.results.contains(data.cancelType)) {
+            data.results.push(data.cancelType);
+            cancelType = data.choices.length;
+        }
+        var index = data.defaultType;
+        if ($gameMessage._choiceVariableId > 0) {
+            index = $gameVariables.value($gameMessage._choiceVariableId);
+        }
+        var defaultType = data.results.indexOf(index);
+        if (index >= 0 && defaultType < 0 && MPPlugin.DisabledIndex === "top")  {
+            defaultType = 0;
+        }
+        $gameMessage.setChoices(data.choices, defaultType, cancelType);
+        $gameMessage.setChoiceEnables(data.enables);
+        $gameMessage.setChoiceResults(data.results);
+        $gameMessage.setChoiceHelpTexts(helpTexts);
+        $gameMessage.setChoiceBackground(data.background);
+        $gameMessage.setChoicePositionType(data.positionType);
+        $gameMessage.setChoiceCallback( n => this._branch[this._indent] = data.results[n] );
+    } else {
+        this._branch[this._indent] = -1;
     }
+};
 
-    const Alias = {};
-
-    //-----------------------------------------------------------------------------
-    // Game_Message
-
-    //15
-    Alias.GaMe_clear = Game_Message.prototype.clear;
-    Game_Message.prototype.clear = function () {
-        Alias.GaMe_clear.apply(this, arguments);
-        this._choiceEnables = [];
-        this._choiceResults = [];
-        this._helpTexts = [];
-        this._choiceX = -1;
-        this._choiceY = -1;
-        this._choiceWidth = -1;
-        this._choiceHeight = -1;
-        this._choiceMaxRow = MPPlugin.maxPageRow;
-        this._choiceVariableId = 0;
-        this.choiceUnderMes = false;
-    };
-
-    Game_Message.prototype.setChoiceEnables = function (enables) {
-        this._choiceEnables = enables;
-    };
-
-    Game_Message.prototype.choiceEnables = function () {
-        return this._choiceEnables;
-    };
-
-    Game_Message.prototype.setChoiceResults = function (results) {
-        this._choiceResults = results;
-    };
-
-    Game_Message.prototype.setChoiceHelpTexts = function (texts) {
-        this._helpTexts = texts;
-    };
-
-    Game_Message.prototype.isHelp = function () {
-        return this._helpTexts.length > 0;
-    };
-
-    Game_Message.prototype.setChoicePos = function (x, y, row) {
-        this._choiceX = x;
-        this._choiceY = y;
-        this._choiceWidth = -1;
-        this._choiceHeight = -1;
-        this._choiceMaxRow = row;
-    };
-
-    Game_Message.prototype.setChoiceRect = function (x, y, width, height) {
-        this._choiceX = x;
-        this._choiceY = y;
-        this._choiceWidth = width;
-        this._choiceHeight = height;
-    };
-
-    Game_Message.prototype.setChoiceVariableId = function (id) {
-        this._choiceVariableId = id;
-    };
-
-    Game_Message.prototype.shiftLine = function (height) {
-        this._choiceY += height;
-        this._choiceHeight -= height;
-    };
-
-
-    //-----------------------------------------------------------------------------
-    // Game_Interpreter
-
-    //336
-    Game_Interpreter.prototype.setupChoices = function (params) {
-        var data = {
-            choices: [],
-            enables: [],
-            results: [],
-            helpTexts: [],
-            cancelType: -1,
-            defaultType: -1,
-            positionType: 0,
-            background: 0
-        };
-        data = this.addChoices(params, this._index, data, 0);
-        if (data.choices.length > 0) {
-            var helpTexts = [];
-            if (data.helpTexts.length > 0) {
-                helpTexts = data.results.map(i => data.helpTexts[i]);
-            }
-            var cancelType = -1;
-            if (data.cancelType.mod(10) === 8 || data.results.contains(data.cancelType)) {
-                data.results.push(data.cancelType);
-                cancelType = data.choices.length;
-            }
-            var index = data.defaultType;
-            if ($gameMessage._choiceVariableId > 0) {
-                index = $gameVariables.value($gameMessage._choiceVariableId);
-            }
-            var defaultType = data.results.indexOf(index);
-            if (index >= 0 && defaultType < 0 && MPPlugin.DisabledIndex === "top") {
-                defaultType = 0;
-            }
-            $gameMessage.setChoices(data.choices, defaultType, cancelType);
-            $gameMessage.setChoiceEnables(data.enables);
-            $gameMessage.setChoiceResults(data.results);
-            $gameMessage.setChoiceHelpTexts(helpTexts);
-            $gameMessage.setChoiceBackground(data.background);
-            $gameMessage.setChoicePositionType(data.positionType);
-            $gameMessage.setChoiceCallback(n => this._branch[this._indent] = data.results[n]);
-        } else {
-            this._branch[this._indent] = -1;
+Game_Interpreter.prototype.addChoices = function(params, i, data, d) {
+    var regIf = /\s*if\((.+?)\)/;
+    var regEn = /\s*en\((.+?)\)/;
+    for (var n = 0; n < params[0].length; n++) {
+        var str = params[0][n];
+        if (regIf.test(str)) {
+            str = str.replace(regIf, '');
+            if (RegExp.$1 && !this.evalChoice(RegExp.$1)) continue;
         }
-    };
+        var enable = true;
+        if (regEn.test(str)) {
+            str = str.replace(regEn, '');
+            enable = this.evalChoice(RegExp.$1);
+        }
+        data.choices.push(str);
+        data.enables.push(enable);
+        data.results.push(n + d);
+    }
+    var cancelType = params[1];
+    if (cancelType !== -1) {
+        data.cancelType = cancelType + d;
+    }
+    var defaultType = params.length > 2 ? params[2] : 0;
+    if (defaultType >= 0) {
+        data.defaultType = defaultType + d;
+    }
+    data.positionType = params.length > 3 ? params[3] : 2;
+    data.background = params.length > 4 ? params[4] : 0;
+    var command;
+    for (;;) {
+        i++;
+        command = this._list[i];
+        if (!command) break;
+        if (command.indent === this._indent) {
+            if (command.code === 402) {
+                this.getHelpText(command.parameters[0] + d, i + 1, data);
+            } else if (command.code === 404) {
+                break;
+            }
+        }
+    }
+    command = this._list[i + 1];
+    if (command && command.code === 102) {
+        this.addChoices(command.parameters, i + 1, data, d + 10);
+    }
+    return data;
+};
 
-    Game_Interpreter.prototype.addChoices = function (params, i, data, d) {
-        var regIf = /\s*if\((.+?)\)/;
-        var regEn = /\s*en\((.+?)\)/;
-        for (var n = 0; n < params[0].length; n++) {
-            var str = params[0][n];
-            if (regIf.test(str)) {
-                str = str.replace(regIf, '');
-                if (RegExp.$1 && !this.evalChoice(RegExp.$1)) continue;
-            }
-            var enable = true;
-            if (regEn.test(str)) {
-                str = str.replace(regEn, '');
-                enable = this.evalChoice(RegExp.$1);
-            }
-            data.choices.push(str);
-            data.enables.push(enable);
-            data.results.push(n + d);
-        }
-        var cancelType = params[1];
-        if (cancelType !== -1) {
-            data.cancelType = cancelType + d;
-        }
-        var defaultType = params.length > 2 ? params[2] : 0;
-        if (defaultType >= 0) {
-            data.defaultType = defaultType + d;
-        }
-        data.positionType = params.length > 3 ? params[3] : 2;
-        data.background = params.length > 4 ? params[4] : 0;
-        var command;
-        for (; ;) {
+Game_Interpreter.prototype.getHelpText = function(c, i, data) {
+    var command = MPPlugin.EventComment.ChoiceHelp || '選択肢ヘルプ';
+    if (this._list[i].code === 108 && this._list[i].parameters[0] === command) {
+        var texts = [];
+        while (this._list[i + 1].code === 408) {
             i++;
-            command = this._list[i];
-            if (!command) break;
-            if (command.indent === this._indent) {
-                if (command.code === 402) {
-                    this.getHelpText(command.parameters[0] + d, i + 1, data);
-                } else if (command.code === 404) {
-                    break;
-                }
-            }
+            texts.push(this._list[i].parameters[0]);
         }
-        command = this._list[i + 1];
-        if (command && command.code === 102) {
-            this.addChoices(command.parameters, i + 1, data, d + 10);
-        }
-        return data;
-    };
+        data.helpTexts[c] = texts;
+    }
+};
 
-    Game_Interpreter.prototype.getHelpText = function (c, i, data) {
-        var command = MPPlugin.EventComment.ChoiceHelp || '選択肢ヘルプ';
-        if (this._list[i].code === 108 && this._list[i].parameters[0] === command) {
-            var texts = [];
-            while (this._list[i + 1].code === 408) {
-                i++;
-                texts.push(this._list[i].parameters[0]);
-            }
-            data.helpTexts[c] = texts;
-        }
-    };
+Game_Interpreter.prototype.evalChoice = function(formula) {
+    try {
+        var s = $gameSwitches._data;
+        var formula2 = formula.replace(/v\[(\d+)\]/g,
+            (match, p1) => $gameVariables.value(parseInt(p1)) );
+        return !!eval(formula2);
+    } catch (e) {
+        alert("条件エラー \n\n " + formula);
+        return true;
+    }
+};
 
-    Game_Interpreter.prototype.evalChoice = function (formula) {
+//362
+Game_Interpreter.prototype.command403 = function() {
+    if (this._branch[this._indent] !== -2) {
+        this.skipBranch();
+    }
+    return true;
+};
+
+Game_Interpreter.prototype.command404 = function() {
+    if (this.nextEventCode() === 102) {
+        this._branch[this._indent] -= 10;
+        this._index++;
+    }
+    return true;
+};
+
+//1739
+Alias.GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+    Alias.GaIn_pluginCommand.apply(this, arguments);
+    var args2 = this.mppPluginCommandArgs(args);
+    switch (command) {
+        case MPPlugin.PluginCommands.ChoicePos:
+        case 'ChoicePos':
+            var x = args2[0];
+            var y = args2[1];
+            var row = args2[2] || 99;
+            $gameMessage.setChoicePos(x, y, row);
+            break;
+        case MPPlugin.PluginCommands.ChoiceVariableId:
+        case 'ChoiceVariableId':
+            $gameMessage.setChoiceVariableId(args2[0]);
+            break;
+        case MPPlugin.PluginCommands.ChoiceRect:
+        case 'ChoiceRect':
+            var x = (args2[0] === undefined ? -1 : args2[0]);
+            var y = (args2[1] === undefined ? -1 : args2[1]);
+            var width = (args2[2] === undefined ? -1 : args2[2]);
+            var height = (args2[3] === undefined ? -1 : args2[3]);
+            $gameMessage.setChoiceRect(x, y, width, height);
+            break;
+        case MPPlugin.PluginCommands.ChoiceUnderMessage:
+        case 'ChoiceUnderMessage':
+            $gameMessage.choiceUnderMes = true;
+            break;
+    }
+    return true;
+};
+
+Game_Interpreter.prototype.mppPluginCommandArgs = function(args) {
+    var v = $gameVariables._data;
+    return args.map(function(arg) {
         try {
-            var s = $gameSwitches._data;
-            var formula2 = formula.replace(/v\[(\d+)\]/g,
-                (match, p1) => $gameVariables.value(parseInt(p1)));
-            return !!eval(formula2);
+            return eval(arg) || 0;
         } catch (e) {
-            alert("条件エラー \n\n " + formula);
-            return true;
+            return arg;
         }
-    };
+    });
+};
 
-    //362
-    Game_Interpreter.prototype.command403 = function () {
-        if (this._branch[this._indent] !== -2) {
-            this.skipBranch();
-        }
-        return true;
-    };
+//-----------------------------------------------------------------------------
+// Window
 
-    Game_Interpreter.prototype.command404 = function () {
-        if (this.nextEventCode() === 102) {
-            this._branch[this._indent] -= 10;
-            this._index++;
-        }
-        return true;
-    };
+Window.prototype.isClearWindowRect = function() {
+    return true;
+};
 
-    //1739
-    Alias.GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        Alias.GaIn_pluginCommand.apply(this, arguments);
-        var args2 = this.mppPluginCommandArgs(args);
-        switch (command) {
-            case MPPlugin.PluginCommands.ChoicePos:
-            case 'ChoicePos':
-                var x = args2[0];
-                var y = args2[1];
-                var row = args2[2] || 99;
-                $gameMessage.setChoicePos(x, y, row);
-                break;
-            case MPPlugin.PluginCommands.ChoiceVariableId:
-            case 'ChoiceVariableId':
-                $gameMessage.setChoiceVariableId(args2[0]);
-                break;
-            case MPPlugin.PluginCommands.ChoiceRect:
-            case 'ChoiceRect':
-                var x = (args2[0] === undefined ? -1 : args2[0]);
-                var y = (args2[1] === undefined ? -1 : args2[1]);
-                var width = (args2[2] === undefined ? -1 : args2[2]);
-                var height = (args2[3] === undefined ? -1 : args2[3]);
-                $gameMessage.setChoiceRect(x, y, width, height);
-                break;
-            case MPPlugin.PluginCommands.ChoiceUnderMessage:
-            case 'ChoiceUnderMessage':
-                $gameMessage.choiceUnderMes = true;
-                break;
-        }
-        return true;
-    };
+//-----------------------------------------------------------------------------
+// WindowLayer
 
-    Game_Interpreter.prototype.mppPluginCommandArgs = function (args) {
-        var v = $gameVariables._data;
-        return args.map(function (arg) {
-            try {
-                return eval(arg) || 0;
-            } catch (e) {
-                return arg;
-            }
-        });
-    };
+//7100
+Alias.WiLa__canvasClearWindowRect = WindowLayer.prototype._canvasClearWindowRect;
+WindowLayer.prototype._canvasClearWindowRect = function(renderSession, window) {
+    if (window.isClearWindowRect())
+        Alias.WiLa__canvasClearWindowRect.apply(this, arguments);
+};
 
-    //-----------------------------------------------------------------------------
-    // Window
-
-    Window.prototype.isClearWindowRect = function () {
-        return true;
-    };
-
-    //-----------------------------------------------------------------------------
-    // WindowLayer
-
-    //7100
-    Alias.WiLa__canvasClearWindowRect = WindowLayer.prototype._canvasClearWindowRect;
-    WindowLayer.prototype._canvasClearWindowRect = function (renderSession, window) {
-        if (window.isClearWindowRect())
-            Alias.WiLa__canvasClearWindowRect.apply(this, arguments);
-    };
-
-    //7162
-    Alias.WiLa__maskWindow = WindowLayer.prototype._maskWindow;
-    WindowLayer.prototype._maskWindow = function (window, shift) {
-        Alias.WiLa__maskWindow.apply(this, arguments);
-        if (!window.isClearWindowRect()) {
-            var rect = this._windowRect;
-            rect.x = 0;
-            rect.y = 0;
-            rect.width = 0;
-            rect.height = 0;
-        }
-    };
-
-    //-----------------------------------------------------------------------------
-    // Window_ChoiceList
-
-    Window_ChoiceList.prototype.isClearWindowRect = function () {
-        return !this._underMessage;
-    };
-
-    if (Window_ChoiceList.prototype.hasOwnProperty('close')) {
-        Alias.WiChLi_close = Window_ChoiceList.prototype.close
+//7162
+Alias.WiLa__maskWindow = WindowLayer.prototype._maskWindow;
+WindowLayer.prototype._maskWindow = function(window, shift) {
+    Alias.WiLa__maskWindow.apply(this, arguments);
+    if (!window.isClearWindowRect()) {
+        var rect = this._windowRect;
+        rect.x = 0;
+        rect.y = 0;
+        rect.width = 0;
+        rect.height = 0;
     }
-    Window_ChoiceList.prototype.close = function () {
-        if ($gameMessage.isHelp()) this._messageWindow.onShowFast();
-        var _super = Alias.WiChLi_close || Window_Command.prototype.close;
-        _super.apply(this, arguments);
-    };
+};
 
-    if (Window_ChoiceList.prototype.hasOwnProperty('select')) {
-        Alias.WiChli_select = Window_ChoiceList.prototype.select;
-    }
-    Window_ChoiceList.prototype.select = function (index) {
-        var variableId = $gameMessage._choiceVariableId;
-        if (index !== this.index() && variableId > 0) {
-            var results = $gameMessage._choiceResults;
-            $gameVariables.setValue(variableId, results[index]);
-        }
-        var _super = Alias.WiChli_select = Window_Command.prototype.select
-        _super.apply(this, arguments);
-    };
+//-----------------------------------------------------------------------------
+// Window_ChoiceList
 
-    //34
-    Alias.WiChLi_updatePlacement = Window_ChoiceList.prototype.updatePlacement;
-    Window_ChoiceList.prototype.updatePlacement = function () {
-        Alias.WiChLi_updatePlacement.apply(this, arguments);
-        if ($gameMessage._choiceWidth >= 0) {
-            this.width = Math.min($gameMessage._choiceWidth, Graphics.boxWidth);
-        }
-        if ($gameMessage._choiceHeight >= 0) {
-            this.height = Math.min($gameMessage._choiceHeight, Graphics.boxHeight);
-        }
-        if ($gameMessage._choiceX >= 0) {
-            this.x = Math.min($gameMessage._choiceX, Graphics.boxWidth - this.width);
-        }
-        if ($gameMessage._choiceY >= 0) {
-            this.y = Math.min($gameMessage._choiceY, Graphics.boxHeight - this.height);
-        }
-        this._underMessage = $gameMessage.choiceUnderMes;
-    };
+Window_ChoiceList.prototype.isClearWindowRect = function() {
+    return !this._underMessage;
+};
 
-    //67
-    Window_ChoiceList.prototype.numVisibleRows = function () {
-        return Math.min($gameMessage.choices().length, $gameMessage._choiceMaxRow);
-    };
+if (Window_ChoiceList.prototype.hasOwnProperty('close')) {
+    Alias.WiChLi_close = Window_ChoiceList.prototype.close
+}
+Window_ChoiceList.prototype.close = function() {
+    if ($gameMessage.isHelp()) this._messageWindow.onShowFast();
+    var _super = Alias.WiChLi_close || Window_Command.prototype.close;
+    _super.apply(this, arguments);
+};
 
-    //103
-    Window_ChoiceList.prototype.makeCommandList = function () {
-        var choices = $gameMessage.choices();
-        var enables = $gameMessage._choiceEnables;
-        for (var i = 0; i < choices.length; i++) {
-            this.addCommand(choices[i], 'choice', enables[i]);
-        }
-    };
-
-    //110
-    Alias.WiChLi_drawItem = Window_ChoiceList.prototype.drawItem;
-    Window_ChoiceList.prototype.drawItem = function (index) {
-        this.changePaintOpacity(this.isCommandEnabled(index));
-        Alias.WiChLi_drawItem.apply(this, arguments);
-    };
-
-    //123
-    Alias.WiChLi_callOkHandler = Window_ChoiceList.prototype.callOkHandler;
-    Window_ChoiceList.prototype.callOkHandler = function () {
-        Alias.WiChLi_callOkHandler.apply(this, arguments);
-        this._messageWindow.forceClear();
-    };
-
-    //129
-    Alias.WiChLi_callCancelHandler = Window_ChoiceList.prototype.callCancelHandler;
-    Window_ChoiceList.prototype.callCancelHandler = function () {
-        Alias.WiChLi_callCancelHandler.apply(this, arguments);
-        this._messageWindow.forceClear();
-    };
-
-    if (Window_ChoiceList.prototype.hasOwnProperty('processCancel')) {
-        Alias.WiChLi_processCancel = Window_ChoiceList.prototype.processCancel
-    }
-    Window_ChoiceList.prototype.processCancel = function () {
-        var type = $gameMessage.choiceCancelType();
+if (Window_ChoiceList.prototype.hasOwnProperty('select')) {
+    Alias.WiChli_select = Window_ChoiceList.prototype.select;
+}
+Window_ChoiceList.prototype.select = function(index) {
+    var variableId = $gameMessage._choiceVariableId;
+    if (index !== this.index() && variableId > 0) {
         var results = $gameMessage._choiceResults;
-        var index = results.indexOf(results[type]);
-        if (this.isCancelEnabled() && index !== type && !this.isCommandEnabled(index)) {
-            this.playBuzzerSound();
-        } else {
-            var _super = Alias.WiChLi_processCancel || Window_Command.prototype.processCancel;
-            _super.apply(this, arguments);
-        }
-    };
-
-    Window_ChoiceList.prototype.callUpdateHelp = function () {
-        if (this.active && this._messageWindow && $gameMessage.isHelp())
-            this.updateHelp();
-    };
-
-    Window_ChoiceList.prototype.updateHelp = function () {
-        this._messageWindow.forceClear();
-        var texts = $gameMessage._helpTexts[this.index()];
-        $gameMessage._texts = texts ? texts.clone() : [''];
-        this._messageWindow.startMessage();
-    };
-
-
-    //-----------------------------------------------------------------------------
-    // Window_Message
-
-    //109
-    Alias.WiMe_updatePlacement = Window_Message.prototype.updatePlacement;
-    Window_Message.prototype.updatePlacement = function () {
-        Alias.WiMe_updatePlacement.apply(this, arguments);
-        this.clearUnderChoice();
-    };
-
-    Window_Message.prototype.clearUnderChoice = function () {
-        if ($gameMessage.choiceUnderMes) {
-            var x = this.x + this.standardPadding();
-            x += this._textState.left || 0;
-            var y = this.y + 4;
-            var height = this.windowHeight();
-            $gameMessage.setChoiceRect(x, y, -1, height);
-        }
-    };
-
-    if (Window_Message.prototype.hasOwnProperty('processNewLine')) {
-        Alias.WiMe_processNewLine = Window_Message.prototype.processNewLine;
+        $gameVariables.setValue(variableId, results[index]);
     }
-    Window_Message.prototype.processNewLine = function (textState) {
-        if ($gameMessage.choiceUnderMes) $gameMessage.shiftLine(textState.height);
-        var _super = Alias.WiMe_processNewLine || Window_Base.prototype.processNewLine;
+    var _super = Alias.WiChli_select = Window_Command.prototype.select
+    _super.apply(this, arguments);
+};
+
+//34
+Alias.WiChLi_updatePlacement = Window_ChoiceList.prototype.updatePlacement;
+Window_ChoiceList.prototype.updatePlacement = function() {
+    Alias.WiChLi_updatePlacement.apply(this, arguments);
+    if ($gameMessage._choiceWidth >= 0) {
+        this.width = Math.min($gameMessage._choiceWidth, Graphics.boxWidth);
+    }
+    if ($gameMessage._choiceHeight >= 0) {
+        this.height = Math.min($gameMessage._choiceHeight, Graphics.boxHeight);
+    }
+    if ($gameMessage._choiceX >= 0) {
+        this.x = Math.min($gameMessage._choiceX, Graphics.boxWidth - this.width);
+    }
+    if ($gameMessage._choiceY >= 0) {
+        this.y = Math.min($gameMessage._choiceY, Graphics.boxHeight - this.height);
+    }
+    this._underMessage = $gameMessage.choiceUnderMes;
+};
+
+//67
+Window_ChoiceList.prototype.numVisibleRows = function() {
+    return Math.min($gameMessage.choices().length, $gameMessage._choiceMaxRow);
+};
+
+//103
+Window_ChoiceList.prototype.makeCommandList = function() {
+    var choices = $gameMessage.choices();
+    var enables = $gameMessage._choiceEnables;
+    for (var i = 0; i < choices.length; i++) {
+        this.addCommand(choices[i], 'choice', enables[i]);
+    }
+};
+
+//110
+Alias.WiChLi_drawItem = Window_ChoiceList.prototype.drawItem;
+Window_ChoiceList.prototype.drawItem = function(index) {
+    this.changePaintOpacity(this.isCommandEnabled(index));
+    Alias.WiChLi_drawItem.apply(this, arguments);
+};
+
+//123
+Alias.WiChLi_callOkHandler = Window_ChoiceList.prototype.callOkHandler;
+Window_ChoiceList.prototype.callOkHandler = function() {
+    Alias.WiChLi_callOkHandler.apply(this, arguments);
+    this._messageWindow.forceClear();
+};
+
+//129
+Alias.WiChLi_callCancelHandler = Window_ChoiceList.prototype.callCancelHandler;
+Window_ChoiceList.prototype.callCancelHandler = function() {
+    Alias.WiChLi_callCancelHandler.apply(this, arguments);
+    this._messageWindow.forceClear();
+};
+
+if (Window_ChoiceList.prototype.hasOwnProperty('processCancel')) {
+    Alias.WiChLi_processCancel = Window_ChoiceList.prototype.processCancel
+}
+Window_ChoiceList.prototype.processCancel = function() {
+    var type = $gameMessage.choiceCancelType();
+    var results = $gameMessage._choiceResults;
+    var index = results.indexOf(results[type]);
+    if (this.isCancelEnabled() && index !== type && !this.isCommandEnabled(index)) {
+        this.playBuzzerSound();
+    } else {
+        var _super = Alias.WiChLi_processCancel || Window_Command.prototype.processCancel;
         _super.apply(this, arguments);
-    };
+    }
+};
 
-    //149
-    Alias.WiMe_updateInput = Window_Message.prototype.updateInput;
-    Window_Message.prototype.updateInput = function () {
-        if ($gameMessage.isHelp() && this._textState) return false;
-        return Alias.WiMe_updateInput.apply(this, arguments);
-    };
+Window_ChoiceList.prototype.callUpdateHelp = function() {
+    if (this.active && this._messageWindow && $gameMessage.isHelp())
+        this.updateHelp();
+};
 
-    //196
-    Alias.WiMe_onEndOfText = Window_Message.prototype.onEndOfText;
-    Window_Message.prototype.onEndOfText = function () {
-        if ($gameMessage.isHelp() && !this._choiceWindow.active) {
-            this.startInput();
-        } else {
-            Alias.WiMe_onEndOfText.apply(this, arguments);
-        }
-    };
+Window_ChoiceList.prototype.updateHelp = function() {
+    this._messageWindow.forceClear();
+    var texts = $gameMessage._helpTexts[this.index()];
+    $gameMessage._texts = texts ? texts.clone() : [''];
+    this._messageWindow.startMessage();
+};
 
-    //207
-    Alias.WiMe_startInput = Window_Message.prototype.startInput;
-    Window_Message.prototype.startInput = function () {
-        if (this._choiceWindow.active) return true;
-        if ($gameMessage.isChoice() && $gameMessage.choiceUnderMes &&
+
+//-----------------------------------------------------------------------------
+// Window_Message
+
+//109
+Alias.WiMe_updatePlacement = Window_Message.prototype.updatePlacement;
+Window_Message.prototype.updatePlacement = function() {
+    Alias.WiMe_updatePlacement.apply(this, arguments);
+    this.clearUnderChoice();
+};
+
+Window_Message.prototype.clearUnderChoice = function() {
+    if ($gameMessage.choiceUnderMes) {
+        var x = this.x + this.standardPadding();
+        x += this._textState.left || 0;
+        var y = this.y + 4;
+        var height = this.windowHeight();
+        $gameMessage.setChoiceRect(x, y, -1, height);
+    }
+};
+
+if (Window_Message.prototype.hasOwnProperty('processNewLine')) {
+    Alias.WiMe_processNewLine = Window_Message.prototype.processNewLine;
+}
+Window_Message.prototype.processNewLine = function(textState) {
+    if ($gameMessage.choiceUnderMes) $gameMessage.shiftLine(textState.height);
+    var _super = Alias.WiMe_processNewLine || Window_Base.prototype.processNewLine;
+    _super.apply(this, arguments);
+};
+
+//149
+Alias.WiMe_updateInput = Window_Message.prototype.updateInput;
+Window_Message.prototype.updateInput = function() {
+    if ($gameMessage.isHelp() && this._textState) return false;
+    return Alias.WiMe_updateInput.apply(this, arguments);
+};
+
+//196
+Alias.WiMe_onEndOfText = Window_Message.prototype.onEndOfText;
+Window_Message.prototype.onEndOfText = function() {
+    if ($gameMessage.isHelp() && !this._choiceWindow.active) {
+        this.startInput();
+    } else {
+        Alias.WiMe_onEndOfText.apply(this, arguments);
+    }
+};
+
+//207
+Alias.WiMe_startInput = Window_Message.prototype.startInput;
+Window_Message.prototype.startInput = function() {
+    if (this._choiceWindow.active) return true;
+    if ($gameMessage.isChoice() && $gameMessage.choiceUnderMes &&
             this._textState.x !== this._textState.left) {
-            $gameMessage.shiftLine(this._textState.height);
-        }
-        return Alias.WiMe_startInput.apply(this, arguments);
-    };
+        $gameMessage.shiftLine(this._textState.height);
+    }
+    return Alias.WiMe_startInput.apply(this, arguments);
+};
 
-    Window_Message.prototype.forceClear = function () {
-        this._textState = null;
-        this.close();
-        this._goldWindow.close();
-    };
+Window_Message.prototype.forceClear = function() {
+    this._textState = null;
+    this.close();
+    this._goldWindow.close();
+};
 
-    Window_Message.prototype.onShowFast = function () {
-        this._showFast = true;
-    };
+Window_Message.prototype.onShowFast = function() {
+    this._showFast = true;
+};
 
-    //243
-    Alias.WiMe_newPage = Window_Message.prototype.newPage;
-    Window_Message.prototype.newPage = function (textState) {
-        Alias.WiMe_newPage.apply(this, arguments);
-        this.clearUnderChoice();
-    };
+//243
+Alias.WiMe_newPage = Window_Message.prototype.newPage;
+Window_Message.prototype.newPage = function(textState) {
+    Alias.WiMe_newPage.apply(this, arguments);
+    this.clearUnderChoice();
+};
 
 
 

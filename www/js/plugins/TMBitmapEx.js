@@ -98,20 +98,20 @@ Imported.TMBitmapEx = true;
 var TMPlugin = TMPlugin || {};
 TMPlugin.BitmapEx = {};
 TMPlugin.BitmapEx.Parameters = PluginManager.parameters('TMBitmapEx');
-TMPlugin.BitmapEx.GaugeHeight = +(TMPlugin.BitmapEx.Parameters['gaugeHeight'] || 18);
+TMPlugin.BitmapEx.GaugeHeight    = +(TMPlugin.BitmapEx.Parameters['gaugeHeight'] || 18);
 TMPlugin.BitmapEx.GaugeReduction = +(TMPlugin.BitmapEx.Parameters['gaugeReduction'] || 2);
-TMPlugin.BitmapEx.CornerRadius = +(TMPlugin.BitmapEx.Parameters['cornerRadius'] || 6);
-TMPlugin.BitmapEx.MinGaugeRate = +(TMPlugin.BitmapEx.Parameters['minGaugeRate'] || 1.5);
-TMPlugin.BitmapEx.MinGaugeWidth = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
-  TMPlugin.BitmapEx.CornerRadius);
+TMPlugin.BitmapEx.CornerRadius   = +(TMPlugin.BitmapEx.Parameters['cornerRadius'] || 6);
+TMPlugin.BitmapEx.MinGaugeRate   = +(TMPlugin.BitmapEx.Parameters['minGaugeRate'] || 1.5);
+TMPlugin.BitmapEx.MinGaugeWidth  = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
+                                              TMPlugin.BitmapEx.CornerRadius);
 
-(function () {
+(function() {
 
   //-----------------------------------------------------------------------------
   // Bitmap
   //
 
-  Bitmap.prototype.fillRoundRect = function (x, y, width, height, radius, color) {
+  Bitmap.prototype.fillRoundRect = function(x, y, width, height, radius, color) {
     var context = this._context;
     var pi = Math.PI;
     context.save();
@@ -126,12 +126,12 @@ TMPlugin.BitmapEx.MinGaugeWidth = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
     this._setDirty();
   };
 
-  Bitmap.prototype.gradientFillRoundRect = function (x, y, width, height, radius,
-    color1, color2, vertical) {
+  Bitmap.prototype.gradientFillRoundRect = function(x, y, width, height, radius,
+                                                    color1, color2, vertical) {
     var context = this._context;
     var pi = Math.PI;
     var grad = vertical ? context.createLinearGradient(x, y, x, y + height) :
-      context.createLinearGradient(x, y, x + width, y);
+               context.createLinearGradient(x, y, x + width, y);
     grad.addColorStop(0, color1);
     grad.addColorStop(1, color2);
     context.save();
@@ -146,7 +146,7 @@ TMPlugin.BitmapEx.MinGaugeWidth = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
     this._setDirty();
   };
 
-  Bitmap.prototype.fillStar = function (x, y, width, height, color) {
+  Bitmap.prototype.fillStar = function(x, y, width, height, color) {
     var context = this._context;
     var pi = Math.PI;
     var cx = x + width / 2;
@@ -165,15 +165,15 @@ TMPlugin.BitmapEx.MinGaugeWidth = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
     this._setDirty();
   };
 
-  Bitmap.prototype.gradientFillStar = function (x, y, width, height, color1, color2,
-    vertical) {
+  Bitmap.prototype.gradientFillStar = function(x, y, width, height, color1, color2,
+                                               vertical) {
     var context = this._context;
     var pi = Math.PI;
     var cx = x + width / 2;
     var cy = y + height / 2;
     var r = pi + pi / 2;
     var grad = vertical ? context.createLinearGradient(x, y, x, y + height) :
-      context.createLinearGradient(x, y, x + width, y);
+               context.createLinearGradient(x, y, x + width, y);
     grad.addColorStop(0, color1);
     grad.addColorStop(1, color2);
     context.save();
@@ -194,19 +194,19 @@ TMPlugin.BitmapEx.MinGaugeWidth = Math.floor(TMPlugin.BitmapEx.MinGaugeRate *
   //
 
   var _Window_Base_drawGauge = Window_Base.prototype.drawGauge;
-  Window_Base.prototype.drawGauge = function (x, y, width, rate, color1, color2) {
+  Window_Base.prototype.drawGauge = function(x, y, width, rate, color1, color2) {
     if (TMPlugin.BitmapEx.CornerRadius > 0) {
       y = y + this.lineHeight() - TMPlugin.BitmapEx.GaugeHeight - 2;
       this.contents.fillRoundRect(x, y, width, TMPlugin.BitmapEx.GaugeHeight,
-        TMPlugin.BitmapEx.CornerRadius, this.gaugeBackColor());
+                                  TMPlugin.BitmapEx.CornerRadius, this.gaugeBackColor());
       var fillW = Math.floor((width - TMPlugin.BitmapEx.GaugeReduction * 2) * rate);
       if (fillW > 0) {
         fillW = Math.max(fillW, TMPlugin.BitmapEx.MinGaugeWidth);
         var fillH = TMPlugin.BitmapEx.GaugeHeight - TMPlugin.BitmapEx.GaugeReduction * 2
         this.contents.gradientFillRoundRect(x + TMPlugin.BitmapEx.GaugeReduction,
-          y + TMPlugin.BitmapEx.GaugeReduction,
-          fillW, fillH, TMPlugin.BitmapEx.CornerRadius,
-          color1, color2);
+                                            y + TMPlugin.BitmapEx.GaugeReduction,
+                                            fillW, fillH, TMPlugin.BitmapEx.CornerRadius,
+                                            color1, color2);
       }
     } else {
       _Window_Base_drawGauge.call(this, x, y, width, rate, color1, color2)

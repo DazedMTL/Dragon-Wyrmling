@@ -64,7 +64,7 @@
  * @default off
  */
 
-(function () {
+(function() {
     function toNumber(str, def) {
         return isNaN(str) ? def : +(str || def);
     }
@@ -81,15 +81,15 @@
     var windowWidth;
     var windowHeight;
 
-    if (windowWidthTo) {
+    if(windowWidthTo){
         windowWidth = windowWidthTo;
-    } else if (screenWidth !== SceneManager._screenWidth) {
+    }else if(screenWidth !== SceneManager._screenWidth){
         windowWidth = screenWidth;
     }
 
-    if (windowHeightTo) {
+    if(windowHeightTo){
         windowHeight = windowHeightTo;
-    } else if (screenHeight !== SceneManager._screenHeight) {
+    }else if(screenHeight !== SceneManager._screenHeight){
         windowHeight = screenHeight;
     }
 
@@ -100,7 +100,7 @@
     SceneManager._boxWidth = screenWidth;
     SceneManager._boxHeight = screenHeight;
 
-    SceneManager.preferableRendererType = function () {
+    SceneManager.preferableRendererType = function() {
         if (Utils.isOptionValid('canvas')) {
             return 'canvas';
         } else if (Utils.isOptionValid('webgl')) {
@@ -115,7 +115,7 @@
     };
 
     var _ConfigManager_applyData = ConfigManager.applyData;
-    ConfigManager.applyData = function (config) {
+    ConfigManager.applyData = function(config) {
         _ConfigManager_applyData.apply(this, arguments);
         if (config['alwaysDash'] === undefined) {
             this.alwaysDash = alwaysDash;
@@ -124,7 +124,7 @@
 
 
     var _SceneManager_initNwjs = SceneManager.initNwjs;
-    SceneManager.initNwjs = function () {
+    SceneManager.initNwjs = function() {
         _SceneManager_initNwjs.apply(this, arguments);
 
         if (Utils.isNwjs() && windowWidth && windowHeight) {

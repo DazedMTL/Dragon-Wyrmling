@@ -16,10 +16,10 @@
  * @help このプラグインには、プラグインコマンドはありません。
  */
 
-(function () {
+(function() {
 
     var _Scene_File_create = Scene_File.prototype.create;
-    Scene_File.prototype.create = function () {
+    Scene_File.prototype.create = function() {
         _Scene_File_create.call(this);
         this._listWindow.height = this._listWindow.fittingHeight(8);
         var x = 0;
@@ -34,35 +34,35 @@
     };
 
     var _Scene_File_start = Scene_File.prototype.start;
-    Scene_File.prototype.start = function () {
+    Scene_File.prototype.start = function() {
         _Scene_File_start.call(this);
         this._listWindow.ensureCursorVisible();
         this._listWindow.callUpdateHelp();
     };
 
-    Window_SavefileList.prototype.windowWidth = function () {
+    Window_SavefileList.prototype.windowWidth = function() {
         return Graphics.boxWidth;
     };
 
-    Window_SavefileList.prototype.maxCols = function () {
+    Window_SavefileList.prototype.maxCols = function() {
         return 4;
     };
 
-    Window_SavefileList.prototype.numVisibleRows = function () {
+    Window_SavefileList.prototype.numVisibleRows = function() {
         return 5;
     };
 
-    Window_SavefileList.prototype.spacing = function () {
+    Window_SavefileList.prototype.spacing = function() {
         return 8;
     };
 
-    Window_SavefileList.prototype.itemHeight = function () {
+    Window_SavefileList.prototype.itemHeight = function() {
         return this.lineHeight() * 2;
     };
 
     var _Window_SavefileList_callUpdateHelp =
-        Window_SavefileList.prototype.callUpdateHelp;
-    Window_SavefileList.prototype.callUpdateHelp = function () {
+            Window_SavefileList.prototype.callUpdateHelp;
+    Window_SavefileList.prototype.callUpdateHelp = function() {
         _Window_SavefileList_callUpdateHelp.call(this);
         if (this.active && this.statusWindow) {
             this.statusWindow.setId(this.index() + 1);
@@ -76,21 +76,21 @@
     Window_SavefileStatus.prototype = Object.create(Window_Base.prototype);
     Window_SavefileStatus.prototype.constructor = Window_SavefileStatus;
 
-    Window_SavefileStatus.prototype.initialize = function (x, y, width, height) {
+    Window_SavefileStatus.prototype.initialize = function(x, y, width, height) {
         Window_Base.prototype.initialize.call(this, x, y, width, height);
         this._id = 1;
     };
 
-    Window_SavefileStatus.prototype.setMode = function (mode) {
+    Window_SavefileStatus.prototype.setMode = function(mode) {
         this._mode = mode;
     };
 
-    Window_SavefileStatus.prototype.setId = function (id) {
+    Window_SavefileStatus.prototype.setId = function(id) {
         this._id = id;
         this.refresh();
     };
 
-    Window_SavefileStatus.prototype.refresh = function () {
+    Window_SavefileStatus.prototype.refresh = function() {
         this.contents.clear();
         var id = this._id;
         var valid = DataManager.isThisGameFile(id);
@@ -108,11 +108,11 @@
         }
     };
 
-    Window_SavefileStatus.prototype.drawFileId = function (id, x, y) {
+    Window_SavefileStatus.prototype.drawFileId = function(id, x, y) {
         this.drawText(TextManager.file + ' ' + id, x, y, 180);
     };
 
-    Window_SavefileStatus.prototype.drawContents = function (info, rect, valid) {
+    Window_SavefileStatus.prototype.drawContents = function(info, rect, valid) {
         var bottom = rect.y + rect.height;
         var playtimeY = bottom - this.lineHeight();
         this.drawText(info.title, rect.x + 192, rect.y, rect.width - 192);
@@ -122,7 +122,7 @@
         this.drawText(info.playtime, rect.x, playtimeY, rect.width, 'right');
     };
 
-    Window_SavefileStatus.prototype.drawPartyfaces = function (info, x, y) {
+    Window_SavefileStatus.prototype.drawPartyfaces = function(info, x, y) {
         if (info && info.faces) {
             for (var i = 0; i < info.faces.length; i++) {
                 var data = info.faces[i];

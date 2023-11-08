@@ -135,381 +135,381 @@ var parameters = PluginManager.parameters('Plugin');
 var VE_BattleMotions = parameters['VE_BattleMotionsで使用'] === 'true';
 
 
-(function () {
-	var supplement = function (default_value, opt_arg, opt_callback) {
-		if (opt_arg === undefined) {
-			return default_value;
-		}
-		if (opt_callback === undefined) {
-			return opt_arg;
-		}
-		return opt_callback(default_value, opt_arg);
-	};
+(function(){
+var supplement = function(default_value, opt_arg, opt_callback) {
+    if (opt_arg === undefined) {
+        return default_value;
+    }
+    if (opt_callback === undefined) {  
+        return opt_arg;
+    }
+    return opt_callback(default_value, opt_arg);
+};
 
-	var supplementNum = function (default_value, opt_arg, opt_callback) {
-		return Number(supplement(default_value, opt_arg, opt_callback));
-	};
+var supplementNum = function(default_value, opt_arg, opt_callback) {
+    return Number(supplement(default_value,opt_arg,opt_callback));
+};
 
 
 
-	var convertEscapeCharacters = function (text) {
+var convertEscapeCharacters = function(text) {
+	var idx = 0;
+    text = text.replace(/\\/g, '\x1b');
+    text = text.replace(/\x1b\x1b/g, '\\');
+    text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
+        return $gameVariables.value(parseInt(arguments[1]));
+    });
+    text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
+        return $gameVariables.value(parseInt(arguments[1]));
+    });
+    text = text.replace(/\x1bN\[(\d+)\]/gi, function() {
+    	var actor = n >= 1 ? $gameActors.actor(parseInt(arguments[1])) : null;
+	    return actor ? actor.name() : '';
+    });
+    text = text.replace(/\x1bP\[(\d+)\]/gi, function() {
+	    var actor = n >= 1 ? $gameParty.members()[parseInt(arguments[1]) - 1] : null;
+	    return actor ? actor.name() : '';
+    });
+    text = text.replace(/\x1bG/gi, TextManager.currencyUnit);
+    return text;
+};
+
+
+
+//=============================================================================
+// Game_Interpareter
+//=============================================================================
+var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+	_Game_Interpreter_pluginCommand.call(this, command, args);
+	var waitMode = null;
+
+	if (command.toLowerCase() === 'animation') {
 		var idx = 0;
-		text = text.replace(/\\/g, '\x1b');
-		text = text.replace(/\x1b\x1b/g, '\\');
-		text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-			return $gameVariables.value(parseInt(arguments[1]));
-		});
-		text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
-			return $gameVariables.value(parseInt(arguments[1]));
-		});
-		text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
-			var actor = n >= 1 ? $gameActors.actor(parseInt(arguments[1])) : null;
-			return actor ? actor.name() : '';
-		});
-		text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
-			var actor = n >= 1 ? $gameParty.members()[parseInt(arguments[1]) - 1] : null;
-			return actor ? actor.name() : '';
-		});
-		text = text.replace(/\x1bG/gi, TextManager.currencyUnit);
-		return text;
-	};
+		var targetType = args[idx++].toLowerCase();
+		var target;
+
+		if(targetType === 'wait'){
+			this.setWaitMode('animation');
+			return;
+		}else if(targetType === '0' || targetType === 'this'){
+			target = this.character();
+		}else if(['player','プレイヤー'].contains(targetType)){
+			target = $gamePlayer;
+		}else{
+			var targetArgs = targetType.split(':');
+			targetType = targetArgs[0];
+		    var targetId = targetArgs[1] ? targetArgs[1] : args[idx++];
+		    targetId = Number(convertEscapeCharacters(targetId));
+
+		    if(['event','イベント'].contains(targetType)){
+		    	target = $gameMap.event(targetId);
+		    }else if(['party','パーティー'].contains(targetType)){
+		    	target = $gameParty.members()[targetId-1];
+		    }else if(['enemy','敵'].contains(targetType)){
+		    	target = $gameTroop.members()[targetId-1];
+		    }else if(['actor','アクター'].contains(targetType)){
+		    	target = $gameActors.actor(targetId);
+		    }
+		}
+
+		if(!target)return;
 
 
+		var animationId = 0;
+		var scale = 1;
+		var rotation = 0;
+		var offsetX = 0;
+		var offsetY = 0;
+		var argMirror = false;
+		var mirror = false;
+		var delay = 0;
+		var seVolume = 100;
 
-	//=============================================================================
-	// Game_Interpareter
-	//=============================================================================
-	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
-		_Game_Interpreter_pluginCommand.call(this, command, args);
-		var waitMode = null;
+		var defaultParams = ['animationid','scale','angle','x','y','mirror','delay','sevolume'];
 
-		if (command.toLowerCase() === 'animation') {
-			var idx = 0;
-			var targetType = args[idx++].toLowerCase();
-			var target;
+		for(;idx<args.length; idx+=1){
+			var arg = args[idx];
+			var params = arg.split(':');
 
-			if (targetType === 'wait') {
-				this.setWaitMode('animation');
-				return;
-			} else if (targetType === '0' || targetType === 'this') {
-				target = this.character();
-			} else if (['player', 'プレイヤー'].contains(targetType)) {
-				target = $gamePlayer;
-			} else {
-				var targetArgs = targetType.split(':');
-				targetType = targetArgs[0];
-				var targetId = targetArgs[1] ? targetArgs[1] : args[idx++];
-				targetId = Number(convertEscapeCharacters(targetId));
+			var defParam = defaultParams.shift();
 
-				if (['event', 'イベント'].contains(targetType)) {
-					target = $gameMap.event(targetId);
-				} else if (['party', 'パーティー'].contains(targetType)) {
-					target = $gameParty.members()[targetId - 1];
-				} else if (['enemy', '敵'].contains(targetType)) {
-					target = $gameTroop.members()[targetId - 1];
-				} else if (['actor', 'アクター'].contains(targetType)) {
-					target = $gameActors.actor(targetId);
+			var pName;
+			var pValue;
+			if(params.length === 2){
+				pName = params[0].toLowerCase();
+				pValue = params[1];
+			}else{
+				if(['mirror','反転'].contains(params[0])){
+					pName = 'mirror';
+					pValue = 'true';
+				}else{
+					pName = defParam;
+					pValue = params[0];
 				}
 			}
 
-			if (!target) return;
+			pValue = convertEscapeCharacters(pValue);
 
-
-			var animationId = 0;
-			var scale = 1;
-			var rotation = 0;
-			var offsetX = 0;
-			var offsetY = 0;
-			var argMirror = false;
-			var mirror = false;
-			var delay = 0;
-			var seVolume = 100;
-
-			var defaultParams = ['animationid', 'scale', 'angle', 'x', 'y', 'mirror', 'delay', 'sevolume'];
-
-			for (; idx < args.length; idx += 1) {
-				var arg = args[idx];
-				var params = arg.split(':');
-
-				var defParam = defaultParams.shift();
-
-				var pName;
-				var pValue;
-				if (params.length === 2) {
-					pName = params[0].toLowerCase();
-					pValue = params[1];
-				} else {
-					if (['mirror', '反転'].contains(params[0])) {
-						pName = 'mirror';
-						pValue = 'true';
-					} else {
-						pName = defParam;
-						pValue = params[0];
-					}
-				}
-
-				pValue = convertEscapeCharacters(pValue);
-
-				if (['animationid', 'animation', 'id', 'アニメーションID', 'アニメーション'].contains(pName)) {
-					animationId = Number(pValue);
-				} else if (['scale', '大きさ', '拡大率'].contains(pName)) {
-					scale = Number(pValue) / 100;
-				} else if (['angle', 'rotation', '回転', '角度'].contains(pName)) {
-					rotation = Number(pValue);
-					if (pName !== 'rotation') rotation = rotation / 180 * Math.PI;
-				} else if (['x', 'offsetx'].contains(pName)) {
-					offsetX = Number(pValue);
-				} else if (['y', 'offsety'].contains(pName)) {
-					offsetY = Number(pValue);
-				} else if (['mirror', '反転'].contains(pName)) {
-					mirror = !(['false', 'off', 0, '0', false].contains(pValue.toLowerCase()));
-				} else if (['delay', '遅延'].contains(pName)) {
-					delay = Number(pValue);
-				} else if (['sevolume', 'se', 'volume', '音量']) {
-					seVolume = Number(pValue);
-				}
-			}
-
-			if (!animationId) return;
-			if (target.requestAnimation) {
-				target.requestAnimation(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
-				this._character = target;
-			} else if (target.startAnimation) {
-				target.startAnimation(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
-				this._character = target;
+			if(['animationid','animation','id','アニメーションID','アニメーション'].contains(pName)){
+				animationId = Number(pValue);
+			}else if(['scale','大きさ','拡大率'].contains(pName)){
+				scale = Number(pValue)/100;
+			}else if(['angle','rotation','回転','角度'].contains(pName)){
+				rotation = Number(pValue);
+				if(pName!=='rotation')rotation=rotation/180*Math.PI;
+			}else if(['x','offsetx'].contains(pName)){
+				offsetX = Number(pValue);
+			}else if(['y','offsety'].contains(pName)){
+				offsetY = Number(pValue);
+			}else if(['mirror','反転'].contains(pName)){
+				mirror = !(['false','off',0,'0',false].contains(pValue.toLowerCase()));
+			}else if(['delay','遅延'].contains(pName)){
+				delay = Number(pValue);
+			}else if(['sevolume', 'se','volume','音量']){
+				seVolume = Number(pValue);
 			}
 		}
-	};
 
-
-
-
-
-
-	//=============================================================================
-	// Game_CharacterBase
-	//=============================================================================
-	Game_CharacterBase.prototype.requestAnimation = function (animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume) {
-		var data = { animationId: animationId, mirror: mirror, delay: delay, scale: scale, rotation: rotation, offsetX: offsetX, offsetY: offsetY, seVolume: seVolume };
-		if (!this._animations) this._animations = [];
-
-		this._animations.unshift(0, 0, data);
-	};
-	Game_CharacterBase.prototype.nextAnimation = function () {
-		return this._animations ? this._animations.pop() : null;
-	};
-	Game_CharacterBase.prototype.isAnimationPlaying = function () {
-		return this._animations && (this._animations.length || this._animationPlaying);
-	};
-
-
-
-	//=============================================================================
-	// Game_Battler
-	//=============================================================================
-	Game_Battler.prototype.startAnimation = function (animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume) {
-		var data = { animationId: animationId, mirror: mirror, delay: delay, scale: scale, rotation: rotation, offsetX: offsetX, offsetY: offsetY, seVolume: seVolume };
-		this._animations.push(data);
-	};
-
-
-
-	//=============================================================================
-	// Sprite_Base
-	//=============================================================================
-	Sprite_Base.prototype.startAnimation = function (animation, mirror, delay, scale, rotation, offsetX, offsetY, seVolume) {
-		var sprite = new Sprite_Animation();
-		sprite.setup(this._effectTarget, animation, mirror, delay);
-		sprite.setupExtend(mirror, scale, rotation, offsetX, offsetY, seVolume);
-		this.parent.addChild(sprite);
-		this._animationSprites.push(sprite);
-	};
-
-
-	//=============================================================================
-	// Sprite_Battler
-	//=============================================================================
-	Sprite_Battler.prototype.setupAnimation = function () {
-		while (this._battler.isAnimationRequested()) {
-			var data = this._battler.shiftAnimation();
-
-			var animation = $dataAnimations[data.animationId];
-			var mirror = data.mirror;
-			var delay = animation.position === 3 ? 0 : data.delay;
-			var scale = data.scale;
-			var rotation = data.rotation;
-			var offsetX = data.offsetX;
-			var offsetY = data.offsetY;
-			var seVolume = data.seVolume;
-			this.startAnimation(animation, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
-			for (var i = 0; i < this._animationSprites.length; i++) {
-				var sprite = this._animationSprites[i];
-				sprite.visible = this._battler.isSpriteVisible();
-			}
+		if(!animationId)return;
+		if(target.requestAnimation){
+			target.requestAnimation(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
+			this._character = target;
+		}else if(target.startAnimation){
+			target.startAnimation(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);    
+			this._character = target;
 		}
-	};
-
-
-
-
-	//=============================================================================
-	// Sprite_Character
-	//=============================================================================
-	Sprite_Character.prototype.setupAnimation = function () {
-		var data = this._character.nextAnimation();
-		for (; data; data = this._character.nextAnimation()) {
-			var animation = $dataAnimations[data.animationId];
-			var mirror = data.mirror;
-			var delay = animation.position === 3 ? 0 : data.delay;
-			var scale = data.scale;
-			var rotation = data.rotation;
-			var offsetX = data.offsetX;
-			var offsetY = data.offsetY;
-			var seVolume = data.seVolume;
-			this.startAnimation(animation, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
-		}
-	};
-
-
-
-
-	//=============================================================================
-	// Sprite_Animation
-	//=============================================================================
-	var _Sprite_Animation_initMembers = Sprite_Animation.prototype.initMembers;
-	Sprite_Animation.prototype.initMembers = function () {
-		_Sprite_Animation_initMembers.call(this);
-
-		this._scale = 1;
-		this._offsetX = 0;
-		this._offsetY = 0;
-		this._rotation = 0;
-		this._rate = 4;
-	};
-
-
-	Sprite_Animation.prototype.setupRate = function () {
-		var name = this._animation.name;
-
-		var match = name.match(/\[F([0-9]+)\]/);
-		this._rate = (match ? Number(match[1]) : 4);
-	};
-
-
-
-	var _Sprite_Animation_updatePosition_ = Sprite_Animation.prototype.updatePosition;
-	Sprite_Animation.prototype.updatePosition = function () {
-		_Sprite_Animation_updatePosition_.call(this);
-
-		this.x += this._offsetX;
-		this.y += this._offsetY;
-	};
-
-
-
-
-	Sprite_Animation.prototype.setupExtend = function (mirror, scale, rotation, offsetX, offsetY, seVolume) {
-		this._scale = supplementNum(1, scale);
-		this._offsetX = supplementNum(0, offsetX);
-		this._offsetY = supplementNum(0, offsetY);
-		this._rotation = supplementNum(0, rotation);
-		this._seVolume = supplementNum(100, seVolume);
-
-		if (mirror) {
-			this._rotation *= -1;
-			this._offsetX *= -1;
-		}
-
-		this.rotation = this._rotation;
-		this.scale.x = this._scale;
-		this.scale.y = this._scale;
-	};
-
-
-
-	/* seVolumeの調整
-	===================================*/
-	var _Sprite_Animation_processTimingData = Sprite_Animation.prototype.processTimingData;
-	Sprite_Animation.prototype.processTimingData = function (timing) {
-		var volume;
-		if (timing.se) {
-			volume = timing.se.volume;
-			timing.se.volume *= this._seVolume / 100;
-		}
-		_Sprite_Animation_processTimingData.call(this, timing);
-
-		if (volume) {
-			timing.se.volume = volume;
-		}
-	};
-
-
-	//=============================================================================
-	// Window_BattleLog
-	//=============================================================================
-	Window_BattleLog.prototype.showAnimation = function (subject, targets, animationId, mirror, delay, scale, rotaion, offsetX, offsetY, seVolume) {
-		if (animationId < 0) {
-			this.showAttackAnimation(subject, targets);
-		} else {
-			this.showNormalAnimation(targets, animationId, mirror, delay, scale, rotaion, offsetX, offsetY, seVolume, subject);
-		}
-	};
-
-	Window_BattleLog.prototype.showNormalAnimation = function (targets, animationId, mirror, delay, scale, rotaion, offsetX, offsetY, seVolume, subject) {
-		var animation = $dataAnimations[animationId];
-		if (animation) {
-			delay = this.animationBaseDelay() + (delay || 0);
-			var nextDelay = this.animationNextDelay();
-			targets.forEach(function (target) {
-				target.startAnimation(animationId, mirror, delay, scale, rotaion, offsetX, offsetY, seVolume, subject);
-				delay += nextDelay;
-			});
-		}
-	};
-
-
-
-
-
-	//=============================================================================
-	// VE_BattleMotionsでの利用
-	//=============================================================================
-	if (VE_BattleMotions && VictorEngine) {
-		Window_BattleLog.prototype.processMotionAnimation = function (motion, index, user, action, targets, target) {
-			var list = motion.split(',');
-			var type = list[1] ? list[1].toLowerCase().trim() : '';
-			var subjects = this.getMotionSubjects(list[0], user, targets, target, index);
-			for (var i = 0; i < subjects.length; i++) {
-				var subject = subjects[i];
-				if (subject.isSpriteVisible()) {
-					var stack = subject === user ? index : VictorEngine.battlerIndex(subject);
-					if (type === 'action') {
-						var animationId = action.item().animationId;
-					} else if (type === 'weapon') {
-						var animationId = -1;
-					} else {
-						var match = type.match(/\d+/gi);
-						var animationId = match ? Number(match[0]) : 0;
-					}
-
-					//以下変更
-					if (animationId) {
-						var item = action ? action.item() : { meta: {} };
-						var scale = Number(list[2]) || Number(item.meta.scale) || 1;
-						var rotation = (Number(list[3]) || Number(item.meta.rotation) || 0) / 180 * Math.PI;
-						var offsetX = Number(list[4]) || Number(item.meta.offsetX) || 0;
-						var offsetY = Number(list[5]) || Number(item.meta.offsetY) || 0;
-						var mirror = list[6] && list[6].contains('true');
-						var delay = supplementNum(0, list[7] || item.meta.delay);
-						var seVolume = supplementNum(100, list[7] || item.meta.seVolume);
-
-						this.showAnimation(user, [subject], animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume);
-					}
-				}
-			}
-			this.insert(index, 'waitForTime', 1);
-		};
 	}
+};
+
+
+
+
+
+
+//=============================================================================
+// Game_CharacterBase
+//=============================================================================
+Game_CharacterBase.prototype.requestAnimation = function(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume){
+	var data = { animationId: animationId, mirror: mirror, delay: delay , scale:scale, rotation:rotation, offsetX:offsetX, offsetY:offsetY, seVolume:seVolume};
+	if(!this._animations)this._animations = [];
+
+    this._animations.unshift(0,0,data);
+};
+Game_CharacterBase.prototype.nextAnimation = function() {
+    return this._animations ? this._animations.pop() : null;
+};
+Game_CharacterBase.prototype.isAnimationPlaying = function() {
+    return this._animations && (this._animations.length || this._animationPlaying);
+};
+
+
+
+//=============================================================================
+// Game_Battler
+//=============================================================================
+Game_Battler.prototype.startAnimation = function(animationId, mirror, delay, scale, rotation, offsetX, offsetY, seVolume) {
+    var data = { animationId: animationId, mirror: mirror, delay: delay , scale:scale, rotation:rotation, offsetX:offsetX, offsetY:offsetY, seVolume:seVolume};
+    this._animations.push(data);
+};
+
+
+
+//=============================================================================
+// Sprite_Base
+//=============================================================================
+Sprite_Base.prototype.startAnimation = function(animation, mirror, delay, scale, rotation, offsetX, offsetY,seVolume) {
+    var sprite = new Sprite_Animation();
+    sprite.setup(this._effectTarget, animation, mirror, delay);
+    sprite.setupExtend(mirror,scale,rotation,offsetX,offsetY,seVolume);
+    this.parent.addChild(sprite);    	
+    this._animationSprites.push(sprite);
+};
+
+
+//=============================================================================
+// Sprite_Battler
+//=============================================================================
+Sprite_Battler.prototype.setupAnimation = function() {
+    while (this._battler.isAnimationRequested()) {
+        var data = this._battler.shiftAnimation();
+
+        var animation = $dataAnimations[data.animationId];
+        var mirror = data.mirror;
+        var delay = animation.position === 3 ? 0 : data.delay;
+        var scale = data.scale;
+        var rotation = data.rotation;
+        var offsetX = data.offsetX;
+        var offsetY = data.offsetY;
+        var seVolume = data.seVolume;
+        this.startAnimation(animation, mirror, delay, scale,rotation,offsetX,offsetY,seVolume);
+        for (var i = 0; i < this._animationSprites.length; i++) {
+            var sprite = this._animationSprites[i];
+            sprite.visible = this._battler.isSpriteVisible();
+        }
+    }
+};
+
+
+
+
+//=============================================================================
+// Sprite_Character
+//=============================================================================
+Sprite_Character.prototype.setupAnimation = function() {
+	var data = this._character.nextAnimation();
+	for( ; data ; data = this._character.nextAnimation()){
+        var animation = $dataAnimations[data.animationId];
+        var mirror = data.mirror;
+        var delay = animation.position === 3 ? 0 : data.delay;
+        var scale = data.scale;
+        var rotation = data.rotation;
+        var offsetX = data.offsetX;
+        var offsetY = data.offsetY;
+        var seVolume = data.seVolume;
+        this.startAnimation(animation, mirror, delay, scale,rotation,offsetX,offsetY,seVolume);
+    }
+};
+
+
+
+
+//=============================================================================
+// Sprite_Animation
+//=============================================================================
+var _Sprite_Animation_initMembers = Sprite_Animation.prototype.initMembers;
+Sprite_Animation.prototype.initMembers = function() {
+	_Sprite_Animation_initMembers.call(this);
+
+	this._scale = 1;
+	this._offsetX = 0;
+	this._offsetY = 0;
+	this._rotation = 0;
+	this._rate = 4;
+};
+
+
+Sprite_Animation.prototype.setupRate = function(){
+	var name = this._animation.name;
+
+	var match = name.match(/\[F([0-9]+)\]/);
+	this._rate = (match ? Number(match[1]) : 4);
+};
+
+
+
+var _Sprite_Animation_updatePosition_ = Sprite_Animation.prototype.updatePosition;
+Sprite_Animation.prototype.updatePosition = function() {
+	_Sprite_Animation_updatePosition_.call(this);			
+
+	this.x += this._offsetX;
+	this.y += this._offsetY;
+};
+
+
+
+
+Sprite_Animation.prototype.setupExtend = function(mirror,scale, rotation, offsetX, offsetY,seVolume) {
+	this._scale = supplementNum(1, scale);
+	this._offsetX = supplementNum(0, offsetX);
+	this._offsetY = supplementNum(0, offsetY);
+	this._rotation = supplementNum(0, rotation);
+	this._seVolume = supplementNum(100, seVolume);
+
+	if(mirror){
+		this._rotation *= -1;
+		this._offsetX *= -1;
+	}
+
+	this.rotation = this._rotation;
+	this.scale.x = this._scale;
+	this.scale.y = this._scale;
+};
+
+
+
+/* seVolumeの調整
+===================================*/
+var _Sprite_Animation_processTimingData = Sprite_Animation.prototype.processTimingData;
+Sprite_Animation.prototype.processTimingData = function(timing) {
+	var volume;
+	if(timing.se){
+		volume = timing.se.volume;
+		timing.se.volume *= this._seVolume/100;
+	}
+	_Sprite_Animation_processTimingData.call(this,timing);
+
+	if(volume){
+		timing.se.volume = volume;
+	}
+};
+
+
+//=============================================================================
+// Window_BattleLog
+//=============================================================================
+Window_BattleLog.prototype.showAnimation = function(subject, targets, animationId, mirror, delay ,scale, rotaion, offsetX, offsetY,seVolume) {
+    if (animationId < 0) {
+        this.showAttackAnimation(subject, targets);
+    } else {
+        this.showNormalAnimation(targets, animationId,mirror,delay,scale, rotaion, offsetX, offsetY,seVolume,subject);
+    }
+};
+
+Window_BattleLog.prototype.showNormalAnimation = function(targets, animationId, mirror,delay,scale, rotaion, offsetX, offsetY,seVolume,subject) {
+    var animation = $dataAnimations[animationId];
+    if (animation) {
+        delay = this.animationBaseDelay() + (delay||0);
+        var nextDelay = this.animationNextDelay();
+        targets.forEach(function(target) {
+            target.startAnimation(animationId, mirror, delay, scale, rotaion, offsetX, offsetY,seVolume, subject);
+            delay += nextDelay;
+        });
+    }
+};
+
+
+
+
+
+//=============================================================================
+// VE_BattleMotionsでの利用
+//=============================================================================
+if(VE_BattleMotions && VictorEngine){
+	Window_BattleLog.prototype.processMotionAnimation = function(motion, index, user, action, targets, target) {
+	    var list = motion.split(',');
+	    var type = list[1] ? list[1].toLowerCase().trim() : '';
+	    var subjects = this.getMotionSubjects(list[0], user, targets, target, index);
+	    for (var i = 0; i < subjects.length; i++) {
+	        var subject = subjects[i];
+	        if (subject.isSpriteVisible()) {
+	            var stack = subject === user ? index : VictorEngine.battlerIndex(subject);
+	            if (type === 'action') {
+	                var animationId = action.item().animationId;
+	            } else if (type === 'weapon') {
+	                var animationId = -1;
+	            } else {
+	                var match = type.match(/\d+/gi);
+	                var animationId = match ? Number(match[0]) : 0;
+	            }
+
+	            //以下変更
+	            if (animationId) {
+	                var item = action ? action.item() : {meta:{}};
+	                var scale = Number(list[2]) || Number(item.meta.scale) || 1;
+	                var rotation = (Number(list[3]) || Number(item.meta.rotation) || 0)/180*Math.PI;
+	                var offsetX =  Number(list[4]) || Number(item.meta.offsetX) || 0;
+	                var offsetY = Number(list[5]) || Number(item.meta.offsetY) || 0;
+	                var mirror = list[6]&&list[6].contains('true');
+	                var delay = supplementNum(0, list[7] || item.meta.delay);
+	                var seVolume = supplementNum(100,list[7] || item.meta.seVolume);
+
+	                this.showAnimation(user, [subject], animationId, mirror,delay,scale,rotation,offsetX,offsetY,seVolume);
+	            }        
+	        }
+	    }
+	    this.insert(index, 'waitForTime', 1);
+	};
+}
 
 })();

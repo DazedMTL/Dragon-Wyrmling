@@ -124,15 +124,15 @@ function Scene_Splash() {
     this.initialize.apply(this, arguments);
 }
 
-(function () {
+(function() {
 
     //-----------------------------------------------------------------------------
     // Scene_Boot
     //
     // The scene class for dealing with the game boot.
-
+    
     var _Scene_Boot_loadSystemImages = Scene_Boot.prototype.loadSystemImages;
-    Scene_Boot.prototype.loadSystemImages = function () {
+    Scene_Boot.prototype.loadSystemImages = function() {
         _Scene_Boot_loadSystemImages.call(this);
         if (Liquidize.MadeWithMV.ShowMV) {
             ImageManager.loadSystem(Liquidize.MadeWithMV.MVImage);
@@ -143,7 +143,7 @@ function Scene_Splash() {
     };
 
     var _Scene_Boot_start = Scene_Boot.prototype.start;
-    Scene_Boot.prototype.start = function () {
+    Scene_Boot.prototype.start = function() {
         if ((Liquidize.MadeWithMV.ShowMV || Liquidize.MadeWithMV.ShowCustom) && !DataManager.isBattleTest() && !DataManager.isEventTest()) {
             SceneManager.goto(Scene_Splash);
         } else {
@@ -159,7 +159,7 @@ function Scene_Splash() {
     Scene_Splash.prototype = Object.create(Scene_Base.prototype);
     Scene_Splash.prototype.constructor = Scene_Splash;
 
-    Scene_Splash.prototype.initialize = function () {
+    Scene_Splash.prototype.initialize = function() {
         Scene_Base.prototype.initialize.call(this);
         this._mvSplash = null;
         this._customSplash = null;
@@ -171,12 +171,12 @@ function Scene_Splash() {
         this._customFadeIn = false;
     };
 
-    Scene_Splash.prototype.create = function () {
+    Scene_Splash.prototype.create = function() {
         Scene_Base.prototype.create.call(this);
         this.createSplashes();
     };
 
-    Scene_Splash.prototype.start = function () {
+    Scene_Splash.prototype.start = function() {
         Scene_Base.prototype.start.call(this);
         SceneManager.clearStack();
         if (this._mvSplash != null) {
@@ -187,7 +187,7 @@ function Scene_Splash() {
         }
     };
 
-    Scene_Splash.prototype.update = function () {
+    Scene_Splash.prototype.update = function() {
         if (Liquidize.MadeWithMV.ShowMV) {
             if (!this._mvFadeIn) {
                 this.startFadeIn(Liquidize.MadeWithMV.FadeInTime, false);
@@ -254,7 +254,7 @@ function Scene_Splash() {
         Scene_Base.prototype.update.call(this);
     };
 
-    Scene_Splash.prototype.createSplashes = function () {
+    Scene_Splash.prototype.createSplashes = function() {
         if (Liquidize.MadeWithMV.ShowMV) {
             this._mvSplash = new Sprite(ImageManager.loadSystem(Liquidize.MadeWithMV.MVImage));
             this.addChild(this._mvSplash);
@@ -266,14 +266,14 @@ function Scene_Splash() {
         }
     };
 
-    Scene_Splash.prototype.centerSprite = function (sprite) {
+    Scene_Splash.prototype.centerSprite = function(sprite) {
         sprite.x = Graphics.width / 2;
         sprite.y = Graphics.height / 2;
         sprite.anchor.x = 0.5;
         sprite.anchor.y = 0.5;
     };
 
-    Scene_Splash.prototype.gotoTitleOrTest = function () {
+    Scene_Splash.prototype.gotoTitleOrTest = function() {
         Scene_Base.prototype.start.call(this);
         SoundManager.preloadImportantSounds();
         if (DataManager.isBattleTest()) {
@@ -291,11 +291,11 @@ function Scene_Splash() {
         this.updateDocumentTitle();
     };
 
-    Scene_Splash.prototype.updateDocumentTitle = function () {
+    Scene_Splash.prototype.updateDocumentTitle = function() {
         document.title = $dataSystem.gameTitle;
     };
 
-    Scene_Splash.prototype.checkPlayerLocation = function () {
+    Scene_Splash.prototype.checkPlayerLocation = function() {
         if ($dataSystem.startMapId === 0) {
             throw new Error('Player\'s starting position is not set');
         }

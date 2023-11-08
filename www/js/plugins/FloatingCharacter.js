@@ -202,24 +202,24 @@
     var pluginName = 'FloatingCharacter';
     var metaTagPrefix = 'FC';
 
-    var getParamString = function (paramNames) {
+    var getParamString = function(paramNames) {
         var value = getParamOther(paramNames);
         return value == null ? '' : value;
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamOther(paramNames);
         return (value || '').toUpperCase() === 'ON' || (value || '').toUpperCase() === 'TRUE';
     };
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -248,7 +248,7 @@
         return values;
     };
 
-    var getMetaValue = function (object, name) {
+    var getMetaValue = function(object, name) {
         var metaTagName = metaTagPrefix + name;
         if (!object.meta) {
             return undefined;
@@ -256,7 +256,7 @@
         return object.meta.hasOwnProperty(metaTagName) ? convertEscapeCharacters(object.meta[metaTagName]) : undefined;
     };
 
-    var getMetaValues = function (object, names) {
+    var getMetaValues = function(object, names) {
         for (var i = 0, n = names.length; i < n; i++) {
             var value = getMetaValue(object, names[i]);
             if (value !== undefined) return value;
@@ -264,7 +264,7 @@
         return undefined;
     };
 
-    var hasMetaValue = function (object, name) {
+    var hasMetaValue = function(object, name) {
         var metaTagName = metaTagPrefix + name;
         if (!object.meta) {
             return false;
@@ -272,27 +272,27 @@
         return object.meta.hasOwnProperty(metaTagName);
     };
 
-    var hasMetaValues = function (object, names) {
-        return names.some(function (name) {
+    var hasMetaValues = function(object, names) {
+        return names.some(function(name) {
             return hasMetaValue(object, name);
         });
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (String(text) !== text) text = '';
         text = text.replace(/\\/g, '\x1b');
         text = text.replace(/\x1b\x1b/g, '\\');
-        text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
             return $gameVariables.value(parseInt(arguments[1]));
         }.bind(this));
-        text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
             return $gameVariables.value(parseInt(arguments[1]));
         }.bind(this));
-        text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bN\[(\d+)\]/gi, function() {
             var actor = parseInt(arguments[1]) >= 1 ? $gameActors.actor(parseInt(arguments[1])) : null;
             return actor ? actor.name() : '';
         }.bind(this));
-        text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bP\[(\d+)\]/gi, function() {
             var actor = parseInt(arguments[1]) >= 1 ? $gameParty.members()[parseInt(arguments[1]) - 1] : null;
             return actor ? actor.name() : '';
         }.bind(this));
@@ -303,18 +303,18 @@
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var paramTerrainTags = getParamArrayNumber(['通行可能地形タグ', 'TerrainTags']);
-    var paramRegionId = getParamArrayNumber(['通行可能リージョン', 'RegionId']);
-    var paramHighestTerrainTags = getParamArrayNumber(['高度通行地形タグ', 'HighestTerrainTags']);
-    var paramHighestRegionId = getParamArrayNumber(['高度通行リージョン', 'HighestRegionId']);
-    var paramHighestThreshold = getParamNumber(['高度閾値', 'HighestThreshold']);
-    var paramFloatFollower = getParamBoolean(['フォロワー連動', 'FloatFollower']);
+    var paramTerrainTags         = getParamArrayNumber(['通行可能地形タグ', 'TerrainTags']);
+    var paramRegionId            = getParamArrayNumber(['通行可能リージョン', 'RegionId']);
+    var paramHighestTerrainTags  = getParamArrayNumber(['高度通行地形タグ', 'HighestTerrainTags']);
+    var paramHighestRegionId     = getParamArrayNumber(['高度通行リージョン', 'HighestRegionId']);
+    var paramHighestThreshold    = getParamNumber(['高度閾値', 'HighestThreshold']);
+    var paramFloatFollower       = getParamBoolean(['フォロワー連動', 'FloatFollower']);
 
     //=============================================================================
     // Game_Interpreter
     //  キャラクターの浮遊判定を追加定義します。
     //=============================================================================
-    Game_Interpreter.prototype.isFloating = function (characterId) {
+    Game_Interpreter.prototype.isFloating = function(characterId) {
         var character = this.character(characterId);
         if (character !== null) {
             return character.isFloating();
@@ -328,133 +328,133 @@
     //  キャラクターの浮遊関連情報を追加定義します。
     //=============================================================================
     var _Game_CharacterBase_initMembers = Game_CharacterBase.prototype.initMembers;
-    Game_CharacterBase.prototype.initMembers = function () {
+    Game_CharacterBase.prototype.initMembers = function() {
         _Game_CharacterBase_initMembers.apply(this, arguments);
         this.initFloatingInfo();
     };
-    Game_CharacterBase.prototype.isLowest = Game_Vehicle.prototype.isLowest;
-    Game_CharacterBase.prototype.isHighest = Game_Vehicle.prototype.isHighest;
+    Game_CharacterBase.prototype.isLowest      = Game_Vehicle.prototype.isLowest;
+    Game_CharacterBase.prototype.isHighest     = Game_Vehicle.prototype.isHighest;
     Game_CharacterBase.prototype.shadowOpacity = Game_Vehicle.prototype.shadowOpacity;
 
-    Game_CharacterBase.prototype.initFloatingInfo = function () {
-        this._altitude = 0;
+    Game_CharacterBase.prototype.initFloatingInfo = function() {
+        this._altitude           = 0;
         this._altitudeAnimeCount = 0;
-        this._maxAltitude = 0;
-        this._needFloat = false;
-        this._floatSpped = 1;
+        this._maxAltitude        = 0;
+        this._needFloat          = false;
+        this._floatSpped         = 1;
     };
 
     var _Game_CharacterBase_isMapPassable = Game_CharacterBase.prototype.isMapPassable;
-    Game_CharacterBase.prototype.isMapPassable = function (x, y, d) {
+    Game_CharacterBase.prototype.isMapPassable = function(x, y, d) {
         if (this.isNeedFloat()) {
             var x2 = $gameMap.roundXWithDirection(x, d);
             var y2 = $gameMap.roundYWithDirection(y, d);
-            if (paramRegionId.some(function (id) {
-                return id === $gameMap.regionId(x2, y2);
-            }.bind(this))) return true;
-            if (paramTerrainTags.some(function (id) {
-                return id === $gameMap.terrainTag(x2, y2);
-            }.bind(this))) return true;
-            if (this._altitude >= paramHighestThreshold) {
-                if (paramHighestRegionId.some(function (id) {
+            if (paramRegionId.some(function(id) {
                     return id === $gameMap.regionId(x2, y2);
                 }.bind(this))) return true;
-                if (paramHighestTerrainTags.some(function (id) {
+            if (paramTerrainTags.some(function(id) {
                     return id === $gameMap.terrainTag(x2, y2);
                 }.bind(this))) return true;
+            if (this._altitude >= paramHighestThreshold) {
+                if (paramHighestRegionId.some(function(id) {
+                        return id === $gameMap.regionId(x2, y2);
+                    }.bind(this))) return true;
+                if (paramHighestTerrainTags.some(function(id) {
+                        return id === $gameMap.terrainTag(x2, y2);
+                    }.bind(this))) return true;
             }
         }
         return _Game_CharacterBase_isMapPassable.apply(this, arguments);
     };
 
     var _Game_CharacterBase_screenY = Game_CharacterBase.prototype.screenY;
-    Game_CharacterBase.prototype.screenY = function () {
+    Game_CharacterBase.prototype.screenY = function() {
         return _Game_CharacterBase_screenY.apply(this, arguments) +
             (this.isFloating() ? Math.floor(Math.sin(this._altitudeAnimeCount / 16) * 3) - this._altitude : 0);
     };
 
     var _Game_CharacterBase_screenZ = Game_CharacterBase.prototype.screenZ;
-    Game_CharacterBase.prototype.screenZ = function () {
+    Game_CharacterBase.prototype.screenZ = function() {
         return _Game_CharacterBase_screenZ.apply(this, arguments) +
             (this._altitude >= $gameMap.tileHeight() ? 1 : 0);
     };
 
-    Game_CharacterBase.prototype.screenShadowY = function () {
+    Game_CharacterBase.prototype.screenShadowY = function() {
         return _Game_CharacterBase_screenY.apply(this, arguments) - this.screenY();
     };
 
     var _Game_CharacterBase_isOnLadder = Game_CharacterBase.prototype.isOnLadder;
-    Game_CharacterBase.prototype.isOnLadder = function () {
+    Game_CharacterBase.prototype.isOnLadder = function() {
         return this.isFloating() ? false : _Game_CharacterBase_isOnLadder.apply(this, arguments);
     };
 
     var _Game_CharacterBase_isOnBush = Game_CharacterBase.prototype.isOnBush;
-    Game_CharacterBase.prototype.isOnBush = function () {
+    Game_CharacterBase.prototype.isOnBush = function() {
         return this.isFloating() ? false : _Game_CharacterBase_isOnBush.apply(this, arguments);
     };
 
-    Game_CharacterBase.prototype.maxAltitude = function () {
+    Game_CharacterBase.prototype.maxAltitude = function() {
         return this._maxAltitude;
     };
 
-    Game_CharacterBase.prototype.isFloating = function () {
+    Game_CharacterBase.prototype.isFloating = function() {
         return this._altitude > 0;
     };
 
-    Game_CharacterBase.prototype.isShadowVisible = function () {
+    Game_CharacterBase.prototype.isShadowVisible = function() {
         return this.isFloating() && (this._characterName || this._tileId) && this.isNeedShadow();
     };
 
-    Game_CharacterBase.prototype.isNeedFloat = function () {
+    Game_CharacterBase.prototype.isNeedFloat = function() {
         return this._needFloat;
     };
 
-    Game_CharacterBase.prototype.float = function (waitFlg, max) {
+    Game_CharacterBase.prototype.float = function(waitFlg, max) {
         if (!this.hasOwnProperty('_altitude') || isNaN(this._altitude)) {
             this.initFloatingInfo();
         }
         if (!max) max = $gameMap.tileHeight() / 2;
-        this._needFloat = true;
+        this._needFloat   = true;
         this._maxAltitude = max;
         if (waitFlg) {
             this._waitCount = this.getFloatingWaitCount(this.maxAltitude() - this._altitude);
         }
     };
 
-    Game_CharacterBase.prototype.landing = function (waitFlg) {
+    Game_CharacterBase.prototype.landing = function(waitFlg) {
         this._needFloat = false;
         if (waitFlg) {
             this._waitCount = this.getFloatingWaitCount(this.maxAltitude());
         }
     };
 
-    Game_CharacterBase.prototype.getFloatingWaitCount = function (altitudeDiff) {
+    Game_CharacterBase.prototype.getFloatingWaitCount = function(altitudeDiff) {
         return Math.floor(Math.max(altitudeDiff, 0) / this.getFloatSpeed());
     };
 
-    Game_CharacterBase.prototype.landingIfOk = function (waitFlg) {
+    Game_CharacterBase.prototype.landingIfOk = function(waitFlg) {
         if ($gameMap.isAirshipLandOk(this.x, this.y)) this.landing(waitFlg);
     };
 
     var _Game_CharacterBase_update = Game_CharacterBase.prototype.update;
-    Game_CharacterBase.prototype.update = function () {
+    Game_CharacterBase.prototype.update = function() {
         _Game_CharacterBase_update.apply(this, arguments);
         this.updateFloating();
     };
 
-    Game_CharacterBase.prototype.isNeedShadow = function () {
+    Game_CharacterBase.prototype.isNeedShadow = function() {
         return true;
     };
 
-    Game_CharacterBase.prototype.getFloatSpeed = function () {
+    Game_CharacterBase.prototype.getFloatSpeed = function() {
         return this._floatSpped || 1;
     };
 
-    Game_CharacterBase.prototype.setFloatSpeed = function (value) {
+    Game_CharacterBase.prototype.setFloatSpeed = function(value) {
         return this._floatSpped = value;
     };
 
-    Game_CharacterBase.prototype.updateFloating = function () {
+    Game_CharacterBase.prototype.updateFloating = function() {
         this._floatingPrev = this.isFloating();
         if (this.isNeedFloat()) {
             if (this.isHighest()) {
@@ -472,49 +472,49 @@
         }
     };
 
-    Game_Player.prototype.float = function (waitFlg, max) {
+    Game_Player.prototype.float = function(waitFlg, max) {
         Game_CharacterBase.prototype.float.apply(this, arguments);
         if (!paramFloatFollower) {
             return;
         }
-        this.followers().forEach(function (follower) {
+        this.followers().forEach(function(follower) {
             follower.float(waitFlg, max);
             follower._altitude = -follower._memberIndex * 4;
         }.bind(this));
     };
 
     var _Game_Player_isOnDamageFloor = Game_Player.prototype.isOnDamageFloor;
-    Game_Player.prototype.isOnDamageFloor = function () {
+    Game_Player.prototype.isOnDamageFloor = function() {
         return this.isFloating() ? false : _Game_Player_isOnDamageFloor.apply(this, arguments);
     };
 
-    Game_Player.prototype.landing = function () {
+    Game_Player.prototype.landing = function() {
         Game_CharacterBase.prototype.landing.apply(this, arguments);
         if (!paramFloatFollower) {
             return;
         }
-        this.followers().forEach(function (follower) {
+        this.followers().forEach(function(follower) {
             follower.landing();
         }.bind(this));
     };
 
-    Game_Player.prototype.setFloatSpeed = function (value) {
+    Game_Player.prototype.setFloatSpeed = function(value) {
         Game_CharacterBase.prototype.setFloatSpeed.apply(this, arguments);
         if (!paramFloatFollower) {
             return;
         }
-        this.followers().forEach(function (follower) {
+        this.followers().forEach(function(follower) {
             follower.setFloatSpeed(value);
         }.bind(this));
     };
 
-    Game_Vehicle.prototype.updateFloating = function () { };
-    Game_Vehicle.prototype.isFloating = function () {
+    Game_Vehicle.prototype.updateFloating = function() {};
+    Game_Vehicle.prototype.isFloating = function() {
         return false;
     };
 
     var _Game_Event_initialize = Game_Event.prototype.initialize;
-    Game_Event.prototype.initialize = function (mapId, eventId) {
+    Game_Event.prototype.initialize = function(mapId, eventId) {
         _Game_Event_initialize.apply(this, arguments);
         var altitude = getMetaValues(this.event(), ['高度', 'Altitude']);
         this._noShadow = hasMetaValues(this.event(), ['影なし', 'NoShadow']);
@@ -523,13 +523,13 @@
         }
     };
 
-    Game_Event.prototype.setInitAltitude = function (altitude) {
+    Game_Event.prototype.setInitAltitude = function(altitude) {
         this.float(false, altitude);
         this._altitude = this._maxAltitude;
         this.refreshBushDepth();
     };
 
-    Game_Event.prototype.isNeedShadow = function () {
+    Game_Event.prototype.isNeedShadow = function() {
         return !this._noShadow;
     };
 
@@ -538,18 +538,18 @@
     //  キャラクターの浮遊関連情報を追加定義します。
     //=============================================================================
     var _Sprite_Character_initMembers = Sprite_Character.prototype.initMembers;
-    Sprite_Character.prototype.initMembers = function () {
+    Sprite_Character.prototype.initMembers = function() {
         _Sprite_Character_initMembers.apply(this, arguments);
         this._shadowSprite = null;
     };
 
     var _Sprite_Character_update = Sprite_Character.prototype.update;
-    Sprite_Character.prototype.update = function () {
+    Sprite_Character.prototype.update = function() {
         _Sprite_Character_update.apply(this, arguments);
         this.updateFloating();
     };
 
-    Sprite_Character.prototype.updateFloating = function () {
+    Sprite_Character.prototype.updateFloating = function() {
         if (this._character.isShadowVisible()) {
             if (!this._shadowSprite) this.createShadow();
             this._shadowSprite.y = this._character.screenShadowY();
@@ -559,7 +559,7 @@
         }
     };
 
-    Sprite_Character.prototype.createShadow = function () {
+    Sprite_Character.prototype.createShadow = function() {
         this._shadowSprite = new Sprite();
         this._shadowSprite.bitmap = ImageManager.loadSystem('Shadow1');
         this._shadowSprite.anchor.x = 0.5;
@@ -567,7 +567,7 @@
         this.addChild(this._shadowSprite);
     };
 
-    Sprite_Character.prototype.disposeShadow = function () {
+    Sprite_Character.prototype.disposeShadow = function() {
         this.removeChild(this._shadowSprite);
         this._shadowSprite = null;
     };

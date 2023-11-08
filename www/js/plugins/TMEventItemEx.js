@@ -126,26 +126,26 @@ TMPlugin.EventItemEx.HelpWindowEnabledKey = TMPlugin.EventItemEx.Parameters['hel
 TMPlugin.EventItemEx.HelpWindowEnabledA = TMPlugin.EventItemEx.Parameters['helpWindowEnabledA'] === '1';
 TMPlugin.EventItemEx.HelpWindowEnabledB = TMPlugin.EventItemEx.Parameters['helpWindowEnabledB'] === '1';
 TMPlugin.EventItemEx.ShowItemNumberItem = TMPlugin.EventItemEx.Parameters['showItemNumberItem'] === '1';
-TMPlugin.EventItemEx.ShowItemNumberKey = TMPlugin.EventItemEx.Parameters['showItemNumberKey'] === '1';
-TMPlugin.EventItemEx.ShowItemNumberA = TMPlugin.EventItemEx.Parameters['showItemNumberA'] === '1';
-TMPlugin.EventItemEx.ShowItemNumberB = TMPlugin.EventItemEx.Parameters['showItemNumberB'] === '1';
+TMPlugin.EventItemEx.ShowItemNumberKey  = TMPlugin.EventItemEx.Parameters['showItemNumberKey'] === '1';
+TMPlugin.EventItemEx.ShowItemNumberA    = TMPlugin.EventItemEx.Parameters['showItemNumberA'] === '1';
+TMPlugin.EventItemEx.ShowItemNumberB    = TMPlugin.EventItemEx.Parameters['showItemNumberB'] === '1';
 TMPlugin.EventItemEx.NumVisibleRowsItem = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsItem'] || 4);
-TMPlugin.EventItemEx.NumVisibleRowsKey = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsKey'] || 4);
-TMPlugin.EventItemEx.NumVisibleRowsA = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsA'] || 4);
-TMPlugin.EventItemEx.NumVisibleRowsB = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsB'] || 4);
-TMPlugin.EventItemEx.FixPlacement = TMPlugin.EventItemEx.Parameters['fixPlacement'];
+TMPlugin.EventItemEx.NumVisibleRowsKey  = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsKey'] || 4);
+TMPlugin.EventItemEx.NumVisibleRowsA    = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsA'] || 4);
+TMPlugin.EventItemEx.NumVisibleRowsB    = +(TMPlugin.EventItemEx.Parameters['numVisibleRowsB'] || 4);
+TMPlugin.EventItemEx.FixPlacement       = TMPlugin.EventItemEx.Parameters['fixPlacement'];
 
-(function () {
+(function() {
 
   //-----------------------------------------------------------------------------
   // Game_Temp
   //
 
-  Game_Temp.prototype.setEventItemSubCategory = function (category) {
+  Game_Temp.prototype.setEventItemSubCategory = function(category) {
     this._eventItemSubCategory = category;
   };
 
-  Game_Temp.prototype.eventItemSubCategory = function () {
+  Game_Temp.prototype.eventItemSubCategory = function() {
     return this._eventItemSubCategory;
   };
 
@@ -154,18 +154,18 @@ TMPlugin.EventItemEx.FixPlacement = TMPlugin.EventItemEx.Parameters['fixPlacemen
   //
 
   var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+  Game_Interpreter.prototype.pluginCommand = function(command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
     if (command === 'setEventItemSubCategory') {
       $gameTemp.setEventItemSubCategory(args[0]);
     }
   };
-
+  
   //-----------------------------------------------------------------------------
   // Window_EventItem
   //
 
-  Window_EventItem.prototype.isHelpWindowEnabled = function () {
+  Window_EventItem.prototype.isHelpWindowEnabled = function() {
     var itypeId = $gameMessage.itemChoiceItypeId();
     if (itypeId === 1) {
       return TMPlugin.EventItemEx.HelpWindowEnabledItem;
@@ -180,14 +180,14 @@ TMPlugin.EventItemEx.FixPlacement = TMPlugin.EventItemEx.Parameters['fixPlacemen
   };
 
   var _Window_EventItem_start = Window_EventItem.prototype.start;
-  Window_EventItem.prototype.start = function () {
+  Window_EventItem.prototype.start = function() {
     this.height = this.fittingHeight(this.numVisibleRows());
     _Window_EventItem_start.call(this);
     if (this.isHelpWindowEnabled()) this._helpWindow.open();
   };
 
   var _Window_EventItem_numVisibleRows = Window_EventItem.prototype.numVisibleRows;
-  Window_EventItem.prototype.numVisibleRows = function () {
+  Window_EventItem.prototype.numVisibleRows = function() {
     var itypeId = $gameMessage.itemChoiceItypeId();
     if (itypeId === 1) {
       return TMPlugin.EventItemEx.NumVisibleRowsItem;
@@ -202,7 +202,7 @@ TMPlugin.EventItemEx.FixPlacement = TMPlugin.EventItemEx.Parameters['fixPlacemen
   };
 
   var _Window_EventItem_updatePlacement = Window_EventItem.prototype.updatePlacement;
-  Window_EventItem.prototype.updatePlacement = function () {
+  Window_EventItem.prototype.updatePlacement = function() {
     var enabled = this.isHelpWindowEnabled();
     if (!$gameMessage.hasText() && TMPlugin.EventItemEx.FixPlacement) {
       if (TMPlugin.EventItemEx.FixPlacement === 'top') {
@@ -223,78 +223,78 @@ TMPlugin.EventItemEx.FixPlacement = TMPlugin.EventItemEx.Parameters['fixPlacemen
   };
 
   var _Window_EventItem_includes = Window_EventItem.prototype.includes;
-  Window_EventItem.prototype.includes = function (item) {
+  Window_EventItem.prototype.includes = function(item) {
     if (!_Window_EventItem_includes.call(this, item)) return false;
     var subCategory = $gameTemp.eventItemSubCategory();
     return !subCategory || item.meta.subCategory === subCategory;
   };
 
   var _Window_EventItem_onOk = Window_EventItem.prototype.onOk;
-  Window_EventItem.prototype.onOk = function () {
+  Window_EventItem.prototype.onOk = function() {
     _Window_EventItem_onOk.call(this);
     this._helpWindow.close();
     $gameTemp.setEventItemSubCategory(null);
   };
 
   var _Window_EventItem_onCancel = Window_EventItem.prototype.onCancel;
-  Window_EventItem.prototype.onCancel = function () {
+  Window_EventItem.prototype.onCancel = function() {
     _Window_EventItem_onCancel.call(this);
     this._helpWindow.close();
     $gameTemp.setEventItemSubCategory(null);
   };
 
-  Window_EventItem.prototype.needsNumber = function () {
+  Window_EventItem.prototype.needsNumber = function() {
     var itypeId = $gameMessage.itemChoiceItypeId();
     return (itypeId === 1 && TMPlugin.EventItemEx.ShowItemNumberItem) ||
-      (itypeId === 2 && TMPlugin.EventItemEx.ShowItemNumberKey) ||
-      (itypeId === 3 && TMPlugin.EventItemEx.ShowItemNumberA) ||
-      (itypeId === 4 && TMPlugin.EventItemEx.ShowItemNumberB);
+           (itypeId === 2 && TMPlugin.EventItemEx.ShowItemNumberKey) ||
+           (itypeId === 3 && TMPlugin.EventItemEx.ShowItemNumberA) ||
+           (itypeId === 4 && TMPlugin.EventItemEx.ShowItemNumberB);
   };
 
   //-----------------------------------------------------------------------------
   // Window_Message
   //
   //ADD Start
-  Window_EventItem.prototype.setHelpWindowItem = function (item) {
-    if (Imported.NYA_EventItemShowPicture) {
-      var parameters = PluginManager.parameters('NYA_EventItemShowPicture');
-      var emptyImage = parameters['EmptyImage'];
-    } else {
-      var emptyImage = '';
+  Window_EventItem.prototype.setHelpWindowItem = function(item) {
+    if(Imported.NYA_EventItemShowPicture){
+        var parameters = PluginManager.parameters('NYA_EventItemShowPicture');
+        var emptyImage = parameters['EmptyImage'];
+    }else{
+        var emptyImage = '';
     }
-
+    
     if (this._helpWindow && item) {
-      var helpX;
-      if (item.meta.img) {
-        if (Imported.NYA_EventItemShowPicture) {
-          helpX = 18 * 2 + 36 * 4;
-        } else {
-          helpX = 0;
+        var helpX;
+        if(item.meta.img){
+            if(Imported.NYA_EventItemShowPicture){
+                helpX = 18*2 + 36*4;
+            }else{
+                helpX = 0;
+            }
+        }else{
+            if(emptyImage){
+                helpX = 18*2 + 36*4;
+            }else{
+                helpX = 0;
+            }
         }
-      } else {
-        if (emptyImage) {
-          helpX = 18 * 2 + 36 * 4;
-        } else {
-          helpX = 0;
+        this._helpWindow.contents.clear();
+        if(item.meta.help){
+                this._helpWindow.drawTextEx(item.meta.help, helpX, 0);
         }
-      }
-      this._helpWindow.contents.clear();
-      if (item.meta.help) {
-        this._helpWindow.drawTextEx(item.meta.help, helpX, 0);
-      }
     }
   };
   //ADD End
-
+  
   var _Window_Message_subWindows = Window_Message.prototype.subWindows;
-  Window_Message.prototype.subWindows = function () {
+  Window_Message.prototype.subWindows = function() {
     var subWindows = _Window_Message_subWindows.call(this);
     subWindows.push(this._helpWindow);
     return subWindows;
   };
 
   var _Window_Message_createSubWindows = Window_Message.prototype.createSubWindows;
-  Window_Message.prototype.createSubWindows = function () {
+  Window_Message.prototype.createSubWindows = function() {
     _Window_Message_createSubWindows.call(this);
     this._helpWindow = new Window_Help(4);
     this._helpWindow.openness = 0;

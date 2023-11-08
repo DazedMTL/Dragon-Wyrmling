@@ -239,7 +239,7 @@
  *
  */
 // ╘══════════════════════════════════════════════════════════════════════════════════╛
-
+ 
 // ╒══════════════════════════════════════════════════════════════════════════════════╕
 // ■ [Object] Plugin
 // ╘══════════════════════════════════════════════════════════════════════════════════╛
@@ -247,8 +247,8 @@
 var Imported = Imported || {};
 Imported.EXA_CharacterSpriteExtras = true;
 
-var EXA = EXA || {};
-EXA.CE = EXA.CE || {};
+var EXA = EXA     || {};
+EXA.CE  = EXA.CE  || {};
 
 // ╒══════════════════════════════════════════════════════════════════════════════════╕
 // ■ [Object] Game_Interpreter
@@ -260,21 +260,21 @@ EXA.CE = EXA.CE || {};
 
 EXA.CE.Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
 
-Game_Interpreter.prototype.pluginCommand = function (command, args) {
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
 
 	EXA.CE.Game_Interpreter_pluginCommand.call(this, command, args);
 
 	if (command === 'exaCE.setDashLean') {
-		var leanLeft = (args[1] ? 360 - Number(args[1]) : 356) * Math.PI / 180;
-		var leanRight = (args[1] ? Number(args[1]) : 4) * Math.PI / 180;
-		var toggle = (args[0] == 'true');
-
+		var leanLeft  = (args[1] ? 360 - Number(args[1]) : 356) * Math.PI / 180;
+		var leanRight = (args[1] ? Number(args[1])       : 4)   * Math.PI / 180;
+		var toggle    = (args[0] == 'true');
+		
 		var tmpParty = $gamePlayer._followers._data.clone();
 		tmpParty.push($gamePlayer);
-
+		
 		tmpParty.forEach(function (tmpTarget) {
-			tmpTarget._ceDashLean = toggle;
-			tmpTarget._ceDashLeanLeft = leanLeft;
+			tmpTarget._ceDashLean      = toggle;
+			tmpTarget._ceDashLeanLeft  = leanLeft;
 			tmpTarget._ceDashLeanRight = leanRight;
 		});
 	}
@@ -282,7 +282,7 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 	if (command === 'exaCE.setRotation') {
 		var target = this.character(args[0]);
 		var degree = Number(args[1]);
-
+		
 		if (Array.isArray(target)) {
 			target.forEach(function (tmpTarget) {
 				tmpTarget.setRotation(degree);
@@ -291,29 +291,29 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 			target.setRotation(degree);
 		}
 	}
-
+	
 	if (command === 'exaCE.eventFollower') {
-		var leaderId = args[1];
+		var leaderId   = args[1];
 		var followerId = args[2];
-
+		
 		if (args[0] === 'set') {
 			$gameMap.event(leaderId).setEventFollower(followerId);
 		} else if (args[0] === 'remove') {
 			$gameMap.event(leaderId).removeEventFollower(followerId);
 		}
 	}
-
+	
 	if (command === 'exaCE.toTone') {
 		var target = this.character(args[0]);
-
-		var red = Number(args[1]);
-		var green = Number(args[2]);
-		var blue = Number(args[3]);
-		var gray = Number(args[4]);
+		
+		var red      = Number(args[1]);
+		var green    = Number(args[2]);
+		var blue     = Number(args[3]);
+		var gray     = Number(args[4]);
 		var duration = Number(args[5]);
-
-		var toggle = (args[6] == 'true');
-
+		
+		var toggle   = (args[6] == 'true');
+		
 		if (Array.isArray(target)) {
 			target.forEach(function (tmpTarget) {
 				tmpTarget.toTone([red, green, blue, gray], duration);
@@ -321,23 +321,23 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		} else {
 			target.toTone([red, green, blue, gray], duration);
 		}
-
+		
 		if (toggle) {
 			this._waitCount = duration;
 		}
 	}
-
+	
 	if (command === 'exaCE.toColor') {
 		var target = this.character(args[0]);
-
-		var red = Number(args[1]);
-		var green = Number(args[2]);
-		var blue = Number(args[3]);
-		var alpha = Number(args[4]);
+		
+		var red      = Number(args[1]);
+		var green    = Number(args[2]);
+		var blue     = Number(args[3]);
+		var alpha    = Number(args[4]);
 		var duration = Number(args[5]);
-
-		var toggle = (args[6] == 'true');
-
+		
+		var toggle   = (args[6] == 'true');
+		
 		if (Array.isArray(target)) {
 			target.forEach(function (tmpTarget) {
 				tmpTarget.toColor([red, green, blue, alpha], duration);
@@ -345,19 +345,19 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		} else {
 			target.toColor([red, green, blue, alpha], duration);
 		}
-
+		
 		if (toggle) {
 			this._waitCount = duration;
 		}
 	}
-
+	
 	if (command === 'exaCE.toOpacity') {
-		var target = this.character(args[0]);
-		var opacity = Number(args[1]);
+		var target   = this.character(args[0]);
+		var opacity  = Number(args[1]);
 		var duration = Number(args[2]);
-
-		var toggle = (args[3] == 'true');
-
+		
+		var toggle   = (args[3] == 'true');
+		
 		if (Array.isArray(target)) {
 			target.forEach(function (tmpTarget) {
 				tmpTarget.toOpacity(opacity, duration);
@@ -365,19 +365,19 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		} else {
 			target.toOpacity(opacity, duration);
 		}
-
+		
 		if (toggle) {
 			this._waitCount = duration;
 		}
 	}
-
+	
 	if (command === 'exaCE.toMoveSpeed') {
 		var target = this.character(args[0]);
 		var moveSpeed = Number(args[1]);
-		var duration = Number(args[2]);
-
-		var toggle = (args[3] == 'true');
-
+		var duration  = Number(args[2]);
+		
+		var toggle   = (args[3] == 'true');
+		
 		if (Array.isArray(target)) {
 			target.forEach(function (tmpTarget) {
 				tmpTarget.toMoveSpeed(moveSpeed, duration);
@@ -385,7 +385,7 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 		} else {
 			target.toMoveSpeed(moveSpeed, duration);
 		}
-
+		
 		if (toggle) {
 			this._waitCount = duration;
 		}
@@ -399,22 +399,22 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
 
 EXA.CE.Game_Interpreter_character = Game_Interpreter.prototype.character;
 
-Game_Interpreter.prototype.character = function (param) {
+Game_Interpreter.prototype.character = function(param) {
 
 	if (isNaN(param)) {
 		if (param.match(/ceP/i)) {
 			var tmpParty = new Array;
 			tmpParty = $gamePlayer._followers._data.clone();
 			tmpParty.push($gamePlayer);
-
+			
 			return tmpParty;
 		} else if (param.match(/ceF:(\d+)/i)) {
 			var tmpFollowerId = param.match(/ceF:(\d+)/i)[1];
-			var tmpFollower = $gamePlayer._followers.follower(tmpFollowerId);
+			var tmpFollower   = $gamePlayer._followers.follower(tmpFollowerId);
 
 			return tmpFollower;
 		}
-	}
+    }
 
 	return EXA.CE.Game_Interpreter_character.call(this, param);
 
@@ -430,28 +430,28 @@ Game_Interpreter.prototype.character = function (param) {
 
 EXA.CE.Sprite_Character_updateOther = Sprite_Character.prototype.updateOther;
 
-Sprite_Character.prototype.updateOther = function (arguments) {
-
+Sprite_Character.prototype.updateOther = function(arguments) {
+	
 	EXA.CE.Sprite_Character_updateOther.call(this, arguments);
 
 	this.setColorTone(this._character._ceColorTone);
 	this.setBlendColor(this._character._ceBlendColor);
-
+	
 	this.rotation = this._character._ceRotation;
 
 	if (this._character._ceDashLean) {
 		if ($gamePlayer._dashing && Input.dir8 > 0) {
 			switch (this._character._direction) {
-				case 4:
-					this.rotation += this._character._ceDashLeanLeft;
-					break;
-				case 6:
-					this.rotation += this._character._ceDashLeanRight;
-					break;
+			case 4:
+				this.rotation += this._character._ceDashLeanLeft;
+				break;
+			case 6:
+				this.rotation += this._character._ceDashLeanRight; 
+				break;
 			}
 		}
 	}
-
+	
 }; // Sprite_Character ‹‹ updateOther
 
 // ╒══════════════════════════════════════════════════════════════════════════════════╕
@@ -464,15 +464,15 @@ Sprite_Character.prototype.updateOther = function (arguments) {
 
 EXA.CE.Game_Map_setupEvents = Game_Map.prototype.setupEvents;
 
-Game_Map.prototype.setupEvents = function () {
-
+Game_Map.prototype.setupEvents = function() {
+    
 	EXA.CE.Game_Map_setupEvents.call(this);
-
-	for (var i = 0; i < $dataMap.events.length; i++) {
+	
+    for (var i = 0; i < $dataMap.events.length; i++) {
 		var dataEvent = $dataMap.events[i];
-		var tmpEvent = this._events[i];
-
-		if (dataEvent) {
+		var tmpEvent  = this._events[i];
+		
+        if (dataEvent) {
 			if (!dataEvent.meta) continue;
 			if (dataEvent.meta.ceRotation) {
 				tmpEvent._ceRotation = Number(dataEvent.meta.ceRotation);
@@ -500,9 +500,9 @@ Game_Map.prototype.setupEvents = function () {
 				var eventId = Number(dataEvent.meta.ceFollow);
 				this._events[eventId].setEventFollower(tmpEvent._eventId);
 			}
-		}
-	}
-
+        }
+    }
+	
 }; // Game_Map ‹‹ setupEvents
 
 // ╒══════════════════════════════════════════════════════════════════════════════════╕
@@ -515,24 +515,24 @@ Game_Map.prototype.setupEvents = function () {
 
 EXA.CE.Game_CharacterBase_initMembers = Game_CharacterBase.prototype.initMembers;
 
-Game_CharacterBase.prototype.initMembers = function (arguments) {
-
+Game_CharacterBase.prototype.initMembers = function(arguments) {
+	
 	EXA.CE.Game_CharacterBase_initMembers.call(this, arguments);
-
-	this._ceColorTone = [0, 0, 0, 0];
-	this._ceToneTarget = null;
-	this._ceToneDuration = 0;
-	this._ceBlendColor = [0, 0, 0, 0];
-	this._ceColorTarget = null;
-	this._ceColorDuration = 0;
-	this._ceOpacityTarget = null;
-	this._ceOpacityDuration = 0;
-	this._ceSpeedTarget = null;
-	this._ceSpeedDuration = 0;
-	this._ceRotation = 0;
-	this._ceDashLean = false;
-	this._ceDashLeanLeft = 0;
-	this._ceDashLeanRight = 0;
+	
+	this._ceColorTone       = [0,0,0,0];
+    this._ceToneTarget      = null;
+    this._ceToneDuration    = 0;
+    this._ceBlendColor      = [0,0,0,0];
+    this._ceColorTarget     = null;
+    this._ceColorDuration   = 0;
+    this._ceOpacityTarget   = null;
+    this._ceOpacityDuration = 0;
+    this._ceSpeedTarget     = null;
+    this._ceSpeedDuration   = 0;
+    this._ceRotation        = 0;
+	this._ceDashLean        = false;
+	this._ceDashLeanLeft    = 0;
+	this._ceDashLeanRight   = 0;
 
 }; // Game_CharacterBase ‹‹ initMembers
 
@@ -542,54 +542,54 @@ Game_CharacterBase.prototype.initMembers = function (arguments) {
 
 EXA.CE.Game_CharacterBase_update = Game_CharacterBase.prototype.update;
 
-Game_CharacterBase.prototype.update = function () {
-
+Game_CharacterBase.prototype.update = function() {
+	
 	EXA.CE.Game_CharacterBase_update.call(this);
-
+	
 	this.updateTone();
 	this.updateColor();
 	this.updateOpacity();
 	this.updateMoveSpeed();
-
+	
 }; // Game_CharacterBase ‹‹ update
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] setRotation
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.setRotation = function (rotation) {
-
-	this._ceRotation = rotation * Math.PI / 180;
-
+Game_CharacterBase.prototype.setRotation = function(rotation) {
+	
+    this._ceRotation = rotation * Math.PI / 180;
+	
 }; // Game_CharacterBase ‹‹ setRotation
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] toTone
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.toTone = function (tone, duration) {
-
-	this._ceToneTarget = tone.clone();
-	this._ceToneDuration = duration;
-	if (this._ceToneDuration === 0) {
-		this._ceColorTone = this._ceToneTarget.clone();
-	}
-
+Game_CharacterBase.prototype.toTone = function(tone, duration) {
+	
+    this._ceToneTarget    = tone.clone();
+    this._ceToneDuration  = duration;
+    if (this._ceToneDuration === 0) {
+        this._ceColorTone = this._ceToneTarget.clone();
+    }
+	
 }; // Game_CharacterBase ‹‹ toTone
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] updateTone
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.updateTone = function () {
+Game_CharacterBase.prototype.updateTone = function() {
 
-	if (this._ceToneDuration > 0) {
-		var d = this._ceToneDuration;
-		for (var i = 0; i < 4; i++) {
-			this._ceColorTone[i] = (this._ceColorTone[i] * (d - 1) + this._ceToneTarget[i]) / d;
-		}
-		this._ceToneDuration--;
-	}
+    if (this._ceToneDuration > 0) {
+        var d = this._ceToneDuration;
+        for (var i = 0; i < 4; i++) {
+            this._ceColorTone[i] = (this._ceColorTone[i] * (d - 1) + this._ceToneTarget[i]) / d;
+        }
+        this._ceToneDuration--;
+    }
 
 }; // Game_CharacterBase ‹‹ updateTone
 
@@ -597,29 +597,29 @@ Game_CharacterBase.prototype.updateTone = function () {
 // □ [Function] toColor
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.toColor = function (color, duration) {
+Game_CharacterBase.prototype.toColor = function(color, duration) {
 
-	this._ceColorTarget = color.clone();
-	this._ceColorDuration = duration;
-	if (this._ceColorDuration === 0) {
-		this._ceBlendColor = this._ceColorTarget.clone();
-	}
-
+    this._ceColorTarget    = color.clone();
+    this._ceColorDuration  = duration;
+    if (this._ceColorDuration === 0) {
+        this._ceBlendColor = this._ceColorTarget.clone();
+    }
+	
 }; // Game_CharacterBase ‹‹ toColor
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] updateColor
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.updateColor = function () {
+Game_CharacterBase.prototype.updateColor = function() {
 
-	if (this._ceColorDuration > 0) {
-		var d = this._ceColorDuration;
-		for (var i = 0; i < 4; i++) {
-			this._ceBlendColor[i] = (this._ceBlendColor[i] * (d - 1) + this._ceColorTarget[i]) / d;
-		}
-		this._ceColorDuration--;
-	}
+    if (this._ceColorDuration > 0) {
+        var d = this._ceColorDuration;
+        for (var i = 0; i < 4; i++) {
+            this._ceBlendColor[i] = (this._ceBlendColor[i] * (d - 1) + this._ceColorTarget[i]) / d;
+        }
+        this._ceColorDuration--;
+    }
 
 }; // Game_CharacterBase ‹‹ updateColor
 
@@ -627,56 +627,56 @@ Game_CharacterBase.prototype.updateColor = function () {
 // □ [Function] toOpacity
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.toOpacity = function (opacity, duration) {
-
-	this._ceOpacityTarget = opacity;
-	this._ceOpacityDuration = duration;
-	if (this._ceOpacityDuration === 0) {
-		this.setOpacity(this._ceOpacityTarget);
-	}
-
+Game_CharacterBase.prototype.toOpacity = function(opacity, duration) {
+	
+    this._ceOpacityTarget    = opacity;
+    this._ceOpacityDuration  = duration;
+    if (this._ceOpacityDuration === 0) {
+        this.setOpacity(this._ceOpacityTarget);
+    }
+	
 }; // Game_CharacterBase ‹‹ toOpacity
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] updateOpacity
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.updateOpacity = function () {
-
-	if (this._ceOpacityDuration > 0) {
-		var d = this._ceOpacityDuration;
-		this._opacity = (this._opacity * (d - 1) + this._ceOpacityTarget) / d;
-		this._ceOpacityDuration--;
-	}
-
+Game_CharacterBase.prototype.updateOpacity = function() {
+	
+    if (this._ceOpacityDuration > 0) {
+        var d = this._ceOpacityDuration;
+        this._opacity = (this._opacity * (d - 1) + this._ceOpacityTarget) / d;
+        this._ceOpacityDuration--;
+    }
+	
 }; // Game_CharacterBase ‹‹ updateOpacity
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] toMoveSpeed
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.toMoveSpeed = function (moveSpeed, duration) {
+Game_CharacterBase.prototype.toMoveSpeed = function(moveSpeed, duration) {
 
-	this._ceSpeedTarget = moveSpeed;
-	this._ceSpeedDuration = duration;
-	if (this._ceSpeedDuration === 0) {
-		this.setMoveSpeed(this._ceSpeedTarget);
-	}
-
+    this._ceSpeedTarget    = moveSpeed;
+    this._ceSpeedDuration  = duration;
+    if (this._ceSpeedDuration === 0) {
+        this.setMoveSpeed(this._ceSpeedTarget);
+    }
+	
 }; // Game_CharacterBase ‹‹ toMoveSpeed
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] updateMoveSpeed
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_CharacterBase.prototype.updateMoveSpeed = function () {
-
-	if (this._ceSpeedDuration > 0) {
-		var d = this._ceSpeedDuration;
-		this._moveSpeed = (this._moveSpeed * (d - 1) + this._ceSpeedTarget) / d;
-		this._ceSpeedDuration--;
-	}
-
+Game_CharacterBase.prototype.updateMoveSpeed = function() {
+	
+    if (this._ceSpeedDuration > 0) {
+        var d = this._ceSpeedDuration;
+        this._moveSpeed = (this._moveSpeed * (d - 1) + this._ceSpeedTarget) / d;
+        this._ceSpeedDuration--;
+    }
+	
 }; // Game_CharacterBase ‹‹ updateMoveSpeed
 
 // ╒══════════════════════════════════════════════════════════════════════════════════╕
@@ -689,10 +689,10 @@ Game_CharacterBase.prototype.updateMoveSpeed = function () {
 
 EXA.CE.Game_Event_initMembers = Game_Event.prototype.initMembers;
 
-Game_Event.prototype.initMembers = function () {
-
+Game_Event.prototype.initMembers = function() {
+	
 	EXA.CE.Game_Event_initMembers.call(this);
-
+	
 	this._ceFollowers = [];
 
 }; // Game_Event ‹‹ initMembers
@@ -703,16 +703,16 @@ Game_Event.prototype.initMembers = function () {
 
 EXA.CE.Game_Event_moveStraight = Game_Event.prototype.moveStraight;
 
-Game_Event.prototype.moveStraight = function (d) {
-
+Game_Event.prototype.moveStraight = function(d) {
+	
 	if (this._ceFollowers.length > 0) {
 		if (this.canPass(this.x, this.y, d)) {
 			this.updateEventFollowerMove();
 		}
 	}
-
-	EXA.CE.Game_Event_moveStraight.call(this, d);
-
+	
+    EXA.CE.Game_Event_moveStraight.call(this, d);
+	
 }; // Game_Event ‹‹ moveStraight
 
 // ALIAS ─────────────────────────────────────────────────────────────────────────────┐
@@ -721,29 +721,29 @@ Game_Event.prototype.moveStraight = function (d) {
 
 EXA.CE.Game_Event_moveDiagonally = Game_Event.prototype.moveDiagonally;
 
-Game_Event.prototype.moveDiagonally = function (horz, vert) {
-
+Game_Event.prototype.moveDiagonally = function(horz, vert) {
+	
 	if (this._ceFollowers.length > 0) {
 		if (this.canPassDiagonally(this.x, this.y, horz, vert)) {
 			this.updateEventFollowerMove();
 		}
 	}
-
-	EXA.CE.Game_Event_moveDiagonally.call(this, horz, vert);
-
+	
+    EXA.CE.Game_Event_moveDiagonally.call(this, horz, vert);
+	
 }; // Game_Event ‹‹ moveDiagonally
 
 // NEW ───────────────────────────────────────────────────────────────────────────────┐
 // □ [Function] updateEventFollowerMove
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_Event.prototype.updateEventFollowerMove = function () {
+Game_Event.prototype.updateEventFollowerMove = function() {
 
-	for (var i = this._ceFollowers.length - 1; i >= 0; i--) {
-		var precedingEvent = (i > 0 ? $gameMap.event(this._ceFollowers[i - 1]) : this);
-		$gameMap.event(this._ceFollowers[i]).chaseEvent(precedingEvent);
+    for (var i = this._ceFollowers.length - 1; i >= 0; i--) {
+        var precedingEvent = (i > 0 ? $gameMap.event(this._ceFollowers[i - 1]) : this);
+        $gameMap.event(this._ceFollowers[i]).chaseEvent(precedingEvent);
 		this.updateEventFollowerOther($gameMap.event(this._ceFollowers[i]));
-	}
+    }
 
 }; // Game_Event ‹‹ updateEventFollowerMove
 
@@ -751,7 +751,7 @@ Game_Event.prototype.updateEventFollowerMove = function () {
 // □ [Function] setEventFollower
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_Event.prototype.setEventFollower = function (followerId) {
+Game_Event.prototype.setEventFollower = function(followerId) {
 
 	this._ceFollowers.push(followerId);
 	$gameMap.event(followerId).setThrough(true);
@@ -762,14 +762,14 @@ Game_Event.prototype.setEventFollower = function (followerId) {
 // □ [Function] removeEventFollower
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_Event.prototype.removeEventFollower = function (followerId) {
+Game_Event.prototype.removeEventFollower = function(followerId) {
 
 	var followerIndex = this._ceFollowers.indexOf(followerId);
-
+	
 	if (followerIndex != -1) {
 		this._ceFollowers.splice(followerIndex, 1);
 	}
-
+	
 	$gameMap.event(followerId).setThrough(false);
 
 }; // Game_Event ‹‹ removeEventFollower
@@ -778,7 +778,7 @@ Game_Event.prototype.removeEventFollower = function (followerId) {
 // □ [Function] updateEventFollowerOther
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_Event.prototype.updateEventFollowerOther = function (follower) {
+Game_Event.prototype.updateEventFollowerOther = function(follower) {
 
 	follower.setMoveSpeed(this.realMoveSpeed());
 	follower.setOpacity(this.opacity());
@@ -795,7 +795,7 @@ Game_Event.prototype.updateEventFollowerOther = function (follower) {
 // □ [Function] chaseEvent
 // └──────────────────────────────────────────────────────────────────────────────────┘
 
-Game_Event.prototype.chaseEvent = function (event) {
+Game_Event.prototype.chaseEvent = function(event) {
 
 	var sx = this.deltaXFrom(event.x);
 	var sy = this.deltaYFrom(event.y);

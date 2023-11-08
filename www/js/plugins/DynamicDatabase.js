@@ -78,10 +78,10 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
-    Number.prototype.times = function (handler) {
+    Number.prototype.times = function(handler) {
         var i = 0;
         while (i < this) handler.call(this, i++);
     };
@@ -90,8 +90,8 @@
     // Scene_Boot
     //  ダイナミックデータベースの構築開始
     //=============================================================================
-    var _Scene_Boot_start = Scene_Boot.prototype.start;
-    Scene_Boot.prototype.start = function () {
+    var _Scene_Boot_start      = Scene_Boot.prototype.start;
+    Scene_Boot.prototype.start = function() {
         _Scene_Boot_start.call(this);
         DynamicDatabaseManager.makeDynamicDatabase();
     };
@@ -101,7 +101,7 @@
     //  アクター名、二つ名、プロフィールについて変更されるまではDBから再取得するよう修正
     //=============================================================================
     var _Game_Actor_setup = Game_Actor.prototype.setup;
-    Game_Actor.prototype.setup = function (actorId) {
+    Game_Actor.prototype.setup = function(actorId) {
         _Game_Actor_setup.apply(this, arguments);
         this.__nickname = null;
         this.__profile = null;
@@ -109,28 +109,28 @@
     };
 
     Object.defineProperty(Game_Actor.prototype, '_profile', {
-        get: function () {
+        get: function() {
             return this.__profile !== null ? this.__profile : this.actor().profile;
         },
-        set: function (name) {
+        set: function(name) {
             this.__profile = name;
         },
     });
 
     Object.defineProperty(Game_Actor.prototype, '_nickname', {
-        get: function () {
+        get: function() {
             return this.__nickname !== null ? this.__nickname : this.actor().nickname;
         },
-        set: function (name) {
+        set: function(name) {
             this.__nickname = name;
         },
     });
 
     Object.defineProperty(Game_Actor.prototype, '_name', {
-        get: function () {
+        get: function() {
             return this.__name !== null ? this.__name : this.actor().name;
         },
-        set: function (name) {
+        set: function(name) {
             this.__name = name;
         },
     });
@@ -146,42 +146,42 @@ function DynamicDatabaseManager() {
 }
 
 DynamicDatabaseManager._columnMapper = null;
-DynamicDatabaseManager._targetData = null;
+DynamicDatabaseManager._targetData   = null;
 
 DynamicDatabaseManager._columnMapperCoomon = {
-    animationId: 'アニメーション',
-    hitType: '命中タイプ',
-    iconIndex: 'アイコン',
-    occasion: '使用可能時',
-    repeats: '連続回数',
-    scope: '範囲',
-    speed: '速度補正',
-    successRate: '成功率',
-    tpCost: '消費TP',
-    tpGain: '得TP',
-    mpCost: '消費MP',
+    animationId     : 'アニメーション',
+    hitType         : '命中タイプ',
+    iconIndex       : 'アイコン',
+    occasion        : '使用可能時',
+    repeats         : '連続回数',
+    scope           : '範囲',
+    speed           : '速度補正',
+    successRate     : '成功率',
+    tpCost          : '消費TP',
+    tpGain          : '得TP',
+    mpCost          : '消費MP',
     damage_elementId: '属性',
-    damage_type: 'タイプ',
-    damage_variance: '分散度',
-    price: '価格',
-    params_0: '最大HP',
-    params_1: '最大MP',
-    params_2: '攻撃力',
-    params_3: '防御力',
-    params_4: '魔法力',
-    params_5: '魔法防御',
-    params_6: '敏捷性',
-    params_7: '運'
+    damage_type     : 'タイプ',
+    damage_variance : '分散度',
+    price           : '価格',
+    params_0        : '最大HP',
+    params_1        : '最大MP',
+    params_2        : '攻撃力',
+    params_3        : '防御力',
+    params_4        : '魔法力',
+    params_5        : '魔法防御',
+    params_6        : '敏捷性',
+    params_7        : '運'
 };
 
 DynamicDatabaseManager._columnMapperSkills = {
-    stypeId: 'スキルタイプ',
+    stypeId         : 'スキルタイプ',
     requiredWtypeId1: '武器タイプ1',
     requiredWtypeId2: '武器タイプ2'
 };
 
 DynamicDatabaseManager._columnMapperItems = {
-    itypeId: 'アイテムタイプ',
+    itypeId   : 'アイテムタイプ',
     consumable: '消耗'
 };
 
@@ -196,85 +196,85 @@ DynamicDatabaseManager._columnMapperArmors = {
 
 DynamicDatabaseManager._columnMapperEnemies = {
     battlerHue: '色相',
-    exp: '経験値',
-    gold: '所持金'
+    exp       : '経験値',
+    gold      : '所持金'
 };
 
 DynamicDatabaseManager._columnMapperStates = {
-    autoRemovalTiming: '自動解除のタイミング',
-    chanceByDamage: 'ダメージで解除_ダメージ',
-    maxTurns: '継続ターン数_最大',
-    minTurns: '継続ターン数_最小',
-    motion: '[SV] モーション',
-    overlay: '[SV] 重ね合わせ',
-    priority: '優先度',
-    removeAtBattleEnd: '戦闘終了時に解除',
-    removeByDamage: 'ダメージで解除',
+    autoRemovalTiming  : '自動解除のタイミング',
+    chanceByDamage     : 'ダメージで解除_ダメージ',
+    maxTurns           : '継続ターン数_最大',
+    minTurns           : '継続ターン数_最小',
+    motion             : '[SV] モーション',
+    overlay            : '[SV] 重ね合わせ',
+    priority           : '優先度',
+    removeAtBattleEnd  : '戦闘終了時に解除',
+    removeByDamage     : 'ダメージで解除',
     removeByRestriction: '行動制約で解除',
-    removeByWalking: '歩数で解除',
-    restriction: '行動制約',
-    stepsToRemove: '歩数で解除_歩数'
+    removeByWalking    : '歩数で解除',
+    restriction        : '行動制約',
+    stepsToRemove      : '歩数で解除_歩数'
 };
 
 DynamicDatabaseManager._targetDynamicDatabase = {
-    $dataActors: DynamicDatabaseManager._columnMapperCoomon,
+    $dataActors : DynamicDatabaseManager._columnMapperCoomon,
     $dataClasses: DynamicDatabaseManager._columnMapperCoomon,
-    $dataSkills: DynamicDatabaseManager._columnMapperSkills,
-    $dataItems: DynamicDatabaseManager._columnMapperItems,
+    $dataSkills : DynamicDatabaseManager._columnMapperSkills,
+    $dataItems  : DynamicDatabaseManager._columnMapperItems,
     $dataWeapons: DynamicDatabaseManager._columnMapperWeapons,
-    $dataArmors: DynamicDatabaseManager._columnMapperArmors,
+    $dataArmors : DynamicDatabaseManager._columnMapperArmors,
     $dataEnemies: DynamicDatabaseManager._columnMapperEnemies,
-    $dataStates: DynamicDatabaseManager._columnMapperStates
+    $dataStates : DynamicDatabaseManager._columnMapperStates
 };
 
-DynamicDatabaseManager._isEmpty = function (that) {
+DynamicDatabaseManager._isEmpty = function(that) {
     return Object.keys(that).length <= 0;
 };
 
-DynamicDatabaseManager._iterate = function (that, handler) {
-    Object.keys(that).forEach(function (key, index) {
+DynamicDatabaseManager._iterate = function(that, handler) {
+    Object.keys(that).forEach(function(key, index) {
         handler.call(that, key, that[key], index);
     });
 };
 
-DynamicDatabaseManager.makeDynamicDatabase = function () {
+DynamicDatabaseManager.makeDynamicDatabase = function() {
     this._setColumnMapperDynamic();
-    this._iterate(this._targetDynamicDatabase, function (dataKey, columnMap) {
+    this._iterate(this._targetDynamicDatabase, function(dataKey, columnMap) {
         this._makeDynamicData(window[dataKey], columnMap);
     }.bind(this));
 };
 
-DynamicDatabaseManager._setColumnMapperDynamic = function () {
-    this._getMaxLength('effects').times(function (i) {
-        this._columnMapperCoomon['effects_%1_code'.format(i)] = '使用効果%1_タイプ'.format(i + 1);
+DynamicDatabaseManager._setColumnMapperDynamic = function() {
+    this._getMaxLength('effects').times(function(i) {
+        this._columnMapperCoomon['effects_%1_code'.format(i)]   = '使用効果%1_タイプ'.format(i + 1);
         this._columnMapperCoomon['effects_%1_dataId'.format(i)] = '使用効果%1_データID'.format(i + 1);
         this._columnMapperCoomon['effects_%1_value1'.format(i)] = '使用効果%1_内容1'.format(i + 1);
         this._columnMapperCoomon['effects_%1_value2'.format(i)] = '使用効果%1_内容2'.format(i + 1);
     }.bind(this));
-    this._getMaxLength('traits').times(function (i) {
-        this._columnMapperCoomon['traits_%1_code'.format(i)] = '特徴%1_タイプ'.format(i + 1);
+    this._getMaxLength('traits').times(function(i) {
+        this._columnMapperCoomon['traits_%1_code'.format(i)]   = '特徴%1_タイプ'.format(i + 1);
         this._columnMapperCoomon['traits_%1_dataId'.format(i)] = '特徴%1_データID'.format(i + 1);
-        this._columnMapperCoomon['traits_%1_value'.format(i)] = '特徴%1_内容'.format(i + 1);
+        this._columnMapperCoomon['traits_%1_value'.format(i)]  = '特徴%1_内容'.format(i + 1);
     }.bind(this));
-    this._getMaxLength('actions').times(function (i) {
+    this._getMaxLength('actions').times(function(i) {
         this._columnMapperEnemies['actions_%1_conditionParam1'.format(i)] = '行動%1_条件1'.format(i + 1);
         this._columnMapperEnemies['actions_%1_conditionParam2'.format(i)] = '行動%1_条件2'.format(i + 1);
-        this._columnMapperEnemies['actions_%1_conditionType'.format(i)] = '行動%1_条件タイプ'.format(i + 1);
-        this._columnMapperEnemies['actions_%1_rating'.format(i)] = '行動%1_R'.format(i + 1);
-        this._columnMapperEnemies['actions_%1_skillId'.format(i)] = '行動%1_スキル'.format(i + 1);
+        this._columnMapperEnemies['actions_%1_conditionType'.format(i)]   = '行動%1_条件タイプ'.format(i + 1);
+        this._columnMapperEnemies['actions_%1_rating'.format(i)]          = '行動%1_R'.format(i + 1);
+        this._columnMapperEnemies['actions_%1_skillId'.format(i)]         = '行動%1_スキル'.format(i + 1);
     }.bind(this));
-    Number(3).times(function (i) {
+    Number(3).times(function(i) {
         this._columnMapperEnemies['dropItems_%1_denominator'.format(i)] = 'ドロップアイテム%1_ドロップアイテム'.format(i + 1);
-        this._columnMapperEnemies['dropItems_%1_dataId'.format(i)] = 'ドロップアイテム%1_ドロップアイテムID'.format(i + 1);
-        this._columnMapperEnemies['dropItems_%1_kind'.format(i)] = 'ドロップアイテム%1_出現率'.format(i + 1);
+        this._columnMapperEnemies['dropItems_%1_dataId'.format(i)]      = 'ドロップアイテム%1_ドロップアイテムID'.format(i + 1);
+        this._columnMapperEnemies['dropItems_%1_kind'.format(i)]        = 'ドロップアイテム%1_出現率'.format(i + 1);
     }.bind(this));
 };
 
-DynamicDatabaseManager._getMaxLength = function (keyName) {
+DynamicDatabaseManager._getMaxLength = function(keyName) {
     var length = 0;
-    this._iterate(this._targetDynamicDatabase, function (dataKey) {
+    this._iterate(this._targetDynamicDatabase, function(dataKey) {
         var dataArray = window[dataKey];
-        dataArray.forEach(function (data) {
+        dataArray.forEach(function(data) {
             if (data && data.hasOwnProperty(keyName)) {
                 length = Math.max(data[keyName].length, length);
             }
@@ -283,19 +283,19 @@ DynamicDatabaseManager._getMaxLength = function (keyName) {
     return length;
 };
 
-DynamicDatabaseManager._makeDynamicData = function (dataArray, columnMap) {
+DynamicDatabaseManager._makeDynamicData = function(dataArray, columnMap) {
     this._columnMapper = columnMap;
-    dataArray.forEach(function (data) {
+    dataArray.forEach(function(data) {
         if (data) {
             this._targetData = data;
-            this._iterate(data, function (key, value) {
+            this._iterate(data, function(key, value) {
                 this._makeProperty(data, key, key, value);
             }.bind(this));
         }
     }.bind(this));
 };
 
-DynamicDatabaseManager._makeProperty = function (parent, keyPath, key, child) {
+DynamicDatabaseManager._makeProperty = function(parent, keyPath, key, child) {
     if (key === 'meta') {
         return;
     }
@@ -311,8 +311,8 @@ DynamicDatabaseManager._makeProperty = function (parent, keyPath, key, child) {
                 return;
             }
             var propName = this._columnMapper[keyPath] || this._columnMapperCoomon[keyPath];
-            var metaTag = 'DD' + propName;
-            if (propName != null && parent.meta[metaTag] != null) {
+            var metaTag  = 'DD' + propName;
+            if (propName != null && parent.meta[metaTag] != null)  {
                 this._makePropertyFormula(parent, key, child, metaTag);
             }
             parent[propName] = child;
@@ -322,17 +322,17 @@ DynamicDatabaseManager._makeProperty = function (parent, keyPath, key, child) {
                 return;
             }
             child.meta = parent.meta;
-            this._iterate(child, function (valuesKey, valuesItem) {
+            this._iterate(child, function(valuesKey, valuesItem) {
                 this._makeProperty(child, keyPath + '_' + valuesKey, valuesKey, valuesItem);
             }.bind(this));
             break;
     }
 };
 
-DynamicDatabaseManager._makePropertyFormula = function (parent, key, child, metaTag) {
+DynamicDatabaseManager._makePropertyFormula = function(parent, key, child, metaTag) {
     var data = this._targetData;
     Object.defineProperty(parent, key, {
-        get: function () {
+        get: function() {
             var prev = child, 元の値 = child;
             var result = eval(DynamicDatabaseManager._convertEscapeCharacters(this.meta[metaTag]));
             return typeof child === 'number' ? result : !!result;
@@ -340,35 +340,35 @@ DynamicDatabaseManager._makePropertyFormula = function (parent, key, child, meta
     });
 };
 
-DynamicDatabaseManager._makePropertyString = function (parent, key, child) {
+DynamicDatabaseManager._makePropertyString = function(parent, key, child) {
     Object.defineProperty(parent, key, {
-        get: function () {
+        get: function() {
             return DynamicDatabaseManager._convertEscapeCharacters(child);
         }
     });
 };
 
-DynamicDatabaseManager._convertEscapeCharacters = function (text) {
+DynamicDatabaseManager._convertEscapeCharacters = function(text) {
     text = text.replace(/&gt;?/gi, '>');
     text = text.replace(/&lt;?/gi, '<');
     text = text.replace(/\\/g, '\x1b');
     text = text.replace(/\x1b\x1b/g, '\\');
-    text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+    text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
         return $gameVariables ? $gameVariables.value(parseInt(arguments[1], 10)) : 0;
     });
-    text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+    text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
         return $gameVariables ? $gameVariables.value(parseInt(arguments[1], 10)) : 0;
     });
-    text = text.replace(/\x1bS\[(\d+)\]/gi, function () {
+    text = text.replace(/\x1bS\[(\d+)\]/gi, function() {
         return $gameSwitches ? ($gameSwitches.value(parseInt(arguments[1], 10)) ? '1' : '0') : '0';
     });
-    text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
-        var n = parseInt(arguments[1]);
+    text = text.replace(/\x1bN\[(\d+)\]/gi, function() {
+        var n     = parseInt(arguments[1]);
         var actor = (n >= 1 && $gameActors ? $gameActors.actor(n) : null);
         return actor ? actor.name() : '';
     });
-    text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
-        var n = parseInt(arguments[1]);
+    text = text.replace(/\x1bP\[(\d+)\]/gi, function() {
+        var n     = parseInt(arguments[1]);
         var actor = (n >= 1 && $gameParty ? $gameParty.members()[n - 1] : null);
         return actor ? actor.name() : '';
     });

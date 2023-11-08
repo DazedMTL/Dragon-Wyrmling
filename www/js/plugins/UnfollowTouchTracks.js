@@ -94,16 +94,16 @@
  */
 
 
-(function () {
+(function() {
     'use strict';
     var pluginName = 'UnfollowTouchTracks';
 
-    ////=============================================================================
-    //// Local function
-    ////  These functions checks & formats pluguin's command parameters.
-    ////  I borrowed these functions from Triacontane.Thanks!
-    ////=============================================================================
-    var getParamString = function (paramNames) {
+////=============================================================================
+//// Local function
+////  These functions checks & formats pluguin's command parameters.
+////  I borrowed these functions from Triacontane.Thanks!
+////=============================================================================
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -112,7 +112,7 @@
         return '';
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamString(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
@@ -120,13 +120,13 @@
     };
 
     //This function is not written by Triacontane.Tsumio wrote this function !
-    var convertParam = function (param) {
-        if (param !== undefined) {
+    var convertParam = function(param) {
+        if(param !== undefined){
             try {
                 return JSON.parse(param);
-            } catch (e) {
+            }catch(e){
                 console.group();
-                console.error('%cParameter is invalid ! You should check the following parameter !', 'background-color: #5174FF');
+                console.error('%cParameter is invalid ! You should check the following parameter !','background-color: #5174FF');
                 console.error('Parameter:' + eval(param));
                 console.error('Error message :' + e);
                 console.groupEnd();
@@ -140,38 +140,38 @@
      * 
      */
     //This function is not written by Triacontane.Tsumio wrote this function !
-    var convertToNumber = function (obj) {
-        for (var prop in obj) {
+    var convertToNumber = function(obj) {
+        for(var prop in obj) {
             obj[prop] = Number(obj[prop]);
         }
         return obj;
     }
 
-    ////=============================================================================
-    //// Get and set pluguin parameters.
-    ////=============================================================================
-    var param = {};
+////=============================================================================
+//// Get and set pluguin parameters.
+////=============================================================================
+    var param                          = {};
     //Basic Stteings
-    param.switchId = getParamNumber(['SwitchId', 'スイッチ番号']);
+    param.switchId         = getParamNumber(['SwitchId', 'スイッチ番号']);
 
-    ////==============================
-    //// Convert parameters.
-    ////==============================
+////==============================
+//// Convert parameters.
+////==============================
     //None
 
-    ////==============================
-    //// Convert to Number.
-    ////==============================
+////==============================
+//// Convert to Number.
+////==============================
     //None
 
 
-    ////=============================================================================
-    //// Sprite_Destination
-    ////  Modify visible.
-    ////=============================================================================
-    const _Sprite_Destination_update = Sprite_Destination.prototype.update;
-    Sprite_Destination.prototype.update = function () {
-        if ($gameSwitches.value(param.switchId)) {
+////=============================================================================
+//// Sprite_Destination
+////  Modify visible.
+////=============================================================================
+    const _Sprite_Destination_update    = Sprite_Destination.prototype.update;
+    Sprite_Destination.prototype.update = function() {
+        if($gameSwitches.value(param.switchId)) {
             //Invisible this sprite and exit the function.
             this._frameCount = 0;
             this.visible = false;
@@ -181,10 +181,10 @@
         _Sprite_Destination_update.call(this);
     };
 
-    ////=============================================================================
-    //// Debug
-    ////  This static class is for simple debugging.I/O.
-    ////=============================================================================
+////=============================================================================
+//// Debug
+////  This static class is for simple debugging.I/O.
+////=============================================================================
     class Debug {
         /**
          * Instead of constructor.
@@ -192,7 +192,7 @@
          */
         static on() {
             this._debugMode = true;
-            this._stack = [];
+            this._stack     = [];
             console.warn(`${this.FILENAME} : Debug mode turned ON.`);
         }
 
@@ -202,11 +202,11 @@
          */
         static off() {
             this._debugMode = false;
-            this._stack = [];
+            this._stack     = [];
             console.warn(`${this.FILENAME} : Debug mode turned OFF.`);
         }
 
-        static get FILENAME() {
+        static get FILENAME(){
             return 'UnfollowTouchTracks';
         }
 
@@ -215,12 +215,12 @@
         }
 
         static outputStack() {
-            if (!this.isDebugMode) {
+            if(!this.isDebugMode){
                 return;
             }
 
-            if (this._stack.length > 0) {
-                this._stack.forEach(function (element) {
+            if(this._stack.length > 0){
+                this._stack.forEach(function(element) {
                     console.log(element);
                 }, this);
                 return `Stack length is ${this._stack.length}.`;
@@ -229,7 +229,7 @@
         }
 
         static clearStack() {
-            if (!this.isDebugMode) {
+            if(!this.isDebugMode){
                 return;
             }
 
@@ -237,7 +237,7 @@
         }
 
         static push(arg) {
-            if (!this.isDebugMode) {
+            if(!this.isDebugMode){
                 return;
             }
 
@@ -250,12 +250,12 @@
          * @param {Array} args
          */
         static _output(func, args) {
-            if (!this.isDebugMode) {
+            if(!this.isDebugMode){
                 return;
             }
 
             args = Array.prototype.slice.call(args);//ES6: Array.from(args);
-            for (var arg of args) {
+            for(var arg of args) {
                 console[func](arg);
                 this.push(args);
             }
@@ -282,7 +282,7 @@
         }
 
         static assert(test, message, optionalParam) {
-            if (!this.isDebugMode) {
+            if(!this.isDebugMode){
                 return;
             }
 
@@ -291,7 +291,7 @@
 
         static modify() {
             this._debugMode = !this._debugMode;
-            var status = this._debugMode ? 'ON' : 'OFF';
+            var status      = this._debugMode ? 'ON' : 'OFF';
             console.warn(`Debug mode turned ${status}.`);
         }
     }

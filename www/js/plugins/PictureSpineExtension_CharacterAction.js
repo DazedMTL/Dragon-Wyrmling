@@ -40,7 +40,7 @@
         } else if (obj instanceof Array) {
             obj = obj.map(value => convars(value));
         } else if (typeof obj == 'object') {
-            obj = { ...obj };
+            obj = {...obj};
             for (let key in obj) {
                 obj[key] = convars(obj[key]);
             }
@@ -62,7 +62,7 @@
     //==============================================================================
     // Game_CharacterSpine
     //==============================================================================
-
+    
     class Game_CharacterSpine extends Game_Spine {
         constructor(character, script = {}) {
             super();
@@ -125,7 +125,7 @@
     //==============================================================================
     // Sprite_CharacterSpine
     //==============================================================================
-
+    
     class Sprite_CharacterSpine extends Sprite_Spine {
         constructor(...args) {
             super(...args);
@@ -145,17 +145,17 @@
     //==============================================================================
     // Game_Character
     //==============================================================================
-
+    
     (__initMembers => {
-        Game_Character.prototype.initMembers = function () {
+        Game_Character.prototype.initMembers = function() {
             __initMembers.apply(this, arguments);
 
             this._spine = null;
         };
     })(Game_Character.prototype.initMembers);
-
+    
     (__update => {
-        Game_Character.prototype.update = function () {
+        Game_Character.prototype.update = function() {
             this._isNextMoving = this.isMoving();
 
             __update.apply(this, arguments);
@@ -165,12 +165,12 @@
             }
         };
     })(Game_Character.prototype.update);
-
-    Game_Character.prototype.spine = function () {
+    
+    Game_Character.prototype.spine = function() {
         return this._spine;
     };
 
-    Game_Character.prototype.setupSpine = function (note) {
+    Game_Character.prototype.setupSpine = function(note) {
         let data = meta(note, 'spine_character_action');
         if (data.length == 0) {
             this._spine = null;
@@ -185,20 +185,20 @@
         this._spine = new Game_CharacterSpine(this, script);
     };
 
-    Game_Character.prototype.isNextMoving = function () {
+    Game_Character.prototype.isNextMoving = function() {
         return !!this._isNextMoving && this.hasWalkAnime() || this.hasStepAnime();
     };
 
-    Game_Character.prototype.isDashMoving = function () {
+    Game_Character.prototype.isDashMoving = function() {
         return false;
     };
 
     //==============================================================================
     // Game_Player
     //==============================================================================
-
+    
     (__refresh => {
-        Game_Player.prototype.refresh = function () {
+        Game_Player.prototype.refresh = function() {
             __refresh.apply(this, arguments);
 
             let player = $gameParty.leader();
@@ -211,17 +211,17 @@
             this.setupSpine(note);
         };
     })(Game_Player.prototype.refresh);
-
-    Game_Player.prototype.isDashMoving = function () {
+    
+    Game_Player.prototype.isDashMoving = function() {
         return this.isDashing() && this.isNextMoving();
     };
 
     //==============================================================================
     // Game_Follower
     //==============================================================================
-
+    
     (__refresh => {
-        Game_Follower.prototype.refresh = function () {
+        Game_Follower.prototype.refresh = function() {
             __refresh.apply(this, arguments);
 
             if (!this.isVisible()) {
@@ -233,17 +233,17 @@
             this.setupSpine(note);
         };
     })(Game_Follower.prototype.refresh);
-
-    Game_Follower.prototype.isDashMoving = function () {
+    
+    Game_Follower.prototype.isDashMoving = function() {
         return $gamePlayer.isDashing() && this.isNextMoving();
     };
 
     //==============================================================================
     // Game_Event
     //==============================================================================
-
+    
     (__refresh => {
-        Game_Event.prototype.refresh = function () {
+        Game_Event.prototype.refresh = function() {
             __refresh.apply(this, arguments);
 
             if (this._pageIndex < 0) {
@@ -253,26 +253,26 @@
 
             let note = this.event().note;
             this.page().list.forEach(command => {
-                if ([108, 408].includes(command.code)) {
+                if ([108,408].includes(command.code)) {
                     note += command.parameters[0];
                 }
             })
             this.setupSpine(note);
         };
     })(Game_Event.prototype.refresh);
-
+    
     /* rpg_sprites.js */
 
     //==============================================================================
     // Sprite_Character
     //==============================================================================
-
+    
     (__initialize => {
-        Sprite_Character.prototype.initialize = function (character) {
+        Sprite_Character.prototype.initialize = function(character) {
             __initialize.apply(this, arguments);
 
             this.addChild(new Sprite_CharacterSpine(character));
         };
     })(Sprite_Character.prototype.initialize);
-
+    
 })();

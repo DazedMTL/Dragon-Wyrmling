@@ -31,19 +31,19 @@
  * 
  */
 
-(function () {
+(function() {
+    
+//var parameters = PluginManager.parameters('DisusedItem');
 
-  //var parameters = PluginManager.parameters('DisusedItem');
-
-  var _Window_EventItem_isEnabled = Window_EventItem.prototype.isEnabled;
-  Window_EventItem.prototype.isEnabled = function (item) {
-    var Charge = parseInt($dataItems[item.id].meta.ItemCharge, 10);
-    if (Charge) {
-      if (item && Charge > $gameVariables._data[301]) return false;
+var _Window_EventItem_isEnabled = Window_EventItem.prototype.isEnabled;
+Window_EventItem.prototype.isEnabled = function(item) {
+	var Charge = parseInt($dataItems[item.id].meta.ItemCharge,10);
+	if ( Charge ) {
+      if(item && Charge > $gameVariables._data[301] ) return false;
       return _Window_EventItem_isEnabled.call(this, item);
     } else {
       return false;
     }
-  };
-
+};
+ 
 })();

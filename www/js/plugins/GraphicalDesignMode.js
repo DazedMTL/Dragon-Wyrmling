@@ -244,7 +244,7 @@
  */
 var $dataContainerProperties = null;
 
-(function () {
+(function() {
     'use strict';
     //=============================================================================
     // ユーザ書き換え領域 - 開始 -
@@ -256,133 +256,133 @@ var $dataContainerProperties = null;
     //=============================================================================
     var settings = {
         /* タイトル画面の追加情報 */
-        Scene_Title: {
+        Scene_Title   : {
             /* pictures:シーンに追加表示する画像です。無条件で表示されます。 */
             pictures: [
                 /* file:「img/pictures/」以下のファイルを拡張子なしで指定します  switchId: 表示条件となるスイッチIDです*/
-                { file: '', switchId: 0 },
+                {file: '', switchId: 0},
             ],
             /* windows:シーンに追加表示するウィンドウです。*/
-            windows: [
+            windows : [
                 /* lines:表示内容の配列です。 制御文字が利用できます。「\\i[n]」と「\」をひとつ多く指定してください。*/
                 /* switchId:出現条件となるスイッチIDです */
                 /* 位置を調整後に新しいウィンドウを追加する場合は、必ず「配列の末尾に追加」してください */
-                { lines: [], switchId: 0 },
+                {lines: [], switchId: 0},
             ],
         },
         /* メインメニュー画面の追加情報 */
-        Scene_Menu: {
+        Scene_Menu    : {
             pictures: [
-                { file: 'MenuBack2', switchId: 0 },
+                {file: 'MenuBack2', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* 戦闘画面の追加情報 */
-        Scene_Battle: {
+        Scene_Battle  : {
             pictures: [
-                { file: '', switchId: 0 },
+                {file: '', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* アイテムメニュー画面の追加情報 */
-        Scene_Item: {
+        Scene_Item    : {
             pictures: [
-                { file: 'ItemBack', switchId: 0 },
+                {file: 'ItemBack', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* スキルメニュー画面の追加情報 */
-        Scene_Skill: {
+        Scene_Skill   : {
             pictures: [
-                { file: 'SkillBack', switchId: 0 },
+                {file: 'SkillBack', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* 装備メニュー画面の追加情報 */
-        Scene_Equip: {
+        Scene_Equip   : {
             pictures: [
-                { file: 'EquipBack3', switchId: 0 },
+                {file: 'EquipBack3', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* ステータスメニュー画面の追加情報 */
-        Scene_Status: {
+        Scene_Status  : {
             pictures: [
-                { file: '', switchId: 0 },
+                {file: '', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* オプション画面の追加情報 */
-        Scene_Options: {
+        Scene_Options : {
             pictures: [
-                { file: 'SaveBack', switchId: 0 },
+                {file: 'SaveBack', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* セーブ画面の追加情報 */
-        Scene_Save: {
+        Scene_Save    : {
             pictures: [
-                { file: 'SaveBack', switchId: 0 },
+                {file: 'SaveBack', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* ロード画面の追加情報 */
-        Scene_Load: {
+        Scene_Load    : {
             pictures: [
-                { file: 'SaveBack', switchId: 0 },
+                {file: 'SaveBack', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* ショップ画面の追加情報 */
-        Scene_Shop: {
+        Scene_Shop    : {
             pictures: [
-                { file: 'shopBack', switchId: 0 },
+                {file: 'shopBack', switchId: 0},
             ],
-            windows: [
-                { lines: ['所持金：'], switchId: 0 },
+            windows : [
+                {lines: ['所持金：'], switchId: 0},
             ],
         },
         /* 名前入力画面の追加情報 */
-        Scene_Name: {
+        Scene_Name    : {
             pictures: [
-                { file: '', switchId: 0 },
+                {file: '', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
         /* ゲームオーバー画面の追加情報 */
         Scene_Gameover: {
             pictures: [
-                { file: '', switchId: 0 },
+                {file: '', switchId: 0},
             ],
-            windows: [
-                { lines: [], switchId: 0 },
+            windows : [
+                {lines: [], switchId: 0},
             ],
         },
     };
     //=============================================================================
     // ユーザ書き換え領域 - 終了 -
     //=============================================================================
-    var pluginName = 'GraphicalDesignMode';
+    var pluginName    = 'GraphicalDesignMode';
     var metaTagPrefix = 'GDM';
 
     if (!Utils.RPGMAKER_VERSION || Utils.RPGMAKER_VERSION.match(/^1\.2./)) {
@@ -390,7 +390,7 @@ var $dataContainerProperties = null;
         return;
     }
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         var value = getParamOther(paramNames);
         if (value == null) return null;
         if (arguments.length < 2) min = -Infinity;
@@ -398,12 +398,12 @@ var $dataContainerProperties = null;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamOther(paramNames);
         return value.toUpperCase() === 'ON' || value.toUpperCase() === 'TRUE';
     };
 
-    var getParamOther = function (paramNames) {
+    var getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -412,59 +412,59 @@ var $dataContainerProperties = null;
         return null;
     };
 
-    var getArgString = function (arg, upperFlg) {
+    var getArgString = function(arg, upperFlg) {
         arg = convertEscapeCharacters(arg);
         return upperFlg ? arg.toUpperCase() : arg;
     };
 
-    var getArgEval = function (arg, min, max) {
+    var getArgEval = function(arg, min, max) {
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (eval(convertEscapeCharacters(arg)) || 0).clamp(min, max);
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (text == null) text = '';
         var window = SceneManager._scene._windowLayer.children[0];
         return window ? window.convertEscapeCharacters(text) : text;
     };
 
-    var checkTypeFunction = function (value) {
+    var checkTypeFunction = function(value) {
         return checkType(value, 'Function');
     };
 
-    var checkType = function (value, typeName) {
+    var checkType = function(value, typeName) {
         return Object.prototype.toString.call(value).slice(8, -1) === typeName;
     };
 
-    var getClassName = function (object) {
+    var getClassName = function(object) {
         return object.constructor.toString().replace(/function\s+(.*)\s*\([\s\S]*/m, '$1');
     };
 
-    var getCommandName = function (command) {
+    var getCommandName = function(command) {
         return (command || '').toUpperCase();
     };
 
-    var paramDesignMode = getParamBoolean(['DesignMode', 'デザインモード']);
-    var paramThroughWindow = getParamBoolean(['ThroughWindow', 'ウィンドウ透過']);
-    var paramAutoSave = getParamBoolean(['AutoSave', '自動保存']);
-    var paramGridSize = getParamNumber(['GridSize', 'グリッドサイズ'], 0) || 0;
-    var paramPadding = getParamNumber(['Padding', 'パディング']);
-    var paramFontSize = getParamNumber(['FontSize', 'フォントサイズ']);
-    var paramLineHeight = getParamNumber(['LineHeight', '行の高さ']);
-    var paramBackOpacity = getParamNumber(['LineHeight', '背景透明度']);
-    var paramMobileMake = getParamBoolean(['MobileMake', 'モバイル版作成']);
-    var paramFakeMobile = getParamBoolean(['FakeMobile', 'モバイル偽装']);
-    var paramIconSizeScale = getParamBoolean(['IconSizeScale', 'アイコンサイズ調整']);
+    var paramDesignMode      = getParamBoolean(['DesignMode', 'デザインモード']);
+    var paramThroughWindow   = getParamBoolean(['ThroughWindow', 'ウィンドウ透過']);
+    var paramAutoSave        = getParamBoolean(['AutoSave', '自動保存']);
+    var paramGridSize        = getParamNumber(['GridSize', 'グリッドサイズ'], 0) || 0;
+    var paramPadding         = getParamNumber(['Padding', 'パディング']);
+    var paramFontSize        = getParamNumber(['FontSize', 'フォントサイズ']);
+    var paramLineHeight      = getParamNumber(['LineHeight', '行の高さ']);
+    var paramBackOpacity     = getParamNumber(['LineHeight', '背景透明度']);
+    var paramMobileMake      = getParamBoolean(['MobileMake', 'モバイル版作成']);
+    var paramFakeMobile      = getParamBoolean(['FakeMobile', 'モバイル偽装']);
+    var paramIconSizeScale   = getParamBoolean(['IconSizeScale', 'アイコンサイズ調整']);
     var paramBackgroundFixed = getParamBoolean(['BackgroundFixed', '背景表示可否固定']);
-    var paramRightClickHide = getParamBoolean(['RightClickHide', '右クリックで消去']);
+    var paramRightClickHide  = getParamBoolean(['RightClickHide', '右クリックで消去']);
     var paramIgnoreMesWindow = getParamBoolean(['IgnoreMesWindow', 'メッセージウィンドウを無視']);
 
     //=============================================================================
     // Utils
     //  デザインモード判定を追加します。
     //=============================================================================
-    Utils.isDesignMode = function () {
+    Utils.isDesignMode = function() {
         return (this.isOptionValid('test') || this.isOptionValid('btest') || this.isOptionValid('etest')) &&
             this.isNwjs() && paramDesignMode;
     };
@@ -477,7 +477,7 @@ var $dataContainerProperties = null;
         //=============================================================================
         // グローバル関数
         //=============================================================================
-        window.changePos = function (x, y) {
+        window.changePos = function(x, y) {
             SceneManager.setLastWindowPosition(x, y);
         };
 
@@ -492,12 +492,12 @@ var $dataContainerProperties = null;
         }
 
         var _Input__wrapNwjsAlert = Input._wrapNwjsAlert;
-        Input._wrapNwjsAlert = function () {
+        Input._wrapNwjsAlert      = function() {
             _Input__wrapNwjsAlert.apply(this, arguments);
-            var _prompt = window.prompt;
-            window.prompt = function () {
-                var gui = require('nw.gui');
-                var win = gui.Window.get();
+            var _prompt   = window.prompt;
+            window.prompt = function() {
+                var gui    = require('nw.gui');
+                var win    = gui.Window.get();
                 var result = _prompt.apply(this, arguments);
                 win.focus();
                 Input.clear();
@@ -506,7 +506,7 @@ var $dataContainerProperties = null;
         };
 
         var _Input_isRepeated = Input.isRepeated;
-        Input.isRepeated = function (keyName) {
+        Input.isRepeated      = function(keyName) {
             if (keyName === 'ok' && this.isPressed('control')) {
                 return false;
             }
@@ -517,7 +517,7 @@ var $dataContainerProperties = null;
         // TouchInput
         //  ポインタ位置を常に記憶します。
         //=============================================================================
-        TouchInput._onMouseMove = function (event) {
+        TouchInput._onMouseMove = function(event) {
             var x = Graphics.pageToCanvasX(event.pageX);
             var y = Graphics.pageToCanvasY(event.pageY);
             this._onMove(x, y);
@@ -530,26 +530,26 @@ var $dataContainerProperties = null;
         SceneManager.controlNumber = 0;
 
         var _SceneManager_initialize = SceneManager.initialize;
-        SceneManager.initialize = function () {
+        SceneManager.initialize      = function() {
             _SceneManager_initialize.call(this);
-            this.lastWindowX = null;
-            this.lastWindowY = null;
-            this._lastWindow = null;
+            this.lastWindowX            = null;
+            this.lastWindowY            = null;
+            this._lastWindow            = null;
             this._windowPositionChanged = false;
-            this.infoWindow = '';
-            this.infoExtend = '';
-            this._copyCount = 0;
-            this._infoHelp = 'デザインモードで起動しています。 ';
-            this._documentTitle = '';
-            this._changeStack = [];
+            this.infoWindow             = '';
+            this.infoExtend             = '';
+            this._copyCount             = 0;
+            this._infoHelp              = 'デザインモードで起動しています。 ';
+            this._documentTitle         = '';
+            this._changeStack           = [];
             this.showDevToolsForGdm();
         };
 
-        SceneManager.setLastWindow = function (windowObject) {
+        SceneManager.setLastWindow = function(windowObject) {
             this._lastWindow = windowObject;
         };
 
-        SceneManager.setLastWindowPosition = function (x, y) {
+        SceneManager.setLastWindowPosition = function(x, y) {
             if (!this._lastWindow) {
                 this.setInfoExtend('直前に触れたオブジェクトが存在しないため、この操作は無効です。', 0);
                 return;
@@ -559,7 +559,7 @@ var $dataContainerProperties = null;
             this._windowPositionChanged = true;
         };
 
-        SceneManager.isWindowPositionChanged = function (windowObject) {
+        SceneManager.isWindowPositionChanged = function(windowObject) {
             if (this._windowPositionChanged && windowObject === this._lastWindow) {
                 this._windowPositionChanged = false;
                 return true;
@@ -567,7 +567,7 @@ var $dataContainerProperties = null;
             return false;
         };
 
-        SceneManager.showDevToolsForGdm = function () {
+        SceneManager.showDevToolsForGdm = function() {
             var nwWin = require('nw.gui').Window.get();
             if (nwWin.isDevToolsOpen) {
                 if (!nwWin.isDevToolsOpen()) {
@@ -582,7 +582,7 @@ var $dataContainerProperties = null;
             this.outputStartLog();
         };
 
-        SceneManager.outputStartLog = function () {
+        SceneManager.outputStartLog = function() {
             var logValue = [
                 '☆☆☆ようこそ、デザインモードで起動しました。☆☆☆\n',
                 'デザインモードでは、オブジェクトの配置やプロパティを自由に設定して実際のゲーム画面上から画面設計できます。\n',
@@ -619,19 +619,19 @@ var $dataContainerProperties = null;
         };
 
         var _SceneManager_onSceneCreate = SceneManager.onSceneCreate;
-        SceneManager.onSceneCreate = function () {
+        SceneManager.onSceneCreate      = function() {
             _SceneManager_onSceneCreate.apply(this, arguments);
             this._changeStack = [];
         };
 
-        SceneManager.pushChangeStack = function (child) {
+        SceneManager.pushChangeStack = function(child) {
             var index = child.parent.getChildIndex(child);
-            var info = { parent: child.parent, index: index };
+            var info  = {parent: child.parent, index: index};
             child.saveProperty(info);
             this._changeStack.push(info);
         };
 
-        SceneManager.popChangeStack = function () {
+        SceneManager.popChangeStack = function() {
             var info = this._changeStack.pop();
             if (info) {
                 var child = info.parent.children[info.index];
@@ -645,12 +645,12 @@ var $dataContainerProperties = null;
         };
 
         var _SceneManager_update = SceneManager.updateMain;
-        SceneManager.updateMain = function () {
+        SceneManager.updateMain  = function() {
             _SceneManager_update.apply(this, arguments);
             this.updateDragInfo();
         };
 
-        SceneManager.updateDragInfo = function () {
+        SceneManager.updateDragInfo = function() {
             if (Input.isPressed('control') && Input.isTriggered('copy')) {
                 SoundManager.playOk();
                 if (this.lastWindowX == null || this.lastWindowY == null) return;
@@ -683,12 +683,12 @@ var $dataContainerProperties = null;
                 DataManager.saveDataFileWp();
                 location.reload();
             }
-            var docTitle = this._infoHelp + this.infoWindow + this.infoExtend;
-            document.title = docTitle;
+            var docTitle        = this._infoHelp + this.infoWindow + this.infoExtend;
+            document.title      = docTitle;
             this._documentTitle = docTitle;
         };
 
-        SceneManager.setInfoExtend = function (value, add) {
+        SceneManager.setInfoExtend = function(value, add) {
             this.controlNumber += add;
             this.infoExtend = ' ' + value;
             console.log(add ? this.controlNumber + (add < 0 ? 1 : 0) + ' : ' + value : value);
@@ -701,7 +701,7 @@ var $dataContainerProperties = null;
         // DataManager
         //  ウィンドウポジションをjson形式で保存する処理を追加定義します。
         //=============================================================================
-        DataManager.saveDataFileWp = function () {
+        DataManager.saveDataFileWp = function() {
             StorageManager.saveToLocalDataFile(this._databaseFileCp.src, window[this._databaseFileCp.name]);
         };
 
@@ -709,10 +709,10 @@ var $dataContainerProperties = null;
         // StorageManager
         //  ウィンドウポジションをjson形式で保存する処理を追加定義します。
         //=============================================================================
-        StorageManager.saveToLocalDataFile = function (fileName, json) {
-            var data = JSON.stringify(json);
-            var fs = require('fs');
-            var dirPath = this.localDataFileDirectoryPath();
+        StorageManager.saveToLocalDataFile = function(fileName, json) {
+            var data     = JSON.stringify(json);
+            var fs       = require('fs');
+            var dirPath  = this.localDataFileDirectoryPath();
             var filePath = dirPath + fileName;
             if (!fs.existsSync(dirPath)) {
                 fs.mkdirSync(dirPath);
@@ -720,7 +720,7 @@ var $dataContainerProperties = null;
             fs.writeFileSync(filePath, data);
         };
 
-        StorageManager.localDataFileDirectoryPath = function () {
+        StorageManager.localDataFileDirectoryPath = function() {
             var path = require('path');
             var base = path.dirname(process.mainModule.filename);
             return path.join(base, 'data/');
@@ -730,35 +730,35 @@ var $dataContainerProperties = null;
         // Scene_Base
         //  ウィンドウをドラッグ＆ドロップします。
         //=============================================================================
-        var _Scene_Base_update = Scene_Base.prototype.update;
-        Scene_Base.prototype.update = function () {
+        var _Scene_Base_update      = Scene_Base.prototype.update;
+        Scene_Base.prototype.update = function() {
             _Scene_Base_update.apply(this, arguments);
             if (this._windowLayer) this.updateDrag();
         };
 
-        Scene_Base.prototype.updateDrag = function () {
+        Scene_Base.prototype.updateDrag = function() {
             this._windowLayer.isFrameChanged = false;
 
-            var result = this._windowLayer.children.clone().reverse().some(function (container) {
+            var result = this._windowLayer.children.clone().reverse().some(function(container) {
                 return checkTypeFunction(container.processDesign) && container.processDesign();
             }, this);
             if (result) return;
-            this.children.clone().reverse().some(function (container) {
+            this.children.clone().reverse().some(function(container) {
                 return checkTypeFunction(container.processDesign) && container.processDesign();
             }, this);
         };
 
-        var _Scene_Base_createWindowLayer = Scene_Base.prototype.createWindowLayer;
-        Scene_Base.prototype.createWindowLayer = function () {
+        var _Scene_Base_createWindowLayer      = Scene_Base.prototype.createWindowLayer;
+        Scene_Base.prototype.createWindowLayer = function() {
             if (!(this instanceof Scene_Boot) && !(this instanceof Scene_Map)) this.createGridSprite();
             _Scene_Base_createWindowLayer.apply(this, arguments);
         };
 
-        Scene_Base.prototype.createGridSprite = function () {
+        Scene_Base.prototype.createGridSprite = function() {
             var size = paramGridSize;
             if (size === 0) return;
-            var width = Graphics.boxWidth;
-            var height = Graphics.boxHeight;
+            var width        = Graphics.boxWidth;
+            var height       = Graphics.boxHeight;
             this._gridSprite = new Sprite();
             this._gridSprite.setFrame(0, 0, width, height);
             var bitmap = new Bitmap(width, height);
@@ -768,7 +768,7 @@ var $dataContainerProperties = null;
             for (var y = 0; y < height; y += size) {
                 bitmap.fillRect(0, y, width, 1, 'rgba(255,255,255,1.0)');
             }
-            this._gridSprite.bitmap = bitmap;
+            this._gridSprite.bitmap      = bitmap;
             this._gridSprite.moveDisable = true;
             this.addChild(this._gridSprite);
         };
@@ -778,24 +778,24 @@ var $dataContainerProperties = null;
         //  コンテナをドラッグ＆ドロップします。
         //=============================================================================
         var _PIXI_DisplayObjectContainer_initialize = PIXI.Container.prototype.initialize;
-        PIXI.Container.prototype.initialize = function (x, y, width, height) {
+        PIXI.Container.prototype.initialize         = function(x, y, width, height) {
             _PIXI_DisplayObjectContainer_initialize.apply(this, arguments);
-            this._holding = false;
-            this._dx = 0;
-            this._dy = 0;
-            this.moveDisable = false;
+            this._holding      = false;
+            this._dx           = 0;
+            this._dy           = 0;
+            this.moveDisable   = false;
             this._positionLock = false;
         };
 
-        PIXI.Container.prototype.processDesign = function () {
+        PIXI.Container.prototype.processDesign = function() {
             var result = false;
             if (!this.moveDisable) {
                 if (this.processPosition()) {
-                    var info = 'X:[' + this.x + '] Y:[' + this.y + ']';
+                    var info                 = 'X:[' + this.x + '] Y:[' + this.y + ']';
                     SceneManager.lastWindowX = this.x;
                     SceneManager.lastWindowY = this.y;
-                    SceneManager.infoWindow = info;
-                    SceneManager.infoCopy = '';
+                    SceneManager.infoWindow  = info;
+                    SceneManager.infoCopy    = '';
                     if (!this._holding) SceneManager.setInfoExtend('位置を変更しました。' + info, 1);
                     result = true;
                 }
@@ -813,12 +813,12 @@ var $dataContainerProperties = null;
         };
 
         if (paramIgnoreMesWindow) {
-            Window_Message.prototype.processDesign = function () { };
-            Window_NumberInput.prototype.processDesign = function () { };
-            Window_ChoiceList.prototype.processDesign = function () { };
+            Window_Message.prototype.processDesign = function() {};
+            Window_NumberInput.prototype.processDesign = function() {};
+            Window_ChoiceList.prototype.processDesign = function() {};
         }
 
-        PIXI.Container.prototype.processPosition = function () {
+        PIXI.Container.prototype.processPosition = function() {
             if (SceneManager.isWindowPositionChanged(this)) {
                 return true;
             }
@@ -836,8 +836,8 @@ var $dataContainerProperties = null;
                     x = this.updateSnapX(x);
                     y = this.updateSnapY(y);
                 }
-                this.position.x = x;
-                this.position.y = y;
+                this.position.x    = x;
+                this.position.y    = y;
                 this._positionLock = true;
                 return true;
             } else if (this._holding) {
@@ -847,9 +847,9 @@ var $dataContainerProperties = null;
             return false;
         };
 
-        PIXI.Container.prototype.processFrameChange = function () { };
+        PIXI.Container.prototype.processFrameChange = function() {};
 
-        Window_Base.prototype.processFrameChange = function () {
+        Window_Base.prototype.processFrameChange = function() {
             if (this._holding || !TouchInput.isMoved()) return;
             if (this.isPreparedEvent() && !this.parent.isFrameChanged) {
                 this._windowFrameSprite.setBlendColor([255, 128, 0, 192]);
@@ -860,9 +860,9 @@ var $dataContainerProperties = null;
             }
         };
 
-        PIXI.Container.prototype.processOpacity = function () { };
+        PIXI.Container.prototype.processOpacity = function() {};
 
-        Window_Base.prototype.processOpacity = function () {
+        Window_Base.prototype.processOpacity = function() {
             if (this.isTouchEvent(TouchInput.isCancelled)) {
                 SoundManager.playMiss();
                 SceneManager.pushChangeStack(this);
@@ -877,9 +877,9 @@ var $dataContainerProperties = null;
             return false;
         };
 
-        PIXI.Container.prototype.processInput = function () { };
+        PIXI.Container.prototype.processInput = function() {};
 
-        Window_Base.prototype.processInput = function () {
+        Window_Base.prototype.processInput = function() {
             if (this.isPreparedEvent()) {
                 var params = [
                     ['num1', '横幅', 'width', 1, 2000, null],
@@ -892,19 +892,19 @@ var $dataContainerProperties = null;
                     ['num8', '背景画像のファイル名', '_customBackFileName', null, null, this.createBackSprite.bind(this), true],
                     ['num9', 'フォント名', '_customFontFace', null, null, this.resetFontSettings.bind(this), true]
                 ];
-                return params.some(function (param) {
+                return params.some(function(param) {
                     return this.processSetProperty.apply(this, param);
                 }.bind(this));
             }
             return false;
         };
 
-        Window_Base.prototype.setFittingHeight = function () {
+        Window_Base.prototype.setFittingHeight = function() {
             if (this._customLineNumber) this.height = this.fittingHeight(this._customLineNumber);
         };
 
-        Window_Base.prototype.processSetProperty = function (keyCode, propLabel, propName, min, max,
-            callBack, stringFlg) {
+        Window_Base.prototype.processSetProperty = function(keyCode, propLabel, propName, min, max,
+                                                            callBack, stringFlg) {
             if (this[propName] === undefined) return null;
             if (Input.isTriggered(keyCode)) {
                 var result = window.prompt(propLabel + 'を入力してください。', this[propName].toString());
@@ -924,73 +924,73 @@ var $dataContainerProperties = null;
             return null;
         };
 
-        Window_Base.prototype.reDrawContents = function () {
+        Window_Base.prototype.reDrawContents = function() {
             this.createContents();
             this.refresh();
         };
 
-        Window_Selectable.prototype.reDrawContents = function () {
+        Window_Selectable.prototype.reDrawContents = function() {
             Window_Base.prototype.reDrawContents.apply(this, arguments);
             this.updateCursor();
         };
 
-        PIXI.Container.prototype.isAnchorChanged = function () {
+        PIXI.Container.prototype.isAnchorChanged = function() {
             return false;
         };
 
-        Sprite.prototype.isAnchorChanged = function () {
+        Sprite.prototype.isAnchorChanged = function() {
             return this.anchor.x !== 0 || this.anchor.y !== 0;
         };
 
-        PIXI.Container.prototype.hold = function () {
+        PIXI.Container.prototype.hold = function() {
             this._holding = true;
-            this._dx = TouchInput.x - this.x;
-            this._dy = TouchInput.y - this.y;
+            this._dx      = TouchInput.x - this.x;
+            this._dy      = TouchInput.y - this.y;
             SceneManager.pushChangeStack(this);
         };
 
-        Window_Base.prototype.hold = function () {
+        Window_Base.prototype.hold = function() {
             PIXI.Container.prototype.hold.call(this);
             this._windowBackSprite.setBlendColor([255, 255, 255, 192]);
             this._windowContentsSprite.setBlendColor([255, 128, 0, 192]);
         };
 
-        Sprite.prototype.hold = function () {
+        Sprite.prototype.hold = function() {
             PIXI.Container.prototype.hold.call(this);
             this.setBlendColor([255, 255, 255, 192]);
         };
 
-        PIXI.Container.prototype.release = function () {
+        PIXI.Container.prototype.release = function() {
             this._holding = false;
             this.saveContainerInfo();
         };
 
-        Window_Base.prototype.release = function () {
+        Window_Base.prototype.release = function() {
             PIXI.Container.prototype.release.call(this);
             this._windowBackSprite.setBlendColor([0, 0, 0, 0]);
             this._windowContentsSprite.setBlendColor([0, 0, 0, 0]);
         };
 
-        Sprite.prototype.release = function () {
+        Sprite.prototype.release = function() {
             PIXI.Container.prototype.release.call(this);
             this.setBlendColor([0, 0, 0, 0]);
         };
 
-        PIXI.Container.prototype.updateSnapX = function (x) {
+        PIXI.Container.prototype.updateSnapX = function(x) {
             var minDistanceL = 16, minIndexL = -1, minDistanceR = 16, minIndexR = -1;
-            var children = this.parent.children, endX = x + this.width;
+            var children     = this.parent.children, endX = x + this.width;
             for (var i = 0, n = children.length; i < n; i++) {
                 var child = children[i];
                 if (child !== this && this.isSameInstance(child) && child.isTouchable() && child.isOverlapY(this)) {
                     var distanceL = Math.abs(x - child.endX);
                     if (minDistanceL > distanceL) {
                         minDistanceL = distanceL;
-                        minIndexL = i;
+                        minIndexL    = i;
                     }
                     var distanceR = Math.abs(endX - child.x);
                     if (minDistanceR > distanceR) {
                         minDistanceR = distanceR;
-                        minIndexR = i;
+                        minIndexR    = i;
                     }
                 }
             }
@@ -1003,21 +1003,21 @@ var $dataContainerProperties = null;
             }
         };
 
-        PIXI.Container.prototype.updateSnapY = function (y) {
+        PIXI.Container.prototype.updateSnapY = function(y) {
             var minDistanceU = 16, minIndexU = -1, minDistanceD = 16, minIndexD = -1;
-            var children = this.parent.children, endY = y + this.height;
+            var children     = this.parent.children, endY = y + this.height;
             for (var i = 0, n = children.length; i < n; i++) {
                 var child = children[i];
                 if (child !== this && this.isSameInstance(child) && child.isTouchable() && child.isOverlapX(this)) {
                     var distanceU = Math.abs(y - child.endY);
                     if (minDistanceU > distanceU) {
                         minDistanceU = distanceU;
-                        minIndexU = i;
+                        minIndexU    = i;
                     }
                     var distanceD = Math.abs(endY - child.y);
                     if (minDistanceD > distanceD) {
                         minDistanceD = distanceD;
-                        minIndexD = i;
+                        minIndexD    = i;
                     }
                 }
             }
@@ -1030,124 +1030,124 @@ var $dataContainerProperties = null;
             }
         };
 
-        PIXI.Container.prototype.isSameInstance = function () {
+        PIXI.Container.prototype.isSameInstance = function() {
             return false;
         };
 
-        Window_Base.prototype.isSameInstance = function (objectContainer) {
+        Window_Base.prototype.isSameInstance = function(objectContainer) {
             return objectContainer instanceof Window_Base;
         };
 
-        Sprite.prototype.isSameInstance = function (objectContainer) {
+        Sprite.prototype.isSameInstance = function(objectContainer) {
             return objectContainer instanceof Sprite;
         };
 
-        PIXI.Container.prototype.isTouchPosInRect = function () {
+        PIXI.Container.prototype.isTouchPosInRect = function() {
             var tx = TouchInput.x;
             var ty = TouchInput.y;
             return (tx >= this.x && tx <= this.endX &&
-                ty >= this.y && ty <= this.endY);
+            ty >= this.y && ty <= this.endY);
         };
 
-        Sprite.prototype.isTouchPosInRect = function () {
+        Sprite.prototype.isTouchPosInRect = function() {
             if (this.isTransparent()) return false;
-            var dx = TouchInput.x - this.x;
-            var dy = TouchInput.y - this.y;
+            var dx  = TouchInput.x - this.x;
+            var dy  = TouchInput.y - this.y;
             var sin = Math.sin(-this.rotation);
             var cos = Math.cos(-this.rotation);
-            var rx = this.x + Math.floor(dx * cos + dy * -sin);
-            var ry = this.y + Math.floor(dx * sin + dy * cos);
+            var rx  = this.x + Math.floor(dx * cos + dy * -sin);
+            var ry  = this.y + Math.floor(dx * sin + dy * cos);
             return (rx >= this.minX() && rx <= this.maxX() &&
-                ry >= this.minY() && ry <= this.maxY());
+            ry >= this.minY() && ry <= this.maxY());
         };
 
-        Sprite.prototype.isTransparent = function () {
-            var dx = TouchInput.x - this.x;
-            var dy = TouchInput.y - this.y;
+        Sprite.prototype.isTransparent = function() {
+            var dx  = TouchInput.x - this.x;
+            var dy  = TouchInput.y - this.y;
             var sin = Math.sin(-this.rotation);
             var cos = Math.cos(-this.rotation);
-            var bx = Math.floor(dx * cos + dy * -sin) / this.scale.x + this.anchor.x * this.width;
-            var by = Math.floor(dx * sin + dy * cos) / this.scale.y + this.anchor.y * this.height;
+            var bx  = Math.floor(dx * cos + dy * -sin) / this.scale.x + this.anchor.x * this.width;
+            var by  = Math.floor(dx * sin + dy * cos) / this.scale.y + this.anchor.y * this.height;
             return this.bitmap.getAlphaPixel(bx, by) === 0;
         };
 
-        Sprite.prototype.screenWidth = function () {
+        Sprite.prototype.screenWidth = function() {
             return (this.width || 0) * this.scale.x;
         };
 
-        Sprite.prototype.screenHeight = function () {
+        Sprite.prototype.screenHeight = function() {
             return (this.height || 0) * this.scale.y;
         };
 
-        Sprite.prototype.screenX = function () {
+        Sprite.prototype.screenX = function() {
             return (this.x || 0) - this.anchor.x * this.screenWidth();
         };
 
-        Sprite.prototype.screenY = function () {
+        Sprite.prototype.screenY = function() {
             return (this.y || 0) - this.anchor.y * this.screenHeight();
         };
 
-        Sprite.prototype.minX = function () {
+        Sprite.prototype.minX = function() {
             return Math.min(this.screenX(), this.screenX() + this.screenWidth());
         };
 
-        Sprite.prototype.minY = function () {
+        Sprite.prototype.minY = function() {
             return Math.min(this.screenY(), this.screenY() + this.screenHeight());
         };
 
-        Sprite.prototype.maxX = function () {
+        Sprite.prototype.maxX = function() {
             return Math.max(this.screenX(), this.screenX() + this.screenWidth());
         };
 
-        Sprite.prototype.maxY = function () {
+        Sprite.prototype.maxY = function() {
             return Math.max(this.screenY(), this.screenY() + this.screenHeight());
         };
 
-        PIXI.Container.prototype.isTouchable = function () {
+        PIXI.Container.prototype.isTouchable = function() {
             return false;
         };
 
-        Window_Base.prototype.isTouchable = function () {
+        Window_Base.prototype.isTouchable = function() {
             return (this.opacity > 0 || this.contentsOpacity > 0) && this.visible && this.isOpen();
         };
 
-        Window_BattleLog.prototype.isTouchable = function () {
+        Window_BattleLog.prototype.isTouchable = function() {
             return Window.prototype.isTouchable.call(this) && this._lines.length > 0;
         };
 
-        Sprite.prototype.isTouchable = function () {
+        Sprite.prototype.isTouchable = function() {
             return this.visible && this.bitmap != null && this.scale.x !== 0 && this.scale.y !== 0;
         };
 
-        PIXI.Container.prototype.isTouchEvent = function (triggerFunc) {
+        PIXI.Container.prototype.isTouchEvent = function(triggerFunc) {
             return this.isTouchable() && triggerFunc.call(TouchInput) && this.isTouchPosInRect();
         };
 
-        PIXI.Container.prototype.isPreparedEvent = function () {
+        PIXI.Container.prototype.isPreparedEvent = function() {
             return this.isTouchable() && this.isTouchPosInRect();
         };
 
-        PIXI.Container.prototype.isRangeX = function (x) {
+        PIXI.Container.prototype.isRangeX = function(x) {
             return this.x <= x && this.endX >= x;
         };
 
-        PIXI.Container.prototype.isRangeY = function (y) {
+        PIXI.Container.prototype.isRangeY = function(y) {
             return this.y <= y && this.endY >= y;
         };
 
-        PIXI.Container.prototype.isOverlapX = function (win) {
+        PIXI.Container.prototype.isOverlapX = function(win) {
             return this.isRangeX(win.x) || this.isRangeX(win.endX) || win.isRangeX(this.x) || win.isRangeX(this.endX);
         };
 
-        PIXI.Container.prototype.isOverlapY = function (win) {
+        PIXI.Container.prototype.isOverlapY = function(win) {
             return this.isRangeY(win.y) || this.isRangeY(win.endY) || win.isRangeY(this.y) || win.isRangeY(this.endY);
         };
 
         Object.defineProperty(PIXI.Container.prototype, 'endX', {
-            get: function () {
+            get: function() {
                 return this.x + this.width;
             },
-            set: function (value) {
+            set: function(value) {
                 this.x = value - this.width;
             },
 
@@ -1155,10 +1155,10 @@ var $dataContainerProperties = null;
         });
 
         Object.defineProperty(PIXI.Container.prototype, 'endY', {
-            get: function () {
+            get: function() {
                 return this.y + this.height;
             },
-            set: function (value) {
+            set: function(value) {
                 this.y = value - this.height;
             },
 
@@ -1169,9 +1169,9 @@ var $dataContainerProperties = null;
         //  Window_Selectable
         //   通常のタッチ操作を無効化します。
         //=============================================================================
-        Window_Selectable.prototype.processTouch = function () { };
-        Window_BattleActor.prototype.processTouch = function () { };
-        Window_BattleEnemy.prototype.processTouch = function () { };
+        Window_Selectable.prototype.processTouch = function() {};
+        Window_BattleActor.prototype.processTouch = function() {};
+        Window_BattleEnemy.prototype.processTouch = function() {};
     }
 
     //=============================================================================
@@ -1183,13 +1183,13 @@ var $dataContainerProperties = null;
         //  WindowLayer
         //   ウィンドウのマスク処理を除去します。
         //=============================================================================
-        WindowLayer.prototype._maskWindow = function (window) { };
+        WindowLayer.prototype._maskWindow = function(window) {};
 
-        WindowLayer.prototype._canvasClearWindowRect = function (renderSession, window) { };
+        WindowLayer.prototype._canvasClearWindowRect = function(renderSession, window) {};
     }
 
     if (paramFakeMobile) {
-        Utils.isMobileDevice = function () {
+        Utils.isMobileDevice = function() {
             return true;
         };
     }
@@ -1198,20 +1198,20 @@ var $dataContainerProperties = null;
     // Game_Interpreter
     //  プラグインコマンドを追加定義します。
     //=============================================================================
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    var _Game_Interpreter_pluginCommand      = Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.apply(this, arguments);
         if (!command.match(new RegExp('^' + metaTagPrefix))) return;
         this.pluginCommandGraphicalDesignMode(command.replace(metaTagPrefix, ''), args);
     };
 
-    Game_Interpreter.prototype.pluginCommandGraphicalDesignMode = function (command) {
+    Game_Interpreter.prototype.pluginCommandGraphicalDesignMode = function(command) {
         switch (getCommandName(command)) {
-            case '解除_メッセージウィンドウ':
+            case '解除_メッセージウィンドウ' :
             case '_UNLOCK_MESSAGE_WINDOW':
                 SceneManager._scene._messageWindow.unlockPosition();
                 break;
-            case '固定_メッセージウィンドウ':
+            case '固定_メッセージウィンドウ' :
             case '_LOCK_MESSAGE_WINDOW':
                 var win = SceneManager._scene._messageWindow;
                 if (win.isClosing()) {
@@ -1220,11 +1220,11 @@ var $dataContainerProperties = null;
                     win.lockPosition();
                 }
                 break;
-            case '解除_選択肢ウィンドウ':
+            case '解除_選択肢ウィンドウ' :
             case '_UNLOCK_CHOICE_WINDOW':
                 SceneManager._scene._messageWindow._choiceWindow.unlockPosition();
                 break;
-            case '固定_選択肢ウィンドウ':
+            case '固定_選択肢ウィンドウ' :
             case '_LOCK_CHOICE_WINDOW':
                 var win = SceneManager._scene._messageWindow._choiceWindow;
                 if (win.isClosing()) {
@@ -1240,24 +1240,24 @@ var $dataContainerProperties = null;
     // DataManager
     //  ContainerProperties.jsonの読み込み処理を追記します。
     //=============================================================================
-    DataManager._databaseFileCp = { name: '$dataContainerProperties', src: 'ContainerProperties.json' };
+    DataManager._databaseFileCp = {name: '$dataContainerProperties', src: 'ContainerProperties.json'};
     if (paramMobileMake && Utils.isMobileDevice()) {
         DataManager._databaseFileCp.src = 'ContainerPropertiesMobile.json';
     }
 
     var _DataManager_loadDatabase = DataManager.loadDatabase;
-    DataManager.loadDatabase = function () {
+    DataManager.loadDatabase      = function() {
         _DataManager_loadDatabase.apply(this, arguments);
         var errorMessage = this._databaseFileCp.src + 'が見付かりませんでした。';
         this.loadDataFileAllowError(this._databaseFileCp.name, this._databaseFileCp.src, errorMessage);
     };
 
-    DataManager.loadDataFileAllowError = function (name, src, errorMessage) {
+    DataManager.loadDataFileAllowError = function(name, src, errorMessage) {
         var xhr = new XMLHttpRequest();
         var url = 'data/' + src;
         xhr.open('GET', url);
         xhr.overrideMimeType('application/json');
-        xhr.onload = function () {
+        xhr.onload   = function() {
             if (xhr.status < 400) {
                 window[name] = JSON.parse(xhr.responseText);
                 DataManager.onLoad(window[name]);
@@ -1265,20 +1265,20 @@ var $dataContainerProperties = null;
                 DataManager.onDataFileNotFound(name, errorMessage);
             }
         };
-        xhr.onerror = function () {
+        xhr.onerror  = function() {
             DataManager.onDataFileNotFound(name, errorMessage);
         };
         window[name] = null;
         xhr.send();
     };
 
-    DataManager.onDataFileNotFound = function (name, errorMessage) {
+    DataManager.onDataFileNotFound = function(name, errorMessage) {
         window[name] = {};
         console.warn(errorMessage);
     };
 
     var _DataManager_isDatabaseLoaded = DataManager.isDatabaseLoaded;
-    DataManager.isDatabaseLoaded = function () {
+    DataManager.isDatabaseLoaded      = function() {
         return _DataManager_isDatabaseLoaded.apply(this, arguments) && window[this._databaseFileCp.name];
     };
 
@@ -1286,12 +1286,12 @@ var $dataContainerProperties = null;
     // SceneManager
     //  現在のシーン名を返します。
     //=============================================================================
-    SceneManager.getSceneName = function () {
+    SceneManager.getSceneName = function() {
         return getClassName(this._scene);
     };
 
     var _SceneManager_updateScene = SceneManager.updateScene;
-    SceneManager.updateScene = function () {
+    SceneManager.updateScene      = function() {
         _SceneManager_updateScene.apply(this, arguments);
         if (this._scene) {
             this._scene.updateCustomContainer();
@@ -1302,34 +1302,34 @@ var $dataContainerProperties = null;
     // Scene_Base
     //  ウィンドウ追加時に位置をロードします。
     //=============================================================================
-    var _Scene_Base_addWindow = Scene_Base.prototype.addWindow;
-    Scene_Base.prototype.addWindow = function (child) {
+    var _Scene_Base_addWindow      = Scene_Base.prototype.addWindow;
+    Scene_Base.prototype.addWindow = function(child) {
         _Scene_Base_addWindow.apply(this, arguments);
         child.loadContainerInfo();
     };
 
-    var _Scene_Base_addChild = Scene_Base.prototype.addChild;
-    Scene_Base.prototype.addChild = function (child) {
+    var _Scene_Base_addChild      = Scene_Base.prototype.addChild;
+    Scene_Base.prototype.addChild = function(child) {
         _Scene_Base_addChild.apply(this, arguments);
         child.loadContainerInfo();
     };
 
-    var _Scene_Base_createWindowLayer2 = Scene_Base.prototype.createWindowLayer;
-    Scene_Base.prototype.createWindowLayer = function () {
+    var _Scene_Base_createWindowLayer2     = Scene_Base.prototype.createWindowLayer;
+    Scene_Base.prototype.createWindowLayer = function() {
         this.createCustomPicture();
         _Scene_Base_createWindowLayer2.apply(this, arguments);
         this.createCustomWindow();
     };
 
-    Scene_Base.prototype.createCustomPicture = function () {
+    Scene_Base.prototype.createCustomPicture = function() {
         var setting = settings[getClassName(this)];
         if (setting) {
-            var pictures = setting.pictures;
+            var pictures         = setting.pictures;
             this._customPictures = [];
             if (pictures) {
-                pictures.forEach(function (picture) {
+                pictures.forEach(function(picture) {
                     if (!picture.file) return;
-                    var sprite = new Sprite();
+                    var sprite    = new Sprite();
                     sprite.bitmap = ImageManager.loadPicture(picture.file, 0);
                     this._customPictures.push(sprite);
                     this.addChild(sprite);
@@ -1339,13 +1339,13 @@ var $dataContainerProperties = null;
         }
     };
 
-    Scene_Base.prototype.createCustomWindow = function () {
+    Scene_Base.prototype.createCustomWindow = function() {
         var setting = settings[getClassName(this)];
         if (setting) {
-            var windows = setting.windows;
+            var windows         = setting.windows;
             this._customWindows = [];
             if (windows) {
-                windows.forEach(function (windowItem) {
+                windows.forEach(function(windowItem) {
                     if (!windowItem.lines || windowItem.lines.length < 1) return;
                     var win = new Window_Custom(windowItem.lines);
                     this._customWindows.push(win);
@@ -1356,7 +1356,7 @@ var $dataContainerProperties = null;
         }
     };
 
-    Scene_Base.prototype.updateCustomContainer = function () {
+    Scene_Base.prototype.updateCustomContainer = function() {
         if (this._customPictures) {
             this.updateCustomPicture();
         }
@@ -1365,26 +1365,26 @@ var $dataContainerProperties = null;
         }
     };
 
-    Scene_Base.prototype.updateCustomPicture = function () {
-        this._customPictures.forEach(function (picture) {
+    Scene_Base.prototype.updateCustomPicture = function() {
+        this._customPictures.forEach(function(picture) {
             if (picture.switchId > 0) {
                 picture.visible = $gameSwitches.value(picture.switchId);
             }
         });
     };
 
-    Scene_Base.prototype.updateCustomWindow = function () {
+    Scene_Base.prototype.updateCustomWindow = function() {
         this.updateCustomWindowVisible();
         if (!this._windowAdd) {
-            this._customWindows.forEach(function (windowItem) {
+            this._customWindows.forEach(function(windowItem) {
                 this.addWindow(windowItem);
             }, this);
             this._windowAdd = true;
         }
     };
 
-    Scene_Base.prototype.updateCustomWindowVisible = function () {
-        this._customWindows.forEach(function (windowItem) {
+    Scene_Base.prototype.updateCustomWindowVisible = function() {
+        this._customWindows.forEach(function(windowItem) {
             if (windowItem.switchId > 0) {
                 if ($gameSwitches.value(windowItem.switchId)) {
                     windowItem.show();
@@ -1400,32 +1400,32 @@ var $dataContainerProperties = null;
     //  表示位置のセーブとロードを行います。
     //=============================================================================
     Object.defineProperty(PIXI.Container.prototype, 'x', {
-        get: function () {
+        get: function() {
             return this.position.x;
         },
-        set: function (value) {
+        set: function(value) {
             if (this._positionLock) return;
             this.position.x = value;
         }
     });
 
     Object.defineProperty(PIXI.Container.prototype, 'y', {
-        get: function () {
+        get: function() {
             return this.position.y;
         },
-        set: function (value) {
+        set: function(value) {
             if (this._positionLock) return;
             this.position.y = value;
         }
     });
 
-    PIXI.Container.prototype.loadContainerInfo = function () {
-        var sceneName = SceneManager.getSceneName();
+    PIXI.Container.prototype.loadContainerInfo = function() {
+        var sceneName  = SceneManager.getSceneName();
         var parentName = getClassName(this.parent);
-        var sceneInfo = $dataContainerProperties[sceneName];
+        var sceneInfo  = $dataContainerProperties[sceneName];
         if (sceneInfo) {
             var containerInfo = sceneInfo[parentName];
-            var key = [this.parent.getChildIndex(this), getClassName(this)];
+            var key           = [this.parent.getChildIndex(this), getClassName(this)];
             if (containerInfo && containerInfo[key]) {
                 this.loadProperty(containerInfo[key]);
                 this._positionLock = true;
@@ -1433,13 +1433,13 @@ var $dataContainerProperties = null;
         }
     };
 
-    PIXI.Container.prototype.unlockPosition = function () {
-        this._positionLock = false;
+    PIXI.Container.prototype.unlockPosition = function() {
+        this._positionLock    = false;
         this._customPositionX = this.position.x;
         this._customPositionY = this.position.y;
     };
 
-    PIXI.Container.prototype.lockPosition = function () {
+    PIXI.Container.prototype.lockPosition = function() {
         this._positionLock = true;
         if (this._customPositionX) {
             this.position.x = this._customPositionX;
@@ -1449,23 +1449,23 @@ var $dataContainerProperties = null;
         }
     };
 
-    PIXI.Container.prototype.loadProperty = function (containerInfo) {
+    PIXI.Container.prototype.loadProperty = function(containerInfo) {
         this.position.x = containerInfo.x;
         this.position.y = containerInfo.y;
     };
 
-    Window_Base.prototype.loadProperty = function (containerInfo) {
+    Window_Base.prototype.loadProperty = function(containerInfo) {
         PIXI.Container.prototype.loadProperty.apply(this, arguments);
-        this.width = containerInfo.width;
-        this.height = containerInfo.height;
-        this.opacity = containerInfo.opacity;
-        this.visible = this.visible && !containerInfo.hidden;
-        this._customFontSize = containerInfo._customFontSize;
-        this._customPadding = containerInfo._customPadding;
-        this._customLineHeight = containerInfo._customLineHeight;
-        this._customBackOpacity = containerInfo._customBackOpacity;
+        this.width               = containerInfo.width;
+        this.height              = containerInfo.height;
+        this.opacity             = containerInfo.opacity;
+        this.visible             = this.visible && !containerInfo.hidden;
+        this._customFontSize     = containerInfo._customFontSize;
+        this._customPadding      = containerInfo._customPadding;
+        this._customLineHeight   = containerInfo._customLineHeight;
+        this._customBackOpacity  = containerInfo._customBackOpacity;
         this._customBackFileName = containerInfo._customBackFileName;
-        this._customFontFace = containerInfo._customFontFace;
+        this._customFontFace     = containerInfo._customFontFace;
         this.updatePadding();
         this.resetFontSettings();
         this.updateBackOpacity();
@@ -1474,21 +1474,21 @@ var $dataContainerProperties = null;
         this.createBackSprite();
     };
 
-    Window_Base.prototype.refresh = function () { };
+    Window_Base.prototype.refresh = function() {};
 
-    Window_Selectable.prototype.loadProperty = function (containerInfo) {
+    Window_Selectable.prototype.loadProperty = function(containerInfo) {
         Window_Base.prototype.loadProperty.apply(this, arguments);
         this.updateCursor();
     };
 
-    PIXI.Container.prototype.saveContainerInfo = function () {
-        var sceneName = SceneManager.getSceneName();
+    PIXI.Container.prototype.saveContainerInfo = function() {
+        var sceneName  = SceneManager.getSceneName();
         var parentName = getClassName(this.parent);
         if (!$dataContainerProperties[sceneName]) $dataContainerProperties[sceneName] = {};
         var sceneInfo = $dataContainerProperties[sceneName];
         if (!sceneInfo[parentName]) sceneInfo[parentName] = {};
         var containerInfo = sceneInfo[parentName];
-        var key = [this.parent.getChildIndex(this), getClassName(this)];
+        var key           = [this.parent.getChildIndex(this), getClassName(this)];
         if (!containerInfo[key]) containerInfo[key] = {};
         this.saveProperty(containerInfo[key]);
         if (paramAutoSave) {
@@ -1496,43 +1496,43 @@ var $dataContainerProperties = null;
         }
     };
 
-    PIXI.Container.prototype.saveProperty = function (containerInfo) {
+    PIXI.Container.prototype.saveProperty = function(containerInfo) {
         containerInfo.x = this.x;
         containerInfo.y = this.y;
     };
 
-    Window_Base.prototype.saveProperty = function (containerInfo) {
+    Window_Base.prototype.saveProperty = function(containerInfo) {
         PIXI.Container.prototype.saveProperty.apply(this, arguments);
-        containerInfo.width = this.width;
-        containerInfo.height = this.height;
-        containerInfo.opacity = this.opacity;
-        containerInfo.hidden = !this.visible;
-        containerInfo._customFontSize = this._customFontSize;
-        containerInfo._customPadding = this._customPadding;
-        containerInfo._customLineHeight = this._customLineHeight;
-        containerInfo._customBackOpacity = this._customBackOpacity;
+        containerInfo.width               = this.width;
+        containerInfo.height              = this.height;
+        containerInfo.opacity             = this.opacity;
+        containerInfo.hidden              = !this.visible;
+        containerInfo._customFontSize     = this._customFontSize;
+        containerInfo._customPadding      = this._customPadding;
+        containerInfo._customLineHeight   = this._customLineHeight;
+        containerInfo._customBackOpacity  = this._customBackOpacity;
         containerInfo._customBackFileName = this._customBackFileName;
-        containerInfo._customFontFace = this._customFontFace;
+        containerInfo._customFontFace     = this._customFontFace;
     };
 
     //=============================================================================
     // Window_Base
     //  プロパティの値をカスタマイズします。
     //=============================================================================
-    var _Window_Base_initialize = Window_Base.prototype.initialize;
-    Window_Base.prototype.initialize = function (x, y, width, height) {
+    var _Window_Base_initialize      = Window_Base.prototype.initialize;
+    Window_Base.prototype.initialize = function(x, y, width, height) {
         _Window_Base_initialize.apply(this, arguments);
-        this._customFontSize = this.standardFontSize();
-        this._customPadding = this.standardPadding();
-        this._customLineHeight = this.lineHeight();
-        this._customLineNumber = 0;
-        this._customBackOpacity = this.standardBackOpacity();
-        this._customBackSprite = null;
+        this._customFontSize     = this.standardFontSize();
+        this._customPadding      = this.standardPadding();
+        this._customLineHeight   = this.lineHeight();
+        this._customLineNumber   = 0;
+        this._customBackOpacity  = this.standardBackOpacity();
+        this._customBackSprite   = null;
         this._customBackFileName = '';
-        this._customFontFace = '';
+        this._customFontFace     = '';
     };
 
-    Window_Base.prototype.createBackSprite = function () {
+    Window_Base.prototype.createBackSprite = function() {
         if (this._customBackFileName) {
             if (!this._customBackSprite) {
                 this._customBackSprite = new Sprite();
@@ -1544,64 +1544,64 @@ var $dataContainerProperties = null;
             this._customBackSprite = null;
         }
         if (Utils.isDesignMode() && this._customBackSprite && this._customBackSprite.bitmap) {
-            var bitmap = this._customBackSprite.bitmap;
-            bitmap._image.onerror = function () {
-                this._customBackFileName = '';
+            var bitmap            = this._customBackSprite.bitmap;
+            bitmap._image.onerror = function() {
+                this._customBackFileName                 = '';
                 this._customBackSprite.bitmap._isLoading = false;
-                this._customBackSprite.bitmap = null;
-                this._customBackSprite = null;
+                this._customBackSprite.bitmap            = null;
+                this._customBackSprite                   = null;
                 SceneManager.popChangeStack();
                 SceneManager.setInfoExtend('ファイルが見付からなかったので、左記の番号の変更を戻しました。', -1);
             }.bind(this);
         }
     };
 
-    var _Window_Selectable_initialize = Window_Selectable.prototype.initialize;
-    Window_Selectable.prototype.initialize = function (x, y, width, height) {
+    var _Window_Selectable_initialize      = Window_Selectable.prototype.initialize;
+    Window_Selectable.prototype.initialize = function(x, y, width, height) {
         _Window_Selectable_initialize.apply(this, arguments);
         // Resolve conflict for BattleFormation.js
         this._customLineNumber = this.maxRows ? this.maxRows() : 0;
     };
 
-    var _Window_Base_standardFontFace = Window_Base.prototype.standardFontFace;
-    Window_Base.prototype.standardFontFace = function () {
+    var _Window_Base_standardFontFace      = Window_Base.prototype.standardFontFace;
+    Window_Base.prototype.standardFontFace = function() {
         return this._customFontFace ? this._customFontFace : _Window_Base_standardFontFace.apply(this, arguments);
     };
 
-    var _Window_Base_standardFontSize = Window_Base.prototype.standardFontSize;
-    Window_Base.prototype.standardFontSize = function () {
+    var _Window_Base_standardFontSize      = Window_Base.prototype.standardFontSize;
+    Window_Base.prototype.standardFontSize = function() {
         return this._customFontSize ? eval(this._customFontSize) :
             paramFontSize ? paramFontSize : _Window_Base_standardFontSize.apply(this, arguments);
     };
 
-    var _Window_Base_standardPadding = Window_Base.prototype.standardPadding;
-    Window_Base.prototype.standardPadding = function () {
+    var _Window_Base_standardPadding      = Window_Base.prototype.standardPadding;
+    Window_Base.prototype.standardPadding = function() {
         return this._customPadding ? eval(this._customPadding) :
             paramPadding ? paramPadding : _Window_Base_standardPadding.apply(this, arguments);
     };
 
-    var _Window_Base_lineHeight = Window_Base.prototype.lineHeight;
-    Window_Base.prototype.lineHeight = function () {
+    var _Window_Base_lineHeight      = Window_Base.prototype.lineHeight;
+    Window_Base.prototype.lineHeight = function() {
         return this._customLineHeight ? eval(this._customLineHeight) :
             paramLineHeight ? paramLineHeight : _Window_Base_lineHeight.apply(this, arguments);
     };
 
-    var _Window_Base_standardBackOpacity = Window_Base.prototype.standardBackOpacity;
-    Window_Base.prototype.standardBackOpacity = function () {
+    var _Window_Base_standardBackOpacity      = Window_Base.prototype.standardBackOpacity;
+    Window_Base.prototype.standardBackOpacity = function() {
         return this._customBackOpacity ? eval(this._customBackOpacity) :
             paramBackOpacity ? paramBackOpacity : _Window_Base_standardBackOpacity.apply(this, arguments);
     };
 
-    Window_Base._iconSrcWidth = Window_Base._iconWidth;
+    Window_Base._iconSrcWidth  = Window_Base._iconWidth;
     Window_Base._iconSrcHeight = Window_Base._iconHeight;
 
-    Window_Base.prototype.getIconScale = function () {
+    Window_Base.prototype.getIconScale = function() {
         var defaultFontSize = _Window_Base_standardFontSize.apply(this, arguments);
-        var fontSize = this.contents.fontSize;
+        var fontSize        = this.contents.fontSize;
         return paramIconSizeScale && defaultFontSize !== fontSize ? fontSize / defaultFontSize : null;
     };
 
-    Window_Base.prototype.changeIconSize = function () {
+    Window_Base.prototype.changeIconSize = function() {
         var iconScale = this.getIconScale();
         if (iconScale) {
             Window_Base._iconWidth *= iconScale;
@@ -1609,63 +1609,63 @@ var $dataContainerProperties = null;
         }
     };
 
-    Window_Base.prototype.restoreIconSize = function () {
+    Window_Base.prototype.restoreIconSize = function() {
         var iconScale = this.getIconScale();
         if (iconScale) {
-            Window_Base._iconWidth = Window_Base._iconSrcWidth;
+            Window_Base._iconWidth  = Window_Base._iconSrcWidth;
             Window_Base._iconHeight = Window_Base._iconSrcHeight;
         }
     };
 
-    var _Window_Base_drawActorIcons = Window_Base.prototype.drawActorIcons;
-    Window_Base.prototype.drawActorIcons = function (actor, x, y, width) {
+    var _Window_Base_drawActorIcons      = Window_Base.prototype.drawActorIcons;
+    Window_Base.prototype.drawActorIcons = function(actor, x, y, width) {
         this.changeIconSize();
         _Window_Base_drawActorIcons.apply(this, arguments);
         this.restoreIconSize();
     };
 
-    var _Window_Base_drawItemName = Window_Base.prototype.drawItemName;
-    Window_Base.prototype.drawItemName = function (item, x, y, width) {
+    var _Window_Base_drawItemName      = Window_Base.prototype.drawItemName;
+    Window_Base.prototype.drawItemName = function(item, x, y, width) {
         this.changeIconSize();
         _Window_Base_drawItemName.apply(this, arguments);
         this.restoreIconSize();
     };
 
-    var _Window_Base_processDrawIcon = Window_Base.prototype.processDrawIcon;
-    Window_Base.prototype.processDrawIcon = function (iconIndex, textState) {
+    var _Window_Base_processDrawIcon      = Window_Base.prototype.processDrawIcon;
+    Window_Base.prototype.processDrawIcon = function(iconIndex, textState) {
         this.changeIconSize();
         _Window_Base_processDrawIcon.apply(this, arguments);
         this.restoreIconSize();
     };
 
-    var _Window_Base_drawIcon = Window_Base.prototype.drawIcon;
-    Window_Base.prototype.drawIcon = function (iconIndex, x, y) {
+    var _Window_Base_drawIcon      = Window_Base.prototype.drawIcon;
+    Window_Base.prototype.drawIcon = function(iconIndex, x, y) {
         var iconScale = this.getIconScale();
         if (iconScale) {
             var bitmap = ImageManager.loadSystem('IconSet');
-            var pw = Window_Base._iconSrcWidth;
-            var ph = Window_Base._iconSrcHeight;
-            var sx = iconIndex % 16 * pw;
-            var sy = Math.floor(iconIndex / 16) * ph;
-            var dw = Math.floor(pw * iconScale);
-            var dh = Math.floor(ph * iconScale);
-            var dx = x;
-            var dy = y + (this.lineHeight() - dh) / 2 - 2;
+            var pw     = Window_Base._iconSrcWidth;
+            var ph     = Window_Base._iconSrcHeight;
+            var sx     = iconIndex % 16 * pw;
+            var sy     = Math.floor(iconIndex / 16) * ph;
+            var dw     = Math.floor(pw * iconScale);
+            var dh     = Math.floor(ph * iconScale);
+            var dx     = x;
+            var dy     = y + (this.lineHeight() - dh) / 2 - 2;
             this.contents.blt(bitmap, sx, sy, pw, ph, dx, dy, dw, dh);
         } else {
             _Window_Base_drawIcon.apply(this, arguments);
         }
     };
 
-    var _Window_Base_setBackgroundType = Window_Base.prototype.setBackgroundType;
-    Window_Base.prototype.setBackgroundType = function (type) {
+    var _Window_Base_setBackgroundType      = Window_Base.prototype.setBackgroundType;
+    Window_Base.prototype.setBackgroundType = function(type) {
         if (!paramBackgroundFixed) {
             _Window_Base_setBackgroundType.apply(this, arguments);
         }
     };
 
     var _Window_Base_updateClose = Window_Base.prototype.updateClose;
-    Window_Base.prototype.updateClose = function () {
+    Window_Base.prototype.updateClose = function() {
         var prevClose = this.isClosing();
         _Window_Base_updateClose.apply(this, arguments);
         if (this._callBack && prevClose && !this.isClosing()) {
@@ -1674,13 +1674,13 @@ var $dataContainerProperties = null;
         }
     };
 
-    Window_Base.prototype.setCloseListener = function (callBack) {
+    Window_Base.prototype.setCloseListener = function(callBack) {
         this._callBack = callBack;
     };
 
     // for RPG MV 1.6.1
     var _Window_EquipItem_refresh = Window_EquipItem.prototype.refresh;
-    Window_EquipItem.prototype.refresh = function () {
+    Window_EquipItem.prototype.refresh = function() {
         if (!this._actor) {
             return;
         }
@@ -1697,29 +1697,29 @@ var $dataContainerProperties = null;
     }
 
     Window_Custom._textAligns = {
-        'left': 0,
-        '0': 0,
+        'left'  : 0,
+        '0'     : 0,
         'center': 1,
-        '1': 1,
-        'right': 2,
-        '2': 2
+        '1'     : 1,
+        'right' : 2,
+        '2'     : 2
     };
 
-    Window_Custom.prototype = Object.create(Window_Selectable.prototype);
+    Window_Custom.prototype             = Object.create(Window_Selectable.prototype);
     Window_Custom.prototype.constructor = Window_Custom;
 
-    Window_Custom.prototype.initialize = function (lines) {
+    Window_Custom.prototype.initialize = function(lines) {
         this._lines = lines || [];
         Window_Selectable.prototype.initialize.call(this, 0, 0, 320, this.fittingHeight(this._lines.length));
         this.refresh();
     };
 
-    Window_Custom.prototype.refresh = function () {
+    Window_Custom.prototype.refresh = function() {
         this.createContents();
         Window_Selectable.prototype.refresh.apply(this, arguments);
     };
 
-    Window_Custom.prototype.drawItem = function (index) {
+    Window_Custom.prototype.drawItem = function(index) {
         var rect = this.itemRectForText(index);
         var text = this._lines[index];
         this.resetTextColor();
@@ -1730,7 +1730,7 @@ var $dataContainerProperties = null;
         this.drawTextEx(text, rect.x, rect.y);
     };
 
-    Window_Custom.prototype.getTextAlignStartX = function (text) {
+    Window_Custom.prototype.getTextAlignStartX = function(text) {
         var width = this.drawTextEx(text, this.contentsWidth(), 0);
         if (this._textAlign === 1) {
             return this.contentsWidth() / 2 - width / 2;
@@ -1739,13 +1739,13 @@ var $dataContainerProperties = null;
         }
     };
 
-    Window_Custom.prototype.maxItems = function () {
+    Window_Custom.prototype.maxItems = function() {
         return this._lines.length;
     };
 
-    Window_Custom.prototype.changeTextAlign = function (text) {
+    Window_Custom.prototype.changeTextAlign = function(text) {
         this._textAlign = 0;
-        text = text.replace(/\\al\[(.*)]/gi, function () {
+        text            = text.replace(/\\al\[(.*)]/gi, function() {
             this._textAlign = Window_Custom._textAligns[arguments[1].toLowerCase()] || 0;
             return '';
         }.bind(this));

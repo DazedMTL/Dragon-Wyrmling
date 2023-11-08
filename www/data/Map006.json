@@ -2358,6 +2358,36 @@
                             "parameters": []
                         },
                         {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                402,
+                                0,
+                                11,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                6,
+                                6,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
                             "code": 108,
                             "indent": 0,
                             "parameters": [
@@ -4960,6 +4990,64 @@
                                 1,
                                 1
                             ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                109,
+                                109,
+                                0,
+                                3,
+                                3,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                109,
+                                0,
+                                30,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 101,
+                            "indent": 1,
+                            "parameters": [
+                                "",
+                                0,
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "code": 401,
+                            "indent": 1,
+                            "parameters": [
+                                "成長限界です。"
+                            ]
+                        },
+                        {
+                            "code": 119,
+                            "indent": 1,
+                            "parameters": [
+                                "owari"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 111,
@@ -8831,6 +8919,51 @@
                                 1,
                                 1
                             ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                109,
+                                109,
+                                0,
+                                3,
+                                3,
+                                1,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                109,
+                                0,
+                                30,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 1,
+                            "parameters": [
+                                364,
+                                364,
+                                0,
+                                4,
+                                "\"---\""
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
                         },
                         {
                             "code": 231,

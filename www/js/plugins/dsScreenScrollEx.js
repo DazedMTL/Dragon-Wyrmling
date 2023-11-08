@@ -51,45 +51,52 @@ Imported.dsScreenScrollEx = true;
 
 	//--------------------------------------------------------------------------
 	/** Utility */
-	function Utility() { }
+	function Utility() {}
 
-	Utility.easeInOut = function (src, dst, t) {
+	Utility.easeInOut = function(src, dst, t)
+	{
 		var range = dst - src;
 		t /= 0.5;
-		if (t < 1) {
+		if ( t < 1 )
+		{
 			return range / 2.0 * t * t + src;
 		}
 		t = t - 1;
-		return -range / 2.0 * (t * (t - 2) - 1) + src;
+		return -range / 2.0 * (t * (t-2) - 1) + src;
 	};
 
-	Utility.convertEscapeCharacters = function (text) {
-		if (text == null) { text = ''; }
+	Utility.convertEscapeCharacters = function(text)
+	{
+		if ( text == null ) { text = ''; }
 		var window = SceneManager._scene._windowLayer.children[0];
 		return window ? window.convertEscapeCharacters(text) : text;
 	};
 
-	Utility.getArgNumber = function (arg) {
+	Utility.getArgNumber = function(arg)
+	{
 		return Number(Utility.convertEscapeCharacters(arg));
 	};
 
 	//------------------------------------------------------------------------------
 	/** Game_Map */
 	var _Game_Map_initialize = Game_Map.prototype.initialize;
-	Game_Map.prototype.initialize = function () {
+	Game_Map.prototype.initialize = function()
+	{
 		this.initScrollLock();
 		this.initScrollEx();
 		_Game_Map_initialize.apply(this, arguments);
 	};
 
-	Game_Map.prototype.initScrollLock = function () {
+	Game_Map.prototype.initScrollLock = function()
+	{
 		this._scrollXMin = -1;
 		this._scrollYMin = -1;
 		this._scrollXMax = -1;
 		this._scrollYMax = -1;
 	};
 
-	Game_Map.prototype.initScrollEx = function () {
+	Game_Map.prototype.initScrollEx = function()
+	{
 		this._scrollSrcX = 0;
 		this._scrollSrcY = 0;
 		this._scrollDstX = 0;
@@ -98,7 +105,8 @@ Imported.dsScreenScrollEx = true;
 		this._scrollDuration = 0;
 	};
 
-	Game_Map.prototype.startScrollEx = function (x, y, duration) {
+	Game_Map.prototype.startScrollEx = function(x, y, duration)
+	{
 		this._scrollSrcX = this._displayX;
 		this._scrollSrcY = this._displayY;
 		this._scrollDstX = x;
@@ -107,13 +115,16 @@ Imported.dsScreenScrollEx = true;
 		this._scrollDuration = duration;
 	};
 
-	Game_Map.prototype.isScrollingEx = function () {
+	Game_Map.prototype.isScrollingEx = function()
+	{
 		return this._scrollCount < this._scrollDuration;
 	};
 
-	Game_Map.prototype.update = function (sceneActive) {
+	Game_Map.prototype.update = function(sceneActive)
+	{
 		this.refreshIfNeeded();
-		if (sceneActive) {
+		if ( sceneActive )
+		{
 			this.updateInterpreter();
 		}
 		this.updateScroll();
@@ -123,8 +134,10 @@ Imported.dsScreenScrollEx = true;
 		this.updateParallax();
 	};
 
-	Game_Map.prototype.updateScrollEx = function () {
-		if (this.isScrollingEx()) {
+	Game_Map.prototype.updateScrollEx = function()
+	{
+		if ( this.isScrollingEx() )
+		{
 			var rate = (++this._scrollCount / this._scrollDuration).clamp(0.0, 1.0);
 			var lastX = this._displayX;
 			var lastY = this._displayY;
@@ -137,129 +150,162 @@ Imported.dsScreenScrollEx = true;
 		}
 	};
 
-	Game_Map.prototype.scrollXMin = function () {
+	Game_Map.prototype.scrollXMin = function()
+	{
 		return (this._scrollXMin >= 0) ? this._scrollXMin : 0;
 	};
 
-	Game_Map.prototype.scrollXMax = function () {
+	Game_Map.prototype.scrollXMax = function()
+	{
 		return (this._scrollXMax >= 0) ? this._scrollXMax : this.width() - this.screenTileX();
 	};
 
-	Game_Map.prototype.scrollYMin = function () {
+	Game_Map.prototype.scrollYMin = function()
+	{
 		return (this._scrollYMin >= 0) ? this._scrollYMin : 0;
 	};
 
-	Game_Map.prototype.scrollYMax = function () {
+	Game_Map.prototype.scrollYMax = function()
+	{
 		return (this._scrollYMax >= 0) ? this._scrollYMax : this.height() - this.screenTileY();
 	};
 
-	Game_Map.prototype.setDisplayPos = function (x, y) {
-		if (this.isLoopHorizontal()) {
+	Game_Map.prototype.setDisplayPos = function(x, y)
+	{
+		if ( this.isLoopHorizontal() )
+		{
 			this._displayX = x.mod(this.width());
 			this._parallaxX = x;
 		}
-		else {
+		else
+		{
 			var endX = this.width() - this.screenTileX();
 			this._displayX = endX < 0 ? endX / 2 : this.clampScrollX(x);
 			this._parallaxX = this._displayX;
 		}
-		if (this.isLoopVertical()) {
+		if ( this.isLoopVertical() )
+		{
 			this._displayY = y.mod(this.height());
 			this._parallaxY = y;
 		}
-		else {
+		else
+		{
 			var endY = this.height() - this.screenTileY();
 			this._displayY = endY < 0 ? endY / 2 : this.clampScrollY(y);
 			this._parallaxY = this._displayY;
 		}
 	};
 
-	Game_Map.prototype.scrollDown = function (distance) {
-		if (this.isLoopVertical()) {
+	Game_Map.prototype.scrollDown = function(distance)
+	{
+		if ( this.isLoopVertical() )
+		{
 			this._displayY += distance;
 			this._displayY %= $dataMap.height;
-			if (this._parallaxLoopY) {
+			if ( this._parallaxLoopY )
+			{
 				this._parallaxY += distance;
 			}
 		}
-		else if (this.height() >= this.screenTileY()) {
+		else if ( this.height() >= this.screenTileY() )
+		{
 			var lastY = this._displayY;
 			this._displayY = this.clampScrollY(this._displayY + distance);
 			this._parallaxY += this._displayY - lastY;
 		}
 	};
 
-	Game_Map.prototype.scrollLeft = function (distance) {
-		if (this.isLoopHorizontal()) {
+	Game_Map.prototype.scrollLeft = function(distance)
+	{
+		if ( this.isLoopHorizontal() )
+		{
 			this._displayX += $dataMap.width - distance;
 			this._displayX %= $dataMap.width;
-			if (this._parallaxLoopX) {
+			if ( this._parallaxLoopX )
+			{
 				this._parallaxX -= distance;
 			}
 		}
-		else if (this.width() >= this.screenTileX()) {
+		else if ( this.width() >= this.screenTileX() )
+		{
 			var lastX = this._displayX;
 			this._displayX = this.clampScrollX(this._displayX - distance);
 			this._parallaxX += this._displayX - lastX;
 		}
 	};
 
-	Game_Map.prototype.scrollRight = function (distance) {
-		if (this.isLoopHorizontal()) {
+	Game_Map.prototype.scrollRight = function(distance)
+	{
+		if ( this.isLoopHorizontal() )
+		{
 			this._displayX += distance;
 			this._displayX %= $dataMap.width;
-			if (this._parallaxLoopX) {
+			if ( this._parallaxLoopX )
+			{
 				this._parallaxX += distance;
 			}
 		}
-		else if (this.width() >= this.screenTileX()) {
+		else if ( this.width() >= this.screenTileX() )
+		{
 			var lastX = this._displayX;
 			this._displayX = this.clampScrollX(this._displayX + distance);
 			this._parallaxX += this._displayX - lastX;
 		}
 	};
 
-	Game_Map.prototype.scrollUp = function (distance) {
-		if (this.isLoopVertical()) {
+	Game_Map.prototype.scrollUp = function(distance)
+	{
+		if ( this.isLoopVertical() )
+		{
 			this._displayY += $dataMap.height - distance;
 			this._displayY %= $dataMap.height;
-			if (this._parallaxLoopY) {
+			if ( this._parallaxLoopY )
+			{
 				this._parallaxY -= distance;
 			}
 		}
-		else if (this.height() >= this.screenTileY()) {
+		else if ( this.height() >= this.screenTileY() )
+		{
 			var lastY = this._displayY;
 			this._displayY = this.clampScrollY(this._displayY - distance);
 			this._parallaxY += this._displayY - lastY;
 		}
 	};
 
-	Game_Map.prototype.setScrollLock = function (minX, minY, maxX, maxY) {
+	Game_Map.prototype.setScrollLock = function(minX, minY, maxX, maxY)
+	{
 		this._scrollXMin = minX;
 		this._scrollYMin = minY;
 		this._scrollXMax = maxX;
 		this._scrollYMax = maxY;
 	};
 
-	Game_Map.prototype.clampScrollX = function (x) {
+	Game_Map.prototype.clampScrollX = function(x)
+	{
 		return x.clamp(this.scrollXMin(), this.scrollXMax());
 	};
 
-	Game_Map.prototype.clampScrollY = function (y) {
+	Game_Map.prototype.clampScrollY = function(y)
+	{
 		return y.clamp(this.scrollYMin(), this.scrollYMax());
 	};
 
-	Game_Map.prototype.checkScrollRange = function (x, y) {
-		if (this._scrollXMin > 0 && x < this._scrollXMin) {
+	Game_Map.prototype.checkScrollRange = function(x, y)
+	{
+		if ( this._scrollXMin > 0 && x < this._scrollXMin )
+		{
 			return false;
 		}
-		if (this._scrollXMax > 0 && this._scrollXMax + this.screenTileX() <= x) {
+		if ( this._scrollXMax > 0 && this._scrollXMax + this.screenTileX() <= x )
+		{
 			return false;
 		}
-		if (this._scrollYMin > 0 && y < this._scrollYMin) {
+		if ( this._scrollYMin > 0 && y < this._scrollYMin )
+		{
 			return false;
 		}
-		if (this._scrollYMax > 0 && this._scrollYMax + this.screenTileY() <= y) {
+		if ( this._scrollYMax > 0 && this._scrollYMax + this.screenTileY() <= y )
+		{
 			return false;
 		}
 		return true;
@@ -268,75 +314,89 @@ Imported.dsScreenScrollEx = true;
 	//--------------------------------------------------------------------------
 	/** Game_Player */
 	var _Game_Player_canPass = Game_Player.prototype.canPass;
-	Game_Player.prototype.canPass = function (x, y, d) {
+	Game_Player.prototype.canPass = function(x, y, d)
+	{
 		var x2 = $gameMap.roundXWithDirection(x, d);
 		var y2 = $gameMap.roundYWithDirection(y, d);
-		if (!$gameMap.checkScrollRange(x2, y2)) {
+		if ( !$gameMap.checkScrollRange(x2, y2) )
+		{
 			return false;
 		}
-		return _Game_Player_canPass.apply(this, arguments);
+	    return _Game_Player_canPass.apply(this, arguments);
 	};
 
 	//--------------------------------------------------------------------------
 	/** Game_Interpreter */
 	var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-	Game_Interpreter.prototype.pluginCommand = function (command, args) {
+	Game_Interpreter.prototype.pluginCommand = function(command, args)
+	{
 		_Game_Interpreter_pluginCommand.apply(this, arguments);
 		var cmd = command.toUpperCase();
-		if (cmd === 'SCROLL_EX') {
+		if ( cmd === 'SCROLL_EX' )
+		{
 			this.scrollEx(args);
 		}
-		else if (cmd === 'SCROLL_LOCK') {
+		else if ( cmd === 'SCROLL_LOCK' )
+		{
 			this.scrollLock(args);
 		}
 	};
 
-	Game_Interpreter.prototype.scrollEx = function (args) {
-		var mode = String(args[0]);
-		var x = Utility.getArgNumber(args[1]);
-		var y = Utility.getArgNumber(args[2]);
+	Game_Interpreter.prototype.scrollEx = function(args)
+	{
+		var mode     = String(args[0]);
+		var x        = Utility.getArgNumber(args[1]);
+		var y        = Utility.getArgNumber(args[2]);
 		var duration = Utility.getArgNumber(args[3]);
-		var wait = Boolean(args[4] === 'true' || false);
-		switch (mode) {
-			case 'RELATIVE':
-				x += $gameMap.displayX();
-				y += $gameMap.displayY();
-				break;
-			case 'LEFTTOP':
-				break;
-			case 'CENTER':
-				x -= $gamePlayer.centerX();
-				y -= $gamePlayer.centerY();
-				break;
+		var wait     = Boolean(args[4] === 'true' || false);
+		switch ( mode )
+		{
+		case 'RELATIVE':
+			x += $gameMap.displayX();
+			y += $gameMap.displayY();
+			break;
+		case 'LEFTTOP':
+			break;
+		case 'CENTER':
+			x -= $gamePlayer.centerX();
+			y -= $gamePlayer.centerY();
+			break;
 		}
 		$gameMap.startScrollEx(x, y, duration);
-		if (wait) {
+		if ( wait )
+		{
 			this.setWaitMode('scrollex');
 		}
 	};
 
-	Game_Interpreter.prototype.scrollLock = function (args) {
-		var xMin = Utility.getArgNumber(args[0]);
-		var yMin = Utility.getArgNumber(args[1]);
-		var xMax = Utility.getArgNumber(args[2]) - ($gameMap.screenTileX() - 1);
-		var yMax = Utility.getArgNumber(args[3]) - ($gameMap.screenTileY() - 1);
+	Game_Interpreter.prototype.scrollLock = function(args)
+	{
+		var xMin  = Utility.getArgNumber(args[0]);
+		var yMin  = Utility.getArgNumber(args[1]);
+		var xMax  = Utility.getArgNumber(args[2]) - ($gameMap.screenTileX() - 1);
+		var yMax  = Utility.getArgNumber(args[3]) - ($gameMap.screenTileY() - 1);
 		var reset = Boolean(args[4] === 'true' || false);
 		$gameMap.setScrollLock(xMin, yMin, xMax, yMax);
-		if (reset) {
+		if ( reset )
+		{
 			$gameMap.setDisplayPos($gameMap.displayX(), $gameMap.displayY());
 		}
 	};
 
 	var _Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
-	Game_Interpreter.prototype.updateWaitMode = function () {
+	Game_Interpreter.prototype.updateWaitMode = function()
+	{
 		var waiting = false;
-		if (this._waitMode === 'scrollex') {
+		if ( this._waitMode === 'scrollex' )
+		{
 			waiting = $gameMap.isScrollingEx();
-			if (!waiting) {
+			if ( !waiting )
+			{
 				this._waitMode = '';
 			}
 		}
-		else {
+		else
+		{
 			waiting = _Game_Interpreter_updateWaitMode.apply(this, arguments);
 		}
 		return waiting;

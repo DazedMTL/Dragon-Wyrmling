@@ -82,7 +82,7 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
     const script = document.currentScript;
     const param = PluginManagerEx.createParameter(script);
@@ -94,19 +94,19 @@
     ImageManager._smoothMap = {
         'img/battlebacks1/': param.BattleBack,
         'img/battlebacks2/': param.BattleBack,
-        'img/enemies/': param.Battler,
-        'img/characters/': param.Character,
-        'img/faces/': param.Face,
-        'img/parallaxes/': param.Parallax,
-        'img/pictures/': param.Picture,
-        'img/sv_actors/': param.Battler,
-        'img/sv_enemies/': param.Battler,
-        'img/titles1/': param.Title,
-        'img/titles2/': param.Title
+        'img/enemies/'     : param.Battler,
+        'img/characters/'  : param.Character,
+        'img/faces/'       : param.Face,
+        'img/parallaxes/'  : param.Parallax,
+        'img/pictures/'    : param.Picture,
+        'img/sv_actors/'   : param.Battler,
+        'img/sv_enemies/'  : param.Battler,
+        'img/titles1/'     : param.Title,
+        'img/titles2/'     : param.Title
     };
 
     const _ImageManager_loadBitmap = ImageManager.loadBitmap;
-    ImageManager.loadBitmap = function (folder, filename) {
+    ImageManager.loadBitmap      = function(folder, filename) {
         const bitmap = _ImageManager_loadBitmap.apply(this, arguments);
         if (this._smoothMap.hasOwnProperty(folder)) {
             bitmap.smooth = this._smoothMap[folder];
@@ -118,8 +118,8 @@
     // Bitmap
     //  動的作成画像にぼかしを設定可能にします。
     //=============================================================================
-    const _Bitmap_initialize = Bitmap.prototype.initialize;
-    Bitmap.prototype.initialize = function (width, height) {
+    const _Bitmap_initialize      = Bitmap.prototype.initialize;
+    Bitmap.prototype.initialize = function(width, height) {
         _Bitmap_initialize.apply(this, arguments);
         this.smooth = param.DynamicImage;
     };

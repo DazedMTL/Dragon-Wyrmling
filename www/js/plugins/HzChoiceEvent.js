@@ -83,10 +83,10 @@
  */
 
 
-function HzChoiceEvent() { }
+function HzChoiceEvent(){}
 
-(function () {
-    function convertEscape(txt) { return Window_Base.prototype.convertEscapeCharacters(txt) };
+(function() {
+    function convertEscape(txt) {return Window_Base.prototype.convertEscapeCharacters(txt)};
 
 
     var TYPE_LIST = 'list';
@@ -102,40 +102,40 @@ function HzChoiceEvent() { }
     //
 
     var _Game_Interpreter_pluginCommand =
-        Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+            Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.call(this, command, args);
         if (command.toUpperCase() === 'HZCHOICEEVENT') {
-            this.setWaitMode("hzChoiceEvent");
-            var type = args[0];
-            var tag = convertEscape(args[1]);
-            var resultVarNo = convertEscape(args[2]);
-            var resetScroll = args[3] == 'false' ? false : true;
-            var maxDist = !!args[4] ? Number(convertEscape(args[4])) : null;
-            this._hzChoceEvent = new HzChoiceEvent(tag, resultVarNo, resetScroll, maxDist, type);
-        } else if (command.toUpperCase() === 'HZRESETSCROLL') {
+			this.setWaitMode("hzChoiceEvent");
+            var type           = args[0];
+            var tag            = convertEscape(args[1]);
+            var resultVarNo    = convertEscape(args[2]);
+            var resetScroll    = args[3] == 'false' ? false : true;
+            var maxDist        = !!args[4] ? Number(convertEscape(args[4])) : null;
+			this._hzChoceEvent = new HzChoiceEvent(tag, resultVarNo, resetScroll, maxDist, type);
+        } else if(command.toUpperCase() === 'HZRESETSCROLL') {
             scrollToPlayer();
         }
     };
 
     // 待機状態の更新用関数に機能追加
     var _Game_Interpreter_updateWaitMode = Game_Interpreter.prototype.updateWaitMode;
-    Game_Interpreter.prototype.updateWaitMode = function () {
+    Game_Interpreter.prototype.updateWaitMode = function() {
         var waiting = null;
         switch (this._waitMode) {
-            case 'hzChoiceEvent':
-                // 待機状態の更新
-                // ※ waitingには必ずtrueかfalseをセットすること！
-                waiting = this._hzChoceEvent.update();
-                if (!waiting) {
-                    // 終了処理
-                    this._hzChoceEvent.terminate();
-                    this._hzChoceEvent = null;
-                }
-                break;
+        case 'hzChoiceEvent':
+            // 待機状態の更新
+            // ※ waitingには必ずtrueかfalseをセットすること！
+            waiting = this._hzChoceEvent.update();
+            if(!waiting) {
+                // 終了処理
+                this._hzChoceEvent.terminate();
+                this._hzChoceEvent = null;
+            }
+            break;
         }
         if (waiting !== null) {
-            if (!waiting) {
+            if(!waiting) {
                 this._waitMode = '';
             }
             return waiting;
@@ -152,29 +152,29 @@ function HzChoiceEvent() { }
     //
 
     // 初期化処理
-    HzChoiceEvent.prototype.initialize = function (tag, resultVarNo, resetScroll, maxDist, type) {
+    HzChoiceEvent.prototype.initialize = function(tag, resultVarNo, resetScroll, maxDist, type) {
         this._resultVarNo = resultVarNo;
         this._resetScroll = resetScroll;
         this._maxDist = maxDist;
         this._type = type;
 
         // 選択対象のイベントを取得
-        this._choiceEvents = $gameMap.events().filter(function (event) {
+        this._choiceEvents = $gameMap.events().filter(function(event) {
             // 特定の変数がON/OFFの場合のみ選択対象に含める
             // 特定のセルフ変数がON/OFFの場合のみ選択対象に含める
             // 一定の距離内のイベントのみ選択対象に含める
-            if (maxDist != null) {
-                if (Math.sqrt((event.x - $gamePlayer.x) * (event.x - $gamePlayer.x) +
-                    (event.y - $gamePlayer.y) * (event.y - $gamePlayer.y)) > maxDist) {
-                    return false;
-                };
+            if(maxDist != null) {
+                if(Math.sqrt((event.x - $gamePlayer.x) * (event.x - $gamePlayer.x) +
+                             (event.y - $gamePlayer.y) * (event.y - $gamePlayer.y)) > maxDist) {
+                             return false;
+                             };
             }
 
             var hzChoice = event.event().meta.hzChoice;
 
-            if (hzChoice == null) {
+            if(hzChoice == null) {
                 return false;
-            } else if (hzChoice.indexOf(',') < 0) {
+            } else if(hzChoice.indexOf(',') < 0) {
                 return tag == hzChoice.trim();
             } else {
                 var parms = hzChoice.split(',');
@@ -182,21 +182,21 @@ function HzChoiceEvent() { }
 
                 var not = false;
                 var variable;
-                if (condVariable.startsWith('!')) {
+                if(condVariable.startsWith('!')) {
                     not = true;
                     variable = condVariable.substr(1);
                 } else {
                     variable = condVariable;
                 }
 
-                if (variable == 'A' || variable == 'B' || variable == 'C' || variable == 'D') {
+                if(variable == 'A' || variable == 'B' || variable == 'C' || variable == 'D') {
                     // セルフスイッチ
                     var key = [$gameMap.mapId(), event.eventId(), variable];
                     console.log($gameSelfSwitches.value(key));
-                    if ($gameSelfSwitches.value(key) != !not) return false;
+                    if($gameSelfSwitches.value(key) != !not) return false;
                 } else {
                     // スイッチ
-                    if ($gameSwitches.value(Number(variable)) != !not) return false;
+                    if($gameSwitches.value(Number(variable)) != !not) return false;
                 }
                 return parms[0].trim() == tag;
             }
@@ -205,47 +205,47 @@ function HzChoiceEvent() { }
 
         this._cancelCount = -1;
         this._forceCancel = false;
-        if (this._choiceEvents.length == 0) {
+        if(this._choiceEvents.length == 0) {
             this._forceCancel = true;
             return;
         }
 
         // 変数の値が1以上の場合、IDが一致するイベントを初期選択
         var preEvent;
-        if (this._resultVarNo > 0) {
+        if(this._resultVarNo > 0) {
             var eventId = $gameVariables.value(this._resultVarNo);
             var event = $gameMap.event(eventId);
             var index = this._choiceEvents.indexOf(event);
-            if (index >= 0) {
+            if(index >= 0) {
                 preEvent = this._choiceEvents[index];
             }
         }
-        if (preEvent) {
+        if(preEvent) {
             this._selectedEvent = preEvent;
         } else {
-            if (type === TYPE_LIST) {
-                if (windowSort === 'id') {
+            if(type === TYPE_LIST) {
+                if(windowSort === 'id') {
                     // ソートしない
-                } else if (windowSort === 'dist') {
+                } else if(windowSort === 'dist') {
                     // 主人公からの距離でソート
                     this._choiceEvents.sort(sortByDistancePlayer);
-                } else if (windowSort === 'x') {
+                } else if(windowSort === 'x') {
                     // X座標でソート
-                    this._choiceEvents.sort(function (e1, e2) {
-                        if (e1.x < e2.x) return -1;
-                        if (e1.x > e2.x) return 1;
+                    this._choiceEvents.sort(function(e1, e2) {
+                        if(e1.x < e2.x) return -1;
+                        if(e1.x > e2.x) return 1;
                         return e1.y < e2.y ? -1 : 1;
                     });
-                } else if (windowSort === 'y') {
+                } else if(windowSort === 'y') {
                     // Y座標でソート
-                    this._choiceEvents.sort(function (e1, e2) {
-                        if (e1.y < e2.y) return -1;
-                        if (e1.y > e2.y) return 1;
+                    this._choiceEvents.sort(function(e1, e2) {
+                        if(e1.y < e2.y) return -1;
+                        if(e1.y > e2.y) return 1;
                         return e1.x < e2.x ? -1 : 1;
                     });
                 }
                 this._selectedEvent = this._choiceEvents[0];
-            } else if (type === TYPE_CURSOR) {
+            } else if(type === TYPE_CURSOR) {
                 // 主人公からの距離でソート
                 this._choiceEvents.sort(sortByDistancePlayer);
                 // 主人公から最も近いイベントを選択
@@ -255,12 +255,12 @@ function HzChoiceEvent() { }
 
         this.startScroll(this._selectedEvent, 10);
 
-        if (type === TYPE_LIST) {
+        if(type === TYPE_LIST) {
             // 一覧選択の場合、イベント一覧ウインドウを作成
             var window = SceneManager._scene._hzChoiceEventWindow;
             window.setEvents(this._choiceEvents);
-            for (var i = 0; i < this._choiceEvents.length; i++) {
-                if (this._choiceEvents[i].eventId() == this._selectedEvent.eventId()) {
+            for(var i=0;i<this._choiceEvents.length;i++) {
+                if(this._choiceEvents[i].eventId() == this._selectedEvent.eventId()) {
                     window.setSelectedIndex(i);
                     break;
                 }
@@ -277,149 +277,149 @@ function HzChoiceEvent() { }
     };
 
     // 更新処理（終了時はfalseを返す）
-    HzChoiceEvent.prototype.update = function () {
+    HzChoiceEvent.prototype.update = function() {
         var self = this;
 
-        if (this._decided || this._forceCancel) {
+        if(this._decided || this._forceCancel) {
             return false;
         }
 
-        if (this._cancelCount >= 0) {
-            if (this._cancelCount == 0) {
+        if(this._cancelCount >= 0) {
+            if(this._cancelCount == 0) {
                 // 結果変数に0をセット
                 $gameVariables.setValue(this._resultVarNo, 0);
                 // プレイヤーの位置までスクロール
                 scrollToPlayer();
                 return false;
             }
-            this._cancelCount--;
+            this._cancelCount --;
         }
 
         // スクロール
         this.updateScroll();
 
-        var ok = false;
+        var ok     = false;
         var cancel = false;
-        var left = false;
-        var right = false;
-        var up = false;
-        var down = false;
+        var left   = false;
+        var right  = false;
+        var up     = false;
+        var down   = false;
 
 
-        if (this._type === TYPE_CURSOR) {
+        if(this._type === TYPE_CURSOR) {
             // カーソル選択の場合
 
             // キーボード入力
-            if (Input.isTriggered('ok')) ok = true;
-            if (Input.isTriggered('cancel')) cancel = true;
-            if (Input.isTriggered('left')) left = true;
-            if (Input.isTriggered('right')) right = true;
-            if (Input.isTriggered('up')) up = true;
-            if (Input.isTriggered('down')) down = true;
+            if(Input.isTriggered('ok')     ) ok     = true;
+            if(Input.isTriggered('cancel') ) cancel = true;
+            if(Input.isTriggered ('left')  ) left   = true;
+            if(Input.isTriggered ('right') ) right  = true;
+            if(Input.isTriggered ('up')    ) up     = true;
+            if(Input.isTriggered ('down')  ) down   = true;
 
             // タッチ入力
-            if (TouchInput.isCancelled()) cancel = true;
-            if (TouchInput.isTriggered()) {
+            if(TouchInput.isCancelled()) cancel = true;
+            if(TouchInput.isTriggered()) {
                 var x = $gameMap.canvasToMapX(TouchInput.x);
                 var y = $gameMap.canvasToMapY(TouchInput.y);
                 var events = $gameMap.eventsXy(x, y);
                 var self = this;
-                var choiceEvents = events.filter(function (event) {
+                var choiceEvents = events.filter(function(event) {
                     return self._choiceEvents.indexOf(event) >= 0;
                 });
-                if (choiceEvents.length > 0) {
+                if(choiceEvents.length > 0) {
                     // イベントをタッチした場合、そのイベントを選択してOKボタン押下時処理実施
                     this._selectedEvent = choiceEvents[0];
                     ok = true;
                 } else {
                     // イベント以外をタッチした場合、タッチ位置に応じて上下左右に移動
-                    var xrate = (TouchInput.x - Graphics.width / 2) / Graphics.width;
+                    var xrate = (TouchInput.x - Graphics.width  / 2) / Graphics.width;
                     var yrate = (TouchInput.y - Graphics.height / 2) / Graphics.height;
-                    if (Math.abs(xrate) < Math.abs(yrate)) {
-                        if (yrate < 0) up = true;
+                    if(Math.abs(xrate) < Math.abs(yrate)) {
+                        if(yrate < 0) up = true;
                         else down = true;
                     } else {
-                        if (xrate < 0) left = true;
+                        if(xrate < 0) left = true;
                         else right = true;
                     }
                 }
             }
 
             // イベント選択
-            if (ok) {
+            if(ok) {
                 this.processOk();
                 return false;
             }
 
             // キャンセル
-            if (cancel) {
+            if(cancel) {
                 this.processCancel();
                 return true;
             }
 
             // カーソル選択
 
-            if (left) {
+            if(left) {
                 // カーソル左側の最も近いイベントを選択
-                var sortedEvents = this._choiceEvents.filter(function (event) {
-                    if (event === self._selectedEvent) return false;
+                var sortedEvents = this._choiceEvents.filter(function(event) {
+                    if(event === self._selectedEvent) return false;
                     var dx = event.x - self._selectedEvent.x;
                     var dy = event.y - self._selectedEvent.y;
-                    return dx < 0 && Math.abs(dy / 3) < Math.abs(dx);
+                    return dx < 0 && Math.abs(dy/3) < Math.abs(dx);
                 }).sort(createEventSort(this._selectedEvent, true));
-                if (sortedEvents != null && sortedEvents.length > 0) {
+                if(sortedEvents != null && sortedEvents.length > 0) {
                     this._selectedEvent = sortedEvents[0];
                     // イベントの位置にスクロール
-                    this.startScroll(this._selectedEvent, 10);
+                    this.startScroll(this._selectedEvent,10);
                     SoundManager.playCursor();
                 } else {
                     // SoundManager.playBuzzer();
                 }
 
-            } else if (right) {
+            } else if(right) {
                 // カーソル右側の最も近いイベントを選択
-                var sortedEvents = this._choiceEvents.filter(function (event) {
-                    if (event === self._selectedEvent) return false;
+                var sortedEvents = this._choiceEvents.filter(function(event) {
+                    if(event === self._selectedEvent) return false;
                     var dx = event.x - self._selectedEvent.x;
                     var dy = event.y - self._selectedEvent.y;
-                    return dx > 0 && Math.abs(dy / 3) < Math.abs(dx);
+                    return dx > 0 && Math.abs(dy/3) < Math.abs(dx);
                 }).sort(createEventSort(this._selectedEvent, true));
-                if (sortedEvents != null && sortedEvents.length > 0) {
+                if(sortedEvents != null && sortedEvents.length > 0) {
                     this._selectedEvent = sortedEvents[0];
                     // イベントの位置にスクロール
-                    this.startScroll(this._selectedEvent, 10);
+                    this.startScroll(this._selectedEvent,10);
                     SoundManager.playCursor();
                 } else {
                     // SoundManager.playBuzzer();
                 }
-            } else if (up) {
+            } else if(up) {
                 // カーソル上側の最も近いイベントを選択
-                var sortedEvents = this._choiceEvents.filter(function (event) {
-                    if (event === self._selectedEvent) return false;
+                var sortedEvents = this._choiceEvents.filter(function(event) {
+                    if(event === self._selectedEvent) return false;
                     var dx = event.x - self._selectedEvent.x;
                     var dy = event.y - self._selectedEvent.y;
-                    return dy < 0 && Math.abs(dx / 3) < Math.abs(dy);
+                    return dy < 0 && Math.abs(dx/3) < Math.abs(dy);
                 }).sort(createEventSort(this._selectedEvent, false));
-                if (sortedEvents != null && sortedEvents.length > 0) {
+                if(sortedEvents != null && sortedEvents.length > 0) {
                     this._selectedEvent = sortedEvents[0];
                     // イベントの位置にスクロール
-                    this.startScroll(this._selectedEvent, 10);
+                    this.startScroll(this._selectedEvent,10);
                     SoundManager.playCursor();
                 } else {
                     // SoundManager.playBuzzer();
                 }
-            } else if (down) {
+            } else if(down) {
                 // カーソル下側の最も近いイベントを選択
-                var sortedEvents = this._choiceEvents.filter(function (event) {
-                    if (event === self._selectedEvent) return false;
+                var sortedEvents = this._choiceEvents.filter(function(event) {
+                    if(event === self._selectedEvent) return false;
                     var dx = event.x - self._selectedEvent.x;
                     var dy = event.y - self._selectedEvent.y;
-                    return dy > 0 && Math.abs(dx / 3) < Math.abs(dy);
+                    return dy > 0 && Math.abs(dx/3) < Math.abs(dy);
                 }).sort(createEventSort(this._selectedEvent, false));
-                if (sortedEvents != null && sortedEvents.length > 0) {
+                if(sortedEvents != null && sortedEvents.length > 0) {
                     this._selectedEvent = sortedEvents[0];
                     // イベントの位置にスクロール
-                    this.startScroll(this._selectedEvent, 10);
+                    this.startScroll(this._selectedEvent,10);
                     SoundManager.playCursor();
                 } else {
                     // SoundManager.playBuzzer();
@@ -438,17 +438,17 @@ function HzChoiceEvent() { }
         ctx.textBaseLine = "middle";
 
         // 範囲表示
-        if (showRange == 1 && this._maxDist != null) {
-            ctx.fillStyle = "rgba(255,255,255,0.1)";
+        if(showRange == 1 && this._maxDist != null) {
+            ctx.fillStyle   = "rgba(255,255,255,0.1)";
             ctx.strokeStyle = "rgba(255,255,255,1.0)";
             ctx.beginPath();
-            ctx.arc($gamePlayer.screenX(), $gamePlayer.screenY(), (this._maxDist + 0.5) * $gameMap.tileWidth(), 0, 2 * Math.PI);
+            ctx.arc($gamePlayer.screenX(),$gamePlayer.screenY(), (this._maxDist + 0.5) * $gameMap.tileWidth(),0,2*Math.PI);
             ctx.stroke();
             ctx.fill();
         }
 
         // イベント毎の描画
-        this._choiceEvents.forEach(function (ev, idx) {
+        this._choiceEvents.forEach(function(ev, idx) {
             var event = ev.event();
             var x = ev.screenX();
             var y = ev.screenY() - 64;
@@ -456,49 +456,49 @@ function HzChoiceEvent() { }
             var w = 90;
             var alpha = 0.5;
             ctx.font = '12px "GameFont"';
-            if (ev === self._selectedEvent) {
+            if(ev === self._selectedEvent) {
                 alpha = 0.8;
                 ctx.font = '16px "GameFont"';
                 w = 120;
             }
 
             // イベント名描画
-            if (event.name) {
+            if(event.name) {
                 // 枠描画
-                ctx.fillStyle = "rgba(255,255,255," + alpha + ")";
+                ctx.fillStyle   = "rgba(255,255,255," + alpha + ")";
                 ctx.strokeStyle = "rgba(255,255,255," + alpha + ")";
-
-                if (ev === self._selectedEvent) {
-                    if ((event.name.length * 16) >= 120) {
-                        w = (event.name.length * 16) + 24;
-                    }
+                
+                if (ev === self._selectedEvent){
+                  if ((event.name.length * 16) >= 120 ){
+                     w = (event.name.length * 16) + 24;
+                  }
                 } else {
-                    if ((event.name.length * 12) >= 90) {
-                        w = (event.name.length * 12) + 24;
-                    }
+                  if ((event.name.length * 12) >= 90 ){
+                     w = (event.name.length * 12) + 24;
+                  }
                 }
 
-                roundedRectangle(ctx, x - w / 2, y - 16, w, 21, 6);
+                roundedRectangle(ctx, x-w/2, y-16, w, 21, 6);
                 ctx.fill();
 
                 // イベント名描画
-                ctx.fillStyle = "rgba(0,0,0,1.0)";
-                if (event.name.indexOf('●') >= 0) {
-                    ctx.fillStyle = "rgba(200,0,0,1.0)";
+                ctx.fillStyle   = "rgba(0,0,0,1.0)";
+                if (event.name.indexOf('●') >= 0){
+                  ctx.fillStyle   = "rgba(200,0,0,1.0)";
                 }
                 ctx.fillText(event.name, x, y);
             }
 
             // 矢印描画
-            ctx.fillStyle = "rgba(255,255,255," + alpha + ")";
-            drawTriangle(ctx, x, y + 12, 12, -8);
+            ctx.fillStyle   = "rgba(255,255,255," + alpha + ")";
+            drawTriangle(ctx, x, y+12, 12, -8);
             ctx.fill();
 
             // カーソル描画
-            if (ev === self._selectedEvent) {
+            if(ev === self._selectedEvent) {
                 ctx.save();
-                ctx.fillStyle = "rgba(255,255,255,1.0)";
-                ctx.translate(ev.screenX() - 12, ev.screenY() - 24);
+                ctx.fillStyle   = "rgba(255,255,255,1.0)";
+                ctx.translate(ev.screenX()-12, ev.screenY()-24);
                 drawCursor(ctx);
                 ctx.restore();
             }
@@ -507,20 +507,20 @@ function HzChoiceEvent() { }
     };
 
     // 決定時の処理
-    HzChoiceEvent.prototype.processOk = function () {
+    HzChoiceEvent.prototype.processOk = function() {
         // イベント起動
         this._selectedEvent.start();
         // 結果変数にイベントIDをセット
         $gameVariables.setValue(this._resultVarNo, this._selectedEvent.eventId());
         // プレイヤーの位置までスクロール
-        if (this._resetScroll) {
+        if(this._resetScroll) {
             scrollToPlayer();
         }
         this._decided = true;
     };
 
     // イベント一覧ウインドウでの決定時処理
-    HzChoiceEvent.prototype.processWindowOk = function () {
+    HzChoiceEvent.prototype.processWindowOk = function() {
         var window = SceneManager._scene._hzChoiceEventWindow;
         window.deactivate();
         window.hide();
@@ -528,13 +528,13 @@ function HzChoiceEvent() { }
     };
 
     // キャンセル時の処理
-    HzChoiceEvent.prototype.processCancel = function () {
+    HzChoiceEvent.prototype.processCancel = function() {
         this._cancelCount = 1;
         SoundManager.playCancel();
     };
 
     // イベント一覧ウインドウでのキャンセル時処理
-    HzChoiceEvent.prototype.processWindowCancel = function () {
+    HzChoiceEvent.prototype.processWindowCancel = function() {
         var window = SceneManager._scene._hzChoiceEventWindow;
         window.deactivate();
         window.hide();
@@ -543,80 +543,80 @@ function HzChoiceEvent() { }
     };
 
     // イベント一覧ウインドウでの行選択時処理
-    HzChoiceEvent.prototype.processWindowSelect = function () {
+    HzChoiceEvent.prototype.processWindowSelect = function() {
         var window = SceneManager._scene._hzChoiceEventWindow;
         this._selectedEvent = this._choiceEvents[window._index];
-        this.startScroll(this._selectedEvent, 1);
+        this.startScroll(this._selectedEvent,1);
     };
 
-    // 終了処理
-    HzChoiceEvent.prototype.terminate = function () {
+     // 終了処理
+    HzChoiceEvent.prototype.terminate = function() {
         var bitmap = SceneManager._scene._spriteset._hzChoiceScreen.bitmap;
         bitmap.clear();
     };
 
     // プレイヤーからの距離でソート
     function sortByDistancePlayer(e1, e2) {
-        var dist1 = (e1.x - $gamePlayer.x) * (e1.x - $gamePlayer.x) +
-            (e1.y - $gamePlayer.y) * (e1.y - $gamePlayer.y);
-        var dist2 = (e2.x - $gamePlayer.x) * (e2.x - $gamePlayer.x) +
-            (e2.y - $gamePlayer.y) * (e2.y - $gamePlayer.y);
-        if (dist1 < dist2) return -1;
-        if (dist1 > dist2) return 1;
+        var dist1 =  (e1.x - $gamePlayer.x) * (e1.x - $gamePlayer.x) +
+                     (e1.y - $gamePlayer.y) * (e1.y - $gamePlayer.y);
+        var dist2 =  (e2.x - $gamePlayer.x) * (e2.x - $gamePlayer.x) +
+                     (e2.y - $gamePlayer.y) * (e2.y - $gamePlayer.y);
+        if(dist1 < dist2) return -1;
+        if(dist1 > dist2) return  1;
         return 0;
     }
 
     // 特定の対象からの距離でソート
     function createEventSort(origin, horz) {
-        return function (e1, e2) {
+        return function(e1, e2) {
             var dist1, dist2;
-            if (horz) {
-                dist1 = Math.abs(e1.x - origin.x) * 0.5 +
-                    Math.abs(e1.y - origin.y);
-                dist2 = Math.abs(e2.x - origin.x) * 0.5 +
-                    Math.abs(e2.y - origin.y);
+            if(horz) {
+                dist1 =  Math.abs(e1.x - origin.x) * 0.5 +
+                         Math.abs(e1.y - origin.y);
+                dist2 =  Math.abs(e2.x - origin.x) * 0.5 +
+                         Math.abs(e2.y - origin.y);
             } else {
-                dist1 = Math.abs(e1.x - origin.x) +
-                    Math.abs(e1.y - origin.y) * 0.5;
-                dist2 = Math.abs(e2.x - origin.x) +
-                    Math.abs(e2.y - origin.y) * 0.5;
+                dist1 =  Math.abs(e1.x - origin.x) +
+                         Math.abs(e1.y - origin.y) * 0.5;
+                dist2 =  Math.abs(e2.x - origin.x) +
+                         Math.abs(e2.y - origin.y) * 0.5;
             }
-            if (dist1 < dist2) return -1;
-            if (dist1 > dist2) return 1;
+            if(dist1 < dist2) return -1;
+            if(dist1 > dist2) return  1;
             return 0;
         };
     }
 
     // 特定のイベントまでスクロール開始
-    HzChoiceEvent.prototype.startScroll = function (event, frame) {
+    HzChoiceEvent.prototype.startScroll = function(event, frame) {
         this._scrollSpeedX = 0;
         this._scrollSpeedY = 0;
         this._scrollCount = 0;
 
-        var dx = event.x - ($gameMap.displayX() + (Graphics.boxWidth / $gameMap.tileWidth()) / 2);
-        var dy = event.y - ($gameMap.displayY() + (Graphics.boxHeight / $gameMap.tileHeight()) / 2);
-        if (dx != 0) {
+        var dx = event.x - ($gameMap.displayX() + (Graphics.boxWidth  / $gameMap.tileWidth() ) / 2);
+        var dy = event.y - ($gameMap.displayY() +(Graphics.boxHeight / $gameMap.tileHeight()) / 2);
+        if(dx != 0) {
             this._scrollCount = frame;
             this._scrollSpeedX = dx / this._scrollCount;
         }
-        if (dy != 0) {
+        if(dy != 0) {
             this._scrollCount = frame;
             this._scrollSpeedY = dy / this._scrollCount;
         }
     };
 
     // スクロール更新
-    HzChoiceEvent.prototype.updateScroll = function () {
-        this._scrollCount--;
-        if (this._scrollCount >= 0) {
-            if (this._scrollSpeedX > 0) {
+    HzChoiceEvent.prototype.updateScroll = function() {
+        this._scrollCount --;
+        if(this._scrollCount >= 0) {
+            if(this._scrollSpeedX > 0) {
                 $gameMap.scrollRight(Math.abs(this._scrollSpeedX));
-            } else if (this._scrollSpeedX < 0) {
+            } else if(this._scrollSpeedX < 0) {
                 $gameMap.scrollLeft(Math.abs(this._scrollSpeedX));
             }
-            if (this._scrollSpeedY > 0) {
+            if(this._scrollSpeedY > 0) {
                 $gameMap.scrollDown(Math.abs(this._scrollSpeedY));
-            } else if (this._scrollSpeedY < 0) {
+            } else if(this._scrollSpeedY < 0) {
                 $gameMap.scrollUp(Math.abs(this._scrollSpeedY));
             }
         }
@@ -624,16 +624,16 @@ function HzChoiceEvent() { }
 
     // プレイヤーの位置までスクロール
     function scrollToPlayer() {
-        var dx = $gamePlayer.x - ($gameMap.displayX() + (Graphics.boxWidth / $gameMap.tileWidth()) / 2);
-        var dy = $gamePlayer.y - ($gameMap.displayY() + (Graphics.boxHeight / $gameMap.tileHeight()) / 2);
-        if (dx > 0) {
+        var dx = $gamePlayer.x - ($gameMap.displayX() + (Graphics.boxWidth  / $gameMap.tileWidth() ) / 2);
+        var dy = $gamePlayer.y - ($gameMap.displayY() +(Graphics.boxHeight / $gameMap.tileHeight()) / 2);
+        if(dx > 0) {
             $gameMap.scrollRight(Math.abs(dx));
-        } else if (dx < 0) {
+        } else if(dx < 0) {
             $gameMap.scrollLeft(Math.abs(dx));
         }
-        if (dy > 0) {
+        if(dy > 0) {
             $gameMap.scrollDown(Math.abs(dy));
-        } else if (dy < 0) {
+        } else if(dy < 0) {
             $gameMap.scrollUp(Math.abs(dy));
         }
     };
@@ -651,7 +651,7 @@ function HzChoiceEvent() { }
     Window_EventList.prototype.constructor = Window_EventList;
 
     // 初期化処理
-    Window_EventList.prototype.initialize = function (x, y, width, height) {
+    Window_EventList.prototype.initialize = function(x, y, width, height) {
         this._listevents = [];
         Window_Selectable.prototype.initialize.call(this, x, y, width, height);
         this.deactivate();
@@ -659,29 +659,29 @@ function HzChoiceEvent() { }
     };
 
     // イベント一覧の設定
-    Window_EventList.prototype.setEvents = function (events) {
+    Window_EventList.prototype.setEvents = function(events) {
         this._listevents = events;
         this.refresh();
     };
 
     // 選択行の設定
-    Window_EventList.prototype.setSelectedIndex = function (index) {
+    Window_EventList.prototype.setSelectedIndex = function(index) {
         this._index = index;
         this.refresh();
     };
 
     // 項目数
-    Window_EventList.prototype.maxItems = function () {
+    Window_EventList.prototype.maxItems = function() {
         return this._listevents.length;
     };
 
     // 列数
-    Window_EventList.prototype.maxCols = function () {
+    Window_EventList.prototype.maxCols = function() {
         return 1;
     };
 
     // 項目の描画
-    Window_EventList.prototype.drawItem = function (index) {
+    Window_EventList.prototype.drawItem = function(index) {
         var event = this._listevents[index].event();
         var rect = this.itemRect(index);
         this.resetTextColor();
@@ -689,7 +689,7 @@ function HzChoiceEvent() { }
     };
 
     // 行選択
-    Window_EventList.prototype.select = function (index) {
+    Window_EventList.prototype.select = function(index) {
         Window_Selectable.prototype.select.call(this, index);
         this.callHandler('select');
     };
@@ -701,7 +701,7 @@ function HzChoiceEvent() { }
 
     // マップのSpriteSetに選択UI表示用のSpriteを追加
     var _Spriteset_Map_createUpperLayer = Spriteset_Map.prototype.createUpperLayer;
-    Spriteset_Map.prototype.createUpperLayer = function () {
+    Spriteset_Map.prototype.createUpperLayer = function() {
         _Spriteset_Map_createUpperLayer.call(this);
         this._hzChoiceScreen = new Sprite();
         this._hzChoiceScreen.bitmap = new Bitmap(Graphics.boxWidth, Graphics.boxHeight);
@@ -715,7 +715,7 @@ function HzChoiceEvent() { }
 
     // イベント選択ウインドウを追加
     var _Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
-    Scene_Map.prototype.createAllWindows = function () {
+    Scene_Map.prototype.createAllWindows = function() {
         _Scene_Map_createAllWindows.call(this);
         var w = 200;
         var x = windowPosition == 'left' ? 0 : Graphics.boxWidth - w;
@@ -728,7 +728,7 @@ function HzChoiceEvent() { }
     //
 
     // 三角形を描画
-    function drawTriangle(ctx, x, y, triangleWidth, triangleHeight) {
+    function drawTriangle(ctx, x, y, triangleWidth, triangleHeight){
         ctx.beginPath();
         ctx.moveTo(x, y);
         ctx.lineTo(x + triangleWidth / 2, y + triangleHeight);

@@ -1320,7 +1320,7 @@
         "message2": "",
         "mpCost": 0,
         "name": "山賊",
-        "note": "<SkillHelp1:【戦闘後報酬ボーナス】>\n<SkillHelp2:【ちょっとタフ】>",
+        "note": "<SkillHelp1:【戦闘後報酬ボーナス】>\n<SkillHelp2:【鍵・罠解除2回】>",
         "occasion": 0,
         "repeats": 1,
         "requiredWtypeId1": 0,

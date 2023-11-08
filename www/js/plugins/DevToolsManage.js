@@ -708,7 +708,7 @@ function Controller_NwJs() {
     this.initialize.apply(this, arguments);
 }
 
-(function () {
+(function() {
     'use strict';
     const pluginName = 'DevToolsManage';
 
@@ -716,7 +716,7 @@ function Controller_NwJs() {
     // p
     //  ログ出力をより短い関数名で実現します。(RGSS互換)
     //=============================================================================
-    p = function () {
+    p = function() {
         console.log.apply(console, arguments);
         SceneManager.getNwJs().showDevTools();
     };
@@ -725,24 +725,24 @@ function Controller_NwJs() {
     // ローカル関数
     //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
     //=============================================================================
-    const getParamString = function (paramNames, upperFlg) {
+    const getParamString = function(paramNames, upperFlg) {
         const value = getParamOther(paramNames);
         return value === null ? '' : upperFlg ? value.toUpperCase() : value;
     };
 
-    const getParamNumber = function (paramNames, min, max) {
+    const getParamNumber = function(paramNames, min, max) {
         const value = getParamOther(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value, 10) || 0).clamp(min, max);
     };
 
-    const getParamBoolean = function (paramNames) {
+    const getParamBoolean = function(paramNames) {
         const value = getParamOther(paramNames);
         return (value || '').toUpperCase() === 'ON' || (value || '').toUpperCase() === 'TRUE';
     };
 
-    const getParamOther = function (paramNames) {
+    const getParamOther = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (let i = 0; i < paramNames.length; i++) {
             const name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -751,39 +751,39 @@ function Controller_NwJs() {
         return null;
     };
 
-    const paramStartupDevTool = getParamBoolean(['StartupDevTool', '開始時に起動']);
-    const paramFuncKeyReload = getParamString(['FuncKeyReload', 'リロードキー']);
-    const paramFuncKeyOnTop = getParamString(['FuncKeyOnTop', '最前面に表示キー']);
-    const paramFuncKeyRapidGame = getParamString(['FuncKeyRapidGame', '高速化切替キー']);
-    const paramFuncKeyVictory = getParamString(['FuncKeyForceVictory', '強制戦闘勝利キー']);
-    const paramFuncKeyDefeat = getParamString(['FuncKeyForceDefeat', '強制戦闘敗北キー']);
-    const paramFuncKeyAbort = getParamString(['FuncKeyForceAbort', '強制戦闘中断キー']);
-    const paramFuncKeyScript = getParamString(['FuncKeyScript', 'スクリプト実行キー']);
-    const paramFuncKeyFreeze = getParamString(['FuncKeyFreeze', 'フリーズキー']);
-    const paramShowFPS = getParamString(['ShowFPS', 'FPS表示'], true);
-    const paramCutTitle = getParamBoolean(['CutTitle', 'タイトルカット']);
-    const paramRapidStart = getParamBoolean(['RapidStart', '高速開始']);
-    const paramRapidSpeed = getParamNumber(['RapidSpeed', '高速スピード'], -60, 16);
-    const paramFakeMobile = getParamBoolean(['FakeMobile', 'モバイル偽装']);
-    const paramMenuBarVisible = getParamBoolean(['MenuBarVisible', 'メニューバー表示']);
-    const paramClickMenu = getParamNumber(['ClickMenu', 'クリックメニュー'], -1);
-    const paramJsonSave = getParamBoolean(['JsonSave', 'JSON形式セーブ']);
-    const paramOutputStartupInfo = getParamBoolean(['OutputStartupInfo', '起動時情報出力']);
-    const paramStartupOnTop = getParamBoolean(['StartupOnTop', '最前面で起動']);
-    const paramUseReloadData = getParamBoolean(['UseReloadData', 'リロード機能を使う']);
-    const paramSimultaneousCtrl = getParamBoolean(['SimultaneousCtrl', 'Ctrl同時押し']);
-    const paramSimultaneousAlt = getParamBoolean(['SimultaneousAlt', 'Alt同時押し']);
-    const paramShiftRightOnBlur = getParamNumber(['ShiftRightOnBlur', '右寄せ座標'], -1000, 1000);
-    const paramGreetingHide = getParamBoolean(['GreetingHide', '挨拶非表示']);
-    const paramBirthdayMonth = getParamNumber(['BirthdayMonth', '誕生月'], 0, 12);
-    const paramBirthdayDate = getParamNumber(['BirthdayDate', '誕生日'], 0, 31);
+    const paramStartupDevTool     = getParamBoolean(['StartupDevTool', '開始時に起動']);
+    const paramFuncKeyReload      = getParamString(['FuncKeyReload', 'リロードキー']);
+    const paramFuncKeyOnTop       = getParamString(['FuncKeyOnTop', '最前面に表示キー']);
+    const paramFuncKeyRapidGame   = getParamString(['FuncKeyRapidGame', '高速化切替キー']);
+    const paramFuncKeyVictory     = getParamString(['FuncKeyForceVictory', '強制戦闘勝利キー']);
+    const paramFuncKeyDefeat      = getParamString(['FuncKeyForceDefeat', '強制戦闘敗北キー']);
+    const paramFuncKeyAbort       = getParamString(['FuncKeyForceAbort', '強制戦闘中断キー']);
+    const paramFuncKeyScript      = getParamString(['FuncKeyScript', 'スクリプト実行キー']);
+    const paramFuncKeyFreeze      = getParamString(['FuncKeyFreeze', 'フリーズキー']);
+    const paramShowFPS            = getParamString(['ShowFPS', 'FPS表示'], true);
+    const paramCutTitle           = getParamBoolean(['CutTitle', 'タイトルカット']);
+    const paramRapidStart         = getParamBoolean(['RapidStart', '高速開始']);
+    const paramRapidSpeed         = getParamNumber(['RapidSpeed', '高速スピード'], -60, 16);
+    const paramFakeMobile         = getParamBoolean(['FakeMobile', 'モバイル偽装']);
+    const paramMenuBarVisible     = getParamBoolean(['MenuBarVisible', 'メニューバー表示']);
+    const paramClickMenu          = getParamNumber(['ClickMenu', 'クリックメニュー'], -1);
+    const paramJsonSave           = getParamBoolean(['JsonSave', 'JSON形式セーブ']);
+    const paramOutputStartupInfo  = getParamBoolean(['OutputStartupInfo', '起動時情報出力']);
+    const paramStartupOnTop       = getParamBoolean(['StartupOnTop', '最前面で起動']);
+    const paramUseReloadData      = getParamBoolean(['UseReloadData', 'リロード機能を使う']);
+    const paramSimultaneousCtrl   = getParamBoolean(['SimultaneousCtrl', 'Ctrl同時押し']);
+    const paramSimultaneousAlt    = getParamBoolean(['SimultaneousAlt', 'Alt同時押し']);
+    const paramShiftRightOnBlur   = getParamNumber(['ShiftRightOnBlur', '右寄せ座標'], -1000, 1000);
+    const paramGreetingHide       = getParamBoolean(['GreetingHide', '挨拶非表示']);
+    const paramBirthdayMonth      = getParamNumber(['BirthdayMonth', '誕生月'], 0, 12);
+    const paramBirthdayDate       = getParamNumber(['BirthdayDate', '誕生日'], 0, 31);
     const paramInvalidMessageSkip = getParamBoolean(['InvalidMessageSkip', 'メッセージスキップ無効']);
 
     //=============================================================================
     // Graphics
     //  FPSの表示を設定します。
     //=============================================================================
-    Graphics.setFPSMeter = function (type) {
+    Graphics.setFPSMeter = function(type) {
         switch (type) {
             case 'FPS':
                 this.hideFps();
@@ -798,14 +798,14 @@ function Controller_NwJs() {
     };
 
     const _Graphics__createAllElements = Graphics._createAllElements;
-    Graphics._createAllElements = function () {
+    Graphics._createAllElements        = function() {
         _Graphics__createAllElements.apply(this, arguments);
         if (paramOutputStartupInfo) {
             this.outputStartUpLog();
         }
     };
 
-    Graphics.outputStartUpLog = function () {
+    Graphics.outputStartUpLog = function() {
         console.log('********************************');
         console.log('***   User Agent             ***');
         console.log('********************************');
@@ -850,11 +850,11 @@ function Controller_NwJs() {
     //  モバイルモードを偽装します。
     //=============================================================================
     const _Utils_isMobileDevice = Utils.isMobileDevice;
-    Utils.isMobileDevice = function () {
+    Utils.isMobileDevice        = function() {
         return _Utils_isMobileDevice.apply(this, arguments) || paramFakeMobile;
     };
 
-    Utils.isNwjsNormal = function () {
+    Utils.isNwjsNormal = function() {
         return this.isNwjs() && navigator.userAgent.match(/Chrome\/4/);
     };
 
@@ -863,31 +863,31 @@ function Controller_NwJs() {
     //  promptを再定義します。
     //=============================================================================
     const _Input_wrapNwjsAlert = Input._wrapNwjsAlert;
-    Input._wrapNwjsAlert = function () {
+    Input._wrapNwjsAlert       = function() {
         _Input_wrapNwjsAlert.apply(this, arguments);
         const _window_prompt = window.prompt;
-        window.prompt = function (value, defaultValue) {
+        window.prompt        = function(value, defaultValue) {
             return SceneManager.getNwJs().prompt(value, defaultValue, _window_prompt);
         };
     };
 
     Input.functionReverseMapper = {
-        F1: 112,
-        F2: 113,
-        F3: 114,
-        F4: 115,
-        F5: 116,
-        F6: 117,
-        F7: 118,
-        F8: 119,
-        F9: 120,
+        F1 : 112,
+        F2 : 113,
+        F3 : 114,
+        F4 : 115,
+        F5 : 116,
+        F6 : 117,
+        F7 : 118,
+        F8 : 119,
+        F9 : 120,
         F10: 121,
         F11: 122,
         F12: 123
     };
 
     var _Input__shouldPreventDefault = Input._shouldPreventDefault;
-    Input._shouldPreventDefault = function (keyCode) {
+    Input._shouldPreventDefault      = function(keyCode) {
         return _Input__shouldPreventDefault.apply(this, arguments) || keyCode === 9; // Tab
     };
 
@@ -895,50 +895,50 @@ function Controller_NwJs() {
     // SceneManager
     //  状況に応じてデベロッパツールを自動制御します。
     //=============================================================================
-    SceneManager.originalTitle = null;
-    SceneManager._rapidGame = false;
+    SceneManager.originalTitle     = null;
+    SceneManager._rapidGame        = false;
     SceneManager._lastScriptString = null;
     SceneManager._lastScriptResult = null;
 
     const _SceneManager_initialize = SceneManager.initialize;
-    SceneManager.initialize = function () {
+    SceneManager.initialize        = function() {
         _SceneManager_initialize.apply(this, arguments);
         this.initDevCommand();
         Graphics.setFPSMeter(paramShowFPS);
         if (!Utils.isNwjs()) {
             return;
         }
-        this._freeze = false;
+        this._freeze  = false;
         this._nwJsGui = new Controller_NwJs();
         if (this.isAlwaysOnTop()) {
             this._nwJsGui.toggleAlwaysOnTop();
         }
     };
 
-    SceneManager.initDevCommand = function () {
+    SceneManager.initDevCommand = function() {
         this.devCommands = [
-            { code: 102, use: true, name: '最前面に表示', key: paramFuncKeyOnTop, type: 'checkbox' },
-            { code: 103, use: true, name: 'リロード', key: paramFuncKeyReload, type: 'normal' },
-            { code: 104, use: true, name: '高速モード切替', key: paramFuncKeyRapidGame, type: 'checkbox' },
-            { code: 105, use: true, name: '戦闘強制勝利', key: paramFuncKeyVictory, type: 'normal' },
-            { code: 106, use: true, name: '常駐スクリプト実行', key: paramFuncKeyScript, type: 'normal' },
-            { code: 107, use: true, name: '画面フリーズ', key: paramFuncKeyFreeze, type: 'checkbox' },
-            { code: 108, use: !!SceneManager.takeCapture, name: '画面キャプチャ', key: true, type: 'normal' },
-            { code: 109, use: true, name: '戦闘強制敗北', key: paramFuncKeyDefeat, type: 'normal' },
-            { code: 110, use: true, name: '戦闘強制中断', key: paramFuncKeyAbort, type: 'normal' },
-            { code: 111, use: !!SceneManager.onKeyDownForScreenMovie, name: '画面録画', key: true, type: 'normal' },
+            {code: 102, use: true, name: '最前面に表示', key: paramFuncKeyOnTop, type: 'checkbox'},
+            {code: 103, use: true, name: 'リロード', key: paramFuncKeyReload, type: 'normal'},
+            {code: 104, use: true, name: '高速モード切替', key: paramFuncKeyRapidGame, type: 'checkbox'},
+            {code: 105, use: true, name: '戦闘強制勝利', key: paramFuncKeyVictory, type: 'normal'},
+            {code: 106, use: true, name: '常駐スクリプト実行', key: paramFuncKeyScript, type: 'normal'},
+            {code: 107, use: true, name: '画面フリーズ', key: paramFuncKeyFreeze, type: 'checkbox'},
+            {code: 108, use: !!SceneManager.takeCapture, name: '画面キャプチャ', key: true, type: 'normal'},
+            {code: 109, use: true, name: '戦闘強制敗北', key: paramFuncKeyDefeat, type: 'normal'},
+            {code: 110, use: true, name: '戦闘強制中断', key: paramFuncKeyAbort, type: 'normal'},
+            {code: 111, use: !!SceneManager.onKeyDownForScreenMovie, name: '画面録画', key: true, type: 'normal'},
         ];
     };
 
-    SceneManager.getNwJs = function () {
+    SceneManager.getNwJs = function() {
         return this._nwJsGui;
     };
 
-    SceneManager.isAlwaysOnTop = function () {
+    SceneManager.isAlwaysOnTop = function() {
         return paramStartupOnTop || Utils.isOptionValid('onTop');
     };
 
-    SceneManager.toggleFreeze = function () {
+    SceneManager.toggleFreeze = function() {
         Input.clear();
         this._freeze = !this._freeze;
         this.updateDocumentTitle();
@@ -946,28 +946,28 @@ function Controller_NwJs() {
     };
 
     const _SceneManager_catchException = SceneManager.catchException;
-    SceneManager.catchException = function (e) {
+    SceneManager.catchException        = function(e) {
         if (this._nwJsGui) this._nwJsGui.showDevTools(false);
         _SceneManager_catchException.apply(this, arguments);
     };
 
     const _SceneManager_onError = SceneManager.onError;
-    SceneManager.onError = function (e) {
+    SceneManager.onError        = function(e) {
         if (this._nwJsGui) this._nwJsGui.showDevTools(false);
         _SceneManager_onError.apply(this, arguments);
     };
 
     const _SceneManager_onKeyDown = SceneManager.onKeyDown;
-    SceneManager.onKeyDown = function (event) {
+    SceneManager.onKeyDown        = function(event) {
         _SceneManager_onKeyDown.apply(this, arguments);
         if (paramSimultaneousCtrl === event.ctrlKey && paramSimultaneousAlt === event.altKey) {
             this.onKeyDownForDevToolManage(event);
         }
     };
 
-    SceneManager.onKeyDownForDevToolManage = function (event) {
+    SceneManager.onKeyDownForDevToolManage = function(event) {
         let commandCode = null;
-        this.devCommands.some(function (commandInfo) {
+        this.devCommands.some(function(commandInfo) {
             if (Input.functionReverseMapper[commandInfo.key] === event.keyCode) {
                 commandCode = commandInfo.code;
                 return true;
@@ -977,62 +977,62 @@ function Controller_NwJs() {
         if (commandCode && this._nwJsGui) this.executeDevCommand(commandCode, event);
     };
 
-    SceneManager.executeDevCommand = function (code, event) {
+    SceneManager.executeDevCommand = function(code, event) {
         const command = this['executeDevCommand' + code];
         return command ? command.call(SceneManager, event) : null;
     };
 
-    SceneManager.executeDevCommand102 = function () {
+    SceneManager.executeDevCommand102 = function() {
         return this._nwJsGui.toggleAlwaysOnTop();
     };
 
-    SceneManager.executeDevCommand103 = function () {
+    SceneManager.executeDevCommand103 = function() {
         location.reload();
     };
 
-    SceneManager.executeDevCommand104 = function () {
+    SceneManager.executeDevCommand104 = function() {
         return this.toggleRapid();
     };
 
-    SceneManager.executeDevCommand105 = function () {
+    SceneManager.executeDevCommand105 = function() {
         BattleManager.forceVictory();
     };
 
-    SceneManager.executeDevCommand106 = function () {
+    SceneManager.executeDevCommand106 = function() {
         this.showScriptDialog();
     };
 
-    SceneManager.executeDevCommand107 = function () {
+    SceneManager.executeDevCommand107 = function() {
         return this.toggleFreeze();
     };
 
-    SceneManager.executeDevCommand108 = function () {
+    SceneManager.executeDevCommand108 = function() {
         return this.takeCapture();
     };
 
-    SceneManager.executeDevCommand109 = function () {
+    SceneManager.executeDevCommand109 = function() {
         BattleManager.forceDefect();
     };
 
-    SceneManager.executeDevCommand110 = function () {
+    SceneManager.executeDevCommand110 = function() {
         BattleManager.forceAbort();
     };
 
-    SceneManager.executeDevCommand111 = function () {
+    SceneManager.executeDevCommand111 = function() {
         this._screenRecorder.toggle();
     };
 
-    SceneManager.isRapid = function () {
+    SceneManager.isRapid = function() {
         return SceneManager._rapidGame && paramRapidSpeed > 1;
     };
 
-    SceneManager.isSlow = function () {
+    SceneManager.isSlow = function() {
         return SceneManager._rapidGame && paramRapidSpeed < -1;
     };
 
-    SceneManager.toggleRapid = function () {
+    SceneManager.toggleRapid = function() {
         this._rapidGame = !this._rapidGame;
-        const bgm = AudioManager.saveBgm();
+        const bgm       = AudioManager.saveBgm();
         if (bgm.name) {
             AudioManager.playBgm(bgm, bgm.pos);
             AudioManager._bgmBuffer.play(true, bgm.pos);
@@ -1041,7 +1041,7 @@ function Controller_NwJs() {
         return this.isRapid();
     };
 
-    SceneManager.updateDocumentTitle = function () {
+    SceneManager.updateDocumentTitle = function() {
         if (!this.originalTitle) {
             this.originalTitle = document.title;
         }
@@ -1050,7 +1050,7 @@ function Controller_NwJs() {
             this.addDocumentTitleFreeze();
     };
 
-    SceneManager.addDocumentTitleRapidOrSlow = function () {
+    SceneManager.addDocumentTitleRapidOrSlow = function() {
         if (this.isRapid()) {
             return ' [!!!Rapid!!!] * ' + paramRapidSpeed;
         } else if (this.isSlow()) {
@@ -1060,20 +1060,20 @@ function Controller_NwJs() {
         }
     };
 
-    SceneManager.addDocumentTitleAlwaysOnTop = function () {
+    SceneManager.addDocumentTitleAlwaysOnTop = function() {
         return this._nwJsGui.isOnTop() ? ' [!!!Always On Top!!!]' : '';
     };
 
-    SceneManager.addDocumentTitleFreeze = function () {
+    SceneManager.addDocumentTitleFreeze = function() {
         return this._freeze ? ' [!!!Freeze!!!]' : '';
     };
 
-    SceneManager.isCurrentScene = function (sceneClass) {
+    SceneManager.isCurrentScene = function(sceneClass) {
         return this._scene && this._scene.constructor === sceneClass;
     };
 
-    SceneManager.showScriptDialog = function () {
-        const promptValue = '常駐実行したいスクリプトを入力してください。';
+    SceneManager.showScriptDialog = function() {
+        const promptValue  = '常駐実行したいスクリプトを入力してください。';
         const scriptString = window.prompt(promptValue, this._nwJsGui.readClipboard());
         if (scriptString !== null && scriptString !== '') {
             this._nwJsGui.showDevTools();
@@ -1083,7 +1083,7 @@ function Controller_NwJs() {
         }
     };
 
-    SceneManager.executeScript = function (scriptString) {
+    SceneManager.executeScript = function(scriptString) {
         let result = null;
         try {
             result = eval(scriptString);
@@ -1107,41 +1107,41 @@ function Controller_NwJs() {
     };
 
     const _SceneManager_initNwjs = SceneManager.initNwjs;
-    SceneManager.initNwjs = function () {
+    SceneManager.initNwjs        = function() {
         _SceneManager_initNwjs.apply(this, arguments);
         if (Utils.isNwjs()) {
             this.addMenuBar();
         }
     };
 
-    SceneManager.addMenuBar = function () {
+    SceneManager.addMenuBar = function() {
         if (!paramMenuBarVisible) {
             this._needAdjustScreen = false;
             return;
         }
-        const gui = require('nw.gui');
+        const gui        = require('nw.gui');
         const gameWindow = gui.Window.get();
         if (!gameWindow.menu || gameWindow.menu.type !== 'menubar') {
             this._needAdjustScreen = true;
         }
-        gameWindow.menu = new gui.Menu({ type: 'menubar' });
+        gameWindow.menu = new gui.Menu({type: 'menubar'});
     };
 
     const _SceneManager_run = SceneManager.run;
-    SceneManager.run = function (sceneClass) {
+    SceneManager.run        = function(sceneClass) {
         _SceneManager_run.apply(this, arguments);
         this.setWindowSizeForMenuBar();
     };
 
-    SceneManager.setWindowSizeForMenuBar = function () {
+    SceneManager.setWindowSizeForMenuBar = function() {
         if (!this._needAdjustScreen) {
             return;
         }
-        const gui = require('nw.gui');
+        const gui        = require('nw.gui');
         const gameWindow = gui.Window.get();
-        setTimeout(function () { // Fix missing menu bar height
+        setTimeout(function() { // Fix missing menu bar height
             var style_height = parseInt(Graphics._canvas.style.height, 10);
-            var height_diff = SceneManager._screenHeight - style_height;
+            var height_diff  = SceneManager._screenHeight - style_height;
             if (height_diff !== 0) {
                 gameWindow.moveBy(0, -height_diff);
                 gameWindow.resizeBy(0, height_diff);
@@ -1149,13 +1149,13 @@ function Controller_NwJs() {
         }, 100);
     };
 
-    SceneManager.getMenuBarHeight = function () {
+    SceneManager.getMenuBarHeight = function() {
         return Utils.isNwjsNormal() ? 20 : 25;
     };
 
     const _SceneManager_requestUpdate = SceneManager.requestUpdate;
-    SceneManager._updateRateCount = 0;
-    SceneManager.requestUpdate = function () {
+    SceneManager._updateRateCount     = 0;
+    SceneManager.requestUpdate        = function() {
         if (this.isSlow()) {
             this._updateRateCount++;
             if (this._updateRateCount >= -paramRapidSpeed) {
@@ -1172,7 +1172,7 @@ function Controller_NwJs() {
     };
 
     const _SceneManager_updateMain = SceneManager.updateMain;
-    SceneManager.updateMain = function () {
+    SceneManager.updateMain        = function() {
         if (this.isSlow()) {
             this.changeScene();
             this.updateScene();
@@ -1189,7 +1189,7 @@ function Controller_NwJs() {
     };
 
     const _SceneManager_updateScene = SceneManager.updateScene;
-    SceneManager.updateScene = function () {
+    SceneManager.updateScene        = function() {
         this.updateScript();
         if (this.isUsingReload()) {
             this.updateDataReload();
@@ -1200,17 +1200,17 @@ function Controller_NwJs() {
         _SceneManager_updateScene.apply(this, arguments);
     };
 
-    SceneManager.isUsingReload = function () {
+    SceneManager.isUsingReload = function() {
         return paramUseReloadData && !DataManager.isBattleTest() && !DataManager.isEventTest() && Utils.isNwjs();
     };
 
-    SceneManager.updateScript = function () {
+    SceneManager.updateScript = function() {
         if (this._lastScriptString) {
             this.executeScript(this._lastScriptString);
         }
     };
 
-    SceneManager.updateDataReload = function () {
+    SceneManager.updateDataReload = function() {
         if (this.isOnFocusGameWindow() && !this._reloadGenerator) {
             this._reloadGenerator = this.reloadGenerator();
         }
@@ -1237,7 +1237,7 @@ function Controller_NwJs() {
         return false;
     };
 
-    SceneManager.isOnFocusGameWindow = function () {
+    SceneManager.isOnFocusGameWindow = function() {
         if (this.getNwJs().isOnFocus()) {
             this.getNwJs().setOnFocus(false);
             return true;
@@ -1245,7 +1245,7 @@ function Controller_NwJs() {
         return false;
     };
 
-    SceneManager.reloadMapData = function () {
+    SceneManager.reloadMapData = function() {
         if (this._scene instanceof Scene_Map && $gamePlayer.canMove()) {
             $gamePlayer.reserveTransfer(
                 $gameMap.mapId(), $gamePlayer.x, $gamePlayer.y, $gamePlayer.direction(), 2);
@@ -1254,7 +1254,7 @@ function Controller_NwJs() {
         }
     };
 
-    SceneManager.isReloading = function () {
+    SceneManager.isReloading = function() {
         return !!this._reloadGenerator;
     };
 
@@ -1262,25 +1262,25 @@ function Controller_NwJs() {
     // BattleManager
     //  強制勝利を追加定義します。
     //=============================================================================
-    BattleManager.forceVictory = function () {
+    BattleManager.forceVictory = function() {
         if (this.canExecuteBattleEndProcess()) {
-            $gameTroop.members().forEach(function (enemy) {
+            $gameTroop.members().forEach(function(enemy) {
                 enemy.addNewState(enemy.deathStateId());
             });
             this.processVictory();
         }
     };
 
-    BattleManager.forceDefect = function () {
+    BattleManager.forceDefect = function() {
         if (this.canExecuteBattleEndProcess()) {
-            $gameParty.members().forEach(function (actor) {
+            $gameParty.members().forEach(function(actor) {
                 actor.addNewState(actor.deathStateId());
             });
             this.processDefeat();
         }
     };
 
-    BattleManager.forceAbort = function () {
+    BattleManager.forceAbort = function() {
         if (this.canExecuteBattleEndProcess()) {
             $gameParty.performEscape();
             SoundManager.playEscape();
@@ -1290,7 +1290,7 @@ function Controller_NwJs() {
         }
     };
 
-    BattleManager.canExecuteBattleEndProcess = function () {
+    BattleManager.canExecuteBattleEndProcess = function() {
         return SceneManager.isCurrentScene(Scene_Battle) && this._phase !== 'battleEnd';
     };
 
@@ -1299,7 +1299,7 @@ function Controller_NwJs() {
     //  高速化実行時にBGMのピッチを強制的に最大にします。
     //=============================================================================
     const _AudioManager_playBgm = AudioManager.playBgm;
-    AudioManager.playBgm = function (bgm, pos) {
+    AudioManager.playBgm        = function(bgm, pos) {
         const originalPitch = bgm.pitch;
         if (SceneManager.isRapid()) {
             arguments[0].pitch = 150;
@@ -1315,14 +1315,14 @@ function Controller_NwJs() {
     // DataManager
     //  セーブデータのエンコード・デコードを実施します。
     //=============================================================================
-    DataManager.decodeSaveGame = function (savefileId) {
+    DataManager.decodeSaveGame = function(savefileId) {
         if (this.isThisGameFile(savefileId)) {
             const json = StorageManager.load(savefileId);
             StorageManager.saveToLocalFileJson(savefileId, json);
         }
     };
 
-    DataManager.encodeSaveGame = function (savefileId) {
+    DataManager.encodeSaveGame = function(savefileId) {
         const json = StorageManager.loadFromLocalFileJson(savefileId);
         if (json) {
             StorageManager.save(savefileId, json);
@@ -1330,20 +1330,20 @@ function Controller_NwJs() {
     };
 
     const _DataManager_saveGameWithoutRescue = DataManager.saveGameWithoutRescue;
-    DataManager.saveGameWithoutRescue = function (savefileId) {
+    DataManager.saveGameWithoutRescue        = function(savefileId) {
         const result = _DataManager_saveGameWithoutRescue.apply(this, arguments);
         if (paramJsonSave) this.decodeSaveGame(savefileId);
         return result;
     };
 
     const _DataManager_loadGameWithoutRescue = DataManager.loadGameWithoutRescue;
-    DataManager.loadGameWithoutRescue = function (savefileId) {
+    DataManager.loadGameWithoutRescue        = function(savefileId) {
         this.encodeSaveGame(savefileId);
         return _DataManager_loadGameWithoutRescue.apply(this, arguments);
     };
 
     const _DataManager_loadDatabase = DataManager.loadDatabase;
-    DataManager.loadDatabase = function () {
+    DataManager.loadDatabase        = function() {
         if (this.isNeedSuppressBtest()) {
             this._suppressBattleTest = true;
         }
@@ -1352,16 +1352,16 @@ function Controller_NwJs() {
     };
 
     const _DataManager_isBattleTest = DataManager.isBattleTest;
-    DataManager.isBattleTest = function () {
+    DataManager.isBattleTest        = function() {
         return this._suppressBattleTest ? false : _DataManager_isBattleTest.apply(this, arguments);
     };
 
-    DataManager.isNeedSuppressBtest = function () {
+    DataManager.isNeedSuppressBtest = function() {
         if (!this.isBattleTest()) {
             return false;
         }
         if (Utils.isNwjs()) {
-            return this._databaseFiles.some(function (databaseFile) {
+            return this._databaseFiles.some(function(databaseFile) {
                 return !StorageManager.isExistTestData(databaseFile.src);
             });
         } else {
@@ -1369,7 +1369,7 @@ function Controller_NwJs() {
         }
     };
 
-    DataManager.reloadSystemData = function () {
+    DataManager.reloadSystemData = function() {
         for (let i = 0; i < this._databaseFiles.length; i++) {
             const name = this._databaseFiles[i].name;
             if (name === '$dataSystem') {
@@ -1385,9 +1385,9 @@ function Controller_NwJs() {
     // StorageManager
     //  jsonセーブファイルの読み込みと書き込みを行います。
     //=============================================================================
-    StorageManager.saveToLocalFileJson = function (savefileId, json) {
-        const fs = require('fs');
-        const dirPath = this.localFileDirectoryPath();
+    StorageManager.saveToLocalFileJson = function(savefileId, json) {
+        const fs       = require('fs');
+        const dirPath  = this.localFileDirectoryPath();
         const filePath = dirPath + 'file%1.json'.format(savefileId);
         if (!fs.existsSync(dirPath)) {
             fs.mkdirSync(dirPath);
@@ -1395,18 +1395,18 @@ function Controller_NwJs() {
         fs.writeFileSync(filePath, json);
     };
 
-    StorageManager.loadFromLocalFileJson = function (savefileId) {
-        const fs = require('fs');
+    StorageManager.loadFromLocalFileJson = function(savefileId) {
+        const fs       = require('fs');
         const filePath = this.localFileDirectoryPath() + 'file%1.json'.format(savefileId);
         if (fs.existsSync(filePath)) {
-            return fs.readFileSync(filePath, { encoding: 'utf8' });
+            return fs.readFileSync(filePath, {encoding: 'utf8'});
         }
         return null;
     };
 
-    StorageManager.isExistTestData = function (fileName) {
-        const fs = require('fs');
-        const path = require('path');
+    StorageManager.isExistTestData = function(fileName) {
+        const fs       = require('fs');
+        const path     = require('path');
         const filePath = path.join(path.dirname(process.mainModule.filename), 'data/Test_' + fileName);
         return fs.existsSync(filePath);
     };
@@ -1415,19 +1415,19 @@ function Controller_NwJs() {
     // Scene_Base
     //  マップの高速化を提供します。
     //=============================================================================
-    const _Scene_Base_fadeSpeed = Scene_Base.prototype.fadeSpeed;
-    Scene_Base.prototype.fadeSpeed = function () {
+    const _Scene_Base_fadeSpeed    = Scene_Base.prototype.fadeSpeed;
+    Scene_Base.prototype.fadeSpeed = function() {
         return SceneManager.isRapid() ? 1 : _Scene_Base_fadeSpeed.apply(this, arguments);
     };
 
-    const _Scene_Base_startFadeIn = Scene_Base.prototype.startFadeIn;
-    Scene_Base.prototype.startFadeIn = function (duration, white) {
+    const _Scene_Base_startFadeIn    = Scene_Base.prototype.startFadeIn;
+    Scene_Base.prototype.startFadeIn = function(duration, white) {
         if (SceneManager.isRapid()) arguments[0] = 1;
         _Scene_Base_startFadeIn.apply(this, arguments);
     };
 
-    const _Scene_Base_startFadeOut = Scene_Base.prototype.startFadeOut;
-    Scene_Base.prototype.startFadeOut = function (duration, white) {
+    const _Scene_Base_startFadeOut    = Scene_Base.prototype.startFadeOut;
+    Scene_Base.prototype.startFadeOut = function(duration, white) {
         if (SceneManager.isRapid()) arguments[0] = 1;
         _Scene_Base_startFadeOut.apply(this, arguments);
     };
@@ -1436,14 +1436,14 @@ function Controller_NwJs() {
     // Scene_Boot
     //  タイトル画面をとばしてマップ画面に遷移します。
     //=============================================================================
-    const _Scene_Boot_start = Scene_Boot.prototype.start;
-    Scene_Boot.prototype.start = function () {
+    const _Scene_Boot_start    = Scene_Boot.prototype.start;
+    Scene_Boot.prototype.start = function() {
         _Scene_Boot_start.apply(this, arguments);
         if (paramRapidStart) SceneManager.toggleRapid();
         this.cutSceneTitle();
     };
 
-    Scene_Boot.prototype.cutSceneTitle = function () {
+    Scene_Boot.prototype.cutSceneTitle = function() {
         if (paramCutTitle && !DataManager.isBattleTest() && !DataManager.isEventTest() && !Input.isPressed('control')) {
             if (!this.goToLatestContinue()) {
                 this.goToNewGame();
@@ -1451,12 +1451,12 @@ function Controller_NwJs() {
         }
     };
 
-    Scene_Boot.prototype.goToNewGame = function () {
+    Scene_Boot.prototype.goToNewGame = function() {
         DataManager.setupNewGame();
         SceneManager.goto(Scene_Map);
     };
 
-    Scene_Boot.prototype.goToLatestContinue = function () {
+    Scene_Boot.prototype.goToLatestContinue = function() {
         if (DataManager.isAnySavefileExists()) {
             if (DataManager.loadGame(DataManager.latestSavefileId())) {
                 this.reloadMapIfUpdated();
@@ -1476,13 +1476,13 @@ function Controller_NwJs() {
     // Scene_Map
     //  高速モードを実装します。
     //=============================================================================
-    const _Scene_Map_isFastForward = Scene_Map.prototype.isFastForward;
-    Scene_Map.prototype.isFastForward = function () {
+    const _Scene_Map_isFastForward    = Scene_Map.prototype.isFastForward;
+    Scene_Map.prototype.isFastForward = function() {
         return _Scene_Map_isFastForward.apply(this, arguments) || SceneManager.isRapid();
     };
 
-    const _Scene_Map_updateMainMultiply = Scene_Map.prototype.updateMainMultiply;
-    Scene_Map.prototype.updateMainMultiply = function () {
+    const _Scene_Map_updateMainMultiply    = Scene_Map.prototype.updateMainMultiply;
+    Scene_Map.prototype.updateMainMultiply = function() {
         _Scene_Map_updateMainMultiply.apply(this, arguments);
         if (this.isFastForward() && SceneManager.isRapid()) {
             for (let i = 2; i <= paramRapidSpeed; i++) {
@@ -1491,8 +1491,8 @@ function Controller_NwJs() {
         }
     };
 
-    var _Scene_Title_createForeground = Scene_Title.prototype.createForeground;
-    Scene_Title.prototype.createForeground = function () {
+    var _Scene_Title_createForeground      = Scene_Title.prototype.createForeground;
+    Scene_Title.prototype.createForeground = function() {
         _Scene_Title_createForeground.apply(this, arguments);
         if (!paramGreetingHide) {
             this.createGreetingSprite();
@@ -1500,21 +1500,21 @@ function Controller_NwJs() {
     };
 
     var greetingMessage = {
-        '1_1': 'あけましておめでとうございます！　今年も制作がんばってください！',
-        '2_14': '今日はバレンタインデーです！　素敵な贈り物はもらえましたか？？？',
-        '4_1': '今日はエイプリルフールです！',
-        '8_31': '夏休みも今日で終わりですね……　お仕事してる人には関係ないですが。',
+        '1_1'  : 'あけましておめでとうございます！　今年も制作がんばってください！',
+        '2_14' : '今日はバレンタインデーです！　素敵な贈り物はもらえましたか？？？',
+        '4_1'  : '今日はエイプリルフールです！',
+        '8_31' : '夏休みも今日で終わりですね……　お仕事してる人には関係ないですが。',
         '12_24': '今日はクリスマスイブです！　こんな日まで制作するなんてえらいですね！！',
         '12_31': '今日は大晦日です。　来年も制作がんばりましょう！',
     };
 
-    Scene_Title.prototype.createGreetingSprite = function () {
+    Scene_Title.prototype.createGreetingSprite = function() {
         var message = this.getGreetingMessage();
         if (message) {
-            var fontSize = 48;
-            var bitmap = new Bitmap(1000, fontSize);
-            bitmap.fontSize = fontSize;
-            bitmap.fontFace = '"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","ＭＳ Ｐ明朝","MS PMincho"';
+            var fontSize         = 48;
+            var bitmap           = new Bitmap(1000, fontSize);
+            bitmap.fontSize      = fontSize;
+            bitmap.fontFace      = '"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","ＭＳ Ｐ明朝","MS PMincho"';
             this._greetingSprite = new Sprite(bitmap);
             this._greetingSprite.bitmap.drawText(message, 0, 0, 1000, bitmap.height, 'left');
             this._greetingSprite.x = Graphics.width + 200;
@@ -1523,11 +1523,11 @@ function Controller_NwJs() {
         }
     };
 
-    Scene_Title.prototype.getGreetingMessage = function () {
-        var time = new Date();
+    Scene_Title.prototype.getGreetingMessage = function() {
+        var time  = new Date();
         var month = time.getMonth() + 1;
-        var date = time.getDate();
-        var hour = time.getHours();
+        var date  = time.getDate();
+        var hour  = time.getHours();
         if (month === paramBirthdayMonth && date === paramBirthdayDate) {
             return 'お誕生日おめでとうございます！！！';
         }
@@ -1538,8 +1538,8 @@ function Controller_NwJs() {
         return greetingMessage[key];
     };
 
-    var _Scene_Title_update = Scene_Title.prototype.update;
-    Scene_Title.prototype.update = function () {
+    var _Scene_Title_update      = Scene_Title.prototype.update;
+    Scene_Title.prototype.update = function() {
         _Scene_Title_update.apply(this, arguments);
         if (this._greetingSprite) {
             this._greetingSprite.x -= 2;
@@ -1554,14 +1554,14 @@ function Controller_NwJs() {
     // Window_Base
     //  ウィンドウの高速開閉を提供します。
     //=============================================================================
-    const _Window_Base_updateOpen = Window_Base.prototype.updateOpen;
-    Window_Base.prototype.updateOpen = function () {
+    const _Window_Base_updateOpen    = Window_Base.prototype.updateOpen;
+    Window_Base.prototype.updateOpen = function() {
         if (SceneManager.isRapid() && this._opening) this.openness = 255;
         _Window_Base_updateOpen.apply(this, arguments);
     };
 
-    const _Window_Base_updateClose = Window_Base.prototype.updateClose;
-    Window_Base.prototype.updateClose = function () {
+    const _Window_Base_updateClose    = Window_Base.prototype.updateClose;
+    Window_Base.prototype.updateClose = function() {
         if (SceneManager.isRapid() && this._closing) this.openness = 0;
         _Window_Base_updateClose.apply(this, arguments);
     };
@@ -1571,20 +1571,20 @@ function Controller_NwJs() {
     //  メッセージの高速化を提供します。
     //=============================================================================
     if (!paramInvalidMessageSkip) {
-        const _Window_Message_isTriggered = Window_Message.prototype.isTriggered;
-        Window_Message.prototype.isTriggered = function () {
+        const _Window_Message_isTriggered    = Window_Message.prototype.isTriggered;
+        Window_Message.prototype.isTriggered = function() {
             return _Window_Message_isTriggered.apply(this, arguments) || SceneManager.isRapid();
         };
 
-        const _Window_Message_startPause = Window_Message.prototype.startPause;
-        Window_Message.prototype.startPause = function () {
+        const _Window_Message_startPause    = Window_Message.prototype.startPause;
+        Window_Message.prototype.startPause = function() {
             _Window_Message_startPause.apply(this, arguments);
             if (SceneManager.isRapid()) this.startWait(1);
         };
     }
 
-    var _Game_Interpreter_command355 = Game_Interpreter.prototype.command355;
-    Game_Interpreter.prototype.command355 = function () {
+    var _Game_Interpreter_command355      = Game_Interpreter.prototype.command355;
+    Game_Interpreter.prototype.command355 = function() {
         try {
             return _Game_Interpreter_command355.apply(this, arguments);
         } catch (e) {
@@ -1593,8 +1593,8 @@ function Controller_NwJs() {
         }
     };
 
-    var _Game_Interpreter_command111 = Game_Interpreter.prototype.command111;
-    Game_Interpreter.prototype.command111 = function () {
+    var _Game_Interpreter_command111      = Game_Interpreter.prototype.command111;
+    Game_Interpreter.prototype.command111 = function() {
         if (this._params[0] === 12) {
             try {
                 return _Game_Interpreter_command111.apply(this, arguments);
@@ -1609,8 +1609,8 @@ function Controller_NwJs() {
         }
     };
 
-    var _Game_Character_processMoveCommand = Game_Character.prototype.processMoveCommand;
-    Game_Character.prototype.processMoveCommand = function (command) {
+    var _Game_Character_processMoveCommand      = Game_Character.prototype.processMoveCommand;
+    Game_Character.prototype.processMoveCommand = function(command) {
         try {
             _Game_Character_processMoveCommand.apply(this, arguments);
         } catch (e) {
@@ -1621,30 +1621,30 @@ function Controller_NwJs() {
         }
     };
 
-    Game_Character.prototype.getInformation = function () {
+    Game_Character.prototype.getInformation = function() {
         return `X:${this._x} Y:${this._y}`;
     };
 
-    Game_Event.prototype.getInformation = function () {
+    Game_Event.prototype.getInformation = function() {
         return `ID:${this._eventId} Name:${this.event().name}` + Game_Character.prototype.getInformation.call(this);
     };
 
-    Game_Player.prototype.getInformation = function () {
+    Game_Player.prototype.getInformation = function() {
         return 'Player' + Game_Character.prototype.getInformation.call(this);
     };
 
-    Game_Player.prototype.isNeedMapReload = function () {
+    Game_Player.prototype.isNeedMapReload = function() {
         return this._needsMapReload;
     };
 
-    const _Game_Map_eraseEvent = Game_Map.prototype.eraseEvent;
-    Game_Map.prototype.eraseEvent = function (eventId) {
+    const _Game_Map_eraseEvent    = Game_Map.prototype.eraseEvent;
+    Game_Map.prototype.eraseEvent = function(eventId) {
         _Game_Map_eraseEvent.apply(this, arguments);
         this._eraseEvents.push(eventId);
     };
 
-    const _Game_Map_setupEvents = Game_Map.prototype.setupEvents;
-    Game_Map.prototype.setupEvents = function () {
+    const _Game_Map_setupEvents    = Game_Map.prototype.setupEvents;
+    Game_Map.prototype.setupEvents = function() {
         _Game_Map_setupEvents.apply(this, arguments);
         if (this._eraseEvents && $gamePlayer.isNeedMapReload()) {
             this.restoreEventErase();
@@ -1653,7 +1653,7 @@ function Controller_NwJs() {
         }
     };
 
-    Game_Map.prototype.restoreEventErase = function () {
+    Game_Map.prototype.restoreEventErase = function() {
         this._eraseEvents.forEach(eventId => {
             this._events[eventId].erase();
         });
@@ -1664,17 +1664,17 @@ function Controller_NwJs() {
     //  Nw.jsのAPI呼び出しを管理します。
     //=============================================================================
     Controller_NwJs.prototype.constructor = Controller_NwJs;
-    Controller_NwJs.prototype.initialize = function () {
-        this._nwGui = require('nw.gui');
-        this._onFocus = false;
-        this._menuBar = this.getWindow().menu;
+    Controller_NwJs.prototype.initialize  = function() {
+        this._nwGui     = require('nw.gui');
+        this._onFocus   = false;
+        this._menuBar   = this.getWindow().menu;
         this._menuClick = null;
-        this._onTop = false;
+        this._onTop     = false;
         this.setOnFocus(false);
         this.initSetting();
     };
 
-    Controller_NwJs.prototype.initSetting = function () {
+    Controller_NwJs.prototype.initSetting = function() {
         this.addEventListener();
         if (paramMenuBarVisible) {
             this.makeMenu(this._menuBar);
@@ -1684,52 +1684,52 @@ function Controller_NwJs() {
         if (this.isStartUpDevTool()) {
             this.showDevTools();
         }
-        setTimeout(function () {
+        setTimeout(function() {
             this.addOnFocusListener();
             SceneManager.updateDocumentTitle();
         }.bind(this), 1000);
     };
 
-    Controller_NwJs.prototype.isStartUpDevTool = function () {
+    Controller_NwJs.prototype.isStartUpDevTool = function() {
         return paramStartupDevTool && !Utils.isOptionValid('devToolOff');
     };
 
-    Controller_NwJs.prototype.initClickMenu = function () {
-        this._menuClick = new this._nwGui.Menu();
+    Controller_NwJs.prototype.initClickMenu = function() {
+        this._menuClick      = new this._nwGui.Menu();
         this._clickMenuItems = {};
         this.makeMenu(this._menuClick);
     };
 
-    Controller_NwJs.prototype.setMenuBar = function (menu) {
+    Controller_NwJs.prototype.setMenuBar = function(menu) {
         this.getWindow().menu = menu;
     };
 
-    Controller_NwJs.prototype.makeMenu = function (menuObject) {
-        this.getSortedDevCommands().forEach(function (commandInfo) {
+    Controller_NwJs.prototype.makeMenu = function(menuObject) {
+        this.getSortedDevCommands().forEach(function(commandInfo) {
             if (commandInfo.use) this.makeMenuItem(commandInfo, menuObject);
         }, this);
     };
 
-    Controller_NwJs.prototype.makeMenuItem = function (commandInfo, menuObject) {
-        const ctrl = paramSimultaneousCtrl ? 'Ctrl+' : '';
-        const alt = paramSimultaneousAlt ? 'Alt+' : '';
-        const key = commandInfo.key && commandInfo.key[0] === 'F' ? commandInfo.key : '';
+    Controller_NwJs.prototype.makeMenuItem = function(commandInfo, menuObject) {
+        const ctrl     = paramSimultaneousCtrl ? 'Ctrl+' : '';
+        const alt      = paramSimultaneousAlt ? 'Alt+' : '';
+        const key      = commandInfo.key && commandInfo.key[0] === 'F' ? commandInfo.key : '';
         const menuItem = new this._nwGui.MenuItem({
             label: commandInfo.name + (key ? `(${ctrl}${alt}${key})` : ''),
-            type: commandInfo.type,
+            type : commandInfo.type,
         });
         if (menuObject === this._menuClick) {
             this._clickMenuItems[commandInfo.name] = menuItem;
         }
-        menuItem.click = function () {
+        menuItem.click = function() {
             const result = SceneManager.executeDevCommand(commandInfo.code);
             if (commandInfo.type === 'checkbox') this._clickMenuItems[commandInfo.name].checked = result;
         }.bind(this);
         menuObject.append(menuItem);
     };
 
-    Controller_NwJs.prototype.getSortedDevCommands = function () {
-        return SceneManager.devCommands.filter(command => command.key && command.key !== 'none').sort(function (a, b) {
+    Controller_NwJs.prototype.getSortedDevCommands = function() {
+        return SceneManager.devCommands.filter(command => command.key && command.key !== 'none').sort(function(a, b) {
             if (a.key && b.key) {
                 return Input.functionReverseMapper[a.key] - Input.functionReverseMapper[b.key];
             } else if (a.key || b.key) {
@@ -1740,35 +1740,35 @@ function Controller_NwJs() {
         });
     };
 
-    Controller_NwJs.prototype.setOnFocus = function (value) {
+    Controller_NwJs.prototype.setOnFocus = function(value) {
         this._onFocus = value;
     };
 
-    Controller_NwJs.prototype.isOnFocus = function () {
+    Controller_NwJs.prototype.isOnFocus = function() {
         return this._onFocus;
     };
 
-    Controller_NwJs.prototype.addEventListener = function () {
-        document.addEventListener('mousedown', function (event) {
+    Controller_NwJs.prototype.addEventListener = function() {
+        document.addEventListener('mousedown', function(event) {
             if (event.button === paramClickMenu) {
                 this._menuClick.popup(event.pageX, event.pageY);
             }
         }.bind(this));
     };
 
-    Controller_NwJs.prototype.addOnFocusListener = function () {
+    Controller_NwJs.prototype.addOnFocusListener = function() {
         const currentWin = this.getWindow();
         currentWin.removeAllListeners();
         currentWin.on('focus', this.onFocus.bind(this));
         currentWin.on('blur', this.onBlur.bind(this));
     };
 
-    Controller_NwJs.prototype.onFocus = function () {
+    Controller_NwJs.prototype.onFocus = function() {
         if (this._disableScreenShift) {
             return;
         }
         this._onFocus = true;
-        setTimeout(function () {
+        setTimeout(function() {
             if (this._moveOnBlur) {
                 this.getWindow().moveBy(-paramShiftRightOnBlur, 0);
                 this._moveOnBlur = false;
@@ -1776,11 +1776,11 @@ function Controller_NwJs() {
         }.bind(this), 100);
     };
 
-    Controller_NwJs.prototype.onBlur = function () {
+    Controller_NwJs.prototype.onBlur = function() {
         if (this._disableScreenShift) {
             return;
         }
-        setTimeout(function () {
+        setTimeout(function() {
             if (!this._moveOnBlur && this._onTop) {
                 this.getWindow().moveBy(paramShiftRightOnBlur, 0);
                 this._moveOnBlur = true;
@@ -1788,55 +1788,55 @@ function Controller_NwJs() {
         }.bind(this), 100);
     };
 
-    Controller_NwJs.prototype.getWindow = function () {
+    Controller_NwJs.prototype.getWindow = function() {
         return this._nwGui.Window.get();
     };
 
-    Controller_NwJs.prototype.getClipboard = function () {
+    Controller_NwJs.prototype.getClipboard = function() {
         return this._nwGui.Clipboard.get();
     };
 
-    Controller_NwJs.prototype.toggleAlwaysOnTop = function () {
+    Controller_NwJs.prototype.toggleAlwaysOnTop = function() {
         this._onTop = !this._onTop;
         this.getWindow().setAlwaysOnTop(this._onTop);
         SceneManager.updateDocumentTitle();
         return this._onTop;
     };
 
-    Controller_NwJs.prototype.isOnTop = function () {
+    Controller_NwJs.prototype.isOnTop = function() {
         return this._onTop;
     };
 
-    Controller_NwJs.prototype.prompt = function (value, defaultValue, aliasPrompt) {
-        const win = this.getWindow();
+    Controller_NwJs.prototype.prompt = function(value, defaultValue, aliasPrompt) {
+        const win    = this.getWindow();
         const result = aliasPrompt.call(window, value, defaultValue);
         win.focus();
         Input.clear();
         return result;
     };
 
-    Controller_NwJs.prototype.showDevTools = function () {
+    Controller_NwJs.prototype.showDevTools = function() {
         this._disableScreenShift = true;
         this.getWindow().showDevTools();
-        setTimeout(function () {
+        setTimeout(function() {
             this.focus();
         }.bind(this), 1000);
     };
 
-    Controller_NwJs.prototype.focus = function () {
+    Controller_NwJs.prototype.focus = function() {
         this._disableScreenShift = true;
         this.getWindow().focus();
-        setTimeout(function () {
+        setTimeout(function() {
             this._disableScreenShift = false;
         }.bind(this), 500);
     };
 
-    Controller_NwJs.prototype.readClipboard = function (mode) {
+    Controller_NwJs.prototype.readClipboard = function(mode) {
         if (!mode) mode = 'text';
         return this.getClipboard().get(mode);
     };
 
-    Controller_NwJs.prototype.writeClipboard = function (copyValue, mode) {
+    Controller_NwJs.prototype.writeClipboard = function(copyValue, mode) {
         if (!mode) mode = 'text';
         if (mode === 'text') copyValue = copyValue.toString();
         this.getClipboard().set(copyValue, mode);

@@ -145,7 +145,7 @@
  *
  */
 
-(function () {
+(function() {
   'use strict';
 
   const DISP_MODE_NONE = 0;
@@ -161,7 +161,7 @@
   params.SelectItemNumberDisplay = Number(parameters['SelectItemNumberDisplay'] || DISP_MODE_SHOW_ALWAYS);
   params.Delimiter = String(parameters['Delimiter'] || ':');
 
-  Window_ItemList.prototype._drawItemNumber = function (item, x, y, width, displayMode) {
+  Window_ItemList.prototype._drawItemNumber = function(item, x, y, width, displayMode) {
     if (displayMode === DISP_MODE_NONE) {
       return;
     }
@@ -173,23 +173,23 @@
     }
   };
 
-  Window_ItemList.prototype.drawItemNumber = function (item, x, y, width) {
+  Window_ItemList.prototype.drawItemNumber = function(item, x, y, width) {
     this._drawItemNumber(item, x, y, width, params.ItemNumberDisplay);
   };
 
-  Window_BattleItem.prototype.drawItemNumber = function (item, x, y, width) {
+  Window_BattleItem.prototype.drawItemNumber = function(item, x, y, width) {
     this._drawItemNumber(item, x, y, width, params.BattleItemNumberDisplay);
   };
 
-  Window_EquipItem.prototype.drawItemNumber = function (item, x, y, width) {
+  Window_EquipItem.prototype.drawItemNumber = function(item, x, y, width) {
     this._drawItemNumber(item, x, y, width, params.EquipItemNumberDisplay);
   };
 
-  Window_ShopSell.prototype.drawItemNumber = function (item, x, y, width) {
+  Window_ShopSell.prototype.drawItemNumber = function(item, x, y, width) {
     this._drawItemNumber(item, x, y, width, params.ShopSellItemNumberDisplay);
   };
 
-  Window_EventItem.prototype.drawItemNumber = function (item, x, y, width) {
+  Window_EventItem.prototype.drawItemNumber = function(item, x, y, width) {
     this._drawItemNumber(item, x, y, width, params.SelectItemNumberDisplay);
   };
 

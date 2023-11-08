@@ -137,15 +137,15 @@ FTKR.RMC = FTKR.RMC || {};
 */
 //=============================================================================
 
-(function () {
+(function() {
 
     var _Game_Character_processMoveCommand = Game_Character.prototype.processMoveCommand;
-    Game_Character.prototype.processMoveCommand = function (command) {
+    Game_Character.prototype.processMoveCommand = function(command) {
         var params = command.parameters;
         if (command.code === Game_Character.ROUTE_SCRIPT) {
             var args = /([^:\s]+)[ ]*:[ ]*(.*)/.exec(params[0]);
             if (args) {
-                switch (args[1].toUpperCase()) {
+                switch(args[1].toUpperCase()) {
                     case 'START_IF':
                         this._isIfProcess = true;
                         this._passIfProcess = !eval(args[2]);
@@ -165,7 +165,7 @@ FTKR.RMC = FTKR.RMC || {};
                         return;
                 }
             } else {
-                switch (params[0].toUpperCase()) {
+                switch(params[0].toUpperCase()) {
                     case 'ELSE':
                         if (this._isIfProcess) {
                             this._passIfProcess = !this._passIfProcess;
@@ -193,7 +193,7 @@ FTKR.RMC = FTKR.RMC || {};
         _Game_Character_processMoveCommand.call(this, command);
     };
 
-    Game_Character.prototype.distanceEvent = function (eventId) {
+    Game_Character.prototype.distanceEvent = function(eventId) {
         var chara = null;
         if (eventId === -1) {
             chara = $gamePlayer;

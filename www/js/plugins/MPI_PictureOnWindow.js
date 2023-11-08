@@ -39,24 +39,24 @@ Imported.MPI_PictureOnWindow = true;
 var Makonet = Makonet || {};
 Makonet.POW = {};
 
-(function () {
+(function(){
     'use strict';
 
-    var MPD = Makonet.POW;
-    MPD.product = 'MPI_PictureOnWindow';
+    var MPD        = Makonet.POW;
+    MPD.product    = 'MPI_PictureOnWindow';
     MPD.parameters = PluginManager.parameters(MPD.product);
-    MPD.pictureId = MPD.parameters['ピクチャ番号'].trim().split(/ *, */).map(function (value) { return +value });
-
+    MPD.pictureId  = MPD.parameters['ピクチャ番号'].trim().split(/ *, */).map(function(value){ return +value });
+    
     var _ = MPD.product;
-
+    
     //==============================================================================
     // Spriteset_Base
     //==============================================================================
 
     (function (o, p) {
-        var f = o[p]; o[p] = function () {
+        var f = o[p]; o[p] = function() {
             f.apply(this, arguments);
-            this._pictureContainer.children.forEach(function (picture) {
+            this._pictureContainer.children.forEach(function(picture) {
                 if (~MPD.pictureId.indexOf(picture._pictureId)) {
                     this._pictureContainer.removeChild(picture);
                 }
@@ -69,7 +69,7 @@ Makonet.POW = {};
     //==============================================================================
 
     (function (o, p) {
-        var f = o[p]; o[p] = function () {
+        var f = o[p]; o[p] = function() {
             f.apply(this, arguments);
             var width = Graphics.boxWidth;
             var height = Graphics.boxHeight;
@@ -77,7 +77,7 @@ Makonet.POW = {};
             var y = (Graphics.height - height) / 2;
             var sprite = new Sprite();
             sprite.setFrame(x, y, width, height);
-            MPD.pictureId.forEach(function (id) {
+            MPD.pictureId.forEach(function(id) {
                 sprite.addChild(new Sprite_Picture(id));
             });
             this.addChild(sprite);

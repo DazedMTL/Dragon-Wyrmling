@@ -452,24 +452,24 @@ FTKR.CSS.SpS = FTKR.CSS.SpS || {};
  */
 
 function Window_ShopItemStatus() {
-    this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
 function Window_ShopWeaponStatus() {
-    this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
 function Window_ShopArmorStatus() {
-    this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
-if (Imported.FTKR_CSS) (function () {
+if (Imported.FTKR_CSS) (function() {
 
-    var paramParse = function (obj) {
+    var paramParse = function(obj) {
         return JSON.parse(JSON.stringify(obj, paramReplace));
     };
 
-    var paramReplace = function (key, value) {
+    var paramReplace = function(key, value) {
         try {
             return JSON.parse(value || null);
         } catch (e) {
@@ -484,49 +484,49 @@ if (Imported.FTKR_CSS) (function () {
 
     //簡易ステータスオブジェクト
     FTKR.CSS.SpS.comStatus = {
-        statusList: paramParse(parameters['commonStatusList']),
-        spaceIn: Number(parameters['Common Status Space In Text'] || 0),
-        target: null,
+        statusList : paramParse(parameters['commonStatusList']),
+        spaceIn   :Number(parameters['Common Status Space In Text'] || 0),
+        target    :null,
     };
 
     FTKR.CSS.SpS.itemStatus = {
-        statusList: paramParse(parameters['itemStatusList']),
-        spaceIn: Number(parameters['Item Status Space In Text'] || 0),
-        target: null,
+        statusList : paramParse(parameters['itemStatusList']),
+        spaceIn   :Number(parameters['Item Status Space In Text'] || 0),
+        target    :null,
     };
 
     FTKR.CSS.SpS.weaponStatus = {
-        statusList: paramParse(parameters['weaponStatusList']),
-        spaceIn: Number(parameters['Weapon Status Space In Text'] || 0),
-        target: null,
+        statusList : paramParse(parameters['weaponStatusList']),
+        spaceIn   :Number(parameters['Weapon Status Space In Text'] || 0),
+        target    :null,
     };
 
     FTKR.CSS.SpS.armorStatus = {
-        statusList: paramParse(parameters['armorStatusList']),
-        spaceIn: Number(parameters['Armor Status Space In Text'] || 0),
-        target: null,
+        statusList : paramParse(parameters['armorStatusList']),
+        spaceIn   :Number(parameters['Armor Status Space In Text'] || 0),
+        target    :null,
     };
 
     FTKR.CSS.SpS.comWindow = {
-        numVisibleRows: Number(parameters['Common Number Visible Rows'] || 0),
-        fontSize: Number(parameters['Common Font Size'] || 0),
-        padding: Number(parameters['Common Window Padding'] || 0),
-        lineHeight: Number(parameters['Common Window Line Height'] || 0),
-        opacity: Number(parameters['Common Window Opacity'] || 0),
-        hideFrame: Number(parameters['Common Hide Window Frame'] || 0),
+        numVisibleRows:Number(parameters['Common Number Visible Rows'] || 0),
+        fontSize      :Number(parameters['Common Font Size'] || 0),
+        padding       :Number(parameters['Common Window Padding'] || 0),
+        lineHeight    :Number(parameters['Common Window Line Height'] || 0),
+        opacity       :Number(parameters['Common Window Opacity'] || 0),
+        hideFrame     :Number(parameters['Common Hide Window Frame'] || 0),
     };
 
     FTKR.CSS.SpS.itemWindow = {
-        enabled: true,
-        numVisibleRows: Number(parameters['Item Number Visible Rows'] || 0),
-        maxCols: Number(parameters['Item Page Size'] || 0),
-        actorRows: Number(parameters['Item Actor Status Rows'] || 0),
-        fontSize: Number(parameters['Item Font Size'] || 0),
-        padding: Number(parameters['Item Window Padding'] || 0),
-        lineHeight: Number(parameters['Item Window Line Height'] || 0),
-        opacity: Number(parameters['Item Window Opacity'] || 0),
-        hideFrame: Number(parameters['Item Hide Window Frame'] || 0),
-        hspace: Number(parameters['Item Height Space'] || 0),
+        enabled       :true,
+        numVisibleRows:Number(parameters['Item Number Visible Rows'] || 0),
+        maxCols       :Number(parameters['Item Page Size'] || 0),
+        actorRows     :Number(parameters['Item Actor Status Rows'] || 0),
+        fontSize      :Number(parameters['Item Font Size'] || 0),
+        padding       :Number(parameters['Item Window Padding'] || 0),
+        lineHeight    :Number(parameters['Item Window Line Height'] || 0),
+        opacity       :Number(parameters['Item Window Opacity'] || 0),
+        hideFrame     :Number(parameters['Item Hide Window Frame'] || 0),
+        hspace        :Number(parameters['Item Height Space'] || 0),
     };
 
     //=============================================================================
@@ -534,15 +534,15 @@ if (Imported.FTKR_CSS) (function () {
     //=============================================================================
 
     var _SpS_Window_Base_drawCssActorStatusBase_A1 = Window_Base.prototype.drawCssActorStatusBase_A1;
-    Window_Base.prototype.drawCssActorStatusBase_A1 = function (index, actor, x, y, width, match, lss, css) {
-        switch (match[1].toUpperCase()) {
+    Window_Base.prototype.drawCssActorStatusBase_A1 = function(index, actor, x, y, width, match, lss, css) {
+        switch(match[1].toUpperCase()) {
             case 'ITEMIMAGE':
                 return this.drawCssItemImage(actor, x, y, width, match[2], lss);
         }
         return _SpS_Window_Base_drawCssActorStatusBase_A1.call(this, index, actor, x, y, width, match, lss, css);
     };
 
-    Window_Base.prototype.drawCssItemImage = function (actor, dx, dy, width, id, lss) {
+    Window_Base.prototype.drawCssItemImage = function(actor, dx, dy, width, id, lss) {
         var item = FTKR.gameData.item || lss.item;
         if (!item || !item.cssbgi) return 1;
         id = id || 0;
@@ -568,38 +568,38 @@ if (Imported.FTKR_CSS) (function () {
     //=============================================================================
 
     var _SpS_Window_ShopStatus_initialize = Window_ShopStatus.prototype.initialize;
-    Window_ShopStatus.prototype.initialize = function (x, y, width, height) {
+    Window_ShopStatus.prototype.initialize = function(x, y, width, height) {
         height = this.fittingHeight(this.numVisibleRows());
         _SpS_Window_ShopStatus_initialize.call(this, x, y, width, height);
     };
 
-    Window_ShopStatus.prototype.standardCssStatus = function () {
+    Window_ShopStatus.prototype.standardCssStatus = function() {
         return FTKR.CSS.SpS.comStatus;
     };
 
-    Window_ShopStatus.prototype.standardCssLayout = function () {
+    Window_ShopStatus.prototype.standardCssLayout = function() {
         return FTKR.CSS.SpS.comWindow;
     };
 
-    Window_ShopStatus.prototype.evalCssStrFormula = function (actor, formula) {
+    Window_ShopStatus.prototype.evalCssStrFormula = function(actor, formula) {
         if (!formula) return '';
         FTKR.setGameData(actor, null, this._item);
         return FTKR.evalStrFormula(formula);
     };
 
-    Window_ShopStatus.prototype.evalCssCustomFormula = function (actor, formula) {
+    Window_ShopStatus.prototype.evalCssCustomFormula = function(actor, formula) {
         if (!formula) return '';
         FTKR.setGameData(actor, null, this._item);
         return FTKR.evalFormula(formula);
     };
 
-    Window_ShopStatus.prototype.checkShowEquipParam = function (actor, target) {
+    Window_ShopStatus.prototype.checkShowEquipParam = function(actor, target) {
         var item = this._item;
         return !!target && item && actor.canEquip(item);
     };
 
     //書き換え
-    Window_ShopStatus.prototype.refresh = function () {
+    Window_ShopStatus.prototype.refresh = function() {
         this.contents.clear();
         if (this._item) {
             var lss = this._lssStatus;
@@ -612,7 +612,7 @@ if (Imported.FTKR_CSS) (function () {
 
     //書き換え
     //ウィンドウの行数
-    Window_ShopStatus.prototype.numVisibleRows = function () {
+    Window_ShopStatus.prototype.numVisibleRows = function() {
         return FTKR.CSS.SpS.comWindow.numVisibleRows;
     };
 
@@ -620,7 +620,7 @@ if (Imported.FTKR_CSS) (function () {
     // Window_ShopBuy
     //=============================================================================
 
-    Window_ShopBuy.prototype.showItemstatusWindows = function (item) {
+    Window_ShopBuy.prototype.showItemstatusWindows = function(item) {
         if (DataManager.isWeapon(item)) {
             this._itemStatusWindow.hide();
             this._weaponStatusWindow.show();
@@ -636,28 +636,28 @@ if (Imported.FTKR_CSS) (function () {
         }
     };
 
-    Window_ShopBuy.prototype.select = function (index) {
+    Window_ShopBuy.prototype.select = function(index) {
         Window_Selectable.prototype.select.call(this, index);
         if (this.index() >= 0 && this._itemStatusWindow) this.showItemstatusWindows(this.item())
     };
 
-    Window_ShopBuy.prototype.setItemStatusWindow = function (statusWindow) {
+    Window_ShopBuy.prototype.setItemStatusWindow = function(statusWindow) {
         this._itemStatusWindow = statusWindow;
         this.callUpdateHelp();
     };
 
-    Window_ShopBuy.prototype.setWeaponStatusWindow = function (statusWindow) {
+    Window_ShopBuy.prototype.setWeaponStatusWindow = function(statusWindow) {
         this._weaponStatusWindow = statusWindow;
         this.callUpdateHelp();
     };
 
-    Window_ShopBuy.prototype.setArmorStatusWindow = function (statusWindow) {
+    Window_ShopBuy.prototype.setArmorStatusWindow = function(statusWindow) {
         this._armorStatusWindow = statusWindow;
         this.callUpdateHelp();
     };
 
     var _SpS_Window_ShopBuy_updateHelp = Window_ShopBuy.prototype.updateHelp;
-    Window_ShopBuy.prototype.updateHelp = function () {
+    Window_ShopBuy.prototype.updateHelp = function() {
         _SpS_Window_ShopBuy_updateHelp.call(this);
         if (this._itemStatusWindow) {
             this._itemStatusWindow.setItem(this.item());
@@ -678,7 +678,7 @@ if (Imported.FTKR_CSS) (function () {
     Window_ShopItemStatus.prototype = Object.create(Window_Base.prototype);
     Window_ShopItemStatus.prototype.constructor = Window_ShopItemStatus;
 
-    Window_ShopItemStatus.prototype.initialize = function (x, y, width, height) {
+    Window_ShopItemStatus.prototype.initialize = function(x, y, width, height) {
         Window_Base.prototype.initialize.call(this, x, y, width, height);
         this._item = null;
         this._actor = null;
@@ -687,7 +687,7 @@ if (Imported.FTKR_CSS) (function () {
         this.refresh();
     };
 
-    Window_ShopItemStatus.prototype.initCssLayout = function () {
+    Window_ShopItemStatus.prototype.initCssLayout = function() {
         Window_Base.prototype.initCssLayout.call(this);
         var lss = this.standardCssLayout();
         if (lss) {
@@ -697,53 +697,53 @@ if (Imported.FTKR_CSS) (function () {
         }
     };
 
-    Window_ShopItemStatus.prototype.standardCssLayout = function () {
+    Window_ShopItemStatus.prototype.standardCssLayout = function() {
         return FTKR.CSS.SpS.itemWindow;
     };
 
-    Window_ShopItemStatus.prototype.standardCssStatus = function () {
+    Window_ShopItemStatus.prototype.standardCssStatus = function() {
         return FTKR.CSS.SpS.itemStatus;
     };
 
-    Window_ShopItemStatus.prototype.actorRows = function () {
+    Window_ShopItemStatus.prototype.actorRows = function() {
         return this._css_cursorHeight ?
             this._css_cursorHeight : FTKR.CSS.SpS.itemWindow.actorRows;
     };
 
-    Window_ShopItemStatus.prototype.pageSize = function () {
+    Window_ShopItemStatus.prototype.pageSize = function() {
         return this._css_maxCols ? this._css_maxCols :
             FTKR.CSS.SpS.itemWindow.maxCols;
     };
 
-    Window_ShopItemStatus.prototype.heightSpace = function () {
+    Window_ShopItemStatus.prototype.heightSpace = function() {
         return this._css_hSpace ? this._css_hSpace :
             FTKR.CSS.SpS.itemWindow.hspace;
     };
 
-    Window_ShopItemStatus.prototype.setTempActor = function (actor) {
+    Window_ShopItemStatus.prototype.setTempActor = function(actor) {
         var tempActor = JsonEx.makeDeepCopy(actor);
         tempActor.forceChangeEquip(this._item.etypeId - 1, this._item);
         this._tempActor = tempActor;
     };
 
-    Window_ShopItemStatus.prototype.evalCssStrFormula = function (actor, formula) {
+    Window_ShopItemStatus.prototype.evalCssStrFormula = function(actor, formula) {
         if (!formula) return '';
         FTKR.setGameData(actor, this._tempActor, this._item);
         return FTKR.evalStrFormula(formula);
     };
 
-    Window_ShopItemStatus.prototype.evalCssCustomFormula = function (actor, formula) {
+    Window_ShopItemStatus.prototype.evalCssCustomFormula = function(actor, formula) {
         if (!formula) return '';
         FTKR.setGameData(actor, this._tempActor, this._item);
         return FTKR.evalFormula(formula);
     };
 
-    Window_ShopItemStatus.prototype.checkShowEquipParam = function (actor, target) {
+    Window_ShopItemStatus.prototype.checkShowEquipParam = function(actor, target) {
         var item = this._item;
         return !!target && item && actor.canEquip(item);
     };
 
-    Window_ShopItemStatus.prototype.drawItem = function (index, w, h) {
+    Window_ShopItemStatus.prototype.drawItem = function(index, w, h) {
         var lss = this._lssStatus;
         var actor = $gameParty.members()[index];
         this.setTempActor(actor);
@@ -754,11 +754,11 @@ if (Imported.FTKR_CSS) (function () {
         this.drawCssActorStatus(index, actor, 0, y, w, h, lss);
     };
 
-    Window_ShopItemStatus.prototype.topIndex = function () {
+    Window_ShopItemStatus.prototype.topIndex = function() {
         return this._pageIndex * this.pageSize();
     };
 
-    Window_ShopItemStatus.prototype.drawAllItems = function (w, h) {
+    Window_ShopItemStatus.prototype.drawAllItems = function(w, h) {
         var topIndex = this.topIndex();
         for (var i = 0; i < this.pageSize(); i++) {
             var index = topIndex + i;
@@ -770,7 +770,7 @@ if (Imported.FTKR_CSS) (function () {
         }
     };
 
-    Window_ShopItemStatus.prototype.refresh = function () {
+    Window_ShopItemStatus.prototype.refresh = function() {
         this.contents.clear();
         if (this._item) {
             var w = this.width - this.padding * 2;
@@ -784,35 +784,35 @@ if (Imported.FTKR_CSS) (function () {
         }
     };
 
-    Window_ShopItemStatus.prototype.setItem = function (item) {
+    Window_ShopItemStatus.prototype.setItem = function(item) {
         this._item = item;
         this.refresh();
     };
 
-    Window_ShopItemStatus.prototype.isEquipItem = function () {
+    Window_ShopItemStatus.prototype.isEquipItem = function() {
         return DataManager.isWeapon(this._item) || DataManager.isArmor(this._item);
     };
 
-    Window_ShopItemStatus.prototype.maxPages = function () {
+    Window_ShopItemStatus.prototype.maxPages = function() {
         return Math.floor(($gameParty.size() + this.pageSize() - 1) / this.pageSize());
     };
 
-    Window_ShopItemStatus.prototype.update = function () {
+    Window_ShopItemStatus.prototype.update = function() {
         Window_Base.prototype.update.call(this);
         this.updatePage();
     };
 
-    Window_ShopItemStatus.prototype.updatePage = function () {
+    Window_ShopItemStatus.prototype.updatePage = function() {
         if (this.isPageChangeEnabled() && this.isPageChangeRequested()) {
             this.changePage();
         }
     };
 
-    Window_ShopItemStatus.prototype.isPageChangeEnabled = function () {
+    Window_ShopItemStatus.prototype.isPageChangeEnabled = function() {
         return this.visible && this.maxPages() >= 2;
     };
 
-    Window_ShopItemStatus.prototype.isPageChangeRequested = function () {
+    Window_ShopItemStatus.prototype.isPageChangeRequested = function() {
         if (Input.isTriggered('shift')) {
             return true;
         }
@@ -822,13 +822,13 @@ if (Imported.FTKR_CSS) (function () {
         return false;
     };
 
-    Window_ShopItemStatus.prototype.isTouchedInsideFrame = function () {
+    Window_ShopItemStatus.prototype.isTouchedInsideFrame = function() {
         var x = this.canvasToLocalX(TouchInput.x);
         var y = this.canvasToLocalY(TouchInput.y);
         return x >= 0 && y >= 0 && x < this.width && y < this.height;
     };
 
-    Window_ShopItemStatus.prototype.changePage = function () {
+    Window_ShopItemStatus.prototype.changePage = function() {
         this._pageIndex = (this._pageIndex + 1) % this.maxPages();
         this.refresh();
         SoundManager.playCursor();
@@ -836,7 +836,7 @@ if (Imported.FTKR_CSS) (function () {
 
     //書き換え
     //ウィンドウの行数
-    Window_ShopItemStatus.prototype.numVisibleRows = function () {
+    Window_ShopItemStatus.prototype.numVisibleRows = function() {
         return FTKR.CSS.SpS.itemWindow.numVisibleRows;
     };
 
@@ -848,20 +848,20 @@ if (Imported.FTKR_CSS) (function () {
     Window_ShopWeaponStatus.prototype = Object.create(Window_ShopItemStatus.prototype);
     Window_ShopWeaponStatus.prototype.constructor = Window_ShopWeaponStatus;
 
-    Window_ShopWeaponStatus.prototype.standardCssStatus = function () {
+    Window_ShopWeaponStatus.prototype.standardCssStatus = function() {
         return FTKR.CSS.SpS.weaponStatus;
     };
 
-    Window_ShopWeaponStatus.prototype.initialize = function (x, y, width, height) {
+    Window_ShopWeaponStatus.prototype.initialize = function(x, y, width, height) {
         Window_ShopItemStatus.prototype.initialize.apply(this, arguments);
         if (typeof $dataContainerProperties !== 'undefined') {
-            if (this.pageSize) this._customCssMaxCols = this.pageSize();
-            if (this.actorRows) this._customCssCursorHeight = this.actorRows();
-            if (this.heightSpace) this._customCssHSpace = this.heightSpace();
+            if(this.pageSize) this._customCssMaxCols = this.pageSize();
+            if(this.actorRows) this._customCssCursorHeight = this.actorRows();
+            if(this.heightSpace) this._customCssHSpace = this.heightSpace();
         }
     };
 
-    Window_ShopWeaponStatus.prototype.refresh = function () {
+    Window_ShopWeaponStatus.prototype.refresh = function() {
         this.contents.clear();
         if (this._item) {
             var w = this.width - this.padding * 2;
@@ -871,7 +871,7 @@ if (Imported.FTKR_CSS) (function () {
             }
         }
     };
-
+    
     //=============================================================================
     // Window_ShopArmorStatus
     // 防具ステータスウィンドウ
@@ -880,7 +880,7 @@ if (Imported.FTKR_CSS) (function () {
     Window_ShopArmorStatus.prototype = Object.create(Window_ShopWeaponStatus.prototype);
     Window_ShopArmorStatus.prototype.constructor = Window_ShopArmorStatus;
 
-    Window_ShopArmorStatus.prototype.standardCssStatus = function () {
+    Window_ShopArmorStatus.prototype.standardCssStatus = function() {
         return FTKR.CSS.SpS.armorStatus;
     };
 
@@ -888,31 +888,31 @@ if (Imported.FTKR_CSS) (function () {
     // Scene_Shop
     //=============================================================================
     var _SpS_Scene_Shop_prepare = Scene_Shop.prototype.prepare;
-    Scene_Shop.prototype.prepare = function (goods, purchaseOnly) {
+    Scene_Shop.prototype.prepare = function(goods, purchaseOnly) {
         _SpS_Scene_Shop_prepare.call(this, goods, purchaseOnly);
-        this._goods.forEach(function (goods) {
+        this._goods.forEach(function(goods) {
             var item = null;
             switch (goods[0]) {
-                case 0:
-                    item = $dataItems[goods[1]];
-                    break;
-                case 1:
-                    item = $dataWeapons[goods[1]];
-                    break;
-                case 2:
-                    item = $dataArmors[goods[1]];
-                    break;
+            case 0:
+                item = $dataItems[goods[1]];
+                break;
+            case 1:
+                item = $dataWeapons[goods[1]];
+                break;
+            case 2:
+                item = $dataArmors[goods[1]];
+                break;
             }
             if (item) {
-                item.cssbgi.forEach(function (bgi) {
+                item.cssbgi.forEach(function(bgi){
                     ImageManager.loadPicture(bgi.name);
                 });
             }
         }, this);
     };
-
+  
     //書き換え
-    Scene_Shop.prototype.create = function () {
+    Scene_Shop.prototype.create = function() {
         Scene_MenuBase.prototype.create.call(this);
         this.createHelpWindow();
         this.createGoldWindow();
@@ -928,7 +928,7 @@ if (Imported.FTKR_CSS) (function () {
         this.createSellWindow();
     };
 
-    Scene_Shop.prototype.createItemStatusWindow = function () {
+    Scene_Shop.prototype.createItemStatusWindow = function() {
         var wx = this._numberWindow.width;
         var wy = this._statusWindow.y + this._statusWindow.height;
         var ww = Graphics.boxWidth - wx;
@@ -938,7 +938,7 @@ if (Imported.FTKR_CSS) (function () {
         this.addWindow(this._itemStatusWindow);
     };
 
-    Scene_Shop.prototype.createWeaponStatusWindow = function () {
+    Scene_Shop.prototype.createWeaponStatusWindow = function() {
         var wx = this._numberWindow.width;
         var wy = this._statusWindow.y + this._statusWindow.height;
         var ww = Graphics.boxWidth - wx;
@@ -948,7 +948,7 @@ if (Imported.FTKR_CSS) (function () {
         this.addWindow(this._weaponStatusWindow);
     };
 
-    Scene_Shop.prototype.createArmorStatusWindow = function () {
+    Scene_Shop.prototype.createArmorStatusWindow = function() {
         var wx = this._numberWindow.width;
         var wy = this._statusWindow.y + this._statusWindow.height;
         var ww = Graphics.boxWidth - wx;
@@ -959,14 +959,14 @@ if (Imported.FTKR_CSS) (function () {
     };
 
     var _SpS_Scene_Shop_createBuyWindow = Scene_Shop.prototype.createBuyWindow;
-    Scene_Shop.prototype.createBuyWindow = function () {
+    Scene_Shop.prototype.createBuyWindow = function() {
         _SpS_Scene_Shop_createBuyWindow.call(this);
         this._buyWindow.setItemStatusWindow(this._itemStatusWindow);
         this._buyWindow.setWeaponStatusWindow(this._weaponStatusWindow);
         this._buyWindow.setArmorStatusWindow(this._armorStatusWindow);
     };
 
-    Scene_Shop.prototype.showItemstatusWindows = function (item) {
+    Scene_Shop.prototype.showItemstatusWindows = function(item) {
         if (DataManager.isWeapon(item)) {
             this._weaponStatusWindow.show();
         } else if (DataManager.isArmor(item)) {
@@ -976,64 +976,64 @@ if (Imported.FTKR_CSS) (function () {
         }
     };
 
-    Scene_Shop.prototype.hideItemstatusWindows = function () {
+    Scene_Shop.prototype.hideItemstatusWindows = function() {
         this._itemStatusWindow.hide();
         this._weaponStatusWindow.hide();
         this._armorStatusWindow.hide();
     };
 
-    Scene_Shop.prototype.setItemstatusWindows = function (item) {
+    Scene_Shop.prototype.setItemstatusWindows = function(item) {
         this._itemStatusWindow.setItem(item);
         this._weaponStatusWindow.setItem(item);
         this._armorStatusWindow.setItem(item);
     };
 
-    Scene_Shop.prototype.clearItemstatusWindows = function () {
+    Scene_Shop.prototype.clearItemstatusWindows = function() {
         this._itemStatusWindow.setItem(null);
         this._weaponStatusWindow.setItem(null);
         this._armorStatusWindow.setItem(null);
     };
 
-    Scene_Shop.prototype.refreshItemstatusWindows = function () {
+    Scene_Shop.prototype.refreshItemstatusWindows = function() {
         this._itemStatusWindow.refresh();
         this._weaponStatusWindow.refresh();
         this._armorStatusWindow.refresh();
     };
 
     var _SpS_Scene_Shop_activateBuyWindow = Scene_Shop.prototype.activateBuyWindow;
-    Scene_Shop.prototype.activateBuyWindow = function () {
+    Scene_Shop.prototype.activateBuyWindow = function() {
         _SpS_Scene_Shop_activateBuyWindow.call(this);
         this.showItemstatusWindows(this._buyWindow.item());
     };
 
     var _SpS_Scene_Shop_activateSellWindow = Scene_Shop.prototype.activateSellWindow;
-    Scene_Shop.prototype.activateSellWindow = function () {
+    Scene_Shop.prototype.activateSellWindow = function() {
         _SpS_Scene_Shop_activateSellWindow.call(this);
         this.hideItemstatusWindows();
     };
 
     var _SpS_Scene_Shop_onBuyCancel = Scene_Shop.prototype.onBuyCancel;
-    Scene_Shop.prototype.onBuyCancel = function () {
+    Scene_Shop.prototype.onBuyCancel = function() {
         _SpS_Scene_Shop_onBuyCancel.call(this);
         this.hideItemstatusWindows();
         this.clearItemstatusWindows();
     };
 
     var _SpS_Scene_Shop_onSellOk = Scene_Shop.prototype.onSellOk;
-    Scene_Shop.prototype.onSellOk = function () {
+    Scene_Shop.prototype.onSellOk = function() {
         _SpS_Scene_Shop_onSellOk.call(this);
         this.setItemstatusWindows(this._item);
         this.showItemstatusWindows(this._item);
     };
 
     var _SpS_Scene_Shop_onSellCancel = Scene_Shop.prototype.onSellCancel;
-    Scene_Shop.prototype.onSellCancel = function () {
+    Scene_Shop.prototype.onSellCancel = function() {
         _SpS_Scene_Shop_onSellCancel.call(this);
         this.clearItemstatusWindows();
     };
 
     var _SpS_Scene_Shop_onNumberOk = Scene_Shop.prototype.onNumberOk;
-    Scene_Shop.prototype.onNumberOk = function () {
+    Scene_Shop.prototype.onNumberOk = function() {
         _SpS_Scene_Shop_onNumberOk.call(this);
         this.refreshItemstatusWindows();
     };
