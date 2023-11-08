@@ -5029,7 +5029,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "成長限界です。"
+                                "This is the limit of growth."
                             ]
                         },
                         {

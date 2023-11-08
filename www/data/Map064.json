@@ -2616,21 +2616,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
+                                "＊You can unlock the ending and event scenes＊ ＊Do\nyou want to unlock them?＊"
+                            ]
+                        },
+                        {
+                            "code": 0,
+                            "indent": 0,
+                            "parameters": [
                                 ""
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                " ＊　ED・及びイベントシーンを全開放可能です　＊"
-                            ]
-                        },
-                        {
-                            "code": 401,
-                            "indent": 0,
-                            "parameters": [
-                                " ＊　　　　　　　解放しますか？　　　　　　　＊　　　　　　　　　"
+                                ""
                             ]
                         },
                         {
@@ -2638,8 +2638,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "はい",
-                                    "いいえ"
+                                    "Yes",
+                                    "No"
                                 ],
                                 1,
                                 0,
@@ -2875,14 +2875,14 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                ""
+                                "Ginyuu. Isukuvoreru's collection of paintings."
                             ]
                         },
                         {
-                            "code": 401,
+                            "code": 0,
                             "indent": 0,
                             "parameters": [
-                                "銀竜・イスクヴォレルのコレクションの絵画だ。"
+                                ""
                             ]
                         },
                         {
@@ -2959,7 +2959,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
+                                "Perform the Dragonkind Blood Ritual"
                             ]
                         },
                         {
@@ -3549,7 +3549,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Clear the scenario"
+                                "Clear the scenario"
                             ]
                         },
                         {
@@ -3640,7 +3640,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ED1: The adventure continues."
+                                "The adventure continues."
                             ]
                         },
                         {
@@ -3940,7 +3940,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock Condition: Perform the Blood Ritual of the\nDragon Kind."
+                                "Perform the Blood Ritual of the Dragon Kind."
                             ]
                         },
                         {
@@ -4320,7 +4320,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock Condition: Perform the Blood Ritual of the\nDragonkind."
+                                "Perform the Blood Ritual of the Dragonkind."
                             ]
                         },
                         {
@@ -4700,7 +4700,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
+                                "Perform the Dragonkind Blood Ritual"
                             ]
                         },
                         {
@@ -5179,7 +5179,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
+                                "Perform the Dragonkind Blood Ritual"
                             ]
                         },
                         {
@@ -5526,7 +5526,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Work as a bunny at the bar"
+                                "Work as a bunny at the bar"
                             ]
                         },
                         {
@@ -5873,7 +5873,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Work as a bunny at the bar"
+                                "Work as a bunny at the bar"
                             ]
                         },
                         {
@@ -6220,7 +6220,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
+                                "Perform the Dragonkind Blood Ritual"
                             ]
                         },
                         {
@@ -6567,7 +6567,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Dragonkind Blood\nRitual"
+                                "Perform the Dragonkind Blood Ritual"
                             ]
                         },
                         {
@@ -6892,7 +6892,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Include Erick in the party and\nperform the Dragonkind Light Blessing."
+                                "Include Erick in the party and perform the\nDragonkind Light Blessing."
                             ]
                         },
                         {
@@ -7217,7 +7217,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Include Erick in the party and\nperform the Dragonkind Light Blessing."
+                                "Include Erick in the party and perform the\nDragonkind Light Blessing."
                             ]
                         },
                         {
@@ -7542,7 +7542,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Perform the Blood Ritual of the\nDragonkind."
+                                "Perform the Blood Ritual of the Dragonkind."
                             ]
                         },
                         {
@@ -7874,7 +7874,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Forgotten Waterway conquest"
+                                "Forgotten Waterway conquest"
                             ]
                         },
                         {
@@ -8206,7 +8206,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Release condition: Escape from the kidnappers'\nhideout"
+                                "Escape from the kidnappers' hideout"
                             ]
                         },
                         {
@@ -8531,7 +8531,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: After recruiting the teacher, do\nnot put her in the party for 5 days."
+                                "After recruiting the teacher, do not put her in\nthe party for 5 days."
                             ]
                         },
                         {
@@ -8863,7 +8863,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Recruit the adventurer Faria and\nperform the Dragonkind's light blessing."
+                                "Recruit the adventurer Faria and perform the\nDragonkind's light blessing."
                             ]
                         },
                         {
@@ -9250,7 +9250,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Rescue the adventurer Frey in\nthe forgotten waterway."
+                                "Rescue the adventurer Frey in the forgotten\nwaterway."
                             ]
                         },
                         {
@@ -9630,7 +9630,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Rescue the adventurer Elsie at\nMt. Grillta"
+                                "Rescue the adventurer Elsie at Mt. Grillta"
                             ]
                         },
                         {
@@ -10010,7 +10010,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Recruit the adventurer Seres and\nperform the Dragonkind's light blessing."
+                                "Recruit the adventurer Seres and perform the\nDragonkind's light blessing."
                             ]
                         },
                         {
@@ -10397,7 +10397,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Recruit the adventurer Wayne and\nperform the Dragonkind's Light Blessing."
+                                "Recruit the adventurer Wayne and perform the\nDragonkind's Light Blessing."
                             ]
                         },
                         {
@@ -10784,7 +10784,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Release condition: Rescue the adventurer Azusa in\nthe labyrinth of trials"
+                                "Rescue the adventurer Azusa in the labyrinth of\ntrials"
                             ]
                         },
                         {
@@ -11164,7 +11164,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Rescue the adventurer Ferir in\nthe Underworld"
+                                "Rescue the adventurer Ferir in the Underworld"
                             ]
                         },
                         {
@@ -12313,7 +12313,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Clear by collecting a lot of\nfurniture"
+                                "Clear by collecting a lot of furniture"
                             ]
                         },
                         {
@@ -12404,7 +12404,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ED2: A dragon living in a mountain of treasures"
+                                "A dragon living in a mountain of treasures"
                             ]
                         },
                         {
@@ -12563,7 +12563,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Clear many Dragonkind battles"
+                                "Clear many Dragonkind battles"
                             ]
                         },
                         {
@@ -12654,7 +12654,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ED3: Lewd Gold Prostitute"
+                                "Lewd Gold Prostitute"
                             ]
                         },
                         {
@@ -12813,7 +12813,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Clear by gathering many\nadventurers"
+                                "Clear by gathering many adventurers"
                             ]
                         },
                         {
@@ -12904,7 +12904,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "ED4: The Great Dragon"
+                                "The Great Dragon"
                             ]
                         },
                         {
@@ -13012,7 +13012,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Occasionally occurs in the\nvillage after experiencing Dragonkind several\ntimes."
+                                "Occasionally occurs in the village after\nexperiencing Dragonkind several times."
                             ]
                         },
                         {
@@ -13338,7 +13338,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: After Erick's Dragon Kind 2,\ninclude Eni-sensei and Erick in the party and\nperform the blessing of light."
+                                "After Erick's Dragon Kind 2, include Eni-sensei\nand Erick in the party and perform the blessing of\nlight."
                             ]
                         },
                         {
@@ -13642,7 +13642,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Release condition: Investigate suspicious areas in\nthe kidnapper's hideout"
+                                "Investigate suspicious areas in the kidnapper's\nhideout"
                             ]
                         },
                         {
@@ -14001,7 +14001,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Get kidnapped by a kidnapper"
+                                "Get kidnapped by a kidnapper"
                             ]
                         },
                         {
@@ -14344,7 +14344,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Get kidnapped by a human\ntrafficker"
+                                "Get kidnapped by a human trafficker"
                             ]
                         },
                         {
@@ -14677,7 +14677,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Get kidnapped by a human\ntrafficker"
+                                "Get kidnapped by a human trafficker"
                             ]
                         },
                         {
@@ -15010,7 +15010,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Recruit 8 or more adventurers"
+                                "Recruit 8 or more adventurers"
                             ]
                         },
                         {
@@ -15261,7 +15261,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock Condition: Join 12 or more adventurers +\nEni-sensei joins"
+                                "Join 12 or more adventurers + Eni-sensei joins"
                             ]
                         },
                         {
@@ -16417,7 +16417,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Unlock condition: Work as a bunny at the bar\nseveral times"
+                                "Work as a bunny at the bar several times"
                             ]
                         },
                         {
