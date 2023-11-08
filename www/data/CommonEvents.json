@@ -40613,7 +40613,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\i[346]Gold coins\\v[359] obtained!"
+                    "\\i[346]\\v[359] Gold Coins obtained!"
                 ]
             },
             {
@@ -41436,7 +41436,7 @@
                 "code": 401,
                 "indent": 1,
                 "parameters": [
-                    "\\i[346]Gold coins\\v[359] obtained!"
+                    "\\i[346]\\v[359] Gold Coins obtained!"
                 ]
             },
             {
