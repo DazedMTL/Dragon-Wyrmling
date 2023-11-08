@@ -50,7 +50,7 @@
 var Imported = Imported || {};
 Imported.TMEquipStatusEx = true;
 
-(function () {
+(function() {
 
   var parameters = PluginManager.parameters('TMEquipStatusEx');
   var paramList = parameters['paramList'].split(' ').map(Number);
@@ -59,11 +59,11 @@ Imported.TMEquipStatusEx = true;
   // Window_EquipStatus
   //
 
-  Window_EquipStatus.prototype.numVisibleRows = function () {
+  Window_EquipStatus.prototype.numVisibleRows = function() {
     return paramList.length + 1;
   };
 
-  Window_EquipStatus.prototype.refresh = function () {
+  Window_EquipStatus.prototype.refresh = function() {
     this.contents.clear();
     if (this._actor) {
       this.drawActorName(this._actor, this.textPadding(), 0);

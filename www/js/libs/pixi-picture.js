@@ -35,7 +35,7 @@ var PIXI;
                 var lib = shaderLib[tilingMode];
                 _super.call(this, gl, vert.replace(/%SPRITE_UNIFORMS%/gi, lib.vertUniforms)
                     .replace(/%SPRITE_CODE%/gi, lib.vertCode), frag.replace(/%SPRITE_UNIFORMS%/gi, lib.fragUniforms)
-                        .replace(/%SPRITE_CODE%/gi, lib.fragCode));
+                    .replace(/%SPRITE_CODE%/gi, lib.fragCode));
                 this.bind();
                 this.tilingMode = tilingMode;
                 this.tempQuad = new PIXI.Quad(gl);

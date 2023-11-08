@@ -72,11 +72,11 @@
  * 
  */
 
-(function () {
+(function() {
     'use strict';
-
+    
     var pluginName = 'AnimationFrameRate';
-    var getParam = function (paramNames) {
+    var getParam = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (var i = 0; i < paramNames.length; i++) {
             var name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -84,26 +84,26 @@
         }
         return "";
     };
-
+    
     var FR1 = getParam("framerate:1").substr(0, 1);
     var FR2 = getParam("framerate:2").substr(0, 1);
     var FR3 = getParam("framerate:3").substr(0, 1);
     var FR5 = getParam("framerate:5").substr(0, 1);
     var FR6 = getParam("framerate:6").substr(0, 1);
-
+    
     var _Sprite_Animation_setupRate = Sprite_Animation.prototype.setupRate;
-    Sprite_Animation.prototype.setupRate = function () {
-        if (!this._animation) {
-            _Sprite_Animation_setupRate.apply(this, arguments);
+    Sprite_Animation.prototype.setupRate = function() {
+        if(!this._animation) {
+            _Sprite_Animation_setupRate.apply(this, arguments); 
             return;
         }
-        var initial = this._animation.name.substr(0, 1);
-        if (initial === FR1) this._rate = 1;
-        else if (initial === FR2) this._rate = 2;
-        else if (initial === FR3) this._rate = 3;
-        else if (initial === FR5) this._rate = 5;
-        else if (initial === FR6) this._rate = 6;
+        var initial = this._animation.name.substr(0,1);
+        if(initial === FR1) this._rate = 1;
+        else if(initial === FR2) this._rate = 2;
+        else if(initial === FR3) this._rate = 3;
+        else if(initial === FR5) this._rate = 5;
+        else if(initial === FR6) this._rate = 6;
         else _Sprite_Animation_setupRate.apply(this, arguments);
     };
-
+    
 })();

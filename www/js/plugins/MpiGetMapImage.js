@@ -59,7 +59,7 @@
 var Imported = Imported || {};
 var Makonet = Makonet || {};
 
-(function () {
+(function(){
     'use strict';
 
     var plugin = 'MpiGetMapImage';
@@ -72,8 +72,8 @@ var Makonet = Makonet || {};
 
     $mpi.getImageTrigger1 = $mpi.parameters['GetImageTrigger1'];
     $mpi.getImageTrigger2 = $mpi.parameters['GetImageTrigger2'];
-    $mpi.outputFolder = $mpi.parameters['OutputFolder'];
-    $mpi.testModeOnly = $mpi.parameters['TestModeOnly'].toLowerCase() === 'true';
+    $mpi.outputFolder     = $mpi.parameters['OutputFolder'];
+    $mpi.testModeOnly     = $mpi.parameters['TestModeOnly'].toLowerCase() === 'true';
 
     var _ = plugin;
     var $_ = `$${_}`;
@@ -170,8 +170,8 @@ var Makonet = Makonet || {};
     // Scene_Map
     //==============================================================================
 
-    (function (o, p) {
-        var f = o[p]; o[p] = function () {
+    (function(o,p){
+        var f=o[p];o[p]=function(){
             if (Utils.isOptionValid('test') || !$mpi.testModeOnly) {
                 var trigger1 = !!eval($mpi.getImageTrigger1);
                 var trigger2 = !!eval($mpi.getImageTrigger2);
@@ -190,7 +190,7 @@ var Makonet = Makonet || {};
                     }
                 }
             }
-            f.apply(this, arguments);
+            f.apply(this,arguments);
         };
-    }(Scene_Map.prototype, 'update'));
+    }(Scene_Map.prototype,'update'));
 }());

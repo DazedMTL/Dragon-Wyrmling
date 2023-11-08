@@ -57,47 +57,47 @@
  *
  */
 
-(function () {
+(function() {
 
-    var MPPlugin = {};
+var MPPlugin = {};
 
-    (function () {
+(function() {
+    
+    var parameters = PluginManager.parameters('MPP_CallCommonByName');
+    
+    MPPlugin.PluginCommands = JSON.parse(parameters['Plugin Commands']);
 
-        var parameters = PluginManager.parameters('MPP_CallCommonByName');
+})();
 
-        MPPlugin.PluginCommands = JSON.parse(parameters['Plugin Commands']);
+//-----------------------------------------------------------------------------
+// Game_Interpreter
 
-    })();
-
-    //-----------------------------------------------------------------------------
-    // Game_Interpreter
-
-    var _GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _GaIn_pluginCommand.call(this, command, args);
-        switch (command) {
-            case MPPlugin.PluginCommands.CallCommon:
-            case 'CallCommon':
-                for (var i = $dataCommonEvents.length - 1; i > 0; i--) {
-                    var event = $dataCommonEvents[i];
-                    if (event.name === args[0]) {
-                        var eventId = this.isOnCurrentMap() ? this._eventId : 0;
-                        this.setupChild(event.list, eventId);
-                        break;
-                    }
+var _GaIn_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+    _GaIn_pluginCommand.call(this, command, args);
+    switch (command) {
+        case MPPlugin.PluginCommands.CallCommon:
+        case 'CallCommon':
+            for (var i = $dataCommonEvents.length - 1; i > 0; i--) {
+                var event = $dataCommonEvents[i];
+                if (event.name === args[0]) {
+                    var eventId = this.isOnCurrentMap() ? this._eventId : 0;
+                    this.setupChild(event.list, eventId);
+                    break;
                 }
-            case MPPlugin.PluginCommands.CCT:
-            case 'CCT':
-                for (var i = $dataCommonEvents.length - 1; i > 0; i--) {
-                    var event = $dataCommonEvents[i];
-                    if (event.name.indexOf(args[0]) === 0) {
-                        var eventId = this.isOnCurrentMap() ? this._eventId : 0;
-                        this.setupChild(event.list, eventId);
-                        break;
-                    }
+            }
+        case MPPlugin.PluginCommands.CCT:
+        case 'CCT':
+            for (var i = $dataCommonEvents.length - 1; i > 0; i--) {
+                var event = $dataCommonEvents[i];
+                if (event.name.indexOf(args[0]) === 0) {
+                    var eventId = this.isOnCurrentMap() ? this._eventId : 0;
+                    this.setupChild(event.list, eventId);
+                    break;
                 }
-        }
-    };
+            }
+    }
+};
 
 
 

@@ -79,7 +79,7 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     /**
@@ -88,7 +88,7 @@
      * @param name Meta name
      * @returns {String} meta value
      */
-    var getMetaValue = function (object, name) {
+    var getMetaValue = function(object, name) {
         var tagName = param.commandPrefix + name;
         return object.meta.hasOwnProperty(tagName) ? convertEscapeCharacters(object.meta[tagName]) : null;
     };
@@ -99,9 +99,9 @@
      * @param names Meta name array (for multi language)
      * @returns {String} meta value
      */
-    var getMetaValues = function (object, names) {
+    var getMetaValues = function(object, names) {
         var metaValue;
-        names.some(function (name) {
+        names.some(function(name) {
             metaValue = getMetaValue(object, name);
             return metaValue !== null;
         });
@@ -113,7 +113,7 @@
      * @param text Target text
      * @returns {String} Converted text
      */
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         var windowLayer = SceneManager._scene._windowLayer;
         return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
     };
@@ -123,8 +123,8 @@
      * @param pluginName plugin name(EncounterSwitchConditions)
      * @returns {Object} Created parameter
      */
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
+    var createPluginParameter = function(pluginName) {
+        var paramReplacer = function(key, value) {
             if (value === 'null') {
                 return value;
             }
@@ -137,7 +137,7 @@
                 return value;
             }
         };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
+        var parameter     = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
         PluginManager.setParameters(pluginName, parameter);
         return parameter;
     };
@@ -145,29 +145,29 @@
     var param = createPluginParameter('ItemCallScript');
 
     var _Game_Action_applyItemUserEffect = Game_Action.prototype.applyItemUserEffect;
-    Game_Action.prototype.applyItemUserEffect = function (target) {
+    Game_Action.prototype.applyItemUserEffect = function(target) {
         _Game_Action_applyItemUserEffect.apply(this, arguments);
         this.applyItemScript(target);
     };
 
     var _Game_Action_applyGlobal = Game_Action.prototype.applyGlobal;
-    Game_Action.prototype.applyGlobal = function () {
+    Game_Action.prototype.applyGlobal = function() {
         _Game_Action_applyGlobal.apply(this, arguments);
         if (this.isForNone()) {
             this.applyItemScript(null);
         }
     };
 
-    Game_Action.prototype.isForNone = function () {
+    Game_Action.prototype.isForNone = function() {
         return this.checkItemScope([0]);
     };
 
     var _Game_Action_testApply = Game_Action.prototype.testApply;
-    Game_Action.prototype.testApply = function (target) {
+    Game_Action.prototype.testApply = function(target) {
         return _Game_Action_testApply.apply(this, arguments) || !!this.getItemScript();
     };
 
-    Game_Action.prototype.applyItemScript = function (target) {
+    Game_Action.prototype.applyItemScript = function(target) {
         var script = this.getItemScript();
         var user = this.subject();
         if (script) {
@@ -179,7 +179,7 @@
         }
     };
 
-    Game_Action.prototype.getItemScript = function () {
+    Game_Action.prototype.getItemScript = function() {
         return getMetaValues(this.item(), ['スクリプト', 'SCRIPT']);
     };
 })();

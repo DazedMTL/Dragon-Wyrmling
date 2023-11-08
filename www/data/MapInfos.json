@@ -38,7 +38,7 @@
     },
     {
         "id": 5,
-        "expanded": false,
+        "expanded": true,
         "name": "Sol-chan's house",
         "order": 14,
         "parentId": 10,
@@ -51,8 +51,8 @@
         "name": "Sol's Nest - Normal",
         "order": 15,
         "parentId": 5,
-        "scrollX": 625.8,
-        "scrollY": 450
+        "scrollX": 521.5,
+        "scrollY": 583.5
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
     },
     {
         "id": 9,
-        "expanded": false,
+        "expanded": true,
         "name": "▼H Event",
         "order": 35,
         "parentId": 0,
@@ -87,8 +87,8 @@
         "name": "World Map",
         "order": 13,
         "parentId": 13,
-        "scrollX": 1014.5,
-        "scrollY": 831.5
+        "scrollX": 521.5,
+        "scrollY": 611.5
     },
     {
         "id": 11,
@@ -132,17 +132,17 @@
         "name": "System",
         "order": 3,
         "parentId": 0,
-        "scrollX": 1155.2727272727273,
-        "scrollY": 818.1818181818182
+        "scrollX": 529.5,
+        "scrollY": 376.5
     },
     {
         "id": 16,
-        "expanded": true,
+        "expanded": false,
         "name": "Test Use",
         "order": 1,
         "parentId": 0,
         "scrollX": 529.5,
-        "scrollY": 375
+        "scrollY": 376.5
     },
     {
         "id": 17,
@@ -213,8 +213,8 @@
         "name": "Forgotten Waterway",
         "order": 23,
         "parentId": 19,
-        "scrollX": 1043,
-        "scrollY": 863
+        "scrollX": 1782.5,
+        "scrollY": 863.5
     },
     {
         "id": 25,
@@ -240,8 +240,8 @@
         "name": "Griltar Mountain",
         "order": 25,
         "parentId": 19,
-        "scrollX": 1245,
-        "scrollY": 737
+        "scrollX": 1245.5,
+        "scrollY": 677.5
     },
     {
         "id": 28,
@@ -249,8 +249,8 @@
         "name": "Grillta Mountain Summit",
         "order": 26,
         "parentId": 27,
-        "scrollX": 1043,
-        "scrollY": 873
+        "scrollX": 918.5,
+        "scrollY": 873.5
     },
     {
         "id": 29,
@@ -258,8 +258,8 @@
         "name": "Ruins",
         "order": 27,
         "parentId": 19,
-        "scrollX": 1059,
-        "scrollY": 753
+        "scrollX": 1398.5,
+        "scrollY": 863.5
     },
     {
         "id": 30,
@@ -285,8 +285,8 @@
         "name": "Volcano",
         "order": 31,
         "parentId": 19,
-        "scrollX": 1059,
-        "scrollY": 753
+        "scrollX": 1329.5,
+        "scrollY": 1047.5
     },
     {
         "id": 33,
@@ -294,8 +294,8 @@
         "name": "Trial Labyrinth",
         "order": 33,
         "parentId": 19,
-        "scrollX": 1382.5,
-        "scrollY": 1046.5
+        "scrollX": 521.5,
+        "scrollY": 451.5
     },
     {
         "id": 34,
@@ -312,8 +312,8 @@
         "name": "Ending",
         "order": 7,
         "parentId": 15,
-        "scrollX": 1059,
-        "scrollY": 753
+        "scrollX": 529.5,
+        "scrollY": 376.5
     },
     {
         "id": 36,
@@ -322,7 +322,7 @@
         "order": 60,
         "parentId": 9,
         "scrollX": 529.5,
-        "scrollY": 375
+        "scrollY": 376.5
     },
     {
         "id": 37,
@@ -357,8 +357,8 @@
         "name": "Volcano Depths",
         "order": 32,
         "parentId": 32,
-        "scrollX": 1043,
-        "scrollY": 1337
+        "scrollX": 1043.5,
+        "scrollY": 1791.5
     },
     {
         "id": 41,
@@ -389,12 +389,12 @@
     },
     {
         "id": 44,
-        "expanded": true,
+        "expanded": false,
         "name": "Sol-chan",
         "order": 37,
         "parentId": 9,
         "scrollX": 529.5,
-        "scrollY": 375
+        "scrollY": 376.5
     },
     {
         "id": 45,
@@ -429,8 +429,8 @@
         "name": "Azusa",
         "order": 66,
         "parentId": 36,
-        "scrollX": 832,
-        "scrollY": 640
+        "scrollX": 529.5,
+        "scrollY": 376.5
     },
     {
         "id": 49,
@@ -452,12 +452,12 @@
     },
     {
         "id": 51,
-        "expanded": false,
+        "expanded": true,
         "name": "Isuku",
         "order": 52,
         "parentId": 9,
-        "scrollX": 0,
-        "scrollY": 0
+        "scrollX": 529.5,
+        "scrollY": 376.5
     },
     {
         "id": 52,
@@ -546,8 +546,8 @@
         "name": "Isuk 02",
         "order": 54,
         "parentId": 51,
-        "scrollX": 529.5,
-        "scrollY": 375
+        "scrollX": 832,
+        "scrollY": 640
     },
     {
         "id": 62,
@@ -574,7 +574,7 @@
         "order": 36,
         "parentId": 9,
         "scrollX": 521.5,
-        "scrollY": 456.5
+        "scrollY": 376.5
     },
     {
         "id": 65,

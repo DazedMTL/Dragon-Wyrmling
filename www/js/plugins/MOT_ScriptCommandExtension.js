@@ -57,7 +57,7 @@
 //============================================================
 //■Game_Interpreter
 //============================================================
-Game_Interpreter.prototype.command355 = function () {
+Game_Interpreter.prototype.command355 = function() {
     var script = this.currentCommand().parameters[0] + '\n';
     while (this.nextEventCode() === 655) {
         this._index++;

@@ -304,15 +304,15 @@ FTKR.ISV = FTKR.ISV || {};
 //=============================================================================
 
 function Game_IsvItems() {
-    this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
 function Game_IsvSelfVariables() {
-    this.initialize.apply(this, arguments);
+  this.initialize.apply(this, arguments);
 }
 
-(function () {
-
+(function() {
+  
     //=============================================================================
     // プラグイン パラメータ
     //=============================================================================
@@ -320,12 +320,12 @@ function Game_IsvSelfVariables() {
 
     FTKR.ISV.enabledSave = Number(parameters['Enabled Save'] || 0);
     FTKR.ISV.number = {
-        item: Number(parameters['Item Number'] || 0),
-        weapon: Number(parameters['Weapon Number'] || 0),
-        armor: Number(parameters['Armor Number'] || 0),
-        skill: Number(parameters['Skill Number'] || 0),
-        actor: Number(parameters['Actor Number'] || 0),
-        enemy: Number(parameters['Enemy Number'] || 0),
+        item:Number(parameters['Item Number'] || 0),
+        weapon:Number(parameters['Weapon Number'] || 0),
+        armor:Number(parameters['Armor Number'] || 0),
+        skill:Number(parameters['Skill Number'] || 0),
+        actor:Number(parameters['Actor Number'] || 0),
+        enemy:Number(parameters['Enemy Number'] || 0),
     };
 
     //=============================================================================
@@ -333,31 +333,31 @@ function Game_IsvSelfVariables() {
     //=============================================================================
 
     FTKR.gameData = FTKR.gameData || {
-        user: null,
-        target: null,
-        item: null,
-        number: 0,
+        user   :null,
+        target :null,
+        item   :null,
+        number :0,
     };
 
     if (!FTKR.setGameData) {
-        FTKR.setGameData = function (user, target, item, number) {
-            FTKR.gameData = {
-                user: user || null,
-                target: target || null,
-                item: item || null,
-                number: number || 0
-            };
+    FTKR.setGameData = function(user, target, item, number) {
+        FTKR.gameData = {
+            user   :user || null,
+            target :target || null,
+            item   :item || null,
+            number :number || 0
         };
+    };
     }
 
-    FTKR.evalFormula = function (formula) {
+    FTKR.evalFormula = function(formula) {
         var datas = FTKR.gameData;
         try {
             var s = $gameSwitches._data;
             var v = $gameVariables._data;
             var a = datas.user;
             var b = datas.target;
-            var item = datas.item;
+            var item   = datas.item;
             var number = datas.number;
             if (a) {
                 var aData = a.isActor() ? a.actor() : a.enemy();
@@ -378,14 +378,14 @@ function Game_IsvSelfVariables() {
         }
     };
 
-    FTKR.evalCalcFormula = function (formula) {
+    FTKR.evalCalcFormula = function(formula) {
         var datas = FTKR.gameData;
         try {
             var s = $gameSwitches._data;
             var v = $gameVariables._data;
             var a = datas.user;
             var b = datas.target;
-            var item = datas.item;
+            var item   = datas.item;
             var number = datas.number;
             if (a) {
                 var aData = a.isActor() ? a.actor() : a.enemy();
@@ -407,8 +407,8 @@ function Game_IsvSelfVariables() {
     // Array
     //=============================================================================
 
-    Array.prototype.setIsv = function () {
-        return this.map(function (item) {
+    Array.prototype.setIsv = function() {
+        return this.map(function(item) {
             return item ? item._selfVariables : null;
         });
     };
@@ -418,7 +418,7 @@ function Game_IsvSelfVariables() {
     //=============================================================================
 
     var _ISV_Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _ISV_Game_Interpreter_pluginCommand.call(this, command, args);
         if (!command.match(/ISV_(.+)/i)) return;
         command = (RegExp.$1 + '').toUpperCase();
@@ -434,11 +434,11 @@ function Game_IsvSelfVariables() {
         }
     };
 
-    Game_Interpreter.prototype.setSeflVariables = function (command, args) {
+    Game_Interpreter.prototype.setSeflVariables = function(command, args) {
         var itemId = this.setNum(args[1]);
         var selfId = this.setNum(args[2]);
         var value = this.setNum(args[4]);
-        if (!itemId || !selfId) return this.showLog(command, args, [0, 1, 1, 0, 1]);
+        if (!itemId || !selfId) return this.showLog(command, args, [0,1,1,0,1]);
         switch (true) {
             case /アイテム/.test(args[0]):
             case /item/i.test(args[0]):
@@ -465,16 +465,16 @@ function Game_IsvSelfVariables() {
                 $gameSelfVariables.enemy(itemId).setValue(selfId, value, args[3]);
                 break;
             default:
-                this.showLog(command, args, [1, 0, 0, 0, 0]);
+                this.showLog(command, args, [1,0,0,0,0]);
                 break;
         }
     };
 
-    Game_Interpreter.prototype.getSeflVariables = function (command, args) {
+    Game_Interpreter.prototype.getSeflVariables = function(command, args) {
         var varId = this.setNum(args[0]);
         var itemId = this.setNum(args[2]);
         var selfId = this.setValue(args[3]);
-        if (!varId || !itemId || !selfId) return this.showLog(command, args, [1, 0, 1, 1]);
+        if (!varId || !itemId || !selfId) return this.showLog(command, args, [1,0,1,1]);
         var value = null;
         switch (true) {
             case /アイテム/.test(args[1]):
@@ -502,13 +502,13 @@ function Game_IsvSelfVariables() {
                 value = $gameSelfVariables.enemy(itemId).value(selfId);
                 break;
             default:
-                this.showLog(command, args, [0, 1, 0, 0]);
+                this.showLog(command, args, [0,1,0,0]);
                 break;
         }
         $gameVariables.setValue(varId, value);
     };
 
-    Game_Interpreter.prototype.setNum = function (data) {
+    Game_Interpreter.prototype.setNum = function(data) {
         var data1 = /v\[(\d+)\]/i;
         var data2 = /(\d+)/i;
         if (data.match(data1)) {
@@ -520,7 +520,7 @@ function Game_IsvSelfVariables() {
         }
     };
 
-    Game_Interpreter.prototype.setValue = function (data) {
+    Game_Interpreter.prototype.setValue = function(data) {
         var data1 = /v\[(\d+)\]/i;
         var data2 = /(.+)/i;
         if (data.match(data1)) {
@@ -533,10 +533,10 @@ function Game_IsvSelfVariables() {
         }
     };
 
-    Game_Interpreter.prototype.showLog = function (command, args, errors) {
-        console.log('プラグイン名:', 'FTKR_ItemSelfVariables.js');
+    Game_Interpreter.prototype.showLog = function(command, args, errors) {
+        console.log('プラグイン名:','FTKR_ItemSelfVariables.js');
         console.log('コマンド名  :', command);
-        console.log('エラー内容  :', '不正な値を入力しています');
+        console.log('エラー内容  :','不正な値を入力しています');
         for (var i = 0; i < errors.length; i++) {
             if (errors[i]) console.log('エラーINDEX:', i, '引数:', args[i]);
         }
@@ -548,7 +548,7 @@ function Game_IsvSelfVariables() {
 
     var _ISV_DatabaseLoaded = false;
     var _ISV_DataManager_isDatabaseLoaded = DataManager.isDatabaseLoaded;
-    DataManager.isDatabaseLoaded = function () {
+    DataManager.isDatabaseLoaded = function() {
         if (!_ISV_DataManager_isDatabaseLoaded.call(this)) return false;
         if (!_ISV_DatabaseLoaded) {
             var isv = FTKR.ISV.number;
@@ -563,10 +563,10 @@ function Game_IsvSelfVariables() {
         return true;
     };
 
-    DataManager.setSelfVariables = function (group, number) {
+    DataManager.setSelfVariables = function(group, number) {
         for (var n = 1; n < group.length; n++) {
             var obj = group[n];
-
+            
             obj._selfVariables = new Game_IsvSelfVariables(number);
             obj._selfVariables.allReset(0);
 
@@ -585,13 +585,13 @@ function Game_IsvSelfVariables() {
     };
 
     var _ISV_DataManager_createGameObjects = DataManager.createGameObjects;
-    DataManager.createGameObjects = function () {
+    DataManager.createGameObjects = function() {
         _ISV_DataManager_createGameObjects.call(this);
         $gameSelfVariables = new Game_IsvItems();
     };
 
     var _ISV_DataManager_makeSaveContents = DataManager.makeSaveContents;
-    DataManager.makeSaveContents = function () {
+    DataManager.makeSaveContents = function() {
         var contents = _ISV_DataManager_makeSaveContents.call(this);
         if (FTKR.ISV.enabledSave) {
             var isv = FTKR.ISV.number;
@@ -618,38 +618,38 @@ function Game_IsvSelfVariables() {
     };
 
     var _ISV_DataManager_extractSaveContents = DataManager.extractSaveContents;
-    DataManager.extractSaveContents = function (contents) {
+    DataManager.extractSaveContents = function(contents) {
         _ISV_DataManager_extractSaveContents.call(this, contents);
         if (FTKR.ISV.enabledSave) {
             var isv = FTKR.ISV.number;
-            if (isv.item) {
-                $dataItems.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepItemSelf[i];
+            if(isv.item) {
+                $dataItems.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepItemSelf[i];
                 });
             }
-            if (isv.weapon) {
-                $dataWeapons.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepWeaponSelf[i];
+            if(isv.weapon) {
+                $dataWeapons.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepWeaponSelf[i];
                 });
             }
-            if (isv.armor) {
-                $dataArmors.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepArmorSelf[i];
+            if(isv.armor) {
+                $dataArmors.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepArmorSelf[i];
                 });
             }
-            if (isv.skill) {
-                $dataSkills.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepSkillSelf[i];
+            if(isv.skill) {
+                $dataSkills.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepSkillSelf[i];
                 });
             }
-            if (isv.actor) {
-                $dataActors.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepActorSelf[i];
+            if(isv.actor) {
+                $dataActors.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepActorSelf[i];
                 });
             }
-            if (isv.enemy) {
-                $dataEnemies.forEach(function (item, i) {
-                    if (item) item._selfVariables = contents.iepEnemySelf[i];
+            if(isv.enemy) {
+                $dataEnemies.forEach( function(item, i) {
+                    if(item) item._selfVariables = contents.iepEnemySelf[i];
                 });
             }
         }
@@ -660,7 +660,7 @@ function Game_IsvSelfVariables() {
     //=============================================================================
 
     //書き換え
-    Game_Action.prototype.evalDamageFormula = function (target) {
+    Game_Action.prototype.evalDamageFormula = function(target) {
         var item = this.item();
         FTKR.setGameData(this.subject(), target, item);
         var value = FTKR.evalFormula(item.damage.formula);
@@ -675,11 +675,11 @@ function Game_IsvSelfVariables() {
     // Game_IsvItems
     //=============================================================================
 
-    Game_IsvItems.prototype.initialize = function () {
-        this._data = [[], [], [], [], [], []];
+    Game_IsvItems.prototype.initialize = function() {
+        this._data = [[],[],[],[],[],[]];
     };
 
-    Game_IsvItems.prototype.item = function (itemId) {
+    Game_IsvItems.prototype.item = function(itemId) {
         if ($dataItems[itemId]) {
             if (!this._data[0][itemId]) {
                 this._data[0][itemId] = $dataItems[itemId];
@@ -689,7 +689,7 @@ function Game_IsvSelfVariables() {
         return null;
     };
 
-    Game_IsvItems.prototype.weapon = function (itemId) {
+    Game_IsvItems.prototype.weapon = function(itemId) {
         if ($dataWeapons[itemId]) {
             if (!this._data[1][itemId]) {
                 this._data[1][itemId] = $dataWeapons[itemId];
@@ -699,7 +699,7 @@ function Game_IsvSelfVariables() {
         return null;
     };
 
-    Game_IsvItems.prototype.armor = function (itemId) {
+    Game_IsvItems.prototype.armor = function(itemId) {
         if ($dataArmors[itemId]) {
             if (!this._data[2][itemId]) {
                 this._data[2][itemId] = $dataArmors[itemId];
@@ -709,7 +709,7 @@ function Game_IsvSelfVariables() {
         return null;
     };
 
-    Game_IsvItems.prototype.skill = function (itemId) {
+    Game_IsvItems.prototype.skill = function(itemId) {
         if ($dataSkills[itemId]) {
             if (!this._data[3][itemId]) {
                 this._data[3][itemId] = $dataSkills[itemId];
@@ -719,7 +719,7 @@ function Game_IsvSelfVariables() {
         return null;
     };
 
-    Game_IsvItems.prototype.actor = function (itemId) {
+    Game_IsvItems.prototype.actor = function(itemId) {
         if ($dataActors[itemId]) {
             if (!this._data[4][itemId]) {
                 this._data[4][itemId] = $dataActors[itemId];
@@ -729,7 +729,7 @@ function Game_IsvSelfVariables() {
         return null;
     };
 
-    Game_IsvItems.prototype.enemy = function (itemId) {
+    Game_IsvItems.prototype.enemy = function(itemId) {
         if ($dataEnemies[itemId]) {
             if (!this._data[5][itemId]) {
                 this._data[5][itemId] = $dataEnemies[itemId];
@@ -743,26 +743,26 @@ function Game_IsvSelfVariables() {
     // Game_IsvSelfVariables
     //=============================================================================
 
-    Game_IsvSelfVariables.prototype.initialize = function (number) {
+    Game_IsvSelfVariables.prototype.initialize = function(number) {
         this.clear();
         this._number = number || 1;
     };
 
-    Game_IsvSelfVariables.prototype.clear = function () {
+    Game_IsvSelfVariables.prototype.clear = function() {
         this._data = [];
     };
 
-    Game_IsvSelfVariables.prototype.allReset = function (value) {
+    Game_IsvSelfVariables.prototype.allReset = function(value) {
         for (var i = 0; i < this._number + 1; i++) {
             this._data[i] = value;
         }
     };
 
-    Game_IsvSelfVariables.prototype.value = function (variableId) {
+    Game_IsvSelfVariables.prototype.value = function(variableId) {
         return this._data[variableId] || 0;
     };
 
-    Game_IsvSelfVariables.prototype.setValue = function (variableId, value, code) {
+    Game_IsvSelfVariables.prototype.setValue = function(variableId, value, code) {
         if (variableId > 0 && variableId < this._number + 1) {
             if (!isNaN(parseInt(value))) {
                 value = parseInt(value);
@@ -772,36 +772,36 @@ function Game_IsvSelfVariables() {
         }
     };
 
-    Game_IsvSelfVariables.prototype.calcValue = function (value1, value2, code) {
+    Game_IsvSelfVariables.prototype.calcValue = function(value1, value2, code) {
         switch (code) {
-            case '加算':
-            case '+':
-                return value1 + value2;
-            case '減算':
-            case '-':
-                return value1 - value2;
-            case '積算':
-            case '×':
-            case '*':
-                return value1 * value2;
-            case '除算':
-            case '／':
-            case '/':
-                return value1 / value2;
-            case '剰余':
-            case '％':
-            case '%':
-                return value1 % value2;
-            case '代入':
-            case '＝':
-            case '=':
-            default:
-                return value2;
+        case '加算':
+        case '+':
+            return value1 + value2;
+        case '減算':
+        case '-':
+            return value1 - value2;
+        case '積算':
+        case '×':
+        case '*':
+            return value1 * value2;
+        case '除算':
+        case '／':
+        case '/':
+            return value1 / value2;
+        case '剰余':
+        case '％':
+        case '%':
+            return value1 % value2;
+        case '代入':
+        case '＝':
+        case '=':
+        default:
+            return value2;
         }
     };
 
-    Game_IsvSelfVariables.prototype.onChange = function () {
-        if ($gameMap) $gameMap.requestRefresh();
+    Game_IsvSelfVariables.prototype.onChange = function() {
+        if($gameMap) $gameMap.requestRefresh();
     };
 
     //=============================================================================
@@ -810,57 +810,57 @@ function Game_IsvSelfVariables() {
 
     //制御文字の表示処理の修正
     var _ISV_Window_Base_convertEscapeCharacters = Window_Base.prototype.convertEscapeCharacters;
-    Window_Base.prototype.convertEscapeCharacters = function (text) {
+    Window_Base.prototype.convertEscapeCharacters = function(text) {
         text = _ISV_Window_Base_convertEscapeCharacters.call(this, text);
         if (this._setItem) {
-            text = text.replace(/\x1bITV\[(\d+)\]/gi, function () {
+            text = text.replace(/\x1bITV\[(\d+)\]/gi, function() {
                 return $gameSelfVariables.item(parseInt(this._setItem.id)).value(parseInt(arguments[1]));
             }.bind(this));
-            text = text.replace(/\x1bWEV\[(\d+)\]/gi, function () {
+            text = text.replace(/\x1bWEV\[(\d+)\]/gi, function() {
                 return $gameSelfVariables.weapon(parseInt(this._setItem.id)).value(parseInt(arguments[1]));
             }.bind(this));
-            text = text.replace(/\x1bARV\[(\d+)\]/gi, function () {
+            text = text.replace(/\x1bARV\[(\d+)\]/gi, function() {
                 return $gameSelfVariables.armor(parseInt(this._setItem.id)).value(parseInt(arguments[1]));
             }.bind(this));
-            text = text.replace(/\x1bSKV\[(\d+)\]/gi, function () {
+            text = text.replace(/\x1bSKV\[(\d+)\]/gi, function() {
                 return $gameSelfVariables.skill(parseInt(this._setItem.id)).value(parseInt(arguments[1]));
             }.bind(this));
-            text = text.replace(/\x1bACV\[(\d+)\]/gi, function () {
+            text = text.replace(/\x1bACV\[(\d+)\]/gi, function() {
                 return $gameSelfVariables.actor(parseInt(this._setItem.id)).value(parseInt(arguments[1]));
             }.bind(this));
         }
-        text = text.replace(/\x1bITV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bITV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.item(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
-        text = text.replace(/\x1bWEV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bWEV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.weapon(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
-        text = text.replace(/\x1bARV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bARV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.armor(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
-        text = text.replace(/\x1bSKV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bSKV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.skill(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
-        text = text.replace(/\x1bACV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bACV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.actor(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
-        text = text.replace(/\x1bENV\[(\d+),(\d+)\]/gi, function () {
+        text = text.replace(/\x1bENV\[(\d+),(\d+)\]/gi, function() {
             return $gameSelfVariables.enemy(parseInt(arguments[1])).value(parseInt(arguments[2]));
         }.bind(this));
         return text;
     };
 
     var _ISV_Window_Help_setItem = Window_Help.prototype.setItem;
-    Window_Help.prototype.setItem = function (item) {
+    Window_Help.prototype.setItem = function(item) {
         this._setItem = item;
         _ISV_Window_Help_setItem.call(this, item);
     };
 
     var _ISV_Window_Status_drawProfile = Window_Status.prototype.drawProfile;
-    Window_Status.prototype.drawProfile = function (x, y) {
+    Window_Status.prototype.drawProfile = function(x, y) {
         this._setItem = this._actor.actor();
         _ISV_Window_Status_drawProfile.call(this, x, y);
     };
 
-
+    
 }());//EOF

@@ -48,61 +48,61 @@
  *   <book:no>              # 図鑑に載せない場合
  */
 
-(function () {
+(function() {
 
     var parameters = PluginManager.parameters('EnemyBook');
     var unknownData = String(parameters['Unknown Data'] || '??????');
 
     var _Game_Interpreter_pluginCommand =
-        Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
+            Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
         _Game_Interpreter_pluginCommand.call(this, command, args);
         if (command === 'EnemyBook') {
             switch (args[0]) {
-                case 'open':
-                    SceneManager.push(Scene_EnemyBook);
-                    break;
-                case 'add':
-                    $gameSystem.addToEnemyBook(Number(args[1]));
-                    break;
-                case 'remove':
-                    $gameSystem.removeFromEnemyBook(Number(args[1]));
-                    break;
-                case 'complete':
-                    $gameSystem.completeEnemyBook();
-                    break;
-                case 'clear':
-                    $gameSystem.clearEnemyBook();
-                    break;
+            case 'open':
+                SceneManager.push(Scene_EnemyBook);
+                break;
+            case 'add':
+                $gameSystem.addToEnemyBook(Number(args[1]));
+                break;
+            case 'remove':
+                $gameSystem.removeFromEnemyBook(Number(args[1]));
+                break;
+            case 'complete':
+                $gameSystem.completeEnemyBook();
+                break;
+            case 'clear':
+                $gameSystem.clearEnemyBook();
+                break;
             }
         }
     };
 
-    Game_System.prototype.addToEnemyBook = function (enemyId) {
+    Game_System.prototype.addToEnemyBook = function(enemyId) {
         if (!this._enemyBookFlags) {
             this.clearEnemyBook();
         }
         this._enemyBookFlags[enemyId] = true;
     };
 
-    Game_System.prototype.removeFromEnemyBook = function (enemyId) {
+    Game_System.prototype.removeFromEnemyBook = function(enemyId) {
         if (this._enemyBookFlags) {
             this._enemyBookFlags[enemyId] = false;
         }
     };
 
-    Game_System.prototype.completeEnemyBook = function () {
+    Game_System.prototype.completeEnemyBook = function() {
         this.clearEnemyBook();
         for (var i = 1; i < $dataEnemies.length; i++) {
             this._enemyBookFlags[i] = true;
         }
     };
 
-    Game_System.prototype.clearEnemyBook = function () {
+    Game_System.prototype.clearEnemyBook = function() {
         this._enemyBookFlags = [];
     };
 
-    Game_System.prototype.isInEnemyBook = function (enemy) {
+    Game_System.prototype.isInEnemyBook = function(enemy) {
         if (this._enemyBookFlags && enemy) {
             return !!this._enemyBookFlags[enemy.id];
         } else {
@@ -111,9 +111,9 @@
     };
 
     var _Game_Troop_setup = Game_Troop.prototype.setup;
-    Game_Troop.prototype.setup = function (troopId) {
+    Game_Troop.prototype.setup = function(troopId) {
         _Game_Troop_setup.call(this, troopId);
-        this.members().forEach(function (enemy) {
+        this.members().forEach(function(enemy) {
             if (enemy.isAppeared()) {
                 $gameSystem.addToEnemyBook(enemy.enemyId());
             }
@@ -121,13 +121,13 @@
     };
 
     var _Game_Enemy_appear = Game_Enemy.prototype.appear;
-    Game_Enemy.prototype.appear = function () {
+    Game_Enemy.prototype.appear = function() {
         _Game_Enemy_appear.call(this);
         $gameSystem.addToEnemyBook(this._enemyId);
     };
 
     var _Game_Enemy_transform = Game_Enemy.prototype.transform;
-    Game_Enemy.prototype.transform = function (enemyId) {
+    Game_Enemy.prototype.transform = function(enemyId) {
         _Game_Enemy_transform.call(this, enemyId);
         $gameSystem.addToEnemyBook(enemyId);
     };
@@ -139,11 +139,11 @@
     Scene_EnemyBook.prototype = Object.create(Scene_MenuBase.prototype);
     Scene_EnemyBook.prototype.constructor = Scene_EnemyBook;
 
-    Scene_EnemyBook.prototype.initialize = function () {
+    Scene_EnemyBook.prototype.initialize = function() {
         Scene_MenuBase.prototype.initialize.call(this);
     };
 
-    Scene_EnemyBook.prototype.create = function () {
+    Scene_EnemyBook.prototype.create = function() {
         Scene_MenuBase.prototype.create.call(this);
         this._indexWindow = new Window_EnemyBookIndex(0, 0);
         this._indexWindow.setHandler('cancel', this.popScene.bind(this));
@@ -164,9 +164,9 @@
     Window_EnemyBookIndex.prototype.constructor = Window_EnemyBookIndex;
 
     Window_EnemyBookIndex.lastTopRow = 0;
-    Window_EnemyBookIndex.lastIndex = 0;
+    Window_EnemyBookIndex.lastIndex  = 0;
 
-    Window_EnemyBookIndex.prototype.initialize = function (x, y) {
+    Window_EnemyBookIndex.prototype.initialize = function(x, y) {
         var width = Graphics.boxWidth;
         var height = this.fittingHeight(6);
         Window_Selectable.prototype.initialize.call(this, x, y, width, height);
@@ -176,32 +176,32 @@
         this.activate();
     };
 
-    Window_EnemyBookIndex.prototype.maxCols = function () {
+    Window_EnemyBookIndex.prototype.maxCols = function() {
         return 3;
     };
 
-    Window_EnemyBookIndex.prototype.maxItems = function () {
+    Window_EnemyBookIndex.prototype.maxItems = function() {
         return this._list ? this._list.length : 0;
     };
 
-    Window_EnemyBookIndex.prototype.setStatusWindow = function (statusWindow) {
+    Window_EnemyBookIndex.prototype.setStatusWindow = function(statusWindow) {
         this._statusWindow = statusWindow;
         this.updateStatus();
     };
 
-    Window_EnemyBookIndex.prototype.update = function () {
+    Window_EnemyBookIndex.prototype.update = function() {
         Window_Selectable.prototype.update.call(this);
         this.updateStatus();
     };
 
-    Window_EnemyBookIndex.prototype.updateStatus = function () {
+    Window_EnemyBookIndex.prototype.updateStatus = function() {
         if (this._statusWindow) {
             var enemy = this._list[this.index()];
             this._statusWindow.setEnemy(enemy);
         }
     };
 
-    Window_EnemyBookIndex.prototype.refresh = function () {
+    Window_EnemyBookIndex.prototype.refresh = function() {
         this._list = [];
         for (var i = 1; i < $dataEnemies.length; i++) {
             var enemy = $dataEnemies[i];
@@ -213,7 +213,7 @@
         this.drawAllItems();
     };
 
-    Window_EnemyBookIndex.prototype.drawItem = function (index) {
+    Window_EnemyBookIndex.prototype.drawItem = function(index) {
         var enemy = this._list[index];
         var rect = this.itemRectForText(index);
         var name;
@@ -225,7 +225,7 @@
         this.drawText(name, rect.x, rect.y, rect.width);
     };
 
-    Window_EnemyBookIndex.prototype.processCancel = function () {
+    Window_EnemyBookIndex.prototype.processCancel = function() {
         Window_Selectable.prototype.processCancel.call(this);
         Window_EnemyBookIndex.lastTopRow = this.topRow();
         Window_EnemyBookIndex.lastIndex = this.index();
@@ -238,7 +238,7 @@
     Window_EnemyBookStatus.prototype = Object.create(Window_Base.prototype);
     Window_EnemyBookStatus.prototype.constructor = Window_EnemyBookStatus;
 
-    Window_EnemyBookStatus.prototype.initialize = function (x, y, width, height) {
+    Window_EnemyBookStatus.prototype.initialize = function(x, y, width, height) {
         Window_Base.prototype.initialize.call(this, x, y, width, height);
         this._enemy = null;
         this._enemySprite = new Sprite();
@@ -250,14 +250,14 @@
         this.refresh();
     };
 
-    Window_EnemyBookStatus.prototype.setEnemy = function (enemy) {
+    Window_EnemyBookStatus.prototype.setEnemy = function(enemy) {
         if (this._enemy !== enemy) {
             this._enemy = enemy;
             this.refresh();
         }
     };
 
-    Window_EnemyBookStatus.prototype.update = function () {
+    Window_EnemyBookStatus.prototype.update = function() {
         Window_Base.prototype.update.call(this);
         if (this._enemySprite.bitmap) {
             var bitmapHeight = this._enemySprite.bitmap.height;
@@ -271,7 +271,7 @@
         }
     };
 
-    Window_EnemyBookStatus.prototype.refresh = function () {
+    Window_EnemyBookStatus.prototype.refresh = function() {
         var enemy = this._enemy;
         var x = 0;
         var y = 0;

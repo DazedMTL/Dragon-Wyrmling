@@ -365,7 +365,7 @@
  * @type boolean
  */
 
-(function () {
+(function() {
     'use strict';
     //=============================================================================
     // ユーザ設定領域 開始
@@ -375,15 +375,15 @@
          * サブコマンドウィンドウに関する設定です
          */
         subCommandWindow: {
-            adjustX: 0,
-            adjustY: 0,
+            adjustX : 0,
+            adjustY : 0,
             fontSize: null,
-            padding: null,
+            padding : null,
         },
         /**
          * サブマップ移動時に自働でプレイヤーを透明にします。
          */
-        autoTransparent: true
+        autoTransparent : true
     };
     //=============================================================================
     // ユーザ設定領域 終了
@@ -394,12 +394,12 @@
     // ローカル関数
     //  プラグインパラメータやプラグインコマンドパラメータの整形やチェックをします
     //=============================================================================
-    var getParamBoolean = function (paramNames) {
+    var getParamBoolean = function(paramNames) {
         var value = getParamString(paramNames);
         return value.toUpperCase() === 'ON' || value.toUpperCase() === 'TRUE';
     };
 
-    var getParamString = function (paramNames) {
+    var getParamString = function(paramNames) {
         if (!Array.isArray(paramNames)) paramNames = [paramNames];
         for (let i = 0; i < paramNames.length; i++) {
             const name = PluginManager.parameters(pluginName)[paramNames[i]];
@@ -408,28 +408,28 @@
         return '';
     };
 
-    var getParamNumber = function (paramNames, min, max) {
+    var getParamNumber = function(paramNames, min, max) {
         const value = getParamString(paramNames);
         if (arguments.length < 2) min = -Infinity;
         if (arguments.length < 3) max = Infinity;
         return (parseInt(value) || 0).clamp(min, max);
     };
 
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         if (isNotAString(text)) text = '';
         text = text.replace(/\\/g, '\x1b');
         text = text.replace(/\x1b\x1b/g, '\\');
-        text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
             return $gameVariables.value(parseInt(arguments[1]));
         }.bind(this));
-        text = text.replace(/\x1bV\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bV\[(\d+)\]/gi, function() {
             return $gameVariables.value(parseInt(arguments[1]));
         }.bind(this));
-        text = text.replace(/\x1bN\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bN\[(\d+)\]/gi, function() {
             var actor = parseInt(arguments[1]) >= 1 ? $gameActors.actor(parseInt(arguments[1])) : null;
             return actor ? actor.name() : '';
         }.bind(this));
-        text = text.replace(/\x1bP\[(\d+)\]/gi, function () {
+        text = text.replace(/\x1bP\[(\d+)\]/gi, function() {
             var actor = parseInt(arguments[1]) >= 1 ? $gameParty.members()[parseInt(arguments[1]) - 1] : null;
             return actor ? actor.name() : '';
         }.bind(this));
@@ -437,22 +437,22 @@
         return text;
     };
 
-    var isNotAString = function (args) {
+    var isNotAString = function(args) {
         return String(args) !== args;
     };
 
-    var getArgBoolean = function (arg) {
+    var getArgBoolean = function(arg) {
         return arg.toUpperCase() === 'ON' || arg.toUpperCase() === 'TRUE';
     };
 
-    var getParamArrayJson = function (paramNames, defaultValue) {
+    var getParamArrayJson = function(paramNames, defaultValue) {
         var value = getParamString(paramNames) || null;
         try {
             value = JSON.parse(value);
             if (value === null) {
                 value = defaultValue;
             } else {
-                value = value.map(function (valueData) {
+                value = value.map(function(valueData) {
                     return JSON.parse(valueData);
                 });
             }
@@ -466,44 +466,44 @@
     //=============================================================================
     // パラメータの取得と整形
     //=============================================================================
-    var param = {};
-    param.subCommands = getParamArrayJson(['サブコマンド', 'SubCommand'], []);
-    param.commandPosition = getParamNumber(['CommandPosition', 'コマンド追加位置']);
-    param.subMenuWidth = getParamNumber(['SubMenuWidth', 'サブメニュー横幅']);
+    var param                   = {};
+    param.subCommands           = getParamArrayJson(['サブコマンド', 'SubCommand'], []);
+    param.commandPosition       = getParamNumber(['CommandPosition', 'コマンド追加位置']);
+    param.subMenuWidth          = getParamNumber(['SubMenuWidth', 'サブメニュー横幅']);
     param.selectActorIdVariable = getParamNumber(['SelectActorIdVariable', '選択アクターID変数']);
-    param.windowSkin = getParamString(['WindowSkin', 'ウィンドウスキン']);
-    param.hideOption = getParamBoolean(['HideOption', 'オプション消去']);
-    param.hideGameEnd = getParamBoolean(['HideGameEnd', 'ゲーム終了消去']);
-    param.horizontalSubMenu = getParamBoolean(['HorizontalSubMenu', '横並びサブメニュー']);
-    param.clearSubMenuOneByObe = getParamBoolean(['ClearSubMenuOneByOne', 'サブメニュー逐次消去']);
-    param.subMenuX = getParamNumber(['SubMenuX', 'サブメニューX座標']);
-    param.subMenuY = getParamNumber(['SubMenuY', 'サブメニューY座標']);
-    param.subMenuAlign = getParamString(['SubMenuAlign', 'サブメニュー揃え']);
-    param.anotherPicInMenuMap = getParamBoolean(['AnotherPicturesInMenuMap', 'メニューピクチャ別管理']);
+    param.windowSkin            = getParamString(['WindowSkin', 'ウィンドウスキン']);
+    param.hideOption            = getParamBoolean(['HideOption', 'オプション消去']);
+    param.hideGameEnd           = getParamBoolean(['HideGameEnd', 'ゲーム終了消去']);
+    param.horizontalSubMenu     = getParamBoolean(['HorizontalSubMenu', '横並びサブメニュー']);
+    param.clearSubMenuOneByObe  = getParamBoolean(['ClearSubMenuOneByOne', 'サブメニュー逐次消去']);
+    param.subMenuX              = getParamNumber(['SubMenuX', 'サブメニューX座標']);
+    param.subMenuY              = getParamNumber(['SubMenuY', 'サブメニューY座標']);
+    param.subMenuAlign          = getParamString(['SubMenuAlign', 'サブメニュー揃え']);
+    param.anotherPicInMenuMap   = getParamBoolean(['AnotherPicturesInMenuMap', 'メニューピクチャ別管理']);
 
     //=============================================================================
     // Game_Temp
     //  メニューコマンド情報を構築して保持します。
     //=============================================================================
-    var _Game_Temp_initialize = Game_Temp.prototype.initialize;
-    Game_Temp.prototype.initialize = function () {
+    var _Game_Temp_initialize      = Game_Temp.prototype.initialize;
+    Game_Temp.prototype.initialize = function() {
         _Game_Temp_initialize.apply(this, arguments);
         this.createMenuCommands();
     };
 
-    Game_Temp.prototype.createMenuCommands = function () {
+    Game_Temp.prototype.createMenuCommands = function() {
         this._menuParentCommands = new Map();
-        param.subCommands.forEach(function (commands) {
+        param.subCommands.forEach(function(commands) {
             this.createMenuCommand(commands);
         }, this);
         /* 最後に選択したサブコマンド */
         this._lastSubCommand = {
             parent: null,
-            index: 0
+            index : 0
         };
     };
 
-    Game_Temp.prototype.createMenuCommand = function (commands) {
+    Game_Temp.prototype.createMenuCommand = function(commands) {
         var parentName = commands.ParentName + commands.CommandId;
         if (!this._menuParentCommands.has(parentName)) {
             this._menuParentCommands.set(parentName, []);
@@ -512,36 +512,36 @@
         parent.push(new Game_MenuSubCommand(commands));
     };
 
-    Game_Temp.prototype.iterateMenuParents = function (callBackFunc, thisArg) {
+    Game_Temp.prototype.iterateMenuParents = function(callBackFunc, thisArg) {
         this._menuParentCommands.forEach(callBackFunc, thisArg);
     };
 
-    Game_Temp.prototype.getSubMenuCommands = function (parentName) {
+    Game_Temp.prototype.getSubMenuCommands = function(parentName) {
         return this._menuParentCommands.get(parentName);
     };
 
     /**
      * 最後に選択したサブコマンドを取得する
      */
-    Game_Temp.prototype.getLastSubCommand = function () {
+    Game_Temp.prototype.getLastSubCommand = function() {
         return this._lastSubCommand;
     };
 
-    Game_Temp.prototype.setLastSubCommandParent = function (parentName) {
+    Game_Temp.prototype.setLastSubCommandParent = function(parentName) {
         this._lastSubCommand.parent = parentName;
     };
 
-    Game_Temp.prototype.setLastSubCommandIndex = function (index) {
+    Game_Temp.prototype.setLastSubCommandIndex = function(index) {
         this._lastSubCommand.index = index;
     };
 
     /**
      * 最後に選択したサブコマンドをリセットする
      */
-    Game_Temp.prototype.resetLastSubCommand = function () {
+    Game_Temp.prototype.resetLastSubCommand = function() {
         this._lastSubCommand = {
             parent: null,
-            index: 0
+            index : 0
         };
     };
 
@@ -549,13 +549,13 @@
     // Game_CharacterBase
     //  サブコマンドマップへ移動します。
     //=============================================================================
-    Game_CharacterBase.prototype.savePosition = function () {
-        this._originalX = this.x;
-        this._originalY = this.y;
+    Game_CharacterBase.prototype.savePosition = function() {
+        this._originalX         = this.x;
+        this._originalY         = this.y;
         this._originalDirection = this.direction();
     };
 
-    Game_CharacterBase.prototype.restorePosition = function () {
+    Game_CharacterBase.prototype.restorePosition = function() {
         this.locate(this._originalX, this._originalY);
         this.setDirection(this._originalDirection);
     };
@@ -564,7 +564,7 @@
     // Game_Player
     //  サブコマンドマップへ移動します。
     //=============================================================================
-    Game_Player.prototype.reserveTransferToSubCommandMap = function (subCommandMapId) {
+    Game_Player.prototype.reserveTransferToSubCommandMap = function(subCommandMapId) {
         this.saveOriginalMap();
         this.reserveTransfer(subCommandMapId, 0, 0, 0, 2);
         if (userSetting.autoTransparent) {
@@ -575,35 +575,35 @@
         }
     };
 
-    Game_Player.prototype.reserveTransferToOriginalMap = function () {
+    Game_Player.prototype.reserveTransferToOriginalMap = function() {
         DataManager.loadMapData(this._originalMapId);
         this.reserveTransfer(this._originalMapId, this._originalX, this._originalY, this._originalDirection, 2);
         if (userSetting.autoTransparent) {
             this.setTransparent(this._originalTransparent);
         }
-        this._originalMapId = 0;
+        this._originalMapId             = 0;
         this._transferringToOriginalMap = true;
         if (param.anotherPicInMenuMap) {
             $gameScreen.restoreNormalMapPictures();
         }
     };
 
-    Game_Player.prototype.isInSubCommandMap = function () {
+    Game_Player.prototype.isInSubCommandMap = function() {
         return this._originalMapId > 0;
     };
 
-    Game_Player.prototype.isTransferringToOriginalMap = function () {
+    Game_Player.prototype.isTransferringToOriginalMap = function() {
         return this._transferringToOriginalMap;
     };
 
-    Game_Player.prototype.saveOriginalMap = function () {
-        this._originalMapId = $gameMap.mapId();
+    Game_Player.prototype.saveOriginalMap = function() {
+        this._originalMapId       = $gameMap.mapId();
         this._originalTransparent = this._transparent;
         this.savePosition();
     };
 
-    var _Game_Player_performTransfer = Game_Player.prototype.performTransfer;
-    Game_Player.prototype.performTransfer = function () {
+    var _Game_Player_performTransfer      = Game_Player.prototype.performTransfer;
+    Game_Player.prototype.performTransfer = function() {
         _Game_Player_performTransfer.apply(this, arguments);
         if (this.isTransferringToOriginalMap()) {
             this.restorePosition();
@@ -611,17 +611,17 @@
         }
     };
 
-    Game_Player.prototype.savePosition = function () {
+    Game_Player.prototype.savePosition = function() {
         Game_CharacterBase.prototype.savePosition.call(this, arguments);
-        this._followers.forEach(function (follower) {
+        this._followers.forEach(function(follower) {
             follower.savePosition();
         });
         $gameMap.saveOriginalMapEvent();
     };
 
-    Game_Player.prototype.restorePosition = function () {
+    Game_Player.prototype.restorePosition = function() {
         Game_CharacterBase.prototype.restorePosition.call(this, arguments);
-        this._followers.forEach(function (follower) {
+        this._followers.forEach(function(follower) {
             follower.restorePosition();
         });
         $gameMap.restoreOriginalMapEvent();
@@ -631,11 +631,11 @@
     // Game_Map
     //  すべてのイベントの状態を保存します。
     //=============================================================================
-    Game_Map.prototype.saveOriginalMapEvent = function () {
+    Game_Map.prototype.saveOriginalMapEvent = function() {
         this._originalMapEvents = this._events;
     };
 
-    Game_Map.prototype.restoreOriginalMapEvent = function () {
+    Game_Map.prototype.restoreOriginalMapEvent = function() {
         if (this._originalMapEvents) {
             this._events = this._originalMapEvents;
         }
@@ -646,18 +646,18 @@
     // Game_Party
     //  無効なアクター設定時のエラーを回避します。
     //=============================================================================
-    var _Game_Party_setMenuActor = Game_Party.prototype.setMenuActor;
-    Game_Party.prototype.setMenuActor = function (actor) {
+    var _Game_Party_setMenuActor      = Game_Party.prototype.setMenuActor;
+    Game_Party.prototype.setMenuActor = function(actor) {
         if (!actor) return;
         _Game_Party_setMenuActor.apply(this, arguments);
     };
 
-    Game_Screen.prototype.setupMenuMapPictures = function () {
+    Game_Screen.prototype.setupMenuMapPictures = function() {
         this._normalMapPictures = this._pictures;
         this.clearPictures();
     };
 
-    Game_Screen.prototype.restoreNormalMapPictures = function () {
+    Game_Screen.prototype.restoreNormalMapPictures = function() {
         if (this._normalMapPictures) {
             this._pictures = this._normalMapPictures;
         }
@@ -668,8 +668,8 @@
     // AudioManager
     //  システム効果音を消音します。
     //=============================================================================
-    AudioManager.stopAllStaticSe = function () {
-        this._staticBuffers.forEach(function (buffer) {
+    AudioManager.stopAllStaticSe = function() {
+        this._staticBuffers.forEach(function(buffer) {
             buffer.stop();
         });
         this._staticBuffers = [];
@@ -680,7 +680,7 @@
     //  メニュー用マップではキャプチャを無効にします。
     //=============================================================================
     var _SceneManager_snapForBackground = SceneManager.snapForBackground;
-    SceneManager.snapForBackground = function () {
+    SceneManager.snapForBackground      = function() {
         if ($gamePlayer.isInSubCommandMap()) return;
         _SceneManager_snapForBackground.apply(this, arguments);
     };
@@ -689,8 +689,8 @@
     // Scene_Map
     //  自作ゲーム用マップ遷移の場合、一部演出を無効化します。
     //=============================================================================
-    var _Scene_Map_callMenu = Scene_Map.prototype.callMenu;
-    Scene_Map.prototype.callMenu = function () {
+    var _Scene_Map_callMenu      = Scene_Map.prototype.callMenu;
+    Scene_Map.prototype.callMenu = function() {
         _Scene_Map_callMenu.apply(this, arguments);
         if ($gamePlayer.isInSubCommandMap()) {
             AudioManager.stopAllStaticSe();
@@ -698,8 +698,8 @@
         }
     };
 
-    var _Scene_Map_onMapLoaded = Scene_Map.prototype.onMapLoaded;
-    Scene_Map.prototype.onMapLoaded = function () {
+    var _Scene_Map_onMapLoaded      = Scene_Map.prototype.onMapLoaded;
+    Scene_Map.prototype.onMapLoaded = function() {
         _Scene_Map_onMapLoaded.apply(this, arguments);
         if ($gamePlayer.isInSubCommandMap()) {
             this._transfer = false;
@@ -710,8 +710,8 @@
     // Scene_Menu
     //  メインメニューにコマンドを追加します。
     //=============================================================================
-    var _Scene_Menu_create = Scene_Menu.prototype.create;
-    Scene_Menu.prototype.create = function () {
+    var _Scene_Menu_create      = Scene_Menu.prototype.create;
+    Scene_Menu.prototype.create = function() {
         _Scene_Menu_create.apply(this, arguments);
         this.loadSubCommandWindowSkin();
         if ($gamePlayer.isInSubCommandMap()) {
@@ -722,30 +722,30 @@
         }
     };
 
-    Scene_Menu.prototype.loadSubCommandWindowSkin = function () {
+    Scene_Menu.prototype.loadSubCommandWindowSkin = function() {
         if (param.windowSkin) {
             ImageManager.loadSystem(param.windowSkin);
         }
     };
 
-    var _Scene_Menu_isReady = Scene_Menu.prototype.isReady;
-    Scene_Menu.prototype.isReady = function () {
+    var _Scene_Menu_isReady      = Scene_Menu.prototype.isReady;
+    Scene_Menu.prototype.isReady = function() {
         return _Scene_Menu_isReady.apply(this, arguments) &&
             (!$gamePlayer.isTransferringToOriginalMap() || DataManager.isMapLoaded());
     };
 
-    var _Scene_Menu_start = Scene_Menu.prototype.start;
-    Scene_Menu.prototype.start = function () {
+    var _Scene_Menu_start      = Scene_Menu.prototype.start;
+    Scene_Menu.prototype.start = function() {
         _Scene_Menu_start.apply(this, arguments);
         if ($gamePlayer.isTransferringToOriginalMap()) {
             $gamePlayer.performTransfer();
         }
     };
 
-    var _Scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
-    Scene_Menu.prototype.createCommandWindow = function () {
+    var _Scene_Menu_createCommandWindow      = Scene_Menu.prototype.createCommandWindow;
+    Scene_Menu.prototype.createCommandWindow = function() {
         _Scene_Menu_createCommandWindow.apply(this, arguments);
-        $gameTemp.iterateMenuParents(function (subCommands, parentName) {
+        $gameTemp.iterateMenuParents(function(subCommands, parentName) {
             this._commandWindow.setHandler('parent' + parentName, this.commandParent.bind(this));
         }, this);
 
@@ -753,8 +753,8 @@
         this.selectLastCommand();
     };
 
-    Scene_Menu.prototype.commandParent = function () {
-        var parentName = this._commandWindow.currentExt();
+    Scene_Menu.prototype.commandParent = function() {
+        var parentName  = this._commandWindow.currentExt();
         var subCommands = $gameTemp.getSubMenuCommands(parentName);
         $gameTemp.setLastSubCommandParent(parentName);
         if (subCommands.length === 1) {
@@ -768,7 +768,7 @@
         }
     };
 
-    Scene_Menu.prototype.createSubMenuCommandWindow = function (parentName) {
+    Scene_Menu.prototype.createSubMenuCommandWindow = function(parentName) {
         this._subMenuWindow = new Window_MenuSubCommand(this.x, this.y, parentName);
         this._subMenuWindow.updatePlacement(this._commandWindow);
         this._subMenuWindow.setHandler('ok', this.onSubCommandOk.bind(this));
@@ -786,14 +786,14 @@
         }
     };
 
-    Scene_Menu.prototype.removeSubMenuCommandWindow = function () {
+    Scene_Menu.prototype.removeSubMenuCommandWindow = function() {
         if (this._subMenuWindow) {
             this.removeChild(this._subMenuWindow);
         }
         this._subMenuWindow = null;
     };
 
-    Scene_Menu.prototype.onSubCommandOk = function (subCommand) {
+    Scene_Menu.prototype.onSubCommandOk = function(subCommand) {
         this._subCommand = (this._subMenuWindow ? this._subMenuWindow.currentExt() : subCommand);
         $gameTemp.setLastSubCommandIndex(this._subMenuWindow ? this._subMenuWindow.index() : 0);
         if (this._subCommand.isNeedSelectMember()) {
@@ -814,14 +814,14 @@
         }
     };
 
-    Scene_Menu.prototype.onSubCommandCancel = function () {
+    Scene_Menu.prototype.onSubCommandCancel = function() {
         this.removeSubMenuCommandWindow();
         $gameTemp.resetLastSubCommand();
         this._commandWindow.activate();
     };
 
-    var _Scene_Menu_onPersonalCancel = Scene_Menu.prototype.onPersonalCancel;
-    Scene_Menu.prototype.onPersonalCancel = function () {
+    var _Scene_Menu_onPersonalCancel      = Scene_Menu.prototype.onPersonalCancel;
+    Scene_Menu.prototype.onPersonalCancel = function() {
         _Scene_Menu_onPersonalCancel.apply(this);
         this._commandWindow.maskOff();
         /* 最後に選択していたメニューにカーソルを合わせる */
@@ -831,7 +831,7 @@
     /**
      * 最後に選択していたメニューにカーソルを合わせる
      */
-    Scene_Menu.prototype.selectLastCommand = function () {
+    Scene_Menu.prototype.selectLastCommand = function() {
         var lastSubCommand = $gameTemp.getLastSubCommand();
         if (lastSubCommand.parent) {
             this._commandWindow.selectSymbol('parent' + lastSubCommand.parent);
@@ -850,7 +850,7 @@
         $gameTemp.resetLastSubCommand();
     };
 
-    Scene_Menu.prototype.executeSubCommand = function () {
+    Scene_Menu.prototype.executeSubCommand = function() {
         this.executeSubScript();
         this.moveSubCommandMap();
         if (!SceneManager.isSceneChanging()) {
@@ -862,7 +862,7 @@
         }
     };
 
-    Scene_Menu.prototype.executeSubScript = function () {
+    Scene_Menu.prototype.executeSubScript = function() {
         var script = this._subCommand.getSelectionScript();
         if (!script) return;
         try {
@@ -876,7 +876,7 @@
         }
     };
 
-    Scene_Menu.prototype.moveSubCommandMap = function () {
+    Scene_Menu.prototype.moveSubCommandMap = function() {
         var mapId = this._subCommand.getMoveTargetMap();
         if (mapId <= 0) {
             return;
@@ -891,16 +891,16 @@
     /**
      * メニューから抜ける際に最後に選択したサブコマンドをリセットする
      */
-    var _Scene_Menu_terminate = Scene_Menu.prototype.terminate;
-    Scene_Menu.prototype.terminate = function () {
+    var _Scene_Menu_terminate      = Scene_Menu.prototype.terminate;
+    Scene_Menu.prototype.terminate = function() {
         _Scene_Menu_terminate.apply(this, arguments);
         if (this._subCommand && this._subCommand.getMoveTargetMap() <= 0) {
             $gameTemp.resetLastSubCommand();
         }
     };
 
-    var _Scene_Menu_createField = Scene_Menu.prototype.createField;
-    Scene_Menu.prototype.createField = function () {
+    var _Scene_Menu_createField      = Scene_Menu.prototype.createField;
+    Scene_Menu.prototype.createField = function() {
         _Scene_Menu_createField.apply(this, arguments);
         if (this._subMenuWindow) {
             this.addChild(this._subMenuWindow);
@@ -911,46 +911,46 @@
     // Window_MenuCommand
     //  サブコマンドを追加します。
     //=============================================================================
-    var _Window_MenuCommand_initialize = Window_MenuCommand.prototype.initialize;
-    Window_MenuCommand.prototype.initialize = function () {
+    var _Window_MenuCommand_initialize          = Window_MenuCommand.prototype.initialize;
+    Window_MenuCommand.prototype.initialize     = function() {
         this._maskedName = {};
         _Window_MenuCommand_initialize.apply(this, arguments);
     };
 
     var _Window_MenuCommand_initCommandPosition = Window_MenuCommand.initCommandPosition;
-    Window_MenuCommand.initCommandPosition = function () {
+    Window_MenuCommand.initCommandPosition      = function() {
         if ($gamePlayer.isInSubCommandMap()) return;
         _Window_MenuCommand_initCommandPosition.apply(this, arguments);
     };
 
-    var _Window_MenuCommand_addOriginalCommands = Window_MenuCommand.prototype.addOriginalCommands;
-    Window_MenuCommand.prototype.addOriginalCommands = function () {
+    var _Window_MenuCommand_addOriginalCommands      = Window_MenuCommand.prototype.addOriginalCommands;
+    Window_MenuCommand.prototype.addOriginalCommands = function() {
         _Window_MenuCommand_addOriginalCommands.apply(this, arguments);
         if (param.commandPosition === 0) this.makeSubCommandList();
     };
 
-    var _Window_MenuCommand_addOptionsCommand = Window_MenuCommand.prototype.addOptionsCommand;
-    Window_MenuCommand.prototype.addOptionsCommand = function () {
+    var _Window_MenuCommand_addOptionsCommand      = Window_MenuCommand.prototype.addOptionsCommand;
+    Window_MenuCommand.prototype.addOptionsCommand = function() {
         _Window_MenuCommand_addOptionsCommand.apply(this, arguments);
         if (param.commandPosition === 1) this.makeSubCommandList();
     };
 
-    var _Window_MenuCommand_addSaveCommand = Window_MenuCommand.prototype.addSaveCommand;
-    Window_MenuCommand.prototype.addSaveCommand = function () {
+    var _Window_MenuCommand_addSaveCommand      = Window_MenuCommand.prototype.addSaveCommand;
+    Window_MenuCommand.prototype.addSaveCommand = function() {
         _Window_MenuCommand_addSaveCommand.apply(this, arguments);
         if (param.commandPosition === 2) this.makeSubCommandList();
     };
 
-    var _Window_MenuCommand_addGameEndCommand = Window_MenuCommand.prototype.addGameEndCommand;
-    Window_MenuCommand.prototype.addGameEndCommand = function () {
+    var _Window_MenuCommand_addGameEndCommand      = Window_MenuCommand.prototype.addGameEndCommand;
+    Window_MenuCommand.prototype.addGameEndCommand = function() {
         if (this.needsCommand('gameEnd')) {
             _Window_MenuCommand_addGameEndCommand.apply(this, arguments);
         }
         if (param.commandPosition === 3) this.makeSubCommandList();
     };
 
-    var _Window_MenuCommand_needsCommand = Window_MenuCommand.prototype.needsCommand;
-    Window_MenuCommand.prototype.needsCommand = function (name) {
+    var _Window_MenuCommand_needsCommand      = Window_MenuCommand.prototype.needsCommand;
+    Window_MenuCommand.prototype.needsCommand = function(name) {
         var need = _Window_MenuCommand_needsCommand.apply(this, arguments);
         if (name === 'options' && param.hideOption) {
             return false;
@@ -961,8 +961,8 @@
         return need;
     };
 
-    Window_MenuCommand.prototype.makeSubCommandList = function () {
-        $gameTemp.iterateMenuParents(function (subCommands, parentName) {
+    Window_MenuCommand.prototype.makeSubCommandList = function() {
+        $gameTemp.iterateMenuParents(function(subCommands, parentName) {
             this._subCommands = subCommands;
             if (this.checkSubCommands('isVisible')) {
                 var commandName = this._maskedName[parentName] ? this._maskedName[parentName] : subCommands[0].getParentName();
@@ -971,35 +971,35 @@
         }, this);
     };
 
-    Window_MenuCommand.prototype.checkSubCommands = function (methodName) {
-        return this._subCommands.some(function (subCommand) {
+    Window_MenuCommand.prototype.checkSubCommands = function(methodName) {
+        return this._subCommands.some(function(subCommand) {
             return subCommand[methodName]();
         });
     };
 
-    Window_MenuCommand.prototype.calculateSubCommandX = function (width) {
+    Window_MenuCommand.prototype.calculateSubCommandX = function(width) {
         var x = (this.isHorizontalMenu() ? this._cursorRect.x : this.x + this.width);
         x += userSetting.subCommandWindow.adjustX;
         return x.clamp(0, Graphics.boxWidth - width);
     };
 
-    Window_MenuCommand.prototype.calculateSubCommandY = function (height) {
+    Window_MenuCommand.prototype.calculateSubCommandY = function(height) {
         var y = (this.isHorizontalMenu() ? this.y + this.height : this._cursorRect.y);
         y += userSetting.subCommandWindow.adjustY;
         return y.clamp(0, Graphics.boxHeight - height);
     };
 
-    Window_MenuCommand.prototype.isHorizontalMenu = function () {
+    Window_MenuCommand.prototype.isHorizontalMenu = function() {
         return this.maxCols() >= this.maxPageRows();
     };
 
-    Window_MenuCommand.prototype.maskCommand = function (maskName) {
-        this._maskedName = {};
+    Window_MenuCommand.prototype.maskCommand = function(maskName) {
+        this._maskedName                                 = {};
         this._maskedName[this.commandName(this.index())] = maskName;
         this.refresh();
     };
 
-    Window_MenuCommand.prototype.maskOff = function () {
+    Window_MenuCommand.prototype.maskOff = function() {
         this._maskedName = {};
         this.refresh();
     };
@@ -1008,7 +1008,7 @@
     // Window_MenuStatus
     //  選択しているアクターのIDを取得します。
     //=============================================================================
-    Window_MenuStatus.prototype.getSelectedActorId = function () {
+    Window_MenuStatus.prototype.getSelectedActorId = function() {
         return $gameParty.members()[this._index].actorId();
     };
 
@@ -1020,36 +1020,36 @@
         this.initialize.apply(this, arguments);
     }
 
-    Window_MenuSubCommand.prototype = Object.create(Window_Command.prototype);
+    Window_MenuSubCommand.prototype             = Object.create(Window_Command.prototype);
     Window_MenuSubCommand.prototype.constructor = Window_MenuSubCommand;
 
-    Window_MenuSubCommand.prototype.initialize = function (x, y, parentName) {
+    Window_MenuSubCommand.prototype.initialize = function(x, y, parentName) {
         this._parentName = parentName;
         Window_Command.prototype.initialize.call(this, x, y);
     };
 
-    Window_MenuSubCommand.prototype.makeCommandList = function () {
+    Window_MenuSubCommand.prototype.makeCommandList = function() {
         var subMenus = $gameTemp.getSubMenuCommands(this._parentName);
-        subMenus.forEach(function (subMenu) {
+        subMenus.forEach(function(subMenu) {
             if (subMenu.isVisible()) {
                 this.addCommand(subMenu.getName(), 'ok', subMenu.isEnable(), subMenu);
             }
         }, this);
     };
 
-    Window_MenuSubCommand.prototype.numVisibleRows = function () {
+    Window_MenuSubCommand.prototype.numVisibleRows = function() {
         return param.horizontalSubMenu ? 1 : Window_Command.prototype.numVisibleRows.call(this);
     };
 
-    Window_MenuSubCommand.prototype.maxCols = function () {
+    Window_MenuSubCommand.prototype.maxCols = function() {
         return param.horizontalSubMenu ? this.maxItems() : 1;
     };
 
-    Window_MenuSubCommand.prototype.windowWidth = function () {
+    Window_MenuSubCommand.prototype.windowWidth = function() {
         return param.subMenuWidth || Window_Command.prototype.windowWidth.call(this);
     };
 
-    Window_MenuSubCommand.prototype.lineHeight = function () {
+    Window_MenuSubCommand.prototype.lineHeight = function() {
         if (userSetting.subCommandWindow.fontSize) {
             return userSetting.subCommandWindow.fontSize + 8;
         } else {
@@ -1057,7 +1057,7 @@
         }
     };
 
-    Window_MenuSubCommand.prototype.updatePlacement = function (commandWindow) {
+    Window_MenuSubCommand.prototype.updatePlacement = function(commandWindow) {
         if (param.subMenuX || param.subMenuY) {
             this.x = param.subMenuX;
             this.y = param.subMenuY;
@@ -1067,15 +1067,15 @@
         }
     };
 
-    Window_MenuSubCommand.prototype.standardFontSize = function () {
+    Window_MenuSubCommand.prototype.standardFontSize = function() {
         return userSetting.subCommandWindow.fontSize || Window_Command.prototype.standardFontSize.call(this);
     };
 
-    Window_MenuSubCommand.prototype.standardPadding = function () {
+    Window_MenuSubCommand.prototype.standardPadding = function() {
         return userSetting.subCommandWindow.padding || Window_Command.prototype.standardPadding.call(this);
     };
 
-    Window_MenuSubCommand.prototype.loadWindowskin = function () {
+    Window_MenuSubCommand.prototype.loadWindowskin = function() {
         if (param.windowSkin) {
             this.windowskin = ImageManager.loadSystem(param.windowSkin);
         } else {
@@ -1083,8 +1083,8 @@
         }
     };
 
-    var _Window_MenuSubCommand_itemTextAlign = Window_MenuSubCommand.prototype.itemTextAlign;
-    Window_MenuSubCommand.prototype.itemTextAlign = function () {
+    var _Window_MenuSubCommand_itemTextAlign      = Window_MenuSubCommand.prototype.itemTextAlign;
+    Window_MenuSubCommand.prototype.itemTextAlign = function() {
         return param.subMenuAlign || _Window_MenuSubCommand_itemTextAlign.apply(this, arguments);
     };
 
@@ -1094,14 +1094,14 @@
     //=============================================================================
     class Game_MenuSubCommand {
         constructor(subCommandData) {
-            this._parentName = subCommandData.ParentName;
-            this._name = subCommandData.Name;
-            this._hiddenSwitchId = subCommandData.HiddenSwitchId;
+            this._parentName      = subCommandData.ParentName;
+            this._name            = subCommandData.Name;
+            this._hiddenSwitchId  = subCommandData.HiddenSwitchId;
             this._disableSwitchId = subCommandData.DisableSwitchId;
-            this._targetScript = subCommandData.Script;
-            this._targetMapId = subCommandData.MapId;
-            this._returnMap = subCommandData.ReturnMap === 'true';
-            this._memberSelect = getArgBoolean(subCommandData.SelectMember);
+            this._targetScript    = subCommandData.Script;
+            this._targetMapId     = subCommandData.MapId;
+            this._returnMap       = subCommandData.ReturnMap === 'true';
+            this._memberSelect    = getArgBoolean(subCommandData.SelectMember);
         }
 
         getName() {

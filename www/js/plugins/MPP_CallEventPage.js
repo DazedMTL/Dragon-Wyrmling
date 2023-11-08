@@ -27,22 +27,22 @@
  * 
  */
 
-(function () {
+(function() {
 
-    //1722
-    var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-    Game_Interpreter.prototype.pluginCommand = function (command, args) {
-        _Game_Interpreter_pluginCommand.call(this, command, args);
-        if (command === 'CallEventPage') {
-            var eventId = Number(args[1]) || this._eventId;
-            if (this.isOnCurrentMap() && eventId > 0) {
-                var event = $dataMap.events[eventId];
-                var index = Number(args[0]) - 1;
-                var page = event && index >= 0 ? event.pages[index] : null;
-                if (page) this.setupChild(page.list, eventId);
-            }
+//1722
+var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
+Game_Interpreter.prototype.pluginCommand = function(command, args) {
+    _Game_Interpreter_pluginCommand.call(this, command, args);
+    if (command === 'CallEventPage') {
+        var eventId = Number(args[1]) || this._eventId;
+        if (this.isOnCurrentMap() && eventId > 0) {
+            var event = $dataMap.events[eventId];
+            var index = Number(args[0]) - 1;
+            var page = event && index >= 0 ? event.pages[index] : null;
+            if (page) this.setupChild(page.list, eventId);
         }
-    };
+    }
+};
 
 
 })();

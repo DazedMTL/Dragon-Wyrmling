@@ -543,7 +543,7 @@
             0,
             0,
             0,
-            0
+            2
         ],
         "price": 10,
         "wtypeId": 2
@@ -567,7 +567,7 @@
         ],
         "iconIndex": 340,
         "name": "Trendill",
-        "note": "<SpineName:ranger>\n<SpineSkin:skin1>\n<SpineMotion:Attack1>\n<SpineSize:63>\n<skillA:45>\n<skillB:46>\n<skillB:47>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
+        "note": "<SpineName:ranger>\n<SpineSkin:skin1>\n<SpineMotion:Attack1>\n<SpineSize:63>\n<skillA:45>\n<skillB:46>\n<skillC:47>\n<DD最大HP:prev + (DBless() * 6 )>\n<DD攻撃力:prev + (DBless() * 8 )>",
         "params": [
             77,
             0,

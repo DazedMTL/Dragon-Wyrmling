@@ -56,7 +56,7 @@
  * @help このプラグインには、プラグインコマンドはありません。
  */
 
-(function () {
+(function() {
 
     var parameters = PluginManager.parameters('TextDecoration');
     var mode = Number(parameters['Mode'] || 0);
@@ -66,15 +66,15 @@
     var alpha = Number(parameters['Alpha'] || 128);
 
     var _Window_Base_resetFontSettings = Window_Base.prototype.resetFontSettings;
-    Window_Base.prototype.resetFontSettings = function () {
+    Window_Base.prototype.resetFontSettings = function() {
         _Window_Base_resetFontSettings.call(this);
         this.contents.outlineColor =
-            'rgba(%1,%2,%3,%4)'.format(red, green, blue, alpha / 255);
+             'rgba(%1,%2,%3,%4)'.format(red, green, blue, alpha / 255);
         this.contents.decorationMode = mode;
     };
 
     var _Bitmap_drawTextOutline = Bitmap.prototype._drawTextOutline;
-    Bitmap.prototype._drawTextOutline = function (text, tx, ty, maxWidth) {
+    Bitmap.prototype._drawTextOutline = function(text, tx, ty, maxWidth) {
         if (this.decorationMode === 1) {
             var context = this._context;
             context.fillStyle = this.outlineColor;

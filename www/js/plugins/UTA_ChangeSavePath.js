@@ -64,13 +64,13 @@
  * @namespace utakata
  */
 var utakata = utakata || {};
-(function (utakata) {
+(function(utakata){
     /**
      * @static
      * @class ChangeSavePath
      * @classdesc セーブファイルの保存場所を変更するクラス
      */
-    utakata.ChangeSavePath = (function () {
+    utakata.ChangeSavePath = (function(){
         /**
          * プラグイン名称
          * @type {string}
@@ -88,7 +88,7 @@ var utakata = utakata || {};
          * @type {object}
          */
         ChangeSavePath._parameters = {
-            "Base Reference": "www",
+            "Base Reference": "www", 
             "Directory Path": "save"
         };
 
@@ -98,7 +98,7 @@ var utakata = utakata || {};
          */
         ChangeSavePath._path = null;
 
-        function ChangeSavePath() {
+        function ChangeSavePath(){
             throw new Error("utakata.ChangeSavePath is static class.");
         }
 
@@ -107,7 +107,7 @@ var utakata = utakata || {};
          * @static
          * @method _initialize
          */
-        ChangeSavePath._initialize = function () {
+        ChangeSavePath._initialize = function(){
             this._loadPluginParameters();
         };
 
@@ -116,15 +116,15 @@ var utakata = utakata || {};
          * @static
          * @method _loadPluginParameters
          */
-        ChangeSavePath._loadPluginParameters = function () {
+        ChangeSavePath._loadPluginParameters = function(){
             var _pluginParameters = PluginManager.parameters(this.getPluginName());
-            try {
+            try{
                 /**
                  * Base Reference
                  * @type {string} www|exe
                  */
                 var _BaseReference = _pluginParameters["Base Reference"];
-                if (!(_BaseReference in { "www": null, "exe": null })) {
+                if(!(_BaseReference in {"www": null, "exe": null})){
                     throw new Error("Base Reference is invalid");
                 }
                 this._parameters["Base Reference"] = _BaseReference;
@@ -134,7 +134,7 @@ var utakata = utakata || {};
                  * @type {string}
                  */
                 this._parameters["Directory Path"] = _pluginParameters["Directory Path"];
-            } catch (e) {
+            }catch(e){
                 console.error("utakata.ChangeSavePath, _loadPluginParameters: failed to parse plugin parameters.\n", e.message, e.stack);
                 return;
             }
@@ -146,7 +146,7 @@ var utakata = utakata || {};
          * @method _isExeBase
          * @return {boolean}
          */
-        ChangeSavePath._isExeBase = function () {
+        ChangeSavePath._isExeBase = function(){
             return this._parameters["Base Reference"] === "exe";
         };
 
@@ -155,8 +155,8 @@ var utakata = utakata || {};
          * @private
          * @method _makelocalFileDirectoryPath
          */
-        ChangeSavePath._makelocalFileDirectoryPath = function () {
-            if (!this._isLocalMode()) {
+        ChangeSavePath._makelocalFileDirectoryPath = function(){
+            if(!this._isLocalMode()){
                 return;
             }
             var path = require("path");
@@ -167,7 +167,7 @@ var utakata = utakata || {};
 
             // StorageManager.localFilePathでファイル名とパスの結合がstringの足し算である為、
             // よろしくパス区切り文字を付けてくれずに危険
-            if (!_targetPath.match(/\/$/g)) {
+            if(!_targetPath.match(/\/$/g)){
                 _targetPath += "/";
             }
             this._path = _targetPath;
@@ -181,12 +181,12 @@ var utakata = utakata || {};
          * @method getlocalFileDirectoryPath
          * @return {string}
          */
-        ChangeSavePath.getlocalFileDirectoryPath = function () {
-            if (!this._isLocalMode()) {
+        ChangeSavePath.getlocalFileDirectoryPath = function(){
+            if(!this._isLocalMode()){
                 console.error("utakata.ChangeSavePath, getlocalFileDirectoryPath: now playing mode is web mode.");
                 return null;
             }
-            if (!this._path) {
+            if(!this._path){
                 this._makelocalFileDirectoryPath();
             }
             return this._path;
@@ -197,7 +197,7 @@ var utakata = utakata || {};
          * @method _isLocalMode
          * @return {boolean}
          */
-        ChangeSavePath._isLocalMode = function () {
+        ChangeSavePath._isLocalMode = function(){
             return Utils.isNwjs();
         };
 
@@ -206,12 +206,12 @@ var utakata = utakata || {};
          * @method _isTestPlay
          * @return {boolean}
          */
-        ChangeSavePath._isTestPlay = function () {
+        ChangeSavePath._isTestPlay = function(){
             return (Utils.isOptionValid('test') || Utils.isOptionValid('btest') || Utils.isOptionValid('etest')) > 0;
         };
 
-        ChangeSavePath.getPluginName = function () { return __PLUGIN_NAME__; };
-        ChangeSavePath.getVersion = function () { return __VERSION__; };
+        ChangeSavePath.getPluginName = function(){ return __PLUGIN_NAME__; };
+        ChangeSavePath.getVersion    = function(){ return __VERSION__; };
 
         return ChangeSavePath;
     })();
@@ -220,7 +220,7 @@ var utakata = utakata || {};
     //-------------------------------------------------------------
     // StorageManager
     //-------------------------------------------------------------
-    StorageManager.localFileDirectoryPath = function () {
+    StorageManager.localFileDirectoryPath = function(){
         return utakata.ChangeSavePath.getlocalFileDirectoryPath();
     };
 })(utakata);

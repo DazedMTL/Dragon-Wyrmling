@@ -24520,7 +24520,7 @@
                         "wait": false
                     },
                     "moveSpeed": 3,
-                    "moveType": 1,
+                    "moveType": 0,
                     "priorityType": 1,
                     "stepAnime": true,
                     "through": false,

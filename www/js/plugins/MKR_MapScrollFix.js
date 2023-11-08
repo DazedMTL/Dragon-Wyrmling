@@ -140,29 +140,29 @@ Imported.MKR_MapScrollFix = true;
 
     const PN = "MKR_MapScrollFix";
 
-    const CheckParam = function (type, name, value, def, min, max, options) {
-        if (min == undefined || min == null) {
+    const CheckParam = function(type, name, value, def, min, max, options) {
+        if(min == undefined || min == null) {
             min = -Infinity;
         }
-        if (max == undefined || max == null) {
+        if(max == undefined || max == null) {
             max = Infinity;
         }
 
-        if (value == null) {
+        if(value == null) {
             value = "";
         } else {
             value = String(value);
         }
 
-        switch (type) {
+        switch(type) {
             case "bool":
-                if (value == "") {
-                    value = (def) ? true : false;
+                if(value == "") {
+                    value = (def)? true : false;
                 }
                 value = value.toUpperCase() === "ON" || value.toUpperCase() === "TRUE" || value.toUpperCase() === "1";
                 break;
             case "num":
-                value = (isFinite(value)) ? parseInt(value, 10) : (isFinite(def)) ? parseInt(def, 10) : 0;
+                value = (isFinite(value))? parseInt(value, 10) : (isFinite(def))? parseInt(def, 10) : 0;
                 value = value.clamp(min, max);
                 break;
             default:
@@ -173,11 +173,11 @@ Imported.MKR_MapScrollFix = true;
         return [value, type, def, min, max];
     };
 
-    const paramParse = function (obj) {
+    const paramParse = function(obj) {
         return JSON.parse(JSON.stringify(obj, paramReplace));
     }
 
-    const paramReplace = function (key, value) {
+    const paramReplace = function(key, value) {
         try {
             return JSON.parse(value || null);
         } catch (e) {
@@ -189,11 +189,11 @@ Imported.MKR_MapScrollFix = true;
     let Params = {};
 
     Params = {
-        "ScrollFixSw": CheckParam("num", "Default_Scroll_Fix_Sw", Parameters["Default_Scroll_Fix_Sw"], 10, 0),
-        "ScrollFixType": CheckParam("num", "Scroll_Fix_Type", Parameters["Scroll_Fix_Type"], 1),
-        "IsDisplayOut": CheckParam("bool", "Is_Display_Out", Parameters["Is_Display_Out"], true),
-        "IsDisplayIn": CheckParam("bool", "Is_Display_In", Parameters["Is_Display_In"], true),
-        "EnableMapZoom": CheckParam("bool", "Enable_MapZoom", Parameters["Enable_MapZoom"], false),
+        "ScrollFixSw" : CheckParam("num", "Default_Scroll_Fix_Sw", Parameters["Default_Scroll_Fix_Sw"], 10, 0),
+        "ScrollFixType" : CheckParam("num", "Scroll_Fix_Type", Parameters["Scroll_Fix_Type"], 1),
+        "IsDisplayOut" : CheckParam("bool", "Is_Display_Out", Parameters["Is_Display_Out"], true),
+        "IsDisplayIn" : CheckParam("bool", "Is_Display_In", Parameters["Is_Display_In"], true),
+        "EnableMapZoom" : CheckParam("bool", "Enable_MapZoom", Parameters["Enable_MapZoom"], false),
     };
 
 
@@ -203,20 +203,20 @@ Imported.MKR_MapScrollFix = true;
     //
     //=========================================================================
     var _Game_Player_updateScroll = Game_Player.prototype.updateScroll;
-    Game_Player.prototype.updateScroll = function (lastScrolledX, lastScrolledY) {
-        if (!$gameSwitches.value(Params.ScrollFixSw[0])) {
+    Game_Player.prototype.updateScroll = function(lastScrolledX, lastScrolledY) {
+        if(!$gameSwitches.value(Params.ScrollFixSw[0])) {
             _Game_Player_updateScroll.apply(this, arguments);
             return;
         }
 
-        if (Params.ScrollFixType[0] != 1) {
+        if(Params.ScrollFixType[0] != 1) {
             return;
         }
 
-        if ($gameMap.displayX() != Math.round($gameMap.displayX())) {
+        if($gameMap.displayX() != Math.round($gameMap.displayX())) {
             $gameMap._displayX = Math.round($gameMap.displayX());
         }
-        if ($gameMap.displayY() != Math.round($gameMap.displayY())) {
+        if($gameMap.displayY() != Math.round($gameMap.displayY())) {
             $gameMap._displayY = Math.round($gameMap.displayY());
         }
     };
@@ -228,32 +228,32 @@ Imported.MKR_MapScrollFix = true;
     //
     //=========================================================================
     const _Game_Map_scrollDown = Game_Map.prototype.scrollDown;
-    Game_Map.prototype.scrollDown = function (distance) {
-        if (Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
+    Game_Map.prototype.scrollDown = function(distance) {
+        if(Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
             return;
         }
         _Game_Map_scrollDown.call(this, distance);
     };
 
     const _Game_Map_scrollLeft = Game_Map.prototype.scrollLeft;
-    Game_Map.prototype.scrollLeft = function (distance) {
-        if (Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
+    Game_Map.prototype.scrollLeft = function(distance) {
+        if(Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
             return;
         }
         _Game_Map_scrollLeft.call(this, distance);
     };
 
     const _Game_Map_scrollRight = Game_Map.prototype.scrollRight;
-    Game_Map.prototype.scrollRight = function (distance) {
-        if (Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
+    Game_Map.prototype.scrollRight = function(distance) {
+        if(Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
             return;
         }
         _Game_Map_scrollRight.call(this, distance);
     };
 
     const _Game_Map_scrollUp = Game_Map.prototype.scrollUp;
-    Game_Map.prototype.scrollUp = function (distance) {
-        if (Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
+    Game_Map.prototype.scrollUp = function(distance) {
+        if(Params.EnableMapZoom[0] && $gameSwitches.value(Params.ScrollFixSw[0])) {
             return;
         }
         _Game_Map_scrollUp.call(this, distance);
@@ -266,22 +266,22 @@ Imported.MKR_MapScrollFix = true;
     //
     //=========================================================================
     var _Game_CharacterBase_isMapPassable = Game_CharacterBase.prototype.isMapPassable;
-    Game_CharacterBase.prototype.isMapPassable = function (x, y, d) {
+    Game_CharacterBase.prototype.isMapPassable = function(x, y, d) {
         let isPass, x2, y2;
         isPass = _Game_CharacterBase_isMapPassable.apply(this, arguments);
 
-        if (!this.isThrough() && $gameSwitches.value(Params.ScrollFixSw[0])) {
-            if (isPass && !Params.IsDisplayOut[0]) {
+        if(!this.isThrough() && $gameSwitches.value(Params.ScrollFixSw[0])) {
+            if(isPass && !Params.IsDisplayOut[0]) {
                 isPass = this.isDisplayOutPassible(x, y, d);
             }
-            if (isPass && !Params.IsDisplayIn[0]) {
+            if(isPass && !Params.IsDisplayIn[0]) {
                 isPass = this.isDisplayInPassible(x, y, d);
             }
         }
         return isPass;
     };
 
-    Game_CharacterBase.prototype.isDisplayOutPassible = function (x, y, d) {
+    Game_CharacterBase.prototype.isDisplayOutPassible = function(x, y, d) {
         let x2, y2, dx, rdx, dy, rdy, realX, realY;
         dx = $gameMap.displayX();
         rdx = dx + $gameMap.screenTileX() - 1;
@@ -304,8 +304,8 @@ Imported.MKR_MapScrollFix = true;
         //         return false;
         // }
 
-        if (d == 8 || d == 2) {
-            switch (true) {
+        if(d == 8 || d == 2) {
+            switch(true) {
                 case y == Math.floor(dy) && y2 < dy:
                 case y == Math.ceil(dy) && y2 < dy:
                 case y == Math.floor(rdy) && y2 > rdy:
@@ -316,8 +316,8 @@ Imported.MKR_MapScrollFix = true;
                 case realY == Math.ceil(rdy) && y2 > rdy:
                     return false;
             }
-        } else if (d == 6 || d == 4) {
-            switch (true) {
+        } else if(d == 6 || d == 4) {
+            switch(true) {
                 case x == Math.floor(dx) && x2 < dx:
                 case x == Math.ceil(dx) && x2 < dx:
                 case x == Math.floor(rdx) && x2 > rdx:
@@ -333,7 +333,7 @@ Imported.MKR_MapScrollFix = true;
         return true;
     };
 
-    Game_CharacterBase.prototype.isDisplayInPassible = function (x, y, d) {
+    Game_CharacterBase.prototype.isDisplayInPassible = function(x, y, d) {
         let x2, y2, dx, rdx, dy, rdy, realX, realY;
         dx = $gameMap.displayX();
         rdx = dx + $gameMap.screenTileX();
@@ -358,8 +358,8 @@ Imported.MKR_MapScrollFix = true;
         //         return false;
         // }
 
-        if (d == 8 || d == 2) {
-            switch (true) {
+        if(d == 8 || d == 2) {
+            switch(true) {
                 case y == Math.floor(dy) && y2 > dy:
                 case y == Math.ceil(dy) && y2 > dy:
                 case y == Math.floor(rdy) && y2 < rdy:
@@ -370,8 +370,8 @@ Imported.MKR_MapScrollFix = true;
                 case realY == Math.ceil(rdy) && y2 < rdy:
                     return false;
             }
-        } else if (d == 6 || d == 4) {
-            switch (true) {
+        } else if(d == 6 || d == 4) {
+            switch(true) {
                 case x == Math.floor(dx) && x2 < dx:
                 case x == Math.ceil(dx) && x2 < dx:
                 case x == Math.floor(rdx) && x2 > rdx:
@@ -388,25 +388,25 @@ Imported.MKR_MapScrollFix = true;
     };
 
     const _Game_CharacterBase_updateJump = Game_CharacterBase.prototype.updateJump;
-    Game_CharacterBase.prototype.updateJump = function () {
+    Game_CharacterBase.prototype.updateJump = function() {
         _Game_CharacterBase_updateJump.call(this);
 
         let maxDisplayX, maxDisplayY;
         maxDisplayX = $gameMap.displayX() + $gameMap.screenTileX() - 1;
         maxDisplayY = $gameMap.displayY() + $gameMap.screenTileY() - 1;
 
-        if (!this.isThrough() && $gameSwitches.value(Params.ScrollFixSw[0])) {
-            if (this._realX > maxDisplayX) {
+        if(!this.isThrough() && $gameSwitches.value(Params.ScrollFixSw[0])) {
+            if(this._realX > maxDisplayX) {
                 this._realX = maxDisplayX;
                 this._x = maxDisplayX;
-            } else if (this._realX <= $gameMap.displayX()) {
+            } else if(this._realX <= $gameMap.displayX()) {
                 this._realX = $gameMap.displayX();
                 this._x = $gameMap.displayX();
             }
-            if (this._realY >= maxDisplayY) {
+            if(this._realY >= maxDisplayY) {
                 this._realY = maxDisplayY;
                 this._y = maxDisplayY;
-            } else if (this._realY <= $gameMap.displayY()) {
+            } else if(this._realY <= $gameMap.displayY()) {
                 this._realY = $gameMap.displayY();
                 this._y = $gameMap.displayY();
             }

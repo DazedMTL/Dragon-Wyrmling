@@ -3994,6 +3994,15 @@
                             ]
                         },
                         {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                634,
+                                634,
+                                0
+                            ]
+                        },
+                        {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
@@ -4072,6 +4081,84 @@
                             "code": 408,
                             "indent": 0,
                             "parameters": [
+                                "どすけべエンド"
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1,
+                                0,
+                                1,
+                                381
+                            ]
+                        },
+                        {
+                            "code": 122,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                382
+                            ]
+                        },
+                        {
+                            "code": 111,
+                            "indent": 0,
+                            "parameters": [
+                                1,
+                                1,
+                                0,
+                                13,
+                                1
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                633,
+                                633,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 356,
+                            "indent": 1,
+                            "parameters": [
+                                "TEマップイベント呼び出し ●内容 6"
+                            ]
+                        },
+                        {
+                            "code": 115,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 0,
+                            "indent": 1,
+                            "parameters": []
+                        },
+                        {
+                            "code": 412,
+                            "indent": 0,
+                            "parameters": []
+                        },
+                        {
+                            "code": 108,
+                            "indent": 0,
+                            "parameters": [
+                                "==="
+                            ]
+                        },
+                        {
+                            "code": 408,
+                            "indent": 0,
+                            "parameters": [
                                 "ごくらくエンド"
                             ]
                         },
@@ -4094,6 +4181,15 @@
                                 20,
                                 0,
                                 0,
+                                0
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 1,
+                            "parameters": [
+                                632,
+                                632,
                                 0
                             ]
                         },
@@ -4141,76 +4237,16 @@
                             "code": 408,
                             "indent": 0,
                             "parameters": [
-                                "どすけべエンド"
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                1,
-                                1,
-                                0,
-                                1,
-                                381
-                            ]
-                        },
-                        {
-                            "code": 122,
-                            "indent": 0,
-                            "parameters": [
-                                1,
-                                1,
-                                1,
-                                1,
-                                382
-                            ]
-                        },
-                        {
-                            "code": 111,
-                            "indent": 0,
-                            "parameters": [
-                                1,
-                                1,
-                                0,
-                                13,
-                                1
-                            ]
-                        },
-                        {
-                            "code": 356,
-                            "indent": 1,
-                            "parameters": [
-                                "TEマップイベント呼び出し ●内容 6"
-                            ]
-                        },
-                        {
-                            "code": 115,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 0,
-                            "indent": 1,
-                            "parameters": []
-                        },
-                        {
-                            "code": 412,
-                            "indent": 0,
-                            "parameters": []
-                        },
-                        {
-                            "code": 108,
-                            "indent": 0,
-                            "parameters": [
-                                "==="
-                            ]
-                        },
-                        {
-                            "code": 408,
-                            "indent": 0,
-                            "parameters": [
                                 "ノーマルエンド"
+                            ]
+                        },
+                        {
+                            "code": 121,
+                            "indent": 0,
+                            "parameters": [
+                                631,
+                                631,
+                                0
                             ]
                         },
                         {

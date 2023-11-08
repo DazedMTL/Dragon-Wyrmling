@@ -23,12 +23,12 @@
  * 
  */
 
-(function () {
+(function() {
 
-    var _Game_Player_fadeType = Game_Player.prototype.fadeType;
-    Game_Player.prototype.fadeType = function () {
-        if (!this._fadeType) return 0;
-        return _Game_Player_fadeType.call(this);
-    };
-
+var _Game_Player_fadeType = Game_Player.prototype.fadeType;
+Game_Player.prototype.fadeType = function() {
+    if(!this._fadeType) return 0;
+    return _Game_Player_fadeType.call(this);
+};
+ 
 })();

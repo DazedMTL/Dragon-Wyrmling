@@ -113,8 +113,8 @@ var Imported = Imported || {};
 Imported.SA_CoreSpeedImprovement = true;
 
 //-----------------------------------------------------------------------------
-(function () {
-	'use strict';
+(function() {
+'use strict';
 
 	// Get parameters
 	var params = PluginManager.parameters('SA_CoreSpeedImprovement');
@@ -122,8 +122,8 @@ Imported.SA_CoreSpeedImprovement = true;
 	const paramMinCacheCWCHoldingCount = Number(params['Minimum CWC-cache holding count'] || 15);
 	const paramLoggingLevel = Number(params['Logging level'] || 4);
 	const LDEBUG = paramLoggingLevel >= 5 ? true : false;
-	const LINFO = paramLoggingLevel >= 4 ? true : false;
-	const LWARN = paramLoggingLevel >= 3 ? true : false;
+	const LINFO  = paramLoggingLevel >= 4 ? true : false;
+	const LWARN  = paramLoggingLevel >= 3 ? true : false;
 	const LERROR = paramLoggingLevel >= 2 ? true : false;
 	const LFATAL = paramLoggingLevel >= 1 ? true : false;
 
@@ -142,7 +142,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	 * セットアップ [EXPANDED]
 	 */
 	var _Game_Map_setup = Game_Map.prototype.setup;
-	Game_Map.prototype.setup = function (mapId) {
+	Game_Map.prototype.setup = function(mapId) {
 		_Game_Map_setup.call(this, mapId);
 		if (paramEnableCacheCWC) {
 			this.clearCacheCWCMem1();
@@ -157,7 +157,7 @@ Imported.SA_CoreSpeedImprovement = true;
 		}
 	};
 
-	Game_Map.prototype.events = function () {
+	Game_Map.prototype.events = function() {
 		var filtered = [];
 		for (var i = 0; i < this._events.length; i++) {
 			var event = this._events[i];
@@ -168,7 +168,7 @@ Imported.SA_CoreSpeedImprovement = true;
 		return filtered;
 	};
 
-	Game_Map.prototype.eventsXyNt = function (x, y) {
+	Game_Map.prototype.eventsXyNt = function(x, y) {
 		var events = this.events();
 		var filtered = [];
 		for (var i = 0; i < events.length; i++) {
@@ -182,7 +182,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	/**
 	 * CWCキャッシュから値を取得する。キャッシュ内に見つからない場合は undefined を返す。
 	 */
-	Game_Map.prototype.getValueCacheCWC = function (key) {
+	Game_Map.prototype.getValueCacheCWC = function(key) {
 		this._cacheCWCLookupCnt++;
 		var value;
 		if (this._cacheCWCIndex === 1) {
@@ -205,7 +205,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	/**
 	 * CWCキャッシュに新しい値を追加する
 	 */
-	Game_Map.prototype.addCacheCWC = function (key, value) {
+	Game_Map.prototype.addCacheCWC = function(key, value) {
 		if (this._cacheCWCIndex === 1) {
 			this._cacheCWCMem1[key] = value;
 		} else {
@@ -216,7 +216,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	/**
 	 * 古くなったCWCキャッシュを消去する
 	 */
-	Game_Map.prototype.clearOldCacheCWC = function () {
+	Game_Map.prototype.clearOldCacheCWC = function() {
 		if (!paramEnableCacheCWC) {
 			return;
 		}
@@ -250,7 +250,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	/**
 	 * CWCキャッシュ#1を消去する
 	 */
-	Game_Map.prototype.clearCacheCWCMem1 = function () {
+	Game_Map.prototype.clearCacheCWCMem1 = function() {
 		// ここまで丁寧にしなくても最近のエンジンならGCで解放されるが、実行時のコストは僅かのため残しておく。
 		if (typeof this._cacheCWCMem1 !== 'undefined') {
 			for (var key in this._cacheCWCMem1) {
@@ -264,7 +264,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	/**
 	 * CWCキャッシュ#2を消去する
 	 */
-	Game_Map.prototype.clearCacheCWCMem2 = function () {
+	Game_Map.prototype.clearCacheCWCMem2 = function() {
 		if (typeof this._cacheCWCMem2 !== 'undefined') {
 			for (var key in this._cacheCWCMem2) {
 				delete this._cacheCWCMem2[key];
@@ -281,7 +281,7 @@ Imported.SA_CoreSpeedImprovement = true;
 		 * @method update
 		 */
 		var _Game_Map_update = Game_Map.prototype.update;
-		Game_Map.prototype.update = function (sceneActive) {
+		Game_Map.prototype.update = function(sceneActive) {
 			_Game_Map_update.call(this, sceneActive);
 			this.clearOldCacheCWC();
 		};
@@ -292,7 +292,7 @@ Imported.SA_CoreSpeedImprovement = true;
 	//
 
 	if (paramEnableCacheCWC) {
-		Game_CharacterBase.prototype.isCollidedWithCharacters = function (x, y) {
+		Game_CharacterBase.prototype.isCollidedWithCharacters = function(x, y) {
 			var key = x + '_' + y;
 			var value = $gameMap.getValueCacheCWC(key);
 			if (typeof value === 'undefined') {
@@ -305,7 +305,7 @@ Imported.SA_CoreSpeedImprovement = true;
 		};
 	}
 
-	Game_CharacterBase.prototype.isCollidedWithEvents = function (x, y) {
+	Game_CharacterBase.prototype.isCollidedWithEvents = function(x, y) {
 		var events = $gameMap.eventsXyNt(x, y);
 		for (var i = 0; i < events.length; i++) {
 			if (events[i].isNormalPriority()) {

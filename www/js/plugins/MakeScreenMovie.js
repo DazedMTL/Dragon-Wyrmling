@@ -220,7 +220,7 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     if (!Utils.isNwjs() || Utils.RPGMAKER_VERSION < '1.6.0') {
@@ -233,8 +233,8 @@
      * @param pluginName plugin name(EncounterSwitchConditions)
      * @returns {Object} Created parameter
      */
-    const createPluginParameter = function (pluginName) {
-        const paramReplacer = function (key, value) {
+    const createPluginParameter = function(pluginName) {
+        const paramReplacer = function(key, value) {
             if (value === 'null') {
                 return value;
             }
@@ -247,7 +247,7 @@
                 return value;
             }
         };
-        const parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
+        const parameter     = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
         PluginManager.setParameters(pluginName, parameter);
         return parameter;
     };
@@ -277,9 +277,9 @@
             if (this._disable) {
                 return;
             }
-            this._stream = param.IncludeAudio ? this._createStream() : this._createCanvasStream();
-            const recorder = new MediaRecorder(this._stream, { mimeType: this.getMimeType() });
-            this._chunks = [];
+            this._stream  = param.IncludeAudio ? this._createStream() : this._createCanvasStream();
+            const recorder = new MediaRecorder(this._stream, {mimeType: this.getMimeType()});
+            this._chunks   = [];
             recorder.addEventListener('dataavailable', event => this._chunks.push(event.data));
             recorder.addEventListener('stop', this._save.bind(this));
             recorder.start(1000);
@@ -295,7 +295,7 @@
         }
 
         _save() {
-            const blob = new Blob(this._chunks, { type: this.getMimeType() });
+            const blob   = new Blob(this._chunks, {type: this.getMimeType()});
             const reader = new FileReader();
             reader.addEventListener('load', () => {
                 Graphics.hideRecSign();
@@ -353,8 +353,8 @@
      * Game_Switches
      * スイッチに連動してレコーダーを更新します。
      */
-    var _Game_Switches_setValue = Game_Switches.prototype.setValue;
-    Game_Switches.prototype.setValue = function (variableId, value) {
+    var _Game_Switches_setValue      = Game_Switches.prototype.setValue;
+    Game_Switches.prototype.setValue = function(variableId, value) {
         _Game_Switches_setValue.apply(this, arguments);
         if (variableId === param.RecordSwitchId) {
             SceneManager.updateRecorder();
@@ -366,30 +366,30 @@
      *  ScreenRecorderを生成、管理します。
      */
     const _SceneManager_initialize = SceneManager.initialize;
-    SceneManager.initialize = function () {
+    SceneManager.initialize        = function() {
         _SceneManager_initialize.apply(this, arguments);
         this._screenRecorder = new ScreenRecorder();
     };
 
     const _SceneManager_onKeyDown = SceneManager.onKeyDown;
-    SceneManager.onKeyDown = function (event) {
+    SceneManager.onKeyDown        = function(event) {
         _SceneManager_onKeyDown.apply(this, arguments);
         if (Utils.isOptionValid('test')) {
             this.onKeyDownForScreenMovie(event);
         }
     };
 
-    SceneManager.onKeyDownForScreenMovie = function (event) {
+    SceneManager.onKeyDownForScreenMovie = function(event) {
         if (event.keyCode === Input.functionReverseMapper[param.FunkKeyRecord]) {
             this._screenRecorder.toggle();
         }
     };
 
-    SceneManager.updateRecorder = function () {
+    SceneManager.updateRecorder = function() {
         this._screenRecorder.update();
     };
 
-    SceneManager.isScreenRecording = function () {
+    SceneManager.isScreenRecording = function() {
         return this._screenRecorder.isRecording();
     };
 
@@ -397,9 +397,9 @@
      * StorageManager
      * 作成した動画ファイルを保存します。
      */
-    StorageManager.saveMovieToLocalFile = function (dataBuffer) {
-        const fs = require('fs');
-        const dirPath = StorageManager.localMovieFileDirectoryPath();
+    StorageManager.saveMovieToLocalFile = function(dataBuffer) {
+        const fs       = require('fs');
+        const dirPath  = StorageManager.localMovieFileDirectoryPath();
         const filePath = dirPath + this.getMovieFileName() + '.webm';
         if (!fs.existsSync(dirPath)) {
             fs.mkdirSync(dirPath);
@@ -408,27 +408,27 @@
         fs.writeFileSync(filePath, dataBuffer);
     };
 
-    StorageManager.localMovieFileDirectoryPath = function () {
+    StorageManager.localMovieFileDirectoryPath = function() {
         let filePath = param.Location;
         if (!filePath.match(/^[A-Z]:/)) {
             const path = require('path');
-            filePath = path.join(path.dirname(this.localFileDirectoryPath()), filePath);
+            filePath   = path.join(path.dirname(this.localFileDirectoryPath()), filePath);
         }
         return filePath.match(/\/$/) ? filePath : filePath + '/';
     };
 
-    StorageManager.getMovieFileName = function () {
+    StorageManager.getMovieFileName = function() {
         const tmpText = param.FileName.replace(/\\V\[(\d+)]/gi, () => {
             return $gameVariables ? $gameVariables.value(parseInt(arguments[1])) : '0';
         });
         return tmpText.replace(/\\D/gi, this.getTimeText);
     };
 
-    StorageManager.getLatestMovieFilePath = function () {
+    StorageManager.getLatestMovieFilePath = function() {
         return this._movieFilePath || '';
     };
 
-    StorageManager.getTimeText = function () {
+    StorageManager.getTimeText = function() {
         const d = new Date();
         return `${d.getFullYear()}-${(d.getMonth() + 1).padZero(2)}-${d.getDate().padZero(2)}` +
             `_${d.getHours().padZero(2)}${d.getMinutes().padZero(2)}${d.getSeconds().padZero(2)}`;
@@ -438,13 +438,13 @@
      * Graphics
      * 録画中のサインを表示します。
      */
-    Graphics.showRecSign = function () {
+    Graphics.showRecSign = function() {
         if (this._recSign) {
             this._recSign.style.opacity = '1';
         }
     };
 
-    Graphics.hideRecSign = function () {
+    Graphics.hideRecSign = function() {
         if (this._recSign) {
             this._recSign.style.opacity = '0';
         }
@@ -452,26 +452,26 @@
 
     if (Utils.isOptionValid('test')) {
         const _Graphics__createAllElements = Graphics._createAllElements;
-        Graphics._createAllElements = function () {
+        Graphics._createAllElements        = function() {
             _Graphics__createAllElements.apply(this, arguments);
             this._createRecPrinter();
         };
 
-        Graphics._createRecPrinter = function () {
-            const text = document.createElement('div');
-            text.id = 'recSign';
-            text.style.position = 'absolute';
-            text.style.left = '8px';
-            text.style.top = '8px';
-            text.style.width = '300px';
-            text.style.fontSize = '40px';
+        Graphics._createRecPrinter = function() {
+            const text            = document.createElement('div');
+            text.id               = 'recSign';
+            text.style.position   = 'absolute';
+            text.style.left       = '8px';
+            text.style.top        = '8px';
+            text.style.width      = '300px';
+            text.style.fontSize   = '40px';
             text.style.fontFamily = 'monospace';
-            text.style.color = 'red';
-            text.style.textAlign = 'left';
+            text.style.color      = 'red';
+            text.style.textAlign  = 'left';
             text.style.textShadow = '1px 1px 0 rgba(0,0,0,0.5)';
-            text.innerHTML = '●REC';
-            text.style.zIndex = '9';
-            text.style.opacity = '0';
+            text.innerHTML        = '●REC';
+            text.style.zIndex     = '9';
+            text.style.opacity    = '0';
             document.body.appendChild(text);
             this._recSign = text;
         };
@@ -481,10 +481,10 @@
      * WebAudio
      * ストリームを生成して返します。
      */
-    WebAudio.createStream = function () {
+    WebAudio.createStream = function() {
         const audioContext = this._context;
-        const audioNode = this._masterGainNode;
-        const destination = audioContext.createMediaStreamDestination();
+        const audioNode    = this._masterGainNode;
+        const destination  = audioContext.createMediaStreamDestination();
         audioNode.connect(destination);
         const oscillator = audioContext.createOscillator();
         oscillator.connect(destination);
@@ -496,22 +496,22 @@
      * ファンクションキーをコードを紐付けます。
      */
     Input.functionReverseMapper = {
-        F1: 112,
-        F2: 113,
-        F3: 114,
-        F4: 115,
-        F5: 116,
-        F6: 117,
-        F7: 118,
-        F8: 119,
-        F9: 120,
+        F1 : 112,
+        F2 : 113,
+        F3 : 114,
+        F4 : 115,
+        F5 : 116,
+        F6 : 117,
+        F7 : 118,
+        F8 : 119,
+        F9 : 120,
         F10: 121,
         F11: 122,
         F12: 123
     };
 
     const _Window_Message_updateShowFast = Window_Message.prototype.updateShowFast;
-    Window_Message.prototype.updateShowFast = function () {
+    Window_Message.prototype.updateShowFast = function() {
         _Window_Message_updateShowFast.apply(this, arguments);
         if (SceneManager.isScreenRecording()) {
             this._showFast = true;

@@ -73,7 +73,7 @@
  *  このプラグインはもうあなたのものです。
  */
 
-(function () {
+(function() {
     'use strict';
 
     /**
@@ -82,7 +82,7 @@
      * @param name Meta name
      * @returns {String} meta value
      */
-    var getMetaValue = function (object, name) {
+    var getMetaValue = function(object, name) {
         return object.meta.hasOwnProperty(name) ? convertEscapeCharacters(object.meta[name]) : null;
     };
 
@@ -91,7 +91,7 @@
      * @param text Target text
      * @returns {String} Converted text
      */
-    var convertEscapeCharacters = function (text) {
+    var convertEscapeCharacters = function(text) {
         var windowLayer = SceneManager._scene._windowLayer;
         return windowLayer ? windowLayer.children[0].convertEscapeCharacters(text.toString()) : text;
     };
@@ -101,8 +101,8 @@
      * @param pluginName plugin name(EncounterSwitchConditions)
      * @returns {Object} Created parameter
      */
-    var createPluginParameter = function (pluginName) {
-        var paramReplacer = function (key, value) {
+    var createPluginParameter = function(pluginName) {
+        var paramReplacer = function(key, value) {
             if (value === 'null') {
                 return value;
             }
@@ -115,7 +115,7 @@
                 return value;
             }
         };
-        var parameter = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
+        var parameter     = JSON.parse(JSON.stringify(PluginManager.parameters(pluginName), paramReplacer));
         PluginManager.setParameters(pluginName, parameter);
         return parameter;
     };
@@ -126,15 +126,15 @@
      * Game_CharacterBase
      * フキダシの座標を取得可能にします。
      */
-    Game_CharacterBase.prototype.isNoImage = function () {
+    Game_CharacterBase.prototype.isNoImage = function() {
         return !this._tileId && !this._characterName;
     };
 
-    Game_CharacterBase.prototype.findBalloonX = function () {
+    Game_CharacterBase.prototype.findBalloonX = function() {
         return 0;
     };
 
-    Game_CharacterBase.prototype.findBalloonY = function () {
+    Game_CharacterBase.prototype.findBalloonY = function() {
         return 0;
     };
 
@@ -142,8 +142,8 @@
      * Game_Event
      * フキダシの座標をメモ欄から取得します。
      */
-    Game_Event.prototype.findBalloonX = function () {
-        const x = parseInt(getMetaValue(this.event(), 'BalloonX'));
+    Game_Event.prototype.findBalloonX = function() {
+        const x = parseInt(getMetaValue(this.event(),'BalloonX'));
         if (x) {
             return x;
         } else if (this.isNoImage()) {
@@ -153,8 +153,8 @@
         }
     };
 
-    Game_Event.prototype.findBalloonY = function () {
-        const y = parseInt(getMetaValue(this.event(), 'BalloonY'));
+    Game_Event.prototype.findBalloonY = function() {
+        const y = parseInt(getMetaValue(this.event(),'BalloonY'));
         if (y) {
             return y;
         } else if (this.isNoImage()) {
@@ -169,7 +169,7 @@
      * フキダシの表示位置を調整します。
      */
     var _Sprite_Character_updateBalloon = Sprite_Character.prototype.updateBalloon;
-    Sprite_Character.prototype.updateBalloon = function () {
+    Sprite_Character.prototype.updateBalloon = function() {
         _Sprite_Character_updateBalloon.apply(this, arguments);
         if (this._character && this.isBalloonPlaying()) {
             this._balloonSprite.x += this._character.findBalloonX();

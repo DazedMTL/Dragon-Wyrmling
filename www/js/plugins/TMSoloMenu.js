@@ -477,7 +477,7 @@
 var Imported = Imported || {};
 Imported.TMSoloMenu = true;
 
-(function () {
+(function() {
 
   var parameters = PluginManager.parameters('TMSoloMenu');
   var commandWindow = JSON.parse(parameters['commandWindow'] || '{}');
@@ -498,20 +498,20 @@ Imported.TMSoloMenu = true;
   var menuProfile = JSON.parse(parameters['menuProfile'] || '{}');
   var battleParameters = [];
   ['menuMhp', 'menuMmp', 'menuAtk', 'menuDef', 'menuMat', 'menuMdf', 'menuAgi', 'menuLuc',
-    'menuHit', 'menuEva', 'menuCri', 'menuCev', 'menuMev', 'menuMrf', 'menuCnt', 'menuHrg',
-    'menuMrg', 'menuTrg', 'menuTgr', 'menuGrd', 'menuRec', 'menuPha', 'menuMcr', 'menuTcr',
-    'menuPdr', 'menuMdr', 'menuFdr', 'menuExr'].forEach(function (code) {
-      battleParameters.push(JSON.parse(parameters[code] || '{}'));
-    });
+   'menuHit', 'menuEva', 'menuCri', 'menuCev', 'menuMev', 'menuMrf', 'menuCnt', 'menuHrg',
+   'menuMrg', 'menuTrg', 'menuTgr', 'menuGrd', 'menuRec', 'menuPha', 'menuMcr', 'menuTcr',
+   'menuPdr', 'menuMdr', 'menuFdr', 'menuExr'].forEach(function(code) {
+    battleParameters.push(JSON.parse(parameters[code] || '{}'));
+  });
   var horzLines = [];
-  ['horzLine1', 'horzLine2', 'horzLine3', 'horzLine4', 'horzLine5'].forEach(function (code) {
+  ['horzLine1', 'horzLine2', 'horzLine3', 'horzLine4', 'horzLine5'].forEach(function(code) {
     horzLines.push(JSON.parse(parameters[code] || '{}'));
   });
   var freeTexts = [];
   ['freeText1', 'freeText2', 'freeText3', 'freeText4', 'freeText5',
-    'freeText6', 'freeText7', 'freeText8', 'freeText9', 'freeText10'].forEach(function (code) {
-      freeTexts.push(JSON.parse(parameters[code] || '{}'));
-    });
+   'freeText6', 'freeText7', 'freeText8', 'freeText9', 'freeText10'].forEach(function(code) {
+    freeTexts.push(JSON.parse(parameters[code] || '{}'));
+  });
   var expGaugeColor1 = +(parameters['expGaugeColor1'] || 30);
   var expGaugeColor2 = +(parameters['expGaugeColor2'] || 31);
   var expNextText = parameters['expNextText'];
@@ -530,7 +530,7 @@ Imported.TMSoloMenu = true;
   // Game_Party
   //
 
-  Game_Party.prototype.isSoloMenuValid = function () {
+  Game_Party.prototype.isSoloMenuValid = function() {
     return forceChangeSoloMenu || this.size() === 1;
   };
 
@@ -539,7 +539,7 @@ Imported.TMSoloMenu = true;
   //
 
   var _Window_MenuCommand_windowWidth = Window_MenuCommand.prototype.windowWidth;
-  Window_MenuCommand.prototype.windowWidth = function () {
+  Window_MenuCommand.prototype.windowWidth = function() {
     if ($gameParty.isSoloMenuValid()) return +commandWindow.width;
     return _Window_MenuCommand_windowWidth.call(this);
   };
@@ -555,14 +555,14 @@ Imported.TMSoloMenu = true;
   Window_SoloStatus.prototype = Object.create(Window_Base.prototype);
   Window_SoloStatus.prototype.constructor = Window_SoloStatus;
 
-  Window_SoloStatus.prototype.initialize = function () {
+  Window_SoloStatus.prototype.initialize = function() {
     Window_Base.prototype.initialize.call(this, +statusWindow.x, +statusWindow.y,
-      +statusWindow.width, +statusWindow.height);
-    //    this.refresh();
+                                          +statusWindow.width, +statusWindow.height);
+//    this.refresh();
     if (!+statusWindow.width) this.hide();
   };
 
-  Window_SoloStatus.prototype.refresh = function () {
+  Window_SoloStatus.prototype.refresh = function() {
     this.contents.clear();
     var actor = $gameParty.leader();
     if (actor && +statusWindow.width) {
@@ -595,7 +595,7 @@ Imported.TMSoloMenu = true;
     }
   };
 
-  Window_SoloStatus.prototype.drawSoloParameter = function (actor, code, parameter) {
+  Window_SoloStatus.prototype.drawSoloParameter = function(actor, code, parameter) {
     var width = +parameter.width;
     if (!width) return;
     var x = +parameter.x;
@@ -627,7 +627,7 @@ Imported.TMSoloMenu = true;
     this.resetFontSettings();
   };
 
-  Window_SoloStatus.prototype.drawActorLevelAndExp = function (actor, x, y, width) {
+  Window_SoloStatus.prototype.drawActorLevelAndExp = function(actor, x, y, width) {
     var color1 = this.textColor(expGaugeColor1);
     var color2 = this.textColor(expGaugeColor2);
     if (actor.isMaxLevel()) {
@@ -644,13 +644,13 @@ Imported.TMSoloMenu = true;
     this.drawText(actor.level, x + 36, y, 32, 'right');
     if (expNextText) {
       var text = actor.isMaxLevel() ? expMaxText.format(actor.currentExp()) :
-        expNextText.format(actor.nextRequiredExp());
+                                      expNextText.format(actor.nextRequiredExp());
       this.contents.fontSize = expFontSize;
       this.drawText(text, x, y, width, 'right');
     }
   };
 
-  Window_SoloStatus.prototype.drawEquipments = function (actor, x, y, width) {
+  Window_SoloStatus.prototype.drawEquipments = function(actor, x, y, width) {
     var equips = actor.equips();
     var count = Math.min(equips.length, equipMax);
     var cols = +menuEquips.cols;
@@ -662,7 +662,7 @@ Imported.TMSoloMenu = true;
     }
   };
 
-  Window_SoloStatus.prototype.drawRates = function (actor, x, y, width, code, parameter) {
+  Window_SoloStatus.prototype.drawRates = function(actor, x, y, width, code, parameter) {
     var ids = parameter.name.split(' ').map(Number);
     var cols = +parameter.cols;
     var iconBoxWidth = Window_Base._iconWidth + 4;
@@ -681,11 +681,11 @@ Imported.TMSoloMenu = true;
       this.drawTextBack(x2, y2, width);
       this.drawIcon(iconIndex, x2 + 2, y2 + 2);
       this.drawText(value.toFixed(+parameter.fixed) + '%', x2 + iconBoxWidth, y2,
-        width - iconBoxWidth, 'right');
+                    width - iconBoxWidth, 'right');
     }
   };
 
-  Window_SoloStatus.prototype.drawBattleParameter = function (actor, paramId, parameter) {
+  Window_SoloStatus.prototype.drawBattleParameter = function(actor, paramId, parameter) {
     var width = +parameter.width;
     if (!width) return;
     var x = +parameter.x;
@@ -707,7 +707,7 @@ Imported.TMSoloMenu = true;
     this.resetFontSettings();
   };
 
-  Window_SoloStatus.prototype.drawTextBack = function (x, y, width) {
+  Window_SoloStatus.prototype.drawTextBack = function(x, y, width) {
     if (textBackOpacity === 0) return;
     var height = this.contents.fontSize + 4;
     y += Math.floor((this.lineHeight() - height) / 2);
@@ -720,11 +720,11 @@ Imported.TMSoloMenu = true;
     this.contents.paintOpacity = 255;
   };
 
-  Window_SoloStatus.prototype.drawHorzLine = function (parameter) {
+  Window_SoloStatus.prototype.drawHorzLine = function(parameter) {
     if (!+parameter.width) return;
     this.contents.paintOpacity = horzLineOpacity;
     this.contents.fillRect(+parameter.x, +parameter.y, +parameter.width,
-      +parameter.height, horzLineColor);
+                           +parameter.height, horzLineColor);
     this.contents.paintOpacity = 255;
   };
 
@@ -739,12 +739,12 @@ Imported.TMSoloMenu = true;
   Window_SoloItemStatus.prototype = Object.create(Window_Base.prototype);
   Window_SoloItemStatus.prototype.constructor = Window_SoloItemStatus;
 
-  Window_SoloItemStatus.prototype.initialize = function (x, y, width) {
+  Window_SoloItemStatus.prototype.initialize = function(x, y, width) {
     Window_Base.prototype.initialize.call(this, x, y, width, this.fittingHeight(1));
     this.refresh();
   };
 
-  Window_SoloItemStatus.prototype.refresh = function () {
+  Window_SoloItemStatus.prototype.refresh = function() {
     var x = 0;
     var actor = $gameParty.leader();
     this.contents.clear();
@@ -774,7 +774,7 @@ Imported.TMSoloMenu = true;
   //
 
   var _Scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
-  Scene_Menu.prototype.createCommandWindow = function () {
+  Scene_Menu.prototype.createCommandWindow = function() {
     _Scene_Menu_createCommandWindow.call(this);
     if ($gameParty.isSoloMenuValid()) {
       this._commandWindow.x = +commandWindow.x;
@@ -785,7 +785,7 @@ Imported.TMSoloMenu = true;
   };
 
   var _Scene_Menu_createStatusWindow = Scene_Menu.prototype.createStatusWindow;
-  Scene_Menu.prototype.createStatusWindow = function () {
+  Scene_Menu.prototype.createStatusWindow = function() {
     if ($gameParty.isSoloMenuValid()) {
       this._statusWindow = new Window_SoloStatus();
       this._statusWindow.reserveFaceImages();
@@ -797,7 +797,7 @@ Imported.TMSoloMenu = true;
   };
 
   var _Scene_Menu_createGoldWindow = Scene_Menu.prototype.createGoldWindow;
-  Scene_Menu.prototype.createGoldWindow = function () {
+  Scene_Menu.prototype.createGoldWindow = function() {
     _Scene_Menu_createGoldWindow.call(this);
     this._goldWindow.x = +goldWindow.x;
     this._goldWindow.y = +goldWindow.y;
@@ -806,7 +806,7 @@ Imported.TMSoloMenu = true;
   };
 
   var _Scene_Menu_commandPersonal = Scene_Menu.prototype.commandPersonal;
-  Scene_Menu.prototype.commandPersonal = function () {
+  Scene_Menu.prototype.commandPersonal = function() {
     if ($gameParty.isSoloMenuValid()) {
       $gameParty.setTargetActor($gameParty.leader());
       this.onPersonalOk();
@@ -820,7 +820,7 @@ Imported.TMSoloMenu = true;
   //
 
   var _Scene_ItemBase_itemTargetActors = Scene_ItemBase.prototype.itemTargetActors;
-  Scene_ItemBase.prototype.itemTargetActors = function () {
+  Scene_ItemBase.prototype.itemTargetActors = function() {
     var action = new Game_Action(this.user());
     action.setItemObject(this.item());
     if ($gameParty.isSoloMenuValid() && action.isForFriend()) {
@@ -831,7 +831,7 @@ Imported.TMSoloMenu = true;
   };
 
   var _Scene_ItemBase_determineItem = Scene_ItemBase.prototype.determineItem;
-  Scene_ItemBase.prototype.determineItem = function () {
+  Scene_ItemBase.prototype.determineItem = function() {
     var action = new Game_Action(this.user());
     action.setItemObject(this.item());
     if ($gameParty.isSoloMenuValid() && action.isForFriend()) {
@@ -853,7 +853,7 @@ Imported.TMSoloMenu = true;
   //
 
   var _Scene_Item_createCategoryWindow = Scene_Item.prototype.createCategoryWindow;
-  Scene_Item.prototype.createCategoryWindow = function () {
+  Scene_Item.prototype.createCategoryWindow = function() {
     var enabled = this.isSoloStatusEnabled();
     if (enabled) {
       var wy = this._helpWindow.height;
@@ -866,8 +866,8 @@ Imported.TMSoloMenu = true;
     }
   };
 
-  Scene_Item.prototype.isSoloStatusEnabled = function () {
-    return (sum = soloItemStatus.reduce(function (a, b) {
+  Scene_Item.prototype.isSoloStatusEnabled = function() {
+    return (sum = soloItemStatus.reduce(function(a, b) {
       return a + b;
     }) > 0);
   };

@@ -177,12 +177,12 @@ Window_Base.EEC_IMG_LENGTH = 16;
 
 //画像ファイルの事前ロード
 FTKR.EEC.DataManager_loadDatabase = DataManager.loadDatabase;
-DataManager.loadDatabase = function (name, src) {
+DataManager.loadDatabase = function(name, src) {
     FTKR.EEC.DataManager_loadDatabase.call(this, name, src);
-    if (!FTKR.EEC.files) return;
+    if(!FTKR.EEC.files) return;
     images = FTKR.EEC.files.split(',');
     if (!images.length) return;
-    images.forEach(function (image) {
+    images.forEach( function(image) {
         ImageManager.loadSystem(image);
     });
 };
@@ -192,7 +192,7 @@ DataManager.loadDatabase = function (name, src) {
 //=============================================================================
 
 //画像表示関数 /img/system/に保存したname.pngを表示する。
-Window_Base.prototype.drawEecImage = function (name, index, x, y, width, height, scale) {
+Window_Base.prototype.drawEecImage = function(name, index, x, y, width, height, scale) {
     if (name) {
         var bitmap = ImageManager.loadSystem(name);
         var pw = width;
@@ -210,26 +210,26 @@ Window_Base.prototype.drawEecImage = function (name, index, x, y, width, height,
 //=============================================================================
 
 FTKR.EEC.Window_Base_processEscapeCharacter = Window_Base.prototype.processEscapeCharacter;
-Window_Base.prototype.processEscapeCharacter = function (code, textState) {
+Window_Base.prototype.processEscapeCharacter = function(code, textState) {
     switch (code) {
-        case 'IMG':
-            this.processDrawEecImg(this.obtainEscapeEecParam(textState), textState);
-            break;
-        case 'LH':
-            textState.height = this.obtainEscapeParam(textState) || this.lineHeight();
-            break;
-        default:
-            FTKR.EEC.Window_Base_processEscapeCharacter.call(this, code, textState);
-            break;
+    case 'IMG':
+        this.processDrawEecImg(this.obtainEscapeEecParam(textState), textState);
+        break;
+    case 'LH':
+        textState.height = this.obtainEscapeParam(textState) || this.lineHeight();
+        break;
+    default:
+        FTKR.EEC.Window_Base_processEscapeCharacter.call(this, code, textState);
+        break;
     }
 };
 
-Window_Base.prototype.obtainEscapeEecParam = function (textState) {
+Window_Base.prototype.obtainEscapeEecParam = function(textState) {
     var arr = /^\[([^\]]+)\]/.exec(textState.text.slice(textState.index));
     if (arr) {
         textState.index += arr[0].length;
         var eec = arr[1].split(',');
-        eec = eec.map(function (elm, i) {
+        eec = eec.map( function(elm, i) {
             return isNaN(parseInt(elm)) ? elm : parseInt(elm);
         });
         return eec;
@@ -238,21 +238,21 @@ Window_Base.prototype.obtainEscapeEecParam = function (textState) {
     }
 };
 
-Window_Base.prototype.processDrawEecImg = function (ececs, textState) {
+Window_Base.prototype.processDrawEecImg = function(ececs, textState) {
     var index = ececs[1] || 0;
     var width = ececs[2] || FTKR.EEC.width;
     var height = ececs[3] || FTKR.EEC.height;
     var scale = ececs[4] / 100 || 1;
     var imgHeight = 0;
-    var offset = 0;
-    if (FTKR.EEC.enabledAdjustHeight) {
+    var offset = 0; 
+    if(FTKR.EEC.enabledAdjustHeight) {
         imgHeight = Math.floor(height * scale) + 4;
-        var offset = 0;
+        var offset = 0; 
         switch (ececs[5]) {
             case 'middle':
             case '中央':
                 offset = (textState.height - imgHeight) / 2;
-                if (offset < 0) offset = 0;
+                if(offset < 0) offset = 0;
                 break;
             case 'bottom':
             case '下揃え':

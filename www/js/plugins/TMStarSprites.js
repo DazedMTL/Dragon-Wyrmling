@@ -89,7 +89,7 @@
 var Imported = Imported || {};
 Imported.TMStarSprites = true;
 
-(function () {
+(function() {
 
   var parameters = PluginManager.parameters('TMStarSprites');
   var maxStars = +parameters['maxStars'];
@@ -97,19 +97,19 @@ Imported.TMStarSprites = true;
   var rightClickStars = +parameters['rightClickStars'];
   var blendMode = +(parameters['blendMode'] || 1);
   var imageFile = parameters['imageFile'];
-
+  
   //-----------------------------------------------------------------------------
   // TouchInput
   //
 
   var _TouchInput_onTrigger = TouchInput._onTrigger;
-  TouchInput._onTrigger = function (x, y) {
+  TouchInput._onTrigger = function(x, y) {
     _TouchInput_onTrigger.call(this, x, y);
     SceneManager.addStar(this._x, this._y, leftClickStars);
   };
 
   var _TouchInput_onCancel = TouchInput._onCancel;
-  TouchInput._onCancel = function (x, y) {
+  TouchInput._onCancel = function(x, y) {
     _TouchInput_onCancel.call(this, x, y);
     SceneManager.addStar(this._x, this._y, rightClickStars);
   };
@@ -119,19 +119,19 @@ Imported.TMStarSprites = true;
   //
 
   var _SceneManager_initialize = SceneManager.initialize;
-  SceneManager.initialize = function () {
+  SceneManager.initialize = function() {
     _SceneManager_initialize.call(this);
     this.initStarSprites();
   };
 
-  SceneManager.initStarSprites = function () {
+  SceneManager.initStarSprites = function() {
     if (imageFile) {
       this._starBitmap = ImageManager.loadSystem(imageFile);
     } else {
       this._starBitmap = new Bitmap(288, 48);
-      this._starBitmap.gradientFillStar(0, 0, 48, 48, '#FF0000', '#FFFFFF', true);
-      this._starBitmap.gradientFillStar(48, 0, 48, 48, '#00FF00', '#FFFFFF', true);
-      this._starBitmap.gradientFillStar(96, 0, 48, 48, '#0000FF', '#FFFFFF', true);
+      this._starBitmap.gradientFillStar(0,   0, 48, 48, '#FF0000', '#FFFFFF', true);
+      this._starBitmap.gradientFillStar(48,  0, 48, 48, '#00FF00', '#FFFFFF', true);
+      this._starBitmap.gradientFillStar(96,  0, 48, 48, '#0000FF', '#FFFFFF', true);
       this._starBitmap.gradientFillStar(144, 0, 48, 48, '#FFFF00', '#FFFFFF', true);
       this._starBitmap.gradientFillStar(192, 0, 48, 48, '#FF00FF', '#FFFFFF', true);
       this._starBitmap.gradientFillStar(240, 0, 48, 48, '#00FFFF', '#FFFFFF', true);
@@ -143,18 +143,18 @@ Imported.TMStarSprites = true;
   };
 
   var _SceneManager_onSceneStart = SceneManager.onSceneStart;
-  SceneManager.onSceneStart = function () {
+  SceneManager.onSceneStart = function() {
     _SceneManager_onSceneStart.call(this);
     this.refreshStarsZ();
   };
-
-  SceneManager.refreshStarsZ = function () {
+  
+  SceneManager.refreshStarsZ = function() {
     for (var i = 0, len = this._starSprites.length; i < len; i++) {
       this._scene.addChild(this._starSprites[i]);
     }
   };
-
-  SceneManager.addStar = function (x, y, num) {
+  
+  SceneManager.addStar = function(x, y, num) {
     var n = 0;
     for (var i = 0, len = this._starSprites.length; i < len; i++) {
       if (n === num) break;
@@ -164,9 +164,9 @@ Imported.TMStarSprites = true;
       }
     }
   };
-
+  
   var _SceneManager_snapForBackground = SceneManager.snapForBackground;
-  SceneManager.snapForBackground = function () {
+  SceneManager.snapForBackground = function() {
     var len = this._starSprites.length;
     for (var i = 0; i < len; i++) {
       this._starSprites[i].visible = false;
@@ -176,13 +176,13 @@ Imported.TMStarSprites = true;
       this._starSprites[i].visible = this._starSprites[i].isActive();
     }
   };
-
+  
   //-----------------------------------------------------------------------------
   // Game_Interpreter
   //
 
   var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
-  Game_Interpreter.prototype.pluginCommand = function (command, args) {
+  Game_Interpreter.prototype.pluginCommand = function(command, args) {
     _Game_Interpreter_pluginCommand.call(this, command, args);
     if (command === 'addStar') {
       var n = args[2] === undefined ? 1 : +args[2];
@@ -192,23 +192,23 @@ Imported.TMStarSprites = true;
       if (character) {
         var n = args[1] === undefined ? 1 : +args[1];
         SceneManager.addStar(character.screenX(),
-          character.screenY() - $gameMap.tileHeight() / 2, n);
+                             character.screenY() - $gameMap.tileHeight() / 2, n);
       }
     }
   };
-
+  
   //-----------------------------------------------------------------------------
   // Sprite_Star
   //
 
   function Sprite_Star() {
-    this.initialize.apply(this, arguments);
+      this.initialize.apply(this, arguments);
   }
 
   Sprite_Star.prototype = Object.create(Sprite.prototype);
   Sprite_Star.prototype.constructor = Sprite_Star;
 
-  Sprite_Star.prototype.initialize = function () {
+  Sprite_Star.prototype.initialize = function() {
     Sprite.prototype.initialize.call(this);
     this.bitmap = SceneManager._starBitmap;
     this.anchor.x = 0.5;
@@ -217,12 +217,12 @@ Imported.TMStarSprites = true;
     this._count = 0;
     this.visible = false;
   };
-
-  Sprite_Star.prototype.isActive = function () {
+  
+  Sprite_Star.prototype.isActive = function() {
     return this._count > 0;
   };
 
-  Sprite_Star.prototype.setup = function (x, y) {
+  Sprite_Star.prototype.setup = function(x, y) {
     this.x = x;
     this.y = y;
     this.visible = true;
@@ -235,7 +235,7 @@ Imported.TMStarSprites = true;
     this._vy = Math.random() * 4 - 2;
   };
 
-  Sprite_Star.prototype.update = function () {
+  Sprite_Star.prototype.update = function() {
     Sprite.prototype.update.call(this);
     if (this._count > 0) {
       this._count--;
@@ -250,5 +250,5 @@ Imported.TMStarSprites = true;
       }
     }
   };
-
+  
 })();
