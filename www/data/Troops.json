@@ -28,7 +28,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊, 山賊D, 山賊C, 山賊B",
+        "name": "Bandit, Bandit D, Bandit C, Bandit B",
         "pages": [
             {
                 "conditions": {
@@ -108,7 +108,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊, 山賊D, 山賊B",
+        "name": "Bandit, Bandit D, Bandit B",
         "pages": [
             {
                 "conditions": {
@@ -201,7 +201,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブシャー ゴブA～D",
+        "name": "Gobsher Gob A~D",
         "pages": [
             {
                 "conditions": {
@@ -257,7 +257,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン戦車",
+        "name": "Goblin Tank",
         "pages": [
             {
                 "conditions": {
@@ -388,7 +388,7 @@
                 "hidden": false
             }
         ],
-        "name": "テスト",
+        "name": "Test",
         "pages": [
             {
                 "conditions": {
@@ -469,7 +469,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊の群れ",
+        "name": "Band of bandits",
         "pages": [
             {
                 "conditions": {
@@ -519,7 +519,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊の群れ",
+        "name": "Band of Bandits",
         "pages": [
             {
                 "conditions": {
@@ -569,7 +569,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊の群れ",
+        "name": "Band of bandits",
         "pages": [
             {
                 "conditions": {
@@ -607,7 +607,7 @@
                 "hidden": false
             }
         ],
-        "name": "山賊ボス",
+        "name": "Bandit Boss",
         "pages": [
             {
                 "conditions": {
@@ -769,7 +769,7 @@
                 "hidden": false
             }
         ],
-        "name": "＊負けイベント用",
+        "name": "*Lose event use",
         "pages": [
             {
                 "conditions": {
@@ -856,7 +856,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -912,7 +912,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -974,7 +974,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1036,7 +1036,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1104,7 +1104,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1172,7 +1172,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1246,7 +1246,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1326,7 +1326,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンの群れ",
+        "name": "Goblin Horde",
         "pages": [
             {
                 "conditions": {
@@ -1388,7 +1388,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン弓部隊",
+        "name": "Goblin Archer Squad",
         "pages": [
             {
                 "conditions": {
@@ -1456,7 +1456,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンシャーマン",
+        "name": "Goblin Shaman",
         "pages": [
             {
                 "conditions": {
@@ -1630,7 +1630,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン戦車",
+        "name": "Goblin Tank",
         "pages": [
             {
                 "conditions": {
@@ -1835,7 +1835,7 @@
                 "hidden": false
             }
         ],
-        "name": "スケルトンの群れ",
+        "name": "Herd of Skeletons",
         "pages": [
             {
                 "conditions": {
@@ -1891,7 +1891,7 @@
                 "hidden": false
             }
         ],
-        "name": "スケルトンの群れ",
+        "name": "Herd of Skeletons",
         "pages": [
             {
                 "conditions": {
@@ -1953,7 +1953,7 @@
                 "hidden": false
             }
         ],
-        "name": "スケルトンの群れ",
+        "name": "Herd of Skeletons",
         "pages": [
             {
                 "conditions": {
@@ -2028,7 +2028,7 @@
                 "hidden": false
             }
         ],
-        "name": "グール",
+        "name": "Ghoul",
         "pages": [
             {
                 "conditions": {
@@ -2078,7 +2078,7 @@
                 "hidden": false
             }
         ],
-        "name": "グールの群れ",
+        "name": "Pack of ghouls",
         "pages": [
             {
                 "conditions": {
@@ -2147,7 +2147,7 @@
                 "hidden": false
             }
         ],
-        "name": "グレイ・ウーズ",
+        "name": "Gray Ooze",
         "pages": [
             {
                 "conditions": {
@@ -2191,7 +2191,7 @@
                 "hidden": false
             }
         ],
-        "name": "グレイ・ウーズ",
+        "name": "Gray Ooze",
         "pages": [
             {
                 "conditions": {
@@ -2272,7 +2272,7 @@
                 "hidden": false
             }
         ],
-        "name": "トランペット",
+        "name": "Trumpet",
         "pages": [
             {
                 "conditions": {
@@ -2328,7 +2328,7 @@
                 "hidden": false
             }
         ],
-        "name": "マッシュルーム",
+        "name": "Mushroom",
         "pages": [
             {
                 "conditions": {
@@ -2564,7 +2564,7 @@
                 "hidden": false
             }
         ],
-        "name": "アンデッドメイジ",
+        "name": "Undead Mage",
         "pages": [
             {
                 "conditions": {
@@ -2595,7 +2595,7 @@
     {
         "id": 60,
         "members": [],
-        "name": "===山岳ステージ===",
+        "name": "Mountain Stage",
         "pages": [
             {
                 "conditions": {
@@ -2645,7 +2645,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーク",
+        "name": "Orc",
         "pages": [
             {
                 "conditions": {
@@ -2701,7 +2701,7 @@
                 "hidden": false
             }
         ],
-        "name": "多くのオーク",
+        "name": "Many orcs",
         "pages": [
             {
                 "conditions": {
@@ -2763,7 +2763,7 @@
                 "hidden": false
             }
         ],
-        "name": "多くのオーク",
+        "name": "Many orcs",
         "pages": [
             {
                 "conditions": {
@@ -2807,7 +2807,7 @@
                 "hidden": false
             }
         ],
-        "name": "山のサイクロプー",
+        "name": "Mountain Cyclops",
         "pages": [
             {
                 "conditions": {
@@ -2857,7 +2857,7 @@
                 "hidden": false
             }
         ],
-        "name": "山のサイクロプー",
+        "name": "Mountain Cyclops",
         "pages": [
             {
                 "conditions": {
@@ -2926,7 +2926,7 @@
                 "hidden": false
             }
         ],
-        "name": "ダイア・ウルフ",
+        "name": "Dia Wolf",
         "pages": [
             {
                 "conditions": {
@@ -2970,7 +2970,7 @@
                 "hidden": false
             }
         ],
-        "name": "ダイア・ウルフ",
+        "name": "Dia Wolf",
         "pages": [
             {
                 "conditions": {
@@ -3039,7 +3039,7 @@
                 "hidden": false
             }
         ],
-        "name": "イエロー・モールド",
+        "name": "Yellow Mold",
         "pages": [
             {
                 "conditions": {
@@ -3083,7 +3083,7 @@
                 "hidden": false
             }
         ],
-        "name": "イエロー・モールド",
+        "name": "Yellow Mold",
         "pages": [
             {
                 "conditions": {
@@ -3188,7 +3188,7 @@
                 "hidden": false
             }
         ],
-        "name": "ジャニオスの牙",
+        "name": "Janios Fang",
         "pages": [
             {
                 "conditions": {
@@ -3319,7 +3319,7 @@
                 "hidden": false
             }
         ],
-        "name": "グリフォン",
+        "name": "Griffin",
         "pages": [
             {
                 "conditions": {
@@ -3381,7 +3381,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン砲撃部隊",
+        "name": "Goblin Bombardment Unit",
         "pages": [
             {
                 "conditions": {
@@ -3419,7 +3419,7 @@
                 "hidden": false
             }
         ],
-        "name": "マンティコア",
+        "name": "Manticore",
         "pages": [
             {
                 "conditions": {
@@ -3450,7 +3450,7 @@
     {
         "id": 80,
         "members": [],
-        "name": "===廃墟ステージ===",
+        "name": "Abandoned Ruins Stage",
         "pages": [
             {
                 "conditions": {
@@ -3512,7 +3512,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン傭兵",
+        "name": "Goblin Mercenary",
         "pages": [
             {
                 "conditions": {
@@ -3580,7 +3580,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン傭兵",
+        "name": "Goblin Mercenary",
         "pages": [
             {
                 "conditions": {
@@ -3642,7 +3642,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーク傭兵",
+        "name": "Orc Mercenary",
         "pages": [
             {
                 "conditions": {
@@ -3710,7 +3710,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーク傭兵",
+        "name": "Orc Mercenary",
         "pages": [
             {
                 "conditions": {
@@ -3778,7 +3778,7 @@
                 "hidden": false
             }
         ],
-        "name": "ジャニオス傭兵部隊",
+        "name": "Janios Mercenary Corps",
         "pages": [
             {
                 "conditions": {
@@ -3840,7 +3840,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンシャーマン部隊",
+        "name": "Goblin Shaman Unit",
         "pages": [
             {
                 "conditions": {
@@ -3890,7 +3890,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリンライダー",
+        "name": "Goblin Rider",
         "pages": [
             {
                 "conditions": {
@@ -3940,7 +3940,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン戦車部隊",
+        "name": "Goblin Tank Unit",
         "pages": [
             {
                 "conditions": {
@@ -3996,7 +3996,7 @@
                 "hidden": false
             }
         ],
-        "name": "ゴブリン砲撃部隊",
+        "name": "Goblin Bombardment Unit",
         "pages": [
             {
                 "conditions": {
@@ -4040,7 +4040,7 @@
                 "hidden": false
             }
         ],
-        "name": "ダイアボア",
+        "name": "Diaboa",
         "pages": [
             {
                 "conditions": {
@@ -4332,7 +4332,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーガブラザーズ",
+        "name": "Ogre Brothers",
         "pages": [
             {
                 "conditions": {
@@ -4363,7 +4363,7 @@
     {
         "id": 100,
         "members": [],
-        "name": "===森ステージ===",
+        "name": "Forest Stage",
         "pages": [
             {
                 "conditions": {
@@ -4425,7 +4425,7 @@
                 "hidden": false
             }
         ],
-        "name": "コボルドガード",
+        "name": "Kobold Guard",
         "pages": [
             {
                 "conditions": {
@@ -4493,7 +4493,7 @@
                 "hidden": false
             }
         ],
-        "name": "コボルドガード",
+        "name": "Kobold Guard",
         "pages": [
             {
                 "conditions": {
@@ -4543,7 +4543,7 @@
                 "hidden": false
             }
         ],
-        "name": "ダイアスネーク",
+        "name": "Diasnek",
         "pages": [
             {
                 "conditions": {
@@ -4599,7 +4599,7 @@
                 "hidden": false
             }
         ],
-        "name": "ウォーロック",
+        "name": "Warlock",
         "pages": [
             {
                 "conditions": {
@@ -4649,7 +4649,7 @@
                 "hidden": false
             }
         ],
-        "name": "グール",
+        "name": "Ghoul",
         "pages": [
             {
                 "conditions": {
@@ -4705,7 +4705,7 @@
                 "hidden": false
             }
         ],
-        "name": "グール",
+        "name": "Ghoul",
         "pages": [
             {
                 "conditions": {
@@ -4761,7 +4761,7 @@
                 "hidden": false
             }
         ],
-        "name": "森のサイクロプー",
+        "name": "Forest Cyclops",
         "pages": [
             {
                 "conditions": {
@@ -4805,7 +4805,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャークブロッコリー",
+        "name": "Shark Broccoli",
         "pages": [
             {
                 "conditions": {
@@ -4855,7 +4855,7 @@
                 "hidden": false
             }
         ],
-        "name": "トレント",
+        "name": "Trent",
         "pages": [
             {
                 "conditions": {
@@ -5172,7 +5172,7 @@
                 "hidden": false
             }
         ],
-        "name": "グリーンドラゴン",
+        "name": "Green Dragon",
         "pages": [
             {
                 "conditions": {
@@ -5203,7 +5203,7 @@
     {
         "id": 120,
         "members": [],
-        "name": "===海洋洞窟ステージ",
+        "name": "===Ocean Cave Stage",
         "pages": [
             {
                 "conditions": {
@@ -5253,7 +5253,7 @@
                 "hidden": false
             }
         ],
-        "name": "グール",
+        "name": "Ghoul",
         "pages": [
             {
                 "conditions": {
@@ -5297,7 +5297,7 @@
                 "hidden": false
             }
         ],
-        "name": "コーラルクラブ",
+        "name": "Coral Club",
         "pages": [
             {
                 "conditions": {
@@ -5347,7 +5347,7 @@
                 "hidden": false
             }
         ],
-        "name": "コーラルクラブ",
+        "name": "Coral Club",
         "pages": [
             {
                 "conditions": {
@@ -5391,7 +5391,7 @@
                 "hidden": false
             }
         ],
-        "name": "ライトスピナー",
+        "name": "Light Spinner",
         "pages": [
             {
                 "conditions": {
@@ -5441,7 +5441,7 @@
                 "hidden": false
             }
         ],
-        "name": "ライトスピナー",
+        "name": "Light Spinner",
         "pages": [
             {
                 "conditions": {
@@ -5485,7 +5485,7 @@
                 "hidden": false
             }
         ],
-        "name": "リザードマン",
+        "name": "Lizardman",
         "pages": [
             {
                 "conditions": {
@@ -5535,7 +5535,7 @@
                 "hidden": false
             }
         ],
-        "name": "シー・ゼリー",
+        "name": "C. Zelly",
         "pages": [
             {
                 "conditions": {
@@ -5579,7 +5579,7 @@
                 "hidden": false
             }
         ],
-        "name": "ウィルオウィスプ",
+        "name": "Will-o'-Wisp",
         "pages": [
             {
                 "conditions": {
@@ -5629,7 +5629,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "pages": [
             {
                 "conditions": {
@@ -5679,7 +5679,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "pages": [
             {
                 "conditions": {
@@ -5729,7 +5729,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "pages": [
             {
                 "conditions": {
@@ -5785,7 +5785,7 @@
                 "hidden": false
             }
         ],
-        "name": "蟹の群れ",
+        "name": "Crab Group",
         "pages": [
             {
                 "conditions": {
@@ -6021,7 +6021,7 @@
                 "hidden": false
             }
         ],
-        "name": "ブレインイーター",
+        "name": "Brain Eater",
         "pages": [
             {
                 "conditions": {
@@ -6052,7 +6052,7 @@
     {
         "id": 140,
         "members": [],
-        "name": "===火山",
+        "name": "Volcano",
         "pages": [
             {
                 "conditions": {
@@ -6108,7 +6108,7 @@
                 "hidden": false
             }
         ],
-        "name": "コボルドクリムゾン",
+        "name": "Kobold Crimson",
         "pages": [
             {
                 "conditions": {
@@ -6170,7 +6170,7 @@
                 "hidden": false
             }
         ],
-        "name": "コボルドクリムゾン",
+        "name": "Kobold Crimson",
         "pages": [
             {
                 "conditions": {
@@ -6226,7 +6226,7 @@
                 "hidden": false
             }
         ],
-        "name": "コボルドシャーマン",
+        "name": "Kobold Shaman",
         "pages": [
             {
                 "conditions": {
@@ -6282,7 +6282,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "pages": [
             {
                 "conditions": {
@@ -6338,7 +6338,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフメイジ",
+        "name": "Shadow Elf Mage",
         "pages": [
             {
                 "conditions": {
@@ -6394,7 +6394,7 @@
                 "hidden": false
             }
         ],
-        "name": "オーガ",
+        "name": "Ogre",
         "pages": [
             {
                 "conditions": {
@@ -6444,7 +6444,7 @@
                 "hidden": false
             }
         ],
-        "name": "アストラルシャーク",
+        "name": "Astral Shark",
         "pages": [
             {
                 "conditions": {
@@ -6494,7 +6494,7 @@
                 "hidden": false
             }
         ],
-        "name": "ガーゴイル",
+        "name": "Gargoyle",
         "pages": [
             {
                 "conditions": {
@@ -6550,7 +6550,7 @@
                 "hidden": false
             }
         ],
-        "name": "ジャニオスの牙",
+        "name": "Janios Fang",
         "pages": [
             {
                 "conditions": {
@@ -6581,7 +6581,7 @@
     {
         "id": 150,
         "members": [],
-        "name": "===試練の迷宮",
+        "name": "Trial Labyrinth",
         "pages": [
             {
                 "conditions": {
@@ -6649,7 +6649,7 @@
                 "hidden": false
             }
         ],
-        "name": "スケルトンソルジャー",
+        "name": "Skeleton Soldier",
         "pages": [
             {
                 "conditions": {
@@ -6705,7 +6705,7 @@
                 "hidden": false
             }
         ],
-        "name": "ファイターLv14",
+        "name": "Fighter Lv14",
         "pages": [
             {
                 "conditions": {
@@ -6761,7 +6761,7 @@
                 "hidden": false
             }
         ],
-        "name": "アークメイジ",
+        "name": "Arcmage",
         "pages": [
             {
                 "conditions": {
@@ -6817,7 +6817,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフ",
+        "name": "Shadow Elf",
         "pages": [
             {
                 "conditions": {
@@ -6873,7 +6873,7 @@
                 "hidden": false
             }
         ],
-        "name": "シャドウエルフメイジ",
+        "name": "Shadow Elf Mage",
         "pages": [
             {
                 "conditions": {
@@ -6917,7 +6917,7 @@
                 "hidden": false
             }
         ],
-        "name": "ガーゴイル",
+        "name": "Gargoyle",
         "pages": [
             {
                 "conditions": {
@@ -6955,7 +6955,7 @@
                 "hidden": false
             }
         ],
-        "name": "ミノタウロス",
+        "name": "Minotaur",
         "pages": [
             {
                 "conditions": {
@@ -6999,7 +6999,7 @@
                 "hidden": false
             }
         ],
-        "name": "ディメンションシャーク",
+        "name": "Dimension Shark",
         "pages": [
             {
                 "conditions": {
@@ -7074,7 +7074,7 @@
                 "hidden": false
             }
         ],
-        "name": "グレーターデーモン",
+        "name": "Greater Demon",
         "pages": [
             {
                 "conditions": {
@@ -7143,7 +7143,7 @@
                 "hidden": false
             }
         ],
-        "name": "レッドドラゴン",
+        "name": "Red Dragon",
         "pages": [
             {
                 "conditions": {
@@ -7181,7 +7181,7 @@
                 "hidden": false
             }
         ],
-        "name": "レッドドラゴン",
+        "name": "Red Dragon",
         "pages": [
             {
                 "conditions": {
@@ -7374,7 +7374,7 @@
                 "hidden": false
             }
         ],
-        "name": "人さらい",
+        "name": "kidnapper",
         "pages": [
             {
                 "conditions": {
