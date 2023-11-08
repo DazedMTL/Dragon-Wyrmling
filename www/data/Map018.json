@@ -5694,7 +5694,7 @@
                                     "\\i[336]Adventurer Party Formation",
                                     "\\i[349]Adventurers wanted\\i[\\v[369]]　en(v[2] >= 1)",
                                     "Rumors, huh?　en(v[399] < 4) ",
-                                    "\\i[343] Adventurer's Guide"
+                                    "\\i[343]Adventurer's Guide"
                                 ],
                                 1,
                                 0,
@@ -17054,7 +17054,7 @@
                                     "\\iw[\\v[371]] if(v[371]>= 1) en(v[11]>=v[13])",
                                     "\\iw[\\v[372]] if(v[372] >= 1) en(v[11]>=v[14])",
                                     "\\iw[\\v[373]] if(v[373] >= 1) en(v[11]>=v[15])",
-                                    "\\i[75] Call back",
+                                    "\\i[75]Call back",
                                     "Stop"
                                 ],
                                 -2,

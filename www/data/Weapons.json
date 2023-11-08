@@ -333,7 +333,7 @@
     {
         "id": 11,
         "animationId": 123,
-        "description": "\\>\\I[325] Wise One HP: 400 ATK: 61 \\fs[18]\n\\>\\py[32]\\isd[21]\\n\\>\\py[64]\\isd[22]\\n\\>\\py[96]\\isd[23]",
+        "description": "\\>\\I[325]Wise One HP: 400 ATK: 61 \\fs[18]\n\\>\\py[32]\\isd[21]\\n\\>\\py[64]\\isd[22]\\n\\>\\py[96]\\isd[23]",
         "etypeId": 1,
         "traits": [
             {
@@ -391,7 +391,7 @@
     {
         "id": 12,
         "animationId": 11,
-        "description": "\\>\\I[358] Thief HP: \\WHP[12] ATK: \\WAT[12] \\fs[18]\n\\>\\py[32]\\isd[25]\\n\\>\\py[64]\\isd[26]\\n\\>\\py[96]\\isd[27]",
+        "description": "\\>\\I[358]Thief HP: \\WHP[12] ATK: \\WAT[12] \\fs[18]\n\\>\\py[32]\\isd[25]\\n\\>\\py[64]\\isd[26]\\n\\>\\py[96]\\isd[27]",
         "etypeId": 1,
         "traits": [
             {
@@ -419,7 +419,7 @@
     {
         "id": 13,
         "animationId": 126,
-        "description": "\\>\\I[353] Warrior HP: \\WHP[13] ATK: \\WAT[13] \\fs[18]\n\\>\\py[32]\\isd[29]\\n\\>\\py[64]\\isd[30]\\n\\>\\py[96]\\isd[31]",
+        "description": "\\>\\I[353]Warrior HP: \\WHP[13] ATK: \\WAT[13] \\fs[18]\n\\>\\py[32]\\isd[29]\\n\\>\\py[64]\\isd[30]\\n\\>\\py[96]\\isd[31]",
         "etypeId": 1,
         "traits": [
             {
@@ -523,7 +523,7 @@
     {
         "id": 16,
         "animationId": 6,
-        "description": "\\>\\I[369] Rogue HP: \\WHP[16] ATK: \\WAT[16] \\fs[18]\n\\>\\py[32]\\isd[41]\\n\\>\\py[64]\\isd[42]\\n",
+        "description": "\\>\\I[369]Rogue HP: \\WHP[16] ATK: \\WAT[16] \\fs[18]\n\\>\\py[32]\\isd[41]\\n\\>\\py[64]\\isd[42]\\n",
         "etypeId": 1,
         "traits": [
             {
@@ -612,7 +612,7 @@
     {
         "id": 19,
         "animationId": 7,
-        "description": "\\>\\I[369] Warrior HP: \\WHP[19] ATK: \\WAT[19] \\fs[19]\n\\>\\py[32]\\isd[53]\\n\\>\\py[64]\\isd[54]\\n\\py[96]\\isd[55]",
+        "description": "\\>\\I[369]Warrior HP: \\WHP[19] ATK: \\WAT[19] \\fs[19]\n\\>\\py[32]\\isd[53]\\n\\>\\py[64]\\isd[54]\\n\\py[96]\\isd[55]",
         "etypeId": 1,
         "traits": [
             {
@@ -650,7 +650,7 @@
     {
         "id": 20,
         "animationId": 1,
-        "description": "\\>\\I[369] Fighter HP: \\WHP[20] ATK: \\WAT[20] \\fs[18]\n\\>\\py[32]\\isd[57]\\n\\>\\py[64]\\isd[58]\\n\\py[96]\\isd[59]",
+        "description": "\\>\\I[369]Fighter HP: \\WHP[20] ATK: \\WAT[20] \\fs[18]\n\\>\\py[32]\\isd[57]\\n\\>\\py[64]\\isd[58]\\n\\py[96]\\isd[59]",
         "etypeId": 1,
         "traits": [
             {
@@ -817,7 +817,7 @@
     {
         "id": 24,
         "animationId": 6,
-        "description": "\\I[353] Warrior HP: \\WHP[24] ATK: \\WAT[24] \\fs[18]\n\\>\\py[32]\\isd[73]\\n\\>\\py[64]\\isd[74]\\n\\>\\py[96]\\isd[75]",
+        "description": "\\I[353]Warrior HP: \\WHP[24] ATK: \\WAT[24] \\fs[18]\n\\>\\py[32]\\isd[73]\\n\\>\\py[64]\\isd[74]\\n\\>\\py[96]\\isd[75]",
         "etypeId": 1,
         "traits": [
             {

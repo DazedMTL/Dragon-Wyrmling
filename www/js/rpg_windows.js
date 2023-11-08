@@ -98,7 +98,7 @@ Window_Base.prototype.createContents = function () {
 
 Window_Base.prototype.resetFontSettings = function () {
     this.contents.fontFace = this.standardFontFace();
-    this.contents.fontSize = this.standardFontSize();
+    this.contents.fontSize = 20;
     this.resetTextColor();
 };
 

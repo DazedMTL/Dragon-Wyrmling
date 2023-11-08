@@ -11,7 +11,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "c[2] Healing Potion \\c[0]  Restores 10% of HP. CT: 1 Disposable  A magical elixir that\nheals wounds.",
+        "description": "c[2] Healing Potion \\c[0]  Restores 10% of HP. CT: 1 Disposable  A\nmagical elixir that heals wounds.",
         "effects": [
             {
                 "code": 11,
@@ -328,7 +328,7 @@
             "type": 3,
             "variance": 0
         },
-        "description": "\\c[2]Healing Potion\\c[0]  Restores 15% of HP. Cost: 1 single-use \\n Magic elixir that\nheals wounds.",
+        "description": "\\c[2]Healing Potion\\c[0]  Restores 15% of HP. Cost: 1 single-use \\n\nMagic elixir that heals wounds.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 379,
@@ -354,7 +354,7 @@
             "type": 3,
             "variance": 0
         },
-        "description": "\\c[2]Guardian Coin\\c[0] Temporarily increases defense. Cost: 1 single use A magical coin\nthat creates a protective force field. The effect is momentary, so timing of use is\ncrucial.",
+        "description": "\\c[2]Guardian Coin\\c[0] Temporarily increases defense. Cost: 1 single\nuse A magical coin that creates a protective force field. The effect\nis momentary, so timing of use is crucial.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 378,
@@ -380,7 +380,7 @@
             "type": 3,
             "variance": 0
         },
-        "description": "\\c[2]Haste Potion\\c[0]  Charge +1. Cost: 1 single-use \\n A magical potion that accelerates\nthe drinker.",
+        "description": "\\c[2]Haste Potion\\c[0]  Charge +1. Cost: 1 single-use \\n A magical\npotion that accelerates the drinker.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 363,
@@ -406,7 +406,7 @@
             "type": 3,
             "variance": 0
         },
-        "description": "\\c[2]Neutralizing Potion\\c[0] Recovers poison and other effects. Cost: 1 single-use A\nmedicine that neutralizes various adverse effects.",
+        "description": "\\c[2]Neutralizing Potion\\c[0] Recovers poison and other effects. Cost:\n1 single-use A medicine that neutralizes various adverse effects.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 379,
@@ -432,7 +432,7 @@
             "type": 3,
             "variance": 0
         },
-        "description": "Healing Potion Fully restores HP. Cost: 1 Disposable A legendary elixir that heals all\nwounds.",
+        "description": "Healing Potion Fully restores HP. Cost: 1 Disposable A legendary\nelixir that heals all wounds.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 379,
@@ -458,7 +458,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Scroll of Fire\\c[0] Inflicts fire damage. Cost: 1 single use A scroll containing a\nfire spell.",
+        "description": "\\c[2]Scroll of Fire\\c[0] Inflicts fire damage. Cost: 1 single use A\nscroll containing a fire spell.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 364,
@@ -484,7 +484,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Snake Staff\\c[0] Inflicts poison damage. Cost: 2 \\nA staff sealed with a poison\nspell.",
+        "description": "\\c[2]Snake Staff\\c[0] Inflicts poison damage. Cost: 2 \\nA staff sealed\nwith a poison spell.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 338,
@@ -510,7 +510,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "Thunder Wand that inflicts thunder damage. Cost: 2 \\nA wand sealed with a thunder spell.",
+        "description": "Thunder Wand that inflicts thunder damage. Cost: 2 \\nA wand sealed\nwith a thunder spell.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 66,
@@ -536,7 +536,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Rod of Frost\\c[0] Deals ice damage. Cost: 2 \\nA staff sealed with ice spells.",
+        "description": "\\c[2]Rod of Frost\\c[0] Deals ice damage. Cost: 2 \\nA staff sealed with\nice spells.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 65,
@@ -640,7 +640,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Sling\\c[0] Throw a stone. Minor damage CT:1 It's amazing that even Sol can handle it.",
+        "description": "\\c[2]Sling\\c[0] Throw a stone. Minor damage CT:1 It's amazing that\neven Sol can handle it.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 372,
@@ -692,7 +692,7 @@
             "type": 0,
             "variance": 0
         },
-        "description": "\\c[2]Bottled Cottage\\c[0] A magical resting hut sealed in a bottle. Can only be used for\nresting once inside a dungeon.",
+        "description": "\\c[2]Bottled Cottage\\c[0] A magical resting hut sealed in a bottle.\nCan only be used for resting once inside a dungeon.",
         "effects": [
             {
                 "code": 44,
@@ -751,7 +751,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Universal Key\\c[0] A magical key that can open any lock. Increases the number of\ntimes keys can be used in the dungeon by +1.",
+        "description": "\\c[2]Universal Key\\c[0] A magical key that can open any lock.\nIncreases the number of times keys can be used in the dungeon by +1.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 326,
@@ -2675,7 +2675,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Silver Scales\\c[0]【Event Item】 Beautifully shining silver scales. I wonder if there\nare dragons that have such beautiful scales.",
+        "description": "\\c[2]Silver Scales\\c[0]【Event Item】 Beautifully shining silver scales.\nI wonder if there are dragons that have such beautiful scales.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 367,
@@ -2701,7 +2701,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Emerald Scales\\c[0]【Event Item】 Sinister green scales. The color scheme makes\nonlookers feel uneasy.",
+        "description": "\\c[2]Emerald Scales\\c[0]【Event Item】 Sinister green scales. The color\nscheme makes onlookers feel uneasy.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 351,
@@ -2727,7 +2727,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Crimson Scale\\c[0]【Event Item】 A sinister red scale. Is there a dragon that possesses\nsuch a terrifying scale?",
+        "description": "\\c[2]Crimson Scale\\c[0]【Event Item】 A sinister red scale. Is there a\ndragon that possesses such a terrifying scale?",
         "effects": [],
         "hitType": 0,
         "iconIndex": 335,
@@ -2753,7 +2753,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Yamanou's Sword\\c[0]【Event Item】Activated when using Dragon Breath A sword carried by\nthe hero Yamanou, the former dragon slayer. Also known as the legendary Dragon Slayer\nsword.",
+        "description": "\\c[2]Yamanou's Sword\\c[0]【Event Item】Activated when using Dragon\nBreath A sword carried by the hero Yamanou, the former dragon slayer.\nAlso known as the legendary Dragon Slayer sword.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 327,
@@ -2779,7 +2779,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Warp Stone\\c[0]【Event Item】 A stone that serves as the key to activate an ancient\nteleportation device.",
+        "description": "\\c[2]Warp Stone\\c[0]【Event Item】 A stone that serves as the key to\nactivate an ancient teleportation device.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 367,
@@ -2805,7 +2805,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Blasphemous Statue\\c[0]【Event Item】 A cursed statue that seems to be a key to\nsomething.",
+        "description": "\\c[2]Blasphemous Statue\\c[0]【Event Item】 A cursed statue that seems to\nbe a key to something.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 367,
@@ -2857,7 +2857,7 @@
             "type": 0,
             "variance": 20
         },
-        "description": "\\c[2]Blue Ribbon\\c[0]【Event Item】 A blue ribbon that shows the proof of the bodyguard.",
+        "description": "\\c[2]Blue Ribbon\\c[0]【Event Item】 A blue ribbon that shows the proof\nof the bodyguard.",
         "effects": [],
         "hitType": 0,
         "iconIndex": 150,

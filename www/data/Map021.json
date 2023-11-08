@@ -2101,7 +2101,7 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[336] Purchase",
+                                    "\\i[336]Purchase",
                                     "Small talk",
                                     "　if(v[8] >= 1) ",
                                     "　if(v[8] >= 1) ",

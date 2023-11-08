@@ -357,7 +357,7 @@ var $dataContainerProperties = null;
                 { file: 'shopBack', switchId: 0 },
             ],
             windows: [
-                { lines: ['所持金：'], switchId: 0 },
+                { lines: ['Gold: '], switchId: 0 },
             ],
         },
         /* 名前入力画面の追加情報 */

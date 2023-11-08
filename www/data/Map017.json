@@ -2432,8 +2432,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "\\i[281] Headless Beauty Teahouse",
-                                    "Tower of the Sorcerer",
+                                    "\\i[281]Headless Beauty",
+                                    "\\i[367]Tower of the Sorcerer",
                                     "Harpuia Inn　if(s[184])",
                                     "Caravan　if(v[4] >= 1)"
                                 ],

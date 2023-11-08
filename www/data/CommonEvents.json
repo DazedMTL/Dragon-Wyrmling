@@ -2295,7 +2295,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "Obtained \\ii[\\v[1]]! (Price: \\i[346] Gold Coins: \\v[359])"
+                    "Obtained \\ii[\\v[1]]! (Price: \\i[346]Gold Coins: \\v[359])"
                 ]
             },
             {
@@ -2329,7 +2329,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]] Obtained! (Price: \\i[346] Gold Coins: \\v[359])"
+                    "\\ii[\\v[1]] Obtained! (Price: \\i[346]Gold Coins: \\v[359])"
                 ]
             },
             {
@@ -3392,7 +3392,7 @@
                 "code": 401,
                 "indent": 0,
                 "parameters": [
-                    "\\i[\\v[4]]\\v[1] Obtained! (Price: \\i[346] gold\ncoins equivalent to \\v[359] pieces)"
+                    "\\i[\\v[4]]\\v[1] Obtained! (Price: \\i[346]gold\ncoins equivalent to \\v[359] pieces)"
                 ]
             },
             {
@@ -11552,21 +11552,21 @@
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]Earned　　　：\\v[347]　 22"
+                    "D_TEXT 　\\ow[6]Earned：       \\v[347]　 22"
                 ]
             },
             {
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]Defeated　：\\v[348]　 22"
+                    "D_TEXT 　\\ow[6]Defeated：     \\v[348]　 22"
                 ]
             },
             {
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]Items：\\v[349]　 22"
+                    "D_TEXT 　\\ow[6]Items：        \\v[349]　 22"
                 ]
             },
             {
@@ -14327,7 +14327,7 @@
                 "code": 356,
                 "indent": 1,
                 "parameters": [
-                    "D_TEXT 　\\I[328]　 24"
+                    "D_TEXT 　\\I[328] 24"
                 ]
             },
             {
@@ -14867,7 +14867,7 @@
                 "code": 356,
                 "indent": 1,
                 "parameters": [
-                    "D_TEXT 　\\I[75]　 16"
+                    "D_TEXT 　\\I[75] 16"
                 ]
             },
             {
@@ -14914,7 +14914,7 @@
                 "code": 356,
                 "indent": 1,
                 "parameters": [
-                    "D_TEXT 　\\I[75]　 16"
+                    "D_TEXT 　\\I[75] 16"
                 ]
             },
             {
@@ -16426,7 +16426,7 @@
                 "code": 356,
                 "indent": 2,
                 "parameters": [
-                    "D_TEXT 　\\I[328]　 24"
+                    "D_TEXT 　\\I[328] 24"
                 ]
             },
             {
@@ -26884,7 +26884,7 @@
                 "code": 408,
                 "indent": 1,
                 "parameters": [
-                    "\\>Deal \\i[64] damage based on HP"
+                    "\\>Deal \\i[64]damage based on HP"
                 ]
             },
             {
@@ -27133,7 +27133,7 @@
                 "parameters": [
                     [
                         "Change battle speed if(v[111] <=9)",
-                        "\\I[73] Change battle speed if(v[111] >= 10)"
+                        "\\I[73]Change battle speed if(v[111] >= 10)"
                     ],
                     -2,
                     -1,

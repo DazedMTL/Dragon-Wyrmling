@@ -9671,7 +9671,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Eni-sensei's skills are \\i[76] Chain Slash and\n\\i[70] Ring of Healing. \\i[76] Chain Slash\nperforms 3 attacks, and \\i[70] Ring of Healing\nslightly restores the HP of our party every 6\nturns."
+                                "Eni-sensei's skills are \\i[76]Chain Slash and\n\\i[70]Ring of Healing. \\i[76]Chain Slash\nperforms 3 attacks, and \\i[70]Ring of Healing\nslightly restores the HP of our party every 6\nturns."
                             ]
                         },
                         {
@@ -11577,7 +11577,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT 　\\I[75]　 16"
+                                "D_TEXT 　\\I[75] 16"
                             ]
                         },
                         {
@@ -11705,7 +11705,7 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT 　\\I[75]　 16"
+                                "D_TEXT 　\\I[75] 16"
                             ]
                         },
                         {
