@@ -5721,7 +5721,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>冒険者とパーティを編成します。"
+                                "\\>Let's form a party with adventurers"
                             ]
                         },
                         {
@@ -5863,7 +5863,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>新たな冒険者を雇います。"
+                                "\\>We will hire new adventurers"
                             ]
                         },
                         {
@@ -5929,14 +5929,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>酒場の客と会話をします。"
+                                "\\>I have a conversation with the bar's customers"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>クエストが発生する事があります"
+                                "\\>Quests may occur"
                             ]
                         },
                         {
@@ -5970,14 +5970,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>仲間になった冒険者の解説を聞きます。"
+                                "\\>I'll listen to the explanation of the adventurer who joined us"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>行き詰まったら確認してみましょう。"
+                                "\\>When you're stuck, let's check it out"
                             ]
                         },
                         {
@@ -6034,21 +6034,21 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>食事をします。"
+                                "\\>I will have a meal"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>おいしい食事をもらったり、仲間たちと談笑したり。"
+                                "\\>I received delicious meals and chatted with my friends"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>　※特にメリットはありません。"
+                                "\\>　※There are no particular merits"
                             ]
                         },
                         {
@@ -6082,14 +6082,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>お店のお手伝いをします（無給）。"
+                                "\\>I will help out at the store (unpaid)"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>　※冒険者に言い寄られるかも…？"
+                                "\\>　※Adventurers might hit on me?"
                             ]
                         },
                         {
@@ -7785,7 +7785,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You can perform the Dragonkind ritual by visiting\nthe \\i[7]\\c[2]cheap inn\\c[0] in Rukurea Village,\nbut it will require a considerable amount of\nmoney... or perhaps quite a bit."
+                                "You can perform the Dragonkind ritual by visiting\nthe \\i[7]\\c[2]cheap inn\\c[0] in Lukrea Village,\nbut it will require a considerable amount of\nmoney... or perhaps quite a bit."
                             ]
                         },
                         {
@@ -17082,7 +17082,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>　\\iw[\\v[371]]　　雇用費：\\Js[AdvPrice(371)]\\Js枚"
+                                "\\>　\\iw[\\v[371]]　　Employment expenses: \\Js[AdvPrice(371)]\\Js sheets"
                             ]
                         },
                         {
@@ -17169,7 +17169,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>　\\iw[\\v[372]]　　雇用費：\\Js[AdvPrice(372)]\\Js枚"
+                                "\\>　\\iw[\\v[372]]　　Employment Cost: \\Js[AdvPrice(372)]\\Js sheets"
                             ]
                         },
                         {
@@ -17256,7 +17256,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>　\\iw[\\v[373]]　　雇用費：\\Js[AdvPrice(373)]\\Js枚"
+                                "\\>　\\iw[\\v[373]]　　Employment Expenses: \\Js[AdvPrice(373)]\\Js sheets"
                             ]
                         },
                         {

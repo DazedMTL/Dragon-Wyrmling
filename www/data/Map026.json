@@ -2793,14 +2793,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>冒険者たちの能力を恒久的に上昇させます。"
+                                "\\>This will permanently increase the abilities of the adventurers"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>\\c[2]冒険者のHP・ATKが上昇\\c[0]"
+                                "\\>\\c[2]The adventurer's HP and ATK have increased\\c[0]"
                             ]
                         },
                         {
@@ -2814,7 +2814,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>費用：金貨\\v[5]枚"
+                                "\\>Cost: \\v[5] gold coins"
                             ]
                         },
                         {
@@ -2853,14 +2853,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>冒険者たちの能力を一時的に増強させます。"
+                                "\\>This temporarily enhances the abilities of the adventurers"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>\\c[2]次の冒険時のスキルチャージにボーナス\\c[0]"
+                                "\\>\\c[2]Bonus to skill charge for the next adventure\\c[0]"
                             ]
                         },
                         {
@@ -2874,7 +2874,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>費用：金貨\\v[6]枚"
+                                "\\>Cost: \\v[6] gold coins"
                             ]
                         },
                         {
@@ -2913,14 +2913,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>\\c[7]冒険者たちの能力を一時的に増強させます。"
+                                "\\>\\c[7]It temporarily enhances the abilities of the adventurers"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>\\c[7]次の冒険時のスキルチャージにボーナス\\c[0]"
+                                "\\>\\c[7]Bonus for the next adventure's skill charge\\c[0]"
                             ]
                         },
                         {
@@ -2934,7 +2934,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>＊　既に効果を得ています　＊"
+                                "\\>＊　Already having an effect　＊"
                             ]
                         },
                         {

@@ -2462,14 +2462,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\py[15]\\>冒険者を募ったりパーティ編成したりします。"
+                                "\\py[15]\\>We recruit adventurers and organize parties"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>噂話などの情報収集もここから。"
+                                "\\>Gathering information such as rumors starts here"
                             ]
                         },
                         {
@@ -2534,7 +2534,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\py[15]\\>冒険に役立つ様々な魔法の品を購入できます。"
+                                "\\py[15]\\>You can purchase various magical items that will be useful for your adventure"
                             ]
                         },
                         {
@@ -2599,14 +2599,14 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\py[15]\\>冒険者とドラゴンカインドの儀式を行います。"
+                                "\\py[15]\\>We will conduct a ceremony for adventurers and dragonkind"
                             ]
                         },
                         {
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\>冒険者たちの強化が可能です。"
+                                "\\>It is possible to strengthen the adventurers"
                             ]
                         },
                         {
@@ -2707,7 +2707,7 @@
                             "code": 408,
                             "indent": 1,
                             "parameters": [
-                                "\\py[15]\\>村の人々と他愛のない挨拶をします。"
+                                "\\py[15]\\>I exchange trivial greetings with the villagers"
                             ]
                         },
                         {
