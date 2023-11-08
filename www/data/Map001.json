@@ -3099,7 +3099,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Adventurer>Hey Sol-chan... how about having a little fun\nwith me?"
+                                "\\n<Adventurer>Hey Sol-chan... how about having a little fun with\nme?"
                             ]
                         },
                         {
@@ -3281,7 +3281,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Sol>N-No, you can't do that! Don't touch me like\nthat! I'll get angry, you know!"
+                                "\\n<Sol>N-No, you can't do that! Don't touch me like that!\nI'll get angry, you know!"
                             ]
                         },
                         {
@@ -3384,7 +3384,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Sol>Mmm... Well, I guess there's no helping it. Just\na little bit, okay?!"
+                                "\\n<Sol>Mmm... Well, I guess there's no helping it. Just a\nlittle bit, okay?!"
                             ]
                         },
                         {
@@ -3516,7 +3516,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<Sol>Ah...nnn...huh... I was kind of looking forward\nto it..."
+                                "\\n<Sol>Ah...nnn...huh... I was kind of looking forward to\nit..."
                             ]
                         },
                         {
@@ -4957,7 +4957,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Abductor>Although she currently takes on a human form,\nthis golden tail is the evidence that she is\nindeed the Golden Dragon!"
+                                "\\n<Abductor>Although she currently takes on a human form, this\ngolden tail is the evidence that she is indeed the\nGolden Dragon!"
                             ]
                         },
                         {
@@ -4981,7 +4981,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Kidnapper>This existence, more valuable than an equal\nweight of gold! For a night of enchantment with\nthis beautiful and rare girl, starting at 1000\ngold coins, she can be yours!"
+                                "\\n<Kidnapper>This existence, more valuable than an equal weight\nof gold! For a night of enchantment with this\nbeautiful and rare girl, starting at 1000 gold\ncoins, she can be yours!"
                             ]
                         },
                         {
@@ -8861,7 +8861,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Now, whose matter would you like to inquire\nabout?"
+                                "Now, whose matter would you like to inquire about?"
                             ]
                         },
                         {
@@ -11365,7 +11365,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Barkeep>Today, we have sautéed manticore tail and\nwings..."
+                                "\\n<Barkeep>Today, we have sautéed manticore tail and wings..."
                             ]
                         },
                         {

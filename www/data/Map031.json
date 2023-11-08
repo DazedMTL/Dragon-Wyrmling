@@ -10558,7 +10558,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊Move to the right side of the lower\nfloor?＊（\\c[10]"
+                                "*Move to the right side of the lower floor?*\n(\\c[10])"
                             ]
                         },
                         {

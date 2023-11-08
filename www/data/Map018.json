@@ -6793,7 +6793,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊首なし美人亭では「冒険者の編成」ができます.個性ある冒険者たちでうまくパーティを組み、戦闘を有利に\nすすめましょう."
+                                "*At the Headless Beauty Inn, you can form an\nadventurer's party. Assemble a party with unique\nadventurers to gain an advantage in battle."
                             ]
                         },
                         {
@@ -6824,7 +6824,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Also, while Sol's physique is small, the number\nof adventurers that can be carried at once is\nlimited. As she grows, her physique will become\nlarger, and the number of adventurers she can\ncarry will increase."
+                                "Also, while Sol's physique is small, the number of\nadventurers that can be carried at once is\nlimited. As she grows, her physique will become\nlarger, and the number of adventurers she can\ncarry will increase."
                             ]
                         },
                         {
@@ -6996,7 +6996,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Bar owner>It's customary to give a certain amount of\nadvance payment to hire, but... it's not always\nthe case that ability and employment fees match.\nJust because it's expensive doesn't necessarily\nmean they're skilled adventurers."
+                                "\\n<Bar owner>It's customary to give a certain amount of advance\npayment to hire, but... it's not always the case\nthat ability and employment fees match. Just\nbecause it's expensive doesn't necessarily mean\nthey're skilled adventurers."
                             ]
                         },
                         {
@@ -7761,7 +7761,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊By performing the Dragonkind ritual, adventurers\nwill be temporarily or permanently strengthened!"
+                                "*By performing the Dragonkind ritual, adventurers\nwill be temporarily or permanently strengthened!"
                             ]
                         },
                         {
@@ -9973,7 +9973,7 @@
                             "code": 401,
                             "indent": 2,
                             "parameters": [
-                                "\\n<Ninja>.........I'm Hayagake. I heard there's a\nfledgling golden dragon around here... If you need\nmy strength, you should hire me."
+                                "\\n<Ninja>.........I'm Hayagake. I heard there's a fledgling\ngolden dragon around here... If you need my\nstrength, you should hire me."
                             ]
                         },
                         {
@@ -13057,7 +13057,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Barkeep>Hey, I have a new request. It's to investigate\nthe Greulir Volcano, which can be seen from this\nvillage."
+                                "\\n<Barkeep>Hey, I have a new request. It's to investigate the\nGreulir Volcano, which can be seen from this\nvillage."
                             ]
                         },
                         {
@@ -19827,7 +19827,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "\\n<Barkeeper>Today, we have sautéed manticore tail and\nwings..."
+                                "\\n<Barkeeper>Today, we have sautéed manticore tail and wings..."
                             ]
                         },
                         {
@@ -22188,7 +22188,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Sol>\\py[10] Ah...nnn...h...hehe, I was looking\nforward to this..."
+                                "\\n<Sol>\\py[10] Ah...nnn...h...hehe, I was looking forward\nto this..."
                             ]
                         },
                         {

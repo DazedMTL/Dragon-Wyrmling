@@ -8959,7 +8959,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "You can now retreat from this map and the\ndungeon. You can return to the starting point or\nselect the retreat command from the menu screen."
+                                "You can now retreat from this map and the dungeon.\nYou can return to the starting point or select the\nretreat command from the menu screen."
                             ]
                         },
                         {
@@ -35684,7 +35684,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "From this map, it is possible to retreat from\nthe dungeon. You can return to the starting point\nor select the retreat command from the menu\nscreen."
+                                "From this map, it is possible to retreat from the\ndungeon. You can return to the starting point or\nselect the retreat command from the menu screen."
                             ]
                         },
                         {

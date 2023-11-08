@@ -2414,7 +2414,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Gurestorasu>Congratulations on defeating the Red Dragon\nEvennajetoldor. I saw the knowledge it had\naccumulated, and it was very interesting. It was\nthe right decision to follow you. I appreciate\nit."
+                                "\\n<Gurestorasu>Congratulations on defeating the Red Dragon\nEvennajetoldor. I saw the knowledge it had\naccumulated, and it was very interesting. It was\nthe right decision to follow you. I appreciate it."
                             ]
                         },
                         {
@@ -2710,7 +2710,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Gildolf>Oh, Lord Gold Dragon. Your work is truly\nsplendid. As a fellow fighter against evil, I am\ndelighted. However, the battle is far from over,\nisn't it?"
+                                "\\n<Gildolf>Oh, Lord Gold Dragon. Your work is truly splendid.\nAs a fellow fighter against evil, I am delighted.\nHowever, the battle is far from over, isn't it?"
                             ]
                         },
                         {
@@ -3453,7 +3453,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Agni>I have defeated the fearsome evil red scales...!\nI am grateful to you, great golden scales. I am\nthankful for this kind of battle and for meeting\nyou, my lord."
+                                "\\n<Agni>I have defeated the fearsome evil red scales...! I\nam grateful to you, great golden scales. I am\nthankful for this kind of battle and for meeting\nyou, my lord."
                             ]
                         },
                         {
@@ -3527,7 +3527,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Wayne>Good work! That guy was really tough, as\nexpected. Well, my magic is just too incompatible\nwith that red dragon... Maybe I should learn some\nspells of a different attribute..."
+                                "\\n<Wayne>Good work! That guy was really tough, as expected.\nWell, my magic is just too incompatible with that\nred dragon... Maybe I should learn some spells of\na different attribute..."
                             ]
                         },
                         {
@@ -3601,7 +3601,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Azusa>Splendid, Lord Gold Dragon. Walking alongside\nyou, I won't be troubled by any further\nbattlefield... Let me wield this katana by your\nside for a while longer."
+                                "\\n<Azusa>Splendid, Lord Gold Dragon. Walking alongside you,\nI won't be troubled by any further battlefield...\nLet me wield this katana by your side for a while\nlonger."
                             ]
                         },
                         {

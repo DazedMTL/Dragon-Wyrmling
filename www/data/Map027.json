@@ -14852,7 +14852,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Ma-kun>Alright, with this we can move on to\nexterminating the Manticore. Let's prepare and\nhead for the top of the mountain."
+                                "\\n<Ma-kun>Alright, with this we can move on to exterminating\nthe Manticore. Let's prepare and head for the top\nof the mountain."
                             ]
                         },
                         {
@@ -25153,7 +25153,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "＊Do you want to move to the upper level?＊（\\c[10]"
+                                "*Do you want to move to the upper level?* (\\c[10])"
                             ]
                         },
                         {

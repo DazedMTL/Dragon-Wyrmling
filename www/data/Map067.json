@@ -6913,7 +6913,7 @@
                             "code": 401,
                             "indent": 1,
                             "parameters": [
-                                "\\n<Ruby>I really want to escape somehow... the security\nis just too tight... it's so frustrating."
+                                "\\n<Ruby>I really want to escape somehow... the security is\njust too tight... it's so frustrating."
                             ]
                         },
                         {
@@ -7256,7 +7256,7 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "Well, you can't escape anyway. It's fine to\nwander around a bit. But only for a little while."
+                                "Well, you can't escape anyway. It's fine to wander\naround a bit. But only for a little while."
                             ]
                         },
                         {
