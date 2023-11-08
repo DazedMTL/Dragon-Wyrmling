@@ -6311,7 +6311,7 @@
         },
         {
             "id": 2,
-            "name": "ソルの巣",
+            "name": "Sol's Nest",
             "note": "<hzChoice:land>",
             "pages": [
                 {
@@ -6446,7 +6446,7 @@
         },
         {
             "id": 3,
-            "name": "●コーラルプーザーの森",
+            "name": "●Coral Puser Forest",
             "note": "<hzChoice:land,!303> ",
             "pages": [
                 {
@@ -6870,7 +6870,7 @@
         },
         {
             "id": 5,
-            "name": "ルクレア村",
+            "name": "Rukurea Village",
             "note": "<hzChoice:land,62> ",
             "pages": [
                 {
@@ -7500,7 +7500,7 @@
         },
         {
             "id": 10,
-            "name": "●忘れられた水路",
+            "name": "Forgotten Waterways",
             "note": "<hzChoice:land,307> ",
             "pages": [
                 {
@@ -11824,7 +11824,7 @@
         },
         {
             "id": 13,
-            "name": "●北への街道",
+            "name": "North Road",
             "note": "<hzChoice:land,304> ",
             "pages": [
                 {
@@ -12438,7 +12438,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\ow[5]難易度：\\v[95]　 20"
+                                "D_TEXT 　\\ow[5]Difficulty：\\v[95]　 20"
                             ]
                         },
                         {
@@ -12619,7 +12619,7 @@
         },
         {
             "id": 15,
-            "name": "●グリルタ山",
+            "name": "Mount Grilta",
             "note": "<hzChoice:land,308> ",
             "pages": [
                 {
@@ -13205,7 +13205,7 @@
         },
         {
             "id": 18,
-            "name": "●炎の戦場",
+            "name": "Battlefield of Flames",
             "note": "<hzChoice:land,309> ",
             "pages": [
                 {
@@ -13629,7 +13629,7 @@
         },
         {
             "id": 20,
-            "name": "●嗤う森",
+            "name": "Laughing Forest",
             "note": "<hzChoice:land,310> ",
             "pages": [
                 {
@@ -14053,7 +14053,7 @@
         },
         {
             "id": 22,
-            "name": "●アンダーワールド",
+            "name": "Underworld",
             "note": "<hzChoice:land,311> ",
             "pages": [
                 {
@@ -14477,7 +14477,7 @@
         },
         {
             "id": 24,
-            "name": "●赤熱する殺意",
+            "name": "Killing Intent",
             "note": "<hzChoice:land,312> ",
             "pages": [
                 {
@@ -14901,7 +14901,7 @@
         },
         {
             "id": 26,
-            "name": "●試練の迷宮",
+            "name": "Labyrinth of Trials",
             "note": "<hzChoice:land,313> ",
             "pages": [
                 {

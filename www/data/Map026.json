@@ -2232,7 +2232,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\i[336]～ドラゴンカインド～　　　　 20"
+                                "D_TEXT 　\\i[336]～Dragonkind～　　　　 20"
                             ]
                         },
                         {
@@ -2276,21 +2276,21 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　所持金　：　　　　　　　 20"
+                                "D_TEXT 　Gold　：　　　　　　　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　DK回数　：　　　　　　　 20"
+                                "D_TEXT 　DK Count　：　　　　　　　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　残り可能DK回数　：　　　 20"
+                                "D_TEXT 　Remaining DK　：　　　 20"
                             ]
                         },
                         {
@@ -2327,21 +2327,21 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\v[363]枚　 20"
+                                "D_TEXT 　\\v[363]　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\v[379]回　 20"
+                                "D_TEXT 　\\v[379]x　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\v[74]回　 20"
+                                "D_TEXT 　\\v[74]x　 20"
                             ]
                         },
                         {

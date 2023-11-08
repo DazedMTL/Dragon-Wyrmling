@@ -2998,8 +2998,8 @@
                                 [
                                     "\\i[8]Rest",
                                     "\\i[328]Artifact",
-                                    "\\i[343] Adventurer Confirmation",
-                                    "\\i[20]Gazing at the nest"
+                                    "\\i[343]Adventurers",
+                                    "\\i[20]Gaze at the nest"
                                 ],
                                 0,
                                 0,
@@ -5124,14 +5124,14 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　ソルちゃん経験値：　 26"
+                                "D_TEXT 　Sol EXP：　 26"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　収入：　 26"
+                                "D_TEXT 　Income：　 26"
                             ]
                         },
                         {
@@ -8859,7 +8859,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\i[336]ソルちゃんの巣　　　　　　　 20"
+                                "D_TEXT 　\\i[336]Sol's Nest　　　　　　　 20"
                             ]
                         },
                         {
@@ -8903,21 +8903,21 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　財宝　　：　　　　　　　 20"
+                                "D_TEXT 　　Treasure:　　　　　　　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　経験値　：　　　　　　　 20"
+                                "D_TEXT 　　EXP:　　　　　　　 20"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　次レベル：　　　　　　　 20"
+                                "D_TEXT 　　Next LV:　　　　　　　 20"
                             ]
                         },
                         {
@@ -8954,7 +8954,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\v[363]枚　 20"
+                                "D_TEXT 　\\v[363]　 20"
                             ]
                         },
                         {
@@ -9860,14 +9860,14 @@
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT 　ソルちゃん経験値：　 26"
+                                "D_TEXT 　Sol EXP：　 26"
                             ]
                         },
                         {
                             "code": 356,
                             "indent": 1,
                             "parameters": [
-                                "D_TEXT 　家具ボーナス：　 26"
+                                "D_TEXT 　Furniture Bonus：　 26"
                             ]
                         },
                         {

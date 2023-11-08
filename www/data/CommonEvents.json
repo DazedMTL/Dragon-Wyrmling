@@ -2295,7 +2295,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "Obtained \\ii[\\v[1]]! (Price: \\i[346] gold coins,\nequivalent to \\v[359] pieces)"
+                    "Obtained \\ii[\\v[1]]! (Price: \\i[346] Gold Coins: \\v[359])"
                 ]
             },
             {
@@ -2329,7 +2329,7 @@
                 "code": 401,
                 "indent": 2,
                 "parameters": [
-                    "\\ii[\\v[1]] Obtained! (Price: \\i[346] gold coins,\nequivalent to \\v[359] pieces)"
+                    "\\ii[\\v[1]] Obtained! (Price: \\i[346] Gold Coins: \\v[359])"
                 ]
             },
             {
@@ -11552,21 +11552,21 @@
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]獲得金額　　　：\\v[347]　 22"
+                    "D_TEXT 　\\ow[6]Earned　　　：\\v[347]　 22"
                 ]
             },
             {
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]撃破エネミー　：\\v[348]　 22"
+                    "D_TEXT 　\\ow[6]Defeated　：\\v[348]　 22"
                 ]
             },
             {
                 "code": 356,
                 "indent": 0,
                 "parameters": [
-                    "D_TEXT 　\\ow[6]入手アイテム数：\\v[349]　 22"
+                    "D_TEXT 　\\ow[6]Items：\\v[349]　 22"
                 ]
             },
             {
@@ -26884,7 +26884,7 @@
                 "code": 408,
                 "indent": 1,
                 "parameters": [
-                    "\\>HPに応じた強力な\\i[64]ダメージを与える"
+                    "\\>Deal \\i[64] damage based on HP"
                 ]
             },
             {
@@ -26920,7 +26920,7 @@
                 "code": 408,
                 "indent": 1,
                 "parameters": [
-                    "\\>アーティファクトを使用する"
+                    "\\>Use Artifact"
                 ]
             },
             {
@@ -27160,7 +27160,7 @@
                 "code": 408,
                 "indent": 1,
                 "parameters": [
-                    "\\>戦闘速度を減速する"
+                    "\\>Slow down the speed of combat."
                 ]
             },
             {
@@ -27196,7 +27196,7 @@
                 "code": 408,
                 "indent": 1,
                 "parameters": [
-                    "\\>戦闘速度を加速する"
+                    "\\>Accelerate the speed of combat."
                 ]
             },
             {

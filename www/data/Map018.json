@@ -16849,7 +16849,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　\\v[11]枚　 20"
+                                "D_TEXT 　\\v[11]　 20"
                             ]
                         },
                         {
@@ -16900,7 +16900,7 @@
                             "code": 356,
                             "indent": 0,
                             "parameters": [
-                                "D_TEXT 　　\\i[345]所持金：　　　　　　　　　 20"
+                                "D_TEXT 　　\\i[345]Gold:　　　　　　　　　 20"
                             ]
                         },
                         {
