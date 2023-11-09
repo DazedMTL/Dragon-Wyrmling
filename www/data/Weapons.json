@@ -1134,7 +1134,7 @@
     {
         "id": 33,
         "animationId": 6,
-        "description": "\\I[416]Ninja HP: \\WHP[33] ATK: \\WAT[33] \\fs[18]\n\\I[416]\\py[32]\\isd[109][Ascii_1]\\I[416]\\py[64]\\isd[110][Ascii_1]\\I[416]\\py[96]\\isd[111]",
+        "description": "\\I[416]Ninja HP: \\WHP[33] ATK: \\WAT[33] \\fs[18]\n\\I[416]\\py[32]\\isd[109]\\I[416]\\py[64]\\isd[110]\\I[416]\\py[96]\\isd[111]",
         "etypeId": 1,
         "traits": [
             {
